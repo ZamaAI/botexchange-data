@@ -1,17 +1,18 @@
 {
- "generatedAt": "2026-07-04T04:15:09.898Z",
+ "generatedAt": "2026-07-04T05:15:09.556Z",
  "startCapital": 500,
  "since": "2026-06-13",
+ "accountBasis": "mtm",
  "verdict": {
   "tie": false,
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 293.74
+   "account": 343.76
   },
   "machine": {
    "label": "Hermes",
-   "account": 538.74
+   "account": 539.96
   }
  },
  "standings": [
@@ -24,8 +25,9 @@
    "losses": 17,
    "wr": "32",
    "pnl": -55.74,
-   "account": 444.26,
-   "retPct": -11.1
+   "account": 434.89,
+   "retPct": -13,
+   "accountRealized": 444.26
   },
   {
    "key": "openclaw",
@@ -36,8 +38,9 @@
    "losses": 8,
    "wr": "43",
    "pnl": -38.22,
-   "account": 461.78,
-   "retPct": -7.6
+   "account": 470.61,
+   "retPct": -5.9,
+   "accountRealized": 461.78
   },
   {
    "key": "hermes",
@@ -48,8 +51,9 @@
    "losses": 3,
    "wr": "57",
    "pnl": 38.74,
-   "account": 538.74,
-   "retPct": 7.7
+   "account": 539.96,
+   "retPct": 8,
+   "accountRealized": 538.74
   },
   {
    "key": "manual",
@@ -60,8 +64,9 @@
    "losses": 15,
    "wr": "44",
    "pnl": -206.26,
-   "account": 293.74,
-   "retPct": -41.3
+   "account": 343.76,
+   "retPct": -31.2,
+   "accountRealized": 293.74
   }
  ],
  "seriesDaily": {
@@ -346,14 +351,26 @@
    "openclaw": 461.78,
    "hermes": 538.74,
    "manual": 293.74
+  },
+  {
+   "ts": "2026-07-04T05:00:00.000Z",
+   "hl": 0,
+   "hl_spot": 470.60605799999996,
+   "grvt": 539.956066,
+   "extended": 343.761966,
+   "capital": 1354.3240899999998,
+   "qwen": 434.89,
+   "openclaw": 470.61,
+   "hermes": 539.96,
+   "manual": 343.76
   }
  ],
  "venuesLive": {
   "hl": 0,
   "hl_spot": 470.60605799999996,
   "grvt": 539.956066,
-  "extended": 342.241485,
-  "total": 1352.803609
+  "extended": 343.761966,
+  "total": 1354.3240899999998
  },
  "openTrades": [
   {
@@ -379,7 +396,7 @@
    "venue": "GRVT",
    "outcome": "BREAKEVEN",
    "pct": 0,
-   "exitReason": "SHORT BTC: stopped out at SL +0.0% (entry $61653 → exit $61653). WHY: Thesis mechanism never triggered; ETF outflows didn't cascade into sustained selling pressure before institutional buyers absorbed",
+   "exitReason": "SHORT BTC: stopped out at SL +0.0% (entry $61653 → exit $61653). WHY: Thesis mechanism never triggered; ETF outflows didn't cascade into sustained selling pressure before institutional buyers…",
    "closedAt": "2026-07-02T13:39:02.237Z"
   },
   {
@@ -390,7 +407,7 @@
    "venue": "PAPER",
    "outcome": "LOSS",
    "pct": -1,
-   "exitReason": "SHORT BTC: stopped out at SL -1.0% (entry $60800 → exit $61400). [entry structure: CHOP er0.078 pos0.85 against fade] WHY: Scanner signal ignored choppy conditions; chased into range instead of fading",
+   "exitReason": "SHORT BTC: stopped out at SL -1.0% (entry $60800 → exit $61400). WHY: Scanner signal ignored choppy conditions; chased into range instead of fading upper bound—thesis never triggered in mushy-middle.",
    "closedAt": "2026-07-02T12:15:13.939Z"
   },
   {
@@ -412,7 +429,7 @@
    "venue": "HL",
    "outcome": "BREAKEVEN",
    "pct": -0.1,
-   "exitReason": "SHORT XLM: stopped out at SL -0.1% (entry $0.202 → exit $0.20219). [entry structure: TRANS er0.448 pos0.85 against fade] WHY: Stop was placed at entry price, eliminating risk management; momentum exha",
+   "exitReason": "SHORT XLM: stopped out at SL -0.1% (entry $0.202 → exit $0.20219). WHY: Stop was placed at entry price, eliminating risk management; momentum exhaustion thesis never triggered as XLM held support in…",
    "closedAt": "2026-07-02T02:51:24.093Z"
   },
   {
@@ -423,7 +440,7 @@
    "venue": "PAPER",
    "outcome": "LOSS",
    "pct": -3.2,
-   "exitReason": "SHORT ETH: stopped out at SL -3.2% (entry $1579.14 → exit $1630). WHY: The mechanism never triggered—ETH bounced off support before reaching scanner-predicted weakness, so the thesis invalidated befor",
+   "exitReason": "SHORT ETH: stopped out at SL -3.2% (entry $1579.14 → exit $1630). WHY: The mechanism never triggered—ETH bounced off support before reaching scanner-predicted weakness, so the thesis invalidated…",
    "closedAt": "2026-07-01T21:53:43.587Z"
   },
   {
@@ -445,7 +462,7 @@
    "venue": "HL",
    "outcome": "LOSS",
    "pct": -4.5,
-   "exitReason": "SHORT MORPHO: stopped out at SL -4.5% (entry $1.97 → exit $2.0579). WHY: Momentum exhausted faster than fear regime could trigger selling; retail capitulation didn't materialize before institutional b",
+   "exitReason": "SHORT MORPHO: stopped out at SL -4.5% (entry $1.97 → exit $2.0579). WHY: Momentum exhausted faster than fear regime could trigger selling; retail capitulation didn't materialize before institutional…",
    "closedAt": "2026-07-01T12:23:50.677Z"
   },
   {
@@ -478,7 +495,7 @@
    "venue": "HL",
    "outcome": "WIN",
    "pct": 3.8,
-   "exitReason": "SHORT XLM: stopped out at SL +3.8% (entry $0.1853 → exit $0.17833). WHY: Unlock event triggered selling pressure that overwhelmed risk-off positioning before recovery rally, allowing exit at target zo",
+   "exitReason": "SHORT XLM: stopped out at SL +3.8% (entry $0.1853 → exit $0.17833). WHY: Unlock event triggered selling pressure that overwhelmed risk-off positioning before recovery rally, allowing exit at target…",
    "closedAt": "2026-06-29T18:28:29.930Z"
   },
   {
@@ -489,7 +506,7 @@
    "venue": "HL",
    "outcome": "LOSS",
    "pct": -2.7,
-   "exitReason": "SHORT ETH: stopped out at SL -2.7% (entry $1573.95 → exit $1616.2). WHY: Stop hit before shorts accumulated enough conviction to break support, thesis mechanism never triggered institutional selling c",
+   "exitReason": "SHORT ETH: stopped out at SL -2.7% (entry $1573.95 → exit $1616.2). WHY: Stop hit before shorts accumulated enough conviction to break support, thesis mechanism never triggered institutional selling…",
    "closedAt": "2026-06-29T17:18:40.377Z"
   },
   {
@@ -508,28 +525,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 62650,
-    "change24hPct": 2.01
+    "price": 62579.45,
+    "change24hPct": 1.7
    },
    {
     "symbol": "ETH",
-    "price": 1753.71,
-    "change24hPct": 2.8
+    "price": 1756.55,
+    "change24hPct": 2.91
    },
    {
     "symbol": "BNB",
-    "price": 572,
-    "change24hPct": 1.91
+    "price": 571.21,
+    "change24hPct": 1.81
    },
    {
     "symbol": "XRP",
-    "price": 1.1391,
-    "change24hPct": 4.44
+    "price": 1.143,
+    "change24hPct": 4.4
    },
    {
     "symbol": "SOL",
-    "price": 82.86,
-    "change24hPct": 2.79
+    "price": 83.24,
+    "change24hPct": 3.12
    }
   ],
   "fearGreed": {
@@ -552,100 +569,10 @@
    "impact": "HIGH"
   }
  ],
- "report": {
-  "xPost": "Zama Sentinel — market in neutral drift. 13/18 bias signals active, imbalance 1. No high-conviction setup. Standing down until multiple signals confirm direction. BTC $62,588.",
-  "intelligence": "SUMMARY\nMarket bias is bullish-short-squeeze driven with extreme fear (22/100) pricing in a relief rally fueled by ETF inflows ($221M today). The dominant signal is short liquidation dominance on Bybit, forcing price higher despite rising sell volume. Primary risk: Stablecoin supply contracting (-2.44% over 30 days) and exchange deposit spikes warning of volatility ahead.\n\nIN-DEPTH ANALYSIS\nThe confluence of extreme fear metrics with positive ETF flows creates a classic capitulation setup. Technicals show BTC RSI divergence (daily 47 vs hourly/4h bullish momentum), indicating the daily trend is intact but cooling off for an intraday pullback before continuation. The critical driver here is derivatives data: shorts are being hunted aggressively ($65M short liqs vs $8M long liqs) while funding rates remain positive, suggesting longs are paying to hold positions rather than a genuine demand",
-  "at": "2026-07-04T04:08:06.120Z"
- },
- "marketsDesk": {
-  "at": "2026-07-04T04:08:06.120Z",
-  "etf": {
-   "BTC": {
-    "latestM": 221.7,
-    "weekM": 2136.5,
-    "date": "2026-07-02",
-    "signal": "INFLOW — positive ETF flows (watch for continuation)"
-   },
-   "ETH": {
-    "latestM": 29.1,
-    "weekM": 138.6,
-    "date": "2026-07-02",
-    "signal": "INFLOW — positive ETF flows (watch for continuation)"
-   },
-   "SOL": {
-    "latestM": 2.2,
-    "weekM": 3.8,
-    "date": "2026-07-02",
-    "signal": "INFLOW — positive ETF flows (watch for continuation)"
-   }
-  },
-  "liq": {
-   "longM": 8.4,
-   "shortM": 65.6,
-   "dominant": "SHORT DOMINANT — shorts being liquidated (price rising)",
-   "btcOiB": null
-  },
-  "whales": [
-   {
-    "coin": "ETH",
-    "l": 2,
-    "s": 0,
-    "netM": 140.4
-   },
-   {
-    "coin": "SOL",
-    "l": 1,
-    "s": 0,
-    "netM": 14.1
-   },
-   {
-    "coin": "HYPE",
-    "l": 2,
-    "s": 0,
-    "netM": 108.2
-   },
-   {
-    "coin": "ZEC",
-    "l": 1,
-    "s": 0,
-    "netM": 22.9
-   },
-   {
-    "coin": "NEAR",
-    "l": 1,
-    "s": 0,
-    "netM": 8.5
-   }
-  ],
-  "funding": [
-   {
-    "coin": "ZRO",
-    "hl": 160.5,
-    "bin": 11,
-    "gap": 149.5
-   },
-   {
-    "coin": "ZETA",
-    "hl": -103,
-    "bin": 11,
-    "gap": -113.9
-   },
-   {
-    "coin": "STG",
-    "hl": 0,
-    "bin": -104.5,
-    "gap": 104.5
-   },
-   {
-    "coin": "GRAM",
-    "hl": 109.1,
-    "bin": 11,
-    "gap": 98.1
-   }
-  ]
- },
+ "report": null,
+ "marketsDesk": null,
  "intel": {
-  "ageH": 0.8,
+  "ageH": 1.8,
   "narratives": [
    "On-chain Narrative: Transition toward \"on-chain\" assets as a primary vehicle for retail momentum (X).",
    "Stablecoins: Launch of Open USD (OUSD) by 140+ firms to share yield with partners (newsletter).",
@@ -660,10 +587,10 @@
    "$HYPE — bullish — looks like it's getting ready to make the move to ATH with integrated data (X)."
   ],
   "tweetOfDay": {
-   "handle": "blknoiz06",
-   "likes": 5606,
-   "reposts": 830,
-   "text": "100k solana:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump holders first week 🥳🥳🥳 https://t.co/NhX2IoV9Uk"
+   "handle": "unusual_whales",
+   "likes": 4624,
+   "reposts": 503,
+   "text": "\"Layoffs driven by AI automation are largely failing to generate expected financial returns,\" per FORTUNE"
   }
  }
 }
