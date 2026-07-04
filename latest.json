@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-04T10:25:09.769Z",
+ "generatedAt": "2026-07-04T10:30:09.490Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 342.85
+   "account": 342.71
   },
   "machine": {
    "label": "Hermes",
@@ -25,8 +25,8 @@
    "losses": 17,
    "wr": "32",
    "pnl": -55.74,
-   "account": 440.21,
-   "retPct": -12,
+   "account": 440.69,
+   "retPct": -11.9,
    "accountRealized": 444.26
   },
   {
@@ -64,8 +64,8 @@
    "losses": 15,
    "wr": "44",
    "pnl": -206.26,
-   "account": 342.85,
-   "retPct": -31.4,
+   "account": 342.71,
+   "retPct": -31.5,
    "accountRealized": 293.74
   }
  ],
@@ -1325,14 +1325,26 @@
    "openclaw": 470.61,
    "hermes": 539.96,
    "manual": 342.85
+  },
+  {
+   "ts": "2026-07-04T10:30:00.000Z",
+   "hl": 0,
+   "hl_spot": 470.611554,
+   "grvt": 539.956066,
+   "extended": 342.707588,
+   "capital": 1353.275208,
+   "qwen": 440.69,
+   "openclaw": 470.61,
+   "hermes": 539.96,
+   "manual": 342.71
   }
  ],
  "venuesLive": {
   "hl": 0,
-  "hl_spot": 470.60605799999996,
+  "hl_spot": 470.611554,
   "grvt": 539.956066,
-  "extended": 342.848237,
-  "total": 1353.410361
+  "extended": 342.707588,
+  "total": 1353.275208
  },
  "openTrades": [
   {
@@ -1348,28 +1360,7 @@
    "openedAt": "2026-07-02T16:07:56.672Z"
   }
  ],
- "awaiting": [
-  {
-   "asset": "GRAM",
-   "direction": "SHORT",
-   "brain": "Qwen",
-   "conviction": 7,
-   "trigger": "funding rate turns positive above -0.5% APR or price drops below $1.65 with rising volume",
-   "entry": 1.8,
-   "stop": 1.83,
-   "target": 1.72
-  },
-  {
-   "asset": "ADA",
-   "direction": "LONG",
-   "brain": "Qwen",
-   "conviction": 5,
-   "trigger": "price closes above 0.20 resistance on high volume or BTC reclaims $61k",
-   "entry": 0.175563,
-   "stop": 0.168,
-   "target": 0.192
-  }
- ],
+ "awaiting": [],
  "recentCloses": [
   {
    "id": 211,
@@ -1508,35 +1499,35 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 62496.71,
-    "change24hPct": 1.25
+    "price": 62499.9,
+    "change24hPct": 1.23
    },
    {
     "symbol": "ETH",
-    "price": 1759.34,
-    "change24hPct": 1.38
+    "price": 1759.18,
+    "change24hPct": 1.32
    },
    {
     "symbol": "BNB",
-    "price": 572,
-    "change24hPct": 1.56
+    "price": 572.26,
+    "change24hPct": 1.55
    },
    {
     "symbol": "XRP",
-    "price": 1.1396,
-    "change24hPct": 3.42
+    "price": 1.14,
+    "change24hPct": 3.32
    },
    {
     "symbol": "SOL",
-    "price": 81.81,
-    "change24hPct": 1.01
+    "price": 81.68,
+    "change24hPct": 0.64
    }
   ],
   "fearGreed": {
    "value": 22,
    "classification": "Extreme Fear"
   },
-  "regime": "RISK_OFF"
+  "regime": null
  },
  "calendar": [
   {
@@ -1552,98 +1543,8 @@
    "impact": "HIGH"
   }
  ],
- "report": {
-  "xPost": "BTC consolidating at 62450 as Extreme Fear dictates range-bound volatility until macro catalysts break structure.",
-  "intelligence": "SUMMARY\nMarket bias remains bullish despite Extreme Fear sentiment as ETF inflows and short liquidations drive price higher. The single most important signal is persistent positive funding rates across major assets indicating overextended longs paying shorts in a squeeze environment. Dominant risk is the divergence between rising stablecoin supply (dry powder) and contracting M2 money supply, which could trigger a liquidity crunch if macro data worsens before the Fed meeting.\n\nIN-DEPTH ANALYSIS\nThe confluence of technicals and flow data suggests a classic short-squeeze scenario rather than sustainable organic accumulation. BTC is up 1.29% with RSI at neutral levels on daily charts but showing bullish divergence on lower timeframes, while ETH leads gains with an RSI above 70 on the 4h chart indicating immediate overbought conditions. The critical driver here is derivatives data: shorts ar",
-  "at": "2026-07-04T10:05:09.854Z"
- },
- "marketsDesk": {
-  "at": "2026-07-04T10:05:09.854Z",
-  "etf": {
-   "BTC": {
-    "latestM": 221.7,
-    "weekM": 2136.5,
-    "date": "2026-07-02",
-    "signal": "INFLOW — positive ETF flows (watch for continuation)"
-   },
-   "ETH": {
-    "latestM": 29.1,
-    "weekM": 138.6,
-    "date": "2026-07-02",
-    "signal": "INFLOW — positive ETF flows (watch for continuation)"
-   },
-   "SOL": {
-    "latestM": 2.2,
-    "weekM": 3.8,
-    "date": "2026-07-02",
-    "signal": "INFLOW — positive ETF flows (watch for continuation)"
-   }
-  },
-  "liq": {
-   "longM": 9.5,
-   "shortM": 53.6,
-   "dominant": "SHORT DOMINANT — shorts being liquidated (price rising)",
-   "btcOiB": null
-  },
-  "whales": [
-   {
-    "coin": "ETH",
-    "l": 2,
-    "s": 0,
-    "netM": 140.7
-   },
-   {
-    "coin": "SOL",
-    "l": 1,
-    "s": 0,
-    "netM": 13.9
-   },
-   {
-    "coin": "HYPE",
-    "l": 2,
-    "s": 0,
-    "netM": 107.5
-   },
-   {
-    "coin": "ZEC",
-    "l": 1,
-    "s": 0,
-    "netM": 22.7
-   },
-   {
-    "coin": "NEAR",
-    "l": 1,
-    "s": 0,
-    "netM": 8.3
-   }
-  ],
-  "funding": [
-   {
-    "coin": "HMSTR",
-    "hl": -143.5,
-    "bin": 11,
-    "gap": -154.5
-   },
-   {
-    "coin": "STABLE",
-    "hl": -138,
-    "bin": 11,
-    "gap": -148.9
-   },
-   {
-    "coin": "STG",
-    "hl": 0,
-    "bin": -124,
-    "gap": 124
-   },
-   {
-    "coin": "MATIC",
-    "hl": 0,
-    "bin": 87.6,
-    "gap": -87.6
-   }
-  ]
- },
+ "report": null,
+ "marketsDesk": null,
  "intel": {
   "ageH": 1,
   "narratives": [
@@ -2666,135 +2567,8 @@
    "consecFleet": 6
   }
  },
- "predictions": {
-  "at": "2026-07-04T10:05:09.854Z",
-  "polymarket": [
-   {
-    "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-    "yesProb": 90,
-    "volume24h": 1535217
-   },
-   {
-    "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-    "yesProb": 9,
-    "volume24h": 368999
-   },
-   {
-    "question": "Bitcoin Up or Down on July 4?",
-    "yesProb": 93,
-    "volume24h": 206318
-   },
-   {
-    "question": "Will the price of Bitcoin be above $66,000 on July 4?",
-    "yesProb": 0,
-    "volume24h": 169006
-   },
-   {
-    "question": "Will the Fed decrease interest rates by 25 bps after the July 2026 meeting?",
-    "yesProb": 1,
-    "volume24h": 146835
-   }
-  ],
-  "kalshi": {
-   "ladders": [
-    {
-     "label": "BTC low this year",
-     "rungs": [
-      {
-       "strike": "Below $40,000.00",
-       "yesPct": 32
-      },
-      {
-       "strike": "Below $50,000.00",
-       "yesPct": 57
-      },
-      {
-       "strike": "Below $55,000.00",
-       "yesPct": 70
-      },
-      {
-       "strike": "Below $45,000.00",
-       "yesPct": 40
-      }
-     ]
-    },
-    {
-     "label": "BTC high this year",
-     "rungs": [
-      {
-       "strike": "Above $99,999.99",
-       "yesPct": 15
-      },
-      {
-       "strike": "Above $199,999.99",
-       "yesPct": 4
-      },
-      {
-       "strike": "Above $149,999.99",
-       "yesPct": 5
-      },
-      {
-       "strike": "Above $119,999.99",
-       "yesPct": 8
-      }
-     ]
-    },
-    {
-     "label": "ETH high this year",
-     "rungs": [
-      {
-       "strike": "Above $6,000.00",
-       "yesPct": 4
-      },
-      {
-       "strike": "Above $3,500.00",
-       "yesPct": 15
-      },
-      {
-       "strike": "Above $5,000.00",
-       "yesPct": 5
-      },
-      {
-       "strike": "Above $4,000.00",
-       "yesPct": 10
-      }
-     ]
-    }
-   ],
-   "catalysts": []
-  }
- },
- "newsWire": {
-  "at": "2026-07-04T10:05:09.854Z",
-  "sources": [
-   {
-    "name": "Lookonchain",
-    "headlines": [
-     "Two wallets are shorting $GUA on @Aster DEX and are now up over $1.29M combined.",
-     "In June, Tron hit new all-time highs with 26.97M active accounts and 385.77M transactions.",
-     "RaveDAO Integrates with Bitget Wallet, Expanding $RAVE Payments and In-Person Event Use Cases",
-     "Survey: 88% of enterprises plan to adopt stablecoins within the next year, with cross-border payment costs reduced by an average of 35%.",
-     "FalconX secures EU MiCA license, allowing it to offer compliant crypto services to institutional clients in Europe.",
-     "Guo Wengui sentenced to 30 years in prison in connection with a fraud case involving over $1 billion.",
-     "The first-half 2026 funding rankings have been released, with Kalshi and Polymarket raising a combined $1.8 billion.",
-     "Open Standard launches stablecoin Open USD, with over 140 institutions including Visa, BlackRock, and Coinbase participating."
-    ]
-   },
-   {
-    "name": "The Block",
-    "headlines": [
-     "CryptoQuant says bitcoin and altcoin exchange deposits have spiked, indicating higher volatility ahead",
-     "Samsung, Dunamu say they were listed as OUSD stablecoin consortium members without official consultation: report",
-     "Grvt and the Rise of Composable Onchain Wealth",
-     "IMF says policy choices will determine whether tokenization strengthens or fragments the financial system",
-     "Spotify asks Kalshi, Polymarket to remove branding after manipulated streams used to settle music bets: Bloomberg",
-     "Bank of Russia governor says 'everything is ready' for widespread use of digital ruble ahead of September rollout",
-     "US bitcoin ETFs break 10-day negative streak with $222 million worth of inflows",
-     "Securitize becomes first to debut shares on NYSE and onchain, but it won't be the last"
-    ]
-   }
-  ]
- },
+ "predictions": null,
+ "newsWire": null,
  "column": {
   "ts": "2026-07-04T05:56:11.922Z",
   "text": "Extreme fear at 22 out of 100 currently dictates the market narrative as traders price in an imminent relief rally fueled by fresh ETF inflows totaling $221 million today. This specific confluence creates a textbook capitulation setup where panic selling meets aggressive buying pressure from institutional flows. The dominant signal driving this dynamic is short liquidation dominance on Bybit, with massive shorts being hunted at the rate of sixty-five million dollars in liabilities versus only eight million for longs. Despite rising sell volume indicating genuine distribution attempts by retail sellers, price action continues higher because derivatives mechanics force long positions to hold rather than exit. Technicals confirm that while the daily RSI sits at forty-seven showing a cooling off trend, hourly and four-hour charts maintain bullish momentum suggesting an intraday pullback is merely a pause before continuation. However, seasoned eyes must watch exchange deposit spikes which often warn of volatility ahead alongside a troubling contraction in stablecoin supply down 2.44 percent over the last thirty days that could limit liquidity if panic returns. The funding rates remain positive indicating longs are paying premiums to hold positions rather than reflecting genuine organic demand growth yet another sign of structural imbalance waiting for correction. If shorts continue getting hunted while ETF flows persist, we will see a parabolic move until leverage resets or macro data intervenes."
