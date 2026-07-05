@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-05T22:00:07.055Z",
+ "generatedAt": "2026-07-05T22:04:38.265Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 356.24
+   "account": 356.66
   },
   "machine": {
    "label": "Hermes",
@@ -25,7 +25,7 @@
    "losses": 17,
    "wr": "32",
    "pnl": -55.74,
-   "account": 440.58,
+   "account": 440.43,
    "retPct": -11.9,
    "accountRealized": 444.26
   },
@@ -64,8 +64,8 @@
    "losses": 15,
    "wr": "44",
    "pnl": -206.26,
-   "account": 356.24,
-   "retPct": -28.8,
+   "account": 356.66,
+   "retPct": -28.7,
    "accountRealized": 293.74
   }
  ],
@@ -835,14 +835,14 @@
   {
    "ts": "2026-07-05T22:00:00.000Z",
    "hl": 0,
-   "hl_spot": 470.611554,
+   "hl_spot": 470.60605799999996,
    "grvt": 539.956066,
-   "extended": 356.243863,
-   "capital": 1366.811483,
-   "qwen": 440.58,
+   "extended": 356.659099,
+   "capital": 1367.221223,
+   "qwen": 440.43,
    "openclaw": 470.61,
    "hermes": 539.96,
-   "manual": 356.24
+   "manual": 356.66
   }
  ],
  "equityLive": [
@@ -4269,21 +4269,21 @@
   {
    "ts": "2026-07-05T22:00:00.000Z",
    "hl": 0,
-   "hl_spot": 470.611554,
+   "hl_spot": 470.60605799999996,
    "grvt": 539.956066,
-   "extended": 356.243863,
-   "capital": 1366.811483,
-   "qwen": 440.58,
+   "extended": 356.659099,
+   "capital": 1367.221223,
+   "qwen": 440.43,
    "openclaw": 470.61,
    "hermes": 539.96,
-   "manual": 356.24
+   "manual": 356.66
   }
  ],
  "venuesLive": {
   "hl": 0,
-  "hl_spot": 470.611554,
+  "hl_spot": 470.60605799999996,
   "grvt": 539.956066,
-  "total": 1010.56762
+  "total": 1010.5621239999999
  },
  "openTrades": [
   {
@@ -4301,7 +4301,38 @@
    "thesis": "Qwen scanner pick (paper) — see COIN SCANNER AI ANALYSIS in the report"
   }
  ],
- "awaiting": [],
+ "awaiting": [
+  {
+   "asset": "SOL",
+   "direction": "SHORT",
+   "brain": "Qwen",
+   "conviction": 5,
+   "trigger": "close below 81.20 or rejection at current highs",
+   "entry": 81.68,
+   "stop": 84.03,
+   "target": 79.33
+  },
+  {
+   "asset": "JUP",
+   "direction": "LONG",
+   "brain": "Qwen",
+   "conviction": 5,
+   "trigger": "break above 0.2525 with volume spike",
+   "entry": 0.2455,
+   "stop": 0.256,
+   "target": 0.264
+  },
+  {
+   "asset": "LIT",
+   "direction": "SHORT",
+   "brain": "Qwen",
+   "conviction": 5,
+   "trigger": "rejection at 2.60 or failure to reclaim 2d MA",
+   "entry": 2.44,
+   "stop": 2.57,
+   "target": 2.31
+  }
+ ],
  "recentCloses": [
   {
    "id": 211,
@@ -4440,28 +4471,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63064.7,
-    "change24hPct": -0.36
+    "price": 63012.99,
+    "change24hPct": -0.41
    },
    {
     "symbol": "ETH",
-    "price": 1785.38,
-    "change24hPct": -0.18
+    "price": 1785.26,
+    "change24hPct": -0.09
    },
    {
     "symbol": "BNB",
-    "price": 589.22,
-    "change24hPct": 2.56
+    "price": 590.22,
+    "change24hPct": 2.62
    },
    {
     "symbol": "XRP",
-    "price": 1.1436,
-    "change24hPct": -1.9
+    "price": 1.144,
+    "change24hPct": -1.74
    },
    {
     "symbol": "SOL",
     "price": 81.75,
-    "change24hPct": -0.26
+    "change24hPct": -0.22
    }
   ],
   "fearGreed": {
@@ -4496,10 +4527,100 @@
    "impact": "HIGH"
   }
  ],
- "report": null,
- "marketsDesk": null,
+ "report": {
+  "xPost": "BTC 63091 is testing immediate liquidity at 62850 where institutional stops cluster before range expansion resumes on volume contraction below 40B daily average.",
+  "intelligence": "SUMMARY\nMarket is consolidating overnight with a neutral-to-bearish bias as BTC holds support near $63k but faces overhead resistance from recent highs. The dominant signal is divergent stability: spot ETFs show strong inflows while stablecoin supply contracts, indicating institutional accumulation versus retail risk-off behavior. Extreme Fear sentiment (23/100) combined with short-dominant liquidations suggests a potential short squeeze if volatility expands above $64k.\n\nIN-DEPTH ANALYSIS\nThe primary divergence lies between macro liquidity and on-chain positioning. While stablecoin supply is contracting ($310B total, -0.64% over 7 days) signaling risk-off capital leaving the ecosystem, spot ETF inflows remain robust at $221M today for a record eighth consecutive day of net positive flow despite prior weekly negatives. This suggests institutional demand is absorbing retail selling pressu",
+  "at": "2026-07-05T22:04:31.162Z"
+ },
+ "marketsDesk": {
+  "at": "2026-07-05T22:04:31.162Z",
+  "etf": {
+   "BTC": {
+    "latestM": 221.7,
+    "weekM": 2136.5,
+    "date": "2026-07-02",
+    "signal": "INFLOW — positive ETF flows (watch for continuation)"
+   },
+   "ETH": {
+    "latestM": 29.1,
+    "weekM": 138.6,
+    "date": "2026-07-02",
+    "signal": "INFLOW — positive ETF flows (watch for continuation)"
+   },
+   "SOL": {
+    "latestM": 2.2,
+    "weekM": 3.8,
+    "date": "2026-07-02",
+    "signal": "INFLOW — positive ETF flows (watch for continuation)"
+   }
+  },
+  "liq": {
+   "longM": 10.7,
+   "shortM": 12.8,
+   "dominant": "SHORT DOMINANT — shorts being liquidated (price rising)",
+   "btcOiB": null
+  },
+  "whales": [
+   {
+    "coin": "ETH",
+    "l": 2,
+    "s": 0,
+    "netM": 142.9
+   },
+   {
+    "coin": "SOL",
+    "l": 1,
+    "s": 0,
+    "netM": 13.9
+   },
+   {
+    "coin": "HYPE",
+    "l": 2,
+    "s": 0,
+    "netM": 107.7
+   },
+   {
+    "coin": "ZEC",
+    "l": 1,
+    "s": 0,
+    "netM": 22.9
+   },
+   {
+    "coin": "NEAR",
+    "l": 1,
+    "s": 0,
+    "netM": 8.6
+   }
+  ],
+  "funding": [
+   {
+    "coin": "OGN",
+    "hl": 0,
+    "bin": -180.1,
+    "gap": 180.1
+   },
+   {
+    "coin": "ZETA",
+    "hl": -117.3,
+    "bin": 9.2,
+    "gap": -126.5
+   },
+   {
+    "coin": "MINA",
+    "hl": -100.3,
+    "bin": 11,
+    "gap": -111.3
+   },
+   {
+    "coin": "MATIC",
+    "hl": 0,
+    "bin": 87.6,
+    "gap": -87.6
+   }
+  ]
+ },
  "intel": {
-  "ageH": 0.5,
+  "ageH": 0.6,
   "narratives": [
    "AI Infrastructure: Massive capital expenditure and infrastructure buildout required for AI (X).",
    "Stablecoins: The launch of \"Open USD\" (OUSD) by a 140-company consortium to share yield with partners (newsletter).",
@@ -4558,6 +4679,13 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-07-05T22:04:17.499Z",
+   "brain": "hermes",
+   "model": "Grok 4.3",
+   "kind": "report",
+   "text": "READ: Risk-off regime with flat-to-rising OI, positive funding across majors, and short-liquidation dominance ($12.8M shorts vs $10.7M longs) already squeezing price higher. No GRVT-listed asset shows confirmed distribution, long-liquidation cascade, or negative-funding reversal at current levels. Primary risk is continued short squeeze into overhead resistance without follow-through volume.\n\nDECISION: No GRVT signals issued. Regime favors shorts only on confirmed mechanism (none present); positive funding and short-liquidation data point to squeeze continuation instead. Re-evaluate on next 4h OI drop below -1% with funding compression or long-liquidation spike above $15M.\n\nNo signals this cycle — edge insufficient."
+  },
   {
    "ts": "2026-07-05T19:00:10.962Z",
    "brain": "openclaw",
@@ -4662,13 +4790,6 @@
    "model": "Grok 4.3",
    "kind": "report",
    "text": "READ: Risk-off tape with short-liquidation dominance ($53.6M shorts vs $9.5M longs) driving price higher into positive funding. OI flat-to-falling across majors; no sustained distribution or long-liquidation cascade visible. Primary risk is continuation squeeze on ETF inflows overriding the downtrend.\n\nDECISION: Silence. No GRVT mechanism (OI/funding/liquidations) is already firing with R:R 2:1+ support in risk-off regime. Data that changes call: BTC OI rising +2%+ with funding flip negative, or short liqs dropping below $20M while price holds below 20d MA.\n\nNo signals this cycle — edge insufficient."
-  },
-  {
-   "ts": "2026-07-04T07:00:08.115Z",
-   "brain": "openclaw",
-   "model": "Claude Haiku",
-   "kind": "intraday",
-   "text": "OPENCLAW INTRADAY SCAN\n\nMARKET BIAS\nBTC overheated long (3.0% daily funding, longs paying), broad consolidation. Shorts now have asymmetric edge on liquidation cascade risk; longs are priced for continuation they haven't earned yet.\n\nOPENCLAW SIGNALS\nSIGNAL: BTC SHORT\nEntry: $62,200\nTarget: $59,100\nStop: $63,800\nR:R: 3.1:1\nConviction: 6/10\nStatus: AWAITING\nTrigger: 1h close below $62,100 with funding still >2.8% daily (confirms long exhaustion, no flip yet); or BTC liquidation tracker shows >$50M long liquidations in trailing 4h\nEdge: Positive funding at 3.0% daily is unsustainable — longs are overleveraged. Historical short edge on BTC is 53% (8W/7L), and shorts into funding peaks have 65%+ hit rate. Entry waits for either structural support breach or active liquidation signal to reduce anticipation risk.\n\nPOSITION FLAGS\n#234 SOL SHORT: underwater -2.19%, conviction was set at 8/10 (vio"
   }
  ],
  "archive": [
@@ -5904,8 +6025,109 @@
    "consecFleet": 6
   }
  },
- "predictions": null,
- "newsWire": null,
+ "predictions": {
+  "at": "2026-07-05T22:04:31.163Z",
+  "polymarket": [],
+  "kalshi": {
+   "ladders": [
+    {
+     "label": "BTC low this year",
+     "rungs": [
+      {
+       "strike": "Below $40,000.00",
+       "yesPct": 31
+      },
+      {
+       "strike": "Below $50,000.00",
+       "yesPct": 57
+      },
+      {
+       "strike": "Below $55,000.00",
+       "yesPct": 68
+      },
+      {
+       "strike": "Below $45,000.00",
+       "yesPct": 42
+      }
+     ]
+    },
+    {
+     "label": "BTC high this year",
+     "rungs": [
+      {
+       "strike": "Above $99,999.99",
+       "yesPct": 13
+      },
+      {
+       "strike": "Above $199,999.99",
+       "yesPct": 5
+      },
+      {
+       "strike": "Above $149,999.99",
+       "yesPct": 4
+      },
+      {
+       "strike": "Above $119,999.99",
+       "yesPct": 8
+      }
+     ]
+    },
+    {
+     "label": "ETH high this year",
+     "rungs": [
+      {
+       "strike": "Above $6,000.00",
+       "yesPct": 5
+      },
+      {
+       "strike": "Above $3,500.00",
+       "yesPct": 14
+      },
+      {
+       "strike": "Above $5,000.00",
+       "yesPct": 5
+      },
+      {
+       "strike": "Above $4,000.00",
+       "yesPct": 10
+      }
+     ]
+    }
+   ],
+   "catalysts": []
+  }
+ },
+ "newsWire": {
+  "at": "2026-07-05T22:04:31.163Z",
+  "sources": [
+   {
+    "name": "Lookonchain",
+    "headlines": [
+     "CZ’s like on the donation tweet for meme coin TCC pushes the token’s market cap to briefly top $72 million.",
+     "BlockBeats reminds users: Most MEME coins have no practical use cases and are highly volatile. Please protect your assets and do not FOMO.",
+     "Ethereum’s net supply increased by 83,550 ETH over the past 30 days.",
+     "AI capital expenditure is projected to reach $1.1 trillion by 2027, potentially surpassing U.S. defense spending for the first time.",
+     "US and South Korean stocks Monday price preview: Micron Technology is forecast to rise more than 6% in pre-market trading, while Samsung Electronics is expected",
+     "SK Hynix seeks to attract more AI investors via its US listing.",
+     "Ming-Chi Kuo: Foldable iPhone may repeat the iPhone X playbook, launching later and facing supply constraints through the end of the year.",
+     "Analysis: Powell’s tight-lipped approach makes the Fed’s June meeting minutes even more important."
+    ]
+   },
+   {
+    "name": "The Block",
+    "headlines": [
+     "Vitalik Buterin says Ethereum's next rebuild will rival the Merge, and take three to four years",
+     "Bitcoin ETFs log record eighth straight negative week despite large Thursday inflow",
+     "Nearly 1 million wallets are down $3.81 billion on Trump's memecoin: report",
+     "Aave's new Monad market tops $100 million in deposits two days after launch",
+     "CryptoQuant says bitcoin and altcoin exchange deposits have spiked, indicating higher volatility ahead",
+     "Samsung, Dunamu say they were listed as OUSD stablecoin consortium members without official consultation: report",
+     "Grvt and the Rise of Composable Onchain Wealth",
+     "IMF says policy choices will determine whether tokenization strengthens or fragments the financial system"
+    ]
+   }
+  ]
+ },
  "column": {
   "ts": "2026-07-05T16:06:01.267Z",
   "text": "Bitcoin is currently trapped in a defensive consolidation pattern near sixty-two thousand dollars as macro divergence creates an uneasy decoupling environment. While traditional assets like gold and the Nasdaq rally, crypto markets are bleeding despite record inflows into Bitcoin ETFs on Thursday that failed to sustain momentum through Friday's close. The total market declined by zero point three nine percent while Ethereum suffered a sharper drop of nearly one percent, signaling deep underlying weakness rather than mere volatility noise. Extreme fear dominates the sentiment index at twenty-three, yet this panic is masking a critical structural shift where stablecoin supply has contracted significantly to two hundred sixty-one billion dollars. This contraction indicates that holders are moving into risk-off mode and hoarding liquidity rather than deploying it immediately. The derivatives market confirms this hesitation with long liquidations totaling fifteen point seven million dollars vastly outweighing short squeezes at six point two million, suggesting spot sellers are absorbing pressure but refusing to capitulate fully. Futures open interest remains stagnant without the necessary volume surge or price reclaim of the twenty-day moving average required for a genuine trend reversal. Most breakout longs attempting to ride this dip will bleed as they lack real momentum proof and face immediate distribution from institutional desks waiting for clearer catalysts. The tape is down-trending, meaning continuation buyers must wait for rising open interest paired with positive funding rates before entering long positions reflexively. A counter-trend entry remains viable only if price action shows clear exhaustion at support levels alongside a fundamental catalyst like the antic"
