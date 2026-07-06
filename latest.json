@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-06T10:00:09.372Z",
+ "generatedAt": "2026-07-06T10:02:41.380Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 323.86
+   "account": 323.85
   },
   "machine": {
    "label": "Hermes",
@@ -25,7 +25,7 @@
    "losses": 17,
    "wr": "32",
    "pnl": -55.74,
-   "account": 446.68,
+   "account": 446.45,
    "retPct": -10.7,
    "accountRealized": 444.26
   },
@@ -64,7 +64,7 @@
    "losses": 15,
    "wr": "44",
    "pnl": -206.26,
-   "account": 323.86,
+   "account": 323.85,
    "retPct": -35.2,
    "accountRealized": 293.74
   }
@@ -981,12 +981,12 @@
    "hl": 0,
    "hl_spot": 470.60605799999996,
    "grvt": 539.956066,
-   "extended": 323.862434,
-   "capital": 1334.424558,
-   "qwen": 446.68,
+   "extended": 323.85452,
+   "capital": 1334.416644,
+   "qwen": 446.45,
    "openclaw": 470.61,
    "hermes": 539.96,
-   "manual": 323.86
+   "manual": 323.85
   }
  ],
  "equityLive": [
@@ -4415,12 +4415,12 @@
    "hl": 0,
    "hl_spot": 470.60605799999996,
    "grvt": 539.956066,
-   "extended": 323.862434,
-   "capital": 1334.424558,
-   "qwen": 446.68,
+   "extended": 323.85452,
+   "capital": 1334.416644,
+   "qwen": 446.45,
    "openclaw": 470.61,
    "hermes": 539.96,
-   "manual": 323.86
+   "manual": 323.85
   }
  ],
  "venuesLive": {
@@ -4445,7 +4445,30 @@
    "thesis": "Qwen scanner pick (paper) — see COIN SCANNER AI ANALYSIS in the report"
   }
  ],
- "awaiting": [],
+ "awaiting": [
+  {
+   "asset": "DEXE",
+   "direction": "LONG",
+   "brain": "Qwen",
+   "conviction": 6,
+   "trigger": "volume expansion above 2% of market cap",
+   "entry": 27.46,
+   "stop": 25.39,
+   "target": 28.1,
+   "levelsApprox": false
+  },
+  {
+   "asset": "ETH",
+   "direction": "LONG",
+   "brain": "Qwen",
+   "conviction": 5,
+   "trigger": "vitalik upgrade catalyst or trend reclaim above 20d MA",
+   "entry": 1757.51,
+   "stop": 1800,
+   "target": 1900,
+   "levelsApprox": false
+  }
+ ],
  "recentCloses": [
   {
    "id": 211,
@@ -4584,28 +4607,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 62664.76,
-    "change24hPct": 0.08
+    "price": 62732,
+    "change24hPct": 0.27
    },
    {
     "symbol": "ETH",
-    "price": 1758.34,
-    "change24hPct": 0.03
+    "price": 1760.79,
+    "change24hPct": 0.29
    },
    {
     "symbol": "BNB",
-    "price": 577.45,
-    "change24hPct": 0.5
+    "price": 578.18,
+    "change24hPct": 0.71
    },
    {
     "symbol": "XRP",
-    "price": 1.1361,
-    "change24hPct": 0.76
+    "price": 1.1372,
+    "change24hPct": 1.02
    },
    {
     "symbol": "SOL",
-    "price": 80.07,
-    "change24hPct": 0.25
+    "price": 80.13,
+    "change24hPct": 0.44
    }
   ],
   "fearGreed": {
@@ -4640,10 +4663,100 @@
    "impact": "HIGH"
   }
  ],
- "report": null,
- "marketsDesk": null,
+ "report": {
+  "xPost": "Zama Sentinel — market in neutral drift. 10/18 bias signals active, imbalance 0. No high-conviction setup. Standing down until multiple signals confirm direction. BTC $62,602.",
+  "intelligence": "SUMMARY\nMarket is range-bound with a distinct short-squeeze bias as shorts get liquidated while ETF inflows provide institutional floor at $62k. The dominant signal is extreme fear (Fear & Greed 24) coupled with positive funding rates, indicating potential volatility expansion rather than directional collapse. Primary risk remains the lack of volume edge in spot markets and high correlation to a weakening DXY which could reverse if macro data turns hawkish.\n\nIN-DEPTH ANALYSIS\nThe confluence of negative MACD histograms on BTC/ETH/SOL alongside rising RSI levels suggests momentum is stalling but not reversing, creating a classic \"bull flag\" structure pending the next catalyst. Whale flow proxies show heavy positive funding across major assets (BTC $2.2B OI), yet spot volume anomalies are concentrated in low-cap movers like SLX and MON rather than blue chips, indicating retail chasing volat",
+  "at": "2026-07-06T10:02:31.694Z"
+ },
+ "marketsDesk": {
+  "at": "2026-07-06T10:02:31.694Z",
+  "etf": {
+   "BTC": {
+    "latestM": 221.7,
+    "weekM": 2136.5,
+    "date": "2026-07-02",
+    "signal": "INFLOW — positive ETF flows (watch for continuation)"
+   },
+   "ETH": {
+    "latestM": 29.1,
+    "weekM": 138.6,
+    "date": "2026-07-02",
+    "signal": "INFLOW — positive ETF flows (watch for continuation)"
+   },
+   "SOL": {
+    "latestM": 2.2,
+    "weekM": 3.8,
+    "date": "2026-07-02",
+    "signal": "INFLOW — positive ETF flows (watch for continuation)"
+   }
+  },
+  "liq": {
+   "longM": 10.9,
+   "shortM": 29,
+   "dominant": "SHORT DOMINANT — shorts being liquidated (price rising)",
+   "btcOiB": null
+  },
+  "whales": [
+   {
+    "coin": "ETH",
+    "l": 2,
+    "s": 0,
+    "netM": 140.7
+   },
+   {
+    "coin": "SOL",
+    "l": 1,
+    "s": 0,
+    "netM": 13.6
+   },
+   {
+    "coin": "HYPE",
+    "l": 2,
+    "s": 0,
+    "netM": 106.1
+   },
+   {
+    "coin": "ZEC",
+    "l": 1,
+    "s": 0,
+    "netM": 22
+   },
+   {
+    "coin": "NEAR",
+    "l": 1,
+    "s": 0,
+    "netM": 8.4
+   }
+  ],
+  "funding": [
+   {
+    "coin": "MINA",
+    "hl": -11.2,
+    "bin": -147.2,
+    "gap": 136
+   },
+   {
+    "coin": "OGN",
+    "hl": 0,
+    "bin": -94.8,
+    "gap": 94.8
+   },
+   {
+    "coin": "MATIC",
+    "hl": 0,
+    "bin": 87.6,
+    "gap": -87.6
+   },
+   {
+    "coin": "MEME",
+    "hl": -49.1,
+    "bin": 11,
+    "gap": -60
+   }
+  ]
+ },
  "intel": {
-  "ageH": 0.5,
+  "ageH": 0.6,
   "narratives": [
    "- Tokenized Assets/RWA: Significant movement with Securitize's NYSE listing (SECZ) and Robinhood’s launch of an L2 for tokenized stocks (newsletter).",
    "- Stablecoins: The launch of \"Open USD\" (OUSD) by a massive consortium to share yield (newsletter).",
@@ -4702,6 +4815,13 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-07-06T10:02:20.912Z",
+   "brain": "hermes",
+   "model": "Grok 4.3",
+   "kind": "report",
+   "text": "READ: Risk-off regime with short-liquidation dominance ($29M shorts vs $10.9M longs) and overheated positive funding (+2.66% BTC) creating short-squeeze risk that conflicts with the down-trending tape and flat-to-declining OI. Primary risk is whipsaw on any long attempt or premature short before funding resets.\n\nDECISION: Silence on GRVT. No mechanism already firing at current prices with R:R 2:1+; watch for funding flip to negative or long-liquidation spike above $15M to reopen short bias.\n\nNo signals this cycle — edge insufficient."
+  },
   {
    "ts": "2026-07-06T07:00:09.384Z",
    "brain": "openclaw",
@@ -4806,13 +4926,6 @@
    "model": "Grok 4.3",
    "kind": "report",
    "text": "READ: Risk-off regime with positive funding across majors (BTC +3.00%, ETH +2.81%) and short-dominant liquidations ($29.5M shorts vs $6.7M longs) creating squeeze risk rather than clean downside follow-through. OI flat-to-falling on ETH/SOL while breadth sits above 20d MAs but tape down-trending on 20d slope. Primary risk is reflexive short-covering into ETF inflows.\n\nDECISION: Silence. No GRVT perp meets minimum mechanism threshold for CONFIRMED entry in current risk-off tape. Data that would change call: negative funding flip + short liquidation spike on any listed asset with stop <2%.\n\nNo signals this cycle — edge insufficient."
-  },
-  {
-   "ts": "2026-07-04T19:00:05.836Z",
-   "brain": "openclaw",
-   "model": "Claude Haiku",
-   "kind": "intraday",
-   "text": "OPENCLAW INTRADAY SCAN\n\nMARKET BIAS\nBTC/ETH funding overheated (2.67–2.78% daily), whale exodus active (49k BTC to exchanges), macro weakness signals distribution into strength. Net bias: cautious on longs; shorts setting up if support breaks.\n\nOPENCLAW SIGNALS\nNO SIGNALS — waiting for cleaner setup.\n\nPOSITION FLAGS\n[#234] SOL SHORT — underwater -1.87%, conviction 8/10 assigned to anticipatory thesis (SOL breakout below support that has not yet fired). CONVICTION DOWNGRADE REQUIRED: mechanism is not currently active. Reset to 5/10 if support holds but no liquidation cascade visible yet. Monitor for actual short liquidations or OI compression to re-validate thesis. If support $79.50 holds and funding stays neutral, recommend close to redeploy capital into higher-confidence setups."
   }
  ],
  "archive": [
@@ -6048,8 +6161,135 @@
    "consecFleet": 6
   }
  },
- "predictions": null,
- "newsWire": null,
+ "predictions": {
+  "at": "2026-07-06T10:02:31.695Z",
+  "polymarket": [
+   {
+    "question": "Will the Fed decrease interest rates by 25 bps after the July 2026 meeting?",
+    "yesProb": 1,
+    "volume24h": 377131
+   },
+   {
+    "question": "Will the price of Bitcoin be above $66,000 on July 6?",
+    "yesProb": 0,
+    "volume24h": 259632
+   },
+   {
+    "question": "Will the price of Bitcoin be above $58,000 on July 6?",
+    "yesProb": 100,
+    "volume24h": 175510
+   },
+   {
+    "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+    "yesProb": 90,
+    "volume24h": 137418
+   },
+   {
+    "question": "Will the price of Bitcoin be above $68,000 on July 6?",
+    "yesProb": 0,
+    "volume24h": 127071
+   }
+  ],
+  "kalshi": {
+   "ladders": [
+    {
+     "label": "BTC low this year",
+     "rungs": [
+      {
+       "strike": "Below $40,000.00",
+       "yesPct": 31
+      },
+      {
+       "strike": "Below $50,000.00",
+       "yesPct": 53
+      },
+      {
+       "strike": "Below $55,000.00",
+       "yesPct": 61
+      },
+      {
+       "strike": "Below $45,000.00",
+       "yesPct": 39
+      }
+     ]
+    },
+    {
+     "label": "BTC high this year",
+     "rungs": [
+      {
+       "strike": "Above $99,999.99",
+       "yesPct": 13
+      },
+      {
+       "strike": "Above $199,999.99",
+       "yesPct": 4
+      },
+      {
+       "strike": "Above $149,999.99",
+       "yesPct": 4
+      },
+      {
+       "strike": "Above $119,999.99",
+       "yesPct": 8
+      }
+     ]
+    },
+    {
+     "label": "ETH high this year",
+     "rungs": [
+      {
+       "strike": "Above $6,000.00",
+       "yesPct": 5
+      },
+      {
+       "strike": "Above $3,500.00",
+       "yesPct": 13
+      },
+      {
+       "strike": "Above $5,000.00",
+       "yesPct": 6
+      },
+      {
+       "strike": "Above $4,000.00",
+       "yesPct": 10
+      }
+     ]
+    }
+   ],
+   "catalysts": []
+  }
+ },
+ "newsWire": {
+  "at": "2026-07-06T10:02:31.695Z",
+  "sources": [
+   {
+    "name": "Lookonchain",
+    "headlines": [
+     "Coinbase AI’s early \"prediction\" of World Cup results sparks controversy; the platform’s official says it has fixed and optimized the system.",
+     "US-listed cryptocurrency-related concept stocks rose across the board in pre-market trading, with CRCL up 3.53%.",
+     "Ripple secures official MiCA CASP license from the EU, enabling it to offer crypto services across 30 European Economic Area (EEA) countries.",
+     "The case for a SpaceX-Tesla merger has strengthened, with the timing of the combination emerging as the central topic of discussion.",
+     "Bitcoin address dormant for nearly 15 years shows unusual activity, tied to New York lawsuit over ownership of \"sleeping bitcoins\"",
+     "This Week’s Crypto Market Preview: Fed Meeting Minutes Set for Release, SpaceX to Be Added to Nasdaq 100 Index",
+     "Morgan Stanley warns that US equities may struggle to hit new highs, as investors are rotating out of tech stocks.",
+     "The Cyberspace Administration of China (CAC) has rolled out the first phase of its special campaign \"Cyber Clean: Rectifying Chaos in AI Applications\"."
+    ]
+   },
+   {
+    "name": "The Block",
+    "headlines": [
+     "Ripple secures full MiCA CASP authorization for crypto services across 30 EEA countries",
+     "DeFi protocol Summer Finance exploited for $6 million; analysts point to flash loan attack",
+     "South Korea develops crypto-specific procedures for asset seizures and liquidation: report",
+     "Nigel Farage failed to declare funding from crypto gambling figure convicted of fraud: Sunday Times",
+     "Vitalik Buterin says Ethereum's next rebuild will rival the Merge, and take three to four years",
+     "Bitcoin ETFs log record eighth straight negative week despite large Thursday inflow",
+     "Nearly 1 million wallets are down $3.81 billion on Trump's memecoin: report",
+     "Aave's new Monad market tops $100 million in deposits two days after launch"
+    ]
+   }
+  ]
+ },
  "column": {
   "ts": "2026-07-06T04:07:48.220Z",
   "text": "Bitcoin is currently trapped in a fragile consolidation zone where price discovery above current levels clashes violently with massive capital outflows from stablecoins. The single most important signal driving this session is an active short squeeze that has already liquidated twenty-eight million dollars of shorts against only nine million in longs, yet the negative four-hour MACD histograms on BTC and ETH prove momentum is fading despite these gains. This divergence creates a dangerous regime where rising prices are fueled purely by long-covering rather than genuine buying pressure or organic demand. While Solana's active addresses surged thirty-eight percent driven by meme coin trading activity and LIT rallied past two point seven following economic model adjustments, the broader market sentiment remains anchored at extreme fear with an index reading of twenty-four. The tape is distinctly down-trending as a risk-off environment forces continuation longs to bleed without real momentum proof like rising open interest or a reclaim of the twenty-day moving average. High funding rates indicate that long positions are dangerously overextended and waiting for a flush, while nearly one million wallets have collectively lost three point eight one billion dollars recently due to memecoin volatility under political pressure. The confluence of technicals and derivatives data points clearly toward a volatile consolidation phase rather than a sustainable breakout until we see authentic capital inflows matching the price action. Institutional moves like Visa joining an Open USD consortium or Michael Saylor hinting at further digital energy purchases provide only background noise against this immediate liquidity crunch. Traders must recognize that most reflexive dip buys are counte"
