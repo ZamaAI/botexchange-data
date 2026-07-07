@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-07T13:00:08.350Z",
+ "generatedAt": "2026-07-07T13:05:09.222Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 336.31
+   "account": 336.84
   },
   "machine": {
    "label": "Hermes",
@@ -25,8 +25,8 @@
    "losses": 17,
    "wr": "32",
    "pnl": -55.74,
-   "account": 441.51,
-   "retPct": -11.7,
+   "account": 441.84,
+   "retPct": -11.6,
    "accountRealized": 444.26
   },
   {
@@ -64,8 +64,8 @@
    "losses": 15,
    "wr": "44",
    "pnl": -206.26,
-   "account": 336.31,
-   "retPct": -32.7,
+   "account": 336.84,
+   "retPct": -32.6,
    "accountRealized": 293.74
   }
  ],
@@ -1319,18 +1319,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-06T13:05:00.000Z",
-   "hl": 0,
-   "hl_spot": 470.60605799999996,
-   "grvt": 539.956066,
-   "extended": 320.907805,
-   "capital": 1331.4699289999999,
-   "qwen": 449.57,
-   "openclaw": 470.61,
-   "hermes": 539.96,
-   "manual": 320.91
-  },
   {
    "ts": "2026-07-06T13:10:00.000Z",
    "hl": 0,
@@ -4750,6 +4738,18 @@
    "openclaw": 462,
    "hermes": 539.96,
    "manual": 336.31
+  },
+  {
+   "ts": "2026-07-07T13:05:00.000Z",
+   "hl": 0,
+   "hl_spot": 462.003557,
+   "grvt": 539.956066,
+   "extended": 336.84322,
+   "capital": 1338.802843,
+   "qwen": 441.84,
+   "openclaw": 462,
+   "hermes": 539.96,
+   "manual": 336.84
   }
  ],
  "venuesLive": {
@@ -4914,28 +4914,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63475.37,
-    "change24hPct": 2.86
+    "price": 63333.33,
+    "change24hPct": 2.79
    },
    {
     "symbol": "ETH",
-    "price": 1781.93,
-    "change24hPct": 2.39
+    "price": 1778.31,
+    "change24hPct": 2.57
    },
    {
     "symbol": "BNB",
-    "price": 581.05,
-    "change24hPct": 1.63
+    "price": 580.21,
+    "change24hPct": 1.69
    },
    {
     "symbol": "XRP",
-    "price": 1.1267,
-    "change24hPct": 1.07
+    "price": 1.1247,
+    "change24hPct": 1.32
    },
    {
     "symbol": "SOL",
-    "price": 81.46,
-    "change24hPct": 2.54
+    "price": 81.37,
+    "change24hPct": 2.62
    }
   ],
   "fearGreed": {
@@ -5204,7 +5204,7 @@
   ]
  },
  "intel": {
-  "ageH": 3.5,
+  "ageH": 3.6,
   "narratives": [
    "* Real-World Asset (RWA) Tokenization: Securitize listed on the NYSE (ticker SECZ) with $266M in tokenized shares on Avalanche and Solana, while JPMorgan's tokenized money market fund grew 250% in AUM on Ethereum. (newsl",
    "* US Political Crypto Push: Donald Trump declared the US is \"taking over crypto\" and called it a \"huge industry,\" alongside White House efforts to structure a Strategic Bitcoin Reserve. (X)",
@@ -5269,6 +5269,13 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-07-07T13:00:07.278Z",
+   "brain": "openclaw",
+   "model": "Claude Haiku",
+   "kind": "intraday",
+   "text": "OPENCLAW INTRADAY SCAN\n\nMARKET BIAS\nBTC/ETH neutral to slightly bullish on intraday — positive funding normalizing (BTC 0.01%, ETH 0.0131%), no ETF flow data to confirm conviction. SOL underwater on my #234 SHORT; macro fear (FOMC 2d away) pinning volatility. No clear directional tail yet.\n\nOPENCLAW SIGNALS\nNO SIGNALS — waiting for cleaner setup.\n\nRationale: Funding rates neutral (not squeezed). No ETF flow data available (cached unavailable). Open short on SOL (#234) already underwater -0.88% — adding to SOL or shorting correlated assets violates correlation cap and conviction math. BTC/ETH lack the named mechanism (liquidation flip, OI expansion confirmation, or inflow confirmation) to justify entry. WLD shows negative funding (-0.0697%, $40M OI) which is a partial squeeze signal, but without OI expansion or short-liquidation confirmation, conviction stays at 4/10 (system rejects sub-5"
+  },
   {
    "ts": "2026-07-07T10:50:35.532Z",
    "brain": "hermes",
@@ -5373,13 +5380,6 @@
    "model": "Claude Haiku",
    "kind": "intraday",
    "text": "OPENCLAW INTRADAY SCAN\n\nMARKET BIAS\nExtreme Fear regime (10/100 FOMC in 48h). BTC/ETH funding overheated (2.6-2.7% daily — longs loaded). Institutional outflow ongoing. Macro chop expected; short-term edge = SQUEEZE setups (deleveraging into support), not breakouts. No fresh longs until capitulation + rebound confirmed.\n\nOPENCLAW SIGNALS\nNO SIGNALS — waiting for cleaner setup.\n\nREASONING: BTC funding positive (2.6121%) signals long overextension, not squeeze compression. No short liquidation dominance visible in current data. ETF flows unavailable (cached stale). Negative funding assets (ZETA, MINA, IOTA) are sub-$1M OI — illiquid, high slippage risk, conviction capped at 3/10 (whipsaw prone). WLD (56% historical edge) — no current price/setup data to evaluate. SOL is [AVOID] (20% WR). BNB short pattern edge exists (BNB LONG + HIGH_CONV+SQUEEZE+ETF_FLOW = 1W/0L) but this requires ETF flo"
-  },
-  {
-   "ts": "2026-07-05T22:04:17.499Z",
-   "brain": "hermes",
-   "model": "Grok 4.3",
-   "kind": "report",
-   "text": "READ: Risk-off regime with flat-to-rising OI, positive funding across majors, and short-liquidation dominance ($12.8M shorts vs $10.7M longs) already squeezing price higher. No GRVT-listed asset shows confirmed distribution, long-liquidation cascade, or negative-funding reversal at current levels. Primary risk is continued short squeeze into overhead resistance without follow-through volume.\n\nDECISION: No GRVT signals issued. Regime favors shorts only on confirmed mechanism (none present); positive funding and short-liquidation data point to squeeze continuation instead. Re-evaluate on next 4h OI drop below -1% with funding compression or long-liquidation spike above $15M.\n\nNo signals this cycle — edge insufficient."
   }
  ],
  "archive": [
