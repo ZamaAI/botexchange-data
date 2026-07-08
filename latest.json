@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-08T04:05:07.489Z",
+ "generatedAt": "2026-07-08T04:07:54.055Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 332.82
+   "account": 332.86
   },
   "machine": {
    "label": "Hermes",
@@ -25,7 +25,7 @@
    "losses": 17,
    "wr": "32",
    "pnl": -55.74,
-   "account": 451.4,
+   "account": 451.36,
    "retPct": -9.7,
    "accountRealized": 444.26
   },
@@ -64,7 +64,7 @@
    "losses": 15,
    "wr": "44",
    "pnl": -206.26,
-   "account": 332.82,
+   "account": 332.86,
    "retPct": -33.4,
    "accountRealized": 293.74
   }
@@ -4936,12 +4936,12 @@
    "hl": 0,
    "hl_spot": 462.00135800000004,
    "grvt": 539.956066,
-   "extended": 332.817892,
-   "capital": 1334.775316,
-   "qwen": 451.4,
+   "extended": 332.856099,
+   "capital": 1334.8135229999998,
+   "qwen": 451.36,
    "openclaw": 462,
    "hermes": 539.96,
-   "manual": 332.82
+   "manual": 332.86
   }
  ],
  "venuesLive": {
@@ -4984,25 +4984,25 @@
  ],
  "awaiting": [
   {
-   "asset": "ZEC",
-   "direction": "SHORT",
-   "brain": "Qwen",
-   "conviction": 6,
-   "trigger": "volume spike above 8% of avg daily volume",
-   "entry": 475,
-   "stop": 503,
-   "target": 462,
-   "levelsApprox": false
-  },
-  {
    "asset": "ETH",
    "direction": "SHORT",
    "brain": "Qwen",
+   "conviction": 7,
+   "trigger": "failing 3 reclaim of current price with rising volume",
+   "entry": 1750,
+   "stop": 1782,
+   "target": 1694,
+   "levelsApprox": false
+  },
+  {
+   "asset": "ZEC",
+   "direction": "LONG",
+   "brain": "Qwen",
    "conviction": 6,
-   "trigger": "funding rate turns positive and OI rises",
-   "entry": 1765,
-   "stop": 1835,
-   "target": 1730,
+   "trigger": "close above $485 on high relative volume confirming breakout from chop range",
+   "entry": 479,
+   "stop": 493,
+   "target": 512,
    "levelsApprox": false
   }
  ],
@@ -5144,28 +5144,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 62824,
-    "change24hPct": -0.58
+    "price": 62798.97,
+    "change24hPct": -0.62
    },
    {
     "symbol": "ETH",
-    "price": 1752.32,
-    "change24hPct": -1.07
+    "price": 1752.88,
+    "change24hPct": -1.09
    },
    {
     "symbol": "BNB",
-    "price": 568.99,
-    "change24hPct": -1.75
+    "price": 569.18,
+    "change24hPct": -1.69
    },
    {
     "symbol": "XRP",
-    "price": 1.0955,
-    "change24hPct": -2.93
+    "price": 1.0958,
+    "change24hPct": -2.9
    },
    {
     "symbol": "SOL",
-    "price": 78.7,
-    "change24hPct": -2.85
+    "price": 78.68,
+    "change24hPct": -2.82
    }
   ],
   "fearGreed": {
@@ -5182,32 +5182,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.546,
-    "longPct": 60.7,
+    "ratio": 1.548,
+    "longPct": 60.8,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "ETH",
-    "ratio": 1.909,
-    "longPct": 65.6,
+    "ratio": 1.92,
+    "longPct": 65.8,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 1.908,
+    "ratio": 1.906,
     "longPct": 65.6,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 3.063,
-    "longPct": 75.4,
+    "ratio": 3.047,
+    "longPct": 75.3,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.917,
-    "longPct": 74.5,
+    "ratio": 2.908,
+    "longPct": 74.4,
     "bias": "CROWDED LONG"
    }
   ],
@@ -5266,12 +5266,12 @@
   }
  ],
  "report": {
-  "xPost": "Zama Sentinel — market in neutral drift. 9/18 bias signals active, imbalance 1. No high-conviction setup. Standing down until multiple signals confirm direction. BTC $63,373.",
-  "intelligence": "SUMMARY\nMarket is consolidating into a bearish range with BTC testing support at $63k following overnight deleveraging and short liquidations that failed to sustain momentum. The dominant signal is OI contraction across majors indicating position closing rather than accumulation, while stablecoin dry powder suggests liquidity remains available for a potential relief rally on macro data. Immediate bias leans sideways-to-down until volume confirms breakout above the 4h resistance or breakdown below key support zones.\n\nIN-DEPTH ANALYSIS\nThe overnight session saw shorts squeezed initially via liquidations ($35.8M vs $25.2M longs), but this failed to drive sustained upside as Open Interest dropped significantly (BTC -1.7% in 4h). This divergence between price stability and OI decline signals that aggressive traders are exiting positions, likely due to the looming SEC regulatory agenda uncerta",
-  "at": "2026-07-07T22:04:54.707Z"
+  "xPost": "BTC holds $62,715 as Extreme Fear at 20 confirms range-bound liquidity accumulation before next directional break.",
+  "intelligence": "SUMMARY\nMarket bias is bearish with a high probability of continuation below $62k as extreme fear and stablecoin contraction confirm risk-off sentiment. The single most important signal is the divergence between strong BTC ETF inflows ($265M) and aggressive on-chain selling by smart money, indicating institutional accumulation while retail/whales distribute into dips. Dominant risk is a liquidity squeeze if price breaks below $61k given rising long liquidations and contracting open interest.\n\nIN-DEPTH ANALYSIS\nThe market is in a classic capitulation phase where technicals (RSI <40) align with macro data (stablecoin supply flow contracting, FRED M2 growth slowing). The confluence of signals suggests that the recent ETF inflows are absorbing sell pressure rather than driving immediate price expansion. However, the \"Whale Feed\" shows net ETH selling and specific large perp sells by labeled ",
+  "at": "2026-07-08T04:07:44.545Z"
  },
  "marketsDesk": {
-  "at": "2026-07-07T22:04:54.707Z",
+  "at": "2026-07-08T04:07:44.545Z",
   "etf": {
    "BTC": {
     "latestM": 265.7,
@@ -5286,16 +5286,16 @@
     "signal": "L1 ACTIVE — 3+ consecutive positive ETF inflow days (institutional buying)"
    },
    "SOL": {
-    "latestM": 8.4,
-    "weekM": 12.2,
-    "date": "2026-07-06",
+    "latestM": 1.7,
+    "weekM": 17.8,
+    "date": "2026-07-07",
     "signal": "L1 ACTIVE — 3+ consecutive positive ETF inflow days (institutional buying)"
    }
   },
   "liq": {
-   "longM": 25.2,
-   "shortM": 35.8,
-   "dominant": "SHORT DOMINANT — shorts being liquidated (price rising)",
+   "longM": 39.8,
+   "shortM": 34.3,
+   "dominant": "LONG DOMINANT — longs being liquidated (price falling)",
    "btcOiB": null
   },
   "whales": [
@@ -5303,25 +5303,25 @@
     "coin": "BTC",
     "l": 3,
     "s": 0,
-    "netM": 143.8
+    "netM": 142.3
    },
    {
     "coin": "ETH",
     "l": 3,
     "s": 0,
-    "netM": 195
+    "netM": 192.7
    },
    {
     "coin": "SOL",
     "l": 2,
     "s": 0,
-    "netM": 13.7
+    "netM": 13.4
    },
    {
     "coin": "HYPE",
     "l": 2,
     "s": 0,
-    "netM": 105.1
+    "netM": 103.1
    },
    {
     "coin": "ZEC",
@@ -5334,41 +5334,75 @@
    {
     "addr": "0x8def9f50456c6c4e37fa5d3d57f108ed23992dae",
     "name": null,
-    "acctM": 104.9,
-    "weekPnlK": 13244,
-    "weekRoi": 14.5,
+    "acctM": 101.1,
+    "weekPnlK": 9843,
+    "weekRoi": 10.8,
     "positions": [
      {
       "coin": "ZEC",
       "side": "LONG",
-      "usdK": 24023,
+      "usdK": 23761,
       "entry": 362.2776,
       "lev": 10,
-      "upnlK": 6067
+      "upnlK": 5806
      },
      {
       "coin": "SOL",
       "side": "LONG",
-      "usdK": 13711,
+      "usdK": 13358,
       "entry": 74.6913,
       "lev": 17,
-      "upnlK": 1028
+      "upnlK": 675
      },
      {
       "coin": "HYPE",
       "side": "LONG",
-      "usdK": 9466,
+      "usdK": 9284,
       "entry": 70.5358,
       "lev": 2,
-      "upnlK": -171
+      "upnlK": -352
      },
      {
       "coin": "NEAR",
       "side": "LONG",
-      "usdK": 8394,
+      "usdK": 8143,
       "entry": 2.2171,
       "lev": 10,
-      "upnlK": -981
+      "upnlK": -1231
+     }
+    ]
+   },
+   {
+    "addr": "0xa5b0edf6b55128e0ddae8e51ac538c3188401d41",
+    "name": null,
+    "acctM": 28.9,
+    "weekPnlK": 7566,
+    "weekRoi": 140.6,
+    "positions": [
+     {
+      "coin": "ETH",
+      "side": "LONG",
+      "usdK": 70061,
+      "entry": 2265.48,
+      "lev": 15,
+      "upnlK": -20560
+     }
+    ]
+   },
+   {
+    "addr": "0x6c8512516ce5669d35113a11ca8b8de322fd84f6",
+    "name": null,
+    "acctM": 28.5,
+    "weekPnlK": 6739,
+    "weekRoi": 95.8,
+    "positions": [
+     {
+      "coin": "ETH",
+      "side": "LONG",
+      "usdK": 70060,
+      "entry": 2265.44,
+      "lev": 20,
+      "upnlK": -20558
      }
     ]
    },
@@ -5376,8 +5410,8 @@
     "addr": "0x4e23288cee4960f9f962195c22948e4bc7ae20c3",
     "name": null,
     "acctM": 29.1,
-    "weekPnlK": 8666,
-    "weekRoi": 42.5,
+    "weekPnlK": 6699,
+    "weekRoi": 30,
     "positions": [
      {
       "coin": "WLD",
@@ -5414,53 +5448,19 @@
     ]
    },
    {
-    "addr": "0x6c8512516ce5669d35113a11ca8b8de322fd84f6",
+    "addr": "0xa875890465da20062bcf3b024bf7d54e69c725a8",
     "name": null,
-    "acctM": 29.5,
-    "weekPnlK": 8025,
-    "weekRoi": 118.6,
+    "acctM": 18.2,
+    "weekPnlK": 5264,
+    "weekRoi": 119.2,
     "positions": [
      {
       "coin": "ETH",
       "side": "LONG",
-      "usdK": 70924,
-      "entry": 2265.44,
+      "usdK": 52545,
+      "entry": 2243.12,
       "lev": 20,
-      "upnlK": -19694
-     }
-    ]
-   },
-   {
-    "addr": "0xa5b0edf6b55128e0ddae8e51ac538c3188401d41",
-    "name": null,
-    "acctM": 29.5,
-    "weekPnlK": 7947,
-    "weekRoi": 139.8,
-    "positions": [
-     {
-      "coin": "ETH",
-      "side": "LONG",
-      "usdK": 70925,
-      "entry": 2265.48,
-      "lev": 15,
-      "upnlK": -19696
-     }
-    ]
-   },
-   {
-    "addr": "0x082e843a431aef031264dc232693dd710aedca88",
-    "name": null,
-    "acctM": 28.6,
-    "weekPnlK": 6305,
-    "weekRoi": 28.3,
-    "positions": [
-     {
-      "coin": "HYPE",
-      "side": "LONG",
-      "usdK": 95618,
-      "entry": 38.6755,
-      "lev": 5,
-      "upnlK": 42244
+      "upnlK": -14749
      }
     ]
    }
@@ -5468,27 +5468,27 @@
   "funding": [
    {
     "coin": "IOTA",
-    "hl": -121.7,
-    "bin": 1.9,
-    "gap": -123.6
+    "hl": -94.6,
+    "bin": -5.1,
+    "gap": -89.5
    },
    {
     "coin": "kBONK",
     "hl": 11,
-    "bin": -86.8,
-    "gap": 97.8
+    "bin": -63.8,
+    "gap": 74.8
    },
    {
-    "coin": "SNX",
-    "hl": -56.9,
-    "bin": 10.1,
-    "gap": -66.9
+    "coin": "KAS",
+    "hl": -69.5,
+    "bin": 2.4,
+    "gap": -71.8
    },
    {
-    "coin": "ANIME",
-    "hl": -63.6,
-    "bin": -7.7,
-    "gap": -55.9
+    "coin": "STABLE",
+    "hl": -57.1,
+    "bin": 11,
+    "gap": -68.1
    }
   ]
  },
@@ -5557,6 +5557,20 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-07-08T04:07:53.394Z",
+   "brain": "qwen",
+   "model": "Qwen 3.5",
+   "kind": "column",
+   "text": "The single most important signal right now is the stark divergence between massive institutional accumulation and aggressive retail distribution. While spot Bitcoin ETFs absorbed a record $265 million in inflows yesterday, on-chain data reveals smart money simultaneously dumping assets into dips to reposition for lower levels. This classic capitulation phase aligns perfectly with macro headwinds: stablecoin supply is contracting, M2 growth is slowing, and the Fear & Greed index has plummeted to 20, signaling extreme fear rather than a buying opportunity. Technical indicators confirm this bearish bias, with RSI readings below 40 suggesting further downside before any meaningful reversal can occur. The tape remains firmly down-trending as rising long liquidations create a liquidity trap that will likely trigger if price breaks the critical $61k support level. Any attempt to force longs without real momentum proof—specifically lacking rising open interest, a reclaim of the 20-day moving average, or a negative funding squeeze—is destined to bleed out quickly in this regime. The recent surge in meme coins like MOLT and activity from dormant whales are merely noise distracting traders from the structural weakness underlying the broader market. Even as headlines celebrate SpaceX joining the Nasdaq 100 or Zcash solving its counterfeit bug mathematically, these developments fail to offset the immediate pressure of distribution by labeled entities and large perpetual sellers. The confluence of technical breakdowns and macro contraction suggests that any bounce will be short-lived unless accompanied by a genuine shift in capital flows away from stablecoin outflows. Traders should expect continued volatility as institutions finish absorbing sell pressure before attempting to push h"
+  },
+  {
+   "ts": "2026-07-08T04:07:33.938Z",
+   "brain": "hermes",
+   "model": "Grok 4.3",
+   "kind": "report",
+   "text": "READ: Risk-off regime with flat-to-falling OI across majors and neutral-to-negative funding; long liquidations dominant but no fresh distribution or flush signal. Primary risk is squeeze on any macro relief or ETF inflow continuation into resistance.\n\nDECISION: Silence. No GRVT mechanism meets minimum threshold for entry; will reassess on OI expansion, funding flip, or liquidation dominance at key levels.\n\nNo signals this cycle — edge insufficient."
+  },
   {
    "ts": "2026-07-08T01:00:28.453Z",
    "brain": "openclaw",
@@ -5654,20 +5668,6 @@
    "model": "Qwen 3.5",
    "kind": "column",
    "text": "Bitcoin is currently trapped beneath the critical $63,000 support level as extreme fear readings hit a Findex of twenty-four yet price action suggests capitulation rather than continuation. The evening session revealed a dangerous divergence where short-dominated liquidations totaling fifty-seven million dollars vastly outnumbered long squeezes at thirty-nine million, creating an artificial floor that is rapidly eroding under the weight of fundamental weakness. MicroStrategy just sold three thousand five hundred eighty-eight BTC last week to fund dividends, triggering a realized loss of approximately fifty-five million and pushing Bitcoin below sixty-two thousand while BlackRock simultaneously withdrew seven thousand five hundred forty-six ETH from Coinbase Prime valued at thirteen point two million despite recent purchase reports confusing the narrative tape. This regime is distinctly risk-off with down-trending flows where most breakout longs lack real momentum proof or rising open interest to sustain a rally without organic buying absorption. The dominant signal remains an overextended long squeeze where shorts are being liquidated faster than fundamental demand can absorb supply, leaving the market fragile near current levels until August macro relief materializes from Fed rate cut probabilities. A failure of this sixty-three thousand support combined with negative corporate treasury headlines could trigger a rapid reversal into bearish territory before any institutional buying stabilizes the floor. Traders must avoid reflexive dip buys unless they see clear exhaustion signs or a reclaim of the twenty-day moving average accompanied by rising funding rates that indicate genuine contrarian interest rather than just forced selling from liquidations. The market needs re"
-  },
-  {
-   "ts": "2026-07-06T16:04:27.328Z",
-   "brain": "hermes",
-   "model": "Grok 4.3",
-   "kind": "report",
-   "text": "READ: Risk-off regime with flat-to-rising OI on majors and positive funding (BTC +3.00%, ETH +2.09%, SOL +1.87%) showing crowded longs but no liquidation dominance or flush. ETF inflows provide mild support yet breadth and 20d-MA slope remain weak; shorts hold structural tailwind only on failed reclaims. Primary risk is premature long entries into transitional structure without OI expansion.\n\nDECISION: Silence on GRVT. No asset meets minimum mechanism test of confirmed derivatives pressure at current levels; await either funding reversal or OI expansion on downside for shorts, or 20d-MA reclaim with negative funding for longs.\n\nNo signals this cycle — edge insufficient."
-  },
-  {
-   "ts": "2026-07-06T13:00:07.435Z",
-   "brain": "openclaw",
-   "model": "Claude Haiku",
-   "kind": "intraday",
-   "text": "OPENCLAW INTRADAY SCAN\n\nMARKET BIAS\nExtreme fear (10/100) into FOMC 2d out. BTC funding overheated at 3.0% daily (longs capitulating risk), but shorts dominating funding structure overall (-0.42% ME, -0.17% AIXBT). Macro deleveraging bias; no clean breakout mechanism visible. Consolidating into event risk.\n\nOPENCLAW SIGNALS\nNO SIGNALS — waiting for cleaner setup.\n\nRATIONALE\nBTC: Funding inversion (longs overheated at 3%, shorts structurally short) is partial squeeze signal, but no confirming OI expansion or ETF flow data available. Entry would be anticipatory (waiting for liquidation flip), violating structure-first discipline. SOL already covers short bias (conviction 8/10, in-profit). BTC LONG would duplicate directional bet.\n\nETH: Funding 1.08% (moderate). No OI expansion. Stale news (Binance outflows, 3-year ETH withdrawal high) is narrative, not real-time mechanism. Conviction canno"
   }
  ],
  "archive": [
@@ -6920,32 +6920,32 @@
   }
  },
  "predictions": {
-  "at": "2026-07-07T22:04:54.708Z",
+  "at": "2026-07-08T04:07:44.545Z",
   "polymarket": [
    {
-    "question": "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
-    "yesProb": 0,
-    "volume24h": 1138108
+    "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+    "yesProb": 79,
+    "volume24h": 976079
    },
    {
-    "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-    "yesProb": 83,
-    "volume24h": 627294
+    "question": "LoL: LYON vs Team Secret Whales - Game 1 Winner",
+    "yesProb": 100,
+    "volume24h": 833039
+   },
+   {
+    "question": "LoL: LYON vs Team Secret Whales (BO5) - Mid-Season Invitational Playoffs",
+    "yesProb": 78,
+    "volume24h": 620902
    },
    {
     "question": "Will the Fed decrease interest rates by 50+ bps after the July 2026 meeting?",
     "yesProb": 0,
-    "volume24h": 315583
-   },
-   {
-    "question": "LoL: LYON vs Team Secret Whales (BO5) - Mid-Season Invitational Playoffs",
-    "yesProb": 62,
-    "volume24h": 211682
+    "volume24h": 320778
    },
    {
     "question": "Will Bitcoin reach $67,500 in July?",
-    "yesProb": 49,
-    "volume24h": 204420
+    "yesProb": 40,
+    "volume24h": 218818
    }
   ],
   "kalshi": {
@@ -6955,19 +6955,19 @@
      "rungs": [
       {
        "strike": "Below $40,000.00",
-       "yesPct": 31
+       "yesPct": 32
       },
       {
        "strike": "Below $50,000.00",
-       "yesPct": 52
+       "yesPct": 54
       },
       {
        "strike": "Below $55,000.00",
-       "yesPct": 64
+       "yesPct": 65
       },
       {
        "strike": "Below $45,000.00",
-       "yesPct": 42
+       "yesPct": 43
       }
      ]
     },
@@ -6993,23 +6993,23 @@
      ]
     },
     {
-     "label": "ETH high this year",
+     "label": "BTC today",
      "rungs": [
       {
-       "strike": "Above $6,000.00",
-       "yesPct": 4
+       "strike": "$63,000 or above",
+       "yesPct": 1
       },
       {
-       "strike": "Above $3,500.00",
-       "yesPct": 13
+       "strike": "$63,100 or above",
+       "yesPct": 1
       },
       {
-       "strike": "Above $5,000.00",
-       "yesPct": 5
+       "strike": "$62,600 or above",
+       "yesPct": 100
       },
       {
-       "strike": "Above $4,000.00",
-       "yesPct": 10
+       "strike": "$62,900 or above",
+       "yesPct": 1
       }
      ]
     }
@@ -7023,19 +7023,19 @@
   }
  },
  "newsWire": {
-  "at": "2026-07-07T22:04:54.708Z",
+  "at": "2026-07-08T04:07:44.545Z",
   "sources": [
    {
     "name": "Lookonchain",
     "headlines": [
-     "Tiger Brokers upgrades Coinbase's rating to \"Buy\", sets target price at $200.",
-     "SpaceX's listing has driven record highs in tokenized stock trading, with on-chain transaction volume reaching $3.86 billion in June.",
-     "U.S. SEC Releases 2026 Regulatory Agenda, Proposes Revisions to Rules for Crypto Trading Platforms and Brokers",
-     "The $9.9 billion stock swap deal between Naver and Dunamu has been delayed again until the end of the year, as South Korea’s digital asset law remains unresolve",
-     "View: Despite weak stock performance, the AI industry \"still revolves around NVIDIA\"",
-     "Ethereum briefly rallied to surpass $1,800.",
-     "According to HTX market data, Ethereum briefly rebounded to break through the $1,800 mark, currently trading at $1,799.84, with a 1.45% increase in the past 24 ",
-     "SanDisk, Seagate, and Western Digital have dropped more than 30% from their all-time highs."
+     "A trader profits $448K by monitoring Binance's new listings!",
+     "2024.12.13 17:37:29 Last week, funds have flowed into Bitcoin, Ethereum, and Hyperliquid.",
+     "2024.12.16 14:48:36 A $PEPE whale that had been dormant for 600 days transferred all 2.1T $PEPE($52M) to a new address.",
+     "2024.12.14 10:35:27 When Elon Musk tweeted about Moltbook, the meme coin MOLT experienced a short-term 30% price surge, hitting a new all-time high of $114 mill",
+     "2026.01.31 18:37:29 A smart AI coin trader made $17.6M on $GOAT, $ai16z, $Fartcoin,$arc.",
+     "2025.01.05 16:05:18 A sniper earned 2,277 $ETH ($8.3M) trading $SHIRO within 18 hours!",
+     "How did I turn $1,000 into $30,000 with smart money?",
+     "The 30-Year-Old Entrepreneur Behind Virtual, a Multi-Million Dollar AI Agent Society"
     ]
    },
    {
@@ -7054,22 +7054,90 @@
   ]
  },
  "whaleFeed": {
-  "at": "2026-07-07T22:04:54.708Z",
+  "at": "2026-07-08T04:07:44.545Z",
   "netFlow": [
    [
     "MON",
     8037.575317
    ],
    [
-    "VVV",
-    2025.65076
+    "ETH",
+    -2194.1331
    ],
    [
-    "BLUR",
-    -616.7906570000005
+    "ADA",
+    2100.81158
+   ],
+   [
+    "WLD",
+    1999.946872
+   ],
+   [
+    "PAXG",
+    1304.6135
    ]
   ],
   "rows": [
+   {
+    "kind": "PERP",
+    "ts": 1783474975000,
+    "wallet": "0x8def...92dae",
+    "chain": "hyperliquid",
+    "symbol": "ETH",
+    "action": "INCREASED",
+    "side": "sell",
+    "usd": 2194.1331,
+    "price": 1756.0088835534216,
+    "leverage": 20,
+    "posUsd": 10668.54924,
+    "liq": false,
+    "realizedPnl": 0
+   },
+   {
+    "kind": "PERP",
+    "ts": 1783474810000,
+    "wallet": "0x8def...92dae",
+    "chain": "hyperliquid",
+    "symbol": "ADA",
+    "action": "INCREASED",
+    "side": "buy",
+    "usd": 2100.81158,
+    "price": 0.17321995217678102,
+    "leverage": 10,
+    "posUsd": 5815.44704,
+    "liq": false,
+    "realizedPnl": 0
+   },
+   {
+    "kind": "PERP",
+    "ts": 1783474662000,
+    "wallet": "0x8def...92dae",
+    "chain": "hyperliquid",
+    "symbol": "WLD",
+    "action": "CLOSED",
+    "side": "buy",
+    "usd": 1999.946872,
+    "price": 0.3763047532316029,
+    "leverage": 10,
+    "posUsd": 805.9936000000001,
+    "liq": false,
+    "realizedPnl": -31.754020999999998
+   },
+   {
+    "kind": "PERP",
+    "ts": 1783471909000,
+    "wallet": "0x8def...92dae",
+    "chain": "hyperliquid",
+    "symbol": "PAXG",
+    "action": "INCREASED",
+    "side": "buy",
+    "usd": 1304.6135,
+    "price": 4115.5,
+    "leverage": 10,
+    "posUsd": 9609.6925,
+    "liq": false,
+    "realizedPnl": 0
+   },
    {
     "kind": "PERP",
     "ts": 1783461361000,
@@ -7144,87 +7212,12 @@
     "posUsd": null,
     "liq": false,
     "realizedPnl": 25.416020000000003
-   },
-   {
-    "kind": "PERP",
-    "ts": 1783446060000,
-    "wallet": "0x8def...92dae",
-    "chain": "hyperliquid",
-    "symbol": "BLUR",
-    "action": "CLOSED",
-    "side": "sell",
-    "usd": 1399.938163,
-    "price": 0.02049899935571728,
-    "leverage": 3,
-    "posUsd": 519.865411,
-    "liq": false,
-    "realizedPnl": -88.91753
-   },
-   {
-    "kind": "PERP",
-    "ts": 1783445882000,
-    "wallet": "0x8def...92dae",
-    "chain": "hyperliquid",
-    "symbol": "BLUR",
-    "action": "CLOSED",
-    "side": "sell",
-    "usd": 1116.350288,
-    "price": 0.020434,
-    "leverage": 3,
-    "posUsd": null,
-    "liq": false,
-    "realizedPnl": -75.598678
-   },
-   {
-    "kind": "PERP",
-    "ts": 1783445828000,
-    "wallet": "0x8def...92dae",
-    "chain": "hyperliquid",
-    "symbol": "BLUR",
-    "action": "CLOSED",
-    "side": "sell",
-    "usd": 1999.967192,
-    "price": 0.020353,
-    "leverage": 3,
-    "posUsd": 115.889982,
-    "liq": false,
-    "realizedPnl": -150.196524
-   },
-   {
-    "kind": "PERP",
-    "ts": 1783445150000,
-    "wallet": "0x8def...92dae",
-    "chain": "hyperliquid",
-    "symbol": "BLUR",
-    "action": "INCREASED",
-    "side": "buy",
-    "usd": 1999.981018,
-    "price": 0.02091899062820325,
-    "leverage": 3,
-    "posUsd": 6060.31769,
-    "liq": false,
-    "realizedPnl": 0
-   },
-   {
-    "kind": "PERP",
-    "ts": 1783442987000,
-    "wallet": "0x8def...92dae",
-    "chain": "hyperliquid",
-    "symbol": "BLUR",
-    "action": "INCREASED",
-    "side": "buy",
-    "usd": 1899.483968,
-    "price": 0.020816947055793615,
-    "leverage": 3,
-    "posUsd": 4044.770856,
-    "liq": false,
-    "realizedPnl": 0
    }
   ],
-  "totalEvents": 11
+  "totalEvents": 9
  },
  "column": {
-  "ts": "2026-07-07T16:09:25.907Z",
-  "text": "The single most critical factor dominating the session is the stark divergence between rising macro yields and flat Bitcoin price action, with Japan's ten-year bond yield surging to thirty years highs at two point eight five percent while BTC tests six thousand four hundred dollars resistance. Despite a short-covering bounce fueled by two hundred sixty-five million in net ETF inflows, the market exhibits classic bored bull characteristics where organic demand is absent and liquidity relies entirely on stablecoin dry powder accumulation measured at an SSR of zero point two zero四五. The morning thesis of consolidation holds firm as major assets remain neutral on RSI while altcoins like BLUR spike on volume anomalies unrelated to fundamental expansion. Ethereum showed slight open interest expansion suggesting fresh positioning may finally be forming, yet the primary driver remains liquidation mechanics rather than genuine buying pressure with shorts squeezed by over four hundred million in open interest versus only nineteen million for longs. Sentiment sits firmly at fear level twenty-seven as headlines mix Trump's strategic reserve rhetoric with MicroStrategy selling three thousand five hundred eighty-eight BTC to cover dividends and a governance attack draining twenty million from the BONK treasury. The tape remains down-trending under risk-off regime conditions where continuation longs lack real momentum proof through rising open interest or negative funding squeezes, causing most breakout attempts to bleed without follow-through. A counter-trend long is justified only as high conviction at clear exhaustion points with a catalyst never as a reflexive dip buy given the threat of a flush if macro data worsens tomorrow and Nvidia delays its Kyber launch further dampening te"
+  "ts": "2026-07-08T04:07:53.394Z",
+  "text": "The single most important signal right now is the stark divergence between massive institutional accumulation and aggressive retail distribution. While spot Bitcoin ETFs absorbed a record $265 million in inflows yesterday, on-chain data reveals smart money simultaneously dumping assets into dips to reposition for lower levels. This classic capitulation phase aligns perfectly with macro headwinds: stablecoin supply is contracting, M2 growth is slowing, and the Fear & Greed index has plummeted to 20, signaling extreme fear rather than a buying opportunity. Technical indicators confirm this bearish bias, with RSI readings below 40 suggesting further downside before any meaningful reversal can occur. The tape remains firmly down-trending as rising long liquidations create a liquidity trap that will likely trigger if price breaks the critical $61k support level. Any attempt to force longs without real momentum proof—specifically lacking rising open interest, a reclaim of the 20-day moving average, or a negative funding squeeze—is destined to bleed out quickly in this regime. The recent surge in meme coins like MOLT and activity from dormant whales are merely noise distracting traders from the structural weakness underlying the broader market. Even as headlines celebrate SpaceX joining the Nasdaq 100 or Zcash solving its counterfeit bug mathematically, these developments fail to offset the immediate pressure of distribution by labeled entities and large perpetual sellers. The confluence of technical breakdowns and macro contraction suggests that any bounce will be short-lived unless accompanied by a genuine shift in capital flows away from stablecoin outflows. Traders should expect continued volatility as institutions finish absorbing sell pressure before attempting to push h"
  }
 }
