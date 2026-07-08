@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-08T10:00:11.231Z",
+ "generatedAt": "2026-07-08T10:04:17.166Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 296.66
+   "account": 298.01
   },
   "machine": {
    "label": "Hermes",
@@ -25,8 +25,8 @@
    "losses": 17,
    "wr": "32",
    "pnl": -55.74,
-   "account": 440.37,
-   "retPct": -11.9,
+   "account": 439.81,
+   "retPct": -12,
    "accountRealized": 444.26
   },
   {
@@ -64,8 +64,8 @@
    "losses": 15,
    "wr": "44",
    "pnl": -206.26,
-   "account": 296.66,
-   "retPct": -40.7,
+   "account": 298.01,
+   "retPct": -40.4,
    "accountRealized": 293.74
   }
  ],
@@ -1562,12 +1562,12 @@
    "hl": 0,
    "hl_spot": 462.00245700000005,
    "grvt": 539.956066,
-   "extended": 296.660472,
-   "capital": 1298.618995,
-   "qwen": 440.37,
+   "extended": 298.008736,
+   "capital": 1299.967259,
+   "qwen": 439.81,
    "openclaw": 462,
    "hermes": 539.96,
-   "manual": 296.66
+   "manual": 298.01
   }
  ],
  "equityLive": [
@@ -5020,12 +5020,12 @@
    "hl": 0,
    "hl_spot": 462.00245700000005,
    "grvt": 539.956066,
-   "extended": 296.660472,
-   "capital": 1298.618995,
-   "qwen": 440.37,
+   "extended": 298.008736,
+   "capital": 1299.967259,
+   "qwen": 439.81,
    "openclaw": 462,
    "hermes": 539.96,
-   "manual": 296.66
+   "manual": 298.01
   }
  ],
  "venuesLive": {
@@ -5048,30 +5048,41 @@
    "conviction": 7,
    "openedAt": "2026-07-07T22:04:22.241Z",
    "thesis": "Qwen scanner pick (paper) — see COIN SCANNER AI ANALYSIS in the report",
-   "smartMoney": 1
+   "smartMoney": null
   }
  ],
  "awaiting": [
   {
    "asset": "ETH",
-   "direction": "SHORT",
+   "direction": "LONG",
    "brain": "Qwen",
    "conviction": 7,
-   "trigger": "failing 3 reclaim of current price with rising volume",
-   "entry": 1750,
-   "stop": 1782,
-   "target": 1694,
+   "trigger": "close above 1750 with rising OI",
+   "entry": 1735,
+   "stop": 1684.92,
+   "target": 1808,
    "levelsApprox": false
   },
   {
-   "asset": "ZEC",
-   "direction": "LONG",
+   "asset": "MORPHO",
+   "direction": "SHORT",
    "brain": "Qwen",
    "conviction": 6,
-   "trigger": "close above $485 on high relative volume confirming breakout from chop range",
-   "entry": 479,
-   "stop": 493,
-   "target": 512,
+   "trigger": "funding rate turns positive or price breaks below 2.04",
+   "entry": 2.09,
+   "stop": 2.2,
+   "target": 1.93,
+   "levelsApprox": false
+  },
+  {
+   "asset": "SOL",
+   "direction": "SHORT",
+   "brain": "Qwen",
+   "conviction": 6,
+   "trigger": "daily close back below 75",
+   "entry": 77.15,
+   "stop": 80.5,
+   "target": 73,
    "levelsApprox": false
   }
  ],
@@ -5213,28 +5224,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 62079.55,
-    "change24hPct": -1.88
+    "price": 61966.8,
+    "change24hPct": -2.32
    },
    {
     "symbol": "ETH",
-    "price": 1737.68,
-    "change24hPct": -2.29
+    "price": 1734.28,
+    "change24hPct": -2.77
    },
    {
     "symbol": "BNB",
-    "price": 561.92,
-    "change24hPct": -2.78
+    "price": 561.25,
+    "change24hPct": -3.05
    },
    {
     "symbol": "XRP",
-    "price": 1.0802,
-    "change24hPct": -4.16
+    "price": 1.0784,
+    "change24hPct": -4.57
    },
    {
     "symbol": "SOL",
-    "price": 77.26,
-    "change24hPct": -5
+    "price": 77.1,
+    "change24hPct": -5.47
    }
   ],
   "fearGreed": {
@@ -5335,23 +5346,23 @@
   }
  ],
  "report": {
-  "xPost": "BTC holds $62,715 as Extreme Fear at 20 confirms range-bound liquidity accumulation before next directional break.",
-  "intelligence": "SUMMARY\nMarket bias is bearish with a high probability of continuation below $62k as extreme fear and stablecoin contraction confirm risk-off sentiment. The single most important signal is the divergence between strong BTC ETF inflows ($265M) and aggressive on-chain selling by smart money, indicating institutional accumulation while retail/whales distribute into dips. Dominant risk is a liquidity squeeze if price breaks below $61k given rising long liquidations and contracting open interest.\n\nIN-DEPTH ANALYSIS\nThe market is in a classic capitulation phase where technicals (RSI <40) align with macro data (stablecoin supply flow contracting, FRED M2 growth slowing). The confluence of signals suggests that the recent ETF inflows are absorbing sell pressure rather than driving immediate price expansion. However, the \"Whale Feed\" shows net ETH selling and specific large perp sells by labeled ",
-  "at": "2026-07-08T04:07:44.545Z"
+  "xPost": "Zama Sentinel — market in neutral drift. 9/18 bias signals active, imbalance 1. No high-conviction setup. Standing down until multiple signals confirm direction. BTC $62,015.",
+  "intelligence": "SUMMARY\nMarket is in a deleveraging phase with dominant long liquidations (-$57M vs -$33M shorts) driving price down despite neutral ETF inflows ($21.4M). The primary signal is OI contraction across BTC/ETH/SOL indicating position closing rather than organic selling pressure, suggesting volatility will settle before direction resumes. Dominant risk remains the 0% probability of Bitcoin holding above $68k per Kalshi models and contracting stablecoin supply (-$3B net) confirming capital flight from DeFi ecosystems.\n\nIN-DEPTH ANALYSIS\nThe morning thesis of institutional accumulation via ETFs is being tested by retail deleveraging. While BTC OI dropped 3.18% over 24 hours, the long/short ratio remains elevated at 1.63 (Long bias), creating a dangerous setup where further downside requires massive short covering or continued liquidation cascades to reverse. The divergence between neutral fund",
+  "at": "2026-07-08T10:04:08.412Z"
  },
  "marketsDesk": {
-  "at": "2026-07-08T04:07:44.545Z",
+  "at": "2026-07-08T10:04:08.412Z",
   "etf": {
    "BTC": {
-    "latestM": 265.7,
-    "weekM": 1401.8,
-    "date": "2026-07-06",
-    "signal": "INFLOW — positive ETF flows (watch for continuation)"
+    "latestM": 21.4,
+    "weekM": 684,
+    "date": "2026-07-07",
+    "signal": "L1 ACTIVE — 3+ consecutive positive ETF inflow days (institutional buying)"
    },
    "ETH": {
-    "latestM": 20.7,
-    "weekM": 87.7,
-    "date": "2026-07-06",
+    "latestM": 26.9,
+    "weekM": 21.1,
+    "date": "2026-07-07",
     "signal": "L1 ACTIVE — 3+ consecutive positive ETF inflow days (institutional buying)"
    },
    "SOL": {
@@ -5362,8 +5373,8 @@
    }
   },
   "liq": {
-   "longM": 39.8,
-   "shortM": 34.3,
+   "longM": 57.7,
+   "shortM": 33.1,
    "dominant": "LONG DOMINANT — longs being liquidated (price falling)",
    "btcOiB": null
   },
@@ -5372,106 +5383,72 @@
     "coin": "BTC",
     "l": 3,
     "s": 0,
-    "netM": 142.3
+    "netM": 78.8
    },
    {
     "coin": "ETH",
-    "l": 3,
+    "l": 5,
     "s": 0,
-    "netM": 192.7
+    "netM": 214.6
    },
    {
     "coin": "SOL",
-    "l": 2,
+    "l": 3,
     "s": 0,
     "netM": 13.4
    },
    {
     "coin": "HYPE",
-    "l": 2,
-    "s": 0,
-    "netM": 103.1
+    "l": 3,
+    "s": 1,
+    "netM": 101
    },
    {
     "coin": "ZEC",
     "l": 1,
     "s": 1,
-    "netM": 8.1
+    "netM": 7.8
    }
   ],
   "topTraders": [
    {
     "addr": "0x8def9f50456c6c4e37fa5d3d57f108ed23992dae",
     "name": null,
-    "acctM": 101.1,
-    "weekPnlK": 9843,
-    "weekRoi": 10.8,
+    "acctM": 98.9,
+    "weekPnlK": 8676,
+    "weekRoi": 9.6,
     "positions": [
      {
       "coin": "ZEC",
       "side": "LONG",
-      "usdK": 23761,
+      "usdK": 23030,
       "entry": 362.2776,
       "lev": 10,
-      "upnlK": 5806
+      "upnlK": 5074
      },
      {
       "coin": "SOL",
       "side": "LONG",
-      "usdK": 13358,
+      "usdK": 13120,
       "entry": 74.6913,
       "lev": 17,
-      "upnlK": 675
+      "upnlK": 437
      },
      {
       "coin": "HYPE",
       "side": "LONG",
-      "usdK": 9284,
+      "usdK": 9290,
       "entry": 70.5358,
       "lev": 2,
-      "upnlK": -352
+      "upnlK": -347
      },
      {
       "coin": "NEAR",
       "side": "LONG",
-      "usdK": 8143,
+      "usdK": 7904,
       "entry": 2.2171,
       "lev": 10,
-      "upnlK": -1231
-     }
-    ]
-   },
-   {
-    "addr": "0xa5b0edf6b55128e0ddae8e51ac538c3188401d41",
-    "name": null,
-    "acctM": 28.9,
-    "weekPnlK": 7566,
-    "weekRoi": 140.6,
-    "positions": [
-     {
-      "coin": "ETH",
-      "side": "LONG",
-      "usdK": 70061,
-      "entry": 2265.48,
-      "lev": 15,
-      "upnlK": -20560
-     }
-    ]
-   },
-   {
-    "addr": "0x6c8512516ce5669d35113a11ca8b8de322fd84f6",
-    "name": null,
-    "acctM": 28.5,
-    "weekPnlK": 6739,
-    "weekRoi": 95.8,
-    "positions": [
-     {
-      "coin": "ETH",
-      "side": "LONG",
-      "usdK": 70060,
-      "entry": 2265.44,
-      "lev": 20,
-      "upnlK": -20558
+      "upnlK": -1470
      }
     ]
    },
@@ -5479,9 +5456,17 @@
     "addr": "0x4e23288cee4960f9f962195c22948e4bc7ae20c3",
     "name": null,
     "acctM": 29.1,
-    "weekPnlK": 6699,
-    "weekRoi": 30,
+    "weekPnlK": 6564,
+    "weekRoi": 29.2,
     "positions": [
+     {
+      "coin": "ETH",
+      "side": "LONG",
+      "usdK": 302,
+      "entry": 1729.3,
+      "lev": 20,
+      "upnlK": 1
+     },
      {
       "coin": "WLD",
       "side": "LONG",
@@ -5505,64 +5490,114 @@
       "entry": 82.02,
       "lev": 20,
       "upnlK": 0
-     },
-     {
-      "coin": "BTC",
-      "side": "LONG",
-      "usdK": 1,
-      "entry": 61129.3,
-      "lev": 9,
-      "upnlK": 0
      }
     ]
    },
    {
-    "addr": "0xa875890465da20062bcf3b024bf7d54e69c725a8",
+    "addr": "0x6c8512516ce5669d35113a11ca8b8de322fd84f6",
     "name": null,
-    "acctM": 18.2,
-    "weekPnlK": 5264,
-    "weekRoi": 119.2,
+    "acctM": 27.6,
+    "weekPnlK": 6277,
+    "weekRoi": 95.2,
     "positions": [
      {
       "coin": "ETH",
       "side": "LONG",
-      "usdK": 52545,
-      "entry": 2243.12,
+      "usdK": 69500,
+      "entry": 2265.44,
       "lev": 20,
-      "upnlK": -14749
+      "upnlK": -21118
+     }
+    ]
+   },
+   {
+    "addr": "0xa5b0edf6b55128e0ddae8e51ac538c3188401d41",
+    "name": null,
+    "acctM": 27.6,
+    "weekPnlK": 6038,
+    "weekRoi": 106,
+    "positions": [
+     {
+      "coin": "ETH",
+      "side": "LONG",
+      "usdK": 69501,
+      "entry": 2265.48,
+      "lev": 15,
+      "upnlK": -21120
+     }
+    ]
+   },
+   {
+    "addr": "0xd47587702a91731dc1089b5db0932cf820151a91",
+    "name": null,
+    "acctM": 53.4,
+    "weekPnlK": 4887,
+    "weekRoi": 8.2,
+    "positions": [
+     {
+      "coin": "HYPE",
+      "side": "SHORT",
+      "usdK": 27040,
+      "entry": 54.0772,
+      "lev": 5,
+      "upnlK": -5536
+     },
+     {
+      "coin": "LIT",
+      "side": "SHORT",
+      "usdK": 1647,
+      "entry": 1.725124,
+      "lev": 3,
+      "upnlK": -440
+     },
+     {
+      "coin": "WLD",
+      "side": "SHORT",
+      "usdK": 1385,
+      "entry": 0.43177,
+      "lev": 10,
+      "upnlK": 231
+     },
+     {
+      "coin": "FARTCOIN",
+      "side": "SHORT",
+      "usdK": 400,
+      "entry": 0.11203,
+      "lev": 10,
+      "upnlK": -97
      }
     ]
    }
   ],
   "funding": [
    {
-    "coin": "IOTA",
-    "hl": -94.6,
-    "bin": -5.1,
-    "gap": -89.5
-   },
-   {
-    "coin": "kBONK",
-    "hl": 11,
-    "bin": -63.8,
-    "gap": 74.8
-   },
-   {
-    "coin": "KAS",
-    "hl": -69.5,
-    "bin": 2.4,
-    "gap": -71.8
+    "coin": "XMR",
+    "hl": 131.3,
+    "bin": 11,
+    "gap": 120.4
    },
    {
     "coin": "STABLE",
-    "hl": -57.1,
+    "hl": -105.2,
     "bin": 11,
-    "gap": -68.1
+    "gap": -116.2
+   },
+   {
+    "coin": "GRAM",
+    "hl": 11,
+    "bin": -62.6,
+    "gap": 73.5
+   },
+   {
+    "coin": "MOVE",
+    "hl": -61.2,
+    "bin": 11,
+    "gap": -72.2
    }
   ]
  },
  "intel": {
-  "ageH": 0.5,
+  "ageH": 0.6,
   "narratives": [
    "* On-Chain Memecoins & \"Trenches\": Crypto native traders are celebrating a return to \"runner season\" and \"the trenches,\" highlighted by massive memecoin gains (like $CASHCAT) and HYPE squeezing shorts. (X)",
    "* AI Infrastructure & Cost-Cutting: Tech giants are shifting to in-house models to cut costs (Microsoft replacing OpenAI/Anthropic in Excel/Outlook), while TeraWulf signed a massive $19B deal with Anthropic for AI infras",
@@ -5628,6 +5663,13 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-07-08T10:03:57.684Z",
+   "brain": "hermes",
+   "model": "Grok 4.3",
+   "kind": "report",
+   "text": "READ: Risk-off regime with falling OI (-3.18% BTC, -4.33% ETH) and long-liquidation dominance ($57.7M vs $33.1M shorts) driving price. Tape down-trending inside chop ranges; continuation moves lack proof of rising OI+price or funding squeeze. Shorts hold tailwind but require distribution or failed reclaim confirmation already visible.\n\nDECISION: Silence. No GRVT mechanism (OI/funding/liquidations) is firing at current prices with R:R >=2:1 and tight stop. Data that would change call: BTC/ETH OI reversal + negative funding or long-liquidation flush at range low.\n\nNo signals this cycle — edge insufficient."
+  },
   {
    "ts": "2026-07-08T07:00:31.259Z",
    "brain": "openclaw",
@@ -5732,13 +5774,6 @@
    "model": "Claude Haiku",
    "kind": "intraday",
    "text": "OPENCLAW INTRADAY SCAN\n\nMARKET BIAS\nExtreme fear regime (FOMC 2d away) suppressing conviction across majors. BTC/ETH funding still positive (longs overheated) but no fresh capitulation signal yet. Chop-dominant; shorts funded but not liquidating en masse. Waiting for regime flip or tight squeeze confirmation before aggressive entries.\n\nOPENCLAW SIGNALS\nNO SIGNALS — waiting for cleaner setup.\n\nRATIONALE\nBTC: Funding 3.0% daily (longs still paying shorts aggressively), but no OI expansion or ETF flow confirmation visible in this scan. Entry would be anticipatory, not mechanism-fired. Conv floor unmet.\nETH: 2.39% daily funding, same trap — setup is not FIRING yet, just overheated. Soft warning asset (39% historical WR) + no fresh trigger = silence.\nSOL: Already SHORT [#234] UNDERWATER. No duplicate signals. Asset flagged [AVOID] (20% WR on 5 trades). Skip.\nAltcoins (WLD, LIT, PUMP): Highest"
-  },
-  {
-   "ts": "2026-07-06T22:02:29.404Z",
-   "brain": "hermes",
-   "model": "Grok 4.3",
-   "kind": "report",
-   "text": "READ: Risk-off regime with tape below key MAs and falling OI on BTC/SOL. Short-liquidation dominance ($82.3M) and positive funding create squeeze risk but no fresh distribution or flush mechanism is firing on GRVT names. Breadth and ETF inflows support continuation bias yet structure remains transitional/chop on listed assets.\n\nDECISION: Silence on new GRVT entries. Short bias intact but no mechanism already firing at current prices on listed assets. Watch for OI flush or funding flip on BTC/ETH as trigger.\n\nNo signals this cycle — edge insufficient."
   }
  ],
  "archive": [
@@ -6991,32 +7026,32 @@
   }
  },
  "predictions": {
-  "at": "2026-07-08T04:07:44.545Z",
+  "at": "2026-07-08T10:04:08.412Z",
   "polymarket": [
    {
     "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-    "yesProb": 79,
-    "volume24h": 976079
+    "yesProb": 76,
+    "volume24h": 1296518
    },
    {
-    "question": "LoL: LYON vs Team Secret Whales - Game 1 Winner",
-    "yesProb": 100,
-    "volume24h": 833039
+    "question": "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
+    "yesProb": 1,
+    "volume24h": 256059
    },
    {
-    "question": "LoL: LYON vs Team Secret Whales (BO5) - Mid-Season Invitational Playoffs",
-    "yesProb": 78,
-    "volume24h": 620902
-   },
-   {
-    "question": "Will the Fed decrease interest rates by 50+ bps after the July 2026 meeting?",
+    "question": "Will the price of Bitcoin be above $66,000 on July 8?",
     "yesProb": 0,
-    "volume24h": 320778
+    "volume24h": 239329
    },
    {
     "question": "Will Bitcoin reach $67,500 in July?",
-    "yesProb": 40,
-    "volume24h": 218818
+    "yesProb": 33,
+    "volume24h": 238029
+   },
+   {
+    "question": "Will the price of Bitcoin be above $68,000 on July 8?",
+    "yesProb": 0,
+    "volume24h": 210741
    }
   ],
   "kalshi": {
@@ -7064,228 +7099,125 @@
      ]
     },
     {
-     "label": "BTC today",
+     "label": "ETH high this year",
      "rungs": [
       {
-       "strike": "$63,000 or above",
-       "yesPct": 1
+       "strike": "Above $6,000.00",
+       "yesPct": 4
       },
       {
-       "strike": "$63,100 or above",
-       "yesPct": 1
+       "strike": "Above $3,500.00",
+       "yesPct": 14
       },
       {
-       "strike": "$62,600 or above",
-       "yesPct": 100
+       "strike": "Above $5,000.00",
+       "yesPct": 5
       },
       {
-       "strike": "$62,900 or above",
-       "yesPct": 1
+       "strike": "Above $4,000.00",
+       "yesPct": 10
       }
      ]
     }
    ],
-   "catalysts": [
-    {
-     "question": "Will Arc launch a token before Jan 1, 2027?",
-     "yesProb": 59
-    }
-   ]
+   "catalysts": []
   }
  },
  "newsWire": {
-  "at": "2026-07-08T04:07:44.545Z",
+  "at": "2026-07-08T10:04:08.412Z",
   "sources": [
    {
     "name": "Lookonchain",
     "headlines": [
-     "A trader profits $448K by monitoring Binance's new listings!",
-     "2024.12.13 17:37:29 Last week, funds have flowed into Bitcoin, Ethereum, and Hyperliquid.",
-     "2024.12.16 14:48:36 A $PEPE whale that had been dormant for 600 days transferred all 2.1T $PEPE($52M) to a new address.",
-     "2024.12.14 10:35:27 When Elon Musk tweeted about Moltbook, the meme coin MOLT experienced a short-term 30% price surge, hitting a new all-time high of $114 mill",
-     "2026.01.31 18:37:29 A smart AI coin trader made $17.6M on $GOAT, $ai16z, $Fartcoin,$arc.",
-     "2025.01.05 16:05:18 A sniper earned 2,277 $ETH ($8.3M) trading $SHIRO within 18 hours!",
-     "How did I turn $1,000 into $30,000 with smart money?",
-     "The 30-Year-Old Entrepreneur Behind Virtual, a Multi-Million Dollar AI Agent Society"
+     "EVAA Protocol releases AI Agent teaser, community speculates it could bring a new AI-powered interactive experience to TON DeFi",
+     "On June 9, the Open Network (TON) community voted to rename the network’s native token from Toncoin to Gram, with the token’s code also changing from TON to GRA",
+     "Circle has minted another 250 million USDC on the Solana blockchain.",
+     "According to monitoring by Onchain Lens, Circle has minted an additional 250 million USDC on the Solana blockchain. So far in 2026, Circle has minted a total of",
+     "Israel is preparing to rejoin the war against Iran.",
+     "An hour prior to Trump's statement, an on-chain address increased its short positions, and its $21 million long oil, short Nasdaq position has reaped substantia",
+     "July 6 afternoon: Opened a 20x leveraged long Brent crude oil (BRENTOIL) position;",
+     "July 7 evening: Initiated a base position of Nasdaq 100 mapped contracts (XYZ100) with 30x leverage, totaling ~200 contracts;"
     ]
    },
    {
     "name": "The Block",
     "headlines": [
+     "Nigel Farage to quit UK Parliament, seek new mandate amid probes into crypto-linked gifts",
+     "Tom Lee's Bitmine adds $70 million worth of ETH to treasury: onchain analyst",
+     "Federal judge denies Kalshi's bid to block New York gambling law enforcement",
      "Kraken wins $22 million arbitration against auditor Mazars for ditching the firm during Operation Choke Point 2.0",
      "CFTC charges North Carolina man over alleged $14 million crypto, futures fraud",
      "Jack Mallers' Strike launches 'volatility-proof' bitcoin loans built to protect against liquidation",
      "ZEC jumps 12% as Zcash nears mathematical proof against hidden counterfeit bugs",
-     "SBI Holdings is sole investor in crypto platform EDX Markets' $76 million Series C",
-     "Ondo Finance says tokenized stocks can now be used as collateral for perp trading",
-     "SEC plans crypto rule changes for exchanges and broker dealers in 2026 regulatory agenda",
-     "1kx, Blockchain Capital back $7.5 million KOR Protocol Series A at $100 million valuation"
+     "SBI Holdings is sole investor in crypto platform EDX Markets' $76 million Series C"
     ]
    }
   ]
  },
  "whaleFeed": {
-  "at": "2026-07-08T04:07:44.545Z",
+  "at": "2026-07-08T10:04:08.412Z",
   "netFlow": [
    [
-    "MON",
-    8037.575317
-   ],
-   [
     "ETH",
-    -2194.1331
+    2087.77749
    ],
    [
-    "ADA",
-    2100.81158
+    "AVAX",
+    1999.9204960000002
    ],
    [
-    "WLD",
-    1999.946872
-   ],
-   [
-    "PAXG",
-    1304.6135
+    "SUI",
+    1213.917028
    ]
   ],
   "rows": [
    {
     "kind": "PERP",
-    "ts": 1783474975000,
+    "ts": 1783497842000,
     "wallet": "0x8def...92dae",
     "chain": "hyperliquid",
     "symbol": "ETH",
-    "action": "INCREASED",
-    "side": "sell",
-    "usd": 2194.1331,
-    "price": 1756.0088835534216,
+    "action": "CLOSED",
+    "side": "buy",
+    "usd": 2087.77749,
+    "price": 1756.353571128123,
     "leverage": 20,
-    "posUsd": 10668.54924,
+    "posUsd": 8575.342620000001,
     "liq": false,
-    "realizedPnl": 0
+    "realizedPnl": -162.97501499999998
    },
    {
     "kind": "PERP",
-    "ts": 1783474810000,
+    "ts": 1783492740000,
     "wallet": "0x8def...92dae",
     "chain": "hyperliquid",
-    "symbol": "ADA",
-    "action": "INCREASED",
+    "symbol": "AVAX",
+    "action": "CLOSED",
     "side": "buy",
-    "usd": 2100.81158,
-    "price": 0.17321995217678102,
+    "usd": 1999.9204960000002,
+    "price": 6.385849977648637,
     "leverage": 10,
-    "posUsd": 5815.44704,
+    "posUsd": 2781.843075,
     "liq": false,
-    "realizedPnl": 0
+    "realizedPnl": 36.00004800000001
    },
    {
     "kind": "PERP",
-    "ts": 1783474662000,
+    "ts": 1783490167000,
     "wallet": "0x8def...92dae",
     "chain": "hyperliquid",
-    "symbol": "WLD",
+    "symbol": "SUI",
     "action": "CLOSED",
     "side": "buy",
-    "usd": 1999.946872,
-    "price": 0.3763047532316029,
+    "usd": 1213.917028,
+    "price": 0.7146994571680896,
     "leverage": 10,
-    "posUsd": 805.9936000000001,
+    "posUsd": 3069.6778620000005,
     "liq": false,
-    "realizedPnl": -31.754020999999998
-   },
-   {
-    "kind": "PERP",
-    "ts": 1783471909000,
-    "wallet": "0x8def...92dae",
-    "chain": "hyperliquid",
-    "symbol": "PAXG",
-    "action": "INCREASED",
-    "side": "buy",
-    "usd": 1304.6135,
-    "price": 4115.5,
-    "leverage": 10,
-    "posUsd": 9609.6925,
-    "liq": false,
-    "realizedPnl": 0
-   },
-   {
-    "kind": "PERP",
-    "ts": 1783461361000,
-    "wallet": "0x8def...92dae",
-    "chain": "hyperliquid",
-    "symbol": "MON",
-    "action": "CLOSED",
-    "side": "buy",
-    "usd": 1040.064141,
-    "price": 0.02430226747201907,
-    "leverage": 5,
-    "posUsd": 58.16018,
-    "liq": false,
-    "realizedPnl": 39.875357
-   },
-   {
-    "kind": "PERP",
-    "ts": 1783461300000,
-    "wallet": "0x8def...92dae",
-    "chain": "hyperliquid",
-    "symbol": "MON",
-    "action": "CLOSED",
-    "side": "buy",
-    "usd": 1947.4856099999997,
-    "price": 0.024314999999999996,
-    "leverage": 5,
-    "posUsd": 1098.84348,
-    "liq": false,
-    "realizedPnl": 73.60638600000001
-   },
-   {
-    "kind": "PERP",
-    "ts": 1783461247000,
-    "wallet": "0x8def...92dae",
-    "chain": "hyperliquid",
-    "symbol": "MON",
-    "action": "CLOSED",
-    "side": "buy",
-    "usd": 1999.9663810000002,
-    "price": 0.024273498731688374,
-    "leverage": 5,
-    "posUsd": 3040.4406480000002,
-    "liq": false,
-    "realizedPnl": 79.138581
-   },
-   {
-    "kind": "PERP",
-    "ts": 1783461123000,
-    "wallet": "0x8def...92dae",
-    "chain": "hyperliquid",
-    "symbol": "MON",
-    "action": "CLOSED",
-    "side": "buy",
-    "usd": 1999.971757,
-    "price": 0.02429449912538568,
-    "leverage": 5,
-    "posUsd": 5164.7584099999995,
-    "liq": false,
-    "realizedPnl": 77.34159100000001
-   },
-   {
-    "kind": "PERP",
-    "ts": 1783457041000,
-    "wallet": "0x8def...92dae",
-    "chain": "hyperliquid",
-    "symbol": "MON",
-    "action": "CLOSED",
-    "side": "buy",
-    "usd": 1050.087428,
-    "price": 0.024583,
-    "leverage": 5,
-    "posUsd": null,
-    "liq": false,
-    "realizedPnl": 25.416020000000003
+    "realizedPnl": 22.760822
    }
   ],
-  "totalEvents": 9
+  "totalEvents": 3
  },
  "column": {
   "ts": "2026-07-08T04:07:53.394Z",
