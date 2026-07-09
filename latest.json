@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-09T04:10:06.032Z",
+ "generatedAt": "2026-07-09T04:15:09.797Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 369.8
+   "account": 369.24
   },
   "machine": {
    "label": "Hermes",
@@ -38,7 +38,7 @@
    "losses": 9,
    "wr": "40",
    "pnl": -46.54,
-   "account": 462,
+   "account": 462.01,
    "retPct": -7.6,
    "accountRealized": 453.46
   },
@@ -64,8 +64,8 @@
    "losses": 15,
    "wr": "44",
    "pnl": -206.26,
-   "account": 369.8,
-   "retPct": -26,
+   "account": 369.24,
+   "retPct": -26.2,
    "accountRealized": 293.74
   }
  ],
@@ -1792,18 +1792,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-08T04:15:00.000Z",
-   "hl": 0,
-   "hl_spot": 462.00245700000005,
-   "grvt": 539.956066,
-   "extended": 333.757443,
-   "capital": 1335.715966,
-   "qwen": 451.28,
-   "openclaw": 462,
-   "hermes": 539.96,
-   "manual": 333.76
-  },
   {
    "ts": "2026-07-08T04:20:00.000Z",
    "hl": 0,
@@ -5247,13 +5235,25 @@
    "openclaw": 462,
    "hermes": 539.96,
    "manual": 369.8
+  },
+  {
+   "ts": "2026-07-09T04:15:00.000Z",
+   "hl": 0,
+   "hl_spot": 462.00520500000005,
+   "grvt": 539.956066,
+   "extended": 369.24285,
+   "capital": 1371.204121,
+   "qwen": 438.06,
+   "openclaw": 462.01,
+   "hermes": 539.96,
+   "manual": 369.24
   }
  ],
  "venuesLive": {
   "hl": 0,
-  "hl_spot": 462.003557,
+  "hl_spot": 462.00520500000005,
   "grvt": 539.956066,
-  "total": 1001.959623
+  "total": 1001.961271
  },
  "openTrades": [],
  "awaiting": [],
@@ -5395,28 +5395,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 62070.32,
-    "change24hPct": -1.23
+    "price": 62040.49,
+    "change24hPct": -1.22
    },
    {
     "symbol": "ETH",
-    "price": 1732.6,
-    "change24hPct": -1.26
+    "price": 1731.49,
+    "change24hPct": -1.29
    },
    {
     "symbol": "BNB",
-    "price": 568.46,
-    "change24hPct": -0.19
+    "price": 567.87,
+    "change24hPct": -0.21
    },
    {
     "symbol": "XRP",
-    "price": 1.088,
-    "change24hPct": -0.8
+    "price": 1.0868,
+    "change24hPct": -0.86
    },
    {
     "symbol": "SOL",
-    "price": 77.38,
-    "change24hPct": -1.75
+    "price": 77.28,
+    "change24hPct": -1.8
    }
   ],
   "fearGreed": {
@@ -5433,14 +5433,14 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.789,
-    "longPct": 64.1,
+    "ratio": 1.791,
+    "longPct": 64.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "ETH",
-    "ratio": 2.081,
-    "longPct": 67.5,
+    "ratio": 2.084,
+    "longPct": 67.6,
     "bias": "CROWDED LONG"
    },
    {
@@ -5451,13 +5451,13 @@
    },
    {
     "asset": "BNB",
-    "ratio": 3.042,
+    "ratio": 3.045,
     "longPct": 75.3,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.775,
+    "ratio": 2.771,
     "longPct": 73.5,
     "bias": "CROWDED LONG"
    }
@@ -5739,36 +5739,50 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 70,
+   "totalPrints7d": 78,
    "minUsdK": 10,
    "accounts": [
+    {
+     "id": 693392,
+     "prints": 7,
+     "volK": 192,
+     "biasK": 192,
+     "equity": 421347,
+     "positions": [
+      {
+       "coin": "HYPE",
+       "side": "LONG",
+       "usdK": 335,
+       "upnlK": 0
+      },
+      {
+       "coin": "NEAR",
+       "side": "LONG",
+       "usdK": 152,
+       "upnlK": 0
+      }
+     ]
+    },
     {
      "id": 313004,
      "prints": 8,
      "volK": 136,
      "biasK": -21,
-     "equity": 68246,
-     "positions": [
-      {
-       "coin": "ETH",
-       "side": "LONG",
-       "usdK": 17,
-       "upnlK": 0
-      }
-     ]
+     "equity": 68250,
+     "positions": []
     },
     {
      "id": 731910,
      "prints": 6,
      "volK": 99,
      "biasK": 11,
-     "equity": 112896,
+     "equity": 114484,
      "positions": [
       {
        "coin": "XAU",
        "side": "LONG",
-       "usdK": 1537,
-       "upnlK": 1
+       "usdK": 1535,
+       "upnlK": 3
       }
      ]
     },
@@ -5777,18 +5791,18 @@
      "prints": 3,
      "volK": 75,
      "biasK": 52,
-     "equity": 1127205,
+     "equity": 1126881,
      "positions": [
       {
        "coin": "LIT",
        "side": "LONG",
-       "usdK": 220,
+       "usdK": 215,
        "upnlK": -5
       },
       {
-       "coin": "HYPE",
+       "coin": "SOL",
        "side": "LONG",
-       "usdK": 189,
+       "usdK": 91,
        "upnlK": 0
       },
       {
@@ -5798,10 +5812,10 @@
        "upnlK": 0
       },
       {
-       "coin": "SOL",
+       "coin": "NVDA",
        "side": "LONG",
-       "usdK": 84,
-       "upnlK": 0
+       "usdK": 77,
+       "upnlK": -2
       }
      ]
     },
@@ -5810,7 +5824,7 @@
      "prints": 4,
      "volK": 70,
      "biasK": 70,
-     "equity": 150732,
+     "equity": 150504,
      "positions": [
       {
        "coin": "BTC",
@@ -5827,41 +5841,8 @@
       {
        "coin": "SOL",
        "side": "LONG",
-       "usdK": 155,
+       "usdK": 154,
        "upnlK": -5
-      }
-     ]
-    },
-    {
-     "id": 281474976626698,
-     "prints": 1,
-     "volK": 68,
-     "biasK": -68,
-     "equity": 3412813,
-     "positions": [
-      {
-       "coin": "WTI",
-       "side": "LONG",
-       "usdK": 3344,
-       "upnlK": -46
-      },
-      {
-       "coin": "XAG",
-       "side": "LONG",
-       "usdK": 1137,
-       "upnlK": 204
-      },
-      {
-       "coin": "EURUSD",
-       "side": "LONG",
-       "usdK": 871,
-       "upnlK": 3
-      },
-      {
-       "coin": "XAU",
-       "side": "LONG",
-       "usdK": 739,
-       "upnlK": 18
       }
      ]
     }
@@ -7315,7 +7296,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 462,
+    "equity": 462.01,
     "peak": 528.7
    },
    "GRVT": {
