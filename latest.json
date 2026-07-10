@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-10T08:40:09.422Z",
+ "generatedAt": "2026-07-10T08:45:05.974Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 369.39
+   "account": 367.87
   },
   "machine": {
    "label": "Hermes",
@@ -33,14 +33,14 @@
    "key": "openclaw",
    "label": "OpenClaw",
    "venue": "HL",
-   "trades": 16,
+   "trades": 17,
    "wins": 6,
-   "losses": 10,
-   "wr": "38",
-   "pnl": -58.65,
+   "losses": 11,
+   "wr": "35",
+   "pnl": -65.25,
    "account": 442.86,
    "retPct": -11.4,
-   "accountRealized": 441.35
+   "accountRealized": 434.75
   },
   {
    "key": "hermes",
@@ -64,8 +64,8 @@
    "losses": 15,
    "wr": "44",
    "pnl": -206.26,
-   "account": 369.39,
-   "retPct": -26.1,
+   "account": 367.87,
+   "retPct": -26.4,
    "accountRealized": 293.74
   }
  ],
@@ -93,7 +93,8 @@
    "07-02",
    "07-06",
    "07-08",
-   "07-09"
+   "07-09",
+   "07-10"
   ],
   "bySource": {
    "qwen": [
@@ -118,6 +119,7 @@
     447.22,
     444.26,
     444.26,
+    438.06,
     438.06,
     438.06
    ],
@@ -144,7 +146,8 @@
     461.78,
     453.46,
     453.46,
-    441.35
+    441.35,
+    434.75
    ],
    "hermes": [
     500,
@@ -161,6 +164,7 @@
     524.36,
     524.36,
     550.6,
+    538.74,
     538.74,
     538.74,
     538.74,
@@ -189,6 +193,7 @@
     311.79,
     303.97,
     303.97,
+    293.74,
     293.74,
     293.74,
     293.74,
@@ -2133,18 +2138,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-09T08:45:00.000Z",
-   "hl": 0,
-   "hl_spot": 462.00520500000005,
-   "grvt": 539.956066,
-   "extended": 382.130552,
-   "capital": 1384.091823,
-   "qwen": 438.06,
-   "openclaw": 462.01,
-   "hermes": 539.96,
-   "manual": 382.13
-  },
   {
    "ts": "2026-07-09T08:50:00.000Z",
    "hl": 0,
@@ -5588,6 +5581,18 @@
    "openclaw": 442.86,
    "hermes": 539.96,
    "manual": 369.39
+  },
+  {
+   "ts": "2026-07-10T08:45:00.000Z",
+   "hl": 0,
+   "hl_spot": 442.857364,
+   "grvt": 539.956066,
+   "extended": 367.872123,
+   "capital": 1350.6855529999998,
+   "qwen": 438.06,
+   "openclaw": 442.86,
+   "hermes": 539.96,
+   "manual": 367.87
   }
  ],
  "venuesLive": {
@@ -5626,21 +5631,6 @@
    "openedAt": "2026-07-10T04:05:28.091Z",
    "thesis": "LIT is a historical EDGE asset (75% WR) and smart-money HL positioning is currently net long +$12.0M with price already up 5.59% in 24h, confirming live momentum. Funding is rich on HL (76.4% APR vs 10.9% Bin) which flags crowded longs, but the smart-money net-long confirmation outweighs the crowding risk at current size.",
    "smartMoney": null
-  },
-  {
-   "id": 238,
-   "asset": "XRP",
-   "direction": "SHORT",
-   "actor": "openclaw",
-   "venue": "HL",
-   "entry": 1.089,
-   "stop": 1.11078,
-   "target": 1.04,
-   "levelsApprox": true,
-   "conviction": 6,
-   "openedAt": "2026-07-09T16:04:16.346Z",
-   "thesis": "XRP open interest is falling (-3.4%/24h) while price also falls — classic distribution/long-unwind signature, confirmed by bearish RSI4h (41.19) and MACD. HL funding is richer than Binance by 5.2%, meaning HL longs are the crowded, vulnerable side into further downside. Trending market structure (ER 0.413) supports a with-trend short.",
-   "smartMoney": null
   }
  ],
  "awaiting": [
@@ -5668,6 +5658,17 @@
   }
  ],
  "recentCloses": [
+  {
+   "id": 238,
+   "asset": "XRP",
+   "direction": "SHORT",
+   "actor": "openclaw",
+   "venue": "HL",
+   "outcome": "LOSS",
+   "pct": -2.3,
+   "exitReason": null,
+   "closedAt": "2026-07-10T08:29:41.666Z"
+  },
   {
    "id": 237,
    "asset": "ARB",
@@ -5788,45 +5789,34 @@
    "pct": -4.4,
    "exitReason": "Manual LONG on Extended — entry $0.01902 → exit $0.01818 (-4.42% move 10x), realised $-10.23 → LOSS.",
    "closedAt": "2026-06-30T12:24:05.294Z"
-  },
-  {
-   "id": 227,
-   "asset": "BTC",
-   "direction": "SHORT",
-   "actor": "qwen",
-   "venue": "PAPER",
-   "outcome": "WIN",
-   "pct": 1.3,
-   "exitReason": "SHORT BTC: hit target +1.3% (entry $60400 → exit $59600). WHY: Mechanism played out: scanner flagged weakness that materialized into quick pullback before broader support held.",
-   "closedAt": "2026-06-30T04:16:26.970Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64194.87,
-    "change24hPct": 1.74
+    "price": 64200,
+    "change24hPct": 1.84
    },
    {
     "symbol": "ETH",
-    "price": 1785.05,
-    "change24hPct": 1.57
+    "price": 1785.53,
+    "change24hPct": 1.58
    },
    {
     "symbol": "BNB",
-    "price": 576.02,
-    "change24hPct": 0.54
+    "price": 576.1,
+    "change24hPct": 0.49
    },
    {
     "symbol": "XRP",
-    "price": 1.1138,
-    "change24hPct": 1.44
+    "price": 1.1133,
+    "change24hPct": 1.42
    },
    {
     "symbol": "SOL",
-    "price": 79.32,
-    "change24hPct": 1.32
+    "price": 79.37,
+    "change24hPct": 1.39
    }
   ],
   "fearGreed": {
@@ -6272,7 +6262,7 @@
   ]
  },
  "intel": {
-  "ageH": 5.2,
+  "ageH": 5.3,
   "narratives": [
    "* Robotics & AI Application Layer: Gaining massive traction as commentators predict a multi-decade \"super cycle\" (X), while investment newsletters rotate capital out of hardware and into humanoid robotics and AI applicat",
    "* Onchain Retail Trading Infrastructure: Driven by the launch of Robinhood Chain on the fomo app—enabling users to trade memecoins with a unified USD balance (newsletter)—and a joint CFTC filing by Hyperliquid and Phanto",
@@ -6450,6 +6440,22 @@
   }
  ],
  "archive": [
+  {
+   "id": 238,
+   "asset": "XRP",
+   "direction": "SHORT",
+   "actor": "openclaw",
+   "venue": "HL",
+   "outcome": "LOSS",
+   "pct": -2.3,
+   "pnlUsd": -6.6,
+   "exitReason": null,
+   "closedAt": "2026-07-10T08:29:41.666Z",
+   "entry": 1.089,
+   "exit": 1.1141,
+   "conviction": 6,
+   "openedAt": "2026-07-09T16:04:16.346Z"
+  },
   {
    "id": 237,
    "asset": "ARB",
@@ -7705,7 +7711,7 @@
     "actor": "openclaw",
     "halted": true,
     "rule": "consecutive_loss_agent",
-    "reason": "openclaw: 3 consecutive losses, last one 15.0h ago. openclaw cooldown 9.0h remaining (other agents unaffected).",
+    "reason": "openclaw: 3 consecutive losses, last one 0.3h ago. openclaw cooldown 23.7h remaining (other agents unaffected).",
     "equity": 442.86,
     "peak": 528.7
    },
@@ -7719,9 +7725,9 @@
    }
   },
   "streaks": {
-   "openclaw": 3,
+   "openclaw": 4,
    "hermes": 0,
-   "fleet": 2
+   "fleet": 3
   },
   "limits": {
    "dailyLossPct": 7.5,
