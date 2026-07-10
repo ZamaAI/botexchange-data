@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-10T00:40:07.627Z",
+ "generatedAt": "2026-07-10T00:45:07.683Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 361.77
+   "account": 360.63
   },
   "machine": {
    "label": "Hermes",
@@ -38,7 +38,7 @@
    "losses": 10,
    "wr": "38",
    "pnl": -58.65,
-   "account": 448.78,
+   "account": 448.89,
    "retPct": -10.2,
    "accountRealized": 441.35
   },
@@ -64,8 +64,8 @@
    "losses": 15,
    "wr": "44",
    "pnl": -206.26,
-   "account": 361.77,
-   "retPct": -27.6,
+   "account": 360.63,
+   "retPct": -27.9,
    "accountRealized": 293.74
   }
  ],
@@ -2037,18 +2037,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-09T00:45:00.000Z",
-   "hl": 0,
-   "hl_spot": 462.00520500000005,
-   "grvt": 539.956066,
-   "extended": 367.92188,
-   "capital": 1369.883151,
-   "qwen": 438.06,
-   "openclaw": 462.01,
-   "hermes": 539.96,
-   "manual": 367.92
-  },
   {
    "ts": "2026-07-09T00:50:00.000Z",
    "hl": 0,
@@ -5492,13 +5480,25 @@
    "openclaw": 448.78,
    "hermes": 539.96,
    "manual": 361.77
+  },
+  {
+   "ts": "2026-07-10T00:45:00.000Z",
+   "hl": -0.33,
+   "hl_spot": 449.22218499999997,
+   "grvt": 539.956066,
+   "extended": 360.630752,
+   "capital": 1349.479003,
+   "qwen": 438.06,
+   "openclaw": 448.89,
+   "hermes": 539.96,
+   "manual": 360.63
   }
  ],
  "venuesLive": {
-  "hl": -0.385,
-  "hl_spot": 449.16718499999996,
+  "hl": -0.33,
+  "hl_spot": 449.22218499999997,
   "grvt": 539.956066,
-  "total": 988.738251
+  "total": 988.8482509999999
  },
  "openTrades": [
   {
@@ -5679,28 +5679,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63092.6,
-    "change24hPct": 1.49
+    "price": 63040.24,
+    "change24hPct": 1.36
    },
    {
     "symbol": "ETH",
-    "price": 1741.22,
-    "change24hPct": 0.1
+    "price": 1740.56,
+    "change24hPct": 0.04
    },
    {
     "symbol": "BNB",
-    "price": 569.4,
-    "change24hPct": 0.15
+    "price": 569.51,
+    "change24hPct": 0.17
    },
    {
     "symbol": "XRP",
-    "price": 1.0918,
-    "change24hPct": 0.28
+    "price": 1.0913,
+    "change24hPct": 0.23
    },
    {
     "symbol": "SOL",
-    "price": 78.04,
-    "change24hPct": 0.54
+    "price": 77.96,
+    "change24hPct": 0.45
    }
   ],
   "fearGreed": {
@@ -5717,32 +5717,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.459,
-    "longPct": 59.3,
+    "ratio": 1.461,
+    "longPct": 59.4,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.056,
-    "longPct": 67.3,
+    "ratio": 2.064,
+    "longPct": 67.4,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.14,
-    "longPct": 68.2,
+    "ratio": 2.135,
+    "longPct": 68.1,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 3.108,
-    "longPct": 75.7,
+    "ratio": 3.093,
+    "longPct": 75.6,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.854,
-    "longPct": 74.1,
+    "ratio": 2.834,
+    "longPct": 73.9,
     "bias": "CROWDED LONG"
    }
   ],
@@ -6057,26 +6057,45 @@
      "prints": 15,
      "volK": 581,
      "biasK": -581,
-     "equity": 35556,
-     "positions": []
+     "equity": 33757,
+     "positions": [
+      {
+       "coin": "BTC",
+       "side": "LONG",
+       "usdK": 458,
+       "upnlK": 0
+      },
+      {
+       "coin": "ARB",
+       "side": "LONG",
+       "usdK": 224,
+       "upnlK": -2
+      }
+     ]
     },
     {
      "id": 731910,
      "prints": 18,
      "volK": 527,
      "biasK": -339,
-     "equity": 100094,
+     "equity": 98868,
      "positions": [
       {
        "coin": "XAU",
        "side": "LONG",
-       "usdK": 824,
-       "upnlK": 1
+       "usdK": 825,
+       "upnlK": 0
       },
       {
        "coin": "SOL",
        "side": "LONG",
        "usdK": 190,
+       "upnlK": -1
+      },
+      {
+       "coin": "WLD",
+       "side": "LONG",
+       "usdK": 54,
        "upnlK": 0
       }
      ]
@@ -6086,24 +6105,24 @@
      "prints": 6,
      "volK": 383,
      "biasK": -383,
-     "equity": 3500345,
+     "equity": 3492917,
      "positions": [
       {
        "coin": "WTI",
        "side": "LONG",
-       "usdK": 4808,
-       "upnlK": 67
+       "usdK": 4811,
+       "upnlK": 64
       },
       {
        "coin": "XAG",
        "side": "LONG",
-       "usdK": 1166,
-       "upnlK": 164
+       "usdK": 1169,
+       "upnlK": 160
       },
       {
        "coin": "BRENTOIL",
        "side": "LONG",
-       "usdK": 963,
+       "usdK": 965,
        "upnlK": 4
       },
       {
@@ -6127,13 +6146,13 @@
      "prints": 7,
      "volK": 192,
      "biasK": 192,
-     "equity": 423265,
+     "equity": 423390,
      "positions": [
       {
        "coin": "ETH",
        "side": "LONG",
        "usdK": 174,
-       "upnlK": 0
+       "upnlK": 1
       }
      ]
     }
@@ -6167,7 +6186,7 @@
   ]
  },
  "intel": {
-  "ageH": 3.2,
+  "ageH": 3.3,
   "narratives": [
    "AI Arms Race: Intense focus on rapid model releases (Grok 4.5, Muse Spark 1.1, GPT 5.6) and infrastructure spending by Meta, Anthropic, and SpaceX. (X)",
    "Agentic Trading/L1s: BNB Chain's new L1 for agentic trading with sub-50ms pre-verification. (newsletter)",
@@ -7599,8 +7618,8 @@
     "actor": "openclaw",
     "halted": true,
     "rule": "consecutive_loss_agent",
-    "reason": "openclaw: 3 consecutive losses, last one 7.0h ago. openclaw cooldown 17.0h remaining (other agents unaffected).",
-    "equity": 448.78,
+    "reason": "openclaw: 3 consecutive losses, last one 7.1h ago. openclaw cooldown 16.9h remaining (other agents unaffected).",
+    "equity": 448.89,
     "peak": 528.7
    },
    "GRVT": {
