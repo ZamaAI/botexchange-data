@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-11T23:25:09.750Z",
+ "generatedAt": "2026-07-11T23:30:07.349Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 437.36
+   "account": 436.21
   },
   "machine": {
    "label": "Hermes",
@@ -33,14 +33,14 @@
    "key": "openclaw",
    "label": "OpenClaw",
    "venue": "HL",
-   "trades": 20,
+   "trades": 21,
    "wins": 6,
-   "losses": 14,
-   "wr": "30",
-   "pnl": -100.14,
-   "account": 424,
-   "retPct": -15.2,
-   "accountRealized": 399.86
+   "losses": 15,
+   "wr": "29",
+   "pnl": -107.77,
+   "account": 425.13,
+   "retPct": -15,
+   "accountRealized": 392.23
   },
   {
    "key": "hermes",
@@ -64,8 +64,8 @@
    "losses": 15,
    "wr": "48",
    "pnl": -158.35,
-   "account": 437.36,
-   "retPct": -12.5,
+   "account": 436.21,
+   "retPct": -12.8,
    "accountRealized": 341.65
   }
  ],
@@ -150,7 +150,7 @@
     453.46,
     441.35,
     434.75,
-    399.86
+    392.23
    ],
    "hermes": [
     500,
@@ -2611,18 +2611,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-10T23:30:00.000Z",
-   "hl": 0,
-   "hl_spot": 442.85186799999997,
-   "grvt": 539.956066,
-   "extended": 442.557904,
-   "capital": 1425.365838,
-   "qwen": 438.06,
-   "openclaw": 442.85,
-   "hermes": 539.96,
-   "manual": 442.56
-  },
   {
    "ts": "2026-07-10T23:35:00.000Z",
    "hl": 0,
@@ -6066,30 +6054,27 @@
    "openclaw": 424,
    "hermes": 539.96,
    "manual": 437.36
+  },
+  {
+   "ts": "2026-07-11T23:30:00.000Z",
+   "hl": -4.837248,
+   "hl_spot": 429.96570299999996,
+   "grvt": 539.956066,
+   "extended": 436.213549,
+   "capital": 1401.29807,
+   "qwen": 438.06,
+   "openclaw": 425.13,
+   "hermes": 539.96,
+   "manual": 436.21
   }
  ],
  "venuesLive": {
-  "hl": -5.367648,
-  "hl_spot": 429.36458300000004,
+  "hl": -4.837248,
+  "hl_spot": 429.96570299999996,
   "grvt": 539.956066,
-  "total": 963.9530010000001
+  "total": 965.084521
  },
  "openTrades": [
-  {
-   "id": 248,
-   "asset": "ARB",
-   "direction": "LONG",
-   "actor": "openclaw",
-   "venue": "HL",
-   "entry": 0.0989,
-   "stop": 0.095933,
-   "target": 0.105329,
-   "levelsApprox": true,
-   "conviction": 5,
-   "openedAt": "2026-07-11T22:03:13.462Z",
-   "thesis": "ARB is in a confirmed TREND regime (ER 0.508) with 24h +5.96% and 7d +22.49%, and our structure playbook favors with-trend entries in TREND-classified coins as the best-performing bucket. A single small whale close ($4k) is noise against the broader momentum, though the 16 Jul token unlock caps upside conviction, keeping this a tighter swing rather than a runner.",
-   "smartMoney": null
-  },
   {
    "id": 247,
    "asset": "WLD",
@@ -6153,6 +6138,17 @@
  ],
  "awaiting": [],
  "recentCloses": [
+  {
+   "id": 248,
+   "asset": "ARB",
+   "direction": "LONG",
+   "actor": "openclaw",
+   "venue": "HL",
+   "outcome": "LOSS",
+   "pct": -3.1,
+   "exitReason": null,
+   "closedAt": "2026-07-11T23:22:09.821Z"
+  },
   {
    "id": 243,
    "asset": "ARB",
@@ -6273,45 +6269,34 @@
    "pct": -1,
    "exitReason": "SHORT BTC: stopped out at SL -1.0% (entry $60800 → exit $61400). WHY: Scanner signal ignored choppy conditions; chased into range instead of fading upper bound—thesis never triggered in mushy-middle.",
    "closedAt": "2026-07-02T12:15:13.939Z"
-  },
-  {
-   "id": 223,
-   "asset": "XRP",
-   "direction": "SHORT",
-   "actor": "openclaw",
-   "venue": "HL",
-   "outcome": "LOSS",
-   "pct": -3.1,
-   "exitReason": "SHORT XRP: stopped out at SL -3.1% (entry $1.053 → exit $1.0853). WHY: Shorts crowded signal reversed into squeeze before depressed RSI could drive lower, breaking the mechanism.",
-   "closedAt": "2026-07-02T11:24:50.504Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63914.01,
-    "change24hPct": -0.39
+    "price": 63918,
+    "change24hPct": -0.42
    },
    {
     "symbol": "ETH",
-    "price": 1798.44,
-    "change24hPct": 0.1
+    "price": 1795.36,
+    "change24hPct": -0.04
    },
    {
     "symbol": "BNB",
-    "price": 576.94,
-    "change24hPct": 0.12
+    "price": 576.6,
+    "change24hPct": 0.08
    },
    {
     "symbol": "XRP",
-    "price": 1.101,
-    "change24hPct": -0.36
+    "price": 1.1011,
+    "change24hPct": -0.32
    },
    {
     "symbol": "SOL",
-    "price": 77.17,
-    "change24hPct": -1.22
+    "price": 76.95,
+    "change24hPct": -1.43
    }
   ],
   "fearGreed": {
@@ -6944,6 +6929,22 @@
   }
  ],
  "archive": [
+  {
+   "id": 248,
+   "asset": "ARB",
+   "direction": "LONG",
+   "actor": "openclaw",
+   "venue": "HL",
+   "outcome": "LOSS",
+   "pct": -3.1,
+   "pnlUsd": -7.63,
+   "exitReason": null,
+   "closedAt": "2026-07-11T23:22:09.821Z",
+   "entry": 0.0989,
+   "exit": 0.09586,
+   "conviction": 5,
+   "openedAt": "2026-07-11T22:03:13.462Z"
+  },
   {
    "id": 243,
    "asset": "ARB",
@@ -8293,10 +8294,10 @@
   "venues": {
    "HL": {
     "actor": "openclaw",
-    "halted": false,
-    "rule": null,
-    "reason": null,
-    "equity": 424,
+    "halted": true,
+    "rule": "consecutive_loss_agent",
+    "reason": "openclaw: 3 consecutive losses, last one 0.1h ago. openclaw cooldown 23.9h remaining (other agents unaffected).",
+    "equity": 425.13,
     "peak": 528.7
    },
    "GRVT": {
@@ -8309,9 +8310,9 @@
    }
   },
   "streaks": {
-   "openclaw": 4,
+   "openclaw": 5,
    "hermes": 0,
-   "fleet": 3
+   "fleet": 4
   },
   "limits": {
    "dailyLossPct": 7.5,
