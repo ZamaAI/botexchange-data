@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-12T03:50:08.401Z",
+ "generatedAt": "2026-07-12T03:55:08.360Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 434.1
+   "account": 435.1
   },
   "machine": {
    "label": "Hermes",
@@ -38,7 +38,7 @@
    "losses": 15,
    "wr": "29",
    "pnl": -107.77,
-   "account": 427.37,
+   "account": 427.38,
    "retPct": -14.5,
    "accountRealized": 392.23
   },
@@ -64,8 +64,8 @@
    "losses": 15,
    "wr": "48",
    "pnl": -158.35,
-   "account": 434.1,
-   "retPct": -13.2,
+   "account": 435.1,
+   "retPct": -13,
    "accountRealized": 341.65
   }
  ],
@@ -2659,18 +2659,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-11T03:55:00.000Z",
-   "hl": 0,
-   "hl_spot": 442.84911999999997,
-   "grvt": 539.956066,
-   "extended": 440.28908,
-   "capital": 1423.094266,
-   "qwen": 438.06,
-   "openclaw": 442.85,
-   "hermes": 539.96,
-   "manual": 440.29
-  },
   {
    "ts": "2026-07-11T04:00:00.000Z",
    "hl": 0,
@@ -6114,13 +6102,25 @@
    "openclaw": 427.37,
    "hermes": 539.96,
    "manual": 434.1
+  },
+  {
+   "ts": "2026-07-12T03:55:00.000Z",
+   "hl": -3.698656,
+   "hl_spot": 431.082618,
+   "grvt": 539.956066,
+   "extended": 435.097982,
+   "capital": 1402.4380099999998,
+   "qwen": 438.06,
+   "openclaw": 427.38,
+   "hermes": 539.96,
+   "manual": 435.1
   }
  ],
  "venuesLive": {
-  "hl": -3.705728,
-  "hl_spot": 431.07554600000003,
+  "hl": -3.698656,
+  "hl_spot": 431.082618,
   "grvt": 539.956066,
-  "total": 967.325884
+  "total": 967.340028
  },
  "openTrades": [
   {
@@ -6323,28 +6323,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64193.68,
-    "change24hPct": 0.04
+    "price": 64165.87,
+    "change24hPct": -0.02
    },
    {
     "symbol": "ETH",
-    "price": 1810.28,
-    "change24hPct": 0.74
+    "price": 1810.41,
+    "change24hPct": 0.7
    },
    {
     "symbol": "BNB",
-    "price": 575.17,
-    "change24hPct": -0.07
+    "price": 575.01,
+    "change24hPct": -0.08
    },
    {
     "symbol": "XRP",
-    "price": 1.0994,
+    "price": 1.0993,
     "change24hPct": -0.8
    },
    {
     "symbol": "SOL",
-    "price": 77,
-    "change24hPct": -1.04
+    "price": 76.96,
+    "change24hPct": -1.16
    }
   ],
   "fearGreed": {
@@ -6361,32 +6361,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.284,
+    "ratio": 1.285,
     "longPct": 56.2,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 1.704,
+    "ratio": 1.706,
     "longPct": 63,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.301,
+    "ratio": 2.303,
     "longPct": 69.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 3.034,
+    "ratio": 3.039,
     "longPct": 75.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.945,
-    "longPct": 74.7,
+    "ratio": 2.942,
+    "longPct": 74.6,
     "bias": "CROWDED LONG"
    }
   ],
@@ -6723,7 +6723,7 @@
      "prints": 30,
      "volK": 985,
      "biasK": -627,
-     "equity": 210040,
+     "equity": 210079,
      "positions": [
       {
        "coin": "XAU",
@@ -6740,7 +6740,7 @@
       {
        "coin": "HOOD",
        "side": "LONG",
-       "usdK": 126,
+       "usdK": 127,
        "upnlK": -1
       }
      ]
@@ -6750,22 +6750,15 @@
      "prints": 45,
      "volK": 734,
      "biasK": -63,
-     "equity": 68173,
-     "positions": [
-      {
-       "coin": "ETH",
-       "side": "LONG",
-       "usdK": 1,
-       "upnlK": 0
-      }
-     ]
+     "equity": 68161,
+     "positions": []
     },
     {
      "id": 730109,
      "prints": 19,
      "volK": 725,
      "biasK": -437,
-     "equity": 7752,
+     "equity": 7817,
      "positions": []
     }
    ]
@@ -8343,7 +8336,7 @@
     "halted": true,
     "rule": "consecutive_loss_agent",
     "reason": "openclaw: 3 consecutive losses, last one 4.5h ago. openclaw cooldown 19.5h remaining (other agents unaffected).",
-    "equity": 427.37,
+    "equity": 427.38,
     "peak": 528.7
    },
    "GRVT": {
