@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-12T04:50:09.312Z",
+ "generatedAt": "2026-07-12T04:55:07.042Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -38,8 +38,8 @@
    "losses": 15,
    "wr": "29",
    "pnl": -107.77,
-   "account": 425.07,
-   "retPct": -15,
+   "account": 425.41,
+   "retPct": -14.9,
    "accountRealized": 392.23
   },
   {
@@ -2671,18 +2671,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-11T04:55:00.000Z",
-   "hl": 0,
-   "hl_spot": 442.857364,
-   "grvt": 539.956066,
-   "extended": 441.301034,
-   "capital": 1424.114464,
-   "qwen": 438.06,
-   "openclaw": 442.86,
-   "hermes": 539.96,
-   "manual": 441.3
-  },
   {
    "ts": "2026-07-11T05:00:00.000Z",
    "hl": 0,
@@ -6126,13 +6114,25 @@
    "openclaw": 425.07,
    "hermes": 539.96,
    "manual": 435.82
+  },
+  {
+   "ts": "2026-07-12T04:55:00.000Z",
+   "hl": -4.681664,
+   "hl_spot": 430.09454700000003,
+   "grvt": 539.956066,
+   "extended": 435.823963,
+   "capital": 1401.192912,
+   "qwen": 438.06,
+   "openclaw": 425.41,
+   "hermes": 539.96,
+   "manual": 435.82
   }
  ],
  "venuesLive": {
-  "hl": -4.851392,
-  "hl_spot": 429.92481899999996,
+  "hl": -4.681664,
+  "hl_spot": 430.09454700000003,
   "grvt": 539.956066,
-  "total": 965.029493
+  "total": 965.3689489999999
  },
  "openTrades": [
   {
@@ -6335,28 +6335,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63990,
-    "change24hPct": -0.26
-   },
-   {
-    "symbol": "ETH",
-    "price": 1805.82,
-    "change24hPct": 0.45
-   },
-   {
-    "symbol": "BNB",
-    "price": 574.27,
+    "price": 63999.99,
     "change24hPct": -0.2
    },
    {
+    "symbol": "ETH",
+    "price": 1805.61,
+    "change24hPct": 0.53
+   },
+   {
+    "symbol": "BNB",
+    "price": 574.34,
+    "change24hPct": -0.15
+   },
+   {
     "symbol": "XRP",
-    "price": 1.0951,
-    "change24hPct": -0.89
+    "price": 1.095,
+    "change24hPct": -0.84
    },
    {
     "symbol": "SOL",
-    "price": 76.66,
-    "change24hPct": -1.43
+    "price": 76.65,
+    "change24hPct": -1.33
    }
   ],
   "fearGreed": {
@@ -6373,31 +6373,31 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.283,
+    "ratio": 1.284,
     "longPct": 56.2,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 1.682,
+    "ratio": 1.679,
     "longPct": 62.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.287,
+    "ratio": 2.285,
     "longPct": 69.6,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 3.032,
+    "ratio": 3.026,
     "longPct": 75.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.939,
+    "ratio": 2.94,
     "longPct": 74.6,
     "bias": "CROWDED LONG"
    }
@@ -6759,7 +6759,7 @@
      "prints": 30,
      "volK": 985,
      "biasK": -627,
-     "equity": 210031,
+     "equity": 210177,
      "positions": [
       {
        "coin": "XAU",
@@ -6786,15 +6786,22 @@
      "prints": 45,
      "volK": 734,
      "biasK": -63,
-     "equity": 68149,
-     "positions": []
+     "equity": 68146,
+     "positions": [
+      {
+       "coin": "ETH",
+       "side": "LONG",
+       "usdK": 0,
+       "upnlK": 0
+      }
+     ]
     },
     {
      "id": 730109,
      "prints": 19,
      "volK": 725,
      "biasK": -437,
-     "equity": 6960,
+     "equity": 7253,
      "positions": [
       {
        "coin": "ETH",
@@ -8385,7 +8392,7 @@
     "halted": true,
     "rule": "consecutive_loss_agent",
     "reason": "openclaw: 3 consecutive losses, last one 5.5h ago. openclaw cooldown 18.5h remaining (other agents unaffected).",
-    "equity": 425.07,
+    "equity": 425.41,
     "peak": 528.7
    },
    "GRVT": {
