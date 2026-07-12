@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-12T14:25:05.595Z",
+ "generatedAt": "2026-07-12T14:30:07.842Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 431.58
+   "account": 431.64
   },
   "machine": {
    "label": "Hermes",
@@ -38,7 +38,7 @@
    "losses": 15,
    "wr": "29",
    "pnl": -107.77,
-   "account": 455.09,
+   "account": 455.05,
    "retPct": -9,
    "accountRealized": 392.23
   },
@@ -64,7 +64,7 @@
    "losses": 15,
    "wr": "48",
    "pnl": -158.35,
-   "account": 431.58,
+   "account": 431.64,
    "retPct": -13.7,
    "accountRealized": 341.65
   }
@@ -2791,18 +2791,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-11T14:30:00.000Z",
-   "hl": 0,
-   "hl_spot": 442.84911999999997,
-   "grvt": 539.956066,
-   "extended": 438.781087,
-   "capital": 1421.586273,
-   "qwen": 438.06,
-   "openclaw": 442.85,
-   "hermes": 539.96,
-   "manual": 438.78
-  },
   {
    "ts": "2026-07-11T14:35:00.000Z",
    "hl": 0,
@@ -6222,13 +6210,25 @@
    "openclaw": 455.09,
    "hermes": 539.96,
    "manual": 431.58
+  },
+  {
+   "ts": "2026-07-12T14:30:00.000Z",
+   "hl": 10.155392,
+   "hl_spot": 444.890301,
+   "grvt": 539.956066,
+   "extended": 431.64041,
+   "capital": 1426.642169,
+   "qwen": 438.06,
+   "openclaw": 455.05,
+   "hermes": 539.96,
+   "manual": 431.64
   }
  ],
  "venuesLive": {
-  "hl": 10.176608,
-  "hl_spot": 444.911517,
+  "hl": 10.155392,
+  "hl_spot": 444.890301,
   "grvt": 539.956066,
-  "total": 995.044191
+  "total": 995.001759
  },
  "openTrades": [
   {
@@ -6431,28 +6431,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63996.95,
-    "change24hPct": -0.56
+    "price": 63997.93,
+    "change24hPct": -0.6
    },
    {
     "symbol": "ETH",
-    "price": 1805.41,
-    "change24hPct": 0.02
+    "price": 1805.59,
+    "change24hPct": -0.03
    },
    {
     "symbol": "BNB",
-    "price": 580.24,
-    "change24hPct": -0.32
+    "price": 580.92,
+    "change24hPct": -0.11
    },
    {
     "symbol": "XRP",
-    "price": 1.0971,
-    "change24hPct": -1.38
+    "price": 1.0975,
+    "change24hPct": -1.31
    },
    {
     "symbol": "SOL",
     "price": 77.05,
-    "change24hPct": -1.78
+    "change24hPct": -1.71
    }
   ],
   "fearGreed": {
@@ -6469,32 +6469,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.304,
+    "ratio": 1.303,
     "longPct": 56.6,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 1.687,
+    "ratio": 1.685,
     "longPct": 62.8,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.238,
+    "ratio": 2.232,
     "longPct": 69.1,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.786,
-    "longPct": 73.6,
+    "ratio": 2.774,
+    "longPct": 73.5,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.812,
-    "longPct": 73.8,
+    "ratio": 2.808,
+    "longPct": 73.7,
     "bias": "CROWDED LONG"
    }
   ],
@@ -6844,7 +6844,7 @@
      "prints": 30,
      "volK": 985,
      "biasK": -627,
-     "equity": 212601,
+     "equity": 212470,
      "positions": [
       {
        "coin": "XAU",
@@ -6856,6 +6856,12 @@
        "coin": "SPCX",
        "side": "LONG",
        "usdK": 200,
+       "upnlK": 0
+      },
+      {
+       "coin": "HYPE",
+       "side": "LONG",
+       "usdK": 178,
        "upnlK": 0
       },
       {
@@ -6871,8 +6877,15 @@
      "prints": 49,
      "volK": 799,
      "biasK": -28,
-     "equity": 68190,
-     "positions": []
+     "equity": 68186,
+     "positions": [
+      {
+       "coin": "ETH",
+       "side": "LONG",
+       "usdK": 8,
+       "upnlK": 0
+      }
+     ]
     },
     {
      "id": 730109,
@@ -8459,8 +8472,8 @@
     "actor": "openclaw",
     "halted": true,
     "rule": "consecutive_loss_agent",
-    "reason": "openclaw: 3 consecutive losses, last one 15.0h ago. openclaw cooldown 9.0h remaining (other agents unaffected).",
-    "equity": 455.09,
+    "reason": "openclaw: 3 consecutive losses, last one 15.1h ago. openclaw cooldown 8.9h remaining (other agents unaffected).",
+    "equity": 455.05,
     "peak": 528.7
    },
    "GRVT": {
