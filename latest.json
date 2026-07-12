@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-12T15:35:10.772Z",
+ "generatedAt": "2026-07-12T15:40:08.168Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 433.68
+   "account": 434.02
   },
   "machine": {
    "label": "Hermes",
@@ -38,8 +38,8 @@
    "losses": 15,
    "wr": "29",
    "pnl": -107.77,
-   "account": 464.7,
-   "retPct": -7.1,
+   "account": 465.79,
+   "retPct": -6.8,
    "accountRealized": 392.23
   },
   {
@@ -64,8 +64,8 @@
    "losses": 15,
    "wr": "48",
    "pnl": -158.35,
-   "account": 433.68,
-   "retPct": -13.3,
+   "account": 434.02,
+   "retPct": -13.2,
    "accountRealized": 341.65
   }
  ],
@@ -2803,18 +2803,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-11T15:40:00.000Z",
-   "hl": 0,
-   "hl_spot": 442.857364,
-   "grvt": 539.956066,
-   "extended": 438.02204,
-   "capital": 1420.83547,
-   "qwen": 438.06,
-   "openclaw": 442.86,
-   "hermes": 539.96,
-   "manual": 438.02
-  },
   {
    "ts": "2026-07-11T15:45:00.000Z",
    "hl": 0,
@@ -6234,13 +6222,25 @@
    "openclaw": 464.7,
    "hermes": 539.96,
    "manual": 433.68
+  },
+  {
+   "ts": "2026-07-12T15:40:00.000Z",
+   "hl": 15.530112,
+   "hl_spot": 450.261263,
+   "grvt": 539.956066,
+   "extended": 434.015391,
+   "capital": 1439.762832,
+   "qwen": 438.06,
+   "openclaw": 465.79,
+   "hermes": 539.96,
+   "manual": 434.02
   }
  ],
  "venuesLive": {
-  "hl": 14.985568,
-  "hl_spot": 449.716719,
+  "hl": 15.530112,
+  "hl_spot": 450.261263,
   "grvt": 539.956066,
-  "total": 1004.658353
+  "total": 1005.747441
  },
  "openTrades": [
   {
@@ -6443,40 +6443,41 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64136.33,
-    "change24hPct": -0.47
+    "price": 64151.02,
+    "change24hPct": 0.08
    },
    {
     "symbol": "ETH",
-    "price": 1820,
-    "change24hPct": -0.22
+    "price": 1820.76,
+    "change24hPct": 0.35
    },
    {
     "symbol": "BNB",
-    "price": 580.3,
-    "change24hPct": -0.11
+    "price": 580.68,
+    "change24hPct": 0.21
    },
    {
     "symbol": "XRP",
-    "price": 1.101,
-    "change24hPct": -1.51
+    "price": 1.1006,
+    "change24hPct": -1.09
    },
    {
     "symbol": "SOL",
-    "price": 77.38,
-    "change24hPct": -1.65
+    "price": 77.35,
+    "change24hPct": -1.12
    }
   ],
   "fearGreed": {
    "value": 26,
    "classification": "Fear"
   },
-  "regime": null,
+  "regime": "NEUTRAL",
   "stockFearGreed": {
    "value": 49,
    "classification": "Neutral",
    "source": "CNN"
   },
+  "equityRegime": "RISK_ON",
   "longShort": [
    {
     "asset": "BTC",
@@ -6508,7 +6509,11 @@
     "longPct": 73.8,
     "bias": "CROWDED LONG"
    }
-  ]
+  ],
+  "btcNqCorr": {
+   "corr": 0.38,
+   "label": "MIXED"
+  }
  },
  "calendar": [
   {
@@ -6932,7 +6937,7 @@
   ]
  },
  "intel": {
-  "ageH": 0.1,
+  "ageH": 0.2,
   "narratives": [
    "* Geopolitical Conflict (Strait of Hormuz): Massive military escalation as Iran closed the Strait of Hormuz indefinitely, hit a commercial vessel, and targeted a US base in Jordan, leading to US retaliatory strikes. (X)",
    "* AI Compute Infrastructure: The cost to build 1 gigawatt of compute doubled to $100B in three months, creating a massive moat for neoclouds like Nebius and CoreWeave with Nvidia backstopping GPU financing. (newsletter)",
@@ -8477,8 +8482,8 @@
     "actor": "openclaw",
     "halted": true,
     "rule": "consecutive_loss_agent",
-    "reason": "openclaw: 3 consecutive losses, last one 16.2h ago. openclaw cooldown 7.8h remaining (other agents unaffected).",
-    "equity": 464.7,
+    "reason": "openclaw: 3 consecutive losses, last one 16.3h ago. openclaw cooldown 7.7h remaining (other agents unaffected).",
+    "equity": 465.79,
     "peak": 528.7
    },
    "GRVT": {
