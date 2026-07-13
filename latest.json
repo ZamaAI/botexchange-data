@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-13T16:25:12.046Z",
+ "generatedAt": "2026-07-13T16:30:17.549Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 402.61
+   "account": 402.36
   },
   "machine": {
    "label": "Hermes",
@@ -38,7 +38,7 @@
    "losses": 18,
    "wr": "28",
    "pnl": -121.19,
-   "account": 461.22,
+   "account": 461,
    "retPct": -7.8,
    "accountRealized": 378.81
   },
@@ -64,7 +64,7 @@
    "losses": 15,
    "wr": "48",
    "pnl": -158.35,
-   "account": 402.61,
+   "account": 402.36,
    "retPct": -19.5,
    "accountRealized": 341.65
   }
@@ -3113,18 +3113,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-12T16:30:00.000Z",
-   "hl": 17.630496,
-   "hl_spot": 452.357879,
-   "grvt": 539.956066,
-   "extended": 435.138717,
-   "capital": 1445.083158,
-   "qwen": 438.06,
-   "openclaw": 469.99,
-   "hermes": 539.96,
-   "manual": 435.14
-  },
   {
    "ts": "2026-07-12T16:35:00.000Z",
    "hl": 17.60928,
@@ -6568,13 +6556,25 @@
    "openclaw": 461.22,
    "hermes": 539.96,
    "manual": 402.61
+  },
+  {
+   "ts": "2026-07-13T16:30:00.000Z",
+   "hl": 6.827598999999999,
+   "hl_spot": 454.175118,
+   "grvt": 539.956066,
+   "extended": 402.355756,
+   "capital": 1403.314539,
+   "qwen": 438.06,
+   "openclaw": 461,
+   "hermes": 539.96,
+   "manual": 402.36
   }
  ],
  "venuesLive": {
-  "hl": 6.985747,
-  "hl_spot": 454.23471900000004,
+  "hl": 6.827598999999999,
+  "hl_spot": 454.175118,
   "grvt": 539.956066,
-  "total": 1001.176532
+  "total": 1000.958783
  },
  "openTrades": [
   {
@@ -6802,28 +6802,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 62314.26,
-    "change24hPct": -2.84
+    "price": 62312.96,
+    "change24hPct": -2.91
    },
    {
     "symbol": "ETH",
-    "price": 1772.82,
-    "change24hPct": -2.71
+    "price": 1771.57,
+    "change24hPct": -2.81
    },
    {
     "symbol": "BNB",
-    "price": 566.77,
+    "price": 566.93,
     "change24hPct": -2.49
    },
    {
     "symbol": "XRP",
-    "price": 1.0693,
-    "change24hPct": -2.85
+    "price": 1.0688,
+    "change24hPct": -3.03
    },
    {
     "symbol": "SOL",
-    "price": 75.5,
-    "change24hPct": -2.63
+    "price": 75.45,
+    "change24hPct": -2.75
    }
   ],
   "fearGreed": {
@@ -6832,22 +6832,22 @@
   },
   "regime": "RISK_OFF",
   "stockFearGreed": {
-   "value": 45,
-   "classification": "Neutral",
+   "value": 44,
+   "classification": "Fear",
    "source": "CNN"
   },
   "equityRegime": "RISK_ON",
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.643,
-    "longPct": 62.2,
+    "ratio": 1.653,
+    "longPct": 62.3,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "ETH",
-    "ratio": 1.963,
-    "longPct": 66.3,
+    "ratio": 1.96,
+    "longPct": 66.2,
     "bias": "CROWDED LONG"
    },
    {
@@ -6858,32 +6858,15 @@
    },
    {
     "asset": "BNB",
-    "ratio": 2.96,
+    "ratio": 2.963,
     "longPct": 74.8,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.687,
+    "ratio": 2.689,
     "longPct": 72.9,
     "bias": "CROWDED LONG"
-   }
-  ],
-  "funding": [
-   {
-    "asset": "BTC",
-    "dailyPct": 0.03,
-    "signal": "NEUTRAL"
-   },
-   {
-    "asset": "ETH",
-    "dailyPct": 0.0059,
-    "signal": "NEUTRAL"
-   },
-   {
-    "asset": "SOL",
-    "dailyPct": 0.0067,
-    "signal": "NEUTRAL"
    }
   ],
   "btcNqCorr": {
@@ -6929,6 +6912,32 @@
    "impact": "HIGH"
   }
  ],
+ "manualBook": {
+  "at": "2026-07-13T16:30:17.549Z",
+  "positions": [
+   {
+    "asset": "AAPL",
+    "stock": true,
+    "direction": "LONG",
+    "entry": 276.29,
+    "pnlPct": 14.86
+   },
+   {
+    "asset": "LIT",
+    "stock": false,
+    "direction": "LONG",
+    "entry": 2.6036,
+    "pnlPct": -9.49
+   },
+   {
+    "asset": "ASTER",
+    "stock": false,
+    "direction": "LONG",
+    "entry": 0.62137,
+    "pnlPct": -0.41
+   }
+  ]
+ },
  "report": {
   "xPost": "Zama Sentinel — market in neutral drift. 9/18 bias signals active, imbalance 1. No high-conviction setup. Standing down until multiple signals confirm direction. BTC $62,549.",
   "intelligence": "SUMMARY\nMarket is in a sharp correction phase with BTC down 2.46% and broad tech weakness driven by geopolitical headlines regarding Hormuz Strait risks. The dominant signal is long-liquidation dominance ($51M vs $16M shorts) indicating forced selling rather than organic demand exhaustion, though ETF inflows of $90M suggest institutional dry powder remains intact near support. Risk profile has shifted from accumulation to defensive positioning as the 24h volatility spike pushes FEAR & GREED into extreme fear territory (28/100).\n\nIN-DEPTH ANALYSIS\nThe morning thesis of a potential bottom is invalidated by sustained selling pressure and rising long liquidations, suggesting we are in an intermediate correction rather than immediate capitulation. Divergence exists between retail panic and institutional flow: while spot ETFs absorbed $90M today, the broader market cap dropped 2.1%, indicating",
@@ -7244,12 +7253,12 @@
      "prints": 23,
      "volK": 5992,
      "biasK": -2572,
-     "equity": 22105,
+     "equity": 22163,
      "positions": [
       {
        "coin": "SKHYNIXUSD",
        "side": "LONG",
-       "usdK": 47,
+       "usdK": 93,
        "upnlK": 0
       }
      ]
@@ -7259,12 +7268,18 @@
      "prints": 38,
      "volK": 1180,
      "biasK": -433,
-     "equity": 233389,
+     "equity": 233910,
      "positions": [
       {
        "coin": "BRENTOIL",
        "side": "LONG",
        "usdK": 200,
+       "upnlK": 0
+      },
+      {
+       "coin": "SPCX",
+       "side": "LONG",
+       "usdK": 162,
        "upnlK": 0
       }
      ]
@@ -7274,8 +7289,15 @@
      "prints": 57,
      "volK": 934,
      "biasK": -44,
-     "equity": 68440,
-     "positions": []
+     "equity": 68436,
+     "positions": [
+      {
+       "coin": "ETH",
+       "side": "LONG",
+       "usdK": 4,
+       "upnlK": 0
+      }
+     ]
     },
     {
      "id": 730109,
@@ -7315,7 +7337,7 @@
   ]
  },
  "intel": {
-  "ageH": 6.9,
+  "ageH": 7,
   "narratives": [
    "* Real-World Assets (RWA): Gaining massive traction as Hyperliquid's RWA open interest hit an ATH of $3.6B (X), while Mantle expands its RWA ecosystem with pre-IPO vaults via Openstock and tokenized equities via xStocksF",
    "* Robinhood Ecosystem: Robinhood is capturing significant retail volume and assets, with the Robinhood Chain attracting $290M in stablecoins and $4B in cumulative DEX volume (X), and Robinhood Gold subscriptions driving ",
@@ -8924,7 +8946,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 461.22,
+    "equity": 461,
     "peak": 528.7
    },
    "GRVT": {
