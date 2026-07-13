@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-13T19:10:19.297Z",
+ "generatedAt": "2026-07-13T19:15:08.380Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 401.31
+   "account": 399.33
   },
   "machine": {
    "label": "Hermes",
@@ -38,7 +38,7 @@
    "losses": 18,
    "wr": "28",
    "pnl": -121.19,
-   "account": 470.16,
+   "account": 470.19,
    "retPct": -6,
    "accountRealized": 378.81
   },
@@ -64,8 +64,8 @@
    "losses": 15,
    "wr": "48",
    "pnl": -158.35,
-   "account": 401.31,
-   "retPct": -19.7,
+   "account": 399.33,
+   "retPct": -20.1,
    "accountRealized": 341.65
   },
   {
@@ -3275,18 +3275,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-12T19:15:00.000Z",
-   "hl": 16.392896,
-   "hl_spot": 450.98167,
-   "grvt": 539.956066,
-   "extended": 433.308984,
-   "capital": 1440.639616,
-   "qwen": 438.06,
-   "openclaw": 467.37,
-   "hermes": 539.96,
-   "manual": 433.31
-  },
   {
    "ts": "2026-07-12T19:20:00.000Z",
    "hl": 18.783232,
@@ -6718,13 +6706,25 @@
    "openclaw": 470.16,
    "hermes": 539.96,
    "manual": 401.31
+  },
+  {
+   "ts": "2026-07-13T19:15:00.000Z",
+   "hl": 11.414638,
+   "hl_spot": 458.771976,
+   "grvt": 539.956066,
+   "extended": 399.328006,
+   "capital": 2912.912113,
+   "qwen": 438.06,
+   "openclaw": 470.19,
+   "hermes": 539.96,
+   "manual": 399.33
   }
  ],
  "venuesLive": {
-  "hl": 11.403004,
-  "hl_spot": 458.76034200000004,
+  "hl": 11.414638,
+  "hl_spot": 458.771976,
   "grvt": 539.956066,
-  "total": 1010.119412
+  "total": 1010.1426799999999
  },
  "openTrades": [
   {
@@ -6952,40 +6952,41 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 62049.99,
-    "change24hPct": -3.36
+    "price": 62070.01,
+    "change24hPct": -3.28
    },
    {
     "symbol": "ETH",
-    "price": 1766,
-    "change24hPct": -3.07
+    "price": 1766.17,
+    "change24hPct": -3
    },
    {
     "symbol": "BNB",
-    "price": 564.78,
-    "change24hPct": -2.52
+    "price": 564.81,
+    "change24hPct": -2.5
    },
    {
     "symbol": "XRP",
-    "price": 1.0616,
-    "change24hPct": -3.6
+    "price": 1.0621,
+    "change24hPct": -3.51
    },
    {
     "symbol": "SOL",
     "price": 74.87,
-    "change24hPct": -3.53
+    "change24hPct": -3.46
    }
   ],
   "fearGreed": {
    "value": 28,
    "classification": "Fear"
   },
-  "regime": null,
+  "regime": "RISK_OFF",
   "stockFearGreed": {
    "value": 43,
    "classification": "Fear",
    "source": "CNN"
   },
+  "equityRegime": "RISK_ON",
   "longShort": [
    {
     "asset": "BTC",
@@ -7017,7 +7018,11 @@
     "longPct": 73.2,
     "bias": "CROWDED LONG"
    }
-  ]
+  ],
+  "btcNqCorr": {
+   "corr": 0.38,
+   "label": "MIXED"
+  }
  },
  "calendar": [
   {
@@ -7482,7 +7487,7 @@
   ]
  },
  "intel": {
-  "ageH": 9.7,
+  "ageH": 9.8,
   "narratives": [
    "* Real-World Assets (RWA): Gaining massive traction as Hyperliquid's RWA open interest hit an ATH of $3.6B (X), while Mantle expands its RWA ecosystem with pre-IPO vaults via Openstock and tokenized equities via xStocksF",
    "* Robinhood Ecosystem: Robinhood is capturing significant retail volume and assets, with the Robinhood Chain attracting $290M in stablecoins and $4B in cumulative DEX volume (X), and Robinhood Gold subscriptions driving ",
@@ -9091,7 +9096,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 470.16,
+    "equity": 470.19,
     "peak": 528.7
    },
    "GRVT": {
