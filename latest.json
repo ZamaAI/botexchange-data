@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-14T13:00:13.175Z",
+ "generatedAt": "2026-07-14T13:05:06.612Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 402.69
+   "account": 400.97
   },
   "machine": {
    "label": "Hermes",
@@ -64,8 +64,8 @@
    "losses": 16,
    "wr": "47",
    "pnl": -185.82,
-   "account": 402.69,
-   "retPct": -19.5,
+   "account": 400.97,
+   "retPct": -19.8,
    "accountRealized": 314.18
   },
   {
@@ -3500,18 +3500,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-07-13T13:05:00.000Z",
-   "hl": 7.693618,
-   "hl_spot": 455.033568,
-   "grvt": 539.956066,
-   "extended": 416.624597,
-   "capital": 1419.307849,
-   "qwen": 438.06,
-   "openclaw": 462.73,
-   "hermes": 539.96,
-   "manual": 416.62
-  },
-  {
    "ts": "2026-07-13T13:10:00.000Z",
    "hl": 7.388956,
    "hl_spot": 454.728906,
@@ -6942,6 +6930,18 @@
    "openclaw": 446.88,
    "hermes": 539.96,
    "manual": 402.69
+  },
+  {
+   "ts": "2026-07-14T13:05:00.000Z",
+   "hl": 0,
+   "hl_spot": 446.880579,
+   "grvt": 539.956066,
+   "extended": 400.96874,
+   "capital": 2891.2468120000003,
+   "qwen": 438.06,
+   "openclaw": 446.88,
+   "hermes": 539.96,
+   "manual": 400.97
   }
  ],
  "venuesLive": {
@@ -7108,28 +7108,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63960.02,
-    "change24hPct": 2.13
+    "price": 63808.82,
+    "change24hPct": 1.91
    },
    {
     "symbol": "ETH",
-    "price": 1862.25,
-    "change24hPct": 5.1
+    "price": 1860.18,
+    "change24hPct": 5.01
    },
    {
     "symbol": "BNB",
-    "price": 577.58,
-    "change24hPct": 1.61
+    "price": 577.06,
+    "change24hPct": 1.58
    },
    {
     "symbol": "XRP",
-    "price": 1.0887,
-    "change24hPct": 1.41
+    "price": 1.0881,
+    "change24hPct": 1.53
    },
    {
     "symbol": "SOL",
-    "price": 76.87,
-    "change24hPct": 1.36
+    "price": 76.69,
+    "change24hPct": 1.15
    }
   ],
   "fearGreed": {
@@ -7655,7 +7655,7 @@
   ]
  },
  "intel": {
-  "ageH": 3.5,
+  "ageH": 3.6,
   "narratives": [
    "* Robinhood Chain L2 Ecosystem: The newly launched L2 is seeing massive early adoption, recording over $2 billion in weekend DEX volume, attracting over 800,000 active addresses, and flipping Ethereum in 24-hour DEX volu",
    "* Real-World Asset (RWA) Tokenization: Securitize has emerged as a trusted institutional platform with backing from BlackRock and Morgan Stanley, while 1inch positions itself as the execution layer for RWAs, routing over",
@@ -7722,6 +7722,13 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-07-14T13:00:32.080Z",
+   "brain": "openclaw",
+   "model": "Claude Sonnet 5",
+   "kind": "intraday",
+   "text": "OPENCLAW INTRADAY SCAN\n\nMARKET BIAS\nBTC/ETH both green but funding is neutral/positive on both — no squeeze mechanism present. Stale BTC ETF outflow contradicts the current price action (BTC +2.07% despite $424.7M outflow), so no clean directional flow signal either way.\n\nOPENCLAW SIGNALS\nNO SIGNALS — waiting for cleaner setup.\n\nBTC: funding neutral (0.0170%), ETF outflow data is stale (dated 2026-07-13, this scan is 2026-07-14) and already contradicted by price rising — no live mechanism to hang a short on, and BTC LONG+HIGH_CONV patterns are 0W/1L across the board. Skip.\nETH: funding positive (7.5% APR, not negative) — no squeeze condition, soft-warning asset (12% WR) requiring 7+ conviction with zero mechanism to support it, and +4.86% 24h is chase territory, not a trigger. Skip.\nSOL/XRP: [AVOID] assets — hard skip.\nBNB: no OI/liquidation/ETF data provided this scan — can't name a mec"
+  },
   {
    "ts": "2026-07-14T10:16:10.461Z",
    "brain": "gemini",
@@ -7826,13 +7833,6 @@
    "model": "DeepSeek V4",
    "kind": "intraday scan",
    "text": "READ: Broad sell-off across all majors with BTC -2.4% and ETH -2.3% on no specific fresh catalyst; funding rates remain neutral, no derivatives panic. Ranges are intact but no asset has reached a clean extreme with a confirmed reversal signal yet.\nDECISION: Silence — wait for a confirmed edge at range extremes with a verifiable trigger."
-  },
-  {
-   "ts": "2026-07-14T01:03:11.579Z",
-   "brain": "kimi",
-   "model": "Kimi K2.6",
-   "kind": "intraday scan",
-   "text": "READ: Intraday selling pressed all majors down roughly 2%, but underlying structure did not break: ETH and BNB remain inside their 4h chop ranges, BTC funding is neutral, and the tape is still mixed with no directional tailwind.\nDECISION: Silence — no setup meets the R:R >=2, tight-stop, and already-firing mechanism criteria."
   }
  ],
  "archive": [
