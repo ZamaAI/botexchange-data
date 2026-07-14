@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-14T13:15:07.339Z",
+ "generatedAt": "2026-07-14T13:20:06.918Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 400.39
+   "account": 401.33
   },
   "machine": {
    "label": "Hermes",
@@ -64,8 +64,8 @@
    "losses": 16,
    "wr": "47",
    "pnl": -185.82,
-   "account": 400.39,
-   "retPct": -19.9,
+   "account": 401.33,
+   "retPct": -19.7,
    "accountRealized": 314.18
   },
   {
@@ -3500,18 +3500,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-07-13T13:20:00.000Z",
-   "hl": 8.492446,
-   "hl_spot": 455.832396,
-   "grvt": 539.956066,
-   "extended": 414.26991,
-   "capital": 1418.550818,
-   "qwen": 438.06,
-   "openclaw": 464.32,
-   "hermes": 539.96,
-   "manual": 414.27
-  },
-  {
    "ts": "2026-07-13T13:25:00.000Z",
    "hl": 7.875283,
    "hl_spot": 455.215233,
@@ -6942,6 +6930,18 @@
    "openclaw": 446.87,
    "hermes": 539.96,
    "manual": 400.39
+  },
+  {
+   "ts": "2026-07-14T13:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 446.866839,
+   "grvt": 539.956066,
+   "extended": 401.33308,
+   "capital": 2891.5974119999996,
+   "qwen": 438.06,
+   "openclaw": 446.87,
+   "hermes": 539.96,
+   "manual": 401.33
   }
  ],
  "venuesLive": {
@@ -6979,7 +6979,7 @@
    "venue": "HL",
    "outcome": "LOSS",
    "pct": -2.3,
-   "exitReason": null,
+   "exitReason": "SHORT ETH: stopped out at SL -2.3% (entry $1779.82 → exit $1820). WHY: Funding spread compression + put IV collapse triggered stop-hunt before structural short squeeze; thesis mechanism broke when HL…",
    "closedAt": "2026-07-14T12:44:40.109Z"
   },
   {
@@ -6990,7 +6990,7 @@
    "venue": "HL",
    "outcome": "LOSS",
    "pct": -2.6,
-   "exitReason": null,
+   "exitReason": "SHORT BTC: stopped out at SL -2.6% (entry $62037 → exit $63646). WHY: Funding flipped positive and OI collapsed before $60.5K was reached, triggering your own invalidation condition—you exited the…",
    "closedAt": "2026-07-14T12:37:18.108Z"
   },
   {
@@ -7108,28 +7108,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63794.81,
-    "change24hPct": 2.04
+    "price": 63878.4,
+    "change24hPct": 2.25
    },
    {
     "symbol": "ETH",
-    "price": 1858.66,
-    "change24hPct": 5.12
+    "price": 1864.44,
+    "change24hPct": 5.45
    },
    {
     "symbol": "BNB",
-    "price": 576.52,
-    "change24hPct": 1.53
+    "price": 577.5,
+    "change24hPct": 1.77
    },
    {
     "symbol": "XRP",
-    "price": 1.0868,
-    "change24hPct": 1.55
+    "price": 1.0896,
+    "change24hPct": 1.85
    },
    {
     "symbol": "SOL",
-    "price": 76.59,
-    "change24hPct": 1.27
+    "price": 76.66,
+    "change24hPct": 1.38
    }
   ],
   "fearGreed": {
@@ -7146,32 +7146,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.556,
-    "longPct": 60.9,
+    "ratio": 1.523,
+    "longPct": 60.4,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "ETH",
-    "ratio": 1.706,
-    "longPct": 63,
+    "ratio": 1.641,
+    "longPct": 62.1,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.425,
-    "longPct": 70.8,
+    "ratio": 2.414,
+    "longPct": 70.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 3.021,
+    "ratio": 3.013,
     "longPct": 75.1,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.685,
-    "longPct": 72.9,
+    "ratio": 2.656,
+    "longPct": 72.7,
     "bias": "CROWDED LONG"
    }
   ],
@@ -7642,7 +7642,7 @@
   ]
  },
  "intel": {
-  "ageH": 3.8,
+  "ageH": 3.9,
   "narratives": [
    "* Robinhood Chain L2 Ecosystem: The newly launched L2 is seeing massive early adoption, recording over $2 billion in weekend DEX volume, attracting over 800,000 active addresses, and flipping Ethereum in 24-hour DEX volu",
    "* Real-World Asset (RWA) Tokenization: Securitize has emerged as a trusted institutional platform with backing from BlackRock and Morgan Stanley, while 1inch positions itself as the execution layer for RWAs, routing over",
@@ -7709,6 +7709,13 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-07-14T13:17:02.310Z",
+   "brain": "deepseek",
+   "model": "DeepSeek V4",
+   "kind": "intraday scan",
+   "text": "READ: Regime unchanged—neutral, all majors stuck in chop; ETH jumped +4.86% to kiss the top of its 24h range, pushing into a high-probability fade zone while BTC and the rest are mid-range and offer no clean edge.\nDECISION: 1 trade opened: ETH SHORT at $1,856.34, target $1,809, stop $1,870."
+  },
   {
    "ts": "2026-07-14T13:00:32.080Z",
    "brain": "openclaw",
@@ -7813,13 +7820,6 @@
    "model": "Gemini 3.5 Flash",
    "kind": "intraday scan",
    "text": "READ: The market remains range-bound with BTC consolidating around $62,480, exhibiting neutral-to-soft momentum. Chop conditions dictate fading the extremes of key ranges rather than chasing breakouts, utilizing tight stops to maintain favorable risk-reward ratios.\nDECISION: Positioning awaiting order on ETH to fade range-low support."
-  },
-  {
-   "ts": "2026-07-14T01:04:34.097Z",
-   "brain": "deepseek",
-   "model": "DeepSeek V4",
-   "kind": "intraday scan",
-   "text": "READ: Broad sell-off across all majors with BTC -2.4% and ETH -2.3% on no specific fresh catalyst; funding rates remain neutral, no derivatives panic. Ranges are intact but no asset has reached a clean extreme with a confirmed reversal signal yet.\nDECISION: Silence — wait for a confirmed edge at range extremes with a verifiable trigger."
   }
  ],
  "archive": [
@@ -7832,7 +7832,7 @@
    "outcome": "LOSS",
    "pct": -2.3,
    "pnlUsd": -7.32,
-   "exitReason": null,
+   "exitReason": "SHORT ETH: stopped out at SL -2.3% (entry $1779.82 → exit $1820). WHY: Funding spread compression + put IV collapse triggered stop-hunt before structural short squeeze; thesis mechanism broke when HL…",
    "closedAt": "2026-07-14T12:44:40.109Z",
    "entry": 1779.82,
    "exit": 1820,
@@ -7848,7 +7848,7 @@
    "outcome": "LOSS",
    "pct": -2.6,
    "pnlUsd": -7.16,
-   "exitReason": null,
+   "exitReason": "SHORT BTC: stopped out at SL -2.6% (entry $62037 → exit $63646). WHY: Funding flipped positive and OI collapsed before $60.5K was reached, triggering your own invalidation condition—you exited the…",
    "closedAt": "2026-07-14T12:37:18.108Z",
    "entry": 62037,
    "exit": 63646,
