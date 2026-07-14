@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-14T12:40:07.211Z",
+ "generatedAt": "2026-07-14T12:45:06.585Z",
  "startCapital": 500,
  "since": "2026-06-13",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 407.35
+   "account": 404.14
   },
   "machine": {
    "label": "Hermes",
@@ -33,14 +33,14 @@
    "key": "openclaw",
    "label": "OpenClaw",
    "venue": "HL",
-   "trades": 26,
+   "trades": 27,
    "wins": 8,
-   "losses": 18,
-   "wr": "31",
-   "pnl": -106.8,
+   "losses": 19,
+   "wr": "30",
+   "pnl": -114.12,
    "account": 446.88,
    "retPct": -10.6,
-   "accountRealized": 393.2
+   "accountRealized": 385.88
   },
   {
    "key": "hermes",
@@ -64,8 +64,8 @@
    "losses": 16,
    "wr": "47",
    "pnl": -185.82,
-   "account": 407.35,
-   "retPct": -18.5,
+   "account": 404.14,
+   "retPct": -19.2,
    "accountRealized": 314.18
   },
   {
@@ -136,7 +136,8 @@
    "07-10",
    "07-11",
    "07-12",
-   "07-13"
+   "07-13",
+   "07-14"
   ],
   "bySource": {
    "qwen": [
@@ -161,6 +162,7 @@
     447.22,
     444.26,
     444.26,
+    438.06,
     438.06,
     438.06,
     438.06,
@@ -195,7 +197,8 @@
     434.75,
     392.23,
     413.7,
-    393.2
+    393.2,
+    385.88
    ],
    "hermes": [
     500,
@@ -212,6 +215,7 @@
     524.36,
     524.36,
     550.6,
+    538.74,
     538.74,
     538.74,
     538.74,
@@ -253,9 +257,11 @@
     341.65,
     341.65,
     341.65,
+    314.18,
     314.18
    ],
    "kimi": [
+    500,
     500,
     500,
     500,
@@ -311,9 +317,11 @@
     500,
     500,
     500,
+    500,
     500
    ],
    "gemini": [
+    500,
     500,
     500,
     500,
@@ -3479,18 +3487,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-13T12:45:00.000Z",
-   "hl": 8.102053,
-   "hl_spot": 455.437854,
-   "grvt": 539.956066,
-   "extended": 412.098225,
-   "capital": 1415.594198,
-   "qwen": 438.06,
-   "openclaw": 463.54,
-   "hermes": 539.96,
-   "manual": 412.1
-  },
   {
    "ts": "2026-07-13T12:50:00.000Z",
    "hl": 7.51861,
@@ -6922,6 +6918,18 @@
    "openclaw": 446.88,
    "hermes": 539.96,
    "manual": 407.35
+  },
+  {
+   "ts": "2026-07-14T12:45:00.000Z",
+   "hl": 0,
+   "hl_spot": 446.880579,
+   "grvt": 539.956066,
+   "extended": 404.135942,
+   "capital": 2894.414014,
+   "qwen": 438.06,
+   "openclaw": 446.88,
+   "hermes": 539.96,
+   "manual": 404.14
   }
  ],
  "venuesLive": {
@@ -6949,23 +6957,6 @@
    "smartMoney": 4
   },
   {
-   "id": 251,
-   "asset": "ETH",
-   "direction": "SHORT",
-   "actor": "openclaw",
-   "venue": "HL",
-   "entry": 1779.82,
-   "stop": 1815.42,
-   "target": 1699.73,
-   "levelsApprox": true,
-   "trailed": false,
-   "rr": 2,
-   "conviction": 7,
-   "openedAt": "2026-07-13T04:06:46.804Z",
-   "thesis": "HL smart-money whales are net short ETH -$110.1M (2L/10S) while HL funding runs +10.9% APR vs Binance +2.4% (gap +8.5%), showing HL longs are structurally crowded relative to spot venues. Options skew confirms defensive positioning with put IV 81.9% vs call IV 69.9% (-11.98 vol pts, strong put bid), and current buy/sell volume data shows sell pressure rising with bears in control right now.",
-   "smartMoney": 5
-  },
-  {
    "id": 242,
    "asset": "UNI",
    "direction": "LONG",
@@ -6985,6 +6976,17 @@
  ],
  "awaiting": [],
  "recentCloses": [
+  {
+   "id": 251,
+   "asset": "ETH",
+   "direction": "SHORT",
+   "actor": "openclaw",
+   "venue": "HL",
+   "outcome": "LOSS",
+   "pct": -2.3,
+   "exitReason": null,
+   "closedAt": "2026-07-14T12:44:40.109Z"
+  },
   {
    "id": 249,
    "asset": "APT",
@@ -7105,45 +7107,34 @@
    "pct": 1.7,
    "exitReason": "Manual LONG on Extended — entry $203.59 → exit $207.05 (+1.70% move 10x), realised +$13.48 → WIN.",
    "closedAt": "2026-07-10T13:58:34.576Z"
-  },
-  {
-   "id": 245,
-   "asset": "CRCL_24_5",
-   "direction": "LONG",
-   "actor": "manual",
-   "venue": "EXTENDED",
-   "outcome": "WIN",
-   "pct": 15.4,
-   "exitReason": "Manual LONG on Extended — entry $63.349 → exit $73.128 (+15.44% move 10x), realised +$34.43 → WIN.",
-   "closedAt": "2026-07-10T11:12:28.576Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63439.99,
-    "change24hPct": 1.36
+    "price": 63607.07,
+    "change24hPct": 1.59
    },
    {
     "symbol": "ETH",
-    "price": 1823.01,
-    "change24hPct": 2.98
+    "price": 1828,
+    "change24hPct": 3.24
    },
    {
     "symbol": "BNB",
-    "price": 574.81,
+    "price": 574.95,
     "change24hPct": 1.25
    },
    {
     "symbol": "XRP",
-    "price": 1.0848,
-    "change24hPct": 1.22
+    "price": 1.0849,
+    "change24hPct": 1.16
    },
    {
     "symbol": "SOL",
-    "price": 76.06,
-    "change24hPct": 0.38
+    "price": 76.15,
+    "change24hPct": 0.41
    }
   ],
   "fearGreed": {
@@ -7594,19 +7585,19 @@
      "prints": 52,
      "volK": 1500,
      "biasK": -492,
-     "equity": 234223,
+     "equity": 233055,
      "positions": [
       {
        "coin": "XAU",
        "side": "LONG",
-       "usdK": 504,
-       "upnlK": -6
+       "usdK": 1026,
+       "upnlK": -4
       },
       {
-       "coin": "ZEC",
+       "coin": "WTI",
        "side": "LONG",
-       "usdK": 189,
-       "upnlK": 2
+       "usdK": 208,
+       "upnlK": 0
       },
       {
        "coin": "HBAR",
@@ -7621,12 +7612,12 @@
      "prints": 66,
      "volK": 1093,
      "biasK": -27,
-     "equity": 68492,
+     "equity": 68581,
      "positions": [
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 0,
+       "usdK": 21,
        "upnlK": 0
       }
      ]
@@ -7669,7 +7660,7 @@
   ]
  },
  "intel": {
-  "ageH": 3.2,
+  "ageH": 3.3,
   "narratives": [
    "* Robinhood Chain L2 Ecosystem: The newly launched L2 is seeing massive early adoption, recording over $2 billion in weekend DEX volume, attracting over 800,000 active addresses, and flipping Ethereum in 24-hour DEX volu",
    "* Real-World Asset (RWA) Tokenization: Securitize has emerged as a trusted institutional platform with backing from BlackRock and Morgan Stanley, while 1inch positions itself as the execution layer for RWAs, routing over",
@@ -7850,6 +7841,22 @@
   }
  ],
  "archive": [
+  {
+   "id": 251,
+   "asset": "ETH",
+   "direction": "SHORT",
+   "actor": "openclaw",
+   "venue": "HL",
+   "outcome": "LOSS",
+   "pct": -2.3,
+   "pnlUsd": -7.32,
+   "exitReason": null,
+   "closedAt": "2026-07-14T12:44:40.109Z",
+   "entry": 1779.82,
+   "exit": 1820,
+   "conviction": 7,
+   "openedAt": "2026-07-13T04:06:46.804Z"
+  },
   {
    "id": 249,
    "asset": "APT",
@@ -9327,9 +9334,9 @@
    }
   },
   "streaks": {
-   "openclaw": 0,
+   "openclaw": 1,
    "hermes": 0,
-   "fleet": 0
+   "fleet": 1
   },
   "limits": {
    "dailyLossPct": 7.5,
