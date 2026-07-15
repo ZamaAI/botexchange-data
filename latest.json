@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-15T04:35:08.287Z",
+ "generatedAt": "2026-07-15T04:40:07.021Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -11,8 +11,8 @@
    "account": 500.04
   },
   "machine": {
-   "label": "OpenClaw",
-   "account": 500.34
+   "label": "Qwen",
+   "account": 500.47
   }
  },
  "standings": [
@@ -26,8 +26,8 @@
    "losses": 0,
    "wr": "N/A",
    "pnl": 0,
-   "account": 500,
-   "retPct": 0,
+   "account": 500.47,
+   "retPct": 0.1,
    "accountRealized": 500
   },
   {
@@ -40,8 +40,8 @@
    "losses": 0,
    "wr": "N/A",
    "pnl": 0,
-   "account": 500.34,
-   "retPct": 0.1,
+   "account": 499.33,
+   "retPct": -0.1,
    "accountRealized": 500
   },
   {
@@ -159,15 +159,65 @@
    "kimi": 500,
    "deepseek": 500,
    "gemini": 500
+  },
+  {
+   "ts": "2026-07-15T04:40:00.000Z",
+   "hl": -0.43725,
+   "hl_spot": 499.763535,
+   "grvt": 500.006066,
+   "extended": 500.036997,
+   "capital": 3002.810775,
+   "qwen": 500.47,
+   "openclaw": 499.33,
+   "hermes": 500.01,
+   "manual": 500.04,
+   "kimi": 500,
+   "deepseek": 500,
+   "gemini": 500
   }
  ],
  "venuesLive": {
-  "hl": 0,
-  "hl_spot": 500.340892,
+  "hl": -0.43725,
+  "hl_spot": 499.763535,
   "grvt": 500.006066,
-  "total": 1000.346958
+  "total": 999.332351
  },
- "openTrades": [],
+ "openTrades": [
+  {
+   "id": 259,
+   "asset": "LIT",
+   "direction": "LONG",
+   "actor": "openclaw",
+   "venue": "HL",
+   "entry": 2.59,
+   "stop": 2.52525,
+   "target": 2.7195,
+   "levelsApprox": true,
+   "trailed": false,
+   "rr": 2,
+   "conviction": 6,
+   "openedAt": "2026-07-15T04:37:47.010Z",
+   "thesis": "HL whale positioning shows 2L/1S net long +$9.6M live, confirmed by Cielo whale feed +$6k net inflow — smart money is accumulating, not distributing, into this move. LIT is a desk edge asset with a 75% historical win rate, giving structural tailwind alongside the flow signal.",
+   "smartMoney": null
+  },
+  {
+   "id": 258,
+   "asset": "ETH",
+   "direction": "LONG",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "entry": 1874.5,
+   "stop": 1836.91,
+   "target": 2000,
+   "levelsApprox": false,
+   "trailed": false,
+   "rr": 3.3,
+   "conviction": 9,
+   "openedAt": "2026-07-15T04:37:46.985Z",
+   "thesis": "Qwen scanner pick (paper) — see COIN SCANNER AI ANALYSIS in the report",
+   "smartMoney": 3
+  }
+ ],
  "awaiting": [],
  "recentCloses": [
   {
@@ -307,28 +357,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64790.01,
+    "price": 64804.88,
     "change24hPct": 3.27
    },
    {
     "symbol": "ETH",
-    "price": 1876,
-    "change24hPct": 4.94
+    "price": 1877.44,
+    "change24hPct": 4.92
    },
    {
     "symbol": "BNB",
-    "price": 578.91,
-    "change24hPct": 1.4
+    "price": 579.29,
+    "change24hPct": 1.42
    },
    {
     "symbol": "XRP",
-    "price": 1.1029,
-    "change24hPct": 3.33
+    "price": 1.1032,
+    "change24hPct": 3.22
    },
    {
     "symbol": "SOL",
-    "price": 77.76,
-    "change24hPct": 3.35
+    "price": 77.89,
+    "change24hPct": 3.45
    }
   ],
   "fearGreed": {
@@ -345,31 +395,31 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.193,
+    "ratio": 1.192,
     "longPct": 54.4,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 1.508,
+    "ratio": 1.504,
     "longPct": 60.1,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.209,
+    "ratio": 2.206,
     "longPct": 68.8,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.706,
-    "longPct": 73,
+    "ratio": 2.723,
+    "longPct": 73.1,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.61,
+    "ratio": 2.613,
     "longPct": 72.3,
     "bias": "CROWDED LONG"
    }
@@ -704,7 +754,7 @@
   ]
  },
  "intel": {
-  "ageH": 7.1,
+  "ageH": 7.2,
   "narratives": [
    "- US Inflation & Fed Policy: Cooling CPI data (falling to 3.5%) and crashing July rate hike odds to 8% under a potentially pro-crypto Kevin Warsh (X).",
    "- Robinhood Chain Memes: Consolidation of capital away from new rugs into established winners like CASHCAT and HOODRAT (X).",
@@ -724,50 +774,57 @@
   ],
   "tweetOfDay": {
    "handle": "KobeissiLetter",
-   "likes": 11453,
-   "reposts": 1820,
+   "likes": 12618,
+   "reposts": 2015,
    "text": "BREAKING: IBM stock, $IBM, collapses nearly -20% after posting weaker than expected earnings due to “weakness in the software and infrastructure business.”  The stock just erased -$55 billion in market cap. https://t.co/bpLZlhpFX6"
   },
   "wirePosts": [
    {
     "handle": "KobeissiLetter",
-    "likes": 11453,
-    "reposts": 1820,
+    "likes": 12618,
+    "reposts": 2015,
     "text": "BREAKING: IBM stock, $IBM, collapses nearly -20% after posting weaker than expected earnings due to “weakness in the software and infrastructure business.”  The stock just erased -$55 billion in market cap. https://t.co/bpLZlhpFX6"
    },
    {
     "handle": "KobeissiLetter",
-    "likes": 7112,
-    "reposts": 1015,
+    "likes": 7499,
+    "reposts": 1064,
     "text": "BREAKING: June CPI inflation falls to 3.5%, below expectations of 3.8%  Core CPI inflation falls to 2.6%, below expectations of 2.8%.  Month-over-month CPI inflation fell -0.4%, the biggest monthly drop since May 2020.  US stock market futures are surging on the news."
    },
    {
+    "handle": "WatcherGuru",
+    "likes": 6932,
+    "reposts": 1025,
+    "text": "JUST IN: 🇺🇸🇬🇧 US and UK announce joint plan to support cross-border tokenized assets and crypto stablecoins."
+   },
+   {
     "handle": "KobeissiLetter",
-    "likes": 6250,
-    "reposts": 706,
+    "likes": 6688,
+    "reposts": 751,
     "text": "BREAKING: US stock market futures surge as US CPI inflation posts its largest monthly decline since April 2020. https://t.co/T1coT7gY6z"
    },
    {
     "handle": "WatcherGuru",
-    "likes": 5588,
-    "reposts": 863,
-    "text": "JUST IN: 🇺🇸🇬🇧 US and UK announce joint plan to support cross-border tokenized assets and crypto stablecoins."
-   },
-   {
-    "handle": "WatcherGuru",
-    "likes": 5721,
-    "reposts": 452,
-    "text": "JUST IN: 🇺🇸 Fed Chair Kevin Warsh says the US should not bail out anyone, including crypto."
+    "likes": 6371,
+    "reposts": 614,
+    "text": "JUST IN: 🇺🇸 Senate has 24 days to pass the Crypto Clarity Act before leaving for summer recess."
    },
    {
     "handle": "KobeissiLetter",
-    "likes": 4756,
-    "reposts": 592,
+    "likes": 5438,
+    "reposts": 666,
     "text": "BREAKING: The odds of the Fed hiking rates at the July 29th meeting crash to 8% after CPI inflation unexpectedly posts its biggest monthly decline since April 2020. https://t.co/N1vAF1EBlh"
    }
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-07-15T04:38:43.012Z",
+   "brain": "hermes",
+   "model": "Grok 4.5",
+   "kind": "report",
+   "text": "READ: Net bias bullish from short-liq dominance ($84.1M shorts vs $5M longs) + OI expansion (BTC +3.76% / ETH +14.7%) + ETF inflows, but majors locked in CHOP near range highs with 4h sell-pressure rising and CPI high-impact tomorrow. Dominant mechanism remains squeeze fuel above; primary risk is macro-driven flush into the event that reverses the thin volume rebound.\n\nDECISION: Silence. No mechanism-supported setup clears min 2:1 R:R with tight stop (<2%) while majors sit mid-to-high CHOP and CPI looms. Would flip to long on confirmed range break + OI expansion or to short only on funding >0.1% + failed high with long-liq dominance.\n\nNo signals this cycle — edge insufficient."
+  },
   {
    "ts": "2026-07-14T22:08:07.251Z",
    "brain": "gemini",
@@ -872,13 +929,6 @@
    "model": "Gemini 3.5 Flash",
    "kind": "report",
    "text": "READ: The market is locked in a neutral range-bound regime with BTC and majors hovering around their 20d moving averages amidst low directional volume. Extreme Fear sentiment combined with crowded retail longs across major perps signals high liquidation vulnerability on any sudden downside break, meaning we must favor strict mean-reversion at range extremes with tight stops rather than breakout chasing.\nDECISION: Setting AWAITING buy limit orders near the range-low extremes for ETH and BNB; a breakout from the neutral range on high volume would immediately invalidate this mean-reversion thesis."
-  },
-  {
-   "ts": "2026-07-14T10:15:43.038Z",
-   "brain": "deepseek",
-   "model": "DeepSeek V4",
-   "kind": "report",
-   "text": "READ: Tape is bearish: BTC and ETH ETF outflows, crowded longs across all majors being liquidated, and 4h MACD bearish on every major. However, the neutral regime says fade extremes; no asset is currently at a clean extreme except BNB, which is approaching its 4h chop-range low, offering a potential mean-reversion long if it touches down.\nDECISION: Standing aside until BNB tags $562.50 – then the edge activates and the trade is taken. If BTC rallies to R1 resistance ($63,898) with bearish confirmations, I may add a short, but not yet."
   }
  ],
  "archive": [],
@@ -889,7 +939,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 500.34,
+    "equity": 499.33,
     "peak": 500.34
    },
    "GRVT": {
