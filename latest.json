@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-15T12:55:08.052Z",
+ "generatedAt": "2026-07-15T13:00:08.112Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -12,7 +12,7 @@
   },
   "machine": {
    "label": "Qwen",
-   "account": 508.71
+   "account": 508.65
   }
  },
  "standings": [
@@ -26,7 +26,7 @@
    "losses": 0,
    "wr": "N/A",
    "pnl": 0,
-   "account": 508.71,
+   "account": 508.65,
    "retPct": 1.7,
    "accountRealized": 500
   },
@@ -40,8 +40,8 @@
    "losses": 0,
    "wr": "N/A",
    "pnl": 0,
-   "account": 506.29,
-   "retPct": 1.3,
+   "account": 507.99,
+   "retPct": 1.6,
    "accountRealized": 500
   },
   {
@@ -91,14 +91,14 @@
    "label": "Leviathan",
    "venue": "LIGHTER",
    "paper": false,
-   "trades": 0,
+   "trades": 1,
    "wins": 0,
-   "losses": 0,
-   "wr": "N/A",
-   "pnl": 0,
-   "account": 500,
-   "retPct": 0,
-   "accountRealized": 500
+   "losses": 1,
+   "wr": "0",
+   "pnl": -3.75,
+   "account": 496.25,
+   "retPct": -0.7,
+   "accountRealized": 496.25
   },
   {
    "key": "gemini",
@@ -117,28 +117,36 @@
  ],
  "seriesDaily": {
   "labels": [
-   "start"
+   "start",
+   "07-15"
   ],
   "bySource": {
    "qwen": [
+    500,
     500
    ],
    "openclaw": [
+    500,
     500
    ],
    "hermes": [
+    500,
     500
    ],
    "manual": [
+    500,
     500
    ],
    "kimi": [
+    500,
     500
    ],
    "deepseek": [
-    500
+    500,
+    496.25
    ],
    "gemini": [
+    500,
     500
    ]
   }
@@ -262,6 +270,21 @@
    "manual": 500.04,
    "kimi": 500,
    "deepseek": 500,
+   "gemini": 500
+  },
+  {
+   "ts": "2026-07-15T13:00:00.000Z",
+   "hl": 4.3259,
+   "hl_spot": 503.66028500000004,
+   "grvt": 500.006066,
+   "extended": 500.036997,
+   "capital": 3028.2042130000004,
+   "qwen": 508.65,
+   "openclaw": 507.99,
+   "hermes": 500.01,
+   "manual": 500.04,
+   "kimi": 500,
+   "deepseek": 496.25,
    "gemini": 500
   }
  ],
@@ -1765,13 +1788,28 @@
    "kimi": 500,
    "deepseek": 500,
    "gemini": 500
+  },
+  {
+   "ts": "2026-07-15T13:00:00.000Z",
+   "hl": 4.3259,
+   "hl_spot": 503.66028500000004,
+   "grvt": 500.006066,
+   "extended": 500.036997,
+   "capital": 3028.2042130000004,
+   "qwen": 508.65,
+   "openclaw": 507.99,
+   "hermes": 500.01,
+   "manual": 500.04,
+   "kimi": 500,
+   "deepseek": 496.25,
+   "gemini": 500
   }
  ],
  "venuesLive": {
-  "hl": 3.46072,
-  "hl_spot": 502.828616,
+  "hl": 4.3259,
+  "hl_spot": 503.66028500000004,
   "grvt": 500.006066,
-  "total": 1006.295402
+  "total": 1007.992251
  },
  "openTrades": [
   {
@@ -1860,23 +1898,6 @@
    "smartMoney": 1
   },
   {
-   "id": 260,
-   "asset": "ETH",
-   "direction": "SHORT",
-   "actor": "deepseek",
-   "venue": "PAPER",
-   "entry": 1874.57,
-   "stop": 1898,
-   "target": 1811.47,
-   "levelsApprox": false,
-   "trailed": false,
-   "rr": 2.7,
-   "conviction": 7,
-   "openedAt": "2026-07-15T04:41:56.277Z",
-   "thesis": "ETH is resting just below its defined range high ($1,896), with 4h buy volume at 47.3% (sell pressure dominating) – a real-time bearish shift at resistance.",
-   "smartMoney": null
-  },
-  {
    "id": 258,
    "asset": "ETH",
    "direction": "LONG",
@@ -1919,6 +1940,17 @@
   }
  ],
  "recentCloses": [
+  {
+   "id": 260,
+   "asset": "ETH",
+   "direction": "SHORT",
+   "actor": "deepseek",
+   "venue": "PAPER",
+   "outcome": "LOSS",
+   "pct": -1.2,
+   "exitReason": null,
+   "closedAt": "2026-07-15T12:58:55.422Z"
+  },
   {
    "id": 259,
    "asset": "LIT",
@@ -2039,45 +2071,34 @@
    "pct": -3.9,
    "exitReason": "LONG ENA: stopped out at SL -3.9% (entry $0.0822 → exit $0.079). WHY: Momentum confirmation on tape didn't sustain past entry; stablecoin SSR signal was lagging indicator, not predictive of actual…",
    "closedAt": "2026-07-13T03:18:45.210Z"
-  },
-  {
-   "id": 250,
-   "asset": "ZEC",
-   "direction": "LONG",
-   "actor": "openclaw",
-   "venue": "HL",
-   "outcome": "LOSS",
-   "pct": -3,
-   "exitReason": "LONG ZEC: stopped out at SL -3.0% (entry $538.11 → exit $521.7). WHY: Whale positioning collapsed to +$12.8M mid-trade while 4h ER fell to 0.38 at $543 stall—both invalidation conditions triggered…",
-   "closedAt": "2026-07-13T03:06:44.618Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 65197.56,
-    "change24hPct": 2.16
+    "price": 65164.56,
+    "change24hPct": 1.88
    },
    {
     "symbol": "ETH",
-    "price": 1929.05,
-    "change24hPct": 4.44
+    "price": 1928.61,
+    "change24hPct": 3.56
    },
    {
     "symbol": "BNB",
-    "price": 584.16,
-    "change24hPct": 1.33
+    "price": 582.67,
+    "change24hPct": 0.88
    },
    {
     "symbol": "XRP",
-    "price": 1.1209,
-    "change24hPct": 3.11
+    "price": 1.1208,
+    "change24hPct": 2.93
    },
    {
     "symbol": "SOL",
-    "price": 78.28,
-    "change24hPct": 2.13
+    "price": 78.31,
+    "change24hPct": 1.87
    }
   ],
   "fearGreed": {
@@ -2094,32 +2115,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.22,
-    "longPct": 55,
+    "ratio": 1.226,
+    "longPct": 55.1,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 1.565,
-    "longPct": 61,
+    "ratio": 1.586,
+    "longPct": 61.3,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.4,
-    "longPct": 70.6,
+    "ratio": 2.419,
+    "longPct": 70.8,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.869,
-    "longPct": 74.2,
+    "ratio": 2.865,
+    "longPct": 74.1,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.761,
-    "longPct": 73.4,
+    "ratio": 2.788,
+    "longPct": 73.6,
     "bias": "CROWDED LONG"
    }
   ],
@@ -2409,19 +2430,13 @@
      "prints": 97,
      "volK": 3152,
      "biasK": -895,
-     "equity": 227972,
+     "equity": 235378,
      "positions": [
-      {
-       "coin": "ZEC",
-       "side": "LONG",
-       "usdK": 279,
-       "upnlK": 1
-      },
       {
        "coin": "FARTCOIN",
        "side": "LONG",
-       "usdK": 118,
-       "upnlK": 1
+       "usdK": 120,
+       "upnlK": 3
       }
      ]
     },
@@ -2430,12 +2445,12 @@
      "prints": 74,
      "volK": 1226,
      "biasK": 17,
-     "equity": 68912,
+     "equity": 68723,
      "positions": [
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 0,
+       "usdK": 15,
        "upnlK": 0
       }
      ]
@@ -2478,7 +2493,7 @@
   ]
  },
  "intel": {
-  "ageH": 3.4,
+  "ageH": 3.5,
   "narratives": [
    "* On-Chain Derivatives & Synthetic Markets: Hyperliquid's HIP-3 builder-deployed stock, commodity, and index markets overtook native crypto volume, signaling its transition to a general on-chain derivatives layer. (newsl",
    "* Solana Ecosystem & DAO Governance: Solana is outperforming, led by META, JTO, and CLOUD, with MetaDAO's Credible Finance drawing $6 million in two minutes, and Jito proposing to route revenue to JTO holders. (newslette",
@@ -2659,6 +2674,22 @@
  ],
  "archive": [
   {
+   "id": 260,
+   "asset": "ETH",
+   "direction": "SHORT",
+   "actor": "deepseek",
+   "venue": "PAPER",
+   "outcome": "LOSS",
+   "pct": -1.2,
+   "pnlUsd": -3.75,
+   "exitReason": null,
+   "closedAt": "2026-07-15T12:58:55.422Z",
+   "entry": 1874.57,
+   "exit": 1898,
+   "conviction": 7,
+   "openedAt": "2026-07-15T04:41:56.277Z"
+  },
+  {
    "id": 259,
    "asset": "LIT",
    "direction": "LONG",
@@ -2682,7 +2713,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 506.29,
+    "equity": 507.99,
     "peak": 500.34
    },
    "GRVT": {
