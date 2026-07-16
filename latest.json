@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-16T12:40:07.385Z",
+ "generatedAt": "2026-07-16T12:45:10.062Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 486.55
+   "account": 474.22
   },
   "machine": {
    "label": "Castor",
@@ -26,8 +26,8 @@
    "losses": 0,
    "wr": "N/A",
    "pnl": 0,
-   "account": 495.02,
-   "retPct": -1,
+   "account": 494.21,
+   "retPct": -1.2,
    "accountRealized": 500
   },
   {
@@ -40,8 +40,8 @@
    "losses": 2,
    "wr": "0",
    "pnl": -20.9,
-   "account": 465.48,
-   "retPct": -6.9,
+   "account": 462.41,
+   "retPct": -7.5,
    "accountRealized": 479.1
   },
   {
@@ -68,8 +68,8 @@
    "losses": 0,
    "wr": "N/A",
    "pnl": 0,
-   "account": 486.55,
-   "retPct": -2.7,
+   "account": 474.22,
+   "retPct": -5.2,
    "accountRealized": 500
   },
   {
@@ -105,14 +105,14 @@
    "label": "Castor",
    "venue": "LIGHTER",
    "paper": false,
-   "trades": 1,
+   "trades": 2,
    "wins": 1,
-   "losses": 0,
-   "wr": "100",
-   "pnl": 9.83,
+   "losses": 1,
+   "wr": "50",
+   "pnl": 6.19,
    "account": 509.82,
    "retPct": 2,
-   "accountRealized": 509.83
+   "accountRealized": 506.19
   }
  ],
  "seriesDaily": {
@@ -155,7 +155,7 @@
    "gemini": [
     500,
     509.83,
-    509.83
+    506.19
    ]
   }
  },
@@ -597,21 +597,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-15T12:45:00.000Z",
-   "hl": 1.47224,
-   "hl_spot": 500.816236,
-   "grvt": 500.006066,
-   "extended": 500.036997,
-   "capital": 3008.613651,
-   "qwen": 502.92,
-   "openclaw": 502.29,
-   "hermes": 500.01,
-   "manual": 500.04,
-   "kimi": 500,
-   "deepseek": 500,
-   "gemini": 500
-  },
   {
    "ts": "2026-07-15T12:50:00.000Z",
    "hl": 2.5812,
@@ -4316,14 +4301,29 @@
    "kimi": 508.77,
    "deepseek": 487.2,
    "gemini": 509.82
+  },
+  {
+   "ts": "2026-07-16T12:45:00.000Z",
+   "hl": -7.5939,
+   "hl_spot": 470.005155,
+   "grvt": 500.006066,
+   "extended": 474.217528,
+   "capital": 2945.857245,
+   "qwen": 494.21,
+   "openclaw": 462.41,
+   "hermes": 500.01,
+   "manual": 474.22,
+   "kimi": 508.77,
+   "deepseek": 487.2,
+   "gemini": 509.82
   }
  ],
  "venuesLive": {
-  "hl": -6.06116,
-  "hl_spot": 471.537895,
+  "hl": -7.5939,
+  "hl_spot": 470.005155,
   "grvt": 500.006066,
   "lighter": 1509.2223960000001,
-  "total": 2474.705197
+  "total": 2471.639717
  },
  "openTrades": [
   {
@@ -4378,23 +4378,6 @@
    "smartMoney": null
   },
   {
-   "id": 261,
-   "asset": "BTC",
-   "direction": "LONG",
-   "actor": "gemini",
-   "venue": "PAPER",
-   "entry": 64735,
-   "stop": 63950,
-   "target": 66500,
-   "levelsApprox": false,
-   "trailed": false,
-   "rr": 2.2,
-   "conviction": 8,
-   "openedAt": "2026-07-15T04:42:26.678Z",
-   "thesis": "Spot price expansion on rising 24h open interest (+3.76%) and a declining long/short ratio (-0.58) reveals aggressive short positioning getting trapped.",
-   "smartMoney": null
-  },
-  {
    "id": 258,
    "asset": "ETH",
    "direction": "LONG",
@@ -4414,6 +4397,17 @@
  ],
  "awaiting": [],
  "recentCloses": [
+  {
+   "id": 261,
+   "asset": "BTC",
+   "direction": "LONG",
+   "actor": "gemini",
+   "venue": "PAPER",
+   "outcome": "LOSS",
+   "pct": -1.2,
+   "exitReason": null,
+   "closedAt": "2026-07-16T12:43:44.841Z"
+  },
   {
    "id": 269,
    "asset": "ZEC",
@@ -4534,45 +4528,34 @@
    "pct": 0.2,
    "exitReason": "Manual LONG on Extended — entry $2.6036 → exit $2.6094 (+0.22% move 10x), realised +$0.03 → BREAKEVEN.",
    "closedAt": "2026-07-14T16:43:09.992Z"
-  },
-  {
-   "id": 254,
-   "asset": "XYZSPCX_ORCLPX",
-   "direction": "LONG",
-   "actor": "manual",
-   "venue": "EXTENDED",
-   "outcome": "LOSS",
-   "pct": -1.2,
-   "exitReason": "Manual LONG on Extended — entry $141.71 → exit $140 (-1.21% move 5x), realised $-12.57 → LOSS.",
-   "closedAt": "2026-07-14T16:43:09.991Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63971.76,
-    "change24hPct": -1.35
+    "price": 63887.99,
+    "change24hPct": -1.39
    },
    {
     "symbol": "ETH",
-    "price": 1873.05,
-    "change24hPct": -1.13
+    "price": 1870.4,
+    "change24hPct": -1.18
    },
    {
     "symbol": "BNB",
-    "price": 576.24,
-    "change24hPct": -0.55
+    "price": 575.85,
+    "change24hPct": -0.56
    },
    {
     "symbol": "XRP",
-    "price": 1.1027,
-    "change24hPct": -0.81
+    "price": 1.1007,
+    "change24hPct": -0.98
    },
    {
     "symbol": "SOL",
-    "price": 75.84,
-    "change24hPct": -2.31
+    "price": 75.79,
+    "change24hPct": -2.39
    }
   ],
   "fearGreed": {
@@ -4589,32 +4572,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.373,
-    "longPct": 57.9,
+    "ratio": 1.366,
+    "longPct": 57.7,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 1.768,
-    "longPct": 63.9,
+    "ratio": 1.756,
+    "longPct": 63.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.513,
-    "longPct": 71.5,
+    "ratio": 2.517,
+    "longPct": 71.6,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.987,
-    "longPct": 74.9,
+    "ratio": 3.011,
+    "longPct": 75.1,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.858,
-    "longPct": 74.1,
+    "ratio": 2.884,
+    "longPct": 74.3,
     "bias": "CROWDED LONG"
    }
   ],
@@ -4685,21 +4668,21 @@
   }
  ],
  "manualBook": {
-  "at": "2026-07-16T12:25:10.764Z",
+  "at": "2026-07-16T12:45:10.062Z",
   "positions": [
    {
     "asset": "XAU",
     "stock": false,
     "direction": "LONG",
     "entry": 4037,
-    "pnlPct": -0.38
+    "pnlPct": -0.79
    },
    {
     "asset": "HYPE",
     "stock": false,
     "direction": "LONG",
     "entry": 66.34,
-    "pnlPct": -0.89
+    "pnlPct": -1.61
    }
   ]
  },
@@ -4914,19 +4897,19 @@
      "prints": 96,
      "volK": 3168,
      "biasK": -901,
-     "equity": 234392,
+     "equity": 243006,
      "positions": [
       {
        "coin": "XAU",
        "side": "LONG",
-       "usdK": 1049,
-       "upnlK": 2
+       "usdK": 939,
+       "upnlK": 7
       },
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 711,
-       "upnlK": 0
+       "usdK": 708,
+       "upnlK": 3
       }
      ]
     },
@@ -4935,12 +4918,12 @@
      "prints": 70,
      "volK": 1147,
      "biasK": 41,
-     "equity": 68997,
+     "equity": 68972,
      "positions": [
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 20,
+       "usdK": 16,
        "upnlK": 0
       }
      ]
@@ -4950,8 +4933,15 @@
      "prints": 73,
      "volK": 986,
      "biasK": 50,
-     "equity": 9013,
-     "positions": []
+     "equity": 5456,
+     "positions": [
+      {
+       "coin": "LIT",
+       "side": "LONG",
+       "usdK": 4,
+       "upnlK": 0
+      }
+     ]
     }
    ]
   },
@@ -4983,7 +4973,7 @@
   ]
  },
  "intel": {
-  "ageH": 3.2,
+  "ageH": 3.3,
   "narratives": [
    "* Institutional Asset Tokenization (RWA): Major financial institutions (BlackRock, Vanguard, JPM, NYSE) are trialing tokenized US stocks ($MSFT, $QQQ, $SPY, $SHV) on HyperLedger Besu and Canton, while Securitize operates",
    "* Solana DeFi & Trading Infrastructure: Jito launched JTX, a self-custodial trading platform designed to unify Solana's fragmented markets, assets, liquidity, and execution. (newsletter)",
@@ -5164,6 +5154,22 @@
  ],
  "archive": [
   {
+   "id": 261,
+   "asset": "BTC",
+   "direction": "LONG",
+   "actor": "gemini",
+   "venue": "PAPER",
+   "outcome": "LOSS",
+   "pct": -1.2,
+   "pnlUsd": -3.64,
+   "exitReason": null,
+   "closedAt": "2026-07-16T12:43:44.841Z",
+   "entry": 64735,
+   "exit": 63950,
+   "conviction": 8,
+   "openedAt": "2026-07-15T04:42:26.678Z"
+  },
+  {
    "id": 269,
    "asset": "ZEC",
    "direction": "LONG",
@@ -5299,7 +5305,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 465.48,
+    "equity": 462.41,
     "peak": 500.34
    },
    "GRVT": {
