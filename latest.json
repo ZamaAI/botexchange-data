@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-16T01:30:10.024Z",
+ "generatedAt": "2026-07-16T01:35:08.048Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 0,
    "wr": "N/A",
    "pnl": 0,
-   "account": 504.46,
-   "retPct": 0.9,
+   "account": 505.26,
+   "retPct": 1.1,
    "accountRealized": 500
   },
   {
@@ -35,14 +35,14 @@
    "label": "OpenClaw",
    "venue": "HL",
    "paper": false,
-   "trades": 0,
+   "trades": 1,
    "wins": 0,
-   "losses": 0,
-   "wr": "N/A",
-   "pnl": 0,
-   "account": 467.52,
-   "retPct": -6.5,
-   "accountRealized": 500
+   "losses": 1,
+   "wr": "0",
+   "pnl": -8.65,
+   "account": 468.09,
+   "retPct": -6.4,
+   "accountRealized": 491.35
   },
   {
    "key": "hermes",
@@ -118,35 +118,43 @@
  "seriesDaily": {
   "labels": [
    "start",
-   "07-15"
+   "07-15",
+   "07-16"
   ],
   "bySource": {
    "qwen": [
+    500,
     500,
     500
    ],
    "openclaw": [
     500,
-    500
+    500,
+    491.35
    ],
    "hermes": [
+    500,
     500,
     500
    ],
    "manual": [
     500,
+    500,
     500
    ],
    "kimi": [
     500,
+    508.78,
     508.78
    ],
    "deepseek": [
     500,
+    496.25,
     496.25
    ],
    "gemini": [
     500,
+    509.83,
     509.83
    ]
   }
@@ -3588,13 +3596,28 @@
    "kimi": 508.78,
    "deepseek": 496.25,
    "gemini": 509.83
+  },
+  {
+   "ts": "2026-07-16T01:35:00.000Z",
+   "hl": -11.05412,
+   "hl_spot": 479.140784,
+   "grvt": 500.006066,
+   "extended": 500.037823,
+   "capital": 2985.470275,
+   "qwen": 505.26,
+   "openclaw": 468.09,
+   "hermes": 500.01,
+   "manual": 500.04,
+   "kimi": 508.78,
+   "deepseek": 496.25,
+   "gemini": 509.83
   }
  ],
  "venuesLive": {
-  "hl": -11.329339999999998,
-  "hl_spot": 478.851275,
+  "hl": -11.05412,
+  "hl_spot": 479.140784,
   "grvt": 500.006066,
-  "total": 967.5280009999999
+  "total": 968.09273
  },
  "openTrades": [
   {
@@ -3683,23 +3706,6 @@
    "smartMoney": null
   },
   {
-   "id": 262,
-   "asset": "HYPE",
-   "direction": "LONG",
-   "actor": "openclaw",
-   "venue": "HL",
-   "entry": 67.91,
-   "stop": 66.2122,
-   "target": 71.3055,
-   "levelsApprox": true,
-   "trailed": false,
-   "rr": 2,
-   "conviction": 7,
-   "openedAt": "2026-07-15T10:07:35.198Z",
-   "thesis": "HL smart-money positioning is net long HYPE by 7L/1S for +$44.8M, a real flow imbalance rather than pure price momentum, and HYPE carries a 67% historical win rate on this desk. Price reclaiming the 24h move while whale longs remain uncontested supports continuation into the mid-$71 area.",
-   "smartMoney": 1
-  },
-  {
    "id": 261,
    "asset": "BTC",
    "direction": "LONG",
@@ -3748,6 +3754,17 @@
   }
  ],
  "recentCloses": [
+  {
+   "id": 262,
+   "asset": "HYPE",
+   "direction": "LONG",
+   "actor": "openclaw",
+   "venue": "HL",
+   "outcome": "LOSS",
+   "pct": -2.5,
+   "exitReason": null,
+   "closedAt": "2026-07-16T01:18:11.875Z"
+  },
   {
    "id": 265,
    "asset": "ETH",
@@ -3868,45 +3885,34 @@
    "pct": 6.2,
    "exitReason": "SHORT APT: hit target +6.2% (entry $0.618 → exit $0.5799). WHY: Supply pressure from tokenomics unlock did materialize as predicted; price never reclaimed $0.634 on 1h close, thesis remained intact…",
    "closedAt": "2026-07-13T21:38:16.921Z"
-  },
-  {
-   "id": 253,
-   "asset": "XAU",
-   "direction": "LONG",
-   "actor": "manual",
-   "venue": "EXTENDED",
-   "outcome": "LOSS",
-   "pct": -2,
-   "exitReason": "Manual LONG on Extended — entry $4106.6 → exit $4022.9 (-2.04% move 25x), realised $-27.47 → LOSS.",
-   "closedAt": "2026-07-13T14:16:49.177Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64567.67,
-    "change24hPct": -0.41
+    "price": 64628.59,
+    "change24hPct": -0.22
    },
    {
     "symbol": "ETH",
-    "price": 1914.85,
-    "change24hPct": 1.93
+    "price": 1917.56,
+    "change24hPct": 2.14
    },
    {
     "symbol": "BNB",
-    "price": 579.16,
-    "change24hPct": -0.4
+    "price": 579.9,
+    "change24hPct": -0.22
    },
    {
     "symbol": "XRP",
-    "price": 1.1091,
-    "change24hPct": 0.1
+    "price": 1.1104,
+    "change24hPct": 0.25
    },
    {
     "symbol": "SOL",
-    "price": 76.84,
-    "change24hPct": -1.21
+    "price": 76.92,
+    "change24hPct": -1.03
    }
   ],
   "fearGreed": {
@@ -4230,12 +4236,12 @@
      "prints": 96,
      "volK": 3168,
      "biasK": -901,
-     "equity": 228000,
+     "equity": 227263,
      "positions": [
       {
        "coin": "XAU",
        "side": "LONG",
-       "usdK": 2069,
+       "usdK": 2070,
        "upnlK": 7
       }
      ]
@@ -4245,12 +4251,12 @@
      "prints": 69,
      "volK": 1140,
      "biasK": 47,
-     "equity": 68977,
+     "equity": 68973,
      "positions": [
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 3,
+       "usdK": 1,
        "upnlK": 0
       }
      ]
@@ -4260,13 +4266,13 @@
      "prints": 26,
      "volK": 995,
      "biasK": -166,
-     "equity": 10667,
+     "equity": 13551,
      "positions": [
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 580,
-       "upnlK": -6
+       "usdK": 583,
+       "upnlK": -3
       }
      ]
     }
@@ -4300,7 +4306,7 @@
   ]
  },
  "intel": {
-  "ageH": 3.9,
+  "ageH": 4,
   "narratives": [
    "* Privacy Sector: Gained significant traction, leading Tuesday's session with a 10.3% gain driven by Zcash (ZEC) ahead of its Ironwood upgrade to scale security and cryptography. (both)",
    "* Tokenized Securities (RWA): Gaining institutional momentum as DTCC plans an October trial of tokenized securities (MSFT, QQQ, SPY, SHV) on HyperLedger Besu and Canton networks with major participants like Vanguard, Bla",
@@ -4481,6 +4487,22 @@
  ],
  "archive": [
   {
+   "id": 262,
+   "asset": "HYPE",
+   "direction": "LONG",
+   "actor": "openclaw",
+   "venue": "HL",
+   "outcome": "LOSS",
+   "pct": -2.5,
+   "pnlUsd": -8.65,
+   "exitReason": null,
+   "closedAt": "2026-07-16T01:18:11.875Z",
+   "entry": 67.91,
+   "exit": 66.191,
+   "conviction": 7,
+   "openedAt": "2026-07-15T10:07:35.198Z"
+  },
+  {
    "id": 265,
    "asset": "ETH",
    "direction": "LONG",
@@ -4552,7 +4574,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 467.52,
+    "equity": 468.09,
     "peak": 500.34
    },
    "GRVT": {
@@ -4565,9 +4587,9 @@
    }
   },
   "streaks": {
-   "openclaw": 0,
+   "openclaw": 1,
    "hermes": 0,
-   "fleet": 0
+   "fleet": 1
   },
   "limits": {
    "dailyLossPct": 7.5,
