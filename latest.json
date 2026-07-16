@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-16T23:40:09.914Z",
+ "generatedAt": "2026-07-16T23:45:07.195Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -21,14 +21,14 @@
    "label": "Qwen",
    "venue": "paper",
    "paper": true,
-   "trades": 0,
+   "trades": 1,
    "wins": 0,
-   "losses": 0,
-   "wr": "N/A",
-   "pnl": 0,
-   "account": 491.85,
-   "retPct": -1.6,
-   "accountRealized": 500
+   "losses": 1,
+   "wr": "0",
+   "pnl": -5.63,
+   "account": 492.55,
+   "retPct": -1.5,
+   "accountRealized": 494.37
   },
   {
    "key": "openclaw",
@@ -40,8 +40,8 @@
    "losses": 2,
    "wr": "0",
    "pnl": -20.9,
-   "account": 434.43,
-   "retPct": -13.1,
+   "account": 435.54,
+   "retPct": -12.9,
    "accountRealized": 479.1
   },
   {
@@ -110,8 +110,8 @@
    "losses": 1,
    "wr": "50",
    "pnl": 6.19,
-   "account": 507.67,
-   "retPct": 1.5,
+   "account": 508.04,
+   "retPct": 1.6,
    "accountRealized": 506.19
   }
  ],
@@ -125,7 +125,7 @@
    "qwen": [
     500,
     500,
-    500
+    494.37
    ],
    "openclaw": [
     500,
@@ -762,21 +762,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-15T23:45:00.000Z",
-   "hl": -10.781342,
-   "hl_spot": 488.206725,
-   "grvt": 500.006066,
-   "extended": 500.036997,
-   "capital": 2995.031339,
-   "qwen": 505.37,
-   "openclaw": 477.43,
-   "hermes": 500.01,
-   "manual": 500.04,
-   "kimi": 508.78,
-   "deepseek": 496.25,
-   "gemini": 509.83
-  },
   {
    "ts": "2026-07-15T23:50:00.000Z",
    "hl": -10.972739999999998,
@@ -5081,14 +5066,29 @@
    "kimi": 508.77,
    "deepseek": 487.2,
    "gemini": 507.67
+  },
+  {
+   "ts": "2026-07-16T23:45:00.000Z",
+   "hl": -20.93956,
+   "hl_spot": 456.47519600000004,
+   "grvt": 500.006066,
+   "extended": 461.691349,
+   "capital": 2904.6740680000003,
+   "qwen": 492.55,
+   "openclaw": 435.54,
+   "hermes": 500.01,
+   "manual": 461.69,
+   "kimi": 508.77,
+   "deepseek": 487.2,
+   "gemini": 508.04
   }
  ],
  "venuesLive": {
-  "hl": -21.4931,
-  "hl_spot": 455.921656,
+  "hl": -20.93956,
+  "hl_spot": 456.47519600000004,
   "grvt": 500.006066,
-  "lighter": 1507.071879,
-  "total": 2441.506501
+  "lighter": 1507.441017,
+  "total": 2442.982719
  },
  "openTrades": [
   {
@@ -5160,23 +5160,6 @@
    "smartMoney": null
   },
   {
-   "id": 267,
-   "asset": "BTC",
-   "direction": "LONG",
-   "actor": "qwen",
-   "venue": "PAPER",
-   "entry": 65000,
-   "stop": 63780,
-   "target": 69120,
-   "levelsApprox": false,
-   "trailed": false,
-   "rr": 3.4,
-   "conviction": 8,
-   "openedAt": "2026-07-15T22:03:47.511Z",
-   "thesis": "Qwen scanner pick (paper) — see COIN SCANNER AI ANALYSIS in the report",
-   "smartMoney": null
-  },
-  {
    "id": 258,
    "asset": "ETH",
    "direction": "LONG",
@@ -5219,6 +5202,17 @@
   }
  ],
  "recentCloses": [
+  {
+   "id": 267,
+   "asset": "BTC",
+   "direction": "LONG",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "outcome": "LOSS",
+   "pct": -1.9,
+   "exitReason": null,
+   "closedAt": "2026-07-16T23:42:07.546Z"
+  },
   {
    "id": 271,
    "asset": "HYPE",
@@ -5339,45 +5333,34 @@
    "pct": 0,
    "exitReason": "LONG LIT: stopped out at SL +0.0% (entry $2.59 → exit $2.59). WHY: Whale positioning likely held but price failed to break $2.65 resistance; accumulation thesis was real but lacked sufficient buying…",
    "closedAt": "2026-07-15T06:36:38.961Z"
-  },
-  {
-   "id": 256,
-   "asset": "AAPL_24_5",
-   "direction": "LONG",
-   "actor": "manual",
-   "venue": "EXTENDED",
-   "outcome": "WIN",
-   "pct": 13.4,
-   "exitReason": "Manual LONG on Extended — entry $276.29 → exit $313.35 (+13.41% move 10x), realised +$88.84 → WIN.",
-   "closedAt": "2026-07-14T16:43:10.375Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63754.63,
-    "change24hPct": -1.6
-   },
-   {
-    "symbol": "ETH",
-    "price": 1859.52,
-    "change24hPct": -3.14
-   },
-   {
-    "symbol": "BNB",
-    "price": 572.6,
+    "price": 63834.65,
     "change24hPct": -1.39
    },
    {
+    "symbol": "ETH",
+    "price": 1863.15,
+    "change24hPct": -2.75
+   },
+   {
+    "symbol": "BNB",
+    "price": 572.95,
+    "change24hPct": -1.28
+   },
+   {
     "symbol": "XRP",
-    "price": 1.0865,
-    "change24hPct": -2.47
+    "price": 1.0878,
+    "change24hPct": -2.25
    },
    {
     "symbol": "SOL",
-    "price": 75.2,
-    "change24hPct": -2.85
+    "price": 75.29,
+    "change24hPct": -2.59
    }
   ],
   "fearGreed": {
@@ -5801,7 +5784,7 @@
   ]
  },
  "intel": {
-  "ageH": 2.2,
+  "ageH": 2.3,
   "narratives": [
    "* Privacy Protocols: Gaining massive traction as the Privacy Index rose 15.5% (led by DCR and ZEC). Proponents argue privacy is the \"last 1,000x\" and protects against financial surveillance, with EthSystems spinning out ",
    "* Real-World Asset (RWA) Lending & Tokenization: Aave deployed its V4 lending protocol on Avalanche to support tokenized RWA lending across 7 initial assets, while institutions actively prepare to tokenize fiat, stocks, ",
@@ -5980,6 +5963,22 @@
   }
  ],
  "archive": [
+  {
+   "id": 267,
+   "asset": "BTC",
+   "direction": "LONG",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "outcome": "LOSS",
+   "pct": -1.9,
+   "pnlUsd": -5.63,
+   "exitReason": null,
+   "closedAt": "2026-07-16T23:42:07.546Z",
+   "entry": 65000,
+   "exit": 63780,
+   "conviction": 8,
+   "openedAt": "2026-07-15T22:03:47.511Z"
+  },
   {
    "id": 271,
    "asset": "HYPE",
@@ -6164,7 +6163,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 434.43,
+    "equity": 435.54,
     "peak": 500.34
    },
    "GRVT": {
@@ -6199,7 +6198,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 507.67,
+    "equity": 508.04,
     "peak": 509.82
    }
   },
