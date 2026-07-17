@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-17T05:35:08.433Z",
+ "generatedAt": "2026-07-17T05:45:11.127Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 449.79
+   "account": 452.34
   },
   "machine": {
    "label": "Selene",
@@ -21,14 +21,14 @@
    "label": "Qwen",
    "venue": "paper",
    "paper": true,
-   "trades": 1,
+   "trades": 2,
    "wins": 0,
-   "losses": 1,
+   "losses": 2,
    "wr": "0",
-   "pnl": -5.63,
-   "account": 488.19,
-   "retPct": -2.4,
-   "accountRealized": 494.37
+   "pnl": -11.65,
+   "account": 488.35,
+   "retPct": -2.3,
+   "accountRealized": 488.35
   },
   {
    "key": "openclaw",
@@ -40,8 +40,8 @@
    "losses": 4,
    "wr": "0",
    "pnl": -42.09,
-   "account": 445.26,
-   "retPct": -10.9,
+   "account": 444.82,
+   "retPct": -11,
    "accountRealized": 457.91
   },
   {
@@ -68,8 +68,8 @@
    "losses": 2,
    "wr": "0",
    "pnl": -38.35,
-   "account": 449.79,
-   "retPct": -10,
+   "account": 452.34,
+   "retPct": -9.5,
    "accountRealized": 461.65
   },
   {
@@ -127,7 +127,7 @@
     500,
     500,
     494.37,
-    494.37
+    488.35
    ],
    "openclaw": [
     500,
@@ -860,36 +860,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-16T05:40:00.000Z",
-   "hl": -5.2122399999999995,
-   "hl_spot": 484.936784,
-   "grvt": 500.006066,
-   "extended": 501.595325,
-   "capital": 3001.518859,
-   "qwen": 507.75,
-   "openclaw": 479.72,
-   "hermes": 500.01,
-   "manual": 501.6,
-   "kimi": 508.77,
-   "deepseek": 498.17,
-   "gemini": 509.82
-  },
-  {
-   "ts": "2026-07-16T05:45:00.000Z",
-   "hl": -5.28198,
-   "hl_spot": 484.927544,
-   "grvt": 500.006066,
-   "extended": 502.772543,
-   "capital": 3002.532779,
-   "qwen": 507.71,
-   "openclaw": 479.65,
-   "hermes": 500.01,
-   "manual": 502.77,
-   "kimi": 508.77,
-   "deepseek": 498.08,
-   "gemini": 509.82
-  },
   {
    "ts": "2026-07-16T05:50:00.000Z",
    "hl": -5.175896000000001,
@@ -5179,14 +5149,29 @@
    "kimi": 508.77,
    "deepseek": 487.2,
    "gemini": 505.95
+  },
+  {
+   "ts": "2026-07-17T05:45:00.000Z",
+   "hl": -5.552,
+   "hl_spot": 450.36985300000003,
+   "grvt": 500.006066,
+   "extended": 452.343869,
+   "capital": 2902.518944,
+   "qwen": 488.35,
+   "openclaw": 444.82,
+   "hermes": 500.01,
+   "manual": 452.34,
+   "kimi": 508.77,
+   "deepseek": 487.2,
+   "gemini": 505.95
   }
  ],
  "venuesLive": {
-  "hl": -5.336,
-  "hl_spot": 450.599593,
+  "hl": -5.552,
+  "hl_spot": 450.36985300000003,
   "grvt": 500.006066,
   "lighter": 1505.351156,
-  "total": 2450.620815
+  "total": 2450.175075
  },
  "openTrades": [
   {
@@ -5222,23 +5207,6 @@
    "openedAt": "2026-07-16T10:05:32.675Z",
    "thesis": "Predicted funding squeeze detector flags SOL right now as \"heavy shorts funding longs, long squeeze imminent\" — a live positioning imbalance, not a lagging momentum signal. MACD4h is bullish and OI is flat/rising (+2.7% 24h) alongside price, confirming fresh long-side conviction rather than short-covering alone.",
    "smartMoney": null
-  },
-  {
-   "id": 258,
-   "asset": "ETH",
-   "direction": "LONG",
-   "actor": "qwen",
-   "venue": "PAPER",
-   "entry": 1874.5,
-   "stop": 1836.91,
-   "target": 2000,
-   "levelsApprox": false,
-   "trailed": false,
-   "rr": 3.3,
-   "conviction": 9,
-   "openedAt": "2026-07-15T04:37:46.985Z",
-   "thesis": "Qwen scanner pick (paper) — see COIN SCANNER AI ANALYSIS in the report",
-   "smartMoney": 2
   }
  ],
  "awaiting": [
@@ -5266,6 +5234,17 @@
   }
  ],
  "recentCloses": [
+  {
+   "id": 258,
+   "asset": "ETH",
+   "direction": "LONG",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "outcome": "LOSS",
+   "pct": -2,
+   "exitReason": null,
+   "closedAt": "2026-07-17T05:41:04.223Z"
+  },
   {
    "id": 274,
    "asset": "BTC",
@@ -5386,45 +5365,34 @@
    "pct": -2.5,
    "exitReason": "LONG HYPE: stopped out at SL -2.5% (entry $67.91 → exit $66.191). WHY: Whale positioning likely flipped to net short before price reached target, invalidating the smart-money long thesis before stop…",
    "closedAt": "2026-07-16T01:18:11.875Z"
-  },
-  {
-   "id": 265,
-   "asset": "ETH",
-   "direction": "LONG",
-   "actor": "gemini",
-   "venue": "LIGHTER",
-   "outcome": "WIN",
-   "pct": 3.3,
-   "exitReason": "LONG ETH: hit target +3.3% (entry $1878.21 → exit $1940.27). WHY: Short liquidations and ETF inflows provided immediate bid support that held above pivot, allowing momentum thesis to execute without…",
-   "closedAt": "2026-07-15T13:02:22.504Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63178,
-    "change24hPct": -2.68
+    "price": 62979.43,
+    "change24hPct": -2.98
    },
    {
     "symbol": "ETH",
-    "price": 1835.89,
-    "change24hPct": -4.56
+    "price": 1832.63,
+    "change24hPct": -4.81
    },
    {
     "symbol": "BNB",
-    "price": 570.15,
-    "change24hPct": -2.45
+    "price": 568.83,
+    "change24hPct": -2.67
    },
    {
     "symbol": "XRP",
-    "price": 1.0859,
-    "change24hPct": -2.71
+    "price": 1.0842,
+    "change24hPct": -2.91
    },
    {
     "symbol": "SOL",
-    "price": 74.78,
-    "change24hPct": -3.21
+    "price": 74.71,
+    "change24hPct": -3.45
    }
   ],
   "fearGreed": {
@@ -5441,31 +5409,31 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.509,
-    "longPct": 60.2,
+    "ratio": 1.534,
+    "longPct": 60.5,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "ETH",
-    "ratio": 2.021,
-    "longPct": 66.9,
+    "ratio": 2.04,
+    "longPct": 67.1,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.583,
+    "ratio": 2.588,
     "longPct": 72.1,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 3.021,
-    "longPct": 75.1,
+    "ratio": 3.047,
+    "longPct": 75.3,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.808,
+    "ratio": 2.799,
     "longPct": 73.7,
     "bias": "CROWDED LONG"
    }
@@ -5520,14 +5488,14 @@
   }
  ],
  "manualBook": {
-  "at": "2026-07-17T05:25:09.223Z",
+  "at": "2026-07-17T05:45:11.127Z",
   "positions": [
    {
     "asset": "HYPE",
     "stock": false,
     "direction": "LONG",
     "entry": 59.925,
-    "pnlPct": -1.29
+    "pnlPct": -1.32
    }
   ]
  },
@@ -5790,13 +5758,13 @@
      "prints": 107,
      "volK": 3162,
      "biasK": -128,
-     "equity": 235154,
+     "equity": 231647,
      "positions": [
       {
        "coin": "ZEC",
        "side": "LONG",
-       "usdK": 262,
-       "upnlK": 3
+       "usdK": 265,
+       "upnlK": -1
       },
       {
        "coin": "TAO",
@@ -5817,15 +5785,22 @@
      "prints": 62,
      "volK": 998,
      "biasK": 95,
-     "equity": 69177,
-     "positions": []
+     "equity": 69149,
+     "positions": [
+      {
+       "coin": "ETH",
+       "side": "LONG",
+       "usdK": 15,
+       "upnlK": 0
+      }
+     ]
     },
     {
      "id": 66213,
      "prints": 73,
      "volK": 986,
      "biasK": 50,
-     "equity": 5145,
+     "equity": 5104,
      "positions": [
       {
        "coin": "LIT",
@@ -5865,7 +5840,7 @@
   ]
  },
  "intel": {
-  "ageH": 2.1,
+  "ageH": 2.3,
   "narratives": [
    "* Stablecoin Expansion: Visa's launch of its Stablecoin Platform on Open USD to 200 million merchants, Stripe's $53B bid for PayPal to expand its stablecoin footprint, and MoneyGram preparing to roll out MGUSD stablecoin",
    "* Real-World Asset (RWA) Tokenization: Hyperliquid hitting an all-time high of ~$3.6 billion in RWA open interest, and Ondo Finance partnering with Japan's SBI to tokenize Japanese assets. (newsletter)",
@@ -6045,6 +6020,22 @@
   }
  ],
  "archive": [
+  {
+   "id": 258,
+   "asset": "ETH",
+   "direction": "LONG",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "outcome": "LOSS",
+   "pct": -2,
+   "pnlUsd": -6.02,
+   "exitReason": null,
+   "closedAt": "2026-07-17T05:41:04.223Z",
+   "entry": 1874.5,
+   "exit": 1836.91,
+   "conviction": 9,
+   "openedAt": "2026-07-15T04:37:46.985Z"
+  },
   {
    "id": 274,
    "asset": "BTC",
@@ -6292,24 +6283,24 @@
     "actor": "openclaw",
     "halted": true,
     "rule": "consecutive_loss_agent",
-    "reason": "openclaw: 3 consecutive losses, last one 4.9h ago. openclaw cooldown 19.1h remaining (other agents unaffected).",
-    "equity": 445.26,
+    "reason": "openclaw: 3 consecutive losses, last one 5.0h ago. openclaw cooldown 19.0h remaining (other agents unaffected).",
+    "equity": 444.82,
     "peak": 500.34
    },
    "GRVT": {
     "actor": "hermes",
-    "halted": true,
-    "rule": "consecutive_loss_global",
-    "reason": "6 consecutive losses across all live brains, last one 2.9h ago. Fleet cooldown 21.1h remaining.",
+    "halted": false,
+    "rule": null,
+    "reason": null,
     "equity": 500.01,
     "peak": 500.01
    },
    "LIGHTER_kimi": {
     "actor": "kimi",
     "venue": "LIGHTER",
-    "halted": true,
-    "rule": "consecutive_loss_global",
-    "reason": "6 consecutive losses across all live brains, last one 2.9h ago. Fleet cooldown 21.1h remaining.",
+    "halted": false,
+    "rule": null,
+    "reason": null,
     "equity": 508.77,
     "peak": 508.77
    },
@@ -6318,7 +6309,7 @@
     "venue": "LIGHTER",
     "halted": true,
     "rule": "consecutive_loss_global",
-    "reason": "6 consecutive losses across all live brains, last one 2.9h ago. Fleet cooldown 21.1h remaining.",
+    "reason": "6 consecutive losses across all live brains (gemini×1, openclaw×3, deepseek×2), last one 3.1h ago. Fleet cooldown 20.9h remaining.",
     "equity": 487.2,
     "peak": 500
    },
@@ -6327,7 +6318,7 @@
     "venue": "LIGHTER",
     "halted": true,
     "rule": "consecutive_loss_global",
-    "reason": "6 consecutive losses across all live brains, last one 2.9h ago. Fleet cooldown 21.1h remaining.",
+    "reason": "6 consecutive losses across all live brains (gemini×1, openclaw×3, deepseek×2), last one 3.1h ago. Fleet cooldown 20.9h remaining.",
     "equity": 505.95,
     "peak": 509.82
    }
