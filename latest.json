@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-17T15:35:09.214Z",
+ "generatedAt": "2026-07-17T15:40:06.945Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 468.5
+   "account": 469.8
   },
   "machine": {
    "label": "Selene",
@@ -68,8 +68,8 @@
    "losses": 2,
    "wr": "0",
    "pnl": -38.35,
-   "account": 468.5,
-   "retPct": -6.3,
+   "account": 469.8,
+   "retPct": -6,
    "accountRealized": 461.65
   },
   {
@@ -1010,21 +1010,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-16T15:40:00.000Z",
-   "hl": -0.7925,
-   "hl_spot": 476.78720400000003,
-   "grvt": 500.006066,
-   "extended": 471.239141,
-   "capital": 2956.4623070000002,
-   "qwen": 501.17,
-   "openclaw": 475.99,
-   "hermes": 500.01,
-   "manual": 471.24,
-   "kimi": 508.77,
-   "deepseek": 487.2,
-   "gemini": 509.82
-  },
   {
    "ts": "2026-07-16T15:45:00.000Z",
    "hl": -1.90524,
@@ -5284,6 +5269,21 @@
    "kimi": 508.77,
    "deepseek": 487.2,
    "gemini": 505.95
+  },
+  {
+   "ts": "2026-07-17T15:40:00.000Z",
+   "hl": 0,
+   "hl_spot": 448.598757,
+   "grvt": 500.006066,
+   "extended": 469.804414,
+   "capital": 2923.760393,
+   "qwen": 488.35,
+   "openclaw": 448.6,
+   "hermes": 500.01,
+   "manual": 469.8,
+   "kimi": 508.77,
+   "deepseek": 487.2,
+   "gemini": 505.95
   }
  ],
  "venuesLive": {
@@ -5468,28 +5468,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63204,
-    "change24hPct": -2.44
+    "price": 63275.05,
+    "change24hPct": -2.37
    },
    {
     "symbol": "ETH",
-    "price": 1820.11,
-    "change24hPct": -3.6
+    "price": 1825.7,
+    "change24hPct": -3.26
    },
    {
     "symbol": "BNB",
-    "price": 561.58,
-    "change24hPct": -3.25
+    "price": 562.6,
+    "change24hPct": -3.11
    },
    {
     "symbol": "XRP",
-    "price": 1.0781,
-    "change24hPct": -3.36
+    "price": 1.0818,
+    "change24hPct": -3.19
    },
    {
     "symbol": "SOL",
-    "price": 74.32,
-    "change24hPct": -3.13
+    "price": 74.52,
+    "change24hPct": -2.87
    }
   ],
   "fearGreed": {
@@ -5910,25 +5910,25 @@
      "prints": 107,
      "volK": 3162,
      "biasK": -128,
-     "equity": 230736,
+     "equity": 229086,
      "positions": [
       {
        "coin": "XAU",
        "side": "LONG",
-       "usdK": 632,
-       "upnlK": 0
+       "usdK": 939,
+       "upnlK": -1
       },
       {
        "coin": "TAO",
        "side": "LONG",
-       "usdK": 112,
-       "upnlK": 1
+       "usdK": 113,
+       "upnlK": 0
       },
       {
        "coin": "ONDO",
        "side": "LONG",
        "usdK": 103,
-       "upnlK": 1
+       "upnlK": 0
       },
       {
        "coin": "ARB",
@@ -5943,15 +5943,22 @@
      "prints": 62,
      "volK": 1011,
      "biasK": 81,
-     "equity": 69179,
-     "positions": []
+     "equity": 69211,
+     "positions": [
+      {
+       "coin": "ETH",
+       "side": "LONG",
+       "usdK": 2,
+       "upnlK": 0
+      }
+     ]
     },
     {
      "id": 66213,
      "prints": 73,
      "volK": 986,
      "biasK": 50,
-     "equity": 5053,
+     "equity": 5040,
      "positions": [
       {
        "coin": "LIT",
@@ -6450,7 +6457,7 @@
     "actor": "openclaw",
     "halted": true,
     "rule": "consecutive_loss_agent",
-    "reason": "openclaw: 3 consecutive losses, last one 9.8h ago. openclaw cooldown 14.2h remaining (other agents unaffected).",
+    "reason": "openclaw: 3 consecutive losses, last one 9.9h ago. openclaw cooldown 14.1h remaining (other agents unaffected).",
     "equity": 448.6,
     "peak": 500.34
    },
@@ -6476,7 +6483,7 @@
     "venue": "LIGHTER",
     "halted": true,
     "rule": "consecutive_loss_global",
-    "reason": "6 consecutive losses across all live brains (openclaw×4, gemini×1, deepseek×1), last one 9.8h ago. Fleet cooldown 14.2h remaining.",
+    "reason": "6 consecutive losses across all live brains (openclaw×4, gemini×1, deepseek×1), last one 9.9h ago. Fleet cooldown 14.1h remaining.",
     "equity": 487.2,
     "peak": 500
    },
@@ -6485,7 +6492,7 @@
     "venue": "LIGHTER",
     "halted": true,
     "rule": "consecutive_loss_global",
-    "reason": "6 consecutive losses across all live brains (openclaw×4, gemini×1, deepseek×1), last one 9.8h ago. Fleet cooldown 14.2h remaining.",
+    "reason": "6 consecutive losses across all live brains (openclaw×4, gemini×1, deepseek×1), last one 9.9h ago. Fleet cooldown 14.1h remaining.",
     "equity": 505.95,
     "peak": 509.82
    }
