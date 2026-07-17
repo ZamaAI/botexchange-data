@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-17T06:00:10.933Z",
+ "generatedAt": "2026-07-17T06:05:07.094Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 455.2
+   "account": 453.99
   },
   "machine": {
    "label": "Selene",
@@ -35,14 +35,14 @@
    "label": "OpenClaw",
    "venue": "HL",
    "paper": false,
-   "trades": 4,
+   "trades": 5,
    "wins": 0,
-   "losses": 4,
+   "losses": 5,
    "wr": "0",
-   "pnl": -42.09,
+   "pnl": -49.28,
    "account": 448.6,
    "retPct": -10.3,
-   "accountRealized": 457.91
+   "accountRealized": 450.72
   },
   {
    "key": "hermes",
@@ -68,8 +68,8 @@
    "losses": 2,
    "wr": "0",
    "pnl": -38.35,
-   "account": 455.2,
-   "retPct": -9,
+   "account": 453.99,
+   "retPct": -9.2,
    "accountRealized": 461.65
   },
   {
@@ -133,7 +133,7 @@
     500,
     500,
     479.1,
-    457.91
+    450.72
    ],
    "hermes": [
     500,
@@ -875,21 +875,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-16T06:05:00.000Z",
-   "hl": -5.6630199999999995,
-   "hl_spot": 484.49238,
-   "grvt": 500.006066,
-   "extended": 504.127833,
-   "capital": 3002.979072,
-   "qwen": 507.66,
-   "openclaw": 478.83,
-   "hermes": 500.01,
-   "manual": 504.13,
-   "kimi": 508.77,
-   "deepseek": 497.99,
-   "gemini": 509.82
-  },
   {
    "ts": "2026-07-16T06:10:00.000Z",
    "hl": -5.287699999999999,
@@ -5179,6 +5164,21 @@
    "kimi": 508.77,
    "deepseek": 487.2,
    "gemini": 505.95
+  },
+  {
+   "ts": "2026-07-17T06:05:00.000Z",
+   "hl": 0,
+   "hl_spot": 448.601505,
+   "grvt": 500.006066,
+   "extended": 453.99245,
+   "capital": 2907.9511770000004,
+   "qwen": 488.35,
+   "openclaw": 448.6,
+   "hermes": 500.01,
+   "manual": 453.99,
+   "kimi": 508.77,
+   "deepseek": 487.2,
+   "gemini": 505.95
   }
  ],
  "venuesLive": {
@@ -5205,23 +5205,6 @@
    "openedAt": "2026-07-17T04:13:08.225Z",
    "thesis": "Active order book imbalance of 0.14 ($97K bids vs $711K asks within 1%) and a crowded Binance long/short ratio of 2.57 provide the perfect backdrop for a liquidation squeeze down.",
    "smartMoney": 2
-  },
-  {
-   "id": 270,
-   "asset": "SOL",
-   "direction": "LONG",
-   "actor": "openclaw",
-   "venue": "HL",
-   "entry": 75.99,
-   "stop": 74.4702,
-   "target": 79.4095,
-   "levelsApprox": true,
-   "trailed": false,
-   "rr": 2,
-   "conviction": 7,
-   "openedAt": "2026-07-16T10:05:32.675Z",
-   "thesis": "Predicted funding squeeze detector flags SOL right now as \"heavy shorts funding longs, long squeeze imminent\" — a live positioning imbalance, not a lagging momentum signal. MACD4h is bullish and OI is flat/rising (+2.7% 24h) alongside price, confirming fresh long-side conviction rather than short-covering alone.",
-   "smartMoney": null
   }
  ],
  "awaiting": [
@@ -5249,6 +5232,17 @@
   }
  ],
  "recentCloses": [
+  {
+   "id": 270,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "openclaw",
+   "venue": "HL",
+   "outcome": "LOSS",
+   "pct": -2.3,
+   "exitReason": null,
+   "closedAt": "2026-07-17T05:47:02.798Z"
+  },
   {
    "id": 258,
    "asset": "ETH",
@@ -5369,57 +5363,47 @@
    "pct": -1.8,
    "exitReason": "LONG ETH: stopped out at SL -1.8% (entry $1924.63 → exit $1889.33). WHY: Stop hit on noise within the chop range; thesis invalidation ($1,896 close) never triggered—you exited the fade setup before…",
    "closedAt": "2026-07-16T08:13:51.692Z"
-  },
-  {
-   "id": 262,
-   "asset": "HYPE",
-   "direction": "LONG",
-   "actor": "openclaw",
-   "venue": "HL",
-   "outcome": "LOSS",
-   "pct": -2.5,
-   "exitReason": "LONG HYPE: stopped out at SL -2.5% (entry $67.91 → exit $66.191). WHY: Whale positioning likely flipped to net short before price reached target, invalidating the smart-money long thesis before stop…",
-   "closedAt": "2026-07-16T01:18:11.875Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 62812.23,
-    "change24hPct": -3.24
+    "price": 62870.08,
+    "change24hPct": -3.13
    },
    {
     "symbol": "ETH",
-    "price": 1823.49,
-    "change24hPct": -5.29
+    "price": 1827.31,
+    "change24hPct": -5.08
    },
    {
     "symbol": "BNB",
-    "price": 567.72,
+    "price": 568.14,
     "change24hPct": -2.72
    },
    {
     "symbol": "XRP",
-    "price": 1.0805,
-    "change24hPct": -3.18
+    "price": 1.0818,
+    "change24hPct": -3.07
    },
    {
     "symbol": "SOL",
-    "price": 74.4,
-    "change24hPct": -3.99
+    "price": 74.52,
+    "change24hPct": -3.8
    }
   ],
   "fearGreed": {
    "value": 27,
    "classification": "Fear"
   },
-  "regime": null,
+  "regime": "NEUTRAL",
   "stockFearGreed": {
    "value": 42,
    "classification": "Fear",
    "source": "CNN"
   },
+  "equityRegime": "RISK_ON",
   "longShort": [
    {
     "asset": "BTC",
@@ -5451,7 +5435,11 @@
     "longPct": 73.9,
     "bias": "CROWDED LONG"
    }
-  ]
+  ],
+  "btcNqCorr": {
+   "corr": 0.39,
+   "label": "MIXED"
+  }
  },
  "calendar": [
   {
@@ -5850,7 +5838,7 @@
   ]
  },
  "intel": {
-  "ageH": 2.5,
+  "ageH": 2.6,
   "narratives": [
    "* Stablecoin Expansion: Visa's launch of its Stablecoin Platform on Open USD to 200 million merchants, Stripe's $53B bid for PayPal to expand its stablecoin footprint, and MoneyGram preparing to roll out MGUSD stablecoin",
    "* Real-World Asset (RWA) Tokenization: Hyperliquid hitting an all-time high of ~$3.6 billion in RWA open interest, and Ondo Finance partnering with Japan's SBI to tokenize Japanese assets. (newsletter)",
@@ -6030,6 +6018,22 @@
   }
  ],
  "archive": [
+  {
+   "id": 270,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "openclaw",
+   "venue": "HL",
+   "outcome": "LOSS",
+   "pct": -2.3,
+   "pnlUsd": -7.19,
+   "exitReason": null,
+   "closedAt": "2026-07-17T05:47:02.798Z",
+   "entry": 75.99,
+   "exit": 74.276,
+   "conviction": 7,
+   "openedAt": "2026-07-16T10:05:32.675Z"
+  },
   {
    "id": 258,
    "asset": "ETH",
@@ -6293,7 +6297,7 @@
     "actor": "openclaw",
     "halted": true,
     "rule": "consecutive_loss_agent",
-    "reason": "openclaw: 3 consecutive losses, last one 5.3h ago. openclaw cooldown 18.7h remaining (other agents unaffected).",
+    "reason": "openclaw: 3 consecutive losses, last one 0.3h ago. openclaw cooldown 23.7h remaining (other agents unaffected).",
     "equity": 448.6,
     "peak": 500.34
    },
@@ -6319,7 +6323,7 @@
     "venue": "LIGHTER",
     "halted": true,
     "rule": "consecutive_loss_global",
-    "reason": "6 consecutive losses across all live brains (gemini×1, openclaw×3, deepseek×2), last one 3.3h ago. Fleet cooldown 20.7h remaining.",
+    "reason": "6 consecutive losses across all live brains (openclaw×4, gemini×1, deepseek×1), last one 0.3h ago. Fleet cooldown 23.7h remaining.",
     "equity": 487.2,
     "peak": 500
    },
@@ -6328,18 +6332,18 @@
     "venue": "LIGHTER",
     "halted": true,
     "rule": "consecutive_loss_global",
-    "reason": "6 consecutive losses across all live brains (gemini×1, openclaw×3, deepseek×2), last one 3.3h ago. Fleet cooldown 20.7h remaining.",
+    "reason": "6 consecutive losses across all live brains (openclaw×4, gemini×1, deepseek×1), last one 0.3h ago. Fleet cooldown 23.7h remaining.",
     "equity": 505.95,
     "peak": 509.82
    }
   },
   "streaks": {
-   "openclaw": 4,
+   "openclaw": 5,
    "hermes": 0,
    "kimi": 0,
    "deepseek": 2,
    "gemini": 1,
-   "fleet": 7
+   "fleet": 8
   },
   "limits": {
    "dailyLossPct": 7.5,
