@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-17T12:15:07.813Z",
+ "generatedAt": "2026-07-17T12:20:06.870Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 464.59
+   "account": 462.55
   },
   "machine": {
    "label": "Selene",
@@ -68,8 +68,8 @@
    "losses": 2,
    "wr": "0",
    "pnl": -38.35,
-   "account": 464.59,
-   "retPct": -7.1,
+   "account": 462.55,
+   "retPct": -7.5,
    "accountRealized": 461.65
   },
   {
@@ -965,21 +965,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-16T12:20:00.000Z",
-   "hl": -4.40458,
-   "hl_spot": 473.20326800000004,
-   "grvt": 500.006066,
-   "extended": 488.625252,
-   "capital": 2966.6524019999997,
-   "qwen": 497.33,
-   "openclaw": 468.8,
-   "hermes": 500.01,
-   "manual": 488.63,
-   "kimi": 508.77,
-   "deepseek": 487.2,
-   "gemini": 509.82
-  },
   {
    "ts": "2026-07-16T12:25:00.000Z",
    "hl": -4.92938,
@@ -5269,6 +5254,21 @@
    "kimi": 508.77,
    "deepseek": 487.2,
    "gemini": 505.95
+  },
+  {
+   "ts": "2026-07-17T12:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 448.598757,
+   "grvt": 500.006066,
+   "extended": 462.554953,
+   "capital": 2916.5109319999997,
+   "qwen": 488.35,
+   "openclaw": 448.6,
+   "hermes": 500.01,
+   "manual": 462.55,
+   "kimi": 508.77,
+   "deepseek": 487.2,
+   "gemini": 505.95
   }
  ],
  "venuesLive": {
@@ -5453,28 +5453,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63270,
-    "change24hPct": -1.39
+    "price": 63210.01,
+    "change24hPct": -1.5
    },
    {
     "symbol": "ETH",
-    "price": 1836.92,
-    "change24hPct": -2.32
+    "price": 1835,
+    "change24hPct": -2.49
    },
    {
     "symbol": "BNB",
-    "price": 564.68,
-    "change24hPct": -2.11
+    "price": 563.83,
+    "change24hPct": -2.31
    },
    {
     "symbol": "XRP",
-    "price": 1.0827,
-    "change24hPct": -2.32
+    "price": 1.0814,
+    "change24hPct": -2.41
    },
    {
     "symbol": "SOL",
-    "price": 74.74,
-    "change24hPct": -1.83
+    "price": 74.7,
+    "change24hPct": -1.81
    }
   ],
   "fearGreed": {
@@ -5888,7 +5888,7 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 1446,
+   "totalPrints7d": 1453,
    "minUsdK": 10,
    "accounts": [
     {
@@ -5912,30 +5912,30 @@
      "prints": 107,
      "volK": 3162,
      "biasK": -128,
-     "equity": 234344,
+     "equity": 235221,
      "positions": [
-      {
-       "coin": "ZEC",
-       "side": "LONG",
-       "usdK": 207,
-       "upnlK": 0
-      },
       {
        "coin": "KAITO",
        "side": "LONG",
-       "usdK": 117,
-       "upnlK": 1
-      },
-      {
-       "coin": "ARB",
-       "side": "LONG",
-       "usdK": 89,
-       "upnlK": -1
+       "usdK": 119,
+       "upnlK": 3
       },
       {
        "coin": "LDO",
        "side": "LONG",
        "usdK": 64,
+       "upnlK": 0
+      },
+      {
+       "coin": "TAO",
+       "side": "LONG",
+       "usdK": 36,
+       "upnlK": 0
+      },
+      {
+       "coin": "IBM",
+       "side": "LONG",
+       "usdK": 25,
        "upnlK": 0
       }
      ]
@@ -5945,7 +5945,7 @@
      "prints": 65,
      "volK": 1061,
      "biasK": 75,
-     "equity": 69241,
+     "equity": 69240,
      "positions": [
       {
        "coin": "ETH",
@@ -5960,7 +5960,7 @@
      "prints": 73,
      "volK": 986,
      "biasK": 50,
-     "equity": 5063,
+     "equity": 5114,
      "positions": [
       {
        "coin": "LIT",
@@ -6000,7 +6000,7 @@
   ]
  },
  "intel": {
-  "ageH": 2.8,
+  "ageH": 2.9,
   "narratives": [
    "* Stablecoin Infrastructure & Merchant Adoption: Visa launched its Stablecoin Platform on Open USD to target 200 million merchants, while MoneyGram prepares to roll out its MGUSD stablecoin to 60 million users (both).",
    "* Real-World Asset (RWA) Tokenization: Ondo Finance partnered with Japan's SBI to tokenize Japanese assets, while Hyperliquid's RWA open interest hit an all-time high of ~$3.6 billion (newsletter).",
@@ -6460,7 +6460,7 @@
     "actor": "openclaw",
     "halted": true,
     "rule": "consecutive_loss_agent",
-    "reason": "openclaw: 3 consecutive losses, last one 6.5h ago. openclaw cooldown 17.5h remaining (other agents unaffected).",
+    "reason": "openclaw: 3 consecutive losses, last one 6.6h ago. openclaw cooldown 17.4h remaining (other agents unaffected).",
     "equity": 448.6,
     "peak": 500.34
    },
@@ -6486,7 +6486,7 @@
     "venue": "LIGHTER",
     "halted": true,
     "rule": "consecutive_loss_global",
-    "reason": "6 consecutive losses across all live brains (openclaw×4, gemini×1, deepseek×1), last one 6.5h ago. Fleet cooldown 17.5h remaining.",
+    "reason": "6 consecutive losses across all live brains (openclaw×4, gemini×1, deepseek×1), last one 6.6h ago. Fleet cooldown 17.4h remaining.",
     "equity": 487.2,
     "peak": 500
    },
@@ -6495,7 +6495,7 @@
     "venue": "LIGHTER",
     "halted": true,
     "rule": "consecutive_loss_global",
-    "reason": "6 consecutive losses across all live brains (openclaw×4, gemini×1, deepseek×1), last one 6.5h ago. Fleet cooldown 17.5h remaining.",
+    "reason": "6 consecutive losses across all live brains (openclaw×4, gemini×1, deepseek×1), last one 6.6h ago. Fleet cooldown 17.4h remaining.",
     "equity": 505.95,
     "peak": 509.82
    }
