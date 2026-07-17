@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-17T23:00:06.702Z",
+ "generatedAt": "2026-07-17T23:05:08.920Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 473.9
+   "account": 472.52
   },
   "machine": {
    "label": "Selene",
@@ -68,8 +68,8 @@
    "losses": 2,
    "wr": "0",
    "pnl": -38.35,
-   "account": 473.9,
-   "retPct": -5.2,
+   "account": 472.52,
+   "retPct": -5.5,
    "accountRealized": 461.65
   },
   {
@@ -1130,21 +1130,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-16T23:05:00.000Z",
-   "hl": -15.30675,
-   "hl_spot": 462.093167,
-   "grvt": 500.006066,
-   "extended": 461.690523,
-   "capital": 2916.4167239999997,
-   "qwen": 493.94,
-   "openclaw": 446.79,
-   "hermes": 500.01,
-   "manual": 461.69,
-   "kimi": 508.77,
-   "deepseek": 487.2,
-   "gemini": 508.53
-  },
   {
    "ts": "2026-07-16T23:10:00.000Z",
    "hl": -16.05188,
@@ -5404,6 +5389,21 @@
    "kimi": 508.77,
    "deepseek": 487.2,
    "gemini": 505.95
+  },
+  {
+   "ts": "2026-07-17T23:05:00.000Z",
+   "hl": 0,
+   "hl_spot": 448.609749,
+   "grvt": 500.006066,
+   "extended": 472.521398,
+   "capital": 2926.4883689999997,
+   "qwen": 488.35,
+   "openclaw": 448.61,
+   "hermes": 500.01,
+   "manual": 472.52,
+   "kimi": 508.77,
+   "deepseek": 487.2,
+   "gemini": 505.95
   }
  ],
  "venuesLive": {
@@ -5588,28 +5588,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63986.01,
-    "change24hPct": 0.06
+    "price": 63930,
+    "change24hPct": -0.01
    },
    {
     "symbol": "ETH",
-    "price": 1839.95,
-    "change24hPct": -1.53
+    "price": 1837.99,
+    "change24hPct": -1.57
    },
    {
     "symbol": "BNB",
-    "price": 567.51,
-    "change24hPct": -1.05
+    "price": 567.14,
+    "change24hPct": -1.08
    },
    {
     "symbol": "XRP",
-    "price": 1.0883,
-    "change24hPct": -0.17
+    "price": 1.0872,
+    "change24hPct": -0.2
    },
    {
     "symbol": "SOL",
-    "price": 75.03,
-    "change24hPct": -0.37
+    "price": 74.96,
+    "change24hPct": -0.42
    }
   ],
   "fearGreed": {
@@ -5632,25 +5632,25 @@
    },
    {
     "asset": "ETH",
-    "ratio": 2.258,
+    "ratio": 2.262,
     "longPct": 69.3,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.623,
+    "ratio": 2.624,
     "longPct": 72.4,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.971,
+    "ratio": 2.975,
     "longPct": 74.8,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.788,
+    "ratio": 2.781,
     "longPct": 73.6,
     "bias": "CROWDED LONG"
    }
@@ -5722,21 +5722,21 @@
   }
  ],
  "manualBook": {
-  "at": "2026-07-17T22:45:09.255Z",
+  "at": "2026-07-17T23:05:08.920Z",
   "positions": [
    {
     "asset": "BTC",
     "stock": false,
     "direction": "LONG",
     "entry": 62981,
-    "pnlPct": 1.39
+    "pnlPct": 1.47
    },
    {
     "asset": "HYPE",
     "stock": false,
     "direction": "LONG",
     "entry": 59.925,
-    "pnlPct": -0.26
+    "pnlPct": -0.34
    }
   ]
  },
@@ -6128,7 +6128,7 @@
   ]
  },
  "intel": {
-  "ageH": 1.5,
+  "ageH": 1.6,
   "narratives": [
    "* Tokenized Securities & Real World Assets (RWA): Gaining massive institutional traction with Citadel's $400M investment in Crypto.com, DTCC's live production trades, and Alpaca's $135M raise for tokenized-stock infrastr",
    "* Privacy Coins: The Privacy Index led weekly gains (+15.5%), driven by DCR breaking out and ZEC preparing for its July 28 Ironwood upgrade. (newsletter)",
@@ -6586,7 +6586,7 @@
     "actor": "openclaw",
     "halted": true,
     "rule": "consecutive_loss_agent",
-    "reason": "openclaw: 3 consecutive losses, last one 17.2h ago. openclaw cooldown 6.8h remaining (other agents unaffected).",
+    "reason": "openclaw: 3 consecutive losses, last one 17.3h ago. openclaw cooldown 6.7h remaining (other agents unaffected).",
     "equity": 448.61,
     "peak": 500.34
    },
@@ -6612,7 +6612,7 @@
     "venue": "LIGHTER",
     "halted": true,
     "rule": "consecutive_loss_global",
-    "reason": "6 consecutive losses across all live brains (openclaw×4, gemini×1, deepseek×1), last one 17.2h ago. Fleet cooldown 6.8h remaining.",
+    "reason": "6 consecutive losses across all live brains (openclaw×4, gemini×1, deepseek×1), last one 17.3h ago. Fleet cooldown 6.7h remaining.",
     "equity": 487.2,
     "peak": 500
    },
@@ -6621,7 +6621,7 @@
     "venue": "LIGHTER",
     "halted": true,
     "rule": "consecutive_loss_global",
-    "reason": "6 consecutive losses across all live brains (openclaw×4, gemini×1, deepseek×1), last one 17.2h ago. Fleet cooldown 6.8h remaining.",
+    "reason": "6 consecutive losses across all live brains (openclaw×4, gemini×1, deepseek×1), last one 17.3h ago. Fleet cooldown 6.7h remaining.",
     "equity": 505.95,
     "peak": 509.82
    }
