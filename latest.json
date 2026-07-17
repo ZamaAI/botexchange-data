@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-17T00:15:07.242Z",
+ "generatedAt": "2026-07-17T00:20:09.585Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,7 +26,7 @@
    "losses": 1,
    "wr": "0",
    "pnl": -5.63,
-   "account": 492.5,
+   "account": 492.66,
    "retPct": -1.5,
    "accountRealized": 494.37
   },
@@ -35,14 +35,14 @@
    "label": "OpenClaw",
    "venue": "HL",
    "paper": false,
-   "trades": 2,
+   "trades": 3,
    "wins": 0,
-   "losses": 2,
+   "losses": 3,
    "wr": "0",
-   "pnl": -20.9,
-   "account": 443.05,
-   "retPct": -11.4,
-   "accountRealized": 479.1
+   "pnl": -31.52,
+   "account": 445.07,
+   "retPct": -11,
+   "accountRealized": 468.48
   },
   {
    "key": "hermes",
@@ -110,7 +110,7 @@
    "losses": 1,
    "wr": "50",
    "pnl": 6.19,
-   "account": 507.76,
+   "account": 508.02,
    "retPct": 1.6,
    "accountRealized": 506.19
   }
@@ -119,20 +119,24 @@
   "labels": [
    "start",
    "07-15",
-   "07-16"
+   "07-16",
+   "07-17"
   ],
   "bySource": {
    "qwen": [
     500,
     500,
+    494.37,
     494.37
    ],
    "openclaw": [
     500,
     500,
-    479.1
+    479.1,
+    468.48
    ],
    "hermes": [
+    500,
     500,
     500,
     500
@@ -140,21 +144,25 @@
    "manual": [
     500,
     500,
+    461.65,
     461.65
    ],
    "kimi": [
     500,
+    508.78,
     508.78,
     508.78
    ],
    "deepseek": [
     500,
     496.25,
+    483.55,
     483.55
    ],
    "gemini": [
     500,
     509.83,
+    506.19,
     506.19
    ]
   }
@@ -777,21 +785,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-16T00:20:00.000Z",
-   "hl": -11.2495,
-   "hl_spot": 487.74095,
-   "grvt": 500.006066,
-   "extended": 500.037823,
-   "capital": 2994.750388,
-   "qwen": 505.78,
-   "openclaw": 476.49,
-   "hermes": 500.01,
-   "manual": 500.04,
-   "kimi": 508.78,
-   "deepseek": 496.25,
-   "gemini": 509.83
-  },
   {
    "ts": "2026-07-16T00:25:00.000Z",
    "hl": -11.47412,
@@ -5096,14 +5089,29 @@
    "kimi": 508.77,
    "deepseek": 487.2,
    "gemini": 507.76
+  },
+  {
+   "ts": "2026-07-17T00:20:00.000Z",
+   "hl": -10.78398,
+   "hl_spot": 455.855194,
+   "grvt": 500.006066,
+   "extended": 461.692173,
+   "capital": 2914.1966429999998,
+   "qwen": 492.66,
+   "openclaw": 445.07,
+   "hermes": 500.01,
+   "manual": 461.69,
+   "kimi": 508.77,
+   "deepseek": 487.2,
+   "gemini": 508.02
   }
  ],
  "venuesLive": {
-  "hl": -11.793759999999999,
-  "hl_spot": 454.845414,
+  "hl": -10.78398,
+  "hl_spot": 455.855194,
   "grvt": 500.006066,
-  "lighter": 1507.166622,
-  "total": 2450.224342
+  "lighter": 1507.4271899999999,
+  "total": 2452.50447
  },
  "openTrades": [
   {
@@ -5121,23 +5129,6 @@
    "conviction": 6,
    "openedAt": "2026-07-16T22:11:44.510Z",
    "thesis": "BTC 4-hour buy volume has risen to 51.7%, confirming localized buyer absorption and defensive bidding just above the 50d-MA of $63,972.61.",
-   "smartMoney": null
-  },
-  {
-   "id": 273,
-   "asset": "INJ",
-   "direction": "LONG",
-   "actor": "openclaw",
-   "venue": "HL",
-   "entry": 5,
-   "stop": 4.85,
-   "target": 5.35,
-   "levelsApprox": true,
-   "trailed": false,
-   "rr": 2.3,
-   "conviction": 5,
-   "openedAt": "2026-07-16T22:06:18.841Z",
-   "thesis": "Injective's SEC transfer-agent registration filing (published 3h ago, already live news, not anticipated) is a concrete regulatory catalyst that differentiates INJ from pure-momentum plays, arriving inside a NET BULLISH (+6) catalyst tape and a RISK_ON regime with breadth 4/5 majors above 20d-MA. No open position conflict, and INJ carries no blocklist/soft-warning flag.",
    "smartMoney": null
   },
   {
@@ -5218,6 +5209,17 @@
  ],
  "recentCloses": [
   {
+   "id": 273,
+   "asset": "INJ",
+   "direction": "LONG",
+   "actor": "openclaw",
+   "venue": "HL",
+   "outcome": "LOSS",
+   "pct": -3.1,
+   "exitReason": "LONG INJ: stopped out at SL -3.1% (entry $5 → exit $4.8461). WHY: Regulatory filing lacked immediate market validation; momentum reversed before institutional adoption could materialize from the…",
+   "closedAt": "2026-07-17T00:05:41.706Z"
+  },
+  {
    "id": 267,
    "asset": "BTC",
    "direction": "LONG",
@@ -5225,7 +5227,7 @@
    "venue": "PAPER",
    "outcome": "LOSS",
    "pct": -1.9,
-   "exitReason": null,
+   "exitReason": "LONG BTC: stopped out at SL -1.9% (entry $65000 → exit $63780). WHY: Chop-range chase into resistance with weak efficiency ratio (0.076) never built momentum; fade at upper range edge would have…",
    "closedAt": "2026-07-16T23:42:07.546Z"
   },
   {
@@ -5337,45 +5339,34 @@
    "pct": -1.2,
    "exitReason": "SHORT ETH: stopped out at SL -1.2% (entry $1874.57 → exit $1898). WHY: Stop hit on noise; buy volume narrative broke when price closed $1898.47 above invalidation level, confirming thesis was right…",
    "closedAt": "2026-07-15T12:58:55.422Z"
-  },
-  {
-   "id": 259,
-   "asset": "LIT",
-   "direction": "LONG",
-   "actor": "openclaw",
-   "venue": "HL",
-   "outcome": "BREAKEVEN",
-   "pct": 0,
-   "exitReason": "LONG LIT: stopped out at SL +0.0% (entry $2.59 → exit $2.59). WHY: Whale positioning likely held but price failed to break $2.65 resistance; accumulation thesis was real but lacked sufficient buying…",
-   "closedAt": "2026-07-15T06:36:38.961Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63790.58,
-    "change24hPct": -1.59
+    "price": 63832.01,
+    "change24hPct": -1.36
    },
    {
     "symbol": "ETH",
-    "price": 1862.66,
-    "change24hPct": -3.2
+    "price": 1863.79,
+    "change24hPct": -2.88
    },
    {
     "symbol": "BNB",
-    "price": 572,
-    "change24hPct": -1.77
+    "price": 572.62,
+    "change24hPct": -1.44
    },
    {
     "symbol": "XRP",
-    "price": 1.0864,
-    "change24hPct": -2.62
+    "price": 1.0872,
+    "change24hPct": -2.32
    },
    {
     "symbol": "SOL",
-    "price": 75.26,
-    "change24hPct": -2.83
+    "price": 75.35,
+    "change24hPct": -2.37
    }
   ],
   "fearGreed": {
@@ -5392,7 +5383,7 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.422,
+    "ratio": 1.423,
     "longPct": 58.7,
     "bias": "BALANCED"
    },
@@ -5404,19 +5395,19 @@
    },
    {
     "asset": "SOL",
-    "ratio": 2.554,
-    "longPct": 71.9,
+    "ratio": 2.546,
+    "longPct": 71.8,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.994,
+    "ratio": 2.992,
     "longPct": 75,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.867,
+    "ratio": 2.854,
     "longPct": 74.1,
     "bias": "CROWDED LONG"
    }
@@ -5699,7 +5690,7 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 1413,
+   "totalPrints7d": 1429,
    "minUsdK": 10,
    "accounts": [
     {
@@ -5723,13 +5714,13 @@
      "prints": 107,
      "volK": 3162,
      "biasK": -128,
-     "equity": 235224,
+     "equity": 235971,
      "positions": [
       {
        "coin": "ONDO",
        "side": "LONG",
        "usdK": 107,
-       "upnlK": 2
+       "upnlK": 3
       },
       {
        "coin": "TAO",
@@ -5752,7 +5743,7 @@
      "prints": 73,
      "volK": 986,
      "biasK": 50,
-     "equity": 4915,
+     "equity": 4938,
      "positions": [
       {
        "coin": "LIT",
@@ -5792,7 +5783,7 @@
   ]
  },
  "intel": {
-  "ageH": 2.8,
+  "ageH": 2.9,
   "narratives": [
    "* Privacy Protocols: Gaining massive traction as the Privacy Index rose 15.5% (led by DCR and ZEC). Proponents argue privacy is the \"last 1,000x\" and protects against financial surveillance, with EthSystems spinning out ",
    "* Real-World Asset (RWA) Lending & Tokenization: Aave deployed its V4 lending protocol on Avalanche to support tokenized RWA lending across 7 initial assets, while institutions actively prepare to tokenize fiat, stocks, ",
@@ -5972,6 +5963,22 @@
  ],
  "archive": [
   {
+   "id": 273,
+   "asset": "INJ",
+   "direction": "LONG",
+   "actor": "openclaw",
+   "venue": "HL",
+   "outcome": "LOSS",
+   "pct": -3.1,
+   "pnlUsd": -10.63,
+   "exitReason": "LONG INJ: stopped out at SL -3.1% (entry $5 → exit $4.8461). WHY: Regulatory filing lacked immediate market validation; momentum reversed before institutional adoption could materialize from the…",
+   "closedAt": "2026-07-17T00:05:41.706Z",
+   "entry": 5,
+   "exit": 4.8461,
+   "conviction": 5,
+   "openedAt": "2026-07-16T22:06:18.841Z"
+  },
+  {
    "id": 267,
    "asset": "BTC",
    "direction": "LONG",
@@ -5980,7 +5987,7 @@
    "outcome": "LOSS",
    "pct": -1.9,
    "pnlUsd": -5.63,
-   "exitReason": null,
+   "exitReason": "LONG BTC: stopped out at SL -1.9% (entry $65000 → exit $63780). WHY: Chop-range chase into resistance with weak efficiency ratio (0.076) never built momentum; fade at upper range edge would have…",
    "closedAt": "2026-07-16T23:42:07.546Z",
    "entry": 65000,
    "exit": 63780,
@@ -6168,10 +6175,10 @@
   "venues": {
    "HL": {
     "actor": "openclaw",
-    "halted": false,
-    "rule": null,
-    "reason": null,
-    "equity": 443.05,
+    "halted": true,
+    "rule": "consecutive_loss_agent",
+    "reason": "openclaw: 3 consecutive losses, last one 0.2h ago. openclaw cooldown 23.8h remaining (other agents unaffected).",
+    "equity": 445.07,
     "peak": 500.34
    },
    "GRVT": {
@@ -6206,17 +6213,17 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 507.76,
+    "equity": 508.02,
     "peak": 509.82
    }
   },
   "streaks": {
-   "openclaw": 2,
+   "openclaw": 3,
    "hermes": 0,
    "kimi": 0,
    "deepseek": 2,
    "gemini": 0,
-   "fleet": 4
+   "fleet": 5
   },
   "limits": {
    "dailyLossPct": 7.5,
