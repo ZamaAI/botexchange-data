@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-19T01:45:10.452Z",
+ "generatedAt": "2026-07-19T01:50:06.209Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 494.8
+   "account": 495.18
   },
   "machine": {
    "label": "Selene",
@@ -68,7 +68,7 @@
    "losses": 2,
    "wr": "0",
    "pnl": -38.35,
-   "account": 494.8,
+   "account": 495.18,
    "retPct": -1,
    "accountRealized": 461.65
   },
@@ -105,14 +105,14 @@
    "label": "Castor",
    "venue": "LIGHTER",
    "paper": false,
-   "trades": 4,
+   "trades": 5,
    "wins": 2,
-   "losses": 2,
-   "wr": "50",
-   "pnl": 10.53,
-   "account": 501.14,
-   "retPct": 0.2,
-   "accountRealized": 510.53
+   "losses": 3,
+   "wr": "40",
+   "pnl": 4.04,
+   "account": 499.49,
+   "retPct": -0.1,
+   "accountRealized": 504.04
   }
  ],
  "seriesDaily": {
@@ -121,13 +121,15 @@
    "07-15",
    "07-16",
    "07-17",
-   "07-18"
+   "07-18",
+   "07-19"
   ],
   "bySource": {
    "qwen": [
     500,
     500,
     494.37,
+    488.35,
     488.35,
     488.35
    ],
@@ -136,9 +138,11 @@
     500,
     479.1,
     450.72,
+    450.72,
     450.72
    ],
    "hermes": [
+    500,
     500,
     500,
     500,
@@ -150,10 +154,12 @@
     500,
     461.65,
     461.65,
+    461.65,
     461.65
    ],
    "kimi": [
     500,
+    508.78,
     508.78,
     508.78,
     508.78,
@@ -164,6 +170,7 @@
     496.25,
     483.55,
     483.55,
+    483.55,
     483.55
    ],
    "gemini": [
@@ -171,7 +178,8 @@
     509.83,
     506.19,
     502.33,
-    510.53
+    510.53,
+    504.04
    ]
   }
  },
@@ -1528,21 +1536,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-18T01:50:00.000Z",
-   "hl": 0,
-   "hl_spot": 448.598757,
-   "grvt": 500.006066,
-   "extended": 470.634675,
-   "capital": 2924.5906539999996,
-   "qwen": 488.35,
-   "openclaw": 448.6,
-   "hermes": 500.01,
-   "manual": 470.63,
-   "kimi": 508.77,
-   "deepseek": 487.2,
-   "gemini": 505.95
-  },
   {
    "ts": "2026-07-18T01:55:00.000Z",
    "hl": 0,
@@ -5832,33 +5825,31 @@
    "kimi": 508.77,
    "deepseek": 487.2,
    "gemini": 501.14
+  },
+  {
+   "ts": "2026-07-19T01:50:00.000Z",
+   "hl": 0,
+   "hl_spot": 448.609749,
+   "grvt": 500.006066,
+   "extended": 495.177793,
+   "capital": 2942.688372,
+   "qwen": 488.35,
+   "openclaw": 448.61,
+   "hermes": 500.01,
+   "manual": 495.18,
+   "kimi": 508.77,
+   "deepseek": 487.2,
+   "gemini": 499.49
   }
  ],
  "venuesLive": {
   "hl": 0,
   "hl_spot": 448.609749,
   "grvt": 500.006066,
-  "lighter": 1500.543224,
-  "total": 2449.159039
+  "lighter": 1498.8947640000001,
+  "total": 2447.5105790000002
  },
  "openTrades": [
-  {
-   "id": 277,
-   "asset": "VVV",
-   "direction": "SHORT",
-   "actor": "gemini",
-   "venue": "LIGHTER",
-   "entry": 11.77,
-   "stop": 12.0054,
-   "target": 11.3581,
-   "levelsApprox": true,
-   "trailed": false,
-   "rr": 2,
-   "conviction": 7,
-   "openedAt": "2026-07-18T22:14:17.681Z",
-   "thesis": "Extreme positive HL-to-Binance funding rate premium (+34% gap) creates unsustainable carry costs for crowded retail longs, signaling imminent spot capitulation.",
-   "smartMoney": 1
-  },
   {
    "id": 275,
    "asset": "SOL",
@@ -5902,6 +5893,17 @@
   }
  ],
  "recentCloses": [
+  {
+   "id": 277,
+   "asset": "VVV",
+   "direction": "SHORT",
+   "actor": "gemini",
+   "venue": "LIGHTER",
+   "outcome": "LOSS",
+   "pct": -2,
+   "exitReason": null,
+   "closedAt": "2026-07-19T01:49:02.837Z"
+  },
   {
    "id": 276,
    "asset": "BTC",
@@ -6022,45 +6024,34 @@
    "pct": -3.1,
    "exitReason": "LONG ZEC: stopped out at SL -3.1% (entry $575.74 → exit $557.98). WHY: Smart-money accumulation thesis was real ($63.9M net long) but got faked out in transitional chop—you caught the unwind signal…",
    "closedAt": "2026-07-16T08:19:32.974Z"
-  },
-  {
-   "id": 264,
-   "asset": "BTC",
-   "direction": "LONG",
-   "actor": "deepseek",
-   "venue": "LIGHTER",
-   "outcome": "LOSS",
-   "pct": -1.1,
-   "exitReason": "LONG BTC: stopped out at SL -1.1% (entry $64614 → exit $63919.2). WHY: Stop was hit on noise within the range; 4h MA held, but chasing into choppy tight efficiency meant riding the whipsaw instead of…",
-   "closedAt": "2026-07-16T08:14:54.746Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64769.93,
-    "change24hPct": 1.28
+    "price": 64768.79,
+    "change24hPct": 1.29
    },
    {
     "symbol": "ETH",
-    "price": 1859.07,
-    "change24hPct": 0.96
+    "price": 1858.69,
+    "change24hPct": 0.89
    },
    {
     "symbol": "BNB",
-    "price": 570.28,
-    "change24hPct": 0.61
+    "price": 570.25,
+    "change24hPct": 0.6
    },
    {
     "symbol": "XRP",
-    "price": 1.0937,
-    "change24hPct": 0.47
+    "price": 1.0933,
+    "change24hPct": 0.42
    },
    {
     "symbol": "SOL",
-    "price": 75.6,
-    "change24hPct": 0.6
+    "price": 75.62,
+    "change24hPct": 0.56
    }
   ],
   "fearGreed": {
@@ -6582,7 +6573,7 @@
   ]
  },
  "intel": {
-  "ageH": 4.3,
+  "ageH": 4.4,
   "narratives": [
    "* Stablecoin Infrastructure: Massive corporate moves are reshaping the sector, led by Stripe's $53B bid for PayPal, Visa's new Open USD enterprise platform, and Washington pushing the stablecoin-focused Clarity Act towar",
    "* Tokenized Real-World Assets (RWA): Gaining significant institutional traction as the DTCC initiates live production trades with over two dozen firms ahead of an October launch. (newsletter)",
@@ -6761,6 +6752,22 @@
   }
  ],
  "archive": [
+  {
+   "id": 277,
+   "asset": "VVV",
+   "direction": "SHORT",
+   "actor": "gemini",
+   "venue": "LIGHTER",
+   "outcome": "LOSS",
+   "pct": -2,
+   "pnlUsd": -6.49,
+   "exitReason": null,
+   "closedAt": "2026-07-19T01:49:02.837Z",
+   "entry": 11.77,
+   "exit": 12.0014,
+   "conviction": 7,
+   "openedAt": "2026-07-18T22:14:17.681Z"
+  },
   {
    "id": 276,
    "asset": "BTC",
@@ -7054,9 +7061,9 @@
   "venues": {
    "HL": {
     "actor": "openclaw",
-    "halted": false,
-    "rule": null,
-    "reason": null,
+    "halted": true,
+    "rule": "consecutive_loss_global",
+    "reason": "6 consecutive losses across all live brains (gemini×2, openclaw×4), last one 0.0h ago. Fleet cooldown 24.0h remaining.",
     "equity": 448.61,
     "peak": 500.34
    },
@@ -7089,10 +7096,10 @@
    "LIGHTER_gemini": {
     "actor": "gemini",
     "venue": "LIGHTER",
-    "halted": false,
-    "rule": null,
-    "reason": null,
-    "equity": 501.14,
+    "halted": true,
+    "rule": "consecutive_loss_global",
+    "reason": "6 consecutive losses across all live brains (gemini×2, openclaw×4), last one 0.0h ago. Fleet cooldown 24.0h remaining.",
+    "equity": 499.49,
     "peak": 509.82
    }
   },
@@ -7101,8 +7108,8 @@
    "hermes": 0,
    "kimi": 0,
    "deepseek": 2,
-   "gemini": 1,
-   "fleet": 8
+   "gemini": 2,
+   "fleet": 9
   },
   "limits": {
    "dailyLossPct": 7.5,
