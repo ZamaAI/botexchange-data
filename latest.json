@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-19T15:15:09.737Z",
+ "generatedAt": "2026-07-19T15:20:07.851Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 502.93
+   "account": 502.37
   },
   "machine": {
    "label": "Selene",
@@ -68,8 +68,8 @@
    "losses": 2,
    "wr": "0",
    "pnl": -38.35,
-   "account": 502.93,
-   "retPct": 0.6,
+   "account": 502.37,
+   "retPct": 0.5,
    "accountRealized": 461.65
   },
   {
@@ -1746,21 +1746,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-18T15:20:00.000Z",
-   "hl": 0,
-   "hl_spot": 448.598757,
-   "grvt": 500.006066,
-   "extended": 466.042481,
-   "capital": 2919.99846,
-   "qwen": 488.35,
-   "openclaw": 448.6,
-   "hermes": 500.01,
-   "manual": 466.04,
-   "kimi": 508.77,
-   "deepseek": 487.2,
-   "gemini": 505.95
-  },
   {
    "ts": "2026-07-18T15:25:00.000Z",
    "hl": 0,
@@ -6050,6 +6035,21 @@
    "kimi": 508.77,
    "deepseek": 487.2,
    "gemini": 499.49
+  },
+  {
+   "ts": "2026-07-19T15:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 448.615245,
+   "grvt": 500.006066,
+   "extended": 502.374797,
+   "capital": 2949.890872,
+   "qwen": 488.35,
+   "openclaw": 448.62,
+   "hermes": 500.01,
+   "manual": 502.37,
+   "kimi": 508.77,
+   "deepseek": 487.2,
+   "gemini": 499.49
   }
  ],
  "venuesLive": {
@@ -6082,7 +6082,7 @@
    "venue": "PAPER",
    "outcome": "LOSS",
    "pct": -1.7,
-   "exitReason": null,
+   "exitReason": "SHORT SOL: stopped out at SL -1.7% (entry $75.15 → exit $76.4). WHY: (unscored — Request failed with status code 400)",
    "closedAt": "2026-07-19T14:50:48.241Z"
   },
   {
@@ -6211,28 +6211,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64581.71,
-    "change24hPct": 0.76
+    "price": 64552.89,
+    "change24hPct": 0.72
    },
    {
     "symbol": "ETH",
-    "price": 1874.96,
-    "change24hPct": 1.65
+    "price": 1873.09,
+    "change24hPct": 1.56
    },
    {
     "symbol": "BNB",
-    "price": 570,
+    "price": 569.82,
     "change24hPct": -0.04
    },
    {
     "symbol": "XRP",
-    "price": 1.0988,
-    "change24hPct": 0.94
+    "price": 1.0986,
+    "change24hPct": 0.95
    },
    {
     "symbol": "SOL",
-    "price": 76.33,
-    "change24hPct": 1.88
+    "price": 76.25,
+    "change24hPct": 1.82
    }
   ],
   "fearGreed": {
@@ -6629,7 +6629,7 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 1936,
+   "totalPrints7d": 1931,
    "minUsdK": 10,
    "accounts": [
     {
@@ -6637,12 +6637,12 @@
      "prints": 201,
      "volK": 4792,
      "biasK": 438,
-     "equity": 231506,
+     "equity": 231941,
      "positions": [
       {
        "coin": "XAU",
        "side": "LONG",
-       "usdK": 1414,
+       "usdK": 1413,
        "upnlK": 0
       },
       {
@@ -6658,7 +6658,7 @@
      "prints": 77,
      "volK": 3368,
      "biasK": 1662,
-     "equity": 17629,
+     "equity": 17449,
      "positions": [
       {
        "coin": "BTC",
@@ -6673,7 +6673,7 @@
      "prints": 25,
      "volK": 1355,
      "biasK": 451,
-     "equity": 3319,
+     "equity": 3423,
      "positions": [
       {
        "coin": "ETH",
@@ -6688,41 +6688,48 @@
      "prints": 85,
      "volK": 1339,
      "biasK": 144,
-     "equity": 1381396,
+     "equity": 1386003,
      "positions": [
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 5051,
-       "upnlK": -254
+       "usdK": 5048,
+       "upnlK": -251
       },
       {
        "coin": "SOL",
        "side": "LONG",
-       "usdK": 1688,
-       "upnlK": 7
+       "usdK": 1687,
+       "upnlK": 9
       },
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 1291,
+       "usdK": 1290,
        "upnlK": -22
       },
       {
        "coin": "XRP",
        "side": "LONG",
-       "usdK": 1063,
+       "usdK": 1062,
        "upnlK": -45
       }
      ]
     },
     {
      "id": 313004,
-     "prints": 81,
-     "volK": 1288,
-     "biasK": 23,
-     "equity": 69579,
-     "positions": []
+     "prints": 82,
+     "volK": 1303,
+     "biasK": 9,
+     "equity": 69573,
+     "positions": [
+      {
+       "coin": "ETH",
+       "side": "LONG",
+       "usdK": 13,
+       "upnlK": 0
+      }
+     ]
     }
    ]
   },
@@ -6754,7 +6761,7 @@
   ]
  },
  "intel": {
-  "ageH": 5.8,
+  "ageH": 5.9,
   "narratives": [
    "* Escalating Geopolitical Conflict & Macro Safe Havens: Escalations between the US and Iran (strikes, casualties) are occurring alongside reports of China quietly stockpiling gold (48 tonnes in May via London OTC). (X)",
    "* Aggressive Whale Leverage: Whales are opening highly leveraged long positions on BTC and ETH despite a structural decline in overall crypto market volume since late 2025. (X)",
@@ -6941,7 +6948,7 @@
    "outcome": "LOSS",
    "pct": -1.7,
    "pnlUsd": -4.99,
-   "exitReason": null,
+   "exitReason": "SHORT SOL: stopped out at SL -1.7% (entry $75.15 → exit $76.4). WHY: (unscored — Request failed with status code 400)",
    "closedAt": "2026-07-19T14:50:48.241Z",
    "entry": 75.15,
    "exit": 76.4,
