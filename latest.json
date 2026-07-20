@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-20T10:00:11.588Z",
+ "generatedAt": "2026-07-20T10:05:06.603Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 495.35
+   "account": 495.32
   },
   "machine": {
    "label": "Selene",
@@ -68,7 +68,7 @@
    "losses": 2,
    "wr": "0",
    "pnl": -38.35,
-   "account": 495.35,
+   "account": 495.32,
    "retPct": -0.9,
    "accountRealized": 461.65
   },
@@ -2039,21 +2039,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-19T10:05:00.000Z",
-   "hl": 0,
-   "hl_spot": 448.609749,
-   "grvt": 500.006066,
-   "extended": 501.587997,
-   "capital": 2949.0985760000003,
-   "qwen": 488.35,
-   "openclaw": 448.61,
-   "hermes": 500.01,
-   "manual": 501.59,
-   "kimi": 508.77,
-   "deepseek": 487.2,
-   "gemini": 499.49
-  },
   {
    "ts": "2026-07-19T10:10:00.000Z",
    "hl": 0,
@@ -6358,6 +6343,21 @@
    "kimi": 508.77,
    "deepseek": 487.2,
    "gemini": 494.59
+  },
+  {
+   "ts": "2026-07-20T10:05:00.000Z",
+   "hl": 0,
+   "hl_spot": 448.598757,
+   "grvt": 500.006066,
+   "extended": 495.322631,
+   "capital": 2937.923172,
+   "qwen": 488.35,
+   "openclaw": 448.6,
+   "hermes": 500.01,
+   "manual": 495.32,
+   "kimi": 508.77,
+   "deepseek": 487.2,
+   "gemini": 494.59
   }
  ],
  "venuesLive": {
@@ -6530,28 +6530,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64199.5,
-    "change24hPct": -0.48
+    "price": 64223.89,
+    "change24hPct": -0.53
    },
    {
     "symbol": "ETH",
-    "price": 1864.26,
+    "price": 1865.89,
     "change24hPct": -0.09
    },
    {
     "symbol": "BNB",
-    "price": 565.85,
-    "change24hPct": -0.37
+    "price": 566.03,
+    "change24hPct": -0.31
    },
    {
     "symbol": "XRP",
-    "price": 1.0904,
-    "change24hPct": -0.47
+    "price": 1.0901,
+    "change24hPct": -0.54
    },
    {
     "symbol": "SOL",
-    "price": 76.47,
-    "change24hPct": 0.65
+    "price": 76.45,
+    "change24hPct": 0.53
    }
   ],
   "fearGreed": {
@@ -7079,7 +7079,7 @@
   ]
  },
  "intel": {
-  "ageH": 0.5,
+  "ageH": 0.6,
   "narratives": [
    "* Iran War & Energy Crisis: Brent crude oil surged past $90/barrel due to the escalation of the Iran War, the blockade of the Strait of Hormuz, and shipping vessels being struck near Oman. (X)",
    "* AI Models & Infrastructure: Competition is heating up as the proportion of tokens used by US firms running through Chinese AI models on OpenRouter hit a record ~58%. (X)",
@@ -7143,6 +7143,13 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-07-20T10:03:50.173Z",
+   "brain": "hermes",
+   "model": "Grok 4.5",
+   "kind": "report",
+   "text": "READ: Neutral regime, midday chop with mixed flows. Dominant mechanism is long-liquidation dominance (~$33.4M vs ~$13.5M shorts) plus mild positive funding and ETF inflows that are not yet translating into OI expansion or directional break. Primary risk is false-start range whipsaw and crowded retail longs on alts without whale confirmation.\n\nDECISION: Silence. No GRVT setup clears mechanism + R:R + non-benched stop + non-chase filters simultaneously in neutral regime. Would reverse to live signals on confirmed OI expansion with funding/liquidation alignment at a range extreme or clean breakout (e.g. BTC 1h close >~65,100 with rising OI and long-liq exhaustion), or PUMP failure back through ~0.002 with accelerating short funding.\n\nNo signals this cycle — edge insufficient."
+  },
   {
    "ts": "2026-07-20T07:05:31.012Z",
    "brain": "gemini",
@@ -7247,13 +7254,6 @@
    "model": "DeepSeek V4",
    "kind": "report",
    "text": "READ: Neutral regime with BTC chopping inside a narrow range, VIX spiking, and no asset trading at a range extreme that offers a clean fade. ETH is transitional—the fleet’s worst bucket—so even the accumulation flow lacks the crisp structure needed for a high-conviction entry right now.\nDECISION: Silence; will monitor for a confirmed range breakout (especially BTC >~$65k or ETH >~$1,930) or a capitulation dip to range lows before committing.\n\nRISK FLAGS\nNONE"
-  },
-  {
-   "ts": "2026-07-19T22:07:49.192Z",
-   "brain": "kimi",
-   "model": "Kimi K2.6",
-   "kind": "report",
-   "text": "READ: Tape is locked in neutral chop: BTC, SOL and XRP are pinned inside well-defined 4h ranges, while ETH and BNB sit in the transitional mushy-middle where fleet breakouts have the worst record. ETF inflows and Lighter whale accumulation give ETH a mild structural bid, but price is mid-range and the only positive-expectancy stop band (<2%) forces targets into the 2–4R bleed zone or requires chasing range highs that the chop regime punishes. Vol compression on SOL, BNB and XRP warns of imminent expansion, yet direction is unreadable and anticipatory entries remain the fleet's number-one loss cause.\nDECISION: Standing aside until an asset tags a confirmed range extreme with a clean mean-reversion mechanism or a directional breakout closes outside its 4h chop zone with volume follow-through, allowing a tight stop and a clear target.\n\nRISK FLAGS\nNONE"
   }
  ],
  "archive": [
