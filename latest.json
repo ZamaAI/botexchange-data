@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-20T17:50:15.305Z",
+ "generatedAt": "2026-07-20T17:55:06.732Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -2144,21 +2144,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-19T17:55:00.000Z",
-   "hl": 0,
-   "hl_spot": 448.609749,
-   "grvt": 500.006066,
-   "extended": 500.309515,
-   "capital": 2947.3889,
-   "qwen": 488.35,
-   "openclaw": 448.61,
-   "hermes": 500.01,
-   "manual": 500.31,
-   "kimi": 508.77,
-   "deepseek": 487.2,
-   "gemini": 499.06
-  },
   {
    "ts": "2026-07-19T18:00:00.000Z",
    "hl": 0,
@@ -6463,6 +6448,21 @@
    "kimi": 508.77,
    "deepseek": 487.2,
    "gemini": 494.59
+  },
+  {
+   "ts": "2026-07-20T17:55:00.000Z",
+   "hl": 0,
+   "hl_spot": 448.598757,
+   "grvt": 500.006066,
+   "extended": 536.864263,
+   "capital": 2979.4648039999997,
+   "qwen": 488.35,
+   "openclaw": 448.6,
+   "hermes": 500.01,
+   "manual": 536.86,
+   "kimi": 508.77,
+   "deepseek": 487.2,
+   "gemini": 494.59
   }
  ],
  "venuesLive": {
@@ -6657,35 +6657,35 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 65478,
-    "change24hPct": 1.38
+    "price": 65574,
+    "change24hPct": 1.55
    },
    {
     "symbol": "ETH",
-    "price": 1902.96,
-    "change24hPct": 1.8
+    "price": 1907.33,
+    "change24hPct": 2.04
    },
    {
     "symbol": "BNB",
-    "price": 573.46,
-    "change24hPct": 0.87
+    "price": 574.2,
+    "change24hPct": 1
    },
    {
     "symbol": "XRP",
-    "price": 1.1129,
-    "change24hPct": 1.59
+    "price": 1.1155,
+    "change24hPct": 1.84
    },
    {
     "symbol": "SOL",
-    "price": 77.52,
-    "change24hPct": 1.95
+    "price": 77.72,
+    "change24hPct": 2.28
    }
   ],
   "fearGreed": {
    "value": 29,
    "classification": "Fear"
   },
-  "regime": null,
+  "regime": "RISK_ON",
   "stockFearGreed": {
    "value": 39,
    "classification": "Fear",
@@ -6701,6 +6701,7 @@
     "change": -4.32
    }
   },
+  "equityRegime": "NEUTRAL",
   "longShort": [
    {
     "asset": "BTC",
@@ -6765,6 +6766,12 @@
   },
   {
    "date": "2026-07-23",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-07-23",
    "event": "INTC earnings (AMC)",
    "type": "EARNINGS",
    "impact": "MED"
@@ -6818,16 +6825,76 @@
    "impact": "MED"
   },
   {
+   "date": "2026-07-30",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-07-30",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-07-30",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-07-31",
+   "event": "Employment Cost Index",
+   "type": "ECI",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-07-31",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-04",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-06",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-08-07",
-   "event": "Non-Farm Payrolls (Jul)",
+   "event": "Non-Farm Payrolls",
    "type": "NFP",
    "impact": "HIGH"
   },
   {
    "date": "2026-08-12",
-   "event": "US CPI Release (Jul)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-13",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-13",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-14",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
   }
  ],
  "manualBook": {
@@ -7180,7 +7247,7 @@
   ]
  },
  "intel": {
-  "ageH": 2.3,
+  "ageH": 2.4,
   "narratives": [
    "* Real World Assets (RWA) & Tokenization: Gaining massive traction with the launch of \"Robinhood Chain\" on Arbitrum's stack, offering 24/7 tradable \"Stock Tokens\" and self-custody stablecoin lending. (newsletter)",
    "* AI & Economic Agents: Over 57% of June 2026 internet traffic came from bots/AI, driving a shift toward building infrastructure for AI agents that can trade, swap, and lend 24/7. (newsletter)",
