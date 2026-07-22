@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-22T08:10:07.121Z",
+ "generatedAt": "2026-07-22T08:15:10.125Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -8,11 +8,11 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 502.88
+   "account": 504.33
   },
   "machine": {
    "label": "Selene",
-   "account": 508.12
+   "account": 507.86
   }
  },
  "standings": [
@@ -68,8 +68,8 @@
    "losses": 2,
    "wr": "50",
    "pnl": 5.35,
-   "account": 502.88,
-   "retPct": 0.6,
+   "account": 504.33,
+   "retPct": 0.9,
    "accountRealized": 505.35
   },
   {
@@ -82,7 +82,7 @@
    "losses": 0,
    "wr": "100",
    "pnl": 8.78,
-   "account": 508.12,
+   "account": 507.86,
    "retPct": 1.6,
    "accountRealized": 508.78
   },
@@ -110,7 +110,7 @@
    "losses": 6,
    "wr": "25",
    "pnl": -11.06,
-   "account": 488.69,
+   "account": 488.43,
    "retPct": -2.3,
    "accountRealized": 488.94
   }
@@ -2745,21 +2745,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-21T08:15:00.000Z",
-   "hl": 0,
-   "hl_spot": 448.593261,
-   "grvt": 500.006066,
-   "extended": 558.179924,
-   "capital": 3006.876645,
-   "qwen": 488.35,
-   "openclaw": 448.59,
-   "hermes": 500.01,
-   "manual": 558.18,
-   "kimi": 510.92,
-   "deepseek": 489.04,
-   "gemini": 496.7
-  },
   {
    "ts": "2026-07-21T08:20:00.000Z",
    "hl": 0,
@@ -7064,14 +7049,29 @@
    "kimi": 508.12,
    "deepseek": 483.51,
    "gemini": 488.69
+  },
+  {
+   "ts": "2026-07-22T08:15:00.000Z",
+   "hl": 0,
+   "hl_spot": 445.584202,
+   "grvt": 500.006066,
+   "extended": 504.330125,
+   "capital": 2933.1673260000002,
+   "qwen": 488.35,
+   "openclaw": 445.58,
+   "hermes": 500.01,
+   "manual": 504.33,
+   "kimi": 507.86,
+   "deepseek": 483.51,
+   "gemini": 488.43
   }
  ],
  "venuesLive": {
   "hl": 0,
   "hl_spot": 445.584202,
   "grvt": 500.006066,
-  "lighter": 1483.7568030000002,
-  "total": 2429.347071
+  "lighter": 1483.2469330000001,
+  "total": 2428.8372010000003
  },
  "openTrades": [
   {
@@ -7260,28 +7260,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 66051.05,
-    "change24hPct": -0.2
+    "price": 66032.82,
+    "change24hPct": -0.37
    },
    {
     "symbol": "ETH",
-    "price": 1922.53,
-    "change24hPct": -0.54
+    "price": 1920.92,
+    "change24hPct": -0.89
    },
    {
     "symbol": "BNB",
-    "price": 569.77,
-    "change24hPct": -1.19
+    "price": 569.78,
+    "change24hPct": -1.27
    },
    {
     "symbol": "XRP",
-    "price": 1.1343,
-    "change24hPct": 0.04
+    "price": 1.1339,
+    "change24hPct": -0.07
    },
    {
     "symbol": "SOL",
-    "price": 77.3,
-    "change24hPct": -1.45
+    "price": 77.23,
+    "change24hPct": -1.76
    }
   ],
   "fearGreed": {
@@ -7300,11 +7300,43 @@
     "change": -0.06
    },
    "vix": {
-    "price": 17.55,
-    "change": 2.93
+    "price": 17.58,
+    "change": 3.11
    }
   },
   "equityRegime": "RISK_ON",
+  "longShort": [
+   {
+    "asset": "BTC",
+    "ratio": 1.074,
+    "longPct": 51.8,
+    "bias": "BALANCED"
+   },
+   {
+    "asset": "ETH",
+    "ratio": 1.716,
+    "longPct": 63.2,
+    "bias": "CROWDED LONG"
+   },
+   {
+    "asset": "SOL",
+    "ratio": 2.268,
+    "longPct": 69.4,
+    "bias": "CROWDED LONG"
+   },
+   {
+    "asset": "BNB",
+    "ratio": 2.855,
+    "longPct": 74.1,
+    "bias": "CROWDED LONG"
+   },
+   {
+    "asset": "XRP",
+    "ratio": 2.451,
+    "longPct": 71,
+    "bias": "CROWDED LONG"
+   }
+  ],
   "funding": [
    {
     "asset": "BTC",
@@ -7588,21 +7620,28 @@
   }
  ],
  "manualBook": {
-  "at": "2026-07-22T07:55:11.840Z",
+  "at": "2026-07-22T08:15:10.125Z",
   "positions": [
    {
     "asset": "SOL",
     "stock": false,
     "direction": "LONG",
     "entry": 75.1,
-    "pnlPct": 2.53
+    "pnlPct": 2.75
    },
    {
     "asset": "GOOG",
     "stock": true,
     "direction": "LONG",
     "entry": 354.19,
-    "pnlPct": -2.13
+    "pnlPct": -1.99
+   },
+   {
+    "asset": "LIT",
+    "stock": false,
+    "direction": "LONG",
+    "entry": 2.2623,
+    "pnlPct": 0.13
    }
   ]
  },
@@ -7937,7 +7976,7 @@
   ]
  },
  "intel": {
-  "ageH": 4.7,
+  "ageH": 4.8,
   "narratives": [
    "* Memes & Launchpads: Robinhood Chain DEX volume is rising, with meme coins like CASHCAT, TENDIES, YOLO, and HMM gaining massive traction. Following the shutdown of Noxa, ponsdotfamily has emerged as the clear launchpad ",
    "* Artificial Intelligence (AI): Driven by a major US policy pivot where President Trump is redirecting billions of the $200B annual federal science research budget away from colleges and toward AI and individual scientis",
@@ -8543,7 +8582,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 508.12,
+    "equity": 507.86,
     "peak": 508.77
    },
    "LIGHTER_deepseek": {
@@ -8561,7 +8600,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 488.69,
+    "equity": 488.43,
     "peak": 509.82
    }
   },
