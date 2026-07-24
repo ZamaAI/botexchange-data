@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-24T13:15:07.398Z",
+ "generatedAt": "2026-07-24T13:20:07.825Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 455.63
+   "account": 455.46
   },
   "machine": {
    "label": "Selene",
@@ -68,7 +68,7 @@
    "losses": 4,
    "wr": "50",
    "pnl": -14.51,
-   "account": 455.63,
+   "account": 455.46,
    "retPct": -8.9,
    "accountRealized": 485.49
   },
@@ -3556,21 +3556,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-23T13:20:00.000Z",
-   "hl": -2.07975,
-   "hl_spot": 446.017032,
-   "grvt": 500.006066,
-   "extended": 456.321833,
-   "capital": 2883.231925,
-   "qwen": 488.35,
-   "openclaw": 443.94,
-   "hermes": 500.01,
-   "manual": 456.32,
-   "kimi": 511.65,
-   "deepseek": 483.51,
-   "gemini": 484.37
-  },
   {
    "ts": "2026-07-23T13:25:00.000Z",
    "hl": -2.470003,
@@ -7875,14 +7860,29 @@
    "kimi": 511.65,
    "deepseek": 483.51,
    "gemini": 484.37
+  },
+  {
+   "ts": "2026-07-24T13:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 452.63115799999997,
+   "grvt": 500.006066,
+   "extended": 455.458036,
+   "capital": 2891.061954,
+   "qwen": 488.35,
+   "openclaw": 452.63,
+   "hermes": 500.01,
+   "manual": 455.46,
+   "kimi": 511.65,
+   "deepseek": 483.51,
+   "gemini": 484.37
   }
  ],
  "venuesLive": {
   "hl": 0,
-  "hl_spot": 452.630608,
+  "hl_spot": 452.63115799999997,
   "grvt": 500.006066,
   "lighter": 1482.966694,
-  "total": 2435.603368
+  "total": 2435.603918
  },
  "openTrades": [],
  "awaiting": [],
@@ -7895,7 +7895,7 @@
    "venue": "HL",
    "outcome": "WIN",
    "pct": 3.9,
-   "exitReason": null,
+   "exitReason": "SHORT SOL: hit target +3.9% (entry $77.58 → exit $74.535). WHY: Short invalidation condition never triggered — price never closed above $78.95 on 4h, OI rise stalled, fade mechanism executed cleanly…",
    "closedAt": "2026-07-24T13:05:42.292Z"
   },
   {
@@ -8024,28 +8024,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64362.25,
-    "change24hPct": -1.04
+    "price": 64490.17,
+    "change24hPct": -0.84
    },
    {
     "symbol": "ETH",
-    "price": 1862.27,
-    "change24hPct": -1.89
+    "price": 1868.53,
+    "change24hPct": -1.6
    },
    {
     "symbol": "BNB",
-    "price": 560.52,
-    "change24hPct": -1.35
+    "price": 561.78,
+    "change24hPct": -1.11
    },
    {
     "symbol": "XRP",
-    "price": 1.0961,
-    "change24hPct": -1.77
+    "price": 1.0982,
+    "change24hPct": -1.51
    },
    {
     "symbol": "SOL",
-    "price": 74.49,
-    "change24hPct": -2.93
+    "price": 74.68,
+    "change24hPct": -2.66
    }
   ],
   "fearGreed": {
@@ -8072,32 +8072,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.543,
-    "longPct": 60.7,
+    "ratio": 1.554,
+    "longPct": 60.9,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "ETH",
-    "ratio": 2.228,
-    "longPct": 69,
+    "ratio": 2.285,
+    "longPct": 69.6,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.582,
-    "longPct": 72.1,
+    "ratio": 2.628,
+    "longPct": 72.4,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.852,
-    "longPct": 74,
+    "ratio": 2.906,
+    "longPct": 74.4,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.619,
-    "longPct": 72.4,
+    "ratio": 2.615,
+    "longPct": 72.3,
     "bias": "CROWDED LONG"
    }
   ],
@@ -8177,7 +8177,7 @@
      "changePct": -12.1
     }
    ],
-   "ageMin": 195
+   "ageMin": 200
   },
   "chainRotation": {
    "chains": [
@@ -8294,7 +8294,7 @@
      3
     ]
    ],
-   "ageMin": 60
+   "ageMin": 65
   }
  },
  "calendar": [
@@ -8766,27 +8766,27 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 4231,
+   "totalPrints7d": 4243,
    "minUsdK": 10,
    "accounts": [
     {
      "id": 731910,
-     "prints": 558,
-     "volK": 14833,
-     "biasK": -1229,
-     "equity": 97794,
+     "prints": 559,
+     "volK": 14852,
+     "biasK": -1210,
+     "equity": 99377,
      "positions": [
       {
        "coin": "WTI",
        "side": "LONG",
-       "usdK": 396,
-       "upnlK": 0
+       "usdK": 536,
+       "upnlK": 2
       },
       {
        "coin": "HYPE",
        "side": "LONG",
-       "usdK": 188,
-       "upnlK": 0
+       "usdK": 405,
+       "upnlK": -1
       }
      ]
     },
@@ -8795,8 +8795,15 @@
      "prints": 122,
      "volK": 4915,
      "biasK": 1836,
-     "equity": 1951,
-     "positions": []
+     "equity": 1992,
+     "positions": [
+      {
+       "coin": "BTC",
+       "side": "LONG",
+       "usdK": 99,
+       "upnlK": 0
+      }
+     ]
     },
     {
      "id": 5147,
@@ -8811,12 +8818,12 @@
      "prints": 186,
      "volK": 2906,
      "biasK": 92,
-     "equity": 69410,
+     "equity": 69358,
      "positions": [
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 20,
+       "usdK": 0,
        "upnlK": 0
       }
      ]
@@ -8826,19 +8833,19 @@
      "prints": 63,
      "volK": 2409,
      "biasK": -326,
-     "equity": 272489,
+     "equity": 268353,
      "positions": [
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 1657,
-       "upnlK": -9
+       "usdK": 1652,
+       "upnlK": -15
       },
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 662,
-       "upnlK": 4
+       "usdK": 661,
+       "upnlK": 5
       }
      ]
     }
@@ -8872,7 +8879,7 @@
   ]
  },
  "intel": {
-  "ageH": 3.8,
+  "ageH": 3.9,
   "narratives": [
    "• Big Tech Capex & AI Infrastructure: Tech giants face severe financial strain and compute bottlenecks, highlighted by Google's negative quarterly free cash flow (-$5.9B) and Nvidia prepaying $1.5B to Amkor ($AMKR) for c",
    "• Geopolitical Energy Shocks: Escalarion in the Iran war is driving extreme commodity volatility, with Brent crude surpassing $100/bbl, European natural gas up 94%, and heating oil up 64% (X).",
@@ -9059,7 +9066,7 @@
    "outcome": "WIN",
    "pct": 3.9,
    "pnlUsd": 11.06,
-   "exitReason": null,
+   "exitReason": "SHORT SOL: hit target +3.9% (entry $77.58 → exit $74.535). WHY: Short invalidation condition never triggered — price never closed above $78.95 on 4h, OI rise stalled, fade mechanism executed cleanly…",
    "closedAt": "2026-07-24T13:05:42.292Z",
    "entry": 77.58,
    "exit": 74.535,
