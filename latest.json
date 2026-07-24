@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-24T16:15:09.359Z",
+ "generatedAt": "2026-07-24T16:16:30.732Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -7930,7 +7930,74 @@
   "total": 2435.6066659999997
  },
  "openTrades": [],
- "awaiting": [],
+ "awaiting": [
+  {
+   "asset": "SOL",
+   "direction": "SHORT",
+   "brain": "Qwen",
+   "conviction": 8,
+   "trigger": "1h close below 72.50 or reclaim of $77.8 resistance failure confirmed by OI rise",
+   "entry": 75,
+   "stop": 83.98,
+   "target": 64.04,
+   "levelsApprox": false
+  },
+  {
+   "asset": "VVV",
+   "direction": "SHORT",
+   "brain": "Qwen",
+   "conviction": 7,
+   "trigger": "break above 12.50 with funding premium compression or rejection at $12.09 high",
+   "entry": 12,
+   "stop": 13.96,
+   "target": 9.48,
+   "levelsApprox": false
+  },
+  {
+   "asset": "XRP",
+   "direction": "LONG",
+   "brain": "Qwen",
+   "conviction": 6,
+   "trigger": "close below 1.08 support to confirm whale short squeeze reversal",
+   "entry": 1.09,
+   "stop": 1.03,
+   "target": 1.16,
+   "levelsApprox": false
+  },
+  {
+   "asset": "SOL",
+   "direction": "LONG",
+   "brain": "Leviathan",
+   "conviction": 6,
+   "trigger": "SOL 15m candle closes above $74.80 with volume spike",
+   "entry": 74.8,
+   "stop": 73.678,
+   "target": 76.67,
+   "levelsApprox": true
+  },
+  {
+   "asset": "SOL",
+   "direction": "SHORT",
+   "brain": "Leviathan",
+   "conviction": 6,
+   "trigger": "SOL 15m candle closes below $73.50 with volume spike",
+   "entry": 73.5,
+   "stop": 74.235,
+   "target": 71.6625,
+   "levelsApprox": true
+  },
+  {
+   "asset": "SOL",
+   "direction": "SHORT",
+   "brain": "Castor",
+   "conviction": 6,
+   "trigger": "15m candle close below $73.50 support with expanding sell volume",
+   "entry": 73.4,
+   "stop": 76.703,
+   "target": 66.06,
+   "levelsApprox": true
+  }
+ ],
  "recentCloses": [
   {
    "id": 285,
@@ -8069,28 +8136,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64138,
-    "change24hPct": -1.14
+    "price": 64159.99,
+    "change24hPct": -1.09
    },
    {
     "symbol": "ETH",
-    "price": 1862.21,
-    "change24hPct": -1.48
+    "price": 1862.79,
+    "change24hPct": -1.46
    },
    {
     "symbol": "BNB",
     "price": 561.39,
-    "change24hPct": -1.08
+    "change24hPct": -0.98
    },
    {
     "symbol": "XRP",
-    "price": 1.0901,
-    "change24hPct": -1.89
+    "price": 1.09,
+    "change24hPct": -1.87
    },
    {
     "symbol": "SOL",
-    "price": 74.09,
-    "change24hPct": -2.65
+    "price": 74.11,
+    "change24hPct": -2.61
    }
   ],
   "fearGreed": {
@@ -8222,7 +8289,7 @@
      "changePct": -10.5
     }
    ],
-   "ageMin": 15
+   "ageMin": 16
   },
   "chainRotation": {
    "chains": [
@@ -8339,7 +8406,7 @@
      3
     ]
    ],
-   "ageMin": 240
+   "ageMin": 241
   }
  },
  "calendar": [
@@ -8549,14 +8616,14 @@
   }
  ],
  "manualBook": {
-  "at": "2026-07-24T16:00:09.560Z",
+  "at": "2026-07-24T16:16:30.732Z",
   "positions": [
    {
     "asset": "NVDA",
     "stock": true,
     "direction": "LONG",
     "entry": 206.84,
-    "pnlPct": 1.19
+    "pnlPct": 2.24
    },
    {
     "asset": "GOOG",
@@ -8568,12 +8635,12 @@
   ]
  },
  "report": {
-  "xPost": "Zama Sentinel — market in neutral drift. 7/18 bias signals active, imbalance 1. No high-conviction setup. Standing down until multiple signals confirm direction. BTC $65,062.",
-  "intelligence": "SUMMARY\nMarket is bearish with BTC down 0.83% and heavy institutional outflows of $225M via ETFs invalidating immediate upside. Dominant risk is long squeeze as OI remains elevated while price drops, evidenced by $33.7M in long liquidations today. The thesis for a bottom holds only if the DXY stabilizes below 101.4 and BTC breaks above its morning consolidation range; otherwise expect continuation of downside into close with high volatility from deleveraging.\n\nIN-DEPTH ANALYSIS\nThe confluence of technical weakness, macro headwinds, and institutional selling creates a bearish bias for the second half. Technicals show broad-based rejection across majors: SOL RSI is oversold at 37 but MACD histogram remains negative indicating momentum decay; BTC and ETH are in neutral territory on daily charts (RSI ~54-58) but rejected from intraday highs, suggesting lack of buying conviction above current",
-  "at": "2026-07-24T10:14:16.773Z"
+  "xPost": "BTC tests 64000 resistance in sideways range while ETH drains liquidity below 1870; volatility compression demands patience until breakout confirmation or breakdown occurs.",
+  "intelligence": "SUMMARY\nMarket closed red with BTC down 1.23% as ETF outflows of $225M and rising US yields triggered a liquidity flush into safe havens like Gold (+0.7%) and Tech (AAPL +3.6%). The dominant signal is institutional distribution via spot ETFs combined with long-dominant liquidations ($34M longs vs $17M shorts), indicating a crowded short-term upside that has snapped back down to mean reversion levels near the 5-week support zone.\n\nIN-DEPTH ANALYSIS\nThe morning thesis of continued accumulation was invalidated by macro divergence: while crypto sentiment hit Fear (28/100) and stablecoin dry powder remains high ($310B), US bond yields rose, forcing a rotation out of risk assets into Treasuries and Gold. Technically, BTC RSI on the daily sits at 49.37 but is oversold hourly (28.64), suggesting immediate relief bounce potential rather than trend reversal yet. The divergence between stablecoin s",
+  "at": "2026-07-24T16:16:21.826Z"
  },
  "marketsDesk": {
-  "at": "2026-07-24T10:14:16.773Z",
+  "at": "2026-07-24T16:16:21.826Z",
   "etf": {
    "BTC": {
     "latestM": -225.2,
@@ -8595,8 +8662,8 @@
    }
   },
   "liq": {
-   "longM": 33.7,
-   "shortM": 17.4,
+   "longM": 33.8,
+   "shortM": 17.1,
    "dominant": "LONG DOMINANT — longs being liquidated (price falling)",
    "btcOiB": null
   },
@@ -8604,57 +8671,57 @@
    {
     "coin": "BTC",
     "l": 7,
-    "s": 1,
-    "netM": 274.3
+    "s": 3,
+    "netM": 97.5
    },
    {
     "coin": "ETH",
-    "l": 9,
-    "s": 0,
-    "netM": 342.3
+    "l": 7,
+    "s": 3,
+    "netM": 200.2
    },
    {
     "coin": "SOL",
     "l": 2,
-    "s": 0,
-    "netM": 2.3
+    "s": 1,
+    "netM": -8.7
+   },
+   {
+    "coin": "BNB",
+    "l": 0,
+    "s": 1,
+    "netM": -0.2
    },
    {
     "coin": "XRP",
-    "l": 1,
-    "s": 1,
-    "netM": -11.7
-   },
-   {
-    "coin": "HYPE",
-    "l": 1,
+    "l": 0,
     "s": 2,
-    "netM": -11.9
+    "netM": -13.7
    }
   ],
   "topTraders": [
    {
     "addr": "0x92ea19eceb7a8de0f50978a1583a5d8b018050e9",
     "name": null,
-    "acctM": 24,
-    "weekPnlK": 3363,
-    "weekRoi": 16.4,
+    "acctM": 23.1,
+    "weekPnlK": 2733,
+    "weekRoi": 13.3,
     "positions": [
      {
       "coin": "BTC",
       "side": "LONG",
-      "usdK": 82572,
+      "usdK": 81271,
       "entry": 76117.3,
       "lev": 5,
-      "upnlK": -13970
+      "upnlK": -15271
      },
      {
       "coin": "ZEC",
       "side": "SHORT",
-      "usdK": 16583,
+      "usdK": 16213,
       "entry": 444.0039,
       "lev": 2,
-      "upnlK": -2038
+      "upnlK": -1668
      }
     ],
     "moves": null,
@@ -8663,33 +8730,33 @@
    {
     "addr": "0x32008fcb6bbd16532afc83ca8b6c920dde22c407",
     "name": null,
-    "acctM": 4.3,
-    "weekPnlK": 2780,
-    "weekRoi": 18.6,
+    "acctM": 4.2,
+    "weekPnlK": 2344,
+    "weekRoi": 16,
     "positions": [
      {
       "coin": "BTC",
       "side": "LONG",
-      "usdK": 14863,
+      "usdK": 14628,
       "entry": 65702.9,
       "lev": 21,
-      "upnlK": -137
+      "upnlK": -371
      },
      {
       "coin": "ZEC",
       "side": "SHORT",
-      "usdK": 12298,
+      "usdK": 12024,
       "entry": 586.4281,
       "lev": 10,
-      "upnlK": 1949
+      "upnlK": 2223
      },
      {
       "coin": "ETH",
       "side": "LONG",
-      "usdK": 9882,
+      "usdK": 9743,
       "entry": 1910,
       "lev": 20,
-      "upnlK": -118
+      "upnlK": -257
      }
     ],
     "moves": null,
@@ -8698,111 +8765,103 @@
    {
     "addr": "0x469e9a7f624b04c24f0e64edf8d8a277e6bf58a5",
     "name": null,
-    "acctM": 5.3,
-    "weekPnlK": 2588,
-    "weekRoi": 34.8,
+    "acctM": 4.3,
+    "weekPnlK": 2301,
+    "weekRoi": 30.7,
     "positions": [
      {
       "coin": "HYPE",
       "side": "SHORT",
-      "usdK": 14699,
+      "usdK": 14684,
       "entry": 60.3879,
       "lev": 10,
-      "upnlK": 398
+      "upnlK": 413
      },
      {
       "coin": "XRP",
       "side": "SHORT",
-      "usdK": 13937,
+      "usdK": 13716,
       "entry": 1.075357,
       "lev": 20,
-      "upnlK": -409
+      "upnlK": -188
      },
      {
       "coin": "PUMP",
       "side": "LONG",
-      "usdK": 5298,
-      "entry": 0.001996,
+      "usdK": 5493,
+      "entry": 0.00199,
       "lev": 10,
-      "upnlK": -464
+      "upnlK": -477
      },
      {
       "coin": "ETH",
       "side": "LONG",
-      "usdK": 4118,
-      "entry": 1872.54,
+      "usdK": 4252,
+      "entry": 1871.82,
       "lev": 25,
-      "upnlK": 32
+      "upnlK": -25
      }
     ],
     "moves": null,
     "movesSince": null
    },
    {
-    "addr": "0x15a4f009bb324a3fb9e36137136b201e3fe0dfdb",
+    "addr": "0x6c8512516ce5669d35113a11ca8b8de322fd84f6",
     "name": null,
-    "acctM": 6.3,
-    "weekPnlK": 2420,
-    "weekRoi": 40.5,
+    "acctM": 17.5,
+    "weekPnlK": 2059,
+    "weekRoi": 13.4,
     "positions": [
-     {
-      "coin": "BTC",
-      "side": "LONG",
-      "usdK": 65103,
-      "entry": 62353.6,
-      "lev": 40,
-      "upnlK": 2749
-     },
      {
       "coin": "ETH",
       "side": "LONG",
-      "usdK": 18874,
-      "entry": 1761.94,
+      "usdK": 74436,
+      "entry": 2265.44,
       "lev": 20,
-      "upnlK": 1255
+      "upnlK": -16182
      }
     ],
     "moves": null,
     "movesSince": null
    },
    {
-    "addr": "0xeadc152ac1014ace57c6b353f89adf5faffe9d55",
+    "addr": "0x4e23288cee4960f9f962195c22948e4bc7ae20c3",
     "name": null,
-    "acctM": 7.1,
-    "weekPnlK": 2291,
-    "weekRoi": 28.6,
+    "acctM": 0.1,
+    "weekPnlK": 1802,
+    "weekRoi": 6.4,
     "positions": [
      {
-      "coin": "ZEC",
-      "side": "LONG",
-      "usdK": 4979,
-      "entry": 473.7571,
-      "lev": 10,
-      "upnlK": 319
+      "coin": "HYPE",
+      "side": "SHORT",
+      "usdK": 426,
+      "entry": 58.6657,
+      "lev": 5,
+      "upnlK": 0
      },
      {
       "coin": "NEAR",
       "side": "LONG",
-      "usdK": 3791,
-      "entry": 1.86781,
+      "usdK": 147,
+      "entry": 2.06844,
       "lev": 10,
-      "upnlK": 55
+      "upnlK": -20
      },
      {
-      "coin": "GRAM",
+      "coin": "WLD",
       "side": "LONG",
-      "usdK": 2939,
-      "entry": 1.7505,
-      "lev": 5,
-      "upnlK": -562
+      "usdK": 3,
+      "entry": 0.3551,
+      "lev": 10,
+      "upnlK": 0
      },
      {
-      "coin": "AAVE",
+      "coin": "SOL",
       "side": "LONG",
-      "usdK": 2887,
-      "entry": 87.4192,
-      "lev": 10,
-      "upnlK": 264
+      "usdK": 1,
+      "entry": 82.02,
+      "lev": 20,
+      "upnlK": 0
      }
     ],
     "moves": null,
@@ -8810,7 +8869,7 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 4320,
+   "totalPrints7d": 4325,
    "minUsdK": 10,
    "accounts": [
     {
@@ -8818,7 +8877,7 @@
      "prints": 598,
      "volK": 16109,
      "biasK": -939,
-     "equity": 80586,
+     "equity": 80755,
      "positions": [
       {
        "coin": "BTC",
@@ -8833,7 +8892,7 @@
      "prints": 122,
      "volK": 4915,
      "biasK": 1836,
-     "equity": 1196,
+     "equity": 1226,
      "positions": [
       {
        "coin": "BTC",
@@ -8853,23 +8912,30 @@
     },
     {
      "id": 313004,
-     "prints": 186,
-     "volK": 2915,
-     "biasK": 100,
-     "equity": 69544,
-     "positions": []
+     "prints": 185,
+     "volK": 2906,
+     "biasK": 114,
+     "equity": 69555,
+     "positions": [
+      {
+       "coin": "ETH",
+       "side": "LONG",
+       "usdK": 9,
+       "upnlK": 0
+      }
+     ]
     },
     {
      "id": 620352,
      "prints": 63,
      "volK": 2409,
      "biasK": -326,
-     "equity": 260880,
+     "equity": 261867,
      "positions": [
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 1825,
+       "usdK": 1826,
        "upnlK": -13
       },
       {
@@ -8884,28 +8950,28 @@
   },
   "funding": [
    {
-    "coin": "VINE",
-    "hl": 120,
-    "bin": 0,
-    "gap": 120
+    "coin": "XAI",
+    "hl": -143.5,
+    "bin": 3.9,
+    "gap": -147.4
    },
    {
-    "coin": "MOVE",
-    "hl": -54.1,
+    "coin": "NOT",
+    "hl": -100.2,
+    "bin": 8,
+    "gap": -108.1
+   },
+   {
+    "coin": "ZRO",
+    "hl": 110.4,
     "bin": 11,
-    "gap": -65
+    "gap": 99.4
    },
    {
-    "coin": "MORPHO",
-    "hl": -58.5,
-    "bin": -3.5,
-    "gap": -55.1
-   },
-   {
-    "coin": "WIF",
-    "hl": -45,
-    "bin": -4.5,
-    "gap": -40.5
+    "coin": "MEME",
+    "hl": -85,
+    "bin": 10.9,
+    "gap": -96
    }
   ]
  },
@@ -8975,6 +9041,20 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-07-24T16:16:11.218Z",
+   "brain": "gemini",
+   "model": "Gemini 3.6 Flash",
+   "kind": "report",
+   "text": "READ: The market remains in a distinct RISK_OFF regime with BTC down 1.2% and breadth suppressed across majors. SOL displays vulnerable market structure with retail heavily crowded long (74%) against dominant long liquidations (~$4.7M) and declining 24h DEX activity.\nDECISION: Setting an AWAITING conditional short order on SOL below ~$73.5 support. Reclaiming ~$76.62 or a shift in BTC momentum above its 20d MA would invalidate this breakdown setup.\n\nRISK FLAGS\nNONE"
+  },
+  {
+   "ts": "2026-07-24T16:15:46.363Z",
+   "brain": "deepseek",
+   "model": "DeepSeek V4",
+   "kind": "report",
+   "text": "READ: RISK_OFF regime with BTC below its 20-d MA, thin breadth, and heavy long liquidations. Most assets are CHOP, so entries inside ranges are avoided; only SOL and BNB show TRANS structure, but they are near range edges. Negative funding and an oversold bounce setup on SOL are worth monitoring, but no trigger is confirmed right now.\nDECISION: No live entry yet — await a confirmed break of either ~$74.8 (LONG) or ~$73.5 (SHORT) on volume to trade the direction. Silence until a trigger fires.\n\nRISK FLAGS\nNONE"
+  },
   {
    "ts": "2026-07-24T16:14:01.610Z",
    "brain": "kimi",
@@ -9072,20 +9152,6 @@
    "model": "Claude Sonnet 5",
    "kind": "intraday",
    "text": "OPENCLAW INTRADAY SCAN\n\nMARKET BIAS\nNEUTRAL/CHOP across all five majors (ER 0.03-0.13, no trend). BTC funding neutral, ETH funding negligible — no squeeze inputs anywhere, no OI/liquidation data to name a mechanism.\n\nOPENCLAW SIGNALS\nNO SIGNALS — waiting for cleaner setup.\n\nBTC sits mid-range (0.60 of ~$63,100–~$66,956) with only a stale cached ETF inflow — no live mechanism, no edge to name.\nETH sits low-third of range but funding is 0.0005%/day (dead) — no squeeze, no divergence, soft-warning asset with nothing to justify the 7+ floor.\nBNB near range-low but no funding/OI data supplied — can't name a force, structural stop would land in the benched 2-4% band anyway.\nXRP choppiest of the five (ER ~0.034), pattern-flagged AVOID on LONG, no mechanism present — sits out.\nSOL already carries my open SHORT — no duplicate signal.\nNo asset offers a sub-2% structural stop with a named mechanism to"
-  },
-  {
-   "ts": "2026-07-24T04:11:53.030Z",
-   "brain": "qwen",
-   "model": "Qwen 3.5",
-   "kind": "column",
-   "text": "Bitcoin is testing a critical support level at sixty-five thousand dollars while institutional money flows diverge sharply from retail panic. Today saw massive ETF inflows of sixty-nine million dollars, signaling smart accumulation, yet spot liquidations wiped out thirty-one million in long positions as traders flee into the safety of shorts. This disconnect defines our current regime where we must favor mean reversion over breakout chasing because the tape is range-bound with no directional tailwind either way. The dominant risk remains a breakdown below sixty-four thousand eight hundred dollars, which would invalidate any immediate bounce thesis and expose leveraged longs to cascading deleveraging as oil yields climb above four percent driven by geopolitical tension in the Strait of Hormuz. We are seeing classic signs of fragility where retail leverage is being squeezed at the top of this range while funds ignore short-term volatility entirely. The fear index sits low at twenty-eight, reflecting a market that has forgotten how quickly sentiment can flip when macro headlines like Brent crude surging above one hundred dollars per barrel dominate the conversation. Avoid the mid zone between sixty-four thousand eight hundred and sixty-five thousand two hundred because it is where liquidity bleeds most aggressively during choppy sessions. Instead wait for clean mechanisms in either direction to confirm a shift before committing significant size conservatively as we navigate this bearish consolidation phase with eyes on the next major support or resistance level that could trigger another wave of volatility across all digital assets today and tomorrow alike."
-  },
-  {
-   "ts": "2026-07-24T04:11:32.573Z",
-   "brain": "gemini",
-   "model": "Gemini 3.6 Flash",
-   "kind": "report",
-   "text": "READ: The market is in a structural chop regime with 4h Efficiency Ratios below 0.14 across all major and altcoin assets, while BTC consolidates around ~$65,400. With stop distances under 4% currently benched by risk gates, any valid R:R >= 2.0 trade would require projecting targets far outside existing range extremes. Until trend efficiency expands or price tests range boundaries with confirmed order book imbalance, capital is best preserved on the sidelines.\nDECISION: Standing aside while market structure remains bound in compressed chop. Will re-evaluate upon a clear volatility expansion or a confirmed test of macro range boundaries.\n\nRISK FLAGS\nNONE"
   }
  ],
  "archive": [
@@ -9680,62 +9746,48 @@
   }
  },
  "predictions": {
-  "at": "2026-07-24T10:14:16.774Z",
+  "at": "2026-07-24T16:16:21.827Z",
   "polymarket": [
    {
     "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-    "yesProb": 76,
-    "volume24h": 1122596,
+    "yesProb": 77,
+    "volume24h": 1000585,
     "endDate": "2026-07-29T00:00:00Z",
-    "delta": 2
+    "delta": 1
    },
    {
     "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-    "yesProb": 24,
-    "volume24h": 448791,
+    "yesProb": 23,
+    "volume24h": 284787,
     "endDate": "2026-07-29T00:00:00Z",
     "delta": -1
    },
    {
-    "question": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
-    "yesProb": 3,
-    "volume24h": 136596,
-    "endDate": "2026-09-16T00:00:00Z",
-    "delta": null
-   },
-   {
-    "question": "Bitcoin Up or Down on July 24?",
-    "yesProb": 64,
-    "volume24h": 123281,
-    "endDate": "2026-07-24T16:00:00Z",
-    "delta": null
-   },
-   {
     "question": "Will Bitcoin reach $67,500 in July?",
-    "yesProb": 43,
-    "volume24h": 118872,
+    "yesProb": 25,
+    "volume24h": 140899,
     "endDate": "2026-08-01T04:00:00Z",
-    "delta": null
-   },
-   {
-    "question": "Will the price of Bitcoin be above $64,000 on July 24?",
-    "yesProb": 95,
-    "volume24h": 114586,
-    "endDate": "2026-07-24T16:00:00Z",
-    "delta": null
+    "delta": -18
    },
    {
     "question": "Will Bitcoin reach $70,000 in July?",
-    "yesProb": 13,
-    "volume24h": 105490,
+    "yesProb": 8,
+    "volume24h": 115655,
+    "endDate": "2026-08-01T04:00:00Z",
+    "delta": -5
+   },
+   {
+    "question": "Will Bitcoin dip to $62,500 in July?",
+    "yesProb": 58,
+    "volume24h": 85665,
     "endDate": "2026-08-01T04:00:00Z",
     "delta": null
    },
    {
-    "question": "Will the price of Bitcoin be above $66,000 on July 24?",
-    "yesProb": 9,
-    "volume24h": 96337,
-    "endDate": "2026-07-24T16:00:00Z",
+    "question": "Will Bitcoin dip to $60,000 in July?",
+    "yesProb": 17,
+    "volume24h": 85118,
+    "endDate": "2026-08-01T04:00:00Z",
     "delta": null
    }
   ],
@@ -9750,7 +9802,7 @@
       },
       {
        "strike": "Below $50,000.00",
-       "yesPct": 41
+       "yesPct": 45
       },
       {
        "strike": "Below $55,000.00",
@@ -9767,7 +9819,7 @@
      "rungs": [
       {
        "strike": "Above $99,999.99",
-       "yesPct": 15
+       "yesPct": 14
       },
       {
        "strike": "Above $199,999.99",
@@ -9800,7 +9852,7 @@
       },
       {
        "strike": "Above $4,000.00",
-       "yesPct": 11
+       "yesPct": 10
       }
      ]
     }
@@ -9808,227 +9860,227 @@
    "catalysts": [
     {
      "question": "Will Arc launch a token before Jan 1, 2027?",
-     "yesProb": 65,
-     "delta": null
+     "yesProb": 50,
+     "delta": -15
     }
    ]
   }
  },
  "newsWire": {
-  "at": "2026-07-24T10:14:16.774Z",
+  "at": "2026-07-24T16:16:21.827Z",
   "sources": [
    {
     "name": "Lookonchain",
     "headlines": [
-     "The probability that Bitcoin will rise to $70,000 this month is 13%.",
-     "NVIDIA is reportedly set to raise prices on GDDR6 and GDDR7 memory modules.",
-     "OKX co-releases the H1 2026 Web3 Security and Risk Control Report with Elliptic, SlowMist, and OttoSec.",
-     "South Korean media outlet: The longest delivery lead time for global semiconductor equipment has doubled, with Samsung and SK Hynix planning to place orders…",
-     "SoftBank Considering Acquisition of Robotics Startup Gravis",
-     "UBS raises AMD's price target to $730, maintains 'Buy' rating.",
-     "AMD and Samsung are nearing completion of a large-scale HBM4 supply contract, with Helios expected to ship by the end of the third quarter.",
-     "Bank of America maintains its \"Buy\" rating on Intel, with a target price of $160."
+     "A trader profits $448K by monitoring Binance's new listings!",
+     "2024.12.13 17:37:29 Last week, funds have flowed into Bitcoin, Ethereum, and Hyperliquid.",
+     "2024.12.16 14:48:36 A $PEPE whale that had been dormant for 600 days transferred all 2.1T $PEPE($52M) to a new address.",
+     "2024.12.14 10:35:27 When Elon Musk tweeted about Moltbook, the meme coin MOLT experienced a short-term 30% price surge, hitting a new all-time high of $114…",
+     "2026.01.31 18:37:29 A smart AI coin trader made $17.6M on $GOAT, $ai16z, $Fartcoin,$arc.",
+     "2025.01.05 16:05:18 A sniper earned 2,277 $ETH ($8.3M) trading $SHIRO within 18 hours!",
+     "How did I turn $1,000 into $30,000 with smart money?",
+     "The 30-Year-Old Entrepreneur Behind Virtual, a Multi-Million Dollar AI Agent Society"
     ]
    },
    {
     "name": "The Block",
     "headlines": [
+     "Galaxy cuts Clarity Act passage odds to 30%, says bill needs 'last-ditch effort'",
+     "World Foundation raises $52.5 million in WLD token sale with one-year lockup",
+     "Arthur Hayes, BitMEX co-founders face fraud claims over alleged 'Insider Trading Desk' as exchange winds down",
      "Former bitcoin miner Poolin files Chapter 11, sets $52 million floor bid for Texas operations",
      "Robinhood CEO’s X account hacked to promote Vladhood memecoin flagged as 'scam'",
      "MoonPay now accepts Discover Network cards for crypto purchases and sales in US",
      "Swan CEO claims Twenty One serves Tether’s US political interests, calls Mallers' role 'ceremonial'",
-     "Coinbase calls AI payments its 'most high-conviction bet' as businesses begin accepting agent payments",
-     "Strategy, BlackRock form Bitcoin Security Consortium to prepare for quantum computing threat",
-     "Proof of Reserves: What It Means for Exchange Trust",
-     "Flow Traders pilots Lombard’s new bitcoin-backed credit strategy for stablecoin borrowing"
+     "Coinbase calls AI payments its 'most high-conviction bet' as businesses begin accepting agent payments"
     ]
    }
   ]
  },
  "whaleFeed": {
-  "at": "2026-07-24T10:14:16.774Z",
+  "at": "2026-07-24T16:16:21.827Z",
   "netFlow": [
    [
-    "xyz:CL",
-    -618841.3565519999
-   ],
-   [
-    "ARB",
-    8758.963829
-   ],
-   [
-    "KAITO",
-    -6062.978289999999
-   ],
-   [
     "PAXG",
-    3940.1291
+    25660.8181
    ],
    [
-    "CASHCAT",
-    -3719.476393
+    "ONDO",
+    -25484.134720000002
    ],
    [
-    "BTC",
-    -2908.2357
+    "ETH",
+    -24804.4749
    ],
    [
-    "INJ",
-    2750.02203
+    "SOL",
+    23636.260390000003
+   ],
+   [
+    "AVAX",
+    -12999.654421000001
+   ],
+   [
+    "FARTCOIN",
+    -12067.512158999998
    ],
    [
     "AAVE",
-    -1998.3412799999996
+    10404.607909999999
+   ],
+   [
+    "TRUMP",
+    10105.93374
    ]
   ],
   "rows": [
    {
     "kind": "PERP",
-    "ts": 1784873808000,
+    "ts": 1784907212000,
     "wallet": "0x8def...92dae",
     "chain": "hyperliquid",
-    "symbol": "xyz:CL",
+    "symbol": "ONDO",
     "action": "INCREASED",
     "side": "sell",
-    "usd": 14046.786917999998,
-    "price": 91.39688280304507,
-    "leverage": 3,
-    "posUsd": 3425825.468124,
+    "usd": 3620.6979600000004,
+    "price": 0.3930414633087278,
+    "leverage": 10,
+    "posUsd": 175988.03040000002,
     "liq": false,
     "realizedPnl": 0
    },
    {
     "kind": "PERP",
-    "ts": 1784870545000,
+    "ts": 1784907173000,
     "wallet": "0x8def...92dae",
     "chain": "hyperliquid",
-    "symbol": "xyz:CL",
+    "symbol": "FARTCOIN",
     "action": "INCREASED",
     "side": "sell",
-    "usd": 21967.911399000004,
-    "price": 91.74512476351565,
-    "leverage": 3,
-    "posUsd": 3244830.6714640004,
+    "usd": 3999.971211,
+    "price": 0.12437489384526407,
+    "leverage": 10,
+    "posUsd": 141573.91197599997,
     "liq": false,
     "realizedPnl": 0
    },
    {
     "kind": "PERP",
-    "ts": 1784870379000,
+    "ts": 1784907112000,
     "wallet": "0x8def...92dae",
     "chain": "hyperliquid",
-    "symbol": "xyz:CL",
+    "symbol": "CASHCAT",
     "action": "INCREASED",
     "side": "sell",
-    "usd": 13425.760234000001,
-    "price": 91.79128311819726,
+    "usd": 3571.8209279999987,
+    "price": 0.04755199999999998,
     "leverage": 3,
-    "posUsd": 3225218.2553150007,
+    "posUsd": 50829.5216,
     "liq": false,
     "realizedPnl": 0
    },
    {
     "kind": "PERP",
-    "ts": 1784870032000,
+    "ts": 1784907063000,
     "wallet": "0x8def...92dae",
     "chain": "hyperliquid",
-    "symbol": "xyz:CL",
+    "symbol": "ETH",
     "action": "INCREASED",
     "side": "sell",
-    "usd": 25042.133004,
-    "price": 91.73513736752838,
-    "leverage": 3,
-    "posUsd": 3209964.123656,
+    "usd": 7999.013239999999,
+    "price": 1864.1373199720342,
+    "leverage": 20,
+    "posUsd": 149556.5796,
     "liq": false,
     "realizedPnl": 0
    },
    {
     "kind": "PERP",
-    "ts": 1784869521000,
+    "ts": 1784907063000,
     "wallet": "0x8def...92dae",
     "chain": "hyperliquid",
-    "symbol": "xyz:CL",
+    "symbol": "AVAX",
     "action": "INCREASED",
     "side": "sell",
-    "usd": 27023.981336999997,
-    "price": 91.63684783471177,
-    "leverage": 3,
-    "posUsd": 3171188.6467200005,
+    "usd": 6999.832198,
+    "price": 6.196570733780088,
+    "leverage": 10,
+    "posUsd": 63584.57448,
     "liq": false,
     "realizedPnl": 0
    },
    {
     "kind": "PERP",
-    "ts": 1784869176000,
+    "ts": 1784906985000,
     "wallet": "0x8def...92dae",
     "chain": "hyperliquid",
-    "symbol": "xyz:CL",
+    "symbol": "BNB",
     "action": "INCREASED",
-    "side": "sell",
-    "usd": 26383.29334300001,
-    "price": 91.61215651639478,
-    "leverage": 3,
-    "posUsd": 3140413.8009209996,
+    "side": "buy",
+    "usd": 3999.15554,
+    "price": 561.1274786024975,
+    "leverage": 10,
+    "posUsd": 8255.64832,
     "liq": false,
     "realizedPnl": 0
    },
    {
     "kind": "PERP",
-    "ts": 1784868920000,
+    "ts": 1784906974000,
     "wallet": "0x8def...92dae",
     "chain": "hyperliquid",
-    "symbol": "xyz:CL",
+    "symbol": "ADA",
     "action": "INCREASED",
-    "side": "sell",
-    "usd": 13864.694489000003,
-    "price": 91.65225244752935,
-    "leverage": 3,
-    "posUsd": 3111816.6989039998,
+    "side": "buy",
+    "usd": 3999.65019,
+    "price": 0.1646149808618348,
+    "leverage": 10,
+    "posUsd": 83285.41506,
     "liq": false,
     "realizedPnl": 0
    },
    {
     "kind": "PERP",
-    "ts": 1784868008000,
+    "ts": 1784906951000,
     "wallet": "0x8def...92dae",
     "chain": "hyperliquid",
-    "symbol": "xyz:CL",
+    "symbol": "ETH",
     "action": "INCREASED",
     "side": "sell",
-    "usd": 45449.731121000004,
-    "price": 91.64249962899193,
-    "leverage": 3,
-    "posUsd": 3075086.5519499998,
+    "usd": 3999.56428,
+    "price": 1864.4248927838896,
+    "leverage": 20,
+    "posUsd": 138356.74451,
     "liq": false,
     "realizedPnl": 0
    },
    {
     "kind": "PERP",
-    "ts": 1784867800000,
+    "ts": 1784906940000,
     "wallet": "0x8def...92dae",
     "chain": "hyperliquid",
-    "symbol": "xyz:CL",
+    "symbol": "SOL",
     "action": "INCREASED",
-    "side": "sell",
-    "usd": 17659.007643,
-    "price": 91.64084548360647,
-    "leverage": 3,
-    "posUsd": 3028484.381452,
+    "side": "buy",
+    "usd": 3632.0129100000004,
+    "price": 74.12271244897958,
+    "leverage": 20,
+    "posUsd": 37838.55417,
     "liq": false,
     "realizedPnl": 0
    },
    {
     "kind": "PERP",
-    "ts": 1784867597000,
+    "ts": 1784906863000,
     "wallet": "0x8def...92dae",
     "chain": "hyperliquid",
-    "symbol": "xyz:CL",
+    "symbol": "ONDO",
     "action": "INCREASED",
     "side": "sell",
-    "usd": 16807.305175999998,
-    "price": 91.64638331888347,
-    "leverage": 3,
-    "posUsd": 3010228.51997,
+    "usd": 3390.71772,
+    "price": 0.39299,
+    "leverage": 10,
+    "posUsd": 38932.73332,
     "liq": false,
     "realizedPnl": 0
    }
