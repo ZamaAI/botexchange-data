@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-24T13:05:08.439Z",
+ "generatedAt": "2026-07-24T13:10:10.226Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -35,14 +35,14 @@
    "label": "OpenClaw",
    "venue": "HL",
    "paper": false,
-   "trades": 6,
-   "wins": 0,
+   "trades": 7,
+   "wins": 1,
    "losses": 6,
-   "wr": "0",
-   "pnl": -54.99,
-   "account": 461.99,
-   "retPct": -7.6,
-   "accountRealized": 445.01
+   "wr": "14",
+   "pnl": -43.93,
+   "account": 452.63,
+   "retPct": -9.5,
+   "accountRealized": 456.07
   },
   {
    "key": "hermes",
@@ -126,13 +126,15 @@
    "07-20",
    "07-21",
    "07-22",
-   "07-23"
+   "07-23",
+   "07-24"
   ],
   "bySource": {
    "qwen": [
     500,
     500,
     494.37,
+    488.35,
     488.35,
     488.35,
     488.35,
@@ -151,9 +153,11 @@
     450.72,
     450.72,
     450.72,
-    445.01
+    445.01,
+    456.07
    ],
    "hermes": [
+    500,
     500,
     500,
     500,
@@ -175,6 +179,7 @@
     497.98,
     505.35,
     484.03,
+    485.49,
     485.49
    ],
    "kimi": [
@@ -186,6 +191,7 @@
     508.78,
     508.78,
     508.78,
+    511.77,
     511.77,
     511.77
    ],
@@ -199,6 +205,7 @@
     483.55,
     483.55,
     479.92,
+    479.92,
     479.92
    ],
    "gemini": [
@@ -211,6 +218,7 @@
     494.2,
     494.2,
     488.94,
+    484.23,
     484.23
    ]
   }
@@ -3548,21 +3556,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-07-23T13:10:00.000Z",
-   "hl": -1.9072000000000005,
-   "hl_spot": 446.189582,
-   "grvt": 500.006066,
-   "extended": 459.982212,
-   "capital": 2887.237404,
-   "qwen": 488.35,
-   "openclaw": 444.28,
-   "hermes": 500.01,
-   "manual": 459.98,
-   "kimi": 511.65,
-   "deepseek": 483.51,
-   "gemini": 484.37
-  },
   {
    "ts": "2026-07-23T13:15:00.000Z",
    "hl": -2.1632,
@@ -7867,36 +7860,44 @@
    "kimi": 511.65,
    "deepseek": 483.51,
    "gemini": 484.37
+  },
+  {
+   "ts": "2026-07-24T13:10:00.000Z",
+   "hl": 0,
+   "hl_spot": 452.630608,
+   "grvt": 500.006066,
+   "extended": 455.630116,
+   "capital": 2891.233484,
+   "qwen": 488.35,
+   "openclaw": 452.63,
+   "hermes": 500.01,
+   "manual": 455.63,
+   "kimi": 511.65,
+   "deepseek": 483.51,
+   "gemini": 484.37
   }
  ],
  "venuesLive": {
-  "hl": 10.1475,
-  "hl_spot": 451.840734,
+  "hl": 0,
+  "hl_spot": 452.630608,
   "grvt": 500.006066,
   "lighter": 1482.966694,
-  "total": 2444.960994
+  "total": 2435.603368
  },
- "openTrades": [
+ "openTrades": [],
+ "awaiting": [],
+ "recentCloses": [
   {
    "id": 285,
    "asset": "SOL",
    "direction": "SHORT",
    "actor": "openclaw",
    "venue": "HL",
-   "entry": 77.58,
-   "stop": 77.1921,
-   "target": 74.4768,
-   "levelsApprox": true,
-   "trailed": true,
-   "rr": 2.2,
-   "conviction": 7,
-   "openedAt": "2026-07-22T10:04:37.898Z",
-   "thesis": "HL top-trader positioning is net SHORT SOL -$27.9M (2L/4S) right now while SOL OI is RISING +4.9%/24h with price stalling below pivot $78.14 and MA20 $78.1 — a classic OI-build-into-resistance divergence that smart money is fading. MACD4h is already bearish and price sits mid-range (TRANS structure), giving room to the downside range low before any reversal signal.",
-   "smartMoney": null
-  }
- ],
- "awaiting": [],
- "recentCloses": [
+   "outcome": "WIN",
+   "pct": 3.9,
+   "exitReason": null,
+   "closedAt": "2026-07-24T13:05:42.292Z"
+  },
   {
    "id": 290,
    "asset": "INTC_24_5",
@@ -8017,45 +8018,34 @@
    "pct": 4,
    "exitReason": "Manual LONG on Extended — entry $62981 → exit $65492 (+3.99% move 50x), realised +$36.33 → WIN.",
    "closedAt": "2026-07-20T15:54:12.951Z"
-  },
-  {
-   "id": 278,
-   "asset": "ETH",
-   "direction": "LONG",
-   "actor": "gemini",
-   "venue": "LIGHTER",
-   "outcome": "LOSS",
-   "pct": -1.4,
-   "exitReason": "LONG ETH: stopped out at SL -1.4% (entry $1869.5 → exit $1842.47). WHY: Stop was hit at $1842.47 after hourly closed below $1855.92 pivot; institutional inflows thesis never triggered accumulation…",
-   "closedAt": "2026-07-20T06:37:28.744Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64715.99,
-    "change24hPct": -0.62
+    "price": 64379.76,
+    "change24hPct": -0.99
    },
    {
     "symbol": "ETH",
-    "price": 1872.4,
-    "change24hPct": -1.52
+    "price": 1860.93,
+    "change24hPct": -1.99
    },
    {
     "symbol": "BNB",
-    "price": 563.8,
-    "change24hPct": -0.86
+    "price": 560.75,
+    "change24hPct": -1.31
    },
    {
     "symbol": "XRP",
-    "price": 1.0993,
-    "change24hPct": -1.77
+    "price": 1.0963,
+    "change24hPct": -1.84
    },
    {
     "symbol": "SOL",
-    "price": 74.84,
-    "change24hPct": -2.55
+    "price": 74.46,
+    "change24hPct": -3.02
    }
   ],
   "fearGreed": {
@@ -8082,32 +8072,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.518,
-    "longPct": 60.3,
+    "ratio": 1.543,
+    "longPct": 60.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "ETH",
-    "ratio": 2.231,
+    "ratio": 2.228,
     "longPct": 69,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.6,
-    "longPct": 72.2,
+    "ratio": 2.582,
+    "longPct": 72.1,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.84,
+    "ratio": 2.852,
     "longPct": 74,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.632,
-    "longPct": 72.5,
+    "ratio": 2.619,
+    "longPct": 72.4,
     "bias": "CROWDED LONG"
    }
   ],
@@ -8187,7 +8177,7 @@
      "changePct": -12.1
     }
    ],
-   "ageMin": 185
+   "ageMin": 190
   },
   "chainRotation": {
    "chains": [
@@ -8304,7 +8294,7 @@
      3
     ]
    ],
-   "ageMin": 50
+   "ageMin": 55
   }
  },
  "calendar": [
@@ -8508,7 +8498,7 @@
   }
  ],
  "manualBook": {
-  "at": "2026-07-24T12:50:11.210Z",
+  "at": "2026-07-24T13:10:10.226Z",
   "positions": [
    {
     "asset": "NVDA",
@@ -8882,7 +8872,7 @@
   ]
  },
  "intel": {
-  "ageH": 3.6,
+  "ageH": 3.7,
   "narratives": [
    "• Big Tech Capex & AI Infrastructure: Tech giants face severe financial strain and compute bottlenecks, highlighted by Google's negative quarterly free cash flow (-$5.9B) and Nvidia prepaying $1.5B to Amkor ($AMKR) for c",
    "• Geopolitical Energy Shocks: Escalarion in the Iran war is driving extreme commodity volatility, with Brent crude surpassing $100/bbl, European natural gas up 94%, and heating oil up 64% (X).",
@@ -8946,6 +8936,27 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-07-24T13:08:04.119Z",
+   "brain": "gemini",
+   "model": "Gemini 3.6 Flash",
+   "kind": "intraday scan",
+   "text": "READ: Major crypto assets are compressing at chop range lows following a ~$225.2M ETF net outflow. Fading range lows or chasing breakdowns inside range chop carries negative historical EV, leaving no clean setup.\nDECISION: Silence — standing aside until breakout confirmation or cleaner structural retests occur."
+  },
+  {
+   "ts": "2026-07-24T13:07:53.960Z",
+   "brain": "deepseek",
+   "model": "DeepSeek V4",
+   "kind": "intraday scan",
+   "text": "READ: BTC ETFs posted a ~$225M outflow snapping the inflow streak, BTC clings to range lows, and SOL broke marginally below its chop range, but no confirmed breakout candle yet — still a choppy neutral tape.\nDECISION: silence."
+  },
+  {
+   "ts": "2026-07-24T13:07:07.137Z",
+   "brain": "kimi",
+   "model": "Kimi K2.6",
+   "kind": "intraday scan",
+   "text": "READ: ETF outflows returned (~$225.2M) to end the prior 7-day inflow streak, and majors have slipped toward or beneath their 4h range lows with neutral funding and no visible squeeze catalyst.\nDECISION: Silence — no confirmed mechanism outside the benched/fade-edge danger zones."
+  },
   {
    "ts": "2026-07-24T13:00:35.552Z",
    "brain": "openclaw",
@@ -9036,30 +9047,25 @@
    "model": "Kimi K2.6",
    "kind": "report",
    "text": "READ: The tape is locked in neutral chop with every major asset sporting a 4h Efficiency Ratio below 0.15 and price coiling inside well-defined ranges. ETH and SOL are pressing their respective range lows but fleet post-mortems show both fading and chasing inside chop ranges has been decisively negative, while breakouts remain unconfirmed. Constructive ETF inflows are being offset by Lighter whale distribution and a VIX spike, keeping the regime mixed and without a clean directional edge.\nDECISION: Standing aside until a confirmed breakout or a clean range-extreme setup offers a structural stop below 2% and a conviction-justified runner target outside the 2–4 R:R bleed zone.\n\nRISK FLAGS\nNONE"
-  },
-  {
-   "ts": "2026-07-24T04:03:39.653Z",
-   "brain": "hermes",
-   "model": "Grok 4.5",
-   "kind": "report",
-   "text": "READ: Neutral chop regime with mixed flows: BTC/ETH ETF inflows active and BTC whale accumulation offset by crowded retail longs, long-liq dominance (~$31M vs ~$5.9M), ETH whale distribution, and falling ETH/SOL OI. Dominant mechanism is deleveraging inside ranges rather than directional expansion; primary risk is further long flush if BTC loses ~$65k amid VIX/yield spike, or false-start bounce that traps mid-range entries.\n\nDECISION: Silence. No setup clears mechanism + range-position + stop-band gates simultaneously. Watch BTC ~$63,100 flush (long-liq continuation) or ~$66,950 break with OI/+funding confirmation; ETH OI re-expansion; SOL range break either side. Data that changes call: cross-venue OI surge >5% with aligned liq dominance and price outside quoted ranges.\n\nNo signals this cycle — edge insufficient."
-  },
-  {
-   "ts": "2026-07-24T01:05:26.761Z",
-   "brain": "gemini",
-   "model": "Gemini 3.6 Flash",
-   "kind": "intraday scan",
-   "text": "READ: BTC dipped below ~$65k into mid-range chop while crypto markets broadly pull back 1-3% on geopolitical headline noise and neutral derivative funding. Range structure across all majors remains tight with low efficiency ratios, requiring patience for cleaner edge-of-range confirmation or breakout signals.\nDECISION: Sitting on hands while majors drift mid-range with stop-band constraints blocking low-risk intraday entries."
-  },
-  {
-   "ts": "2026-07-24T01:05:16.852Z",
-   "brain": "deepseek",
-   "model": "DeepSeek V4",
-   "kind": "intraday scan",
-   "text": "READ: Broad sell-off persists with no bullish reversal signals; SOL and ETH are near range lows but no bounce confirmation exists, and chop structure remains a hostile environment for new entries.\nDECISION: Silence."
   }
  ],
  "archive": [
+  {
+   "id": 285,
+   "asset": "SOL",
+   "direction": "SHORT",
+   "actor": "openclaw",
+   "venue": "HL",
+   "outcome": "WIN",
+   "pct": 3.9,
+   "pnlUsd": 11.06,
+   "exitReason": null,
+   "closedAt": "2026-07-24T13:05:42.292Z",
+   "entry": 77.58,
+   "exit": 74.535,
+   "conviction": 7,
+   "openedAt": "2026-07-22T10:04:37.898Z"
+  },
   {
    "id": 290,
    "asset": "INTC_24_5",
@@ -9580,7 +9586,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 461.99,
+    "equity": 452.63,
     "peak": 500.34
    },
    "GRVT": {
@@ -9620,12 +9626,12 @@
    }
   },
   "streaks": {
-   "openclaw": 1,
+   "openclaw": 0,
    "hermes": 0,
    "kimi": 0,
    "deepseek": 0,
    "gemini": 0,
-   "fleet": 1
+   "fleet": 0
   },
   "limits": {
    "dailyLossPct": 7.5,
