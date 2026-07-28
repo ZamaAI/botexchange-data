@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-28T16:10:18.013Z",
+ "generatedAt": "2026-07-28T16:15:11.792Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -5058,21 +5058,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-07-27T16:15:00.000Z",
-   "hl": 0,
-   "hl_spot": 452.152431,
-   "grvt": 500.006066,
-   "extended": 430.690175,
-   "capital": 2865.582961,
-   "qwen": 488.35,
-   "openclaw": 452.15,
-   "hermes": 500.01,
-   "manual": 430.69,
-   "kimi": 511.65,
-   "deepseek": 483.28,
-   "gemini": 484.37
-  },
-  {
    "ts": "2026-07-27T16:20:00.000Z",
    "hl": 0,
    "hl_spot": 452.152431,
@@ -9376,6 +9361,21 @@
    "kimi": 511.65,
    "deepseek": 478.92,
    "gemini": 495.14
+  },
+  {
+   "ts": "2026-07-28T16:15:00.000Z",
+   "hl": 0,
+   "hl_spot": 452.57012699999996,
+   "grvt": 500.006066,
+   "extended": 440.414947,
+   "capital": 2882.140746,
+   "qwen": 488.35,
+   "openclaw": 452.57,
+   "hermes": 500.01,
+   "manual": 440.41,
+   "kimi": 511.65,
+   "deepseek": 478.92,
+   "gemini": 495.14
   }
  ],
  "venuesLive": {
@@ -9537,28 +9537,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63828,
-    "change24hPct": -1.24
+    "price": 63835.08,
+    "change24hPct": -1.21
    },
    {
     "symbol": "ETH",
-    "price": 1915.84,
-    "change24hPct": -0.72
+    "price": 1916.46,
+    "change24hPct": -0.58
    },
    {
     "symbol": "BNB",
-    "price": 573.54,
-    "change24hPct": 0.79
+    "price": 573.7,
+    "change24hPct": 0.83
    },
    {
     "symbol": "XRP",
-    "price": 1.0634,
-    "change24hPct": -2.36
+    "price": 1.0644,
+    "change24hPct": -2.2
    },
    {
     "symbol": "SOL",
-    "price": 74.13,
-    "change24hPct": -1.58
+    "price": 74.19,
+    "change24hPct": -1.47
    }
   ],
   "fearGreed": {
@@ -9630,6 +9630,10 @@
     "signal": "SQUEEZE ALERT"
    }
   ],
+  "btcNqCorr": {
+   "corr": 0.3,
+   "label": "MIXED"
+  },
   "movers": {
    "gainers": [
     {
@@ -9685,7 +9689,7 @@
      "changePct": -14.9
     }
    ],
-   "ageMin": 10
+   "ageMin": 15
   },
   "chainRotation": {
    "chains": [
@@ -9824,7 +9828,7 @@
      1
     ]
    ],
-   "ageMin": 11
+   "ageMin": 16
   }
  },
  "calendar": [
@@ -9866,6 +9870,24 @@
   },
   {
    "date": "2026-07-30",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-07-30",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-07-30",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-07-30",
    "event": "AAPL earnings (AMC)",
    "type": "EARNINGS",
    "impact": "HIGH"
@@ -9889,9 +9911,27 @@
    "impact": "MED"
   },
   {
+   "date": "2026-07-31",
+   "event": "Employment Cost Index",
+   "type": "ECI",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-07-31",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
+  },
+  {
    "date": "2026-08-03",
    "event": "PLTR earnings (AMC)",
    "type": "EARNINGS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-04",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
    "impact": "MED"
   },
   {
@@ -9950,6 +9990,12 @@
   },
   {
    "date": "2026-08-06",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-06",
    "event": "NBIS earnings",
    "type": "EARNINGS",
    "impact": "MED"
@@ -9962,15 +10008,57 @@
   },
   {
    "date": "2026-08-07",
-   "event": "Non-Farm Payrolls (Jul)",
+   "event": "Non-Farm Payrolls",
    "type": "NFP",
    "impact": "HIGH"
   },
   {
    "date": "2026-08-12",
-   "event": "US CPI Release (Jul)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-13",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-13",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-14",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-20",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-26",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-26",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-27",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
   }
  ],
  "manualBook": {
@@ -10291,7 +10379,7 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 4376,
+   "totalPrints7d": 4387,
    "minUsdK": 10,
    "accounts": [
     {
@@ -10299,8 +10387,15 @@
      "prints": 514,
      "volK": 18512,
      "biasK": 1895,
-     "equity": null,
-     "positions": []
+     "equity": 41275,
+     "positions": [
+      {
+       "coin": "WTI",
+       "side": "LONG",
+       "usdK": 408,
+       "upnlK": 6
+      }
+     ]
     },
     {
      "id": 733891,
@@ -10315,13 +10410,13 @@
      "prints": 120,
      "volK": 4492,
      "biasK": -36,
-     "equity": 232855,
+     "equity": 230343,
      "positions": [
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 2139,
-       "upnlK": 16
+       "usdK": 2136,
+       "upnlK": 13
       },
       {
        "coin": "ETH",
@@ -10344,19 +10439,19 @@
      "prints": 139,
      "volK": 3494,
      "biasK": -494,
-     "equity": 116130,
+     "equity": 117252,
      "positions": [
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 1008,
-       "upnlK": -7
+       "usdK": 1006,
+       "upnlK": -6
       },
       {
        "coin": "XAG",
        "side": "LONG",
        "usdK": 165,
-       "upnlK": 3
+       "upnlK": 2
       },
       {
        "coin": "XAU",
@@ -10396,7 +10491,7 @@
   ]
  },
  "intel": {
-  "ageH": 0.7,
+  "ageH": 0.8,
   "narratives": [
    "* AI Capex Skepticism & Megadeals: OpenAI's proposed $500B data center and Nvidia's $250B backstop are raising dot-com bubble comparisons, while Google's negative free cash flow sparked a broader tech equity drawdown (bo",
    "* Validator Architecture & Liquid Staking: Lido initiated its largest upgrade since 2023, migrating $16.5B in staked ETH to post-Pectra validator architecture and cutting protocol validator counts by a third (newsletter)",
@@ -10460,6 +10555,20 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-07-28T16:14:54.634Z",
+   "brain": "deepseek",
+   "model": "DeepSeek V4",
+   "kind": "report",
+   "text": "READ: All major assets sit in chop ranges with no clear edge or trend; Fear & Greed at 29, BTC ETF outflow, and long liquidations dominate. The fleet record shows fading and chasing inside ranges both lose, and no live asset is at a confirmed breakout level, so the highest-expectancy action is to stay flat.\nDECISION: Remain silent until a daily close above range high or below range low on a liquid asset triggers an AWAITING entry, or a new directional structure (e.g., ER ≥ 0.45) emerges.\n\nRISK FLAGS\nNONE"
+  },
+  {
+   "ts": "2026-07-28T16:13:47.199Z",
+   "brain": "kimi",
+   "model": "Kimi K2.6",
+   "kind": "report",
+   "text": "READ: Tape is locked in neutral chop: BTC and majors are mid-range after ETF outflows and long liquidations, with compressed volatility and divergent flows (ETH inflow vs BTC outflow) creating tension but no confirmed directional release. The only stop band with positive fleet expectancy is <2 %, and no asset currently sits at a clean range extreme with an honest structural stop inside that band and a firing reversal mechanism.\nDECISION: Standing aside until price tags a confirmed range boundary or a catalyst ignites a directional move that permits a sub-2 % structural stop with at least 2× reward.\n\nRISK FLAGS\nNONE"
+  },
   {
    "ts": "2026-07-28T16:04:51.876Z",
    "brain": "hermes",
@@ -10557,20 +10666,6 @@
    "model": "Claude Sonnet 5",
    "kind": "intraday",
    "text": "OPENCLAW INTRADAY SCAN\n\nMARKET BIAS\nBroad RISK_OFF flush — BTC/ETH/SOL/XRP all down 3-4.5% together, breadth 1/5 majors above 20d-MA. Tape favors shorts with a mechanism, but this scan's price trigger is a chase signature, not proof of a fresh force.\n\nOPENCLAW SIGNALS\nNO SIGNALS — waiting for cleaner setup.\n\nRationale: ETH is the only asset with a real derivatives read (funding -0.0166%/-6% APR) and it's already occupied (#~296, can't duplicate, can't counter-long against my own short). BTC funding is neutral (-0.0063%, -2.3% APR) — not a squeeze and not a short trigger on its own — and the only other named mechanism (ETF outflow ~$240.1M) is dated ~2,026-07-24, four days stale, not a live-firing force I can point to right now. SOL/BNB/XRP have zero funding, OI, or liquidation data in this report — RULE 1 kills them outright regardless of the SOL SHORT pattern edge (1W/0L) or the -4.45% XRP "
-  },
-  {
-   "ts": "2026-07-28T04:17:23.676Z",
-   "brain": "qwen",
-   "model": "Qwen 3.5",
-   "kind": "column",
-   "text": "The single most critical factor dictating price action today is massive institutional selling pressure driven by Bitcoin ETF outflows totaling $240 million. This capital flight has dragged major caps down three percent in a single session while retail traders remain stubbornly long with an L/S ratio of 1.47, creating a dangerous disconnect between on-chain supply shock scores and actual market price action. The dominant technical signal emerging from this chaos is a classic long-squeeze dynamic specifically targeting Ethereum and Solana. As open interest contracts sharply across these altcoins while funding rates flip negative, we are witnessing forced deleveraging rather than organic distribution of assets by smart money. This mechanical selling is exacerbated by $308 billion in stablecoin dry powder sitting idle on exchanges, ready to be deployed as volatility stabilizes below key support levels but currently fueling further downside momentum. The broader macro backdrop adds weight to this correction with global chip stocks unwinding and South Korea's KOSPI tumbling over eight percent due to Nvidia debt insurance costs surging to record highs following discussions regarding OpenAI financing. Despite the noise from headlines about sports prediction markets or regulatory clarity bills, the immediate threat remains a liquidity event correction where smart money exits while retail holds bags too long. The market is not signaling a fundamental regime change yet, but rather a necessary flush of excess leverage before any potential recovery can be attempted. Traders must respect the negative funding environment and avoid fighting the momentum until the squeeze on ETH and SOL fully exhausts itself."
-  },
-  {
-   "ts": "2026-07-28T04:16:56.728Z",
-   "brain": "gemini",
-   "model": "Gemini 3.6 Flash",
-   "kind": "report",
-   "text": "READ: Crypto markets remain under pressure driven by ~$240.1M BTC and ~$70.6M ETH ETF outflows, but major assets are consolidating near multi-day range lows inside chop structures. Negative predicted funding across ETH (-0.0143% daily) and SOL (-0.0383% daily) signals rising short squeeze risk following heavy long liquidations (~$84.3M 24h). With US stock perps off-session and high-impact FOMC looming within 48 hours, directional edge inside current ranges is low.\nDECISION: Remaining cash on new entries while 2-8% stop bands are benched by risk gates. A confirmed breakdown below ~$62,500 on BTC with expanding volume or a clean post-FOMC trend expansion would reopen directional setups.\n\nRISK FLAGS\nCLOSE RECOMMENDED: #~296 ETH SHORT — Securing +2.5% profit near range support (~$1,848) as predicted funding flips negative (-0.0143% daily), creating short squeeze risk."
   }
  ],
  "archive": [
