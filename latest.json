@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-28T13:50:16.613Z",
+ "generatedAt": "2026-07-28T13:55:14.506Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 407.1
+   "account": 412.79
   },
   "machine": {
    "label": "Selene",
@@ -68,8 +68,8 @@
    "losses": 7,
    "wr": "42",
    "pnl": -81.64,
-   "account": 407.1,
-   "retPct": -18.6,
+   "account": 412.79,
+   "retPct": -17.4,
    "accountRealized": 418.36
   },
   {
@@ -105,14 +105,14 @@
    "label": "Castor",
    "venue": "LIGHTER",
    "paper": false,
-   "trades": 9,
-   "wins": 2,
+   "trades": 10,
+   "wins": 3,
    "losses": 7,
-   "wr": "22",
-   "pnl": -15.77,
+   "wr": "30",
+   "pnl": -4.98,
    "account": 495.14,
    "retPct": -1,
-   "accountRealized": 484.23
+   "accountRealized": 495.02
   }
  ],
  "seriesDaily": {
@@ -128,13 +128,15 @@
    "07-22",
    "07-23",
    "07-24",
-   "07-27"
+   "07-27",
+   "07-28"
   ],
   "bySource": {
    "qwen": [
     500,
     500,
     494.37,
+    488.35,
     488.35,
     488.35,
     488.35,
@@ -157,9 +159,11 @@
     450.72,
     445.01,
     456.07,
+    456.07,
     456.07
    ],
    "hermes": [
+    500,
     500,
     500,
     500,
@@ -185,6 +189,7 @@
     484.03,
     485.49,
     420.75,
+    418.36,
     418.36
    ],
    "kimi": [
@@ -196,6 +201,7 @@
     508.78,
     508.78,
     508.78,
+    511.77,
     511.77,
     511.77,
     511.77,
@@ -213,6 +219,7 @@
     479.92,
     479.92,
     479.92,
+    475.37,
     475.37
    ],
    "gemini": [
@@ -227,7 +234,8 @@
     488.94,
     484.23,
     484.23,
-    484.23
+    484.23,
+    495.02
    ]
   }
  },
@@ -5005,21 +5013,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-07-27T13:55:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 488.35,
-   "openclaw": 456.07,
-   "hermes": 500,
-   "manual": 420.75,
-   "kimi": 511.77,
-   "deepseek": 479.92,
-   "gemini": 484.23
-  },
-  {
    "ts": "2026-07-27T14:00:00.000Z",
    "hl": null,
    "hl_spot": null,
@@ -9323,6 +9316,21 @@
    "kimi": 511.65,
    "deepseek": 478.92,
    "gemini": 495.14
+  },
+  {
+   "ts": "2026-07-28T13:55:00.000Z",
+   "hl": 0,
+   "hl_spot": 452.168369,
+   "grvt": 500.006066,
+   "extended": 412.790975,
+   "capital": 2854.1150159999997,
+   "qwen": 488.35,
+   "openclaw": 452.17,
+   "hermes": 500.01,
+   "manual": 412.79,
+   "kimi": 511.65,
+   "deepseek": 478.92,
+   "gemini": 495.14
   }
  ],
  "venuesLive": {
@@ -9332,25 +9340,7 @@
   "lighter": 1489.149606,
   "total": 2441.324041
  },
- "openTrades": [
-  {
-   "id": 296,
-   "asset": "ETH",
-   "direction": "SHORT",
-   "actor": "gemini",
-   "venue": "LIGHTER",
-   "entry": 1927.35,
-   "stop": 1956.26,
-   "target": 1859.89,
-   "levelsApprox": true,
-   "trailed": false,
-   "rr": 2.1,
-   "conviction": 6,
-   "openedAt": "2026-07-27T16:14:41.236Z",
-   "thesis": "Persistent institutional distribution with $70.6M in single-day ETF outflows and -$5.73M 7d Lighter whale selling pushing ETH below its $1,931.98 pivot level.",
-   "smartMoney": 3
-  }
- ],
+ "openTrades": [],
  "awaiting": [
   {
    "asset": "BTC",
@@ -9365,6 +9355,17 @@
   }
  ],
  "recentCloses": [
+  {
+   "id": 296,
+   "asset": "ETH",
+   "direction": "SHORT",
+   "actor": "gemini",
+   "venue": "LIGHTER",
+   "outcome": "WIN",
+   "pct": 3.5,
+   "exitReason": null,
+   "closedAt": "2026-07-28T13:39:46.944Z"
+  },
   {
    "id": 293,
    "asset": "SOL",
@@ -9485,45 +9486,34 @@
    "pct": -6.1,
    "exitReason": "Manual LONG on Extended — entry $345.03 → exit $323.86 (-6.14% move 10x), realised $-29.28 → LOSS.",
    "closedAt": "2026-07-23T11:47:20.954Z"
-  },
-  {
-   "id": 280,
-   "asset": "ETH",
-   "direction": "LONG",
-   "actor": "kimi",
-   "venue": "LIGHTER",
-   "outcome": "WIN",
-   "pct": 0.9,
-   "exitReason": "LONG ETH: closed +0.9% (entry $1925 → exit $1942.4). WHY: Short-squeeze liquidation cascade ($22.6M) executed as predicted; neutral funding prevented mean-reversion trap; exited early on risk…",
-   "closedAt": "2026-07-22T17:46:13.677Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 62978.01,
-    "change24hPct": -3.99
+    "price": 63008,
+    "change24hPct": -3.67
    },
    {
     "symbol": "ETH",
-    "price": 1870.46,
-    "change24hPct": -5.05
+    "price": 1871.02,
+    "change24hPct": -4.82
    },
    {
     "symbol": "BNB",
-    "price": 565.44,
-    "change24hPct": -1.89
+    "price": 565.09,
+    "change24hPct": -1.79
    },
    {
     "symbol": "XRP",
-    "price": 1.0515,
-    "change24hPct": -5.41
+    "price": 1.0506,
+    "change24hPct": -5.27
    },
    {
     "symbol": "SOL",
-    "price": 72.68,
-    "change24hPct": -5.88
+    "price": 72.65,
+    "change24hPct": -5.67
    }
   ],
   "fearGreed": {
@@ -9655,7 +9645,7 @@
      "changePct": -16.8
     }
    ],
-   "ageMin": 230
+   "ageMin": 235
   },
   "chainRotation": {
    "chains": [
@@ -9786,7 +9776,7 @@
      1
     ]
    ],
-   "ageMin": 95
+   "ageMin": 100
   }
  },
  "calendar": [
@@ -10265,7 +10255,7 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 4338,
+   "totalPrints7d": 4327,
    "minUsdK": 10,
    "accounts": [
     {
@@ -10273,13 +10263,13 @@
      "prints": 522,
      "volK": 18824,
      "biasK": 1582,
-     "equity": 53718,
+     "equity": 52633,
      "positions": [
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 1155,
-       "upnlK": 5
+       "usdK": 1156,
+       "upnlK": 4
       }
      ]
     },
@@ -10293,22 +10283,22 @@
     },
     {
      "id": 620352,
-     "prints": 110,
-     "volK": 4155,
-     "biasK": -373,
-     "equity": 216172,
+     "prints": 114,
+     "volK": 4276,
+     "biasK": -253,
+     "equity": 215055,
      "positions": [
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 2107,
-       "upnlK": -17
+       "usdK": 2109,
+       "upnlK": -15
       },
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 262,
-       "upnlK": 1
+       "usdK": 234,
+       "upnlK": -1
       }
      ]
     },
@@ -10322,22 +10312,28 @@
     },
     {
      "id": 723490,
-     "prints": 138,
-     "volK": 3479,
-     "biasK": -478,
-     "equity": 128814,
+     "prints": 139,
+     "volK": 3494,
+     "biasK": -494,
+     "equity": 128852,
      "positions": [
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 992,
-       "upnlK": 8
+       "usdK": 993,
+       "upnlK": 7
       },
       {
        "coin": "XAG",
        "side": "LONG",
        "usdK": 163,
-       "upnlK": 4
+       "upnlK": 5
+      },
+      {
+       "coin": "ETH",
+       "side": "LONG",
+       "usdK": 98,
+       "upnlK": 0
       },
       {
        "coin": "XAU",
@@ -10377,7 +10373,7 @@
   ]
  },
  "intel": {
-  "ageH": 4.4,
+  "ageH": 4.5,
   "narratives": [
    "• Real-World Asset (RWA) & Tokenized Equities: Onchain stock volumes on Robinhood Chain jumped 5x to $70M (led by GME and NVDA), while Hyperliquid's HIP-3 RWA perpetuals reached $26B in weekly volume (54% of venue flow).",
    "• EVM & Decentralized Lending Protocols: EVM lending tokens (+9.49%) led 24-hour market sector gains, spearheaded by Upbit's listing of Euler (EUL). (newsletter)",
@@ -10557,6 +10553,22 @@
   }
  ],
  "archive": [
+  {
+   "id": 296,
+   "asset": "ETH",
+   "direction": "SHORT",
+   "actor": "gemini",
+   "venue": "LIGHTER",
+   "outcome": "WIN",
+   "pct": 3.5,
+   "pnlUsd": 10.79,
+   "exitReason": null,
+   "closedAt": "2026-07-28T13:39:46.944Z",
+   "entry": 1927.35,
+   "exit": 1860.81,
+   "conviction": 6,
+   "openedAt": "2026-07-27T16:14:41.236Z"
+  },
   {
    "id": 293,
    "asset": "SOL",
@@ -11218,7 +11230,7 @@
    "kimi": 0,
    "deepseek": 1,
    "gemini": 0,
-   "fleet": 1
+   "fleet": 0
   },
   "limits": {
    "dailyLossPct": 7.5,
