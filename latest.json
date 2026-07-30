@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-30T09:25:11.673Z",
+ "generatedAt": "2026-07-30T09:30:11.404Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 381.28
+   "account": 383.08
   },
   "machine": {
    "label": "Selene",
@@ -40,7 +40,7 @@
    "losses": 7,
    "wr": "13",
    "pnl": -47.32,
-   "account": 442.16,
+   "account": 442.11,
    "retPct": -11.6,
    "accountRealized": 452.68
   },
@@ -68,8 +68,8 @@
    "losses": 7,
    "wr": "42",
    "pnl": -81.64,
-   "account": 381.28,
-   "retPct": -23.7,
+   "account": 383.08,
+   "retPct": -23.4,
    "accountRealized": 418.36
   },
   {
@@ -105,14 +105,14 @@
    "label": "Castor",
    "venue": "LIGHTER",
    "paper": false,
-   "trades": 11,
+   "trades": 12,
    "wins": 3,
-   "losses": 8,
-   "wr": "27",
-   "pnl": -9.59,
+   "losses": 9,
+   "wr": "25",
+   "pnl": -12.01,
    "account": 488.14,
    "retPct": -2.4,
-   "accountRealized": 490.41
+   "accountRealized": 487.99
   }
  ],
  "seriesDaily": {
@@ -130,13 +130,15 @@
    "07-24",
    "07-27",
    "07-28",
-   "07-29"
+   "07-29",
+   "07-30"
   ],
   "bySource": {
    "qwen": [
     500,
     500,
     494.37,
+    488.35,
     488.35,
     488.35,
     488.35,
@@ -163,9 +165,11 @@
     456.07,
     456.07,
     456.07,
+    452.68,
     452.68
    ],
    "hermes": [
+    500,
     500,
     500,
     500,
@@ -195,6 +199,7 @@
     420.75,
     418.36,
     418.36,
+    418.36,
     418.36
    ],
    "kimi": [
@@ -206,6 +211,7 @@
     508.78,
     508.78,
     508.78,
+    511.77,
     511.77,
     511.77,
     511.77,
@@ -227,6 +233,7 @@
     479.92,
     475.37,
     475.37,
+    475.37,
     475.37
    ],
    "gemini": [
@@ -243,7 +250,8 @@
     484.23,
     484.23,
     495.02,
-    490.41
+    490.41,
+    487.99
    ]
   }
  },
@@ -5291,21 +5299,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-07-29T09:30:00.000Z",
-   "hl": -0.05621,
-   "hl_spot": 448.391801,
-   "grvt": 500.006066,
-   "extended": 416.165796,
-   "capital": 2850.0320060000004,
-   "qwen": 488.35,
-   "openclaw": 448.34,
-   "hermes": 500.01,
-   "manual": 416.17,
-   "kimi": 511.65,
-   "deepseek": 478.92,
-   "gemini": 491.51
-  },
-  {
    "ts": "2026-07-29T09:35:00.000Z",
    "hl": -0.1022,
    "hl_spot": 448.34636,
@@ -9609,33 +9602,31 @@
    "kimi": 511.65,
    "deepseek": 478.92,
    "gemini": 488.14
+  },
+  {
+   "ts": "2026-07-30T09:30:00.000Z",
+   "hl": -3.61788,
+   "hl_spot": 445.724389,
+   "grvt": 500.006066,
+   "extended": 383.078723,
+   "capital": 2807.339153,
+   "qwen": 488.35,
+   "openclaw": 442.11,
+   "hermes": 500.01,
+   "manual": 383.08,
+   "kimi": 511.65,
+   "deepseek": 478.92,
+   "gemini": 488.14
   }
  ],
  "venuesLive": {
-  "hl": -3.59233,
-  "hl_spot": 445.74993900000004,
+  "hl": -3.61788,
+  "hl_spot": 445.724389,
   "grvt": 500.006066,
   "lighter": 1482.147855,
-  "total": 2424.31153
+  "total": 2424.26043
  },
  "openTrades": [
-  {
-   "id": 300,
-   "asset": "BTC",
-   "direction": "SHORT",
-   "actor": "gemini",
-   "venue": "LIGHTER",
-   "entry": 63695,
-   "stop": 64332,
-   "target": 62102.6,
-   "levelsApprox": true,
-   "trailed": false,
-   "rr": 2,
-   "conviction": 6,
-   "openedAt": "2026-07-29T22:16:47.373Z",
-   "thesis": "Institutional selling evidenced by negative Coinbase premium (-0.129%) and $49.8M ETF outflows in a RISK_OFF regime below 20d MA ($64,484) with long liquidations dominant ($33.8M 24h).",
-   "smartMoney": 3
-  },
   {
    "id": 298,
    "asset": "BNB",
@@ -9656,6 +9647,17 @@
  ],
  "awaiting": [],
  "recentCloses": [
+  {
+   "id": 300,
+   "asset": "BTC",
+   "direction": "SHORT",
+   "actor": "gemini",
+   "venue": "LIGHTER",
+   "outcome": "LOSS",
+   "pct": -1.2,
+   "exitReason": null,
+   "closedAt": "2026-07-30T09:21:58.079Z"
+  },
   {
    "id": 299,
    "asset": "BTC",
@@ -9776,45 +9778,34 @@
    "pct": -2,
    "exitReason": "LONG XRP: stopped out at SL -2.0% (entry $1.135 → exit $1.1127). WHY: Stop hit immediately on range chop; thesis required a break above MA50 rejection but got trapped in mushy-middle instead—fade…",
    "closedAt": "2026-07-23T13:25:10.752Z"
-  },
-  {
-   "id": 282,
-   "asset": "ETH",
-   "direction": "LONG",
-   "actor": "gemini",
-   "venue": "LIGHTER",
-   "outcome": "LOSS",
-   "pct": -1.5,
-   "exitReason": "LONG ETH: stopped out at SL -1.5% (entry $1925.47 → exit $1896.39). WHY: Short liquidations occurred but open interest rolled over negative before target, invalidating the trend-squeeze thesis; you…",
-   "closedAt": "2026-07-23T12:47:09.709Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64504.77,
-    "change24hPct": 0.06
+    "price": 64513.28,
+    "change24hPct": 0.07
    },
    {
     "symbol": "ETH",
-    "price": 1919.59,
-    "change24hPct": -0.05
+    "price": 1920.45,
+    "change24hPct": -0.01
    },
    {
     "symbol": "BNB",
-    "price": 578.39,
-    "change24hPct": 1.21
+    "price": 578.41,
+    "change24hPct": 1.2
    },
    {
     "symbol": "XRP",
-    "price": 1.0814,
-    "change24hPct": -0.8
+    "price": 1.0815,
+    "change24hPct": -0.92
    },
    {
     "symbol": "SOL",
-    "price": 74.04,
-    "change24hPct": -0.04
+    "price": 74.08,
+    "change24hPct": 0
    }
   ],
   "fearGreed": {
@@ -10011,7 +10002,7 @@
      1
     ]
    ],
-   "ageMin": 214
+   "ageMin": 219
   }
  },
  "calendar": [
@@ -10889,66 +10880,67 @@
   ]
  },
  "intel": {
-  "ageH": 5.9,
+  "ageH": 0,
   "narratives": [
-   "• Prediction Market Jurisdictional Battles: DraftKings, FanDuel, and Fanatics launched federal prediction platforms in states where their traditional sportsbooks are banned, setting up state-level legal showdowns. (newsl",
-   "• Fundamental Institutional Benchmarks: Artemis, Pantera, and S&P introduced the S&P Pantera Digital Asset Index to standardise protocol revenue reporting and evaluate economic floats across DeFi, perps, and tokenization",
-   "• L1 Infrastructure & Scaling: Solana doubled blockspace capacity, Monad led top-25 chains with a 30-day gain of +124%, and Zcash executed scaling network upgrades. (both)",
-   "• Institutional On-Chain Credit: Maple Finance announced plans to deploy on Robinhood Chain to scale its institutional credit offerings. (newsletter)",
+   "- Prediction Markets: DraftKings, FanDuel, and Fanatics launched federally regulated prediction markets in non-sportsbook states ahead of Sixth Circuit arguments, sparking jurisdictional disputes (newsletter).",
+   "- Institutional Digital Asset Benchmarks: Artemis, S&P, and Pantera introduced the S&P Pantera Digital Asset Index, standardizing protocol revenue models and \"Outstanding Supply\" metrics across DeFi and tokenization sect",
+   "- Institutional Onchain Credit: Maple Finance announced expansion onto Robinhood Chain to scale institutional credit offerings (newsletter).",
+   "- Institutional ETPs & Fiat Rails: Morgan Stanley listed spot Ether and Solana ETPs on NYSE Arca, SoFi launched live SoFiUSD settlement on Solana, and Binance signaled an upcoming Philippines fiat gateway (both).",
+   "- Layer-1 Network Scaling: Solana doubled its blockspace while Zcash simultaneously expanded network scalability through protocol upgrades (X).",
    "🏦 STOCKS & MACRO EQUITIES",
-   "• (DAY 5) $MSFT — Bullish: Surged 9% after hours after confirming cloud demand exceeds capacity and maintaining $175B in 2026 capex plans. (X)",
-   "• (DAY 5) $META — Bearish: Crashed over 9% post-earnings as Reality Labs lost $4.6B in Q2 ($87B since 2020) and operating profit margins shrank to 31%. (X)",
-   "• (DAY 7) $NVDA — Bullish: Re-flagging bullish following NEW evidence of CEO Jensen Huang announcing $500B in Arizona fab developments and supply chain commitments alongside US Commerce Secretary Lutnick. (X)"
+   "- (DAY 5) $MSFT — Bullish — Surged 9% after-hours as cloud business demand continues to outpace available capacity (X).",
+   "- (DAY 5) $META — Bearish — Dropped over 9% after-hours on weak earnings, bringing cumulative Reality Labs losses to $87 billion since 2020 (X)."
   ],
   "potentialCoins": [
-   "• (DAY 7) $ETH — Watch: Whales accumulated 40,000 ETH ($76.58M) off Binance as price broke key technical resistance against BTC, despite pulling back to $1,882 following the hawkish Fed pause. (both)",
-   "• (DAY 7) $HYPE — Bearish: Selini Capital-linked wallet deposited 495,473 tokens ($26.8M) to OKX, signaling institutional distribution risk even as price holds $55. (both)",
-   "• (DAY 4) $SOL — Bullish: Network doubled blockspace capacity while gaining institutional integration via Morgan Stanley ETP listings and live SoFiUSD settlement. (both)",
-   "• (NEW) $JUP — Bullish: Up 5% to $0.19 in 24-hour token market trading digests. (newsletter)",
-   "• (DAY 2) $RE — Bullish: Gained 11% to reach $0.49 across daily token market trackers. (newsletter)"
+   "- (DAY 7) $BTC — Watch — Spiked above $64,400 after the Fed pause before sliding under $64,000 following hawkish inflation remarks from Fed Chair Warsh (both).",
+   "- (DAY 7) $ETH — Bearish — Dropped to $1,882 as on-chain data tracked whales capitulating and depositing 3,128 ETH to Coinbase at a $3.87M loss (both).",
+   "- (DAY 7) $HYPE — Bearish — Facing institutional sell pressure as Multicoin Capital ($7.51M) and Bitwise ($1.23M) transfer token allocations to Coinbase Prime (both).",
+   "- (DAY 4) $SOL — Watch — Trading at $72.58–$74 as Solana doubled blockspace while Morgan Stanley listed spot ETPs on NYSE Arca (both).",
+   "- (DAY 2) $RE — Bullish — Rose 11% to $0.49 in 24-hour token market trading (newsletter).",
+   "- (NEW) $JUP — Bullish — Gained 5% to $0.19 in daily token trading (newsletter)."
   ],
   "tweetOfDay": {
    "handle": "KobeissiLetter",
-   "likes": 14700,
-   "reposts": 2291,
+   "likes": 16368,
+   "reposts": 2552,
    "text": "Absolutely incredible.  In an unprecedented move, South Korea's stock market just collapsed -44% in 40 days, erasing -$2 trillion in market cap.  Now, South Korea's finance ministry has announced plans to \"stabilize\" the market.  What is happening? Let us explain.  (a thread) htt"
   },
   "wirePosts": [
    {
     "handle": "KobeissiLetter",
-    "likes": 14700,
-    "reposts": 2291,
+    "likes": 16368,
+    "reposts": 2552,
     "text": "Absolutely incredible.  In an unprecedented move, South Korea's stock market just collapsed -44% in 40 days, erasing -$2 trillion in market cap.  Now, South Korea's finance ministry has announced plans to \"stabilize\" the market.  What is happening? Let us explain.  (a thread) htt"
    },
    {
     "handle": "WatcherGuru",
-    "likes": 9339,
-    "reposts": 1054,
-    "text": "JUST IN: 🇺🇸 $15 trillion BlackRock calls for US Senate to pass the Crypto Clarity Act."
-   },
-   {
-    "handle": "WatcherGuru",
-    "likes": 8291,
-    "reposts": 1264,
+    "likes": 9558,
+    "reposts": 1461,
     "text": "JUST IN: 🇺🇸 Over $1 trillion wiped out from the US stock market today. https://t.co/glVZUOk9Yk"
    },
    {
+    "handle": "WatcherGuru",
+    "likes": 9947,
+    "reposts": 1121,
+    "text": "JUST IN: 🇺🇸 $15 trillion BlackRock calls for US Senate to pass the Crypto Clarity Act."
+   },
+   {
     "handle": "KobeissiLetter",
-    "likes": 8045,
-    "reposts": 852,
+    "likes": 8979,
+    "reposts": 948,
     "text": "BREAKING: Meta stock, $META, crashes over -9% after reporting weaker than expected earnings. https://t.co/jkn7rXgx0v"
    },
    {
     "handle": "WatcherGuru",
-    "likes": 7725,
-    "reposts": 784,
+    "likes": 8079,
+    "reposts": 819,
     "text": "JUST IN: 🇰🇷 South Korea to hold emergency meeting after stock market crashes nearly 40% from all-time high."
    },
    {
-    "handle": "KobeissiLetter",
-    "likes": 6580,
-    "reposts": 460,
-    "text": "BREAKING: In one of the most divided decisions in years, the Federal Reserve leaves interest rates unchanged.  This marks the 5th consecutive meeting with no change in rates, extending the Fed’s longest pause since the 2008 cycle."
+    "handle": "WatcherGuru",
+    "likes": 7232,
+    "reposts": 661,
+    "text": "JUST IN: 🇺🇸 SpaceX $SPCX awarded $1.6 billion US Space Force contract. https://t.co/HgdeUx08Tn"
    }
   ]
  },
@@ -11067,6 +11059,22 @@
   }
  ],
  "archive": [
+  {
+   "id": 300,
+   "asset": "BTC",
+   "direction": "SHORT",
+   "actor": "gemini",
+   "venue": "LIGHTER",
+   "outcome": "LOSS",
+   "pct": -1.2,
+   "pnlUsd": -2.42,
+   "exitReason": null,
+   "closedAt": "2026-07-30T09:21:58.079Z",
+   "entry": 63695,
+   "exit": 64459.1,
+   "conviction": 6,
+   "openedAt": "2026-07-29T22:16:47.373Z"
+  },
   {
    "id": 299,
    "asset": "BTC",
@@ -11731,7 +11739,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 442.16,
+    "equity": 442.11,
     "peak": 500.34
    },
    "GRVT": {
@@ -11775,8 +11783,8 @@
    "hermes": 0,
    "kimi": 0,
    "deepseek": 0,
-   "gemini": 1,
-   "fleet": 1
+   "gemini": 2,
+   "fleet": 2
   },
   "limits": {
    "dailyLossPct": 7.5,
