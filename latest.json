@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-03T16:31:07.720Z",
+ "generatedAt": "2026-08-03T16:35:08.400Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 3,
    "wr": "0",
    "pnl": -16.85,
-   "account": 486.65,
-   "retPct": -2.7,
+   "account": 487.05,
+   "retPct": -2.6,
    "accountRealized": 483.15
   },
   {
@@ -40,7 +40,7 @@
    "losses": 11,
    "wr": "8",
    "pnl": -78.22,
-   "account": 410.83,
+   "account": 410.99,
    "retPct": -17.8,
    "accountRealized": 421.78
   },
@@ -54,7 +54,7 @@
    "losses": 0,
    "wr": "N/A",
    "pnl": 0,
-   "account": 496.03,
+   "account": 496.23,
    "retPct": -0.8,
    "accountRealized": 500
   },
@@ -63,14 +63,14 @@
    "label": "Manual",
    "venue": "Extended",
    "paper": false,
-   "trades": 14,
-   "wins": 7,
-   "losses": 7,
+   "trades": 16,
+   "wins": 8,
+   "losses": 8,
    "wr": "50",
-   "pnl": -19,
+   "pnl": -0.49,
    "account": 438.21,
    "retPct": -12.4,
-   "accountRealized": 481
+   "accountRealized": 499.51
   },
   {
    "key": "kimi",
@@ -215,7 +215,7 @@
     446.33,
     481,
     481,
-    481
+    499.51
    ],
    "kimi": [
     500,
@@ -5308,21 +5308,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-02T16:35:00.000Z",
-   "hl": -0.20573000000000002,
-   "hl_spot": 438.784016,
-   "grvt": 499.530141,
-   "extended": 409.799313,
-   "capital": 2835.879981,
-   "qwen": 481.48,
-   "openclaw": 438.58,
-   "hermes": 499.53,
-   "manual": 409.8,
-   "kimi": 514.52,
-   "deepseek": 481.87,
-   "gemini": 488.14
-  },
-  {
    "ts": "2026-08-02T16:40:00.000Z",
    "hl": -0.5180400000000001,
    "hl_spot": 438.472256,
@@ -9611,14 +9596,29 @@
    "kimi": 512.68,
    "deepseek": 480,
    "gemini": 488.14
+  },
+  {
+   "ts": "2026-08-03T16:35:00.000Z",
+   "hl": -3.1446,
+   "hl_spot": 414.137159,
+   "grvt": 496.225516,
+   "extended": 438.205297,
+   "capital": 2829.684742,
+   "qwen": 487.05,
+   "openclaw": 410.99,
+   "hermes": 496.23,
+   "manual": 438.21,
+   "kimi": 512.68,
+   "deepseek": 480,
+   "gemini": 488.14
   }
  ],
  "venuesLive": {
-  "hl": -3.2255599999999998,
-  "hl_spot": 414.056199,
-  "grvt": 496.03162,
+  "hl": -3.1446,
+  "hl_spot": 414.137159,
+  "grvt": 496.225516,
   "lighter": 1484.2613700000002,
-  "total": 2391.123629
+  "total": 2391.479445
  },
  "openTrades": [
   {
@@ -9812,6 +9812,34 @@
    "openedAt": "2026-08-03T04:04:25.799Z"
   },
   {
+   "id": 321,
+   "asset": "META_24_5",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "WIN",
+   "pct": 6.8,
+   "exitReason": "Manual LONG on Extended — entry $547.55 → exit $585 (+6.84% move 10x), realised +$26.11 → WIN.",
+   "closedAt": "2026-08-03T13:47:55.795Z",
+   "entry": 547.55,
+   "exit": 585,
+   "openedAt": "2026-07-31T16:13:21.413Z"
+  },
+  {
+   "id": 320,
+   "asset": "XYZSPCX_ORCLPX",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "LOSS",
+   "pct": -3.8,
+   "exitReason": "Manual LONG on Extended — entry $108.84 → exit $104.68 (-3.82% move 5x), realised $-7.60 → LOSS.",
+   "closedAt": "2026-08-03T13:30:36.466Z",
+   "entry": 108.84,
+   "exit": 104.68,
+   "openedAt": "2026-08-01T06:03:14.014Z"
+  },
+  {
    "id": 306,
    "asset": "ETH",
    "direction": "SHORT",
@@ -9922,69 +9950,41 @@
    "entry": 571.29,
    "exit": 583.11,
    "openedAt": "2026-07-28T22:06:28.938Z"
-  },
-  {
-   "id": 300,
-   "asset": "BTC",
-   "direction": "SHORT",
-   "actor": "gemini",
-   "venue": "LIGHTER",
-   "outcome": "LOSS",
-   "pct": -1.2,
-   "exitReason": "SHORT BTC: stopped out at SL -1.2% (entry $63695 → exit $64459.1). WHY: Stop hit on noise; Coinbase premium never recovered to +0.05%, so invalidation condition didn't trigger—shorted a choppy range…",
-   "closedAt": "2026-07-30T09:21:58.079Z",
-   "entry": 63695,
-   "exit": 64459.1,
-   "openedAt": "2026-07-29T22:16:47.373Z"
-  },
-  {
-   "id": 299,
-   "asset": "BTC",
-   "direction": "SHORT",
-   "actor": "gemini",
-   "venue": "LIGHTER",
-   "outcome": "LOSS",
-   "pct": -1.5,
-   "exitReason": "SHORT BTC: stopped out at SL -1.5% (entry $63655 → exit $64625). WHY: Stop hit on noise within chop range; 20d MA breakout never confirmed so thesis mechanism didn't trigger—just got shaken out of a…",
-   "closedAt": "2026-07-29T09:40:19.955Z",
-   "entry": 63655,
-   "exit": 64625,
-   "openedAt": "2026-07-29T04:13:37.369Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63880.01,
-    "change24hPct": 1.22
+    "price": 63850.01,
+    "change24hPct": 1.07
    },
    {
     "symbol": "ETH",
-    "price": 1869.69,
-    "change24hPct": 0.57
+    "price": 1868.75,
+    "change24hPct": 0.39
    },
    {
     "symbol": "BNB",
-    "price": 593.61,
-    "change24hPct": 1.24
+    "price": 593.22,
+    "change24hPct": 0.92
    },
    {
     "symbol": "XRP",
-    "price": 1.0831,
-    "change24hPct": 0.41
+    "price": 1.0824,
+    "change24hPct": 0.21
    },
    {
     "symbol": "SOL",
-    "price": 73.55,
-    "change24hPct": 0.68
+    "price": 73.52,
+    "change24hPct": 0.53
    }
   ],
   "fearGreed": {
    "value": 28,
    "classification": "Fear"
   },
-  "regime": null,
+  "regime": "RISK_OFF",
   "stockFearGreed": {
    "value": 45,
    "classification": "Neutral",
@@ -10000,6 +10000,7 @@
     "change": -2.5
    }
   },
+  "equityRegime": "NEUTRAL",
   "longShort": [
    {
     "asset": "BTC",
@@ -10035,6 +10036,145 @@
   "btcNqCorr": {
    "corr": 0.32,
    "label": "MIXED"
+  },
+  "chainRotation": {
+   "chains": [
+    {
+     "name": "BSC",
+     "token": "BNB",
+     "cls": "crypto",
+     "vol24h": 1446836950,
+     "d1": -1.7,
+     "d7": -7.8
+    },
+    {
+     "name": "Solana",
+     "token": "SOL",
+     "cls": "crypto",
+     "vol24h": 1342682593,
+     "d1": 3.2,
+     "d7": 12
+    },
+    {
+     "name": "Base",
+     "token": null,
+     "cls": "crypto",
+     "vol24h": 558544261,
+     "d1": 52.8,
+     "d7": 22.4
+    },
+    {
+     "name": "Ethereum",
+     "token": "ETH",
+     "cls": "crypto",
+     "vol24h": 550056566,
+     "d1": 3.6,
+     "d7": 7.4
+    },
+    {
+     "name": "Robinhood Chain",
+     "token": "HOOD",
+     "cls": "equity",
+     "vol24h": 253227867,
+     "d1": 5.1,
+     "d7": -39.3
+    },
+    {
+     "name": "Polygon",
+     "token": "POL",
+     "cls": "crypto",
+     "vol24h": 177323450,
+     "d1": -10.3,
+     "d7": 21
+    },
+    {
+     "name": "Hyperliquid",
+     "token": "HYPE",
+     "cls": "crypto",
+     "vol24h": 131429610,
+     "d1": 20,
+     "d7": 26.2
+    },
+    {
+     "name": "Arbitrum",
+     "token": "ARB",
+     "cls": "crypto",
+     "vol24h": 83050032,
+     "d1": 39.9,
+     "d7": -12.1
+    },
+    {
+     "name": "Avalanche",
+     "token": "AVAX",
+     "cls": "crypto",
+     "vol24h": 62954929,
+     "d1": 188,
+     "d7": 3.7
+    },
+    {
+     "name": "NEAR",
+     "token": "NEAR",
+     "cls": "crypto",
+     "vol24h": 43105276,
+     "d1": -36.6,
+     "d7": -35.4
+    },
+    {
+     "name": "Tron",
+     "token": "TRX",
+     "cls": "crypto",
+     "vol24h": 22418863,
+     "d1": -23.3,
+     "d7": 36.7
+    },
+    {
+     "name": "Aptos",
+     "token": "APT",
+     "cls": "crypto",
+     "vol24h": 17902210,
+     "d1": -24.8,
+     "d7": -4.1
+    },
+    {
+     "name": "Sui",
+     "token": "SUI",
+     "cls": "crypto",
+     "vol24h": 14535518,
+     "d1": -16.6,
+     "d7": -4.8
+    },
+    {
+     "name": "Optimism",
+     "token": "OP",
+     "cls": "crypto",
+     "vol24h": 14393627,
+     "d1": 24.6,
+     "d7": -17
+    },
+    {
+     "name": "TON",
+     "token": "TON",
+     "cls": "crypto",
+     "vol24h": 3073386,
+     "d1": 28.9,
+     "d7": -18.4
+    }
+   ],
+   "boosts": [
+    [
+     "solana",
+     23
+    ],
+    [
+     "robinhood",
+     5
+    ],
+    [
+     "bsc",
+     2
+    ]
+   ],
+   "ageMin": 4
   }
  },
  "calendar": [
@@ -10042,6 +10182,12 @@
    "date": "2026-08-03",
    "event": "PLTR earnings (AMC)",
    "type": "EARNINGS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-04",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
    "impact": "MED"
   },
   {
@@ -10124,13 +10270,19 @@
   },
   {
    "date": "2026-08-06",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-06",
    "event": "AAOI earnings (AMC)",
    "type": "EARNINGS",
    "impact": "MED"
   },
   {
    "date": "2026-08-07",
-   "event": "Non-Farm Payrolls (Jul)",
+   "event": "Non-Farm Payrolls",
    "type": "NFP",
    "impact": "HIGH"
   },
@@ -10178,7 +10330,7 @@
   },
   {
    "date": "2026-08-12",
-   "event": "US CPI Release (Jul)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
   },
@@ -10207,9 +10359,63 @@
    "impact": "MED"
   },
   {
+   "date": "2026-08-13",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-13",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-14",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
+  },
+  {
    "date": "2026-08-16",
    "event": "ARB token unlock — 93.6M cliff = 1.42% of float (Investors + Team & Advisors)",
    "type": "UNLOCK",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-20",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-26",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-26",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-27",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-28",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-01",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
    "impact": "MED"
   }
  ],
@@ -10961,7 +11167,7 @@
   }
  },
  "intel": {
-  "ageH": 1,
+  "ageH": 1.1,
   "narratives": [
    "• Hardware Storage Exploits & AI Attack Vectors: Coldcard RNG software fallback flaws allowed AI-assisted code scanning to execute key-cracking attacks draining over $70M–$89M in BTC, accelerating demand for multi-sig an",
    "• Solana Deflation & Ecosystem Momentum: Solana led sector gains (+8.5% weekly) behind ecosystem tokens like META (+36%) and PUMP (+3%), alongside a critical early vote on staking/burning proposals. (both)",
@@ -12011,7 +12217,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 410.83,
+    "equity": 410.99,
     "peak": 500.34
    },
    "GRVT": {
@@ -12019,7 +12225,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 496.03,
+    "equity": 496.23,
     "peak": 503.34
    },
    "LIGHTER_kimi": {
