@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-04T04:50:59.975Z",
+ "generatedAt": "2026-08-04T04:55:06.024Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -8,7 +8,7 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 477.95
+   "account": 483.55
   },
   "machine": {
    "label": "Selene",
@@ -26,7 +26,7 @@
    "losses": 4,
    "wr": "0",
    "pnl": -21.25,
-   "account": 495.3,
+   "account": 495.41,
    "retPct": -0.9,
    "accountRealized": 478.75
   },
@@ -40,8 +40,8 @@
    "losses": 11,
    "wr": "8",
    "pnl": -78.22,
-   "account": 413.11,
-   "retPct": -17.4,
+   "account": 413.35,
+   "retPct": -17.3,
    "accountRealized": 421.78
   },
   {
@@ -54,8 +54,8 @@
    "losses": 0,
    "wr": "N/A",
    "pnl": 0,
-   "account": 493.86,
-   "retPct": -1.2,
+   "account": 494.25,
+   "retPct": -1.1,
    "accountRealized": 500
   },
   {
@@ -68,8 +68,8 @@
    "losses": 8,
    "wr": "50",
    "pnl": -0.49,
-   "account": 477.95,
-   "retPct": -4.4,
+   "account": 483.55,
+   "retPct": -3.3,
    "accountRealized": 499.51
   },
   {
@@ -96,8 +96,8 @@
    "losses": 5,
    "wr": "0",
    "pnl": -24.63,
-   "account": 479.7,
-   "retPct": -4.1,
+   "account": 479.9,
+   "retPct": -4,
    "accountRealized": 475.37
   },
   {
@@ -5316,21 +5316,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-03T04:55:00.000Z",
-   "hl": 1.041284,
-   "hl_spot": 435.147817,
-   "grvt": 501.977862,
-   "extended": 410.23906,
-   "capital": 2836.207332,
-   "qwen": 485.45,
-   "openclaw": 436.19,
-   "hermes": 501.98,
-   "manual": 410.24,
-   "kimi": 516.22,
-   "deepseek": 480,
-   "gemini": 488.14
-  },
-  {
    "ts": "2026-08-03T05:00:00.000Z",
    "hl": 1.9672839999999998,
    "hl_spot": 436.07381699999996,
@@ -9634,14 +9619,29 @@
    "kimi": 512.68,
    "deepseek": 479.7,
    "gemini": 488.14
+  },
+  {
+   "ts": "2026-08-04T04:55:00.000Z",
+   "hl": -1.9228800000000001,
+   "hl_spot": 415.275488,
+   "grvt": 494.254583,
+   "extended": 483.54759,
+   "capital": 2875.318421,
+   "qwen": 495.41,
+   "openclaw": 413.35,
+   "hermes": 494.25,
+   "manual": 483.55,
+   "kimi": 512.68,
+   "deepseek": 479.9,
+   "gemini": 488.14
   }
  ],
  "venuesLive": {
-  "hl": -2.045332,
-  "hl_spot": 415.153036,
-  "grvt": 493.861093,
-  "lighter": 1483.9599,
-  "total": 2390.9286970000003
+  "hl": -1.9228800000000001,
+  "hl_spot": 415.275488,
+  "grvt": 494.254583,
+  "lighter": 1484.16364,
+  "total": 2391.770831
  },
  "openTrades": [
   {
@@ -10068,35 +10068,35 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64164.48,
-    "change24hPct": 1.97
+    "price": 64138,
+    "change24hPct": 2.02
    },
    {
     "symbol": "ETH",
-    "price": 1872.55,
-    "change24hPct": 0.66
+    "price": 1870.87,
+    "change24hPct": 0.74
    },
    {
     "symbol": "BNB",
-    "price": 592.9,
-    "change24hPct": 1.61
+    "price": 592.48,
+    "change24hPct": 1.64
    },
    {
     "symbol": "XRP",
-    "price": 1.0818,
-    "change24hPct": 0.91
+    "price": 1.0811,
+    "change24hPct": 0.95
    },
    {
     "symbol": "SOL",
-    "price": 74,
-    "change24hPct": 1.37
+    "price": 73.95,
+    "change24hPct": 1.41
    }
   ],
   "fearGreed": {
    "value": 25,
    "classification": "Extreme Fear"
   },
-  "regime": null,
+  "regime": "RISK_OFF",
   "stockFearGreed": {
    "value": 46,
    "classification": "Neutral",
@@ -10112,6 +10112,7 @@
     "change": -0.81
    }
   },
+  "equityRegime": "NEUTRAL",
   "longShort": [
    {
     "asset": "BTC",
@@ -10147,9 +10148,158 @@
   "btcNqCorr": {
    "corr": 0.44,
    "label": "MIXED"
+  },
+  "chainRotation": {
+   "chains": [
+    {
+     "name": "Solana",
+     "token": "SOL",
+     "cls": "crypto",
+     "vol24h": 1680260566,
+     "d1": 25.1,
+     "d7": -8.7
+    },
+    {
+     "name": "BSC",
+     "token": "BNB",
+     "cls": "crypto",
+     "vol24h": 1429701684,
+     "d1": -15.3,
+     "d7": -10.9
+    },
+    {
+     "name": "Ethereum",
+     "token": "ETH",
+     "cls": "crypto",
+     "vol24h": 772544036,
+     "d1": 40.5,
+     "d7": -28
+    },
+    {
+     "name": "Base",
+     "token": null,
+     "cls": "crypto",
+     "vol24h": 751561792,
+     "d1": 34.6,
+     "d7": -14.2
+    },
+    {
+     "name": "Robinhood Chain",
+     "token": "HOOD",
+     "cls": "equity",
+     "vol24h": 352321653,
+     "d1": 39.2,
+     "d7": -43.6
+    },
+    {
+     "name": "Polygon",
+     "token": "POL",
+     "cls": "crypto",
+     "vol24h": 161173985,
+     "d1": -9.1,
+     "d7": -12.4
+    },
+    {
+     "name": "Hyperliquid",
+     "token": "HYPE",
+     "cls": "crypto",
+     "vol24h": 158013187,
+     "d1": 20.2,
+     "d7": -27.9
+    },
+    {
+     "name": "Arbitrum",
+     "token": "ARB",
+     "cls": "crypto",
+     "vol24h": 125261577,
+     "d1": 50.8,
+     "d7": -27
+    },
+    {
+     "name": "NEAR",
+     "token": "NEAR",
+     "cls": "crypto",
+     "vol24h": 79170147,
+     "d1": 83.7,
+     "d7": 18.5
+    },
+    {
+     "name": "Avalanche",
+     "token": "AVAX",
+     "cls": "crypto",
+     "vol24h": 42886614,
+     "d1": -31.9,
+     "d7": -27.9
+    },
+    {
+     "name": "Tron",
+     "token": "TRX",
+     "cls": "crypto",
+     "vol24h": 42554466,
+     "d1": 89.8,
+     "d7": 8
+    },
+    {
+     "name": "Aptos",
+     "token": "APT",
+     "cls": "crypto",
+     "vol24h": 28703001,
+     "d1": 60.3,
+     "d7": 48.1
+    },
+    {
+     "name": "Optimism",
+     "token": "OP",
+     "cls": "crypto",
+     "vol24h": 19744868,
+     "d1": 37.2,
+     "d7": -28.7
+    },
+    {
+     "name": "Sui",
+     "token": "SUI",
+     "cls": "crypto",
+     "vol24h": 18659440,
+     "d1": 28.4,
+     "d7": -34.2
+    },
+    {
+     "name": "TON",
+     "token": "TON",
+     "cls": "crypto",
+     "vol24h": 3768042,
+     "d1": 22.6,
+     "d7": -11.6
+    }
+   ],
+   "boosts": [
+    [
+     "solana",
+     23
+    ],
+    [
+     "robinhood",
+     5
+    ],
+    [
+     "ethereum",
+     1
+    ],
+    [
+     "bsc",
+     1
+    ]
+   ],
+   "ageMin": 4
   }
  },
  "calendar": [
+  {
+   "date": "2026-08-04",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
+  },
   {
    "date": "2026-08-04",
    "event": "APT — Confidential APT Live",
@@ -10248,13 +10398,19 @@
   },
   {
    "date": "2026-08-06",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-06",
    "event": "AAOI earnings (AMC)",
    "type": "EARNINGS",
    "impact": "MED"
   },
   {
    "date": "2026-08-07",
-   "event": "Non-Farm Payrolls (Jul)",
+   "event": "Non-Farm Payrolls",
    "type": "NFP",
    "impact": "HIGH"
   },
@@ -10314,7 +10470,7 @@
   },
   {
    "date": "2026-08-12",
-   "event": "US CPI Release (Jul)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
   },
@@ -10344,6 +10500,18 @@
   },
   {
    "date": "2026-08-13",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-13",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-13",
    "event": "AMAT earnings (AMC)",
    "type": "EARNINGS",
    "impact": "MED"
@@ -10355,9 +10523,57 @@
    "impact": "MED"
   },
   {
+   "date": "2026-08-14",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
+  },
+  {
    "date": "2026-08-16",
    "event": "ARB token unlock — 93.6M cliff = 1.42% of float (Investors + Team & Advisors)",
    "type": "UNLOCK",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-20",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-26",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-26",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-27",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-28",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-01",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-03",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
    "impact": "MED"
   }
  ],
@@ -12943,7 +13159,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 413.11,
+    "equity": 413.35,
     "peak": 500.34
    },
    "GRVT": {
@@ -12951,7 +13167,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 493.86,
+    "equity": 494.25,
     "peak": 503.34
    },
    "LIGHTER_kimi": {
@@ -12969,7 +13185,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 479.7,
+    "equity": 479.9,
     "peak": 500
    },
    "LIGHTER_gemini": {
