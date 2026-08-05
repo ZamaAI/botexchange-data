@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-05T01:20:00.911Z",
+ "generatedAt": "2026-08-05T01:25:01.538Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,7 +26,7 @@
    "losses": 6,
    "wr": "0",
    "pnl": -56.62,
-   "account": 458.06,
+   "account": 458.1,
    "retPct": -8.4,
    "accountRealized": 443.38
   },
@@ -5324,21 +5324,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-04T01:25:00.000Z",
-   "hl": -2.03506,
-   "hl_spot": 415.15807,
-   "grvt": 498.407082,
-   "extended": 452.116652,
-   "capital": 2850.45863,
-   "qwen": 482.65,
-   "openclaw": 413.12,
-   "hermes": 498.41,
-   "manual": 452.12,
-   "kimi": 512.68,
-   "deepseek": 482.55,
-   "gemini": 488.14
-  },
-  {
    "ts": "2026-08-04T01:30:00.000Z",
    "hl": -2.02984,
    "hl_spot": 415.16328999999996,
@@ -9642,6 +9627,21 @@
    "kimi": 512.68,
    "deepseek": 482.76,
    "gemini": 488.14
+  },
+  {
+   "ts": "2026-08-05T01:25:00.000Z",
+   "hl": 0.88784,
+   "hl_spot": 413.07322600000003,
+   "grvt": 493.686107,
+   "extended": 490.669028,
+   "capital": 2885.3321320000005,
+   "qwen": 458.1,
+   "openclaw": 413.96,
+   "hermes": 493.69,
+   "manual": 490.67,
+   "kimi": 512.68,
+   "deepseek": 482.76,
+   "gemini": 488.14
   }
  ],
  "venuesLive": {
@@ -9805,7 +9805,7 @@
    "venue": "GRVT",
    "outcome": "LOSS",
    "pct": -1.7,
-   "exitReason": null,
+   "exitReason": "SHORT BNB: stopped out at SL -1.7% (entry $586.24 → exit $596). WHY: Resistance held as chop-range; MACD cross was noise in choppy conditions; should've faded long at lower range edge instead of…",
    "closedAt": "2026-08-05T00:51:49.335Z",
    "entry": 586.24,
    "exit": 596,
@@ -9819,7 +9819,7 @@
    "venue": "HL",
    "outcome": "LOSS",
    "pct": -1.8,
-   "exitReason": null,
+   "exitReason": "SHORT BNB: stopped out at SL -1.8% (entry $586.24 → exit $597.07). WHY: Stop was hit on noise within chop; OI never reversed and MACD thesis remained intact, but range-chasing a +0.68 position in ER…",
    "closedAt": "2026-08-05T00:36:55.185Z",
    "entry": 586.24,
    "exit": 597.07,
@@ -9833,7 +9833,7 @@
    "venue": "PAPER",
    "outcome": "LOSS",
    "pct": -1.8,
-   "exitReason": null,
+   "exitReason": "SHORT BNB: stopped out at SL -1.8% (entry $585.68 → exit $596.16). WHY: Chop range chase into resistance trapped you; fade at upper edge ($575-578) would have worked, but scanner missed the mushy…",
    "closedAt": "2026-08-05T00:36:42.886Z",
    "entry": 585.68,
    "exit": 596.16,
@@ -9847,7 +9847,7 @@
    "venue": "HL",
    "outcome": "BREAKEVEN",
    "pct": 0.2,
-   "exitReason": null,
+   "exitReason": "LONG SOL: stopped out at SL +0.2% (entry $73.46 → exit $73.632). WHY: Support thesis never triggered: bid wall evaporated before price tested $72.263, order book flipped ask-heavy on minor selling,…",
    "closedAt": "2026-08-05T00:08:02.001Z",
    "entry": 73.46,
    "exit": 73.632,
@@ -9861,7 +9861,7 @@
    "venue": "HL",
    "outcome": "BREAKEVEN",
    "pct": 0.2,
-   "exitReason": null,
+   "exitReason": "LONG DOT: stopped out at SL +0.2% (entry $0.854 → exit $0.85605). WHY: Squeeze mechanism triggered but lacked conviction—price held support yet failed to build momentum, exiting on stop noise as…",
    "closedAt": "2026-08-04T23:55:07.813Z",
    "entry": 0.854,
    "exit": 0.85605,
@@ -9970,28 +9970,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64003.67,
-    "change24hPct": 0.77
+    "price": 64108,
+    "change24hPct": 0.95
    },
    {
     "symbol": "ETH",
-    "price": 1865.22,
-    "change24hPct": 0.56
+    "price": 1867.17,
+    "change24hPct": 0.64
    },
    {
     "symbol": "BNB",
-    "price": 597.95,
-    "change24hPct": 1.42
+    "price": 599.05,
+    "change24hPct": 1.62
    },
    {
     "symbol": "XRP",
-    "price": 1.0691,
-    "change24hPct": -0.21
+    "price": 1.0701,
+    "change24hPct": -0.16
    },
    {
     "symbol": "SOL",
-    "price": 73.56,
-    "change24hPct": 0.52
+    "price": 73.67,
+    "change24hPct": 0.7
    }
   ],
   "fearGreed": {
@@ -10024,26 +10024,26 @@
    },
    {
     "asset": "ETH",
-    "ratio": 2.318,
+    "ratio": 2.321,
     "longPct": 69.9,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.357,
-    "longPct": 70.2,
+    "ratio": 2.365,
+    "longPct": 70.3,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.202,
-    "longPct": 68.8,
+    "ratio": 2.198,
+    "longPct": 68.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.711,
-    "longPct": 73,
+    "ratio": 2.715,
+    "longPct": 73.1,
     "bias": "CROWDED LONG"
    }
   ],
@@ -10123,7 +10123,7 @@
      "changePct": -14.9
     }
    ],
-   "ageMin": 200
+   "ageMin": 205
   },
   "chainRotation": {
    "chains": [
@@ -10262,7 +10262,7 @@
      1
     ]
    ],
-   "ageMin": 5
+   "ageMin": 10
   }
  },
  "calendar": [
@@ -12054,7 +12054,7 @@
   }
  },
  "intel": {
-  "ageH": 3.9,
+  "ageH": 4,
   "narratives": [
    "* Autonomous AI Machine Economy: Analysts and tech leaders emphasize that millions of autonomous AI agents requiring high-frequency, sub-second transactions will settle on crypto rails rather than legacy banking infrastr",
    "* Institutional Staking vs. Self-Custody: Massive institutional ETH staking inflows from entities like Bitmine (staked 87.4% of holdings) and BNY Mellon launching staking services are contrasting sharply against security",
@@ -12243,7 +12243,7 @@
    "outcome": "LOSS",
    "pct": -1.7,
    "pnlUsd": -4.97,
-   "exitReason": null,
+   "exitReason": "SHORT BNB: stopped out at SL -1.7% (entry $586.24 → exit $596). WHY: Resistance held as chop-range; MACD cross was noise in choppy conditions; should've faded long at lower range edge instead of…",
    "closedAt": "2026-08-05T00:51:49.335Z",
    "entry": 586.24,
    "exit": 596,
@@ -12259,7 +12259,7 @@
    "outcome": "LOSS",
    "pct": -1.8,
    "pnlUsd": -5.16,
-   "exitReason": null,
+   "exitReason": "SHORT BNB: stopped out at SL -1.8% (entry $586.24 → exit $597.07). WHY: Stop was hit on noise within chop; OI never reversed and MACD thesis remained intact, but range-chasing a +0.68 position in ER…",
    "closedAt": "2026-08-05T00:36:55.185Z",
    "entry": 586.24,
    "exit": 597.07,
@@ -12275,7 +12275,7 @@
    "outcome": "LOSS",
    "pct": -1.8,
    "pnlUsd": -5.37,
-   "exitReason": null,
+   "exitReason": "SHORT BNB: stopped out at SL -1.8% (entry $585.68 → exit $596.16). WHY: Chop range chase into resistance trapped you; fade at upper edge ($575-578) would have worked, but scanner missed the mushy…",
    "closedAt": "2026-08-05T00:36:42.886Z",
    "entry": 585.68,
    "exit": 596.16,
@@ -12291,7 +12291,7 @@
    "outcome": "BREAKEVEN",
    "pct": 0.2,
    "pnlUsd": 0.36,
-   "exitReason": null,
+   "exitReason": "LONG SOL: stopped out at SL +0.2% (entry $73.46 → exit $73.632). WHY: Support thesis never triggered: bid wall evaporated before price tested $72.263, order book flipped ask-heavy on minor selling,…",
    "closedAt": "2026-08-05T00:08:02.001Z",
    "entry": 73.46,
    "exit": 73.632,
@@ -12307,7 +12307,7 @@
    "outcome": "BREAKEVEN",
    "pct": 0.2,
    "pnlUsd": 0.32,
-   "exitReason": null,
+   "exitReason": "LONG DOT: stopped out at SL +0.2% (entry $0.854 → exit $0.85605). WHY: Squeeze mechanism triggered but lacked conviction—price held support yet failed to build momentum, exiting on stop noise as…",
    "closedAt": "2026-08-04T23:55:07.813Z",
    "entry": 0.854,
    "exit": 0.85605,
