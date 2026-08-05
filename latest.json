@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-05T17:15:01.021Z",
+ "generatedAt": "2026-08-05T17:20:08.438Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 6,
    "wr": "0",
    "pnl": -56.62,
-   "account": 463.71,
-   "retPct": -7.3,
+   "account": 462.74,
+   "retPct": -7.5,
    "accountRealized": 443.38
   },
   {
@@ -5324,21 +5324,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-04T17:20:00.000Z",
-   "hl": -2.7280800000000003,
-   "hl_spot": 414.12055100000003,
-   "grvt": 494.14417,
-   "extended": 522.025675,
-   "capital": 2911.924878,
-   "qwen": 458.24,
-   "openclaw": 411.39,
-   "hermes": 494.14,
-   "manual": 522.03,
-   "kimi": 512.68,
-   "deepseek": 480.1,
-   "gemini": 488.14
-  },
-  {
    "ts": "2026-08-04T17:25:00.000Z",
    "hl": -2.7280800000000003,
    "hl_spot": 414.12055100000003,
@@ -9642,6 +9627,21 @@
    "kimi": 512.68,
    "deepseek": 475.67,
    "gemini": 488.14
+  },
+  {
+   "ts": "2026-08-05T17:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 409.09033,
+   "grvt": 488.891895,
+   "extended": 462.674578,
+   "capital": 2840.5891300000003,
+   "qwen": 462.74,
+   "openclaw": 409.09,
+   "hermes": 488.89,
+   "manual": 462.67,
+   "kimi": 512.68,
+   "deepseek": 475.67,
+   "gemini": 488.14
   }
  ],
  "venuesLive": {
@@ -9787,7 +9787,7 @@
    "venue": "GRVT",
    "outcome": "LOSS",
    "pct": -1.6,
-   "exitReason": null,
+   "exitReason": "SHORT ETH: stopped out at SL -1.6% (entry $1862.63 → exit $1892). WHY: Stop was hit on noise within chop range; thesis mechanism (retail crowding + whale positioning + RS weakness) never triggered…",
    "closedAt": "2026-08-05T16:41:10.977Z",
    "entry": 1862.63,
    "exit": 1892,
@@ -9801,7 +9801,7 @@
    "venue": "HL",
    "outcome": "LOSS",
    "pct": -1.2,
-   "exitReason": null,
+   "exitReason": "SHORT ETH: stopped out at SL -1.2% (entry $1870.82 → exit $1892.8). WHY: Stop hit on noise; invalidation condition never triggered (no sustained 4h close above $1892 with OI rise), but chasing into…",
    "closedAt": "2026-08-05T16:32:07.446Z",
    "entry": 1870.82,
    "exit": 1892.8,
@@ -9952,28 +9952,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64592.13,
-    "change24hPct": 0.82
+    "price": 64590.01,
+    "change24hPct": 0.85
    },
    {
     "symbol": "ETH",
-    "price": 1894.02,
-    "change24hPct": 1.06
+    "price": 1892.22,
+    "change24hPct": 1.02
    },
    {
     "symbol": "BNB",
-    "price": 598.08,
-    "change24hPct": 0.86
+    "price": 598.2,
+    "change24hPct": 0.9
    },
    {
     "symbol": "XRP",
-    "price": 1.0677,
-    "change24hPct": -0.82
+    "price": 1.068,
+    "change24hPct": -0.75
    },
    {
     "symbol": "SOL",
-    "price": 74.22,
-    "change24hPct": 0.22
+    "price": 74.21,
+    "change24hPct": 0.3
    }
   ],
   "fearGreed": {
@@ -9988,43 +9988,43 @@
   },
   "macro": {
    "dxy": {
-    "price": 99.74,
-    "change": -0.15
+    "price": 99.77,
+    "change": -0.12
    },
    "vix": {
-    "price": 16.01,
-    "change": -2.97
+    "price": 15.96,
+    "change": -3.27
    }
   },
   "equityRegime": "RISK_ON",
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.193,
+    "ratio": 1.192,
     "longPct": 54.4,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.221,
-    "longPct": 69,
+    "ratio": 2.204,
+    "longPct": 68.8,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.331,
+    "ratio": 2.329,
     "longPct": 70,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.151,
+    "ratio": 2.155,
     "longPct": 68.3,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.694,
+    "ratio": 2.685,
     "longPct": 72.9,
     "bias": "CROWDED LONG"
    }
@@ -10174,7 +10174,7 @@
      1
     ]
    ],
-   "ageMin": 33
+   "ageMin": 38
   }
  },
  "calendar": [
@@ -11242,14 +11242,14 @@
   "disagreement": "ETH"
  },
  "manualBook": {
-  "at": "2026-08-05T17:05:04.134Z",
+  "at": "2026-08-05T17:20:08.438Z",
   "positions": [
    {
     "asset": "HOOD",
     "stock": true,
     "direction": "LONG",
     "entry": 87.021,
-    "pnlPct": 8.63
+    "pnlPct": 8.05
    },
    {
     "asset": "SOL",
@@ -11263,7 +11263,7 @@
     "stock": false,
     "direction": "LONG",
     "entry": 1182.24,
-    "pnlPct": -1.15
+    "pnlPct": -2.15
    }
   ]
  },
@@ -12139,7 +12139,7 @@
    "outcome": "LOSS",
    "pct": -1.6,
    "pnlUsd": -6.21,
-   "exitReason": null,
+   "exitReason": "SHORT ETH: stopped out at SL -1.6% (entry $1862.63 → exit $1892). WHY: Stop was hit on noise within chop range; thesis mechanism (retail crowding + whale positioning + RS weakness) never triggered…",
    "closedAt": "2026-08-05T16:41:10.977Z",
    "entry": 1862.63,
    "exit": 1892,
@@ -12155,7 +12155,7 @@
    "outcome": "LOSS",
    "pct": -1.2,
    "pnlUsd": -3.18,
-   "exitReason": null,
+   "exitReason": "SHORT ETH: stopped out at SL -1.2% (entry $1870.82 → exit $1892.8). WHY: Stop hit on noise; invalidation condition never triggered (no sustained 4h close above $1892 with OI rise), but chasing into…",
    "closedAt": "2026-08-05T16:32:07.446Z",
    "entry": 1870.82,
    "exit": 1892.8,
