@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-06T17:25:00.637Z",
+ "generatedAt": "2026-08-06T17:30:12.545Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 6,
    "wr": "14",
    "pnl": -45.02,
-   "account": 466.99,
-   "retPct": -6.6,
+   "account": 466.06,
+   "retPct": -6.8,
    "accountRealized": 454.98
   },
   {
@@ -40,8 +40,8 @@
    "losses": 13,
    "wr": "7",
    "pnl": -86.56,
-   "account": 412.95,
-   "retPct": -17.4,
+   "account": 411.26,
+   "retPct": -17.7,
    "accountRealized": 413.44
   },
   {
@@ -54,8 +54,8 @@
    "losses": 2,
    "wr": "0",
    "pnl": -11.18,
-   "account": 486.65,
-   "retPct": -2.7,
+   "account": 485.18,
+   "retPct": -3,
    "accountRealized": 488.82
   },
   {
@@ -63,14 +63,14 @@
    "label": "Manual",
    "venue": "Extended",
    "paper": false,
-   "trades": 20,
-   "wins": 11,
+   "trades": 22,
+   "wins": 13,
    "losses": 9,
-   "wr": "55",
-   "pnl": -74.1,
+   "wr": "59",
+   "pnl": -52.84,
    "account": 366.38,
    "retPct": -26.7,
-   "accountRealized": 425.9
+   "accountRealized": 447.16
   },
   {
    "key": "kimi",
@@ -230,7 +230,7 @@
     499.51,
     518.64,
     423.34,
-    425.9
+    447.16
    ],
    "kimi": [
     500,
@@ -5332,21 +5332,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-05T17:30:00.000Z",
-   "hl": 0,
-   "hl_spot": 409.09033,
-   "grvt": 488.891895,
-   "extended": 462.674578,
-   "capital": 2840.5891300000003,
-   "qwen": 462.75,
-   "openclaw": 409.09,
-   "hermes": 488.89,
-   "manual": 462.67,
-   "kimi": 512.68,
-   "deepseek": 475.67,
-   "gemini": 488.14
-  },
-  {
    "ts": "2026-08-05T17:35:00.000Z",
    "hl": 0,
    "hl_spot": 409.09033,
@@ -9650,14 +9635,29 @@
    "kimi": 512.68,
    "deepseek": 473.8,
    "gemini": 488.14
+  },
+  {
+   "ts": "2026-08-06T17:30:00.000Z",
+   "hl": 1.10544,
+   "hl_spot": 410.15468999999996,
+   "grvt": 485.175702,
+   "extended": 366.381237,
+   "capital": 2740.8773260000003,
+   "qwen": 466.06,
+   "openclaw": 411.26,
+   "hermes": 485.18,
+   "manual": 366.38,
+   "kimi": 512.68,
+   "deepseek": 473.8,
+   "gemini": 488.14
   }
  ],
  "venuesLive": {
-  "hl": 1.9709599999999998,
-  "hl_spot": 410.98401,
-  "grvt": 486.649485,
+  "hl": 1.10544,
+  "hl_spot": 410.15468999999996,
+  "grvt": 485.175702,
   "lighter": 1478.060257,
-  "total": 2377.6647120000002
+  "total": 2374.496089
  },
  "openTrades": [
   {
@@ -9793,6 +9793,34 @@
   }
  ],
  "recentCloses": [
+  {
+   "id": 337,
+   "asset": "AERO",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "WIN",
+   "pct": 3.4,
+   "exitReason": "Manual LONG on Extended — entry $0.41797 → exit $0.4322 (+3.40% move 10x), realised +$14.31 → WIN.",
+   "closedAt": "2026-08-06T14:45:01.463Z",
+   "entry": 0.41797,
+   "exit": 0.4322,
+   "openedAt": "2026-08-06T03:53:24.080Z"
+  },
+  {
+   "id": 336,
+   "asset": "MSFT_24_5",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "WIN",
+   "pct": 1.9,
+   "exitReason": "Manual LONG on Extended — entry $485.81 → exit $495 (+1.89% move 10x), realised +$6.95 → WIN.",
+   "closedAt": "2026-08-06T13:51:53.417Z",
+   "entry": 485.81,
+   "exit": 495,
+   "openedAt": "2026-08-06T03:55:00.544Z"
+  },
   {
    "id": 331,
    "asset": "SOL",
@@ -9932,62 +9960,34 @@
    "entry": 586.24,
    "exit": 597.07,
    "openedAt": "2026-08-02T16:08:15.964Z"
-  },
-  {
-   "id": 314,
-   "asset": "BNB",
-   "direction": "SHORT",
-   "actor": "qwen",
-   "venue": "PAPER",
-   "outcome": "LOSS",
-   "pct": -1.8,
-   "exitReason": "SHORT BNB: stopped out at SL -1.8% (entry $585.68 → exit $596.16). WHY: Chop range chase into resistance trapped you; fade at upper edge ($575-578) would have worked, but scanner missed the mushy…",
-   "closedAt": "2026-08-05T00:36:42.886Z",
-   "entry": 585.68,
-   "exit": 596.16,
-   "openedAt": "2026-08-02T16:22:17.099Z"
-  },
-  {
-   "id": 318,
-   "asset": "SOL",
-   "direction": "LONG",
-   "actor": "openclaw",
-   "venue": "HL",
-   "outcome": "BREAKEVEN",
-   "pct": 0.2,
-   "exitReason": "LONG SOL: stopped out at SL +0.2% (entry $73.46 → exit $73.632). WHY: Support thesis never triggered: bid wall evaporated before price tested $72.263, order book flipped ask-heavy on minor selling,…",
-   "closedAt": "2026-08-05T00:08:02.001Z",
-   "entry": 73.46,
-   "exit": 73.632,
-   "openedAt": "2026-08-03T16:09:09.021Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64683.71,
-    "change24hPct": 0.15
+    "price": 64688.45,
+    "change24hPct": 0.14
    },
    {
     "symbol": "ETH",
-    "price": 1913.84,
-    "change24hPct": 1.12
+    "price": 1914.32,
+    "change24hPct": 1.16
    },
    {
     "symbol": "BNB",
-    "price": 593.52,
-    "change24hPct": -0.87
+    "price": 593.6,
+    "change24hPct": -0.88
    },
    {
     "symbol": "XRP",
-    "price": 1.0447,
-    "change24hPct": -2.17
+    "price": 1.045,
+    "change24hPct": -2.13
    },
    {
     "symbol": "SOL",
-    "price": 73.35,
-    "change24hPct": -1.17
+    "price": 73.34,
+    "change24hPct": -1.15
    }
   ],
   "fearGreed": {
@@ -10002,43 +10002,43 @@
   },
   "macro": {
    "dxy": {
-    "price": 99.96,
-    "change": 0.27
+    "price": 99.97,
+    "change": 0.28
    },
    "vix": {
-    "price": 15.39,
-    "change": -2.66
+    "price": 15.43,
+    "change": -2.4
    }
   },
   "equityRegime": "RISK_ON",
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.152,
+    "ratio": 1.151,
     "longPct": 53.5,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 1.962,
+    "ratio": 1.96,
     "longPct": 66.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.61,
-    "longPct": 72.3,
+    "ratio": 2.602,
+    "longPct": 72.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.293,
-    "longPct": 69.6,
+    "ratio": 2.296,
+    "longPct": 69.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.808,
+    "ratio": 2.807,
     "longPct": 73.7,
     "bias": "CROWDED LONG"
    }
@@ -10119,7 +10119,7 @@
      "changePct": -8.7
     }
    ],
-   "ageMin": 85
+   "ageMin": 90
   },
   "chainRotation": {
    "chains": [
@@ -10262,7 +10262,7 @@
      1
     ]
    ],
-   "ageMin": 10
+   "ageMin": 15
   }
  },
  "calendar": [
@@ -11363,7 +11363,7 @@
   "disagreement": "ETH"
  },
  "manualBook": {
-  "at": "2026-08-06T17:15:06.176Z",
+  "at": "2026-08-06T17:30:12.545Z",
   "positions": [
    {
     "asset": "HOOD",
@@ -12044,7 +12044,7 @@
   }
  },
  "intel": {
-  "ageH": 1.9,
+  "ageH": 2,
   "narratives": [
    "- RWA Tokenization & Perps: RWA perpetual futures notional volume reached an all-time high of $150 billion in July, while monthly spot volume hit $14 billion `(newsletter)`.",
    "- Zero-Fee Token Launchpads: Uniswap launched \"Pools\" on Robinhood Chain using v4 contracts, featuring zero creation fees, autocompounding pools, and permanent LP locks to challenge existing platforms `(both)`.",
@@ -12223,6 +12223,38 @@
   }
  ],
  "archive": [
+  {
+   "id": 337,
+   "asset": "AERO",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "WIN",
+   "pct": 3.4,
+   "pnlUsd": 14.31,
+   "exitReason": "Manual LONG on Extended — entry $0.41797 → exit $0.4322 (+3.40% move 10x), realised +$14.31 → WIN.",
+   "closedAt": "2026-08-06T14:45:01.463Z",
+   "entry": 0.41797,
+   "exit": 0.4322,
+   "conviction": null,
+   "openedAt": "2026-08-06T03:53:24.080Z"
+  },
+  {
+   "id": 336,
+   "asset": "MSFT_24_5",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "WIN",
+   "pct": 1.9,
+   "pnlUsd": 6.95,
+   "exitReason": "Manual LONG on Extended — entry $485.81 → exit $495 (+1.89% move 10x), realised +$6.95 → WIN.",
+   "closedAt": "2026-08-06T13:51:53.417Z",
+   "entry": 485.81,
+   "exit": 495,
+   "conviction": null,
+   "openedAt": "2026-08-06T03:55:00.544Z"
+  },
   {
    "id": 331,
    "asset": "SOL",
@@ -13351,7 +13383,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 412.95,
+    "equity": 411.26,
     "peak": 500.34
    },
    "GRVT": {
@@ -13359,7 +13391,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 486.65,
+    "equity": 485.18,
     "peak": 503.34
    },
    "LIGHTER_kimi": {
