@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-06T16:00:16.916Z",
+ "generatedAt": "2026-08-06T16:05:00.635Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -5332,21 +5332,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-05T16:05:00.000Z",
-   "hl": -0.48688,
-   "hl_spot": 411.896229,
-   "grvt": 491.983665,
-   "extended": 451.82337,
-   "capital": 2838.3307510000004,
-   "qwen": 458.85,
-   "openclaw": 411.41,
-   "hermes": 491.98,
-   "manual": 451.82,
-   "kimi": 512.68,
-   "deepseek": 478.86,
-   "gemini": 488.14
-  },
-  {
    "ts": "2026-08-05T16:10:00.000Z",
    "hl": -1.1456,
    "hl_spot": 411.240863,
@@ -9650,6 +9635,21 @@
    "kimi": 512.68,
    "deepseek": 473.8,
    "gemini": 488.14
+  },
+  {
+   "ts": "2026-08-06T16:05:00.000Z",
+   "hl": 0,
+   "hl_spot": 408.87049,
+   "grvt": 488.891895,
+   "extended": 381.137584,
+   "capital": 2756.960226,
+   "qwen": 470.72,
+   "openclaw": 408.87,
+   "hermes": 488.89,
+   "manual": 381.14,
+   "kimi": 512.68,
+   "deepseek": 473.8,
+   "gemini": 488.14
   }
  ],
  "venuesLive": {
@@ -9660,6 +9660,40 @@
   "total": 2375.822642
  },
  "openTrades": [
+  {
+   "id": 332,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "openclaw",
+   "venue": "HL",
+   "entry": 73.31,
+   "stop": 72.5769,
+   "target": 75.1428,
+   "levelsApprox": true,
+   "trailed": false,
+   "rr": 2.2,
+   "conviction": 6,
+   "openedAt": "2026-08-06T16:04:02.708Z",
+   "thesis": "SOL squeeze detector flags shorts overcrowded (Binance funding -7.7% APR vs HL +3.8%, gap+11.6%), a genuine positioning imbalance with shorts paying longs — classic short-squeeze fuel. Price sits at S2/lower-BB (28.2%) near real support with OI flat (no fresh short building), giving a fade-the-extreme long with a defined structural stop below S2.",
+   "smartMoney": null
+  },
+  {
+   "id": 333,
+   "asset": "ADA",
+   "direction": "SHORT",
+   "actor": "openclaw",
+   "venue": "HL",
+   "entry": 0.2088,
+   "stop": 0.211932,
+   "target": 0.201492,
+   "levelsApprox": true,
+   "trailed": false,
+   "rr": 2.2,
+   "conviction": 6,
+   "openedAt": "2026-08-06T16:04:02.708Z",
+   "thesis": "ADA is up 19.2% over 7d into a 30d swing-high zone ($0.2113) with retail 63.2% long vs top-traders only 51.3% long — a positioning divergence where smart money is notably less exposed than retail into the extension. Binance funding running far richer (+10.95% APR) than HL (-0.58%) confirms leveraged longs are crowded offshore, a classic mean-reversion setup at a range top.",
+   "smartMoney": null
+  },
   {
    "id": 316,
    "asset": "ETH",
@@ -9904,28 +9938,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64649.51,
-    "change24hPct": 0.4
+    "price": 64682,
+    "change24hPct": 0.39
    },
    {
     "symbol": "ETH",
-    "price": 1911.4,
-    "change24hPct": 1.99
+    "price": 1911.43,
+    "change24hPct": 1.88
    },
    {
     "symbol": "BNB",
-    "price": 592.68,
-    "change24hPct": -1.22
+    "price": 592.38,
+    "change24hPct": -1.37
    },
    {
     "symbol": "XRP",
-    "price": 1.0495,
-    "change24hPct": -1.06
+    "price": 1.0494,
+    "change24hPct": -1.17
    },
    {
     "symbol": "SOL",
-    "price": 73.32,
-    "change24hPct": -0.86
+    "price": 73.35,
+    "change24hPct": -0.93
    }
   ],
   "fearGreed": {
@@ -10057,7 +10091,7 @@
      "changePct": -8.7
     }
    ],
-   "ageMin": 0
+   "ageMin": 5
   },
   "chainRotation": {
    "chains": [
@@ -10196,7 +10230,7 @@
      1
     ]
    ],
-   "ageMin": 320
+   "ageMin": 325
   }
  },
  "calendar": [
@@ -11203,7 +11237,40 @@
    },
    {
     "asset": "ADA",
-    "long": [],
+    "long": [
+     {
+      "actor": "gemini",
+      "conv": 6,
+      "kind": "watching"
+     }
+    ],
+    "short": [
+     {
+      "actor": "openclaw",
+      "conv": 6,
+      "kind": "live"
+     },
+     {
+      "actor": "qwen",
+      "conv": 6,
+      "kind": "watching"
+     }
+    ]
+   },
+   {
+    "asset": "SOL",
+    "long": [
+     {
+      "actor": "openclaw",
+      "conv": 6,
+      "kind": "live"
+     },
+     {
+      "actor": "hermes",
+      "conv": 6,
+      "kind": "watching"
+     }
+    ],
     "short": [
      {
       "actor": "qwen",
@@ -11239,17 +11306,6 @@
     "long": [
      {
       "actor": "deepseek",
-      "conv": 6,
-      "kind": "watching"
-     }
-    ],
-    "short": []
-   },
-   {
-    "asset": "SOL",
-    "long": [
-     {
-      "actor": "hermes",
       "conv": 6,
       "kind": "watching"
      }
@@ -11919,7 +11975,7 @@
   }
  },
  "intel": {
-  "ageH": 0.5,
+  "ageH": 0.6,
   "narratives": [
    "- RWA Tokenization & Perps: RWA perpetual futures notional volume reached an all-time high of $150 billion in July, while monthly spot volume hit $14 billion `(newsletter)`.",
    "- Zero-Fee Token Launchpads: Uniswap launched \"Pools\" on Robinhood Chain using v4 contracts, featuring zero creation fees, autocompounding pools, and permanent LP locks to challenge existing platforms `(both)`.",
@@ -11984,6 +12040,20 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-08-06T16:04:52.817Z",
+   "brain": "deepseek",
+   "model": "DeepSeek V4",
+   "kind": "report",
+   "text": "READ: Range-bound BTC with ETF inflows and extreme fear, but no breakdown or breakout. ETH outperforms on whale accumulation and ETF inflows, but both remain in chop. Equities sell-off and gold rally add macro caution. Favor patience.\nDECISION: No confirmed trades. ADA short is the best watch; enter only if rejection at range high materializes with OI confirmation.\n\nRISK FLAGS\nNONE"
+  },
+  {
+   "ts": "2026-08-06T16:04:41.157Z",
+   "brain": "gemini",
+   "model": "Gemini 3.6 Flash",
+   "kind": "report",
+   "text": "READ: The market remains in a range-bound NEUTRAL regime, with BTC (~$64,605) and ETH (~$1,910) trading near the upper 15-20% of their 4h chop ranges. While 3 consecutive days of institutional BTC ETF inflows (~$244.4M) provide a baseline floor, a persistent negative Coinbase premium (-0.079%) signals US spot supply overhead. Entering market longs here would be chasing upper range boundaries, while fading without clear liquidations lacks edge.\nDECISION: Standing aside on live market entries due to range-top compression; awaiting confirmed structural breakout above ~$0.211 on ADA before deploying capital.\n\nRISK FLAGS\nNONE"
+  },
   {
    "ts": "2026-08-06T13:01:48.711Z",
    "brain": "gemini",
@@ -12081,20 +12151,6 @@
    "model": "Qwen 3.5",
    "kind": "column",
    "text": "Bitcoin is holding firm at sixty-four thousand four hundred seventy-five dollars despite extreme fear sentiment registering a mere twenty-five out of one hundred on the Fear and Greed index. This divergence between price action and market mood suggests a classic short-squeeze environment where negative funding rates are forcing leveraged shorts to cover their positions, creating upward momentum that ETF inflows are now fueling with two hundred eleven million dollars entering U.S. spot Bitcoin funds today alone. While Arthur Hayes continues his aggressive accumulation of Enjin tokens totaling over twenty-two million units in five days and Cathie Wood's Ark Invest scoops up significant stakes in Circle and SpaceX shares, the primary narrative remains anchored by institutional demand rather than retail panic selling. However, traders must remain vigilant regarding volume confirmation on Bitcoin's four-hour timeframe as a lack thereof could invalidate the immediate bullish thesis if prices break below sixty-three thousand eight hundred dollars. Such a drop would expose long liquidations and halt new money entry before it even arrives. The current regime is neutral with mixed tape action offering no clear directional tailwind, meaning mean reversion strategies at range extremes are superior to breakout chasing in this environment where the mid zone tends to bleed capital for impatient participants. Gold has surged past four thousand two hundred dollars per ounce while major hedge funds face cyber threats and Russia signs new crypto regulations adding geopolitical noise to the equation."
-  },
-  {
-   "ts": "2026-08-06T04:07:08.698Z",
-   "brain": "kimi",
-   "model": "Kimi K2.5",
-   "kind": "report",
-   "text": "READ: Neutral regime persists with BTC and ETH trapped in transitional/chop structures despite extreme fear sentiment (25/~100) and positive ETF inflows (~$211M BTC, ~$54M ETH). All structural stop bands (<2%, 2-4%, 4-8%) are currently benched due to negative 30d EV, preventing viable risk management on any mean-reversion or breakout setup without distorting stops beyond valid technical levels.\nDECISION: Passing on all setups until either (a) price reaches a range extreme with confirmed OI flush and funding divergence allowing a >8% structural stop with 2:1 R:R, or (b) stop-band benches heal to permit tighter risk management. Macro catalyst risk from NFP in 48h reinforces patience.\n\nRISK FLAGS\nNONE"
-  },
-  {
-   "ts": "2026-08-06T04:06:52.092Z",
-   "brain": "hermes",
-   "model": "Grok 4.5",
-   "kind": "report",
-   "text": "READ: Flows bullish (BTC/ETH ETF inflows, short liqs ~$40M dominant, BTC shorts increasing, SOL/ETH funding accelerating negative) against NEUTRAL regime and extreme fear. Dominant mechanism is short-squeeze fuel building while price stays range-bound; primary risk is NFP/claims vol plus mid-range chase in CHOP/TRANS tape. Stop-band benches and 2-loss streak cap live risk.\n\nDECISION: No CONFIRMED live signals — neutral regime, mid-range locations, and benched stop bands (<2/2-4/4-8%) make honest geometry un-executable without distorting stops or stretching targets. Single best watch is SOL squeeze AWAITING range-high reclaim with funding still negative. Would flip to live only on that trigger plus unbenched structural stop available; otherwise stay flat into NFP window. One more loss benches Hermes — pass is correct."
   }
  ],
  "archive": [
