@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-07T22:00:11.127Z",
+ "generatedAt": "2026-08-07T22:05:00.627Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,7 +26,7 @@
    "losses": 6,
    "wr": "14",
    "pnl": -45.02,
-   "account": 464.1,
+   "account": 463.87,
    "retPct": -7.2,
    "accountRealized": 454.98
   },
@@ -5340,21 +5340,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-06T22:05:00.000Z",
-   "hl": -1.40456,
-   "hl_spot": 414.01727800000003,
-   "grvt": 477.910893,
-   "extended": 366.082157,
-   "capital": 2734.666025,
-   "qwen": 460.71,
-   "openclaw": 412.61,
-   "hermes": 477.91,
-   "manual": 366.08,
-   "kimi": 512.68,
-   "deepseek": 473.8,
-   "gemini": 488.14
-  },
-  {
    "ts": "2026-08-06T22:10:00.000Z",
    "hl": -1.40456,
    "hl_spot": 414.01727800000003,
@@ -9658,6 +9643,21 @@
    "kimi": 508.03,
    "deepseek": 473.8,
    "gemini": 488.14
+  },
+  {
+   "ts": "2026-08-07T22:05:00.000Z",
+   "hl": -0.21164,
+   "hl_spot": 406.973173,
+   "grvt": 468.021674,
+   "extended": 343.099923,
+   "capital": 2691.2920939999995,
+   "qwen": 463.87,
+   "openclaw": 406.76,
+   "hermes": 468.02,
+   "manual": 343.1,
+   "kimi": 508.03,
+   "deepseek": 473.8,
+   "gemini": 488.14
   }
  ],
  "venuesLive": {
@@ -9668,6 +9668,40 @@
   "total": 2348.1921709999997
  },
  "openTrades": [
+  {
+   "id": 345,
+   "asset": "PAXG",
+   "direction": "LONG",
+   "actor": "openclaw",
+   "venue": "HL",
+   "entry": 4335.6,
+   "stop": 4270.57,
+   "target": 4465.67,
+   "levelsApprox": true,
+   "trailed": false,
+   "rr": 2.2,
+   "conviction": 6,
+   "openedAt": "2026-08-07T22:03:45.723Z",
+   "thesis": "PAXG is in a confirmed TREND regime (ER 0.715) with OI rising +4.7%/24h alongside price up +2.2%/24h — classic new-money confirmation, not chase. Top-traders are 72.4% long vs retail 59.4% long (smart money more bullish than crowd), and gold spot is up +3.8% today on safe-haven demand, a direct tailwind for the gold-backed token.",
+   "smartMoney": null
+  },
+  {
+   "id": 346,
+   "asset": "ZEC",
+   "direction": "SHORT",
+   "actor": "openclaw",
+   "venue": "HL",
+   "entry": 510.6,
+   "stop": 518.259,
+   "target": 490.176,
+   "levelsApprox": true,
+   "trailed": false,
+   "rr": 3.4,
+   "conviction": 6,
+   "openedAt": "2026-08-07T22:03:45.723Z",
+   "thesis": "HL whale positioning on ZEC is currently NET SHORT (-$4.2M) even as price sits up +11.9% over 7d into the R1 resistance zone ($515.38) — a live positioning divergence against an extended move. Stop is placed just beyond R1, invalidating the short cleanly if resistance fails to hold.",
+   "smartMoney": 1
+  },
   {
    "id": 343,
    "asset": "BTC",
@@ -9957,28 +9991,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64928.01,
-    "change24hPct": 0.75
+    "price": 64909.07,
+    "change24hPct": 0.79
    },
    {
     "symbol": "ETH",
-    "price": 1916.55,
-    "change24hPct": 0.54
+    "price": 1915.09,
+    "change24hPct": 0.46
    },
    {
     "symbol": "BNB",
-    "price": 592.74,
-    "change24hPct": 0.09
+    "price": 592.51,
+    "change24hPct": 0.04
    },
    {
     "symbol": "XRP",
-    "price": 1.0233,
-    "change24hPct": -1.26
+    "price": 1.0227,
+    "change24hPct": -1.34
    },
    {
     "symbol": "SOL",
-    "price": 73.65,
-    "change24hPct": 1.08
+    "price": 73.63,
+    "change24hPct": 1.11
    }
   ],
   "fearGreed": {
@@ -10110,7 +10144,7 @@
      "changePct": -10.6
     }
    ],
-   "ageMin": 0
+   "ageMin": 5
   },
   "chainRotation": {
    "chains": [
@@ -10249,7 +10283,7 @@
      1
     ]
    ],
-   "ageMin": 225
+   "ageMin": 230
   }
  },
  "calendar": [
@@ -10262,6 +10296,12 @@
   {
    "date": "2026-08-07",
    "event": "WLFI — USD1 Rewards Campaign",
+   "type": "CRYPTO",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-07",
+   "event": "BDX — Native Cross-Chain Bridge",
    "type": "CRYPTO",
    "impact": "MED"
   },
@@ -11245,23 +11285,28 @@
       "actor": "deepseek",
       "conv": 6,
       "kind": "watching"
+     },
+     {
+      "actor": "qwen",
+      "conv": 6,
+      "kind": "watching"
      }
     ]
    },
    {
-    "asset": "ADA",
+    "asset": "ZEC",
     "long": [
      {
-      "actor": "gemini",
+      "actor": "qwen",
       "conv": 6,
       "kind": "watching"
      }
     ],
     "short": [
      {
-      "actor": "qwen",
+      "actor": "openclaw",
       "conv": 6,
-      "kind": "watching"
+      "kind": "live"
      }
     ]
    },
@@ -11329,7 +11374,34 @@
     ]
    },
    {
-    "asset": "HYPE",
+    "asset": "PAXG",
+    "long": [
+     {
+      "actor": "openclaw",
+      "conv": 6,
+      "kind": "live"
+     },
+     {
+      "actor": "gemini",
+      "conv": 6,
+      "kind": "watching"
+     }
+    ],
+    "short": []
+   },
+   {
+    "asset": "ADA",
+    "long": [],
+    "short": [
+     {
+      "actor": "qwen",
+      "conv": 6,
+      "kind": "watching"
+     }
+    ]
+   },
+   {
+    "asset": "BNB",
     "long": [
      {
       "actor": "qwen",
@@ -11338,17 +11410,6 @@
      }
     ],
     "short": []
-   },
-   {
-    "asset": "XRP",
-    "long": [],
-    "short": [
-     {
-      "actor": "gemini",
-      "conv": 6,
-      "kind": "watching"
-     }
-    ]
    }
   ],
   "disagreement": "BTC"
@@ -12065,7 +12126,7 @@
   }
  },
  "intel": {
-  "ageH": 0.5,
+  "ageH": 0.6,
   "narratives": [
    "- Robinhood Chain Ecosystem & Tokenized Equities: Rapid execution and address growth on Robinhood Chain following the launch of Arcus Exchange (24/7 spot equities and 50x perps using Paxos USDG), Uniswap Pools deployment",
    "- AI Agents & Automated Onchain Trading: MetaMask launched \"Agent Wallet\" with customizable Guard/Beast risk controls and $10k loss coverage for autonomous trading on EVM and Hyperliquid, complementing macro interest in ",
@@ -12130,6 +12191,20 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-08-07T22:04:29.952Z",
+   "brain": "deepseek",
+   "model": "DeepSeek V4",
+   "kind": "report",
+   "text": "READ: Neutral regime with BTC coiling just below ~$65K after a short-squeeze-driven push; no clean breakout yet. Gold and equities rallied on the weak US jobs print, but crypto remains in a range-bound, low-conviction chop across most majors. No mechanism currently firing with a 2:1 reward edge at a valid entry.\nDECISION: Sitting out until a confirmed range breakout or a mean-reversion setup at a clear extreme appears. PAXG trending with top-trader alignment is the closest candidate, but entry at the range high without a confirmed break is a chase.\n\nRISK FLAGS\nNONE"
+  },
+  {
+   "ts": "2026-08-07T22:04:15.994Z",
+   "brain": "gemini",
+   "model": "Gemini 3.6 Flash",
+   "kind": "report",
+   "text": "READ: The crypto market remains in a neutral range regime with BTC coiling around ~$64.9k, supported by 4 consecutive days of spot ETF inflows (+~$128.7M) but constrained by distribution from Lighter whales. Macro conditions are shifting strongly in favor of hard assets after US payrolls unexpectedly contracted (-23k), driving Gold and PAXG into strong trend regimes (ER ~0.715). With major cryptos stuck in low-efficiency chop, trading edge lies in awaiting a confirmed range breakout on macro-backed assets rather than forcing trades in crypto range mid-points.\nDECISION: Standing aside on crypto majors due to opposing whale and ETF flows inside tight ranges, while deploying an AWAITING breakout signal on PAXG above ~$4,362.9 to capture gold macro momentum.\n\nRISK FLAGS\nNONE"
+  },
   {
    "ts": "2026-08-07T19:01:10.941Z",
    "brain": "gemini",
@@ -12227,20 +12302,6 @@
    "model": "Gemini 3.6 Flash",
    "kind": "report",
    "text": "READ: BTC and majors remain trapped in a mixed neutral regime with low 4h efficiency across altcoins, while impending US Non-Farm Payrolls macro volatility advises against chasing mid-range momentum. Institutional ETF inflows offer underlying support, but negative Coinbase premium and scattered retail leverage create chop conditions best traded via range-edge mean reversion.\nDECISION: Standing aside from immediate market orders ahead of the US NFP release while BTC consolidates. ENA short watch remains queued for execution if range-high resistance confirms post-event.\n\nRISK FLAGS\nNONE"
-  },
-  {
-   "ts": "2026-08-07T07:02:10.761Z",
-   "brain": "gemini",
-   "model": "Gemini 3.6 Flash",
-   "kind": "intraday scan",
-   "text": "READ: Crypto prices remain suppressed under a RISK_OFF regime with BTC hovering around ~$64.2k and neutral funding rates across majors. Off-hours US stock perps are inactive while crypto assets chop near local support without an immediate active liquidation cascade.\nDECISION: Awaiting confirmed BTC breakdown below ~$63,900 before deploying capital."
-  },
-  {
-   "ts": "2026-08-07T07:01:49.173Z",
-   "brain": "deepseek",
-   "model": "DeepSeek V4",
-   "kind": "intraday scan",
-   "text": "READ: BTC continues to slide in risk-off tape despite a news headline about negative funding; real‑time Coinalyze funding remains positive (0.0134%), so no squeeze signal. Overnight cash session closes the door on stock‑perp capital — no structural imbalances visible in the current derivative data.\nDECISION: AWAITING BTC SHORT trigger — no CONFIRMED edge now."
   }
  ],
  "archive": [
