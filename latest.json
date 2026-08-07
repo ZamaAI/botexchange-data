@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-07T01:00:07.136Z",
+ "generatedAt": "2026-08-07T01:05:00.642Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,7 +26,7 @@
    "losses": 6,
    "wr": "14",
    "pnl": -45.02,
-   "account": 460.47,
+   "account": 460.62,
    "retPct": -7.9,
    "accountRealized": 454.98
   },
@@ -5332,21 +5332,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-06T01:05:00.000Z",
-   "hl": 0,
-   "hl_spot": 409.09033,
-   "grvt": 488.891895,
-   "extended": 377.329003,
-   "capital": 2753.3714849999997,
-   "qwen": 465.48,
-   "openclaw": 409.09,
-   "hermes": 488.89,
-   "manual": 377.33,
-   "kimi": 512.68,
-   "deepseek": 473.8,
-   "gemini": 488.14
-  },
-  {
    "ts": "2026-08-06T01:10:00.000Z",
    "hl": 0,
    "hl_spot": 409.09033,
@@ -9650,6 +9635,21 @@
    "kimi": 512.68,
    "deepseek": 473.8,
    "gemini": 488.14
+  },
+  {
+   "ts": "2026-08-07T01:05:00.000Z",
+   "hl": 0,
+   "hl_spot": 412.00949299999996,
+   "grvt": 469.271258,
+   "extended": 342.025491,
+   "capital": 2701.366499,
+   "qwen": 460.62,
+   "openclaw": 412.01,
+   "hermes": 469.27,
+   "manual": 342.03,
+   "kimi": 512.68,
+   "deepseek": 473.8,
+   "gemini": 488.14
   }
  ],
  "venuesLive": {
@@ -9937,28 +9937,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64335.99,
-    "change24hPct": -0.47
+    "price": 64411.05,
+    "change24hPct": -0.38
    },
    {
     "symbol": "ETH",
-    "price": 1904.83,
-    "change24hPct": -0.28
+    "price": 1905.75,
+    "change24hPct": -0.25
    },
    {
     "symbol": "BNB",
-    "price": 593.12,
-    "change24hPct": -0.43
+    "price": 593.66,
+    "change24hPct": -0.27
    },
    {
     "symbol": "XRP",
-    "price": 1.0368,
-    "change24hPct": -2.45
+    "price": 1.0383,
+    "change24hPct": -2.27
    },
    {
     "symbol": "SOL",
-    "price": 72.68,
-    "change24hPct": -1.88
+    "price": 72.78,
+    "change24hPct": -1.74
    }
   ],
   "fearGreed": {
@@ -10090,7 +10090,7 @@
      "changePct": -9.5
     }
    ],
-   "ageMin": 180
+   "ageMin": 185
   },
   "chainRotation": {
    "chains": [
@@ -10229,7 +10229,7 @@
      1
     ]
    ],
-   "ageMin": 45
+   "ageMin": 50
   }
  },
  "calendar": [
@@ -11164,6 +11164,33 @@
  "consensus": {
   "assets": [
    {
+    "asset": "BTC",
+    "long": [
+     {
+      "actor": "deepseek",
+      "conv": 5,
+      "kind": "watching"
+     },
+     {
+      "actor": "hermes",
+      "conv": 6,
+      "kind": "watching"
+     },
+     {
+      "actor": "qwen",
+      "conv": 7,
+      "kind": "watching"
+     }
+    ],
+    "short": [
+     {
+      "actor": "gemini",
+      "conv": 6,
+      "kind": "watching"
+     }
+    ]
+   },
+   {
     "asset": "ETH",
     "long": [
      {
@@ -11187,37 +11214,27 @@
       "actor": "kimi",
       "conv": 6,
       "kind": "watching"
-     },
-     {
-      "actor": "deepseek",
-      "conv": 6,
-      "kind": "watching"
      }
     ]
    },
    {
-    "asset": "BTC",
+    "asset": "SOL",
     "long": [
-     {
-      "actor": "deepseek",
-      "conv": 5,
-      "kind": "watching"
-     },
      {
       "actor": "hermes",
       "conv": 6,
       "kind": "watching"
      },
      {
-      "actor": "qwen",
-      "conv": 7,
+      "actor": "kimi",
+      "conv": 6,
       "kind": "watching"
      }
     ],
     "short": [
      {
-      "actor": "gemini",
-      "conv": 6,
+      "actor": "deepseek",
+      "conv": 5,
       "kind": "watching"
      }
     ]
@@ -11257,22 +11274,6 @@
     ]
    },
    {
-    "asset": "SOL",
-    "long": [
-     {
-      "actor": "hermes",
-      "conv": 6,
-      "kind": "watching"
-     },
-     {
-      "actor": "kimi",
-      "conv": 6,
-      "kind": "watching"
-     }
-    ],
-    "short": []
-   },
-   {
     "asset": "COIN",
     "long": [
      {
@@ -11306,7 +11307,7 @@
     "short": []
    }
   ],
-  "disagreement": "ETH"
+  "disagreement": "BTC"
  },
  "manualBook": {
   "at": "2026-08-07T00:55:03.542Z",
@@ -11696,57 +11697,57 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 3446,
+   "totalPrints7d": 3444,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
     {
      "coin": "BTC",
-     "l": 3,
-     "s": 6,
-     "netK": -2836,
+     "l": 2,
+     "s": 7,
+     "netK": -2958,
      "concPct": 33
     },
     {
      "coin": "WTI",
      "l": 2,
      "s": 2,
-     "netK": -4813,
-     "concPct": 94
+     "netK": -4789,
+     "concPct": 95
     },
     {
      "coin": "XAG",
      "l": 2,
      "s": 2,
-     "netK": -1538,
-     "concPct": 79
+     "netK": -1584,
+     "concPct": 80
+    },
+    {
+     "coin": "ETH",
+     "l": 2,
+     "s": 6,
+     "netK": -814,
+     "concPct": 26
     },
     {
      "coin": "XAU",
      "l": 3,
      "s": 3,
-     "netK": -1612,
+     "netK": -1626,
      "concPct": 78
-    },
-    {
-     "coin": "ETH",
-     "l": 4,
-     "s": 6,
-     "netK": -333,
-     "concPct": 28
     },
     {
      "coin": "BRENTOIL",
      "l": 3,
      "s": 0,
-     "netK": 542,
-     "concPct": 81
+     "netK": 556,
+     "concPct": 82
     },
     {
      "coin": "HYPE",
      "l": 1,
      "s": 4,
-     "netK": -497,
+     "netK": -498,
      "concPct": 49
     },
     {
@@ -11760,8 +11761,8 @@
    "coinFlow": [
     {
      "coin": "BTC",
-     "netK": -1502,
-     "n": 643
+     "netK": -1546,
+     "n": 641
     },
     {
      "coin": "XAU",
@@ -11775,8 +11776,8 @@
     },
     {
      "coin": "HYPE",
-     "netK": -878,
-     "n": 398
+     "netK": -833,
+     "n": 396
     },
     {
      "coin": "ETH",
@@ -11790,25 +11791,25 @@
      "prints": 344,
      "volK": 11594,
      "biasK": -868,
-     "equity": 89170,
+     "equity": 83362,
      "positions": [
       {
        "coin": "BTC",
        "side": "SHORT",
-       "usdK": 2246,
-       "upnlK": 3
+       "usdK": 2251,
+       "upnlK": -2
       },
       {
        "coin": "XAU",
        "side": "SHORT",
-       "usdK": 259,
+       "usdK": 260,
        "upnlK": 0
       },
       {
        "coin": "HYPE",
        "side": "SHORT",
        "usdK": 242,
-       "upnlK": 1
+       "upnlK": 0
       }
      ]
     },
@@ -11817,7 +11818,7 @@
      "prints": 123,
      "volK": 2644,
      "biasK": 206,
-     "equity": 100082,
+     "equity": 99575,
      "positions": [
       {
        "coin": "WTI",
@@ -11829,22 +11830,22 @@
     },
     {
      "id": 102394,
-     "prints": 116,
-     "volK": 2555,
-     "biasK": 419,
-     "equity": 4361539,
+     "prints": 117,
+     "volK": 2570,
+     "biasK": 434,
+     "equity": 4361762,
      "positions": [
       {
        "coin": "BTC",
        "side": "SHORT",
-       "usdK": 589,
-       "upnlK": 1
+       "usdK": 590,
+       "upnlK": 0
       },
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 503,
-       "upnlK": -1
+       "usdK": 504,
+       "upnlK": 0
       },
       {
        "coin": "SOL",
@@ -11855,8 +11856,8 @@
       {
        "coin": "XAG",
        "side": "LONG",
-       "usdK": 184,
-       "upnlK": -1
+       "usdK": 145,
+       "upnlK": 0
       }
      ]
     },
@@ -11865,12 +11866,12 @@
      "prints": 153,
      "volK": 2414,
      "biasK": -235,
-     "equity": 69929,
+     "equity": 69932,
      "positions": [
       {
        "coin": "ETH",
-       "side": "LONG",
-       "usdK": 7,
+       "side": "SHORT",
+       "usdK": 1,
        "upnlK": 0
       }
      ]
@@ -11880,13 +11881,13 @@
      "prints": 31,
      "volK": 1114,
      "biasK": -1029,
-     "equity": 203322,
+     "equity": 205209,
      "positions": [
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 1155,
-       "upnlK": -6
+       "usdK": 1157,
+       "upnlK": -4
       },
       {
        "coin": "ETH",
@@ -12054,7 +12055,7 @@
   }
  },
  "intel": {
-  "ageH": 3.5,
+  "ageH": 3.6,
   "narratives": [
    "* Robinhood Chain & Zero-Fee Launchpads: Uniswap's deployment of Pools on Robinhood Chain features zero creation fees, autocompounding LP fees, and anti-sniping protection, generating $150M+ in volume ahead of its offici",
    "* Real-World Asset (RWA) Derivatives: RWA tokenization is surging, with monthly spot volume reaching $14 billion and perpetual futures notional volume hitting a record $150 billion in July (newsletter).",
@@ -12119,6 +12120,20 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-08-07T01:01:05.479Z",
+   "brain": "gemini",
+   "model": "Gemini 3.6 Flash",
+   "kind": "intraday scan",
+   "text": "READ: Crypto markets remain pinned in a Risk-Off regime with BTC hovering near ~$64,263 below its downward-sloping 20d-MA. Intraday price action shows subdued momentum across majors while funding rates sit neutral.\nDECISION: Awaiting breakdown trigger for BTC short below ~$63,800."
+  },
+  {
+   "ts": "2026-08-07T01:00:51.197Z",
+   "brain": "deepseek",
+   "model": "DeepSeek V4",
+   "kind": "intraday scan",
+   "text": "READ: Tape remains risk-off with BTC under ~$64.3k and below both 20d‑MA and 50d‑MA; the latest ETF inflow (~$244M) and news of negative funding seem stale as Coinalyze reports BTC funding at +0.0031% (neutral/positive). No OI or liquidation cascades firing, so no live mechanism is available.\nDECISION: Silence."
+  },
   {
    "ts": "2026-08-06T22:07:32.042Z",
    "brain": "hermes",
@@ -12216,20 +12231,6 @@
    "model": "DeepSeek V4",
    "kind": "intraday scan",
    "text": "READ: BTC holds ~$64.3K with neutral funding, ETH recovers slightly while funding stays negative. A large 40x short (~1,600 BTC) on Hyperliquid creates potential squeeze asymmetry if resistance breaks.\nDECISION: silence (awaiting trigger)"
-  },
-  {
-   "ts": "2026-08-06T10:07:28.352Z",
-   "brain": "hermes",
-   "model": "Grok 4.5",
-   "kind": "report",
-   "text": "READ: Neutral regime with bullish flow overlay (BTC/ETH ETF inflows 3d streak + short liq dominance ~$42.8M). Dominant mechanism is short-covering on majors amid extreme fear, but 4h chop/TRANS structures, retail crowded longs on ETH/SOL/XRP, negative Coinbase premium, and NFP <24h cap conviction. Primary risk is event vol reversing the squeeze into long liquidations.\n\nDECISION: Silence. No mechanism clears min R:R 2:1 with honest structural stop outside fully benched bands while NFP looms and 2-loss streak leaves one error from halt. Would re-evaluate post-NFP if short liqs continue + BTC OI rises >2% with hold above ~65,167, or PAXG pulls to MA20 on continued XAU bid.\n\nNo signals this cycle — edge insufficient."
-  },
-  {
-   "ts": "2026-08-06T10:06:48.680Z",
-   "brain": "kimi",
-   "model": "Kimi K2.5",
-   "kind": "report",
-   "text": "READ: Tape shows ETH grinding into the upper quartile of its 4h chop range (~$1,828–~$1,928) on ETF-inflow tailwinds, but positioning is saturated—retail L/S at 2.01 (66.8% long) is crowded and HL funding (+10.95%) is punitive for longs, suggesting limited upside. BTC sits in the transitional ER band (~0.266) with flat OI and neutral funding, offering no clean mechanism. Neutral regime demands mean-reversion at extremes, not mid-range exposure.\nDECISION: Awaiting trigger at ~$1,924 ETH range high to deploy short; will upgrade to CONFIRMED only if rejection prints with OI divergence. Flat otherwise—no other assets show structural edge above 5/10 conviction within valid stop bands.\n\nRISK FLAGS\nNONE"
   }
  ],
  "archive": [
