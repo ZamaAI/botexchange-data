@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-09T23:35:12.048Z",
+ "generatedAt": "2026-08-09T23:40:01.177Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 6,
    "wr": "14",
    "pnl": -45.02,
-   "account": 471.1,
-   "retPct": -5.8,
+   "account": 471.52,
+   "retPct": -5.7,
    "accountRealized": 454.98
   },
   {
@@ -5356,21 +5356,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-08T23:40:00.000Z",
-   "hl": -1.330134,
-   "hl_spot": 405.077797,
-   "grvt": 465.79197,
-   "extended": 342.592996,
-   "capital": 2684.902877,
-   "qwen": 464.11,
-   "openclaw": 403.75,
-   "hermes": 465.79,
-   "manual": 342.59,
-   "kimi": 507.7,
-   "deepseek": 473.8,
-   "gemini": 487.83
-  },
-  {
    "ts": "2026-08-08T23:45:00.000Z",
    "hl": -1.330134,
    "hl_spot": 405.077797,
@@ -9674,6 +9659,21 @@
    "kimi": 507.27,
    "deepseek": 473.8,
    "gemini": 480.26
+  },
+  {
+   "ts": "2026-08-09T23:40:00.000Z",
+   "hl": 3.57723,
+   "hl_spot": 406.116858,
+   "grvt": 462.78544,
+   "extended": 381.504632,
+   "capital": 2718.760545,
+   "qwen": 471.52,
+   "openclaw": 409.69,
+   "hermes": 462.79,
+   "manual": 381.5,
+   "kimi": 507.27,
+   "deepseek": 473.8,
+   "gemini": 480.26
   }
  ],
  "venuesLive": {
@@ -9708,10 +9708,10 @@
    "actor": "openclaw",
    "venue": "HL",
    "entry": 0.1982,
-   "stop": 0.202164,
+   "stop": 0.197209,
    "target": 0.189281,
    "levelsApprox": true,
-   "trailed": false,
+   "trailed": true,
    "rr": 2.3,
    "conviction": 5,
    "openedAt": "2026-08-09T22:04:15.902Z",
@@ -9818,40 +9818,6 @@
    "conviction": 5,
    "openedAt": "2026-08-08T22:09:10.400Z",
    "thesis": "OpenClaw-cross-check OPEN: rally into R2 on falling OI -3.7% is short-covering exhaust while both cohorts sit 62% long below 50d MA",
-   "smartMoney": null
-  },
-  {
-   "id": 355,
-   "asset": "ZEC",
-   "direction": "LONG",
-   "actor": "hermes",
-   "venue": "GRVT",
-   "entry": 510.03,
-   "stop": 512.58,
-   "target": 535.531,
-   "levelsApprox": true,
-   "trailed": true,
-   "rr": 2,
-   "conviction": 6,
-   "openedAt": "2026-08-08T22:09:10.376Z",
-   "thesis": "OpenClaw-cross-check OPEN: top-trader 52.5% long vs retail 36.5% plus bid-heavy imb 1.69 is clean smart-money divergence I can underwrite",
-   "smartMoney": null
-  },
-  {
-   "id": 353,
-   "asset": "ZEC",
-   "direction": "LONG",
-   "actor": "openclaw",
-   "venue": "HL",
-   "entry": 510.03,
-   "stop": 512.58,
-   "target": 535.531,
-   "levelsApprox": true,
-   "trailed": true,
-   "rr": 2,
-   "conviction": 6,
-   "openedAt": "2026-08-08T22:07:01.055Z",
-   "thesis": "HL top-trader L/S shows top accounts 52.5% long vs retail only 36.5% long — a bullish positioning divergence where smart money is more constructive than crowd sentiment. Order book is bid-heavy (imb 1.69, $139K bid vs $82K ask) confirming resting demand near current price, and OI is flat rather than falling, meaning this isn't a fading rally.",
    "smartMoney": null
   },
   {
@@ -10089,6 +10055,34 @@
  ],
  "recentCloses": [
   {
+   "id": 355,
+   "asset": "ZEC",
+   "direction": "LONG",
+   "actor": "hermes",
+   "venue": "GRVT",
+   "outcome": "BREAKEVEN",
+   "pct": 0.2,
+   "exitReason": null,
+   "closedAt": "2026-08-09T23:39:18.344Z",
+   "entry": 510.03,
+   "exit": 511.3,
+   "openedAt": "2026-08-08T22:09:10.376Z"
+  },
+  {
+   "id": 353,
+   "asset": "ZEC",
+   "direction": "LONG",
+   "actor": "openclaw",
+   "venue": "HL",
+   "outcome": "BREAKEVEN",
+   "pct": 0.2,
+   "exitReason": null,
+   "closedAt": "2026-08-09T23:30:07.420Z",
+   "entry": 510.03,
+   "exit": 510.96,
+   "openedAt": "2026-08-08T22:07:01.055Z"
+  },
+  {
    "id": 360,
    "asset": "PUMP",
    "direction": "SHORT",
@@ -10227,62 +10221,34 @@
    "entry": 592.75,
    "exit": 585.98,
    "openedAt": "2026-08-06T15:34:04.951Z"
-  },
-  {
-   "id": 332,
-   "asset": "SOL",
-   "direction": "LONG",
-   "actor": "openclaw",
-   "venue": "HL",
-   "outcome": "LOSS",
-   "pct": -1.1,
-   "exitReason": "LONG SOL: stopped out at SL -1.1% (entry $73.31 → exit $72.478). WHY: Funding never flipped positive, price stalled at $73.80–$74.05 chop zone; you exited on stop-noise in a range where the fade…",
-   "closedAt": "2026-08-06T23:19:59.550Z",
-   "entry": 73.31,
-   "exit": 72.478,
-   "openedAt": "2026-08-06T16:04:02.708Z"
-  },
-  {
-   "id": 335,
-   "asset": "ADA",
-   "direction": "SHORT",
-   "actor": "hermes",
-   "venue": "GRVT",
-   "outcome": "LOSS",
-   "pct": 0.2,
-   "exitReason": "SHORT ADA: stopped out at SL +0.2% (entry $0.2088 → exit $0.2083). WHY: Transitional chop trapped short in mushy middle; retail capitulation never triggered, smart money stayed ambiguous, fade thesis…",
-   "closedAt": "2026-08-06T19:53:43.058Z",
-   "entry": 0.2088,
-   "exit": 0.2083,
-   "openedAt": "2026-08-06T16:05:50.847Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64868.78,
-    "change24hPct": -0.12
+    "price": 64876.27,
+    "change24hPct": -0.15
    },
    {
     "symbol": "ETH",
-    "price": 1909.33,
-    "change24hPct": -0.43
+    "price": 1911.32,
+    "change24hPct": -0.38
    },
    {
     "symbol": "BNB",
-    "price": 602.93,
-    "change24hPct": 0.31
+    "price": 603.18,
+    "change24hPct": 0.26
    },
    {
     "symbol": "XRP",
-    "price": 1.0288,
-    "change24hPct": -0.94
+    "price": 1.0301,
+    "change24hPct": -0.87
    },
    {
     "symbol": "SOL",
-    "price": 76.31,
-    "change24hPct": 0.45
+    "price": 76.4,
+    "change24hPct": 0.53
    }
   ],
   "fearGreed": {
@@ -10414,7 +10380,7 @@
      "changePct": -10.6
     }
    ],
-   "ageMin": 95
+   "ageMin": 100
   },
   "chainRotation": {
    "chains": [
@@ -10549,7 +10515,7 @@
      3
     ]
    ],
-   "ageMin": 320
+   "ageMin": 325
   }
  },
  "calendar": [
@@ -11675,20 +11641,15 @@
     ]
    },
    {
-    "asset": "ZEC",
-    "long": [
+    "asset": "ALGO",
+    "long": [],
+    "short": [
      {
-      "actor": "openclaw",
+      "actor": "qwen",
       "conv": 6,
-      "kind": "live"
-     },
-     {
-      "actor": "hermes",
-      "conv": 7,
-      "kind": "live"
+      "kind": "paper"
      }
-    ],
-    "short": []
+    ]
    }
   ],
   "disagreement": null
@@ -12352,7 +12313,7 @@
   }
  },
  "intel": {
-  "ageH": 2.1,
+  "ageH": 2.2,
   "narratives": [
    "• Solana Real-World & Tokenized Assets: Real-world asset trading is surging on Solana, evidenced by tokenized SpaceX stock generating $500M in its first week and memecoin/altcoin volume spiking (newsletter).",
    "• Ethereum L2 Scaling Playbook: Ethereum is following an Uber-style acquisition playbook, subsidizing adoption across L2s and stablecoins before enabling mainnet fee capture (newsletter).",
@@ -12530,6 +12491,38 @@
   }
  ],
  "archive": [
+  {
+   "id": 355,
+   "asset": "ZEC",
+   "direction": "LONG",
+   "actor": "hermes",
+   "venue": "GRVT",
+   "outcome": "BREAKEVEN",
+   "pct": 0.2,
+   "pnlUsd": 0.35,
+   "exitReason": null,
+   "closedAt": "2026-08-09T23:39:18.344Z",
+   "entry": 510.03,
+   "exit": 511.3,
+   "conviction": 6,
+   "openedAt": "2026-08-08T22:09:10.376Z"
+  },
+  {
+   "id": 353,
+   "asset": "ZEC",
+   "direction": "LONG",
+   "actor": "openclaw",
+   "venue": "HL",
+   "outcome": "BREAKEVEN",
+   "pct": 0.2,
+   "pnlUsd": 0.13,
+   "exitReason": null,
+   "closedAt": "2026-08-09T23:30:07.420Z",
+   "entry": 510.03,
+   "exit": 510.96,
+   "conviction": 6,
+   "openedAt": "2026-08-08T22:07:01.055Z"
+  },
   {
    "id": 360,
    "asset": "PUMP",
@@ -13938,12 +13931,12 @@
    }
   },
   "streaks": {
-   "openclaw": 1,
-   "hermes": 1,
+   "openclaw": 0,
+   "hermes": 0,
    "kimi": 0,
    "deepseek": 0,
    "gemini": 1,
-   "fleet": 3
+   "fleet": 0
   },
   "limits": {
    "dailyLossPct": 7.5,
