@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-09T16:00:08.062Z",
+ "generatedAt": "2026-08-09T16:05:01.178Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,7 +26,7 @@
    "losses": 6,
    "wr": "14",
    "pnl": -45.02,
-   "account": 460.59,
+   "account": 460.55,
    "retPct": -7.9,
    "accountRealized": 454.98
   },
@@ -5356,21 +5356,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-08T16:05:00.000Z",
-   "hl": 1.3388700000000002,
-   "hl_spot": 407.588553,
-   "grvt": 470.181373,
-   "extended": 347.795649,
-   "capital": 2701.3570130000003,
-   "qwen": 465.39,
-   "openclaw": 408.93,
-   "hermes": 470.18,
-   "manual": 347.8,
-   "kimi": 508.45,
-   "deepseek": 473.8,
-   "gemini": 488.76
-  },
-  {
    "ts": "2026-08-08T16:10:00.000Z",
    "hl": 1.3388700000000002,
    "hl_spot": 407.588553,
@@ -9674,6 +9659,21 @@
    "kimi": 509.1,
    "deepseek": 473.8,
    "gemini": 483.12
+  },
+  {
+   "ts": "2026-08-09T16:05:00.000Z",
+   "hl": 8.342278,
+   "hl_spot": 410.61061900000004,
+   "grvt": 472.839963,
+   "extended": 386.76522,
+   "capital": 2748.0112930000005,
+   "qwen": 460.55,
+   "openclaw": 418.95,
+   "hermes": 472.84,
+   "manual": 386.77,
+   "kimi": 509.1,
+   "deepseek": 473.8,
+   "gemini": 483.12
   }
  ],
  "venuesLive": {
@@ -9684,6 +9684,23 @@
   "total": 2361.2460730000003
  },
  "openTrades": [
+  {
+   "id": 362,
+   "asset": "XMR",
+   "direction": "SHORT",
+   "actor": "openclaw",
+   "venue": "PAPER",
+   "entry": 398.93,
+   "stop": 418.88,
+   "target": 355.05,
+   "levelsApprox": false,
+   "trailed": false,
+   "rr": 2.2,
+   "conviction": 5,
+   "openedAt": "2026-08-09T16:04:49.380Z",
+   "thesis": "XMR HL funding is running +55.9% APR vs Binance +3.9% (gap +52pts) — an extreme crowded-long premium on Hyperliquid specifically, while OI is falling -4.4%/4h and -3.7%/24h even as price ripped +7.6%/24h and +13.1%/7d — classic late-long distribution into a rally.",
+   "smartMoney": null
+  },
   {
    "id": 358,
    "asset": "ALGO",
@@ -10176,28 +10193,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 65228.68,
-    "change24hPct": 0.23
+    "price": 65235.34,
+    "change24hPct": 0.22
    },
    {
     "symbol": "ETH",
-    "price": 1926.7,
-    "change24hPct": 0.21
+    "price": 1925.9,
+    "change24hPct": 0.14
    },
    {
     "symbol": "BNB",
-    "price": 608.59,
-    "change24hPct": 0.53
+    "price": 608.97,
+    "change24hPct": 0.57
    },
    {
     "symbol": "XRP",
-    "price": 1.044,
-    "change24hPct": -0.13
+    "price": 1.0438,
+    "change24hPct": -0.23
    },
    {
     "symbol": "SOL",
-    "price": 77.48,
-    "change24hPct": 1.43
+    "price": 77.4,
+    "change24hPct": 1.36
    }
   ],
   "fearGreed": {
@@ -10329,7 +10346,7 @@
      "changePct": -8.6
     }
    ],
-   "ageMin": 0
+   "ageMin": 5
   },
   "chainRotation": {
    "chains": [
@@ -10468,7 +10485,7 @@
      1
     ]
    ],
-   "ageMin": 285
+   "ageMin": 290
   }
  },
  "calendar": [
@@ -11453,6 +11470,23 @@
  "consensus": {
   "assets": [
    {
+    "asset": "XMR",
+    "long": [
+     {
+      "actor": "hermes",
+      "conv": 5,
+      "kind": "watching"
+     }
+    ],
+    "short": [
+     {
+      "actor": "openclaw",
+      "conv": 5,
+      "kind": "paper"
+     }
+    ]
+   },
+   {
     "asset": "BTC",
     "long": [
      {
@@ -11578,20 +11612,9 @@
       "kind": "paper"
      }
     ]
-   },
-   {
-    "asset": "APT",
-    "long": [],
-    "short": [
-     {
-      "actor": "kimi",
-      "conv": 5,
-      "kind": "watching"
-     }
-    ]
    }
   ],
-  "disagreement": null
+  "disagreement": "XMR"
  },
  "manualBook": {
   "at": "2026-08-09T15:50:11.080Z",
@@ -11871,16 +11894,16 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 3514,
+   "totalPrints7d": 3520,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
     {
      "coin": "BTC",
      "l": 2,
-     "s": 3,
-     "netK": -833,
-     "concPct": 44
+     "s": 2,
+     "netK": -1405,
+     "concPct": 50
     },
     {
      "coin": "WTI",
@@ -11900,22 +11923,22 @@
      "coin": "XAU",
      "l": 0,
      "s": 4,
-     "netK": -1775,
+     "netK": -1776,
      "concPct": 82
     },
     {
      "coin": "BRENTOIL",
      "l": 3,
      "s": 0,
-     "netK": 1567,
+     "netK": 1564,
      "concPct": 97
     },
     {
      "coin": "ETH",
-     "l": 1,
-     "s": 1,
-     "netK": 706,
-     "concPct": 97
+     "l": 2,
+     "s": 0,
+     "netK": 726,
+     "concPct": 100
     },
     {
      "coin": "SPCX",
@@ -11935,8 +11958,8 @@
    "coinFlow": [
     {
      "coin": "BTC",
-     "netK": 833,
-     "n": 608
+     "netK": 871,
+     "n": 610
     },
     {
      "coin": "WTI",
@@ -11944,14 +11967,14 @@
      "n": 556
     },
     {
-     "coin": "ETH",
-     "netK": -629,
-     "n": 578
-    },
-    {
      "coin": "SNDK",
      "netK": -623,
      "n": 189
+    },
+    {
+     "coin": "ETH",
+     "netK": -575,
+     "n": 579
     },
     {
      "coin": "HYPE",
@@ -11965,12 +11988,12 @@
      "prints": 376,
      "volK": 11762,
      "biasK": -691,
-     "equity": 75998,
+     "equity": 76443,
      "positions": [
       {
-       "coin": "BTC",
+       "coin": "ZEC",
        "side": "LONG",
-       "usdK": 642,
+       "usdK": 211,
        "upnlK": 0
       },
       {
@@ -11982,7 +12005,7 @@
       {
        "coin": "TAO",
        "side": "LONG",
-       "usdK": 169,
+       "usdK": 170,
        "upnlK": 1
       }
      ]
@@ -12219,7 +12242,7 @@
   }
  },
  "intel": {
-  "ageH": 0.5,
+  "ageH": 0.6,
   "narratives": [
    "* Tokenized Private Equities / RWAs: Tokenized SpaceX stock pulled $500M in volume in its first week on Solana, with analysts noting compute capability as the primary valuation driver (newsletter).",
    "* AI Options & Automated Trading: Autonomous AI trading agents are expected to favor complex options over perpetual futures, driving protocol buildouts like Derive's \"infinite payoff factory\" (newsletter).",
