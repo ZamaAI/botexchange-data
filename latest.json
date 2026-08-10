@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-10T19:05:00.930Z",
+ "generatedAt": "2026-08-10T19:10:11.406Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,7 +26,7 @@
    "losses": 7,
    "wr": "22",
    "pnl": -34.16,
-   "account": 473.67,
+   "account": 473.61,
    "retPct": -5.3,
    "accountRealized": 465.84
   },
@@ -5364,21 +5364,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-09T19:10:00.000Z",
-   "hl": 6.041608,
-   "hl_spot": 408.387189,
-   "grvt": 469.936838,
-   "extended": 392.536056,
-   "capital": 2745.3484909999997,
-   "qwen": 460.89,
-   "openclaw": 414.43,
-   "hermes": 469.94,
-   "manual": 392.54,
-   "kimi": 508.95,
-   "deepseek": 473.8,
-   "gemini": 482.26
-  },
-  {
    "ts": "2026-08-09T19:15:00.000Z",
    "hl": 6.480523999999999,
    "hl_spot": 408.941798,
@@ -9682,6 +9667,21 @@
    "kimi": 503.63,
    "deepseek": 469.55,
    "gemini": 476.54
+  },
+  {
+   "ts": "2026-08-10T19:10:00.000Z",
+   "hl": 1.3874819999999999,
+   "hl_spot": 398.137477,
+   "grvt": 449.50613,
+   "extended": 387.284587,
+   "capital": 2689.478865,
+   "qwen": 473.61,
+   "openclaw": 399.52,
+   "hermes": 449.51,
+   "manual": 387.28,
+   "kimi": 503.63,
+   "deepseek": 469.55,
+   "gemini": 476.54
   }
  ],
  "venuesLive": {
@@ -10139,28 +10139,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63908.82,
-    "change24hPct": -1.98
+    "price": 63922.98,
+    "change24hPct": -1.96
    },
    {
     "symbol": "ETH",
-    "price": 1873.84,
-    "change24hPct": -2.51
+    "price": 1874.5,
+    "change24hPct": -2.47
    },
    {
     "symbol": "BNB",
-    "price": 600.36,
-    "change24hPct": -1.37
+    "price": 600.54,
+    "change24hPct": -1.35
    },
    {
     "symbol": "XRP",
-    "price": 1.0186,
-    "change24hPct": -2.13
+    "price": 1.0185,
+    "change24hPct": -2.15
    },
    {
     "symbol": "SOL",
-    "price": 75.85,
-    "change24hPct": -1.75
+    "price": 75.87,
+    "change24hPct": -1.71
    }
   ],
   "fearGreed": {
@@ -10187,31 +10187,31 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.544,
-    "longPct": 60.7,
+    "ratio": 1.55,
+    "longPct": 60.8,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "ETH",
-    "ratio": 2.559,
+    "ratio": 2.561,
     "longPct": 71.9,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.02,
+    "ratio": 2.023,
     "longPct": 66.9,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.189,
-    "longPct": 68.6,
+    "ratio": 2.191,
+    "longPct": 68.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 3.027,
+    "ratio": 3.031,
     "longPct": 75.2,
     "bias": "CROWDED LONG"
    }
@@ -10353,7 +10353,7 @@
      13
     ]
    ],
-   "ageMin": 127
+   "ageMin": 132
   }
  },
  "calendar": [
@@ -11264,14 +11264,14 @@
   "disagreement": "ETH"
  },
  "manualBook": {
-  "at": "2026-08-10T18:55:04.153Z",
+  "at": "2026-08-10T19:10:11.406Z",
   "positions": [
    {
     "asset": "HOOD",
     "stock": true,
     "direction": "LONG",
     "entry": 87.021,
-    "pnlPct": 8.09
+    "pnlPct": 8.45
    },
    {
     "asset": "XPL",
@@ -11285,7 +11285,7 @@
     "stock": false,
     "direction": "LONG",
     "entry": 1182.24,
-    "pnlPct": -15.43
+    "pnlPct": -15.73
    }
   ]
  },
@@ -11929,7 +11929,7 @@
   }
  },
  "intel": {
-  "ageH": 3.6,
+  "ageH": 3.7,
   "narratives": [
    "* Tokenized Equities via ERC-6551: StonkBrokers flipped major collections with its floor rising to 13 ETH, leveraging token-bound accounts that hold real yield-bearing equities like Apple and Nvidia on Robinhood Chain. (",
    "* Restaking Unbundling / EigenLayer Exit: ether.fi is separating restaking from weETH and migrating restaking exposure to a Symbiotic-based token (weETHs) with plans to fully remove EigenPod credentials by Q4 2026. (news",
@@ -13697,7 +13697,7 @@
     "actor": "openclaw",
     "halted": true,
     "rule": "consecutive_loss_global",
-    "reason": "6 consecutive losses (24h window) across all live brains (deepseek×1, hermes×2, openclaw×2, kimi×1), last one 1.2h ago. Fleet cooldown 22.8h remaining.",
+    "reason": "6 consecutive losses (24h window) across all live brains (deepseek×1, hermes×2, openclaw×2, kimi×1), last one 1.3h ago. Fleet cooldown 22.7h remaining.",
     "equity": 399.52,
     "peak": 500.34
    },
@@ -13705,7 +13705,7 @@
     "actor": "hermes",
     "halted": true,
     "rule": "consecutive_loss_global",
-    "reason": "6 consecutive losses (24h window) across all live brains (deepseek×1, hermes×2, openclaw×2, kimi×1), last one 1.2h ago. Fleet cooldown 22.8h remaining.",
+    "reason": "6 consecutive losses (24h window) across all live brains (deepseek×1, hermes×2, openclaw×2, kimi×1), last one 1.3h ago. Fleet cooldown 22.7h remaining.",
     "equity": 449.51,
     "peak": 503.34
    },
@@ -13714,7 +13714,7 @@
     "venue": "LIGHTER",
     "halted": true,
     "rule": "consecutive_loss_global",
-    "reason": "6 consecutive losses (24h window) across all live brains (deepseek×1, hermes×2, openclaw×2, kimi×1), last one 1.2h ago. Fleet cooldown 22.8h remaining.",
+    "reason": "6 consecutive losses (24h window) across all live brains (deepseek×1, hermes×2, openclaw×2, kimi×1), last one 1.3h ago. Fleet cooldown 22.7h remaining.",
     "equity": 503.63,
     "peak": 516.44
    },
@@ -13723,7 +13723,7 @@
     "venue": "LIGHTER",
     "halted": true,
     "rule": "consecutive_loss_global",
-    "reason": "6 consecutive losses (24h window) across all live brains (deepseek×1, hermes×2, openclaw×2, kimi×1), last one 1.2h ago. Fleet cooldown 22.8h remaining.",
+    "reason": "6 consecutive losses (24h window) across all live brains (deepseek×1, hermes×2, openclaw×2, kimi×1), last one 1.3h ago. Fleet cooldown 22.7h remaining.",
     "equity": 469.55,
     "peak": 500
    },
