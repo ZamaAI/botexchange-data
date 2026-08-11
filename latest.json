@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-11T10:00:01.176Z",
+ "generatedAt": "2026-08-11T10:05:01.418Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 7,
    "wr": "22",
    "pnl": -34.16,
-   "account": 464.38,
-   "retPct": -7.1,
+   "account": 463.81,
+   "retPct": -7.2,
    "accountRealized": 465.84
   },
   {
@@ -5372,21 +5372,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-10T10:05:00.000Z",
-   "hl": 0.21355200000000008,
-   "hl_spot": 403.265577,
-   "grvt": 463.916894,
-   "extended": 392.17225,
-   "capital": 2725.958553,
-   "qwen": 474.32,
-   "openclaw": 403.48,
-   "hermes": 463.92,
-   "manual": 392.17,
-   "kimi": 507.77,
-   "deepseek": 473.8,
-   "gemini": 481.38
-  },
-  {
    "ts": "2026-08-10T10:10:00.000Z",
    "hl": 0.21355200000000008,
    "hl_spot": 403.265577,
@@ -9690,6 +9675,21 @@
    "kimi": 508.24,
    "deepseek": 469.55,
    "gemini": 473.97
+  },
+  {
+   "ts": "2026-08-11T10:05:00.000Z",
+   "hl": 3.62707,
+   "hl_spot": 392.38883599999997,
+   "grvt": 444.581093,
+   "extended": 372.463986,
+   "capital": 2668.2643019999996,
+   "qwen": 463.81,
+   "openclaw": 396.02,
+   "hermes": 444.58,
+   "manual": 372.46,
+   "kimi": 508.24,
+   "deepseek": 469.55,
+   "gemini": 473.97
   }
  ],
  "venuesLive": {
@@ -10102,35 +10102,35 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64300,
-    "change24hPct": -1.03
+    "price": 64299.99,
+    "change24hPct": -1.14
    },
    {
     "symbol": "ETH",
-    "price": 1885.41,
-    "change24hPct": -1.62
+    "price": 1885.54,
+    "change24hPct": -1.76
    },
    {
     "symbol": "BNB",
-    "price": 607.19,
-    "change24hPct": 0.47
+    "price": 607.63,
+    "change24hPct": 0.34
    },
    {
     "symbol": "XRP",
-    "price": 1.0071,
-    "change24hPct": -2.27
+    "price": 1.0065,
+    "change24hPct": -2.44
    },
    {
     "symbol": "SOL",
-    "price": 75.9,
-    "change24hPct": -0.87
+    "price": 75.91,
+    "change24hPct": -0.99
    }
   ],
   "fearGreed": {
    "value": 29,
    "classification": "Fear"
   },
-  "regime": "RISK_OFF",
+  "regime": "NEUTRAL",
   "stockFearGreed": {
    "value": 64,
    "classification": "Greed",
@@ -10150,38 +10150,112 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.614,
+    "ratio": 1.61,
     "longPct": 61.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "ETH",
-    "ratio": 2.589,
-    "longPct": 72.1,
+    "ratio": 2.591,
+    "longPct": 72.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.067,
+    "ratio": 2.07,
     "longPct": 67.4,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.121,
-    "longPct": 68,
+    "ratio": 2.119,
+    "longPct": 67.9,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 3.077,
+    "ratio": 3.075,
     "longPct": 75.5,
     "bias": "CROWDED LONG"
+   }
+  ],
+  "funding": [
+   {
+    "asset": "BTC",
+    "dailyPct": 0.0168,
+    "signal": "NEUTRAL"
+   },
+   {
+    "asset": "ETH",
+    "dailyPct": 0.0149,
+    "signal": "NEUTRAL"
+   },
+   {
+    "asset": "SOL",
+    "dailyPct": -0.0051,
+    "signal": "NEUTRAL"
    }
   ],
   "btcNqCorr": {
    "corr": 0.53,
    "label": "MIXED"
+  },
+  "movers": {
+   "gainers": [
+    {
+     "symbol": "REUR",
+     "price": 4.13,
+     "changePct": 262.8
+    },
+    {
+     "symbol": "USDA",
+     "price": 1,
+     "changePct": 178.5
+    },
+    {
+     "symbol": "M",
+     "price": 1.29,
+     "changePct": 66.7
+    },
+    {
+     "symbol": "CYS",
+     "price": 1.36,
+     "changePct": 51
+    },
+    {
+     "symbol": "VELVET",
+     "price": 0.583225,
+     "changePct": 30.5
+    }
+   ],
+   "losers": [
+    {
+     "symbol": "BEAT",
+     "price": 0.999194,
+     "changePct": -62.5
+    },
+    {
+     "symbol": "TUT",
+     "price": 0.097663,
+     "changePct": -36.6
+    },
+    {
+     "symbol": "US",
+     "price": 0.03859752,
+     "changePct": -13.9
+    },
+    {
+     "symbol": "KOGE",
+     "price": 52.63,
+     "changePct": -12.2
+    },
+    {
+     "symbol": "HASH",
+     "price": 0.00744256,
+     "changePct": -10.9
+    }
+   ],
+   "ageMin": 4
   },
   "chainRotation": {
    "chains": [
@@ -10316,7 +10390,7 @@
      5
     ]
    ],
-   "ageMin": 287
+   "ageMin": 292
   }
  },
  "calendar": [
@@ -11208,6 +11282,22 @@
     ]
    },
    {
+    "asset": "XRP",
+    "long": [],
+    "short": [
+     {
+      "actor": "deepseek",
+      "conv": 5,
+      "kind": "watching"
+     },
+     {
+      "actor": "qwen",
+      "conv": 6,
+      "kind": "watching"
+     }
+    ]
+   },
+   {
     "asset": "APT",
     "long": [],
     "short": [
@@ -11245,17 +11335,6 @@
     "long": [
      {
       "actor": "gemini",
-      "conv": 6,
-      "kind": "live"
-     }
-    ],
-    "short": []
-   },
-   {
-    "asset": "PAXG",
-    "long": [
-     {
-      "actor": "openclaw",
       "conv": 6,
       "kind": "live"
      }
@@ -11924,7 +12003,7 @@
   }
  },
  "intel": {
-  "ageH": 0.5,
+  "ageH": 0.6,
   "narratives": [
    "* AI Hardware Mega-Financing: Unprecedented debt packages and private buybacks are emerging to fund AI compute infrastructure, highlighted by Nvidia's $500B consortium deal and OpenAI's $7B internal share buyback (X).",
    "* Tokenized Equities in DeFi Margin Systems: Perpetuals DEX Nado integrated Kraken-listed xStocks (tokenized equities) into its unified account system as cross-margin collateral for 24/7 continuous leverage (newsletter).",
@@ -13757,7 +13836,7 @@
     "actor": "openclaw",
     "halted": true,
     "rule": "consecutive_loss_agent",
-    "reason": "openclaw: 3 consecutive losses (24h window), last one 6.7h ago. openclaw cooldown 17.3h remaining (other agents unaffected; 2 paper wins release early — has 0).",
+    "reason": "openclaw: 3 consecutive losses (24h window), last one 6.8h ago. openclaw cooldown 17.2h remaining (other agents unaffected; 2 paper wins release early — has 0).",
     "equity": 396.02,
     "peak": 500.34
    },
