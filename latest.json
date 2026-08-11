@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-11T01:00:00.920Z",
+ "generatedAt": "2026-08-11T01:05:01.972Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,7 +26,7 @@
    "losses": 7,
    "wr": "22",
    "pnl": -34.16,
-   "account": 464.25,
+   "account": 464.48,
    "retPct": -7.1,
    "accountRealized": 465.84
   },
@@ -5364,21 +5364,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-10T01:05:00.000Z",
-   "hl": 1.4369940000000003,
-   "hl_spot": 403.948661,
-   "grvt": 463.254484,
-   "extended": 395.571827,
-   "capital": 2730.4768990000002,
-   "qwen": 473.07,
-   "openclaw": 405.39,
-   "hermes": 463.25,
-   "manual": 395.57,
-   "kimi": 507.93,
-   "deepseek": 473.8,
-   "gemini": 481.09
-  },
-  {
    "ts": "2026-08-10T01:10:00.000Z",
    "hl": 0.8630240000000001,
    "hl_spot": 403.395751,
@@ -9682,6 +9667,21 @@
    "kimi": 506.04,
    "deepseek": 469.55,
    "gemini": 476.03
+  },
+  {
+   "ts": "2026-08-11T01:05:00.000Z",
+   "hl": -1.6816359999999997,
+   "hl_spot": 394.95189300000004,
+   "grvt": 444.048677,
+   "extended": 370.593324,
+   "capital": 2662.965615,
+   "qwen": 464.48,
+   "openclaw": 393.27,
+   "hermes": 444.05,
+   "manual": 370.59,
+   "kimi": 506.04,
+   "deepseek": 469.55,
+   "gemini": 476.03
   }
  ],
  "venuesLive": {
@@ -10122,28 +10122,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64040,
-    "change24hPct": -1.43
+    "price": 64012,
+    "change24hPct": -1.49
    },
    {
     "symbol": "ETH",
-    "price": 1875.32,
-    "change24hPct": -1.96
+    "price": 1875.19,
+    "change24hPct": -1.98
    },
    {
     "symbol": "BNB",
-    "price": 599.91,
-    "change24hPct": -0.68
+    "price": 600.12,
+    "change24hPct": -0.74
    },
    {
     "symbol": "XRP",
-    "price": 1.0131,
-    "change24hPct": -1.76
+    "price": 1.0117,
+    "change24hPct": -1.98
    },
    {
     "symbol": "SOL",
-    "price": 75.9,
-    "change24hPct": -0.84
+    "price": 75.8,
+    "change24hPct": -1.06
    }
   ],
   "fearGreed": {
@@ -10170,20 +10170,20 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.617,
-    "longPct": 61.8,
+    "ratio": 1.622,
+    "longPct": 61.9,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "ETH",
-    "ratio": 2.614,
-    "longPct": 72.3,
+    "ratio": 2.618,
+    "longPct": 72.4,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.015,
-    "longPct": 66.8,
+    "ratio": 2.018,
+    "longPct": 66.9,
     "bias": "CROWDED LONG"
    },
    {
@@ -10194,8 +10194,8 @@
    },
    {
     "asset": "XRP",
-    "ratio": 3.014,
-    "longPct": 75.1,
+    "ratio": 3.026,
+    "longPct": 75.2,
     "bias": "CROWDED LONG"
    }
   ],
@@ -10275,7 +10275,7 @@
      "changePct": -13.3
     }
    ],
-   "ageMin": 180
+   "ageMin": 185
   },
   "chainRotation": {
    "chains": [
@@ -10410,7 +10410,7 @@
      5
     ]
    ],
-   "ageMin": 105
+   "ageMin": 110
   }
  },
  "calendar": [
@@ -11221,6 +11221,33 @@
  "consensus": {
   "assets": [
    {
+    "asset": "BTC",
+    "long": [
+     {
+      "actor": "kimi",
+      "conv": 6,
+      "kind": "watching"
+     }
+    ],
+    "short": [
+     {
+      "actor": "gemini",
+      "conv": 5,
+      "kind": "live"
+     },
+     {
+      "actor": "hermes",
+      "conv": 6,
+      "kind": "watching"
+     },
+     {
+      "actor": "deepseek",
+      "conv": 5,
+      "kind": "watching"
+     }
+    ]
+   },
+   {
     "asset": "ETH",
     "long": [
      {
@@ -11242,28 +11269,6 @@
      },
      {
       "actor": "qwen",
-      "conv": 6,
-      "kind": "watching"
-     }
-    ]
-   },
-   {
-    "asset": "BTC",
-    "long": [
-     {
-      "actor": "kimi",
-      "conv": 6,
-      "kind": "watching"
-     }
-    ],
-    "short": [
-     {
-      "actor": "gemini",
-      "conv": 5,
-      "kind": "live"
-     },
-     {
-      "actor": "hermes",
       "conv": 6,
       "kind": "watching"
      }
@@ -11366,7 +11371,7 @@
     ]
    }
   ],
-  "disagreement": "ETH"
+  "disagreement": "BTC"
  },
  "manualBook": {
   "at": "2026-08-11T00:55:08.719Z",
@@ -11975,7 +11980,7 @@
   }
  },
  "intel": {
-  "ageH": 3.5,
+  "ageH": 3.6,
   "narratives": [
    "* AI Capital & Energy Infrastructure: Tech giants and private equity are deploying over $500B into chips and data centers, with BlackRock noting U.S. AI buildout will require over 70 gigawatts of power. (both)",
    "* Tokenized Equities & ERC-6551: StonkBrokers is pioneering NFT token-bound accounts on Robinhood Chain that hold real-world tokenized stocks (e.g., AAPL, NVDA) and pass dividends directly to holders. (both)",
@@ -12041,6 +12046,20 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-08-11T01:01:03.166Z",
+   "brain": "gemini",
+   "model": "Gemini 3.6 Flash",
+   "kind": "intraday scan",
+   "text": "READ: Crypto markets remain pinned in a RISK_OFF regime with BTC drifting lower toward ~$63,983 and ETH underperforming at ~$1,873.4 (-1.96%). Funding rates are hovering at neutral levels (ETH 0.0087% daily), offering no active squeeze setup until key support levels break.\nDECISION: Awaiting breakdown trigger on ETH SHORT while holding existing positions."
+  },
+  {
+   "ts": "2026-08-11T01:00:46.481Z",
+   "brain": "deepseek",
+   "model": "DeepSeek V4",
+   "kind": "intraday scan",
+   "text": "READ: BTC drifts lower in risk-off with neutral funding, no extreme positioning; most assets remain trapped in chop ranges with no fresh catalyst to break the tape.\nDECISION: No trade — AWAITING trigger on BTC short."
+  },
   {
    "ts": "2026-08-10T22:06:51.866Z",
    "brain": "kimi",
@@ -12138,20 +12157,6 @@
    "model": "DeepSeek V4",
    "kind": "intraday scan",
    "text": "READ: No fresh derivative data or OI/liquidation figures in this intraday pulse; tape remains neutral with BTC hugging ~$64.8k and funding at benign levels, offering no firing mechanism for any asset.\nDECISION: Silence — no confirmed edge, watching ETH for a potential range-low bounce."
-  },
-  {
-   "ts": "2026-08-10T10:07:51.904Z",
-   "brain": "kimi",
-   "model": "Kimi K2.5",
-   "kind": "report",
-   "text": "READ: Tape is locked in neutral chop with BTC and ETH mid-range and vol compressed to multi-week lows, but XMR is diverging with active smart-money accumulation flow (+~$67k 48h net inflow) clustering at ~$393–~$399, creating an asymmetric long setup against the broader range-bound regime.\nDECISION: Deploy XMR long with tight stop below whale cluster at ~$391; hold existing BTC LONG #~348 pending range resolution or stop trigger at ~$64,100.\n\nRISK FLAGS  \nNONE. Existing BTC position remains valid with ETF inflow L1 active; no close recommended."
-  },
-  {
-   "ts": "2026-08-10T10:06:21.130Z",
-   "brain": "hermes",
-   "model": "Grok 4.5",
-   "kind": "report",
-   "text": "READ: Neutral regime with cautiously bullish flow overlay from consecutive BTC/ETH ETF inflows and short-dominant liquidations, but OI flat-to-falling on majors, positive funding overheating, and strong put skew keep tape range-bound. Dominant mechanism is short-covering fuel capped by long crowding and defensive options. Primary risk is Aug 12 CPI plus failure at range extremes in compressed vol.\n\nDECISION: No CONFIRMED signals — no mechanism is cleanly firing at current prices without chase or sub-2 R:R geometry in neutral chop. Publishing BNB SHORT AWAITING as the single best mean-rev setup; will flip only on the stated trigger. Existing longs ride ETF/short-liq fuel; shorts ride crowding. Next data that changes call: CPI print or OI expansion >2% with directional volume."
   }
  ],
  "archive": [
