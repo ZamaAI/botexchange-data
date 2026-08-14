@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-14T22:00:11.712Z",
+ "generatedAt": "2026-08-14T22:05:04.522Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 14,
    "wr": "13",
    "pnl": -84.36,
-   "account": 415.64,
-   "retPct": -16.9,
+   "account": 416.82,
+   "retPct": -16.6,
    "accountRealized": 415.64
   },
   {
@@ -5321,21 +5321,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-13T22:05:00.000Z",
-   "hl": 9.304936,
-   "hl_spot": 386.027242,
-   "grvt": 445.896427,
-   "extended": 378.057029,
-   "capital": 2693.379886,
-   "qwen": 427.34,
-   "openclaw": 395.33,
-   "hermes": 445.9,
-   "manual": 378.06,
-   "kimi": 525.23,
-   "deepseek": 469.55,
-   "gemini": 475.87
-  },
-  {
    "ts": "2026-08-13T22:10:00.000Z",
    "hl": 9.304936,
    "hl_spot": 386.027242,
@@ -9609,6 +9594,21 @@
    "kimi": 525.23,
    "deepseek": 469.55,
    "gemini": 481.89
+  },
+  {
+   "ts": "2026-08-14T22:05:00.000Z",
+   "hl": 4.63716,
+   "hl_spot": 381.33284199999997,
+   "grvt": 0,
+   "extended": 314.597612,
+   "capital": 2180.68024,
+   "qwen": 416.82,
+   "openclaw": 385.97,
+   "hermes": 0,
+   "manual": 314.6,
+   "kimi": 525.23,
+   "deepseek": 469.55,
+   "gemini": 481.89
   }
  ],
  "venuesLive": {
@@ -9630,6 +9630,40 @@
   "liveN": 46
  },
  "openTrades": [
+  {
+   "id": 404,
+   "asset": "ICP",
+   "direction": "LONG",
+   "actor": "openclaw",
+   "venue": "HL",
+   "entry": 2.23,
+   "stop": 2.17425,
+   "target": 2.3415,
+   "levelsApprox": true,
+   "trailed": false,
+   "rr": 2,
+   "conviction": 6,
+   "openedAt": "2026-08-14T22:03:32.556Z",
+   "thesis": "Top-trader positioning on ICP shows 84.5% long vs retail only 65.9% long — a clean smart-money-vs-retail divergence with smart money notably more bullish, a genuine positioning-flow signal rather than a momentum chase. Funding gap (HL +10.95% vs Binance +8.9%) is modest, not overheated, and altcoin-season index sitting at a neutral 35 supports selective alt rotation rather than broad risk-off.",
+   "smartMoney": null
+  },
+  {
+   "id": 405,
+   "asset": "WLD",
+   "direction": "SHORT",
+   "actor": "openclaw",
+   "venue": "HL",
+   "entry": 0.339,
+   "stop": 0.34578,
+   "target": 0.32544,
+   "levelsApprox": true,
+   "trailed": false,
+   "rr": 2,
+   "conviction": 6,
+   "openedAt": "2026-08-14T22:03:32.556Z",
+   "thesis": "WLD funding on HL runs +10.95% APR vs Binance +6.94% (gap +4.0%), meaning HL longs are paying a rich premium to stay positioned while OI is actually falling (-2.8% 24h) even as price ticks up only marginally (+0.8%) — a weak, crowded long that isn't backed by fresh money.",
+   "smartMoney": null
+  },
   {
    "id": 403,
    "asset": "XRP",
@@ -10074,7 +10108,33 @@
   }
  ],
  "market": {
-  "prices": null,
+  "prices": [
+   {
+    "symbol": "BTC",
+    "price": 62939.36,
+    "change24hPct": -0.96
+   },
+   {
+    "symbol": "ETH",
+    "price": 1880.32,
+    "change24hPct": -0.57
+   },
+   {
+    "symbol": "BNB",
+    "price": 607.18,
+    "change24hPct": -0.71
+   },
+   {
+    "symbol": "XRP",
+    "price": 0.9982,
+    "change24hPct": -1.11
+   },
+   {
+    "symbol": "SOL",
+    "price": 75.28,
+    "change24hPct": -1.38
+   }
+  ],
   "fearGreed": {
    "value": 29,
    "classification": "Fear"
@@ -10101,6 +10161,65 @@
    "weeks": 4,
    "trend": "DRAINING",
    "date": "2026-08-12"
+  },
+  "riskIndex": {
+   "score": 45,
+   "band": "NORMAL",
+   "weighting": "equal",
+   "weightPct": 16.7,
+   "componentsLive": 6,
+   "componentsTotal": 8,
+   "components": [
+    {
+     "key": "leverage",
+     "label": "Leverage build",
+     "score": 52,
+     "detail": "majors OI +2.9%/24h"
+    },
+    {
+     "key": "funding",
+     "label": "Funding extremity",
+     "score": 39,
+     "detail": "mean |funding| 0.028%/day"
+    },
+    {
+     "key": "crowding",
+     "label": "Positioning crowding",
+     "score": 65,
+     "detail": "crowd 71% long — squeeze fuel below"
+    },
+    {
+     "key": "liquidations",
+     "label": "Liquidation stress",
+     "score": 0,
+     "detail": "$20M forced /24h"
+    },
+    {
+     "key": "volatility",
+     "label": "Realized volatility",
+     "score": null,
+     "detail": "no rvol data"
+    },
+    {
+     "key": "liquidity",
+     "label": "Liquidity / dry powder",
+     "score": 48,
+     "detail": "stables +0.05%/7d"
+    },
+    {
+     "key": "macro",
+     "label": "Macro coupling",
+     "score": 63,
+     "detail": "BTC↔NQ corr 0.50"
+    },
+    {
+     "key": "breadth",
+     "label": "Breadth fragility",
+     "score": null,
+     "detail": "no breadth data"
+    }
+   ],
+   "computedAt": 1786744911312
   },
   "equityRegime": "NEUTRAL",
   "longShort": [
@@ -10211,7 +10330,7 @@
      "changePct": -16.7
     }
    ],
-   "ageMin": 0
+   "ageMin": 5
   },
   "chainRotation": {
    "chains": [
@@ -10342,7 +10461,7 @@
      1
     ]
    ],
-   "ageMin": 359
+   "ageMin": 364
   }
  },
  "calendar": [
@@ -11431,6 +11550,22 @@
     ]
    },
    {
+    "asset": "WLD",
+    "long": [],
+    "short": [
+     {
+      "actor": "qwen",
+      "conv": 5,
+      "kind": "paper"
+     },
+     {
+      "actor": "openclaw",
+      "conv": 6,
+      "kind": "live"
+     }
+    ]
+   },
+   {
     "asset": "BNB",
     "long": [],
     "short": [
@@ -11440,17 +11575,6 @@
       "kind": "paper"
      }
     ]
-   },
-   {
-    "asset": "JUP",
-    "long": [
-     {
-      "actor": "openclaw",
-      "conv": 6,
-      "kind": "live"
-     }
-    ],
-    "short": []
    }
   ],
   "disagreement": "ETH"
@@ -11837,37 +11961,37 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 3287,
+   "totalPrints7d": 3286,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
     {
      "coin": "BTC",
-     "l": 3,
+     "l": 2,
      "s": 3,
-     "netK": -3763,
-     "concPct": 68
+     "netK": -3791,
+     "concPct": 69
     },
     {
      "coin": "BRENTOIL",
      "l": 1,
      "s": 1,
-     "netK": 3292,
+     "netK": 3300,
      "concPct": 99
     },
     {
      "coin": "XAG",
      "l": 1,
      "s": 1,
-     "netK": -2836,
+     "netK": -2833,
      "concPct": 97
     },
     {
      "coin": "WTI",
-     "l": 0,
-     "s": 4,
-     "netK": -2688,
-     "concPct": 83
+     "l": 1,
+     "s": 3,
+     "netK": -2516,
+     "concPct": 82
     },
     {
      "coin": "XAU",
@@ -11880,29 +12004,29 @@
      "coin": "ETH",
      "l": 3,
      "s": 1,
-     "netK": 24,
-     "concPct": 49
+     "netK": 8,
+     "concPct": 50
     },
     {
      "coin": "NATGAS",
      "l": 1,
      "s": 1,
-     "netK": -971,
+     "netK": -972,
      "concPct": 100
     },
     {
      "coin": "CRCL",
      "l": 0,
      "s": 2,
-     "netK": -247,
+     "netK": -248,
      "concPct": 97
     }
    ],
    "coinFlow": [
     {
      "coin": "ETH",
-     "netK": -2064,
-     "n": 789
+     "netK": -2029,
+     "n": 788
     },
     {
      "coin": "WTI",
@@ -11911,8 +12035,8 @@
     },
     {
      "coin": "BTC",
-     "netK": 1690,
-     "n": 796
+     "netK": 1710,
+     "n": 792
     },
     {
      "coin": "HYPE",
@@ -11921,8 +12045,8 @@
     },
     {
      "coin": "SNDK",
-     "netK": 573,
-     "n": 99
+     "netK": 583,
+     "n": 100
     }
    ],
    "accounts": [
@@ -11931,12 +12055,12 @@
      "prints": 181,
      "volK": 6024,
      "biasK": 966,
-     "equity": 22075,
+     "equity": 21433,
      "positions": [
       {
        "coin": "WTI",
        "side": "SHORT",
-       "usdK": 438,
+       "usdK": 439,
        "upnlK": -1
       }
      ]
@@ -12145,7 +12269,7 @@
   }
  },
  "intel": {
-  "ageH": 0.5,
+  "ageH": 0.6,
   "narratives": [
    "• Prediction Markets Under Fire: Kalshi is in talks to raise $750M at a $40B valuation while facing legal pressure alongside Polymarket as Baltimore sues over unlicensed sports betting contracts. (newsletter)",
    "• Stablecoin Transparency & Banking: KPMG's full audit verifying Tether's $6.8B surplus and World Liberty Financial's federal bank charter signal growing regulatory integration for stablecoin issuers. (both)",
@@ -12218,6 +12342,13 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-08-14T22:03:58.105Z",
+   "brain": "gemini",
+   "model": "Gemini 3.6 Flash",
+   "kind": "report",
+   "text": "READ: Crypto majors remain subdued in chop and transitional regimes with BTC floating around ~$62.8k as daily ETF outflows (~$131.1M) and heavy retail long positioning (67.7% L/S) maintain subtle downside pressure. Fading or chasing moves inside these narrow ranges has consistently produced negative realized expectancy, favoring patience until key structural levels break.\nDECISION: Holding active short positions in ETH and XRP while monitoring BTC for a confirmed breakdown level. Refusing anticipatory entries inside the chop range.\n\nRISK FLAGS\nCLOSE RECOMMENDED: #~396 ATOM LONG — Spot price ~$1.48 has breached invalidation stop level ~$1.485."
+  },
   {
    "ts": "2026-08-14T19:02:25.253Z",
    "brain": "gemini",
@@ -12322,13 +12453,6 @@
    "model": "Gemini 3.6 Flash",
    "kind": "intraday scan",
    "text": "READ: Crypto markets remain pinned near range lows under the weight of -~$131.1M in daily BTC ETF outflows and ongoing macro liquidity contraction. BTC trades transitional around ~$62,967, hovering just above its 4h range low of ~$62,802 while funding remains mildly positive (9.4% APR), leaving room for a liquidation sweep if support fails.\nDECISION: Awaiting BTC breakdown trigger at ~$62,450 before deploying capital."
-  },
-  {
-   "ts": "2026-08-14T07:03:03.554Z",
-   "brain": "deepseek",
-   "model": "DeepSeek V4",
-   "kind": "intraday scan",
-   "text": "READ: BTC is pinned at the bottom of its 4h range with ETF outflow and risk-off liquidity still draining; the pulse shows no OI/liquidation imbalance, just neutral BTC funding and chop.\nDECISION: No trade — no confirmed positioning edge; watching the BTC range-low breakdown only."
   }
  ],
  "archive": [
