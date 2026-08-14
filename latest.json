@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-14T18:06:13.196Z",
+ "generatedAt": "2026-08-14T18:10:02.718Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,7 +26,7 @@
    "losses": 14,
    "wr": "13",
    "pnl": -84.36,
-   "account": 415.82,
+   "account": 416.05,
    "retPct": -16.8,
    "accountRealized": 415.64
   },
@@ -5321,21 +5321,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-13T18:10:00.000Z",
-   "hl": 13.128485999999999,
-   "hl_spot": 389.712585,
-   "grvt": 445.281511,
-   "extended": 364.518382,
-   "capital": 2690.1780150000004,
-   "qwen": 429.85,
-   "openclaw": 402.84,
-   "hermes": 445.28,
-   "manual": 364.52,
-   "kimi": 525.23,
-   "deepseek": 469.55,
-   "gemini": 479.32
-  },
-  {
    "ts": "2026-08-13T18:15:00.000Z",
    "hl": 10.004208,
    "hl_spot": 386.613007,
@@ -9624,6 +9609,21 @@
    "kimi": 525.23,
    "deepseek": 469.55,
    "gemini": 481.13
+  },
+  {
+   "ts": "2026-08-14T18:10:00.000Z",
+   "hl": 6.480271999999999,
+   "hl_spot": 382.944059,
+   "grvt": 0,
+   "extended": 313.01082,
+   "capital": 2181.787894,
+   "qwen": 416.05,
+   "openclaw": 389.42,
+   "hermes": 0,
+   "manual": 313.01,
+   "kimi": 525.23,
+   "deepseek": 469.55,
+   "gemini": 481.13
   }
  ],
  "venuesLive": {
@@ -10092,35 +10092,35 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63042,
-    "change24hPct": -0.37
+    "price": 63035.07,
+    "change24hPct": -0.28
    },
    {
     "symbol": "ETH",
-    "price": 1877.38,
-    "change24hPct": -0.18
+    "price": 1877.72,
+    "change24hPct": -0.08
    },
    {
     "symbol": "BNB",
-    "price": 606.03,
-    "change24hPct": -0.4
+    "price": 605.66,
+    "change24hPct": -0.38
    },
    {
     "symbol": "XRP",
-    "price": 1.0008,
-    "change24hPct": -0.73
+    "price": 1.0007,
+    "change24hPct": -0.67
    },
    {
     "symbol": "SOL",
-    "price": 75.18,
-    "change24hPct": -0.92
+    "price": 75.12,
+    "change24hPct": -0.95
    }
   ],
   "fearGreed": {
    "value": 29,
    "classification": "Fear"
   },
-  "regime": null,
+  "regime": "RISK_OFF",
   "stockFearGreed": {
    "value": 64,
    "classification": "Greed",
@@ -10136,6 +10136,14 @@
     "change": -1.98
    }
   },
+  "netLiquidity": {
+   "usdB": 5795.3,
+   "deltaB": -191.4,
+   "weeks": 4,
+   "trend": "DRAINING",
+   "date": "2026-08-12"
+  },
+  "equityRegime": "NEUTRAL",
   "longShort": [
    {
     "asset": "BTC",
@@ -10244,7 +10252,7 @@
      "changePct": -14.4
     }
    ],
-   "ageMin": 125
+   "ageMin": 130
   },
   "chainRotation": {
    "chains": [
@@ -10375,10 +10383,16 @@
      1
     ]
    ],
-   "ageMin": 124
+   "ageMin": 129
   }
  },
  "calendar": [
+  {
+   "date": "2026-08-14",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
+  },
   {
    "date": "2026-08-14",
    "event": "ADA — Lightning Deep Dive",
@@ -10447,6 +10461,12 @@
   },
   {
    "date": "2026-08-20",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-20",
    "event": "DASH — Evo Platform 4.2 Release (est.)",
    "type": "CRYPTO",
    "impact": "MED"
@@ -10464,14 +10484,62 @@
    "impact": "MED"
   },
   {
+   "date": "2026-08-26",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-26",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-27",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-28",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-01",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-03",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-04",
-   "event": "Non-Farm Payrolls (Aug)",
+   "event": "Non-Farm Payrolls",
    "type": "NFP",
    "impact": "HIGH"
   },
   {
+   "date": "2026-09-10",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-10",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-11",
-   "event": "US CPI Release (Aug)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
   }
@@ -12106,7 +12174,7 @@
   }
  },
  "intel": {
-  "ageH": 2.6,
+  "ageH": 2.7,
   "narratives": [
    "* Hardware Wallet & Logistics Vulnerabilities: Supply chain logistics security is under scrutiny after ShipMonk's compromise leaked Trezor customer addresses and phone numbers, emphasizing data privacy risks in physical ",
    "* Prediction Market Legal Crackdown: Legal friction is escalating as Baltimore sues Kalshi and Polymarket for unlicensed sports betting, targeting integration partners like Robinhood, Webull, and Coinbase (newsletter).",
