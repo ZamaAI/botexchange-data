@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-15T04:40:27.273Z",
+ "generatedAt": "2026-08-15T04:45:02.023Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 14,
    "wr": "13",
    "pnl": -84.36,
-   "account": 408.49,
-   "retPct": -18.3,
+   "account": 406.72,
+   "retPct": -18.7,
    "accountRealized": 415.64
   },
   {
@@ -5321,21 +5321,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-14T04:45:00.000Z",
-   "hl": 6.393929,
-   "hl_spot": 382.934175,
-   "grvt": 444.711079,
-   "extended": 363.912201,
-   "capital": 2672.733732,
-   "qwen": 427.72,
-   "openclaw": 389.33,
-   "hermes": 444.71,
-   "manual": 363.91,
-   "kimi": 525.23,
-   "deepseek": 469.55,
-   "gemini": 476.56
-  },
-  {
    "ts": "2026-08-14T04:50:00.000Z",
    "hl": 6.788088,
    "hl_spot": 383.03995199999997,
@@ -9609,6 +9594,21 @@
    "kimi": 525.23,
    "deepseek": 469.55,
    "gemini": 478.37
+  },
+  {
+   "ts": "2026-08-15T04:45:00.000Z",
+   "hl": 2.878339,
+   "hl_spot": 379.076181,
+   "grvt": 0,
+   "extended": 332.180398,
+   "capital": 2190.727576,
+   "qwen": 406.72,
+   "openclaw": 381.95,
+   "hermes": 0,
+   "manual": 332.18,
+   "kimi": 525.23,
+   "deepseek": 469.55,
+   "gemini": 478.37
   }
  ],
  "venuesLive": {
@@ -10078,18 +10078,18 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63145.46,
-    "change24hPct": -0.4
+    "price": 63151.64,
+    "change24hPct": -0.38
    },
    {
     "symbol": "ETH",
-    "price": 1885,
-    "change24hPct": -0.05
+    "price": 1885.69,
+    "change24hPct": -0.01
    },
    {
     "symbol": "BNB",
-    "price": 611.57,
-    "change24hPct": -0.04
+    "price": 612.23,
+    "change24hPct": 0.1
    },
    {
     "symbol": "XRP",
@@ -10098,15 +10098,15 @@
    },
    {
     "symbol": "SOL",
-    "price": 75.56,
-    "change24hPct": -0.47
+    "price": 75.59,
+    "change24hPct": -0.45
    }
   ],
   "fearGreed": {
    "value": 34,
    "classification": "Fear"
   },
-  "regime": null,
+  "regime": "RISK_OFF",
   "stockFearGreed": {
    "value": 65,
    "classification": "Greed",
@@ -10121,6 +10121,13 @@
     "price": 14.25,
     "change": -2.6
    }
+  },
+  "netLiquidity": {
+   "usdB": 5795.3,
+   "deltaB": -191.4,
+   "weeks": 4,
+   "trend": "DRAINING",
+   "date": "2026-08-12"
   },
   "riskIndex": {
    "score": 42,
@@ -10173,6 +10180,7 @@
    ],
    "computedAt": 1786766504709
   },
+  "equityRegime": "NEUTRAL",
   "longShort": [
    {
     "asset": "BTC",
@@ -10281,7 +10289,7 @@
      "changePct": -8.9
     }
    ],
-   "ageMin": 40
+   "ageMin": 45
   },
   "chainRotation": {
    "chains": [
@@ -10289,134 +10297,138 @@
      "name": "Solana",
      "token": "SOL",
      "cls": "crypto",
-     "vol24h": 1942768291,
-     "d1": 12.6,
-     "d7": 40.9
+     "vol24h": 1642311972,
+     "d1": -15.5,
+     "d7": 20.6
     },
     {
      "name": "Ethereum",
      "token": "ETH",
      "cls": "crypto",
-     "vol24h": 900613801,
-     "d1": 5.2,
-     "d7": -16.9
+     "vol24h": 897523457,
+     "d1": -0.3,
+     "d7": -11.9
     },
     {
      "name": "BSC",
      "token": "BNB",
      "cls": "crypto",
-     "vol24h": 826454415,
-     "d1": -3.2,
-     "d7": -49.8
+     "vol24h": 810546546,
+     "d1": -1.9,
+     "d7": -53.2
     },
     {
      "name": "Base",
      "token": null,
      "cls": "crypto",
-     "vol24h": 706708249,
-     "d1": 12.3,
-     "d7": 1.7
+     "vol24h": 515424009,
+     "d1": -27.1,
+     "d7": -20.6
     },
     {
      "name": "Robinhood Chain",
      "token": "HOOD",
      "cls": "equity",
-     "vol24h": 477094247,
-     "d1": -10.7,
-     "d7": -24.5
-    },
-    {
-     "name": "Hyperliquid",
-     "token": "HYPE",
-     "cls": "crypto",
-     "vol24h": 156860913,
-     "d1": -7.6,
-     "d7": 12.7
+     "vol24h": 501960574,
+     "d1": 5.2,
+     "d7": 15.9
     },
     {
      "name": "Polygon",
      "token": "POL",
      "cls": "crypto",
-     "vol24h": 153973691,
-     "d1": -7.9,
-     "d7": -29.5
+     "vol24h": 147065633,
+     "d1": -4.5,
+     "d7": -23
     },
     {
-     "name": "Arbitrum",
-     "token": "ARB",
+     "name": "Hyperliquid",
+     "token": "HYPE",
      "cls": "crypto",
-     "vol24h": 93445967,
-     "d1": -6.6,
-     "d7": -74.7
+     "vol24h": 129618588,
+     "d1": -17.4,
+     "d7": -30.4
     },
     {
      "name": "NEAR",
      "token": "NEAR",
      "cls": "crypto",
-     "vol24h": 73559050,
-     "d1": -9,
-     "d7": -17.1
+     "vol24h": 81201849,
+     "d1": 10.4,
+     "d7": 4.1
+    },
+    {
+     "name": "Arbitrum",
+     "token": "ARB",
+     "cls": "crypto",
+     "vol24h": 78146048,
+     "d1": -16.4,
+     "d7": -26.4
     },
     {
      "name": "Tron",
      "token": "TRX",
      "cls": "crypto",
-     "vol24h": 46969520,
-     "d1": 47.7,
-     "d7": -2.4
+     "vol24h": 36867041,
+     "d1": -21.5,
+     "d7": 14.7
     },
     {
      "name": "Avalanche",
      "token": "AVAX",
      "cls": "crypto",
-     "vol24h": 35380144,
-     "d1": -5.8,
-     "d7": -25.6
+     "vol24h": 26777646,
+     "d1": -24.3,
+     "d7": 3.5
     },
     {
      "name": "Sui",
      "token": "SUI",
      "cls": "crypto",
-     "vol24h": 20803746,
-     "d1": -8,
-     "d7": 7
+     "vol24h": 26495118,
+     "d1": 27.4,
+     "d7": 30.7
     },
     {
      "name": "Optimism",
      "token": "OP",
      "cls": "crypto",
-     "vol24h": 16229957,
-     "d1": -1.8,
-     "d7": -13.8
+     "vol24h": 16001209,
+     "d1": -1.4,
+     "d7": -15
     },
     {
      "name": "Aptos",
      "token": "APT",
      "cls": "crypto",
-     "vol24h": 15397236,
-     "d1": -13.3,
-     "d7": 80
+     "vol24h": 12187214,
+     "d1": -20.8,
+     "d7": -40.1
     },
     {
      "name": "TON",
      "token": "TON",
      "cls": "crypto",
-     "vol24h": 3142736,
-     "d1": 11.1,
-     "d7": -0.5
+     "vol24h": 2519122,
+     "d1": -19.8,
+     "d7": -18.5
     }
    ],
    "boosts": [
     [
      "solana",
-     23
+     17
     ],
     [
      "robinhood",
-     6
+     10
+    ],
+    [
+     "bsc",
+     3
     ]
    ],
-   "ageMin": 385
+   "ageMin": 4
   }
  },
  "calendar": [
@@ -10458,6 +10470,12 @@
   },
   {
    "date": "2026-08-20",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-20",
    "event": "DASH — Evo Platform 4.2 Release (est.)",
    "type": "CRYPTO",
    "impact": "MED"
@@ -10475,14 +10493,62 @@
    "impact": "MED"
   },
   {
+   "date": "2026-08-26",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-26",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-27",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-28",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-01",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-03",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-04",
-   "event": "Non-Farm Payrolls (Aug)",
+   "event": "Non-Farm Payrolls",
    "type": "NFP",
    "impact": "HIGH"
   },
   {
+   "date": "2026-09-10",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-10",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-11",
-   "event": "US CPI Release (Aug)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
   }
@@ -12034,7 +12100,7 @@
   }
  },
  "intel": {
-  "ageH": 1.2,
+  "ageH": 1.3,
   "narratives": [
    "• SpaceX & Orbital Compute: High institutional balance sheet exposure from Nvidia ($21B) and AMD ($565.5M) paired with predictions that orbital compute will be the primary way to scale AI by ~2029 due to land power const",
    "• DeFi Liquidation Protection: DeFi Saver introduced a 24/7 automated collateral-management tool operating across Aave V3/V4, Compound, Morpho, Euler, Spark, and Sky. (newsletter)",
