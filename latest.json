@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-15T09:20:27.904Z",
+ "generatedAt": "2026-08-15T09:25:02.062Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,7 +26,7 @@
    "losses": 14,
    "wr": "13",
    "pnl": -84.36,
-   "account": 409.4,
+   "account": 409.45,
    "retPct": -18.1,
    "accountRealized": 415.64
   },
@@ -5314,21 +5314,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-14T09:25:00.000Z",
-   "hl": 8.186059,
-   "hl_spot": 384.556139,
-   "grvt": 443.038797,
-   "extended": 316.765495,
-   "capital": 2630.6834400000002,
-   "qwen": 433.39,
-   "openclaw": 392.74,
-   "hermes": 443.04,
-   "manual": 316.77,
-   "kimi": 525.23,
-   "deepseek": 469.55,
-   "gemini": 479.92
-  },
-  {
    "ts": "2026-08-14T09:30:00.000Z",
    "hl": 8.186059,
    "hl_spot": 384.556139,
@@ -9587,6 +9572,21 @@
    "kimi": 525.23,
    "deepseek": 469.55,
    "gemini": 480.68
+  },
+  {
+   "ts": "2026-08-15T09:25:00.000Z",
+   "hl": 4.00328,
+   "hl_spot": 375.712611,
+   "grvt": 0,
+   "extended": 315.749071,
+   "capital": 2174.367845,
+   "qwen": 409.45,
+   "openclaw": 379.72,
+   "hermes": 0,
+   "manual": 315.75,
+   "kimi": 525.23,
+   "deepseek": 469.55,
+   "gemini": 480.68
   }
  ],
  "venuesLive": {
@@ -10022,35 +10022,35 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 62975.62,
-    "change24hPct": 0.13
+    "price": 62967.93,
+    "change24hPct": 0.09
    },
    {
     "symbol": "ETH",
-    "price": 1877.68,
-    "change24hPct": 0.1
+    "price": 1877.81,
+    "change24hPct": 0.04
    },
    {
     "symbol": "BNB",
-    "price": 610.7,
+    "price": 611.13,
     "change24hPct": 0.37
    },
    {
     "symbol": "XRP",
-    "price": 1.0022,
-    "change24hPct": -0.32
+    "price": 1.002,
+    "change24hPct": -0.28
    },
    {
     "symbol": "SOL",
     "price": 75.17,
-    "change24hPct": -0.87
+    "change24hPct": -0.8
    }
   ],
   "fearGreed": {
    "value": 34,
    "classification": "Fear"
   },
-  "regime": null,
+  "regime": "RISK_OFF",
   "stockFearGreed": {
    "value": 65,
    "classification": "Greed",
@@ -10065,6 +10065,13 @@
     "price": 14.25,
     "change": -2.6
    }
+  },
+  "netLiquidity": {
+   "usdB": 5795.3,
+   "deltaB": -191.4,
+   "weeks": 4,
+   "trend": "DRAINING",
+   "date": "2026-08-12"
   },
   "riskIndex": {
    "score": 42,
@@ -10225,7 +10232,7 @@
      "changePct": -8.9
     }
    ],
-   "ageMin": 320
+   "ageMin": 325
   },
   "chainRotation": {
    "chains": [
@@ -10364,7 +10371,7 @@
      3
     ]
    ],
-   "ageMin": 266
+   "ageMin": 271
   }
  },
  "calendar": [
@@ -10424,6 +10431,12 @@
   },
   {
    "date": "2026-08-20",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-20",
    "event": "DASH — Evo Platform 4.2 Release (est.)",
    "type": "CRYPTO",
    "impact": "MED"
@@ -10441,14 +10454,62 @@
    "impact": "MED"
   },
   {
+   "date": "2026-08-26",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-26",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-27",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-28",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-01",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-03",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-04",
-   "event": "Non-Farm Payrolls (Aug)",
+   "event": "Non-Farm Payrolls",
    "type": "NFP",
    "impact": "HIGH"
   },
   {
+   "date": "2026-09-10",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-10",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-11",
-   "event": "US CPI Release (Aug)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
   }
