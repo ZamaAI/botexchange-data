@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-15T10:00:09.272Z",
+ "generatedAt": "2026-08-15T10:05:02.187Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 14,
    "wr": "13",
    "pnl": -84.36,
-   "account": 411.15,
-   "retPct": -17.8,
+   "account": 412.9,
+   "retPct": -17.4,
    "accountRealized": 415.64
   },
   {
@@ -5314,21 +5314,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-14T10:05:00.000Z",
-   "hl": 9.778717,
-   "hl_spot": 386.15502299999997,
-   "grvt": 442.641197,
-   "extended": 305.082492,
-   "capital": 2622.7828489999997,
-   "qwen": 434.24,
-   "openclaw": 395.93,
-   "hermes": 442.64,
-   "manual": 305.08,
-   "kimi": 525.23,
-   "deepseek": 469.55,
-   "gemini": 480.91
-  },
-  {
    "ts": "2026-08-14T10:10:00.000Z",
    "hl": 9.778717,
    "hl_spot": 386.15502299999997,
@@ -9587,6 +9572,21 @@
    "kimi": 525.23,
    "deepseek": 469.55,
    "gemini": 480.05
+  },
+  {
+   "ts": "2026-08-15T10:05:00.000Z",
+   "hl": 4.215339999999999,
+   "hl_spot": 375.817063,
+   "grvt": 0,
+   "extended": 316.604244,
+   "capital": 2174.9086850000003,
+   "qwen": 412.9,
+   "openclaw": 380.03,
+   "hermes": 0,
+   "manual": 316.6,
+   "kimi": 525.23,
+   "deepseek": 469.55,
+   "gemini": 480.05
   }
  ],
  "venuesLive": {
@@ -9608,6 +9608,23 @@
   "liveN": 48
  },
  "openTrades": [
+  {
+   "id": 407,
+   "asset": "ETH",
+   "direction": "SHORT",
+   "actor": "openclaw",
+   "venue": "HL",
+   "entry": 1878.81,
+   "stop": 1906.99,
+   "target": 1803.66,
+   "levelsApprox": true,
+   "trailed": false,
+   "rr": 2.8,
+   "conviction": 5,
+   "openedAt": "2026-08-15T10:04:00.512Z",
+   "thesis": "Smart money on HL is net short ETH by the largest margin of any tracked asset (-$122.6M), HL funding is 7.3pts richer than Binance signaling crowded HL longs vulnerable to unwind, and Deribit options show a strong defensive put bid (-18 vol pts) into the Aug 17 expiry.",
+   "smartMoney": 2
+  },
   {
    "id": 406,
    "asset": "MORPHO",
@@ -10022,28 +10039,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63030.39,
-    "change24hPct": 0.42
+    "price": 63002.12,
+    "change24hPct": 0.28
    },
    {
     "symbol": "ETH",
-    "price": 1880.58,
-    "change24hPct": 0.42
+    "price": 1878.76,
+    "change24hPct": 0.16
    },
    {
     "symbol": "BNB",
-    "price": 611.97,
-    "change24hPct": 0.75
+    "price": 611.64,
+    "change24hPct": 0.62
    },
    {
     "symbol": "XRP",
-    "price": 1.003,
-    "change24hPct": -0.03
+    "price": 1.0023,
+    "change24hPct": -0.15
    },
    {
     "symbol": "SOL",
-    "price": 75.26,
-    "change24hPct": -0.26
+    "price": 75.24,
+    "change24hPct": -0.46
    }
   ],
   "fearGreed": {
@@ -10074,56 +10091,77 @@
    "date": "2026-08-12"
   },
   "riskIndex": {
-   "score": 42,
-   "band": "NORMAL",
+   "score": 39,
+   "band": "STABLE",
    "weighting": "equal",
-   "weightPct": 12.5,
-   "componentsLive": 8,
-   "componentsTotal": 8,
+   "weightPct": 10,
+   "componentsLive": 10,
+   "componentsTotal": 10,
    "components": [
     {
      "key": "leverage",
-     "score": 51,
-     "detail": "majors OI +2.7%/24h"
+     "label": "Leverage build",
+     "score": 37,
+     "detail": "majors OI +0.6%/24h"
     },
     {
      "key": "funding",
-     "score": 31,
-     "detail": "mean |funding| 0.022%/day"
+     "label": "Funding extremity",
+     "score": 15,
+     "detail": "mean |funding| 0.010%/day"
     },
     {
      "key": "crowding",
-     "score": 64,
-     "detail": "crowd 71% long — squeeze fuel below"
+     "label": "Positioning crowding",
+     "score": 63,
+     "detail": "crowd 70% long — squeeze fuel below"
     },
     {
      "key": "liquidations",
-     "score": 0,
-     "detail": "$16M forced /24h"
+     "label": "Liquidation stress",
+     "score": 16,
+     "detail": "$11M forced /24h (BTC/ETH/SOL, Binance)"
     },
     {
      "key": "volatility",
+     "label": "Realized volatility",
      "score": 5,
      "detail": "5th percentile vs own history"
     },
     {
      "key": "liquidity",
+     "label": "Liquidity / dry powder",
      "score": 63,
      "detail": "stables +0.09%/7d, Fed draining"
     },
     {
      "key": "macro",
+     "label": "Macro coupling",
      "score": 59,
      "detail": "BTC↔NQ corr 0.47"
     },
     {
      "key": "breadth",
+     "label": "Breadth fragility",
      "score": 60,
      "detail": "2/5 majors above their 20d MA"
+    },
+    {
+     "key": "impliedvol",
+     "label": "Implied volatility",
+     "score": 14,
+     "detail": "BTC DVOL 34.8 vs 90d median 37.5"
+    },
+    {
+     "key": "takerflow",
+     "label": "Taker flow imbalance",
+     "score": 54,
+     "detail": "48.4% taker buy — sellers crossing the spread"
     }
    ],
-   "computedAt": 1786766504709
+   "computedAt": 1786788103037
   },
+  "equityRegime": "NEUTRAL",
   "longShort": [
    {
     "asset": "BTC",
@@ -10159,17 +10197,17 @@
   "funding": [
    {
     "asset": "BTC",
-    "dailyPct": 0.0281,
+    "dailyPct": 0.0193,
     "signal": "NEUTRAL"
    },
    {
     "asset": "ETH",
-    "dailyPct": 0.0191,
+    "dailyPct": 0.0101,
     "signal": "NEUTRAL"
    },
    {
     "asset": "SOL",
-    "dailyPct": 0.0178,
+    "dailyPct": 0.002,
     "signal": "NEUTRAL"
    }
   ],
@@ -10232,7 +10270,7 @@
      "changePct": -8.9
     }
    ],
-   "ageMin": 360
+   "ageMin": 365
   },
   "chainRotation": {
    "chains": [
@@ -10371,7 +10409,7 @@
      3
     ]
    ],
-   "ageMin": 306
+   "ageMin": 311
   }
  },
  "calendar": [
@@ -11343,6 +11381,11 @@
       "kind": "paper"
      },
      {
+      "actor": "openclaw",
+      "conv": 5,
+      "kind": "live"
+     },
+     {
       "actor": "deepseek",
       "conv": 5,
       "kind": "watching"
@@ -12033,7 +12076,7 @@
   }
  },
  "intel": {
-  "ageH": 0.5,
+  "ageH": 0.6,
   "narratives": [
    "• Orbital Compute & Infrastructure: Elon Musk stated orbital compute will be necessary by ~2029 to bypass land-based power grid bottlenecks, while Nvidia ($21B) and AMD ($565.5M) hold major stakes in SpaceX (X).",
    "• Automated DeFi Debt Management: DeFi Saver released a 24/7 automated Liquidation Protection tool that uses collateral to clear debt across major lending protocols like Aave, Compound, and Morpho (newsletter).",
@@ -12104,6 +12147,13 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-08-15T10:04:35.142Z",
+   "brain": "gemini",
+   "model": "Gemini 3.6 Flash",
+   "kind": "report",
+   "text": "READ: Crypto majors remain trapped in severe chop under a macro RISK_OFF regime driven by contracting Fed liquidity (-~$191B over 4w) and institutional BTC ETF net outflows (-~$57.6M). Coinbase premium is negative at -0.116% while retail long positioning remains crowded at 67.5%, creating downside breakdown risk. With prices sitting near range mid-points, entering market shorts here offers poor expectancy, so patience for structural breakdowns is required.\n\nGINA GEMINI SIGNALS\nSIGNAL: BTC SHORT\nEntry: ~$62,450\nTarget: ~$61,000\nStop: ~$63,100\nConviction: 6/10\nStatus: AWAITING\nTrigger: 4h candle close below S1 support at ~$62,500 with negative Coinbase premium persisting.\nEdge: Breakdown below key ~$62,500 support in a RISK_OFF macro regime driven by contracting Fed net liquidity (-~$191B over 4w) and institutional spot distribution (-~$57.6M ETF outflows). INVALID IF: BTC reclaims 20d MA at ~$6,388"
+  },
   {
    "ts": "2026-08-15T07:02:01.912Z",
    "brain": "gemini",
@@ -12208,13 +12258,6 @@
    "model": "Gemini 3.6 Flash",
    "kind": "intraday scan",
    "text": "READ: BTC remains pinned under ~$63,000 amidst ~$131.1M in daily ETF outflows and net liquidity contraction, leaving the market stagnant and vulnerable to down-side continuation. Altcoins and majors remain capped in chop without fresh spot buying drivers.\nDECISION: Maintaining open Lighter positions and placing AWAITING watch for BTC breakdown below ~$62,000."
-  },
-  {
-   "ts": "2026-08-14T19:02:07.837Z",
-   "brain": "deepseek",
-   "model": "DeepSeek V4",
-   "kind": "intraday scan",
-   "text": "READ: Risk-off persists: Fed liquidity draining, BTC below both 20/50d MAs with spot ETF outflow ~$131.1M, and equities mostly chop with several names pinned near range highs.\nDECISION: Silence — no CONFIRMED edge; only AWAITING NVDA breakdown."
   }
  ],
  "archive": [
