@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-16T05:20:24.888Z",
+ "generatedAt": "2026-08-16T05:25:02.035Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 14,
    "wr": "13",
    "pnl": -84.36,
-   "account": 413.29,
-   "retPct": -17.3,
+   "account": 412.91,
+   "retPct": -17.4,
    "accountRealized": 415.64
   },
   {
@@ -6064,23 +6064,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-15T05:25:00.000Z",
-   "hl": 4.31914,
-   "hl_spot": 375.94172100000003,
-   "grvt": 0,
-   "extended": 337.395627,
-   "capital": 2194.208783,
-   "qwen": 409.35,
-   "openclaw": 380.26,
-   "hermes": 0,
-   "manual": 337.4,
-   "kimi": 525.23,
-   "deepseek": 469.55,
-   "gemini": 478.33,
-   "luna": null,
-   "minimax": null
-  },
-  {
    "ts": "2026-08-15T05:30:00.000Z",
    "hl": 4.31914,
    "hl_spot": 375.94172100000003,
@@ -10941,6 +10924,23 @@
    "gemini": 504.09,
    "luna": 500,
    "minimax": 500
+  },
+  {
+   "ts": "2026-08-16T05:25:00.000Z",
+   "hl": -1.1419000000000001,
+   "hl_spot": 370.383632,
+   "grvt": null,
+   "extended": 334.362204,
+   "capital": 3211.958604,
+   "qwen": 412.91,
+   "openclaw": 369.24,
+   "hermes": 462.81,
+   "manual": 334.36,
+   "kimi": 503.51,
+   "deepseek": 499.55,
+   "gemini": 504.09,
+   "luna": 500,
+   "minimax": 500
   }
  ],
  "venuesLive": {
@@ -11460,35 +11460,35 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63070.01,
-    "change24hPct": -0.13
+    "price": 63070,
+    "change24hPct": -0.09
    },
    {
     "symbol": "ETH",
-    "price": 1880.26,
-    "change24hPct": -0.22
+    "price": 1880.62,
+    "change24hPct": -0.14
    },
    {
     "symbol": "BNB",
-    "price": 606.1,
-    "change24hPct": -0.8
+    "price": 606.02,
+    "change24hPct": -0.72
    },
    {
     "symbol": "XRP",
-    "price": 0.9997,
-    "change24hPct": -0.63
+    "price": 1.0001,
+    "change24hPct": -0.59
    },
    {
     "symbol": "SOL",
-    "price": 75.43,
-    "change24hPct": -0.16
+    "price": 75.42,
+    "change24hPct": -0.11
    }
   ],
   "fearGreed": {
    "value": 34,
    "classification": "Fear"
   },
-  "regime": null,
+  "regime": "RISK_OFF",
   "stockFearGreed": {
    "value": 65,
    "classification": "Greed",
@@ -11503,6 +11503,13 @@
     "price": 14.25,
     "change": -2.6
    }
+  },
+  "netLiquidity": {
+   "usdB": 5795.3,
+   "deltaB": -191.4,
+   "weeks": 4,
+   "trend": "DRAINING",
+   "date": "2026-08-12"
   },
   "riskIndex": {
    "score": 33,
@@ -11673,7 +11680,7 @@
      "changePct": -11.8
     }
    ],
-   "ageMin": 80
+   "ageMin": 85
   },
   "chainRotation": {
    "chains": [
@@ -11812,7 +11819,7 @@
      1
     ]
    ],
-   "ageMin": 245
+   "ageMin": 250
   }
  },
  "calendar": [
@@ -11872,6 +11879,12 @@
   },
   {
    "date": "2026-08-20",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-20",
    "event": "DASH — Evo Platform 4.2 Release (est.)",
    "type": "CRYPTO",
    "impact": "MED"
@@ -11889,14 +11902,62 @@
    "impact": "MED"
   },
   {
+   "date": "2026-08-26",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-26",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-27",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-28",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-01",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-03",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-04",
-   "event": "Non-Farm Payrolls (Aug)",
+   "event": "Non-Farm Payrolls",
    "type": "NFP",
    "impact": "HIGH"
   },
   {
+   "date": "2026-09-10",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-10",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-11",
-   "event": "US CPI Release (Aug)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
   }
@@ -13196,7 +13257,7 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 3160,
+   "totalPrints7d": 3161,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
@@ -13204,7 +13265,7 @@
      "coin": "BRENTOIL",
      "l": 1,
      "s": 1,
-     "netK": 3389,
+     "netK": 3390,
      "concPct": 100
     },
     {
@@ -13218,35 +13279,35 @@
      "coin": "WTI",
      "l": 0,
      "s": 4,
-     "netK": -2080,
+     "netK": -2081,
      "concPct": 81
     },
     {
      "coin": "BTC",
      "l": 2,
-     "s": 4,
-     "netK": 449,
-     "concPct": 56
+     "s": 3,
+     "netK": 425,
+     "concPct": 55
     },
     {
      "coin": "XAU",
      "l": 1,
      "s": 3,
-     "netK": -2006,
+     "netK": -2001,
      "concPct": 91
     },
     {
      "coin": "ETH",
-     "l": 4,
+     "l": 3,
      "s": 2,
-     "netK": -2,
-     "concPct": 45
+     "netK": -20,
+     "concPct": 46
     },
     {
      "coin": "NATGAS",
      "l": 1,
      "s": 1,
-     "netK": -959,
+     "netK": -958,
      "concPct": 100
     },
     {
@@ -13274,14 +13335,14 @@
      "n": 182
     },
     {
+     "coin": "BTC",
+     "netK": 621,
+     "n": 773
+    },
+    {
      "coin": "SNDK",
      "netK": 579,
      "n": 101
-    },
-    {
-     "coin": "BTC",
-     "netK": 548,
-     "n": 770
     }
    ],
    "accounts": [
@@ -13290,7 +13351,7 @@
      "prints": 167,
      "volK": 5632,
      "biasK": 789,
-     "equity": 16805,
+     "equity": 16758,
      "positions": [
       {
        "coin": "WTI",
@@ -13313,30 +13374,30 @@
      "prints": 87,
      "volK": 2440,
      "biasK": 35,
-     "equity": 4370535,
+     "equity": 4370893,
      "positions": [
       {
        "coin": "BTC",
        "side": "SHORT",
-       "usdK": 484,
-       "upnlK": -1
+       "usdK": 508,
+       "upnlK": 0
       },
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 413,
+       "usdK": 412,
        "upnlK": 1
       },
       {
        "coin": "ZEC",
        "side": "SHORT",
-       "usdK": 258,
-       "upnlK": 2
+       "usdK": 257,
+       "upnlK": 3
       },
       {
        "coin": "SOL",
        "side": "SHORT",
-       "usdK": 157,
+       "usdK": 156,
        "upnlK": 1
       }
      ]
@@ -13346,30 +13407,16 @@
      "prints": 115,
      "volK": 1853,
      "biasK": -165,
-     "equity": 70139,
-     "positions": [
-      {
-       "coin": "ETH",
-       "side": "LONG",
-       "usdK": 19,
-       "upnlK": 0
-      }
-     ]
+     "equity": 70148,
+     "positions": []
     },
     {
      "id": 293360,
-     "prints": 60,
-     "volK": 1576,
-     "biasK": 33,
-     "equity": 11722,
-     "positions": [
-      {
-       "coin": "BTC",
-       "side": "SHORT",
-       "usdK": 0,
-       "upnlK": 0
-      }
-     ]
+     "prints": 61,
+     "volK": 1604,
+     "biasK": 6,
+     "equity": 11729,
+     "positions": []
     }
    ]
   },
