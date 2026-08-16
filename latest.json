@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-16T16:00:09.253Z",
+ "generatedAt": "2026-08-16T16:05:02.067Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 14,
    "wr": "13",
    "pnl": -84.36,
-   "account": 403.47,
-   "retPct": -19.3,
+   "account": 404.73,
+   "retPct": -19.1,
    "accountRealized": 415.64
   },
   {
@@ -6057,23 +6057,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-15T16:05:00.000Z",
-   "hl": 2.774886,
-   "hl_spot": 374.27637799999997,
-   "grvt": 0,
-   "extended": 344.706917,
-   "capital": 2199.56601,
-   "qwen": 409.03,
-   "openclaw": 377.05,
-   "hermes": 0,
-   "manual": 344.71,
-   "kimi": 525.23,
-   "deepseek": 469.55,
-   "gemini": 479.59,
-   "luna": null,
-   "minimax": null
-  },
-  {
    "ts": "2026-08-15T16:10:00.000Z",
    "hl": 2.774886,
    "hl_spot": 374.27637799999997,
@@ -10934,6 +10917,23 @@
    "gemini": 502.78,
    "luna": 500,
    "minimax": 500
+  },
+  {
+   "ts": "2026-08-16T16:05:00.000Z",
+   "hl": -0.22594000000000003,
+   "hl_spot": 371.447114,
+   "grvt": null,
+   "extended": 353.981495,
+   "capital": 3221.9657020000004,
+   "qwen": 404.73,
+   "openclaw": 372.35,
+   "hermes": 371.22,
+   "manual": 353.98,
+   "kimi": 493.24,
+   "deepseek": 499.55,
+   "gemini": 502.78,
+   "luna": 500,
+   "minimax": 500
   }
  ],
  "venuesLive": {
@@ -11397,28 +11397,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 63146.4,
+    "price": 63138.59,
     "change24hPct": 0.07
    },
    {
     "symbol": "ETH",
-    "price": 1884.29,
-    "change24hPct": -0.04
+    "price": 1884.5,
+    "change24hPct": -0.03
    },
    {
     "symbol": "BNB",
-    "price": 607.44,
-    "change24hPct": -0.69
+    "price": 607.11,
+    "change24hPct": -0.71
    },
    {
     "symbol": "XRP",
-    "price": 1.0019,
-    "change24hPct": -0.04
+    "price": 1.0018,
+    "change24hPct": -0.02
    },
    {
     "symbol": "SOL",
-    "price": 75.57,
-    "change24hPct": 0.04
+    "price": 75.56,
+    "change24hPct": 0.08
    }
   ],
   "fearGreed": {
@@ -11459,14 +11459,14 @@
     {
      "key": "leverage",
      "label": "Leverage build",
-     "score": 39,
-     "detail": "majors OI +0.9%/24h"
+     "score": 37,
+     "detail": "majors OI +0.5%/24h"
     },
     {
      "key": "funding",
      "label": "Funding extremity",
-     "score": 11,
-     "detail": "mean |funding| 0.008%/day"
+     "score": 15,
+     "detail": "mean |funding| 0.010%/day"
     },
     {
      "key": "crowding",
@@ -11489,8 +11489,8 @@
     {
      "key": "liquidity",
      "label": "Liquidity / dry powder",
-     "score": 64,
-     "detail": "stables +0.04%/7d, Fed draining"
+     "score": 65,
+     "detail": "stables +0.03%/7d, Fed draining"
     },
     {
      "key": "macro",
@@ -11508,16 +11508,16 @@
      "key": "impliedvol",
      "label": "Implied volatility",
      "score": 15,
-     "detail": "BTC DVOL 35.3 vs 90d median 37.5"
+     "detail": "BTC DVOL 35.4 vs 90d median 37.5"
     },
     {
      "key": "takerflow",
      "label": "Taker flow imbalance",
-     "score": 68,
-     "detail": "48.0% taker buy — sellers crossing the spread"
+     "score": 64,
+     "detail": "48.1% taker buy — sellers crossing the spread"
     }
    ],
-   "computedAt": 1786874505709
+   "computedAt": 1786896099511
   },
   "equityRegime": "NEUTRAL",
   "longShort": [
@@ -11628,7 +11628,7 @@
      "changePct": -14.9
     }
    ],
-   "ageMin": 0
+   "ageMin": 5
   },
   "chainRotation": {
    "chains": [
@@ -11767,7 +11767,7 @@
      4
     ]
    ],
-   "ageMin": 105
+   "ageMin": 110
   }
  },
  "calendar": [
@@ -12778,6 +12778,17 @@
     ]
    },
    {
+    "asset": "ETHFI",
+    "long": [],
+    "short": [
+     {
+      "actor": "qwen",
+      "conv": 5,
+      "kind": "watching"
+     }
+    ]
+   },
+   {
     "asset": "HYPE",
     "long": [],
     "short": [
@@ -12787,17 +12798,6 @@
       "kind": "watching"
      }
     ]
-   },
-   {
-    "asset": "JUP",
-    "long": [
-     {
-      "actor": "openclaw",
-      "conv": 6,
-      "kind": "live"
-     }
-    ],
-    "short": []
    }
   ],
   "disagreement": "LINK"
@@ -13163,7 +13163,7 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 3046,
+   "totalPrints7d": 3040,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
@@ -13171,21 +13171,21 @@
      "coin": "BRENTOIL",
      "l": 1,
      "s": 1,
-     "netK": 3379,
+     "netK": 3381,
      "concPct": 100
     },
     {
      "coin": "XAG",
      "l": 0,
      "s": 2,
-     "netK": -2929,
+     "netK": -2930,
      "concPct": 100
     },
     {
      "coin": "WTI",
      "l": 0,
      "s": 3,
-     "netK": -2085,
+     "netK": -2088,
      "concPct": 81
     },
     {
@@ -13199,8 +13199,8 @@
      "coin": "BTC",
      "l": 3,
      "s": 4,
-     "netK": -259,
-     "concPct": 41
+     "netK": -191,
+     "concPct": 42
     },
     {
      "coin": "NATGAS",
@@ -13211,9 +13211,9 @@
     },
     {
      "coin": "ETH",
-     "l": 3,
+     "l": 4,
      "s": 2,
-     "netK": -155,
+     "netK": -157,
      "concPct": 52
     },
     {
@@ -13227,8 +13227,8 @@
    "coinFlow": [
     {
      "coin": "ETH",
-     "netK": -2418,
-     "n": 814
+     "netK": -2452,
+     "n": 812
     },
     {
      "coin": "WTI",
@@ -13257,12 +13257,12 @@
      "prints": 154,
      "volK": 5195,
      "biasK": 846,
-     "equity": 16679,
+     "equity": 16349,
      "positions": [
       {
        "coin": "WTI",
        "side": "SHORT",
-       "usdK": 380,
+       "usdK": 381,
        "upnlK": -3
       }
      ]
@@ -13272,7 +13272,7 @@
      "prints": 85,
      "volK": 2420,
      "biasK": 82,
-     "equity": 4365003,
+     "equity": 4365246,
      "positions": [
       {
        "coin": "BTC",
@@ -13305,20 +13305,27 @@
      "prints": 110,
      "volK": 1768,
      "biasK": -192,
-     "equity": 70158,
-     "positions": []
+     "equity": 70172,
+     "positions": [
+      {
+       "coin": "ETH",
+       "side": "LONG",
+       "usdK": 9,
+       "upnlK": 0
+      }
+     ]
     },
     {
      "id": 293360,
-     "prints": 62,
-     "volK": 1601,
-     "biasK": -52,
-     "equity": 11656,
+     "prints": 61,
+     "volK": 1589,
+     "biasK": -40,
+     "equity": 11653,
      "positions": [
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 3,
+       "usdK": 27,
        "upnlK": 0
       }
      ]
@@ -13328,7 +13335,7 @@
      "prints": 52,
      "volK": 1347,
      "biasK": 290,
-     "equity": 3178,
+     "equity": 3179,
      "positions": [
       {
        "coin": "BTC",
@@ -13510,7 +13517,7 @@
   }
  },
  "intel": {
-  "ageH": 0.5,
+  "ageH": 0.6,
   "narratives": [
    "* AI Compute & Power Infrastructure Arbitrage: Crypto miners are aggressively shifting power allocations to AI compute for ~10x higher revenue per power unit (highlighted by Riot's $9B deal with Anthropic), alongside Nvi",
    "* Robinhood Chain & Launchpads: The launchpad sector saw $75.39M in 30-day fees, driven by Robinhood Chain capturing $33.49M (+236%) and rapidly selling out 44,444 NFTs in under an hour. (newsletter)",
