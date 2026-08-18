@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-18T14:45:01.990Z",
+ "generatedAt": "2026-08-18T14:50:05.640Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 19,
    "wr": "10",
    "pnl": -132.92,
-   "account": 365.79,
-   "retPct": -26.8,
+   "account": 384.88,
+   "retPct": -23,
    "accountRealized": 367.08
   },
   {
@@ -6077,23 +6077,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-17T14:50:00.000Z",
-   "hl": 0.01788,
-   "hl_spot": 367.529136,
-   "grvt": null,
-   "extended": 427.649523,
-   "capital": 3284.1121470000003,
-   "qwen": 372.37,
-   "openclaw": 371.1,
-   "hermes": 367.55,
-   "manual": 427.65,
-   "kimi": 493.24,
-   "deepseek": 499.55,
-   "gemini": 499.94,
-   "luna": 494.99,
-   "minimax": 500
-  },
-  {
    "ts": "2026-08-17T14:55:00.000Z",
    "hl": 0.27152,
    "hl_spot": 367.782776,
@@ -10954,6 +10937,23 @@
    "gemini": 501.95,
    "luna": 501.26,
    "minimax": 500
+  },
+  {
+   "ts": "2026-08-18T14:50:00.000Z",
+   "hl": 0,
+   "hl_spot": 500.195256,
+   "grvt": null,
+   "extended": 453.862427,
+   "capital": 3458.4200730000002,
+   "qwen": 384.88,
+   "openclaw": 385.34,
+   "hermes": 500.2,
+   "manual": 453.86,
+   "kimi": 500.24,
+   "deepseek": 499.96,
+   "gemini": 501.95,
+   "luna": 501.26,
+   "minimax": 500
   }
  ],
  "venuesLive": {
@@ -10975,6 +10975,40 @@
   "liveN": 59
  },
  "openTrades": [
+  {
+   "id": 430,
+   "asset": "NBIS",
+   "direction": "SHORT",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "entry": 270,
+   "stop": 279,
+   "target": 252,
+   "levelsApprox": false,
+   "trailed": false,
+   "rr": 2,
+   "conviction": 6,
+   "openedAt": "2026-08-18T14:48:12.761Z",
+   "thesis": "qwen pick (paper, trigger-filled from AWAITING watch: 1h close below 270.00)",
+   "smartMoney": null
+  },
+  {
+   "id": 429,
+   "asset": "AAOI",
+   "direction": "SHORT",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "entry": 140,
+   "stop": 154,
+   "target": 112,
+   "levelsApprox": false,
+   "trailed": false,
+   "rr": 2,
+   "conviction": 6,
+   "openedAt": "2026-08-18T14:48:12.100Z",
+   "thesis": "qwen pick (paper, trigger-filled from AWAITING watch: 1h close below 140.00)",
+   "smartMoney": null
+  },
   {
    "id": 427,
    "asset": "BTC",
@@ -11394,28 +11428,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64786,
-    "change24hPct": 1.83
+    "price": 64806.47,
+    "change24hPct": 1.66
    },
    {
     "symbol": "ETH",
-    "price": 1912.36,
-    "change24hPct": 0.58
+    "price": 1914.13,
+    "change24hPct": 0.43
    },
    {
     "symbol": "BNB",
-    "price": 602.81,
-    "change24hPct": -0.41
+    "price": 603.02,
+    "change24hPct": -0.56
    },
    {
     "symbol": "XRP",
-    "price": 1.0016,
-    "change24hPct": 0
+    "price": 1.0022,
+    "change24hPct": -0.08
    },
    {
     "symbol": "SOL",
-    "price": 76.82,
-    "change24hPct": 1.51
+    "price": 76.85,
+    "change24hPct": 1.35
    }
   ],
   "fearGreed": {
@@ -11430,12 +11464,12 @@
   },
   "macro": {
    "dxy": {
-    "price": 99.55,
-    "change": -0.13
+    "price": 99.59,
+    "change": -0.08
    },
    "vix": {
-    "price": 15.86,
-    "change": 11.3
+    "price": 15.67,
+    "change": 9.96
    }
   },
   "netLiquidity": {
@@ -11520,31 +11554,31 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.434,
-    "longPct": 58.9,
+    "ratio": 1.406,
+    "longPct": 58.4,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.43,
-    "longPct": 70.9,
+    "ratio": 2.418,
+    "longPct": 70.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
+    "ratio": 2.223,
+    "longPct": 69,
+    "bias": "CROWDED LONG"
+   },
+   {
+    "asset": "BNB",
     "ratio": 2.245,
     "longPct": 69.2,
     "bias": "CROWDED LONG"
    },
    {
-    "asset": "BNB",
-    "ratio": 2.249,
-    "longPct": 69.2,
-    "bias": "CROWDED LONG"
-   },
-   {
     "asset": "XRP",
-    "ratio": 3.168,
+    "ratio": 3.16,
     "longPct": 76,
     "bias": "CROWDED LONG"
    }
@@ -11625,7 +11659,7 @@
      "changePct": -14.3
     }
    ],
-   "ageMin": 285
+   "ageMin": 290
   },
   "chainRotation": {
    "chains": [
@@ -11760,7 +11794,7 @@
      7
     ]
    ],
-   "ageMin": 90
+   "ageMin": 95
   }
  },
  "calendar": [
@@ -12648,20 +12682,20 @@
    },
    {
     "asset": "AAOI",
-    "long": [
+    "long": [],
+    "short": [
      {
       "actor": "qwen",
       "conv": 6,
-      "kind": "watching"
+      "kind": "paper"
      }
-    ],
-    "short": []
+    ]
    }
   ],
   "disagreement": "ETH"
  },
  "manualBook": {
-  "at": "2026-08-18T14:30:14.409Z",
+  "at": "2026-08-18T14:50:05.640Z",
   "positions": [
    {
     "asset": "TSLA",
@@ -12675,21 +12709,21 @@
     "stock": false,
     "direction": "LONG",
     "entry": 0.40899,
-    "pnlPct": -0.07
+    "pnlPct": -0.08
    },
    {
     "asset": "FARTCOIN",
     "stock": false,
     "direction": "LONG",
     "entry": 0.14402,
-    "pnlPct": 0.97
+    "pnlPct": -0.7
    },
    {
     "asset": "MON",
     "stock": false,
     "direction": "LONG",
     "entry": 0.02087,
-    "pnlPct": 2.27
+    "pnlPct": 1.74
    }
   ]
  },
@@ -13242,7 +13276,7 @@
   }
  },
  "intel": {
-  "ageH": 5.3,
+  "ageH": 5.4,
   "narratives": [
    "• AI Agent Gateway Infrastructure: Stripe's $7B+ OpenRouter acquisition emphasizes off-chain payment rails capturing revenue from agentic model API routing. (newsletter)",
    "• Solana Marketing & Token Launchpads: Protocols moving toward structured launchpads (ansem.io/z500) where project visibility is driven by community token burns and airdrops. (both)",
