@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-18T14:30:14.409Z",
+ "generatedAt": "2026-08-18T14:35:01.941Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -21,14 +21,14 @@
    "label": "Quinn Qwen",
    "venue": "paper",
    "paper": true,
-   "trades": 19,
+   "trades": 21,
    "wins": 2,
-   "losses": 17,
-   "wr": "11",
-   "pnl": -125.55,
-   "account": 361.62,
-   "retPct": -27.7,
-   "accountRealized": 374.45
+   "losses": 19,
+   "wr": "10",
+   "pnl": -132.92,
+   "account": 365.64,
+   "retPct": -26.9,
+   "accountRealized": 367.08
   },
   {
    "key": "openclaw",
@@ -213,7 +213,7 @@
     415.64,
     401.29,
     374.45,
-    374.45
+    367.08
    ],
    "openclaw": [
     500,
@@ -6077,23 +6077,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-17T14:35:00.000Z",
-   "hl": 0.2566,
-   "hl_spot": 367.767856,
-   "grvt": null,
-   "extended": 432.972017,
-   "capital": 3289.808801,
-   "qwen": 372.14,
-   "openclaw": 371.1,
-   "hermes": 368.02,
-   "manual": 432.97,
-   "kimi": 493.24,
-   "deepseek": 499.55,
-   "gemini": 500.02,
-   "luna": 494.81,
-   "minimax": 500
-  },
-  {
    "ts": "2026-08-17T14:40:00.000Z",
    "hl": 0.01788,
    "hl_spot": 367.529136,
@@ -10954,6 +10937,23 @@
    "gemini": 494.99,
    "luna": 501.9,
    "minimax": 500
+  },
+  {
+   "ts": "2026-08-18T14:35:00.000Z",
+   "hl": 0,
+   "hl_spot": 500.195256,
+   "grvt": null,
+   "extended": 464.050215,
+   "capital": 3455.5411540000005,
+   "qwen": 365.64,
+   "openclaw": 385.34,
+   "hermes": 500.2,
+   "manual": 464.05,
+   "kimi": 493.24,
+   "deepseek": 499.96,
+   "gemini": 494.99,
+   "luna": 501.9,
+   "minimax": 500
   }
  ],
  "venuesLive": {
@@ -10976,33 +10976,16 @@
  },
  "openTrades": [
   {
-   "id": 428,
-   "asset": "BTC",
-   "direction": "SHORT",
-   "actor": "qwen",
-   "venue": "PAPER",
-   "entry": 64150,
-   "stop": 64800,
-   "target": 62500,
-   "levelsApprox": false,
-   "trailed": false,
-   "rr": 2.5,
-   "conviction": 6,
-   "openedAt": "2026-08-18T06:35:32.198Z",
-   "thesis": "qwen pick (paper, trigger-filled from AWAITING watch: 1h close above 64000)",
-   "smartMoney": 1
-  },
-  {
    "id": 427,
    "asset": "BTC",
    "direction": "LONG",
    "actor": "luna",
    "venue": "LIGHTER",
    "entry": 64103,
-   "stop": 63462,
+   "stop": 64423.5,
    "target": 65705.6,
    "levelsApprox": true,
-   "trailed": false,
+   "trailed": true,
    "rr": 2.2,
    "conviction": 6,
    "openedAt": "2026-08-18T04:03:49.254Z",
@@ -11076,23 +11059,6 @@
    "openedAt": "2026-08-17T10:03:57.937Z",
    "thesis": "BNB is already showing long-liquidation deleveraging with price down 0.53% and OI down 0.9% over 24h, while its 4h MACD is bearish with histogram -0.6322; the range-high $612.90 invalidates the distribution thesis.",
    "smartMoney": null
-  },
-  {
-   "id": 420,
-   "asset": "SOL",
-   "direction": "SHORT",
-   "actor": "qwen",
-   "venue": "PAPER",
-   "entry": 75.51,
-   "stop": 76.6,
-   "target": 73.3,
-   "levelsApprox": false,
-   "trailed": false,
-   "rr": 2,
-   "conviction": 6,
-   "openedAt": "2026-08-17T10:03:48.570Z",
-   "thesis": "qwen pick (paper, trigger-filled from AWAITING watch: price touches 75.51)",
-   "smartMoney": 1
   },
   {
    "id": 419,
@@ -11273,6 +11239,34 @@
  ],
  "recentCloses": [
   {
+   "id": 420,
+   "asset": "SOL",
+   "direction": "SHORT",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "outcome": "LOSS",
+   "pct": -1.4,
+   "exitReason": null,
+   "closedAt": "2026-08-18T14:33:13.174Z",
+   "entry": 75.51,
+   "exit": 76.6,
+   "openedAt": "2026-08-17T10:03:48.570Z"
+  },
+  {
+   "id": 428,
+   "asset": "BTC",
+   "direction": "SHORT",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "outcome": "LOSS",
+   "pct": -1,
+   "exitReason": null,
+   "closedAt": "2026-08-18T14:33:10.364Z",
+   "entry": 64150,
+   "exit": 64800,
+   "openedAt": "2026-08-18T06:35:32.198Z"
+  },
+  {
    "id": 424,
    "asset": "ETH",
    "direction": "SHORT",
@@ -11411,62 +11405,34 @@
    "entry": 1879.03,
    "exit": 1903.11,
    "openedAt": "2026-08-12T22:03:46.584Z"
-  },
-  {
-   "id": 409,
-   "asset": "ETH",
-   "direction": "SHORT",
-   "actor": "deepseek",
-   "venue": "PAPER",
-   "outcome": "LOSS",
-   "pct": -1,
-   "exitReason": "SHORT ETH: stopped out at SL -1.0% (entry $1881.5 → exit $1900.35). WHY: Stop was hit on noise within the transitional zone; whale selling thesis never materialized as price consolidated instead of…",
-   "closedAt": "2026-08-17T03:00:25.441Z",
-   "entry": 1881.5,
-   "exit": 1900.35,
-   "openedAt": "2026-08-16T04:05:07.516Z"
-  },
-  {
-   "id": 406,
-   "asset": "MORPHO",
-   "direction": "LONG",
-   "actor": "openclaw",
-   "venue": "PAPER",
-   "outcome": "WIN",
-   "pct": 3.3,
-   "exitReason": "LONG MORPHO: hit target +3.3% (entry $1.9452 → exit $2.0096). WHY: Thesis held: top-trader positioning stayed bullish, OI stabilized, price respect swing low ($1.913) + catalyst window remained…",
-   "closedAt": "2026-08-16T16:30:27.604Z",
-   "entry": 1.9452,
-   "exit": 2.0096,
-   "openedAt": "2026-08-15T04:06:06.851Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64985.03,
-    "change24hPct": 2.15
+    "price": 64814,
+    "change24hPct": 1.77
    },
    {
     "symbol": "ETH",
-    "price": 1919.82,
-    "change24hPct": 1.07
+    "price": 1914.66,
+    "change24hPct": 0.66
    },
    {
     "symbol": "BNB",
-    "price": 603.77,
-    "change24hPct": -0.27
+    "price": 603.68,
+    "change24hPct": -0.32
    },
    {
     "symbol": "XRP",
-    "price": 1.0059,
-    "change24hPct": 0.57
+    "price": 1.0025,
+    "change24hPct": 0.12
    },
    {
     "symbol": "SOL",
-    "price": 77.06,
-    "change24hPct": 1.89
+    "price": 76.95,
+    "change24hPct": 1.61
    }
   ],
   "fearGreed": {
@@ -11676,7 +11642,7 @@
      "changePct": -14.3
     }
    ],
-   "ageMin": 270
+   "ageMin": 275
   },
   "chainRotation": {
    "chains": [
@@ -11811,7 +11777,7 @@
      7
     ]
    ],
-   "ageMin": 75
+   "ageMin": 80
   }
  },
  "calendar": [
@@ -12568,11 +12534,6 @@
       "kind": "live"
      },
      {
-      "actor": "qwen",
-      "conv": 6,
-      "kind": "paper"
-     },
-     {
       "actor": "hermes",
       "conv": 5,
       "kind": "watching"
@@ -12639,27 +12600,6 @@
     ]
    },
    {
-    "asset": "SOL",
-    "long": [],
-    "short": [
-     {
-      "actor": "qwen",
-      "conv": 6,
-      "kind": "paper"
-     },
-     {
-      "actor": "gemini",
-      "conv": 6,
-      "kind": "watching"
-     },
-     {
-      "actor": "deepseek",
-      "conv": 5,
-      "kind": "watching"
-     }
-    ]
-   },
-   {
     "asset": "ZEC",
     "long": [
      {
@@ -12693,6 +12633,22 @@
       "actor": "luna",
       "conv": 7,
       "kind": "live"
+     }
+    ]
+   },
+   {
+    "asset": "SOL",
+    "long": [],
+    "short": [
+     {
+      "actor": "gemini",
+      "conv": 6,
+      "kind": "watching"
+     },
+     {
+      "actor": "deepseek",
+      "conv": 5,
+      "kind": "watching"
      }
     ]
    },
@@ -13301,7 +13257,7 @@
   }
  },
  "intel": {
-  "ageH": 5,
+  "ageH": 5.1,
   "narratives": [
    "• AI Agent Gateway Infrastructure: Stripe's $7B+ OpenRouter acquisition emphasizes off-chain payment rails capturing revenue from agentic model API routing. (newsletter)",
    "• Solana Marketing & Token Launchpads: Protocols moving toward structured launchpads (ansem.io/z500) where project visibility is driven by community token burns and airdrops. (both)",
@@ -13487,6 +13443,38 @@
   }
  ],
  "archive": [
+  {
+   "id": 420,
+   "asset": "SOL",
+   "direction": "SHORT",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "outcome": "LOSS",
+   "pct": -1.4,
+   "pnlUsd": -4.33,
+   "exitReason": null,
+   "closedAt": "2026-08-18T14:33:13.174Z",
+   "entry": 75.51,
+   "exit": 76.6,
+   "conviction": 6,
+   "openedAt": "2026-08-17T10:03:48.570Z"
+  },
+  {
+   "id": 428,
+   "asset": "BTC",
+   "direction": "SHORT",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "outcome": "LOSS",
+   "pct": -1,
+   "pnlUsd": -3.04,
+   "exitReason": null,
+   "closedAt": "2026-08-18T14:33:10.364Z",
+   "entry": 64150,
+   "exit": 64800,
+   "conviction": 6,
+   "openedAt": "2026-08-18T06:35:32.198Z"
+  },
   {
    "id": 424,
    "asset": "ETH",
