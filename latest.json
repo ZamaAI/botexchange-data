@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-19T21:00:03.885Z",
+ "generatedAt": "2026-08-19T21:05:01.242Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -21,14 +21,14 @@
    "label": "Quinn Qwen",
    "venue": "paper",
    "paper": true,
-   "trades": 5,
-   "wins": 2,
+   "trades": 6,
+   "wins": 3,
    "losses": 3,
-   "wr": "40",
-   "pnl": -9.85,
-   "account": 501.66,
-   "retPct": 0.3,
-   "accountRealized": 490.15
+   "wr": "50",
+   "pnl": 4.7,
+   "account": 497.7,
+   "retPct": -0.5,
+   "accountRealized": 504.7
   },
   {
    "key": "openclaw",
@@ -151,7 +151,7 @@
   "bySource": {
    "qwen": [
     500,
-    490.15
+    504.7
    ],
    "openclaw": [
     500,
@@ -4864,6 +4864,23 @@
    "gemini": 508.49,
    "luna": 489.43,
    "minimax": 500
+  },
+  {
+   "ts": "2026-08-19T21:05:00.000Z",
+   "hl": 0,
+   "hl_spot": 500.02817799999997,
+   "grvt": null,
+   "extended": 558.591446,
+   "capital": 3553.457857,
+   "qwen": 497.7,
+   "openclaw": 527.39,
+   "hermes": 500.03,
+   "manual": 558.59,
+   "kimi": 496,
+   "deepseek": 499.96,
+   "gemini": 508.49,
+   "luna": 489.43,
+   "minimax": 500
   }
  ],
  "venuesLive": {
@@ -4900,23 +4917,6 @@
    "conviction": 5,
    "openedAt": "2026-08-19T20:01:33.291Z",
    "thesis": "qwen pick (paper, trigger-filled from AWAITING watch: 15m close below 0.360 after touching 0.3707)",
-   "smartMoney": null
-  },
-  {
-   "id": 438,
-   "asset": "CAKE",
-   "direction": "LONG",
-   "actor": "qwen",
-   "venue": "PAPER",
-   "entry": 1.526,
-   "stop": 1.49,
-   "target": 1.6,
-   "levelsApprox": false,
-   "trailed": false,
-   "rr": 2.1,
-   "conviction": 6,
-   "openedAt": "2026-08-19T04:33:15.251Z",
-   "thesis": "qwen pick (paper, trigger-filled from AWAITING watch: 1h close above 1.525)",
    "smartMoney": null
   },
   {
@@ -5017,6 +5017,20 @@
   }
  ],
  "recentCloses": [
+  {
+   "id": 438,
+   "asset": "CAKE",
+   "direction": "LONG",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "outcome": "WIN",
+   "pct": 4.8,
+   "exitReason": null,
+   "closedAt": "2026-08-19T21:01:38.123Z",
+   "entry": 1.526,
+   "exit": 1.6,
+   "openedAt": "2026-08-19T04:33:15.251Z"
+  },
   {
    "id": 443,
    "asset": "ETH",
@@ -5170,48 +5184,34 @@
    "entry": 77.24,
    "exit": 78.236,
    "openedAt": "2026-08-19T10:07:53.504Z"
-  },
-  {
-   "id": 426,
-   "asset": "ETH",
-   "direction": "SHORT",
-   "actor": "kimi",
-   "venue": "PAPER",
-   "outcome": "LOSS",
-   "pct": -1,
-   "exitReason": "SHORT ETH: stopped out at SL -1.0% (entry $1905 → exit $1925). WHY: Stop hit on noise in a transitional choppy structure; OI kept rising through $1925 resistance, invalidating the crowded unwind…",
-   "closedAt": "2026-08-19T12:48:17.218Z",
-   "entry": 1905,
-   "exit": 1925,
-   "openedAt": "2026-08-17T22:06:20.347Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 69048.06,
-    "change24hPct": 6.92
+    "price": 69334.49,
+    "change24hPct": 7.32
    },
    {
     "symbol": "ETH",
-    "price": 2218.13,
-    "change24hPct": 15.95
+    "price": 2256.44,
+    "change24hPct": 17.9
    },
    {
     "symbol": "BNB",
-    "price": 624.06,
-    "change24hPct": 3.51
+    "price": 625.88,
+    "change24hPct": 3.79
    },
    {
     "symbol": "XRP",
-    "price": 1.0992,
-    "change24hPct": 9.9
+    "price": 1.1,
+    "change24hPct": 9.86
    },
    {
     "symbol": "SOL",
-    "price": 83.72,
-    "change24hPct": 8.88
+    "price": 84.93,
+    "change24hPct": 10.34
    }
   ],
   "fearGreed": {
@@ -5316,32 +5316,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.1,
-    "longPct": 52.4,
+    "ratio": 1.148,
+    "longPct": 53.4,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.236,
-    "longPct": 69.1,
+    "ratio": 2.587,
+    "longPct": 72.1,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 1.759,
-    "longPct": 63.7,
+    "ratio": 1.959,
+    "longPct": 66.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.104,
-    "longPct": 67.8,
+    "ratio": 2.214,
+    "longPct": 68.9,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.68,
-    "longPct": 72.8,
+    "ratio": 2.733,
+    "longPct": 73.2,
     "bias": "CROWDED LONG"
    }
   ],
@@ -5421,7 +5421,7 @@
      "changePct": -17.2
     }
    ],
-   "ageMin": 300
+   "ageMin": 305
   },
   "chainRotation": {
    "chains": [
@@ -5564,7 +5564,7 @@
      1
     ]
    ],
-   "ageMin": 285
+   "ageMin": 290
   }
  },
  "calendar": [
@@ -6411,22 +6411,6 @@
     ]
    },
    {
-    "asset": "CAKE",
-    "long": [
-     {
-      "actor": "qwen",
-      "conv": 6,
-      "kind": "paper"
-     },
-     {
-      "actor": "deepseek",
-      "conv": 5,
-      "kind": "watching"
-     }
-    ],
-    "short": []
-   },
-   {
     "asset": "MORPHO",
     "long": [
      {
@@ -6464,6 +6448,17 @@
      {
       "actor": "luna",
       "conv": 6,
+      "kind": "watching"
+     }
+    ],
+    "short": []
+   },
+   {
+    "asset": "CAKE",
+    "long": [
+     {
+      "actor": "deepseek",
+      "conv": 5,
       "kind": "watching"
      }
     ],
@@ -7070,7 +7065,7 @@
   }
  },
  "intel": {
-  "ageH": 5.5,
+  "ageH": 5.6,
   "narratives": [
    "* Tokenization & RWAs: Robinhood's CEO declared the start of a \"tokenization supercycle,\" backed by DTCC's planned October service launch, Toyota's JPY 1B tokenized bond issuance, and $2.18B in Solana tokenized stock DEX",
    "* AI Computing Networks: Protocols linking AI inference to blockchain infrastructure gained focus via Arthur Hayes' Flop Labs ($FLOP) launch, despite semiconductor market pullbacks (-5% SOX) causing a short-term sell-off",
@@ -7257,6 +7252,22 @@
   }
  ],
  "archive": [
+  {
+   "id": 438,
+   "asset": "CAKE",
+   "direction": "LONG",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "outcome": "WIN",
+   "pct": 4.8,
+   "pnlUsd": 14.55,
+   "exitReason": null,
+   "closedAt": "2026-08-19T21:01:38.123Z",
+   "entry": 1.526,
+   "exit": 1.6,
+   "conviction": 6,
+   "openedAt": "2026-08-19T04:33:15.251Z"
+  },
   {
    "id": 443,
    "asset": "ETH",
