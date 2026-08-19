@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-19T13:15:05.092Z",
+ "generatedAt": "2026-08-19T13:20:06.830Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,7 +26,7 @@
    "losses": 20,
    "wr": "13",
    "pnl": -142.92,
-   "account": 375.64,
+   "account": 375.66,
    "retPct": -24.9,
    "accountRealized": 357.08
   },
@@ -124,8 +124,8 @@
    "losses": 1,
    "wr": "50",
    "pnl": -3.04,
-   "account": 496.64,
-   "retPct": -0.7,
+   "account": 496.91,
+   "retPct": -0.6,
    "accountRealized": 496.96
   },
   {
@@ -6087,23 +6087,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-18T13:20:00.000Z",
-   "hl": 0,
-   "hl_spot": 500.195256,
-   "grvt": null,
-   "extended": 415.418768,
-   "capital": 3411.2915559999997,
-   "qwen": 374.33,
-   "openclaw": 385.34,
-   "hermes": 500.2,
-   "manual": 415.42,
-   "kimi": 493.24,
-   "deepseek": 499.96,
-   "gemini": 502.02,
-   "luna": 499.26,
-   "minimax": 500
-  },
-  {
    "ts": "2026-08-18T13:25:00.000Z",
    "hl": 0,
    "hl_spot": 500.195256,
@@ -10981,14 +10964,31 @@
    "gemini": 497.45,
    "luna": 496.64,
    "minimax": 500
+  },
+  {
+   "ts": "2026-08-19T13:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 499.96662299999997,
+   "grvt": null,
+   "extended": 506.996461,
+   "capital": 3498.240033,
+   "qwen": 375.66,
+   "openclaw": 385.34,
+   "hermes": 499.97,
+   "manual": 507,
+   "kimi": 496,
+   "deepseek": 499.96,
+   "gemini": 497.45,
+   "luna": 496.91,
+   "minimax": 500
   }
  ],
  "venuesLive": {
   "hl": 0,
   "hl_spot": 499.96662299999997,
   "grvt": null,
-  "lighter": 2491.011269,
-  "total": 2990.977892
+  "lighter": 2491.276949,
+  "total": 2991.243572
  },
  "awaitingScore": {
   "at": "2026-08-19T02:15:38.321Z",
@@ -11210,7 +11210,7 @@
    "venue": "LIGHTER",
    "outcome": "LOSS",
    "pct": -1.3,
-   "exitReason": null,
+   "exitReason": "SHORT SOL: stopped out at SL -1.3% (entry $77.24 → exit $78.236). WHY: Stop hit on noise; OI never dropped below +2% and funding stayed positive, so invalidation condition didn't trigger—thesis…",
    "closedAt": "2026-08-19T12:49:33.824Z",
    "entry": 77.24,
    "exit": 78.236,
@@ -11224,7 +11224,7 @@
    "venue": "PAPER",
    "outcome": "LOSS",
    "pct": -1,
-   "exitReason": null,
+   "exitReason": "SHORT ETH: stopped out at SL -1.0% (entry $1905 → exit $1925). WHY: Stop hit on noise in a transitional choppy structure; OI kept rising through $1925 resistance, invalidating the crowded unwind…",
    "closedAt": "2026-08-19T12:48:17.218Z",
    "entry": 1905,
    "exit": 1925,
@@ -11238,7 +11238,7 @@
    "venue": "LIGHTER",
    "outcome": "BREAKEVEN",
    "pct": 0.2,
-   "exitReason": null,
+   "exitReason": "SHORT XRP: stopped out at SL +0.2% (entry $1.012 → exit $1.009798). WHY: Liquidity thesis was sound but retail long positioning failed to flush—market never broke below $0.962 target, instead chopped…",
    "closedAt": "2026-08-19T12:48:07.490Z",
    "entry": 1.012,
    "exit": 1.009798,
@@ -11375,28 +11375,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64920.54,
-    "change24hPct": 1.13
+    "price": 64963.02,
+    "change24hPct": 1.29
    },
    {
     "symbol": "ETH",
-    "price": 1935.83,
-    "change24hPct": 1.99
+    "price": 1937.24,
+    "change24hPct": 2.1
    },
    {
     "symbol": "BNB",
     "price": 604.21,
-    "change24hPct": 0.59
+    "change24hPct": 0.63
    },
    {
     "symbol": "XRP",
-    "price": 1.0136,
-    "change24hPct": 1.61
+    "price": 1.0167,
+    "change24hPct": 1.98
    },
    {
     "symbol": "SOL",
-    "price": 78.32,
-    "change24hPct": 2.84
+    "price": 78.44,
+    "change24hPct": 3.03
    }
   ],
   "fearGreed": {
@@ -11501,31 +11501,31 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.456,
-    "longPct": 59.3,
+    "ratio": 1.444,
+    "longPct": 59.1,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.171,
-    "longPct": 68.5,
+    "ratio": 2.168,
+    "longPct": 68.4,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.034,
+    "ratio": 2.027,
     "longPct": 67,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.215,
+    "ratio": 2.212,
     "longPct": 68.9,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 3.301,
+    "ratio": 3.305,
     "longPct": 76.8,
     "bias": "CROWDED LONG"
    }
@@ -11606,7 +11606,7 @@
      "changePct": -16.4
     }
    ],
-   "ageMin": 195
+   "ageMin": 200
   },
   "chainRotation": {
    "chains": [
@@ -11749,7 +11749,7 @@
      1
     ]
    ],
-   "ageMin": 194
+   "ageMin": 199
   }
  },
  "calendar": [
@@ -13229,7 +13229,7 @@
   }
  },
  "intel": {
-  "ageH": 3.8,
+  "ageH": 3.9,
   "narratives": [
    "* Real-World Asset Tokenization: Robinhood CEO declared the start of a \"tokenization supercycle\" to bring tokenized stocks to the US (X), while Centrifuge proposed converting CFG tokens to equity (newsletter).",
    "* Crypto Policy & Governance: White House hosting a crypto summit tomorrow alongside SEC proposed rules for a formal framework (X).",
@@ -13424,7 +13424,7 @@
    "outcome": "LOSS",
    "pct": -1.3,
    "pnlUsd": -4.24,
-   "exitReason": null,
+   "exitReason": "SHORT SOL: stopped out at SL -1.3% (entry $77.24 → exit $78.236). WHY: Stop hit on noise; OI never dropped below +2% and funding stayed positive, so invalidation condition didn't trigger—thesis…",
    "closedAt": "2026-08-19T12:49:33.824Z",
    "entry": 77.24,
    "exit": 78.236,
@@ -13440,7 +13440,7 @@
    "outcome": "LOSS",
    "pct": -1,
    "pnlUsd": -3.15,
-   "exitReason": null,
+   "exitReason": "SHORT ETH: stopped out at SL -1.0% (entry $1905 → exit $1925). WHY: Stop hit on noise in a transitional choppy structure; OI kept rising through $1925 resistance, invalidating the crowded unwind…",
    "closedAt": "2026-08-19T12:48:17.218Z",
    "entry": 1905,
    "exit": 1925,
@@ -13456,7 +13456,7 @@
    "outcome": "BREAKEVEN",
    "pct": 0.2,
    "pnlUsd": -0.01,
-   "exitReason": null,
+   "exitReason": "SHORT XRP: stopped out at SL +0.2% (entry $1.012 → exit $1.009798). WHY: Liquidity thesis was sound but retail long positioning failed to flush—market never broke below $0.962 target, instead chopped…",
    "closedAt": "2026-08-19T12:48:07.490Z",
    "entry": 1.012,
    "exit": 1.009798,
@@ -16115,7 +16115,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 496.64,
+    "equity": 496.91,
     "peak": 500.08
    },
    "LIGHTER_minimax": {
