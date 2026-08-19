@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-19T04:15:04.732Z",
+ "generatedAt": "2026-08-19T04:20:10.714Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -12,7 +12,7 @@
   },
   "machine": {
    "label": "Gina Gemini",
-   "account": 502.76
+   "account": 502.41
   }
  },
  "standings": [
@@ -21,14 +21,14 @@
    "label": "Quinn Qwen",
    "venue": "paper",
    "paper": true,
-   "trades": 22,
+   "trades": 23,
    "wins": 3,
-   "losses": 19,
-   "wr": "14",
-   "pnl": -112.92,
-   "account": 415.96,
-   "retPct": -16.8,
-   "accountRealized": 387.08
+   "losses": 20,
+   "wr": "13",
+   "pnl": -142.92,
+   "account": 366.19,
+   "retPct": -26.8,
+   "accountRealized": 357.08
   },
   {
    "key": "openclaw",
@@ -110,8 +110,8 @@
    "losses": 15,
    "wr": "21",
    "pnl": -35.43,
-   "account": 502.76,
-   "retPct": 0.6,
+   "account": 502.41,
+   "retPct": 0.5,
    "accountRealized": 464.57
   },
   {
@@ -124,7 +124,7 @@
    "losses": 1,
    "wr": "50",
    "pnl": -3.04,
-   "account": 498.62,
+   "account": 498.4,
    "retPct": -0.3,
    "accountRealized": 496.96
   },
@@ -215,7 +215,7 @@
     401.29,
     374.45,
     387.08,
-    387.08
+    357.08
    ],
    "openclaw": [
     500,
@@ -6087,23 +6087,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-18T04:20:00.000Z",
-   "hl": 0,
-   "hl_spot": 364.33480000000003,
-   "grvt": null,
-   "extended": 428.821041,
-   "capital": 3289.3588030000005,
-   "qwen": 377.65,
-   "openclaw": 385.34,
-   "hermes": 364.33,
-   "manual": 428.82,
-   "kimi": 493.24,
-   "deepseek": 500.9,
-   "gemini": 504.09,
-   "luna": 496.78,
-   "minimax": 500
-  },
-  {
    "ts": "2026-08-18T04:25:00.000Z",
    "hl": 0,
    "hl_spot": 364.33480000000003,
@@ -10964,14 +10947,31 @@
    "gemini": 502.76,
    "luna": 498.62,
    "minimax": 500
+  },
+  {
+   "ts": "2026-08-19T04:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 499.967172,
+   "grvt": null,
+   "extended": 446.590008,
+   "capital": 3448.522794,
+   "qwen": 366.19,
+   "openclaw": 385.34,
+   "hermes": 499.97,
+   "manual": 446.59,
+   "kimi": 500.24,
+   "deepseek": 499.96,
+   "gemini": 502.41,
+   "luna": 498.4,
+   "minimax": 500
   }
  ],
  "venuesLive": {
   "hl": 0,
   "hl_spot": 499.967172,
   "grvt": null,
-  "lighter": 2502.532386,
-  "total": 3002.499558
+  "lighter": 2501.9656139999997,
+  "total": 3001.932786
  },
  "awaitingScore": {
   "at": "2026-08-19T02:15:38.321Z",
@@ -11000,23 +11000,6 @@
    "conviction": 5,
    "openedAt": "2026-08-18T17:18:10.390Z",
    "thesis": "qwen pick (paper, trigger-filled from AWAITING watch: 1h close above 0.05525)",
-   "smartMoney": null
-  },
-  {
-   "id": 429,
-   "asset": "AAOI",
-   "direction": "SHORT",
-   "actor": "qwen",
-   "venue": "PAPER",
-   "entry": 140,
-   "stop": 154,
-   "target": 112,
-   "levelsApprox": false,
-   "trailed": false,
-   "rr": 2,
-   "conviction": 6,
-   "openedAt": "2026-08-18T14:48:12.100Z",
-   "thesis": "qwen pick (paper, trigger-filled from AWAITING watch: 1h close below 140.00)",
    "smartMoney": null
   },
   {
@@ -11238,6 +11221,20 @@
  ],
  "recentCloses": [
   {
+   "id": 429,
+   "asset": "AAOI",
+   "direction": "SHORT",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "outcome": "LOSS",
+   "pct": -10,
+   "exitReason": "SHORT AAOI: stopped out at SL -10.0% (entry $140 → exit $154). WHY: Stop hit on chop chase into range resistance; thesis required fade at upper bound ($154) not chase into it—entered mushy middle…",
+   "closedAt": "2026-08-19T04:18:15.366Z",
+   "entry": 140,
+   "exit": 154,
+   "openedAt": "2026-08-18T14:48:12.100Z"
+  },
+  {
    "id": 427,
    "asset": "BTC",
    "direction": "LONG",
@@ -11390,48 +11387,34 @@
    "entry": 64133,
    "exit": 64957.5,
    "openedAt": "2026-08-17T16:03:31.576Z"
-  },
-  {
-   "id": 424,
-   "asset": "ETH",
-   "direction": "SHORT",
-   "actor": "deepseek",
-   "venue": "LIGHTER",
-   "outcome": "BREAKEVEN",
-   "pct": 0.2,
-   "exitReason": "SHORT ETH: stopped out at SL +0.2% (entry $1909.15 → exit $1904.46). WHY: Smart money selling didn't sustain; retail longs absorbed the dip, OI didn't flip negative, price rejected resistance but…",
-   "closedAt": "2026-08-18T06:42:07.914Z",
-   "entry": 1909.15,
-   "exit": 1904.46,
-   "openedAt": "2026-08-17T16:12:58.921Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64314.56,
-    "change24hPct": 0.26
+    "price": 64367.46,
+    "change24hPct": 0.35
    },
    {
     "symbol": "ETH",
-    "price": 1910.95,
-    "change24hPct": 0.84
+    "price": 1912.66,
+    "change24hPct": 0.98
    },
    {
     "symbol": "BNB",
-    "price": 602.22,
-    "change24hPct": -0.17
+    "price": 602.19,
+    "change24hPct": -0.18
    },
    {
     "symbol": "XRP",
-    "price": 0.9998,
-    "change24hPct": 0.7
+    "price": 1.0002,
+    "change24hPct": 0.78
    },
    {
     "symbol": "SOL",
-    "price": 77,
-    "change24hPct": 1.73
+    "price": 77.1,
+    "change24hPct": 1.94
    }
   ],
   "fearGreed": {
@@ -11446,8 +11429,8 @@
   },
   "macro": {
    "dxy": {
-    "price": 99.58,
-    "change": -0.07
+    "price": 99.59,
+    "change": -0.06
    },
    "vix": {
     "price": 15.84,
@@ -11536,8 +11519,8 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.476,
-    "longPct": 59.6,
+    "ratio": 1.478,
+    "longPct": 59.7,
     "bias": "BALANCED"
    },
    {
@@ -11554,13 +11537,13 @@
    },
    {
     "asset": "BNB",
-    "ratio": 2.223,
-    "longPct": 69,
+    "ratio": 2.245,
+    "longPct": 69.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 3.31,
+    "ratio": 3.305,
     "longPct": 76.8,
     "bias": "CROWDED LONG"
    }
@@ -11641,7 +11624,7 @@
      "changePct": -16.7
     }
    ],
-   "ageMin": 15
+   "ageMin": 20
   },
   "chainRotation": {
    "chains": [
@@ -11780,7 +11763,7 @@
      1
     ]
    ],
-   "ageMin": 60
+   "ageMin": 65
   }
  },
  "calendar": [
@@ -12934,30 +12917,30 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 3204,
+   "totalPrints7d": 3208,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
     {
      "coin": "XAG",
      "l": 1,
-     "s": 1,
-     "netK": -2889,
-     "concPct": 100
+     "s": 2,
+     "netK": -2841,
+     "concPct": 97
     },
     {
      "coin": "BRENTOIL",
      "l": 2,
      "s": 0,
-     "netK": 2736,
+     "netK": 2737,
      "concPct": 98
     },
     {
      "coin": "BTC",
-     "l": 2,
-     "s": 4,
+     "l": 4,
+     "s": 2,
      "netK": -2129,
-     "concPct": 67
+     "concPct": 65
     },
     {
      "coin": "XAU",
@@ -12968,16 +12951,16 @@
     },
     {
      "coin": "ETH",
-     "l": 4,
+     "l": 3,
      "s": 2,
-     "netK": -727,
-     "concPct": 42
+     "netK": -1235,
+     "concPct": 58
     },
     {
      "coin": "WTI",
      "l": 2,
      "s": 1,
-     "netK": -1075,
+     "netK": -1073,
      "concPct": 96
     },
     {
@@ -12989,10 +12972,10 @@
     },
     {
      "coin": "SOL",
-     "l": 1,
-     "s": 3,
-     "netK": -265,
-     "concPct": 54
+     "l": 2,
+     "s": 2,
+     "netK": -254,
+     "concPct": 53
     }
    ],
    "coinFlow": [
@@ -13008,8 +12991,8 @@
     },
     {
      "coin": "BTC",
-     "netK": -853,
-     "n": 807
+     "netK": -906,
+     "n": 809
     },
     {
      "coin": "XAG",
@@ -13036,24 +13019,24 @@
      "prints": 100,
      "volK": 2890,
      "biasK": 259,
-     "equity": 4375806,
+     "equity": 4374797,
      "positions": [
       {
        "coin": "BTC",
        "side": "SHORT",
-       "usdK": 665,
-       "upnlK": 3
+       "usdK": 706,
+       "upnlK": 2
       },
       {
        "coin": "SOL",
        "side": "SHORT",
-       "usdK": 205,
-       "upnlK": -3
+       "usdK": 206,
+       "upnlK": -4
       },
       {
        "coin": "ZEC",
        "side": "SHORT",
-       "usdK": 124,
+       "usdK": 118,
        "upnlK": 1
       },
       {
@@ -13069,12 +13052,12 @@
      "prints": 119,
      "volK": 1997,
      "biasK": 103,
-     "equity": 70537,
+     "equity": 70535,
      "positions": [
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 5,
+       "usdK": 12,
        "upnlK": 0
       }
      ]
@@ -13092,15 +13075,8 @@
      "prints": 48,
      "volK": 1547,
      "biasK": 393,
-     "equity": 16139,
-     "positions": [
-      {
-       "coin": "ETH",
-       "side": "LONG",
-       "usdK": 514,
-       "upnlK": 0
-      }
-     ]
+     "equity": 16434,
+     "positions": []
     }
    ]
   },
@@ -13445,6 +13421,22 @@
   }
  ],
  "archive": [
+  {
+   "id": 429,
+   "asset": "AAOI",
+   "direction": "SHORT",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "outcome": "LOSS",
+   "pct": -10,
+   "pnlUsd": -30,
+   "exitReason": "SHORT AAOI: stopped out at SL -10.0% (entry $140 → exit $154). WHY: Stop hit on chop chase into range resistance; thesis required fade at upper bound ($154) not chase into it—entered mushy middle…",
+   "closedAt": "2026-08-19T04:18:15.366Z",
+   "entry": 140,
+   "exit": 154,
+   "conviction": 6,
+   "openedAt": "2026-08-18T14:48:12.100Z"
+  },
   {
    "id": 427,
    "asset": "BTC",
@@ -16040,7 +16032,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 502.76,
+    "equity": 502.41,
     "peak": 509.82
    },
    "LIGHTER_luna": {
@@ -16049,7 +16041,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 498.62,
+    "equity": 498.4,
     "peak": 500.08
    },
    "LIGHTER_minimax": {
