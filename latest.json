@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-19T14:20:01.581Z",
+ "generatedAt": "2026-08-19T14:25:21.014Z",
  "startCapital": 500,
  "since": "2026-07-15",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 22,
    "wr": "12",
    "pnl": -154.6,
-   "account": 368.92,
-   "retPct": -26.2,
+   "account": 369.93,
+   "retPct": -26,
    "accountRealized": 345.4
   },
   {
@@ -6087,23 +6087,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-18T14:25:00.000Z",
-   "hl": 0,
-   "hl_spot": 500.195256,
-   "grvt": null,
-   "extended": 435.598655,
-   "capital": 3431.444501,
-   "qwen": 366.66,
-   "openclaw": 385.34,
-   "hermes": 500.2,
-   "manual": 435.6,
-   "kimi": 493.24,
-   "deepseek": 499.96,
-   "gemini": 501.9,
-   "luna": 499.35,
-   "minimax": 500
-  },
-  {
    "ts": "2026-08-18T14:30:00.000Z",
    "hl": 0,
    "hl_spot": 500.195256,
@@ -10981,6 +10964,23 @@
    "gemini": 497.45,
    "luna": 495.93,
    "minimax": 500
+  },
+  {
+   "ts": "2026-08-19T14:25:00.000Z",
+   "hl": 0,
+   "hl_spot": 499.96662299999997,
+   "grvt": null,
+   "extended": 475.329884,
+   "capital": 3465.5957309999994,
+   "qwen": 369.93,
+   "openclaw": 412.74,
+   "hermes": 499.97,
+   "manual": 475.33,
+   "kimi": 496,
+   "deepseek": 499.96,
+   "gemini": 497.45,
+   "luna": 495.93,
+   "minimax": 500
   }
  ],
  "venuesLive": {
@@ -11176,7 +11176,7 @@
    "venue": "PAPER",
    "outcome": "WIN",
    "pct": 9.1,
-   "exitReason": null,
+   "exitReason": "SHORT USAR: hit target +9.1% (entry $20.26 → exit $18.41). WHY: Invalidation condition never triggered; rel-vol stayed suppressed and price never held above stop, so the low-conviction spike reversed…",
    "closedAt": "2026-08-19T14:03:15.208Z",
    "entry": 20.26,
    "exit": 18.41,
@@ -11190,7 +11190,7 @@
    "venue": "PAPER",
    "outcome": "LOSS",
    "pct": -2.1,
-   "exitReason": null,
+   "exitReason": "LONG CBRS: stopped out at SL -2.1% (entry $215 → exit $210.5). WHY: Chop range rejected upper edge; fade at 215 resistance was higher probability than chase into efficiency void.",
    "closedAt": "2026-08-19T14:03:13.087Z",
    "entry": 215,
    "exit": 210.5,
@@ -11204,7 +11204,7 @@
    "venue": "PAPER",
    "outcome": "LOSS",
    "pct": -1.8,
-   "exitReason": null,
+   "exitReason": "SHORT XRP: stopped out at SL -1.8% (entry $0.999 → exit $1.017). WHY: Stop hit immediately; thesis required sustained weakness into close but XRP rallied instead—mechanism never triggered.",
    "closedAt": "2026-08-19T13:33:16.505Z",
    "entry": 0.999,
    "exit": 1.017,
@@ -11341,28 +11341,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 65440.15,
-    "change24hPct": 1.5
+    "price": 65426.01,
+    "change24hPct": 1.08
    },
    {
     "symbol": "ETH",
-    "price": 1938.83,
-    "change24hPct": 1.88
+    "price": 1937.39,
+    "change24hPct": 1.49
    },
    {
     "symbol": "BNB",
-    "price": 605.81,
-    "change24hPct": 0.61
+    "price": 605.66,
+    "change24hPct": 0.42
    },
    {
     "symbol": "XRP",
-    "price": 1.0184,
-    "change24hPct": 1.85
+    "price": 1.0183,
+    "change24hPct": 1.63
    },
    {
     "symbol": "SOL",
-    "price": 78.69,
-    "change24hPct": 3.04
+    "price": 78.59,
+    "change24hPct": 2.6
    }
   ],
   "fearGreed": {
@@ -11467,32 +11467,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.312,
-    "longPct": 56.8,
+    "ratio": 1.349,
+    "longPct": 57.4,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.13,
+    "ratio": 2.124,
     "longPct": 68,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 1.928,
-    "longPct": 65.8,
+    "ratio": 1.918,
+    "longPct": 65.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.21,
+    "ratio": 2.207,
     "longPct": 68.8,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 3.193,
-    "longPct": 76.1,
+    "ratio": 3.225,
+    "longPct": 76.3,
     "bias": "CROWDED LONG"
    }
   ],
@@ -11572,7 +11572,7 @@
      "changePct": -16.4
     }
    ],
-   "ageMin": 260
+   "ageMin": 265
   },
   "chainRotation": {
    "chains": [
@@ -11715,7 +11715,7 @@
      1
     ]
    ],
-   "ageMin": 259
+   "ageMin": 264
   }
  },
  "calendar": [
@@ -11910,7 +11910,7 @@
     "when": "TBD",
     "epsEst": 3.69,
     "epsPrior": null,
-    "mcap": 21446965769,
+    "mcap": 17291074227,
     "universe": false,
     "epsActual": 3.92,
     "epsConsensus": 3.69,
@@ -11924,7 +11924,7 @@
     "when": "TBD",
     "epsEst": 0.65,
     "epsPrior": null,
-    "mcap": 14333685204,
+    "mcap": 14121493768,
     "universe": false,
     "epsActual": 0.7,
     "epsConsensus": 0.65,
@@ -11938,7 +11938,7 @@
     "when": "TBD",
     "epsEst": 0.51,
     "epsPrior": null,
-    "mcap": 8137497442,
+    "mcap": 8210061114,
     "universe": false,
     "epsActual": 0.53,
     "epsConsensus": 0.51,
@@ -11952,7 +11952,7 @@
     "when": "TBD",
     "epsEst": null,
     "epsPrior": null,
-    "mcap": 1406531092,
+    "mcap": 1566290692,
     "universe": false
    },
    {
@@ -11962,7 +11962,7 @@
     "when": "TBD",
     "epsEst": null,
     "epsPrior": null,
-    "mcap": 810766791,
+    "mcap": 844169168,
     "universe": false
    },
    {
@@ -11972,7 +11972,7 @@
     "when": "TBD",
     "epsEst": 1.15,
     "epsPrior": null,
-    "mcap": 379492927,
+    "mcap": 413232772,
     "universe": false,
     "epsActual": 1.33,
     "epsConsensus": 1.15,
@@ -11986,7 +11986,7 @@
     "when": "TBD",
     "epsEst": -0.02,
     "epsPrior": null,
-    "mcap": 302367655,
+    "mcap": 340898942,
     "universe": false,
     "epsActual": -0.13,
     "epsConsensus": -0.02,
@@ -12014,8 +12014,12 @@
     "when": "TBD",
     "epsEst": 4.71,
     "epsPrior": null,
-    "mcap": 336905784514,
-    "universe": true
+    "mcap": 336516909008,
+    "universe": true,
+    "epsActual": 4.92,
+    "epsConsensus": 4.71,
+    "surprisePct": 4.46,
+    "result": "BEAT"
    },
    {
     "symbol": "KEYS",
@@ -12024,8 +12028,12 @@
     "when": "TBD",
     "epsEst": 2.16,
     "epsPrior": null,
-    "mcap": 61718862153,
-    "universe": false
+    "mcap": 58275320488,
+    "universe": false,
+    "epsActual": 2.82,
+    "epsConsensus": 2.16,
+    "surprisePct": 30.56,
+    "result": "BEAT"
    },
    {
     "symbol": "BIDU",
@@ -12034,17 +12042,21 @@
     "when": "TBD",
     "epsEst": 1.19,
     "epsPrior": null,
-    "mcap": 35427106855,
-    "universe": false
+    "mcap": 30918759123,
+    "universe": false,
+    "epsActual": 0.77,
+    "epsConsensus": 1.19,
+    "surprisePct": -35.29,
+    "result": "MISS"
    },
    {
     "symbol": "SQM",
     "name": "Sociedad Quimica y Minera S.A.",
     "date": "2026-08-18",
-    "when": "AMC",
+    "when": "TBD",
     "epsEst": 2.03,
     "epsPrior": null,
-    "mcap": 21451399381,
+    "mcap": 21271447562,
     "universe": false
    },
    {
@@ -12054,8 +12066,12 @@
     "when": "TBD",
     "epsEst": 0.11,
     "epsPrior": null,
-    "mcap": 18163226795,
-    "universe": false
+    "mcap": 18748777551,
+    "universe": false,
+    "epsActual": 0.22,
+    "epsConsensus": 0.11,
+    "surprisePct": 100,
+    "result": "BEAT"
    },
    {
     "symbol": "ZTO",
@@ -12064,22 +12080,12 @@
     "when": "TBD",
     "epsEst": null,
     "epsPrior": null,
-    "mcap": 17638424877,
-    "universe": false
-   },
-   {
-    "symbol": "KLAR",
-    "name": "Klarna Group",
-    "date": "2026-08-18",
-    "when": "TBD",
-    "epsEst": -0.07,
-    "epsPrior": null,
-    "mcap": 13767124175,
+    "mcap": 17807803029,
     "universe": false,
-    "epsActual": 0.01,
-    "epsConsensus": -0.07,
-    "surprisePct": 114.29,
-    "result": "BEAT"
+    "epsActual": 0.56,
+    "epsConsensus": null,
+    "surprisePct": null,
+    "result": "MISS"
    },
    {
     "symbol": "TOL",
@@ -12088,8 +12094,12 @@
     "when": "TBD",
     "epsEst": 2.9,
     "epsPrior": null,
-    "mcap": 13595356950,
-    "universe": false
+    "mcap": 13353267060,
+    "universe": false,
+    "epsActual": 2.97,
+    "epsConsensus": 2.9,
+    "surprisePct": 2.41,
+    "result": "BEAT"
    },
    {
     "symbol": "JKHY",
@@ -12098,8 +12108,26 @@
     "when": "TBD",
     "epsEst": 1.44,
     "epsPrior": null,
-    "mcap": 10648380399,
-    "universe": false
+    "mcap": 10879295434,
+    "universe": false,
+    "epsActual": 1.57,
+    "epsConsensus": 1.44,
+    "surprisePct": 9.03,
+    "result": "BEAT"
+   },
+   {
+    "symbol": "KLAR",
+    "name": "Klarna Group",
+    "date": "2026-08-18",
+    "when": "TBD",
+    "epsEst": -0.07,
+    "epsPrior": null,
+    "mcap": 10627006155,
+    "universe": false,
+    "epsActual": 0.01,
+    "epsConsensus": -0.07,
+    "surprisePct": 114.29,
+    "result": "BEAT"
    },
    {
     "symbol": "ADI",
@@ -12595,21 +12623,21 @@
   "disagreement": "BTC"
  },
  "manualBook": {
-  "at": "2026-08-19T14:10:05.791Z",
+  "at": "2026-08-19T14:25:21.013Z",
   "positions": [
    {
     "asset": "HYPE",
     "stock": false,
     "direction": "LONG",
     "entry": 58.756,
-    "pnlPct": -0.33
+    "pnlPct": 0.19
    },
    {
     "asset": "SAMSUNG",
     "stock": false,
     "direction": "LONG",
     "entry": 185.74,
-    "pnlPct": -1.49
+    "pnlPct": -2
    },
    {
     "asset": "AERO",
@@ -12851,57 +12879,57 @@
      "coin": "XAG",
      "l": 1,
      "s": 1,
-     "netK": -2963,
-     "concPct": 99
+     "netK": -2985,
+     "concPct": 100
     },
     {
      "coin": "BRENTOIL",
      "l": 2,
      "s": 0,
-     "netK": 2747,
+     "netK": 2748,
      "concPct": 100
     },
     {
      "coin": "BTC",
-     "l": 1,
-     "s": 5,
-     "netK": -2133,
-     "concPct": 66
+     "l": 3,
+     "s": 4,
+     "netK": -1949,
+     "concPct": 58
     },
     {
      "coin": "ETH",
-     "l": 3,
+     "l": 2,
      "s": 2,
-     "netK": -286,
+     "netK": -355,
      "concPct": 35
     },
     {
      "coin": "XAU",
-     "l": 3,
-     "s": 1,
-     "netK": -1802,
+     "l": 2,
+     "s": 2,
+     "netK": -1835,
      "concPct": 96
     },
     {
      "coin": "WTI",
      "l": 2,
      "s": 1,
-     "netK": -729,
+     "netK": -719,
      "concPct": 96
     },
     {
      "coin": "NATGAS",
      "l": 0,
      "s": 2,
-     "netK": -593,
+     "netK": -595,
      "concPct": 99
     },
     {
-     "coin": "SNDK",
-     "l": 0,
-     "s": 2,
-     "netK": -502,
-     "concPct": 74
+     "coin": "HYPE",
+     "l": 3,
+     "s": 1,
+     "netK": 335,
+     "concPct": 57
     }
    ],
    "coinFlow": [
@@ -12945,31 +12973,31 @@
      "prints": 101,
      "volK": 2782,
      "biasK": 151,
-     "equity": 4347937,
+     "equity": 4344722,
      "positions": [
-      {
-       "coin": "SNDK",
-       "side": "SHORT",
-       "usdK": 370,
-       "upnlK": 0
-      },
       {
        "coin": "SOL",
        "side": "SHORT",
        "usdK": 233,
-       "upnlK": -8
+       "upnlK": -7
       },
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 181,
+       "usdK": 190,
        "upnlK": 0
       },
       {
        "coin": "ZEC",
        "side": "SHORT",
-       "usdK": 151,
-       "upnlK": -1
+       "usdK": 143,
+       "upnlK": -2
+      },
+      {
+       "coin": "DOGE",
+       "side": "SHORT",
+       "usdK": 99,
+       "upnlK": 0
       }
      ]
     },
@@ -12978,7 +13006,7 @@
      "prints": 62,
      "volK": 1928,
      "biasK": 774,
-     "equity": 16226,
+     "equity": 16277,
      "positions": [
       {
        "coin": "ETH",
@@ -12993,22 +13021,15 @@
      "prints": 111,
      "volK": 1869,
      "biasK": 221,
-     "equity": 70771,
-     "positions": [
-      {
-       "coin": "ETH",
-       "side": "LONG",
-       "usdK": 0,
-       "upnlK": 0
-      }
-     ]
+     "equity": 70798,
+     "positions": []
     },
     {
      "id": 55448,
      "prints": 84,
      "volK": 1587,
      "biasK": 59,
-     "equity": 7854,
+     "equity": 7961,
      "positions": [
       {
        "coin": "BTC",
@@ -13202,7 +13223,7 @@
   }
  },
  "intel": {
-  "ageH": 4.9,
+  "ageH": 5,
   "narratives": [
    "* Real-World Asset Tokenization: Robinhood CEO declared the start of a \"tokenization supercycle\" to bring tokenized stocks to the US (X), while Centrifuge proposed converting CFG tokens to equity (newsletter).",
    "* Crypto Policy & Governance: White House hosting a crypto summit tomorrow alongside SEC proposed rules for a formal framework (X).",
@@ -13397,7 +13418,7 @@
    "outcome": "WIN",
    "pct": 9.1,
    "pnlUsd": 27.39,
-   "exitReason": null,
+   "exitReason": "SHORT USAR: hit target +9.1% (entry $20.26 → exit $18.41). WHY: Invalidation condition never triggered; rel-vol stayed suppressed and price never held above stop, so the low-conviction spike reversed…",
    "closedAt": "2026-08-19T14:03:15.208Z",
    "entry": 20.26,
    "exit": 18.41,
@@ -13413,7 +13434,7 @@
    "outcome": "LOSS",
    "pct": -2.1,
    "pnlUsd": -6.28,
-   "exitReason": null,
+   "exitReason": "LONG CBRS: stopped out at SL -2.1% (entry $215 → exit $210.5). WHY: Chop range rejected upper edge; fade at 215 resistance was higher probability than chase into efficiency void.",
    "closedAt": "2026-08-19T14:03:13.087Z",
    "entry": 215,
    "exit": 210.5,
@@ -13429,7 +13450,7 @@
    "outcome": "LOSS",
    "pct": -1.8,
    "pnlUsd": -5.41,
-   "exitReason": null,
+   "exitReason": "SHORT XRP: stopped out at SL -1.8% (entry $0.999 → exit $1.017). WHY: Stop hit immediately; thesis required sustained weakness into close but XRP rallied instead—mechanism never triggered.",
    "closedAt": "2026-08-19T13:33:16.505Z",
    "entry": 0.999,
    "exit": 1.017,
