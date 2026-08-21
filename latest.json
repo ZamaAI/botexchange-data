@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-21T22:00:00.837Z",
+ "generatedAt": "2026-08-21T22:05:01.756Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 5,
    "wr": "38",
    "pnl": -27.03,
-   "account": 476.54,
-   "retPct": -4.7,
+   "account": 477.53,
+   "retPct": -4.5,
    "accountRealized": 472.97
   },
   {
@@ -1417,23 +1417,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-08-20T22:05:00.000Z",
-   "hl": 0,
-   "hl_spot": 500.22218599999997,
-   "grvt": null,
-   "extended": 662.384099,
-   "capital": 3645.148445,
-   "qwen": 484.81,
-   "openclaw": 527.39,
-   "hermes": 500.22,
-   "manual": 662.38,
-   "kimi": 496,
-   "deepseek": 499.96,
-   "gemini": 514.01,
-   "luna": 471.62,
-   "minimax": 500
-  },
   {
    "ts": "2026-08-20T22:10:00.000Z",
    "hl": 0,
@@ -6295,6 +6278,23 @@
    "gemini": 536.8,
    "luna": 488.19,
    "minimax": 500
+  },
+  {
+   "ts": "2026-08-21T22:05:00.000Z",
+   "hl": 0,
+   "hl_spot": 499.952883,
+   "grvt": null,
+   "extended": 1207.786679,
+   "capital": 4240.262274,
+   "qwen": 477.53,
+   "openclaw": 527.39,
+   "hermes": 499.95,
+   "manual": 1207.79,
+   "kimi": 499.95,
+   "deepseek": 506.63,
+   "gemini": 536.8,
+   "luna": 488.19,
+   "minimax": 500
   }
  ],
  "venuesLive": {
@@ -6316,6 +6316,23 @@
   "liveN": 5
  },
  "openTrades": [
+  {
+   "id": 469,
+   "asset": "ETH",
+   "direction": "LONG",
+   "actor": "gemini",
+   "venue": "LIGHTER",
+   "entry": 2514,
+   "stop": 2463.72,
+   "target": 2627.13,
+   "levelsApprox": true,
+   "trailed": false,
+   "rr": 2.1,
+   "conviction": 7,
+   "openedAt": "2026-08-21T22:03:21.225Z",
+   "thesis": "ETH ETF 4-day inflow streak (+$220.8M latest) paired with $122.2M 24h short liquidations, +11.63% 24h Coinalyze OI expansion, and HL top whales net long +$302.1M driving a clean structural trend breakout (ER 0.952).",
+   "smartMoney": 3
+  },
   {
    "id": 464,
    "asset": "BTC",
@@ -6645,28 +6662,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 78505.14,
-    "change24hPct": 7.92
+    "price": 78403.09,
+    "change24hPct": 8.13
    },
    {
     "symbol": "ETH",
-    "price": 2513.34,
-    "change24hPct": 8.39
+    "price": 2528.99,
+    "change24hPct": 9.47
    },
    {
     "symbol": "BNB",
-    "price": 684.94,
-    "change24hPct": 4.74
+    "price": 687.17,
+    "change24hPct": 5.33
    },
    {
     "symbol": "XRP",
-    "price": 1.4065,
-    "change24hPct": 11.81
+    "price": 1.4192,
+    "change24hPct": 13.07
    },
    {
     "symbol": "SOL",
-    "price": 93.73,
-    "change24hPct": 7.12
+    "price": 94.01,
+    "change24hPct": 7.74
    }
   ],
   "fearGreed": {
@@ -6697,7 +6714,7 @@
    "date": "2026-08-19"
   },
   "riskIndex": {
-   "score": 43,
+   "score": 45,
    "band": "NORMAL",
    "weighting": "equal",
    "weightPct": 10,
@@ -6706,56 +6723,66 @@
    "components": [
     {
      "key": "leverage",
-     "score": 39,
-     "detail": "majors OI +0.9%/24h"
+     "label": "Leverage build",
+     "score": 32,
+     "detail": "majors OI -0.1%/24h"
     },
     {
      "key": "funding",
+     "label": "Funding extremity",
      "score": 43,
      "detail": "mean |funding| 0.030%/day"
     },
     {
      "key": "crowding",
-     "score": 50,
-     "detail": "crowd 66% long — squeeze fuel below"
+     "label": "Positioning crowding",
+     "score": 52,
+     "detail": "crowd 67% long — squeeze fuel below"
     },
     {
      "key": "liquidations",
-     "score": 95,
-     "detail": "$396M forced /24h (BTC/ETH/SOL, Binance)"
+     "label": "Liquidation stress",
+     "score": 98,
+     "detail": "$450M forced /24h (BTC/ETH/SOL, Binance)"
     },
     {
      "key": "volatility",
-     "score": 88,
-     "detail": "88th percentile vs own history"
+     "label": "Realized volatility",
+     "score": 91,
+     "detail": "91th percentile vs own history"
     },
     {
      "key": "liquidity",
+     "label": "Liquidity / dry powder",
      "score": 55,
      "detail": "stables +0.43%/7d, Fed draining"
     },
     {
      "key": "macro",
-     "score": 7,
-     "detail": "BTC↔NQ corr 0.05"
+     "label": "Macro coupling",
+     "score": 6,
+     "detail": "BTC↔NQ corr 0.04"
     },
     {
      "key": "breadth",
+     "label": "Breadth fragility",
      "score": 0,
      "detail": "5/5 majors above their 20d MA"
     },
     {
      "key": "impliedvol",
-     "score": 36,
-     "detail": "BTC DVOL 42.4 vs 90d median 37.5"
+     "label": "Implied volatility",
+     "score": 35,
+     "detail": "BTC DVOL 42.3 vs 90d median 37.5"
     },
     {
      "key": "takerflow",
-     "score": 21,
-     "detail": "50.6% taker buy — buyers crossing the spread"
+     "label": "Taker flow imbalance",
+     "score": 34,
+     "detail": "51.0% taker buy — buyers crossing the spread"
     }
    ],
-   "computedAt": 1787328118087
+   "computedAt": 1787349705725
   },
   "equityRegime": "NEUTRAL",
   "longShort": [
@@ -6767,26 +6794,26 @@
    },
    {
     "asset": "ETH",
-    "ratio": 2.446,
-    "longPct": 71,
+    "ratio": 2.527,
+    "longPct": 71.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.124,
-    "longPct": 68,
+    "ratio": 2.14,
+    "longPct": 68.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.589,
-    "longPct": 72.1,
+    "ratio": 2.601,
+    "longPct": 72.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.534,
-    "longPct": 71.7,
+    "ratio": 2.549,
+    "longPct": 71.8,
     "bias": "CROWDED LONG"
    }
   ],
@@ -6807,6 +6834,12 @@
     "signal": "NEUTRAL"
    }
   ],
+  "crowding": [
+   {
+    "asset": "BNB",
+    "verdict": "CROWDED LONG"
+   }
+  ],
   "btcNqCorr": {
    "corr": 0.04,
    "label": "DECOUPLED"
@@ -6819,54 +6852,49 @@
      "changePct": 262.8
     },
     {
-     "symbol": "ELG",
-     "price": 0.290872,
-     "changePct": 107.8
+     "symbol": "GALA",
+     "price": 0.00215134,
+     "changePct": 42.1
+    },
+    {
+     "symbol": "MAGMA",
+     "price": 0.312556,
+     "changePct": 34
+    },
+    {
+     "symbol": "BCH",
+     "price": 291.21,
+     "changePct": 30.4
     },
     {
      "symbol": "ENA",
-     "price": 0.149167,
-     "changePct": 51.1
-    },
-    {
-     "symbol": "PGOLD",
-     "price": 4525.23,
-     "changePct": 44.3
-    },
-    {
-     "symbol": "PEOPLE",
-     "price": 0.0117213,
-     "changePct": 39.6
+     "price": 0.14338,
+     "changePct": 30.3
     }
    ],
    "losers": [
     {
-     "symbol": "ANVL",
-     "price": 0.00087599,
-     "changePct": -16.6
+     "symbol": "BASEDHYPE",
+     "price": 0.00581442,
+     "changePct": -13
     },
     {
-     "symbol": "BASEDHYPE",
-     "price": 0.00551003,
-     "changePct": -16.2
+     "symbol": "CROSS",
+     "price": 0.108149,
+     "changePct": -8.7
     },
     {
      "symbol": "GCOIN",
-     "price": 0.00219621,
-     "changePct": -10.2
+     "price": 0.00219888,
+     "changePct": -7.9
     },
     {
-     "symbol": "H",
-     "price": 0.074681,
-     "changePct": -6.3
-    },
-    {
-     "symbol": "CYS",
-     "price": 0.540497,
-     "changePct": -5.4
+     "symbol": "SMILEK",
+     "price": 0.00004648,
+     "changePct": -7
     }
    ],
-   "ageMin": 360
+   "ageMin": 5
   },
   "chainRotation": {
    "chains": [
@@ -7005,7 +7033,7 @@
      1
     ]
    ],
-   "ageMin": 312
+   "ageMin": 317
   }
  },
  "calendar": [
@@ -7054,24 +7082,6 @@
   {
    "date": "2026-08-24",
    "event": "ARB — Tokenized Stocks Launch",
-   "type": "CRYPTO",
-   "impact": "MED"
-  },
-  {
-   "date": "2026-08-25",
-   "event": "ETH — Staking Service Launch",
-   "type": "CRYPTO",
-   "impact": "MED"
-  },
-  {
-   "date": "2026-08-25",
-   "event": "ZEC — NU7 Scope Vote",
-   "type": "CRYPTO",
-   "impact": "MED"
-  },
-  {
-   "date": "2026-08-25",
-   "event": "TRX — Mainnet Upgrade Vote",
    "type": "CRYPTO",
    "impact": "MED"
   },
@@ -7830,8 +7840,8 @@
     "long": [
      {
       "actor": "gemini",
-      "conv": 6,
-      "kind": "watching"
+      "conv": 7,
+      "kind": "live"
      },
      {
       "actor": "kimi",
@@ -7852,6 +7862,23 @@
     "short": [
      {
       "actor": "deepseek",
+      "conv": 5,
+      "kind": "watching"
+     }
+    ]
+   },
+   {
+    "asset": "XRP",
+    "long": [
+     {
+      "actor": "deepseek",
+      "conv": 5,
+      "kind": "watching"
+     }
+    ],
+    "short": [
+     {
+      "actor": "kimi",
       "conv": 5,
       "kind": "watching"
      }
@@ -7924,22 +7951,6 @@
      }
     ],
     "short": []
-   },
-   {
-    "asset": "XRP",
-    "long": [],
-    "short": [
-     {
-      "actor": "kimi",
-      "conv": 5,
-      "kind": "watching"
-     },
-     {
-      "actor": "deepseek",
-      "conv": 5,
-      "kind": "watching"
-     }
-    ]
    },
    {
     "asset": "ARB",
@@ -8268,7 +8279,7 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 3936,
+   "totalPrints7d": 3969,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
@@ -8276,64 +8287,64 @@
      "coin": "BTC",
      "l": 3,
      "s": 2,
-     "netK": 4365,
+     "netK": 4235,
      "concPct": 61
     },
     {
      "coin": "ETH",
      "l": 7,
-     "s": 2,
-     "netK": 4722,
-     "concPct": 72
+     "s": 3,
+     "netK": 4330,
+     "concPct": 66
     },
     {
      "coin": "SKHYNIXUSD",
      "l": 2,
      "s": 1,
-     "netK": 4756,
+     "netK": 4763,
      "concPct": 94
     },
     {
      "coin": "HYPE",
      "l": 3,
      "s": 1,
-     "netK": 2299,
-     "concPct": 84
+     "netK": 2242,
+     "concPct": 82
     },
     {
      "coin": "LIT",
      "l": 2,
      "s": 1,
-     "netK": -2318,
+     "netK": -2367,
      "concPct": 85
     },
     {
      "coin": "ZEC",
      "l": 2,
      "s": 2,
-     "netK": 1747,
-     "concPct": 65
+     "netK": 1844,
+     "concPct": 67
     },
     {
      "coin": "PUMP",
      "l": 2,
      "s": 0,
-     "netK": 1327,
-     "concPct": 93
+     "netK": 1322,
+     "concPct": 94
     },
     {
      "coin": "MSTR",
      "l": 1,
      "s": 1,
-     "netK": -1206,
+     "netK": -1211,
      "concPct": 100
     }
    ],
    "coinFlow": [
     {
      "coin": "ETH",
-     "netK": -5768,
-     "n": 1149
+     "netK": -5902,
+     "n": 1157
     },
     {
      "coin": "XAU",
@@ -8352,8 +8363,8 @@
     },
     {
      "coin": "SOL",
-     "netK": -408,
-     "n": 467
+     "netK": -397,
+     "n": 468
     }
    ],
    "accounts": [
@@ -8362,13 +8373,13 @@
      "prints": 73,
      "volK": 4276,
      "biasK": 343,
-     "equity": 5294,
+     "equity": 7645,
      "positions": [
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 146,
-       "upnlK": 2
+       "usdK": 149,
+       "upnlK": 5
       }
      ]
     },
@@ -8377,58 +8388,58 @@
      "prints": 63,
      "volK": 3039,
      "biasK": -1070,
-     "equity": 393340,
+     "equity": 397476,
      "positions": [
       {
        "coin": "LIT",
        "side": "LONG",
-       "usdK": 400,
-       "upnlK": 87
+       "usdK": 404,
+       "upnlK": 92
       },
       {
        "coin": "SKHYNIXUSD",
        "side": "LONG",
-       "usdK": 257,
+       "usdK": 258,
        "upnlK": -3
       },
       {
        "coin": "ASTER",
        "side": "LONG",
-       "usdK": 209,
+       "usdK": 208,
        "upnlK": 8
       }
      ]
     },
     {
      "id": 102394,
-     "prints": 121,
-     "volK": 2808,
-     "biasK": -346,
-     "equity": 4040566,
+     "prints": 122,
+     "volK": 2820,
+     "biasK": -359,
+     "equity": 4009087,
      "positions": [
-      {
-       "coin": "BTC",
-       "side": "SHORT",
-       "usdK": 1191,
-       "upnlK": -11
-      },
       {
        "coin": "ETH",
        "side": "SHORT",
-       "usdK": 1001,
-       "upnlK": -4
+       "usdK": 1280,
+       "upnlK": -8
+      },
+      {
+       "coin": "BTC",
+       "side": "SHORT",
+       "usdK": 1245,
+       "upnlK": -12
       },
       {
        "coin": "HYPE",
        "side": "SHORT",
-       "usdK": 533,
-       "upnlK": -2
+       "usdK": 621,
+       "upnlK": -7
       },
       {
        "coin": "SOL",
        "side": "SHORT",
-       "usdK": 370,
-       "upnlK": -11
+       "usdK": 369,
+       "upnlK": -13
       }
      ]
     },
@@ -8437,13 +8448,13 @@
      "prints": 73,
      "volK": 2747,
      "biasK": -2268,
-     "equity": 21808,
+     "equity": 29014,
      "positions": [
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 442,
-       "upnlK": 11
+       "usdK": 464,
+       "upnlK": 18
       }
      ]
     },
@@ -8452,12 +8463,12 @@
      "prints": 101,
      "volK": 2370,
      "biasK": 209,
-     "equity": 1753,
+     "equity": 9844,
      "positions": [
       {
        "coin": "ETH",
-       "side": "SHORT",
-       "usdK": 96,
+       "side": "LONG",
+       "usdK": 126,
        "upnlK": 0
       }
      ]
@@ -8648,7 +8659,7 @@
   }
  },
  "intel": {
-  "ageH": 0.5,
+  "ageH": 0.6,
   "narratives": [
    "Tokenization: Advocacy for universal tokenization of assets/stocks to attract investment (X).",
    "Institutional Adoption: Heavy focus on BlackRock's accumulation and Citadel's risk management (X).",
@@ -8720,6 +8731,48 @@
  },
  "deskNotes": [
   {
+   "ts": "2026-08-21T22:04:17.293Z",
+   "brain": "deepseek",
+   "model": "DeepSeek V4",
+   "kind": "report",
+   "text": "READ: Parabolic RISK_ON extension is driven by massive short liquidations (~$379M shorts vs ~$71M longs 24h) and four straight positive ETF inflow days, but all majors are deeply overbought on 4h/1d RSI and ETH/SOL/XRP show NEW_LONGS crowding. Fed liquidity is draining, so fresh continuation entries after an +8% day are chase-risk. I already hold BTC and SOL trend longs and will not duplicate or add crowded exposure here.\n\nDANNY DEEPSEEK SIGNALS\nSIGNAL: XRP LONG\nEntry: ~$1.435\nTarget: ~$1.585\nStop: ~$1.365\nConviction: 5/10\nStatus: AWAITING\nTrigger: 4h close above ~$1.435 (swing-high breakout) AND XRP 4h OI change positive (currently 4h -5.0%, so new demand is not yet confirmed)\nEdge: Breakout continuation aligned with TREND (ER ~0.731) and strong relative strength +3.89 vs BTC, but current 4h OI is falling while price is +11.8% — need OI expansion to prove fresh longs, not just short-covering. "
+  },
+  {
+   "ts": "2026-08-21T22:03:42.899Z",
+   "brain": "hermes",
+   "model": "Grok 4.6",
+   "kind": "report",
+   "text": "READ: Tape is a broad RISK_ON squeeze: 5/5 majors above 20d-MAs, BTC +20% vs 20d-MA, ETF inflows stacked 4 days, shorts liquidated ~$379M in 24h. The move is already parabolic and overbought (BTC 4h RSI 93, BB 136%) with BTC 24h OI falling 11.6% into the rally — short covering, not fresh demand — while Fed net liquidity is draining, so chasing spot here is the fleet's #1 loss shape.\n\nDECISION: Silence at the tape — no CONFIRMED chase into 4h RSI 90s. Fill only if ~$79,500 breaks and holds; a failed break and reclaim of ~$76,270 as resistance flips the bias to stand down or fade."
+  },
+  {
+   "ts": "2026-08-21T22:03:42.318Z",
+   "brain": "hermes",
+   "model": "Grok 4.5",
+   "kind": "report",
+   "text": "READ: Tape is a broad RISK_ON squeeze: 5/5 majors above 20d-MAs, BTC +20% vs 20d-MA, ETF inflows stacked 4 days, shorts liquidated ~$379M in 24h. The move is already parabolic and overbought (BTC 4h RSI 93, BB 136%) with BTC 24h OI falling 11.6% into the rally — short covering, not fresh demand — while Fed net liquidity is draining, so chasing spot here is the fleet's #1 loss shape.\n\nGRETA GROK SIGNALS\nSIGNAL: BTC LONG\nEntry: ~$79,500\nTarget: ~$85,960\nStop: ~$76,270\nConviction: 6/10\nStatus: AWAITING\nTrigger: 4h close and hold above swing high ~$79,500 with BTC OI not collapsing further (Coinalyze 24h OI still rising or flat vs the break)\nEdge: Regime exception allows a continuation LONG: breadth 5/5, BTC +20.0% vs 20d-MA / +21.5% vs 50d-MA, ETF L1 inflows ~$606M, short liq ~$379M dominant — but price is still below the ~$79,500 swing, so this is a breakout watch not a chase. INVALID IF: 4h rejection "
+  },
+  {
+   "ts": "2026-08-21T22:03:40.904Z",
+   "brain": "luna",
+   "model": "GPT-5.6",
+   "kind": "report",
+   "text": "READ: Risk-on breadth and institutional flows remain strong, but the move is already extended and BTC’s 24h OI decomposition shows short-covering rather than fresh demand. I will not chase the existing BTC position or crowded altcoin strength; I prefer an ETH breakout confirmation with a structural stop.\n\nLUNA GPT SIGNALS\nSIGNAL: ETH LONG\nEntry: ~$2,521\nTarget: ~$2,700\nStop: ~$2,440\nConviction: 6/10\nStatus: AWAITING\nTrigger: 1h close at or above ~$2,521, the ~$2,520.9 swing high, while consolidated ETH OI remains rising.\nEdge: ETH OI is already expanding (+3.63% over 4h and +11.63% over 24h), while the broad continuation regime is exceptionally strong with 5/5 majors above their 20d-MA and BTC more than 20% above its 20d-MA; the trade waits for breakout confirmation rather than buying the current extension. Gross R:R is $179/~$81 = 2.21:1, with the stop below the defended ~$2,441.3 R2. "
+  },
+  {
+   "ts": "2026-08-21T22:03:33.451Z",
+   "brain": "minimax",
+   "model": "MiniMax M2.5",
+   "kind": "report",
+   "text": "READ: The tape is in a parabolic blow-off phase with BTC +7.9% and ETH +8.5% in 24h. The regime is solidly RISK_ON with 5/5 majors above 20d-MA, but liquidity is draining (-~$126B/4w) and both major coins are deeply overbought (RSI 1d: BTC 86, ETH 88). Short covering dominates (~$379M shorts liquidated vs ~$71M longs) — the move has squeeze fuel but also means new money isn't driving this. The regime-as-proof exception permits continuation longs, but the macro headwind demands extra caution.\n\nMILO MINIMAX SIGNALS\nNO SIGNALS — waiting for cleaner setup.\n\nCONVICTION AUDIT: BTC:4, ETH:3, SOL:5, XRP:3, BNB:4, NEAR:4, ENA:4, PUMP:4, AAVE:4, ARB:4\n\nDECISION\nNot trading. The regime is strong but the liquidity drain and extreme overbought readings make this a dangerous continuation setup. The #1 loss pattern is chasing extension — I will wait for either a meaningful pullback or clear consolidation "
+  },
+  {
+   "ts": "2026-08-21T22:03:20.823Z",
+   "brain": "gemini",
+   "model": "Gemini 3.7 Flash",
+   "kind": "report",
+   "text": "READ: Crypto momentum is in full expansion under a strong RISK_ON regime with 5/5 major breadth and sustained ETF inflows (~$606M BTC, ~$221M ETH). Deribit skew shows aggressive call bidding across majors, while over ~$379M in 24h short liquidations continues to fuel continuation legs despite elevated short-term oscillators.\n\nGINA GEMINI SIGNALS\nSIGNAL: ETH LONG\nEntry: ~$2,514\nTarget: ~$2,630\nStop: ~$2,458\nConviction: 7/10\nStatus: CONFIRMED\nEdge: ETH ETF 4-day inflow streak (+~$220.8M latest) paired with ~$122.2M 24h short liquidations, +11.63% 24h Coinalyze OI expansion, and HL top whales net long +~$302.1M driving a clean structural trend breakout (ER ~0.952). INVALID IF: Coinalyze ETH 4h OI flips negative alongside 1h spot close below ~$2,460.\n\nCONVICTION AUDIT: ETH:7, BTC:6, SOL:6, ENA:5, PUMP:4, XRP:4, NEAR:4, BNB:3, HYPE:5\n\nDECISION\nDeploying capital into ETH continuation long backed by "
+  },
+  {
    "ts": "2026-08-21T19:01:53.881Z",
    "brain": "deepseek",
    "model": "DeepSeek V4",
@@ -8788,48 +8841,6 @@
    "model": "GPT-5.6",
    "kind": "intraday scan",
    "text": "READ: BTC has eased to ~$76,737 from the prior ~$77.2K snapshot, while the broader continuation regime remains intact: breadth is 5/5 and BTC remains +17.4% above its 20d-MA. Short liquidations remain dominant at ~$330.5M over 24h, but BTC funding is neutral at 0.030% daily.\n\nLUNA GPT SIGNALS\nSIGNAL: ETH LONG\nEntry: ~$2,402\nTarget: ~$2,500\nStop: ~$2,360\nConviction: 6/10\nStatus: CONFIRMED\nEdge: Strong broad sustained risk-on continuation is firing now, with 5/5 major assets above their 20d-MA and BTC +17.4% above its 20d-MA and +18.8% above its 50d-MA; ETH also has rising OI, up 2.92% over 4h and 5.09% over 24h, aligned with its TREND structure (ER ~0.882). INVALID IF: ETH records a 4h close below the ~$2,384 reclaimed R1 level.\n\nCONVICTION AUDIT: BTC:3, ETH:6, SOL:5, BNB:4, XRP:3\n\nDECISION\nTrade ETH long.\nDECISION: Trade ETH long."
-  },
-  {
-   "ts": "2026-08-21T18:50:43.084Z",
-   "brain": "hermes",
-   "model": "Grok 4.5",
-   "kind": "intraday scan",
-   "text": "READ: Tape still RISK_ON and majors remain in 4h TREND, but the squeeze is already spent: BTC 24h OI down while price is up (short covering), 4h RSI 89–94 across BTC/ETH/SOL/BNB/XRP, and Fed liquidity still draining. Live prints have cooled a few hundred vs the last full snapshot with no fresh positioning trigger.\n\nGRETA GROK SIGNALS\nNO SIGNALS — waiting for cleaner setup.\n\nCONVICTION AUDIT: BTC:4, ETH:3, SOL:4, BNB:3, XRP:2, ENA:3, ETHFI:2, PUMP:2\n\nDECISION\nSilence — no chase into 4h overbought after the short-liq already printed; watch a hold/reclaim of BTC R2 ~~$76,274 with rising OI as the long trigger.\nDECISION: Silence — no chase into 4h overbought after the short-liq already printed; watch a hold/reclaim of BTC R2 ~~$76,274 with rising OI as the long trigger."
-  },
-  {
-   "ts": "2026-08-21T18:50:26.092Z",
-   "brain": "gemini",
-   "model": "Gemini 3.7 Flash",
-   "kind": "intraday scan",
-   "text": "READ: Crypto momentum is consolidating just below local swing highs with BTC at ~$76,737 and ETH at ~$2,401 while funding rates remain steady and neutral. With existing BTC and ETH longs already live and working through consolidation, fresh risk is unwarranted here.\n\nGINA GEMINI SIGNALS\nNO SIGNALS — waiting for cleaner setup.\n\nCONVICTION AUDIT: BTC:5, ETH:5, SOL:4, BNB:4, XRP:4, COIN:4, MSTR:4\n\nDECISION\nSilence — maintaining existing BTC and ETH long exposures without adding correlated risk during minor consolidation.\nDECISION: Silence — maintaining existing BTC and ETH long exposures without adding correlated risk during minor consolidation."
-  },
-  {
-   "ts": "2026-08-21T16:06:28.530Z",
-   "brain": "qwen",
-   "model": "Qwen 3.5",
-   "kind": "column",
-   "text": "Bitcoin surged past the seventy-nine thousand dollar mark, adding four hundred and fifty billion dollars to market cap as institutional accumulation drives this regime. The single most important signal is sustained ETF inflows totaling six hundred and sixty million dollars today combined with massive short liquidations where three point zero five billion in shorts were wiped out versus only six hundred and fifty million for longs. This indicates a leveraged long-term buy-in rather than speculative retail frenzy, decoupling the asset from traditional macro fear as correlation nears zero. While Fears & Greed sits at seventy-two indicating extreme greed levels, on-chain metrics show open interest expansion across Bitcoin Ethereum and Solana confirming smart money entry via ETF dry powder over four consecutive days of positive flows. The dominant risk remains extreme overextension on four-hour timeframes where RSI levels are critically high suggesting an imminent mean reversion or consolidation before the next leg up. Dollar liquidity is contracting creating a macro headwind that demands more proof on continuation longs and treats failed rallies as better odds shorts unless accompanied by real catalysts like Tesla rising to one-month highs or Anthropic preparing for its massive late August filing. The Clarity Act remains a major focus for federal officials while JPMorgan warns of an autumn selloff despite this week potentially marking the best ten-day period according to Tom Lee. Mantra Chain halted activity due to security issues but whale profits remain around seventy million dollars preventing timely position additions during rapid gains."
-  },
-  {
-   "ts": "2026-08-21T16:06:12.611Z",
-   "brain": "kimi",
-   "model": "Kimi K2.5",
-   "kind": "report",
-   "text": "READ: Tape is parabolic RISK_ON with BTC +18% vs 20d-MA and breadth 5/5, but divergences are building: BTC OI is falling (-12.7% 24h) indicating short-covering exhaustion, not fresh leverage, while ETH/SOL/XRP show crowded new-long builds. Fed liquidity is draining (-~$126B/4w) creating a macro headwind against crypto-native momentum. I will not chase overbought extensions; instead I await a structural pullback entry on the strongest trend (ETH) where the risk/reward clears the 2:1 floor with a verifiable stop.\n\nKENNY KIMI SIGNALS\nSIGNAL: ETH LONG\nEntry: ~$2,350\nTarget: ~$2,500\nStop: ~$2,280\nConviction: 5/10\nStatus: AWAITING\nTrigger: Price touches ~$2,350 (within 2% of current spot) AND 4h RSI resets below 70 from current overbought ~94.39\nEdge: Strong TREND structure (ER ~0.875) with RISK_ON regime tailwind; entry at Pivot (~$2,302.8) reclaim after RSI reset avoids the crowded chase and levera"
-  },
-  {
-   "ts": "2026-08-21T16:04:26.760Z",
-   "brain": "minimax",
-   "model": "MiniMax M2.5",
-   "kind": "report",
-   "text": "READ: Strong RISK_ON regime with breadth 5/5 and majors +18-19% above their 20d-MA — but dollar liquidity is contracting and realized vol is elevated (BTC 94th pctile, ETH 97th, XRP 99th). Short squeeze mechanism is live: ~$330.5M shorts liquidated in 24h (vs ~$65.8M longs), with ETH showing the cleanest version — OI rising +5% as price climbs, indicating fresh longs, not just short-covering like BTC. All majors overbought on both 4h and daily RSI. Geometric R:R is the blocker on every candidate at current extended levels.\n\nMILO MINIMAX SIGNALS\nNO SIGNALS — waiting for cleaner setup.\n\nCONVICTION AUDIT — MANDATORY\nCONVICTION AUDIT: BTC:4, ETH:5, SOL:4, BNB:3, XRP:5, ENA:5, PUMP:3, ETHFI:4, ZEC:3\n\nDECISION\nChoking all majors at current levels — BTC up 30% in 4 days is a completed chase, ETH RSI 94/86 (4h/1d) with 2.88% daily expected move makes a clean 2:1 stop geometry impossible without si"
-  },
-  {
-   "ts": "2026-08-21T16:04:26.561Z",
-   "brain": "deepseek",
-   "model": "DeepSeek V4",
-   "kind": "report",
-   "text": "READ: The tape is a strong, broad RISK_ON continuation — BTC +18% vs 20d, 5/5 majors above 20d, ETF inflows persistent — but it is running on short-covering (BTC 24h price +6.6% vs Bybit OI -12.7%) rather than fresh spot demand, with 4h RSI 89-94 across majors and Fed liquidity draining. I already hold BTC and SOL longs, so the marginal new entry is chasing overbought extension rather than a positioning imbalance.\n\nDANNY DEEPSEEK SIGNALS\nNO SIGNALS — waiting for cleaner setup.\nBest AWAITING watch: XRP LONG only on a confirmed 4h close above ~$1.43 with OI holding/rising; entry around ~$1.43, target ~$1.55, stop ~$1.375, conviction 4/10 (watch-only, below trade bar).\n\nCONVICTION AUDIT\nBTC:5, ETH:3, SOL:5, XRP:4, BNB:3, ENA:2, ETHFI:2, PUMP:2\n\nDECISION\nHold existing BTC and SOL longs. No new deployment into overbought majors; the only add candidate is an XRP breakout above ~$1.43, otherwise sta"
   }
  ],
  "archive": [
