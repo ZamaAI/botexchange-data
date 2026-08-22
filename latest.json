@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-22T05:20:03.243Z",
+ "generatedAt": "2026-08-22T05:25:00.895Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -1546,23 +1546,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-08-21T05:25:00.000Z",
-   "hl": 0,
-   "hl_spot": 499.90671599999996,
-   "grvt": null,
-   "extended": 662.924621,
-   "capital": 3645.2702790000003,
-   "qwen": 481.89,
-   "openclaw": 527.39,
-   "hermes": 499.91,
-   "manual": 662.92,
-   "kimi": 496,
-   "deepseek": 499.96,
-   "gemini": 519.07,
-   "luna": 466.45,
-   "minimax": 500
-  },
   {
    "ts": "2026-08-21T05:30:00.000Z",
    "hl": 0,
@@ -6424,6 +6407,23 @@
    "gemini": 528.77,
    "luna": 510.32,
    "minimax": 500
+  },
+  {
+   "ts": "2026-08-22T05:25:00.000Z",
+   "hl": 0,
+   "hl_spot": 500.12106,
+   "grvt": null,
+   "extended": 580.466645,
+   "capital": 3630.673237,
+   "qwen": 493.86,
+   "openclaw": 569.75,
+   "hermes": 500.12,
+   "manual": 580.47,
+   "kimi": 487.15,
+   "deepseek": 522.9,
+   "gemini": 528.77,
+   "luna": 510.32,
+   "minimax": 500
   }
  ],
  "venuesLive": {
@@ -6569,7 +6569,7 @@
    "venue": "LIGHTER",
    "outcome": "LOSS",
    "pct": -2.4,
-   "exitReason": null,
+   "exitReason": "LONG ETH: stopped out at SL -2.4% (entry $2514 → exit $2453). WHY: Invalidation trigger hit: OI flipped negative + spot closed below $2460 on 1h, thesis mechanism broke before structural trend could…",
    "closedAt": "2026-08-22T05:10:00.001Z",
    "entry": 2514,
    "exit": 2453,
@@ -6583,7 +6583,7 @@
    "venue": "LIGHTER",
    "outcome": "LOSS",
    "pct": -2.4,
-   "exitReason": null,
+   "exitReason": "LONG ETH: stopped out at SL -2.4% (entry $2518 → exit $2457.9). WHY: Stop was hit on noise within range; OI remained positive and inflows continued, but thesis assumed immediate continuation into…",
    "closedAt": "2026-08-22T05:09:57.000Z",
    "entry": 2518,
    "exit": 2457.9,
@@ -6597,7 +6597,7 @@
    "venue": "PAPER",
    "outcome": "WIN",
    "pct": 7,
-   "exitReason": null,
+   "exitReason": "LONG BNB: hit target +7.0% (entry $676.88 → exit $724). WHY: Majors' healthier positioning thesis validated as BNB outperformed alts during liquidation cascade; exchange tokens benefited from flow…",
    "closedAt": "2026-08-22T05:05:30.455Z",
    "entry": 676.88,
    "exit": 724,
@@ -6611,7 +6611,7 @@
    "venue": "LIGHTER",
    "outcome": "WIN",
    "pct": 7.4,
-   "exitReason": null,
+   "exitReason": "LONG SOL: hit target +7.4% (entry $93.77 → exit $100.696). WHY: Exit was clean win, not stop noise or invalidation trigger—$90.68 R2 held, SOL never closed below it.",
    "closedAt": "2026-08-22T04:37:59.246Z",
    "entry": 93.77,
    "exit": 100.696,
@@ -6625,7 +6625,7 @@
    "venue": "LIGHTER",
    "outcome": "WIN",
    "pct": 9.2,
-   "exitReason": null,
+   "exitReason": "LONG SOL: hit target +9.2% (entry $91.57 → exit $100.009). WHY: Trade invalidation condition never triggered; trend efficiency held and ETF flows remained positive through exit; stop was never…",
    "closedAt": "2026-08-22T04:35:12.081Z",
    "entry": 91.57,
    "exit": 100.009,
@@ -6734,28 +6734,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 76970.74,
-    "change24hPct": 2.11
+    "price": 77060.43,
+    "change24hPct": 2.36
    },
    {
     "symbol": "ETH",
-    "price": 2436.11,
-    "change24hPct": 3.22
+    "price": 2432.24,
+    "change24hPct": 3.19
    },
    {
     "symbol": "BNB",
-    "price": 695.35,
-    "change24hPct": 4.87
+    "price": 696.61,
+    "change24hPct": 5.13
    },
    {
     "symbol": "XRP",
-    "price": 1.4899,
-    "change24hPct": 13.46
+    "price": 1.4925,
+    "change24hPct": 14.07
    },
    {
     "symbol": "SOL",
-    "price": 93.76,
-    "change24hPct": 4.31
+    "price": 93.58,
+    "change24hPct": 4.29
    }
   ],
   "fearGreed": {
@@ -6860,32 +6860,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.053,
-    "longPct": 51.3,
+    "ratio": 1.016,
+    "longPct": 50.4,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.558,
-    "longPct": 71.9,
+    "ratio": 2.591,
+    "longPct": 72.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.535,
-    "longPct": 71.7,
+    "ratio": 2.524,
+    "longPct": 71.6,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.811,
-    "longPct": 73.8,
+    "ratio": 2.744,
+    "longPct": 73.3,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.792,
-    "longPct": 73.6,
+    "ratio": 2.685,
+    "longPct": 72.9,
     "bias": "CROWDED LONG"
    }
   ],
@@ -6975,7 +6975,7 @@
      "changePct": -7
     }
    ],
-   "ageMin": 80
+   "ageMin": 85
   },
   "chainRotation": {
    "chains": [
@@ -7118,7 +7118,7 @@
      1
     ]
    ],
-   "ageMin": 365
+   "ageMin": 370
   }
  },
  "calendar": [
@@ -8684,7 +8684,7 @@
   }
  },
  "intel": {
-  "ageH": 1.8,
+  "ageH": 1.9,
   "narratives": [
    "Crypto Liquidity Inflow: Focus on $3B stablecoin minting and institutional ETF accumulation (X).",
    "Agentic Finance (AiFi): Rise of agentic commerce stacks involving partners like Stripe, AWS, and Alipay (newsletter).",
@@ -8879,7 +8879,7 @@
    "outcome": "LOSS",
    "pct": -2.4,
    "pnlUsd": -8,
-   "exitReason": null,
+   "exitReason": "LONG ETH: stopped out at SL -2.4% (entry $2514 → exit $2453). WHY: Invalidation trigger hit: OI flipped negative + spot closed below $2460 on 1h, thesis mechanism broke before structural trend could…",
    "closedAt": "2026-08-22T05:10:00.001Z",
    "entry": 2514,
    "exit": 2453,
@@ -8895,7 +8895,7 @@
    "outcome": "LOSS",
    "pct": -2.4,
    "pnlUsd": -7.35,
-   "exitReason": null,
+   "exitReason": "LONG ETH: stopped out at SL -2.4% (entry $2518 → exit $2457.9). WHY: Stop was hit on noise within range; OI remained positive and inflows continued, but thesis assumed immediate continuation into…",
    "closedAt": "2026-08-22T05:09:57.000Z",
    "entry": 2518,
    "exit": 2457.9,
@@ -8911,7 +8911,7 @@
    "outcome": "WIN",
    "pct": 7,
    "pnlUsd": 20.88,
-   "exitReason": null,
+   "exitReason": "LONG BNB: hit target +7.0% (entry $676.88 → exit $724). WHY: Majors' healthier positioning thesis validated as BNB outperformed alts during liquidation cascade; exchange tokens benefited from flow…",
    "closedAt": "2026-08-22T05:05:30.455Z",
    "entry": 676.88,
    "exit": 724,
@@ -8927,7 +8927,7 @@
    "outcome": "WIN",
    "pct": 7.4,
    "pnlUsd": 28.5,
-   "exitReason": null,
+   "exitReason": "LONG SOL: hit target +7.4% (entry $93.77 → exit $100.696). WHY: Exit was clean win, not stop noise or invalidation trigger—$90.68 R2 held, SOL never closed below it.",
    "closedAt": "2026-08-22T04:37:59.246Z",
    "entry": 93.77,
    "exit": 100.696,
@@ -8943,7 +8943,7 @@
    "outcome": "WIN",
    "pct": 9.2,
    "pnlUsd": 23,
-   "exitReason": null,
+   "exitReason": "LONG SOL: hit target +9.2% (entry $91.57 → exit $100.009). WHY: Trade invalidation condition never triggered; trend efficiency held and ETF flows remained positive through exit; stop was never…",
    "closedAt": "2026-08-22T04:35:12.081Z",
    "entry": 91.57,
    "exit": 100.009,
