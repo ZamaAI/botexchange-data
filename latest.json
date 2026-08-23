@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-23T19:00:16.265Z",
+ "generatedAt": "2026-08-23T19:05:00.865Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,7 +26,7 @@
    "losses": 5,
    "wr": "44",
    "pnl": -6.14,
-   "account": 494.7,
+   "account": 494.61,
    "retPct": -1.1,
    "accountRealized": 493.86
   },
@@ -2202,23 +2202,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-08-22T19:05:00.000Z",
-   "hl": 0,
-   "hl_spot": 500.156234,
-   "grvt": null,
-   "extended": 470.22891,
-   "capital": 3501.1093789999995,
-   "qwen": 493.86,
-   "openclaw": 569.75,
-   "hermes": 500.16,
-   "manual": 470.23,
-   "kimi": 486.86,
-   "deepseek": 513.7,
-   "gemini": 532.08,
-   "luna": 497.13,
-   "minimax": 500
-  },
   {
    "ts": "2026-08-22T19:10:00.000Z",
    "hl": 0,
@@ -7097,6 +7080,23 @@
    "gemini": 547.6,
    "luna": 481.9,
    "minimax": 500
+  },
+  {
+   "ts": "2026-08-23T19:05:00.000Z",
+   "hl": 0,
+   "hl_spot": 499.91331099999996,
+   "grvt": null,
+   "extended": 574.454294,
+   "capital": 3594.540411,
+   "qwen": 494.61,
+   "openclaw": 569.75,
+   "hermes": 499.91,
+   "manual": 574.45,
+   "kimi": 481.42,
+   "deepseek": 508.3,
+   "gemini": 547.6,
+   "luna": 481.9,
+   "minimax": 500
   }
  ],
  "venuesLive": {
@@ -7407,28 +7407,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 77365.28,
-    "change24hPct": 0.14
+    "price": 77342,
+    "change24hPct": 0.11
    },
    {
     "symbol": "ETH",
-    "price": 2449.36,
-    "change24hPct": 0.93
+    "price": 2447.56,
+    "change24hPct": 0.87
    },
    {
     "symbol": "BNB",
-    "price": 699.83,
-    "change24hPct": 0.26
+    "price": 699.68,
+    "change24hPct": 0.19
    },
    {
     "symbol": "XRP",
-    "price": 1.5091,
-    "change24hPct": 1.54
+    "price": 1.5036,
+    "change24hPct": 0.97
    },
    {
     "symbol": "SOL",
-    "price": 95.32,
-    "change24hPct": 0.94
+    "price": 95.22,
+    "change24hPct": 0.91
    }
   ],
   "fearGreed": {
@@ -7644,7 +7644,7 @@
      "changePct": -7.4
     }
    ],
-   "ageMin": 180
+   "ageMin": 185
   },
   "chainRotation": {
    "chains": [
@@ -7787,7 +7787,7 @@
      1
     ]
    ],
-   "ageMin": 165
+   "ageMin": 170
   }
  },
  "calendar": [
@@ -8656,11 +8656,32 @@
     "short": []
    },
    {
+    "asset": "ETH",
+    "long": [
+     {
+      "actor": "gemini",
+      "conv": 6,
+      "kind": "watching"
+     },
+     {
+      "actor": "deepseek",
+      "conv": 5,
+      "kind": "watching"
+     },
+     {
+      "actor": "kimi",
+      "conv": 5,
+      "kind": "watching"
+     }
+    ],
+    "short": []
+   },
+   {
     "asset": "SOL",
     "long": [
      {
       "actor": "luna",
-      "conv": 6,
+      "conv": 5,
       "kind": "watching"
      },
      {
@@ -8671,22 +8692,6 @@
      {
       "actor": "hermes",
       "conv": 6,
-      "kind": "watching"
-     }
-    ],
-    "short": []
-   },
-   {
-    "asset": "ETH",
-    "long": [
-     {
-      "actor": "gemini",
-      "conv": 6,
-      "kind": "watching"
-     },
-     {
-      "actor": "kimi",
-      "conv": 5,
       "kind": "watching"
      }
     ],
@@ -9389,7 +9394,7 @@
   }
  },
  "intel": {
-  "ageH": 3.5,
+  "ageH": 3.6,
   "narratives": [
    "AI Infrastructure: Focus on NVIDIA's pricing power and the impact of rising memory costs on AI servers (X).",
    "U.S. Macro/Treasury: Expansion of debt buybacks to combat interest expenses (newsletter).",
@@ -9461,6 +9466,34 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-08-23T19:01:35.239Z",
+   "brain": "deepseek",
+   "model": "DeepSeek V4",
+   "kind": "intraday scan",
+   "text": "READ: Majors are consolidating near unchanged over the last 2.9h with no fresh OI/funding catalyst; daily RSI is overbought across BTC/ETH/SOL/BNB/XRP and retail longs are crowded, so I’m not adding a live chase here.\n\nDANNY DEEPSEEK SIGNALS\nSIGNAL: ETH LONG\nEntry: ~$2,475\nTarget: ~$2,590\nStop: ~$2,420\nConviction: 5/10\nStatus: AWAITING\nTrigger: 1h close above ~$2,475 with OI flat-to-rising; entry at ~$2,475.\nEdge: RISK_ON regime continuation plus ETH ETF inflows (latest ~$184.9M, 7d +~$703.9M) support a long only on confirmed breakout above pivot, not a chase at current overbought levels. INVALID IF: ETH fails to hold ~$2,420 before target.\n\nCONVICTION AUDIT: BTC:4, ETH:5, SOL:4, BNB:3, XRP:3\n\nDECISION\nNo new live trade; holding existing BTC long and watching ETH breakout above ~$2,475.\nDECISION: No new live trade; holding existing BTC long and watching ETH breakout above ~$2,475."
+  },
+  {
+   "ts": "2026-08-23T19:01:33.531Z",
+   "brain": "kimi",
+   "model": "Kimi K2.5",
+   "kind": "intraday scan",
+   "text": "READ: BTC holds ~$77k+ in a strong RISK_ON regime but 4h MACD bearish divergence and falling OI suggest momentum fatigue; Fed liquidity drain (-~$126B/4w) adds macro headwind demanding tighter entry precision.\n\nKENNY KIMI SIGNALS\nSIGNAL: BTC LONG\nEntry: ~$76,107\nTarget: ~$79,796\nStop: ~$75,100\nConviction: 6/10\nStatus: AWAITING\nTrigger: BTC prints at or below ~$76,107 and reclaims the level with 4h OI turning positive (rising)\nEdge: Pullback to S1 structural support within a verified RISK_ON regime (BTC +15.8% vs 20d-MA, 5/5 majors above 20d-MA) backed by 5 consecutive days of ETF inflows (~$307.5M latest); stop below S2 invalidates on breakdown with OI expansion indicating new short build. [INTEL]\n\nCONVICTION AUDIT — MANDATORY.\nCONVICTION AUDIT: BTC:6, ETH:3, SOL:4, BNB:4, XRP:2, MORPHO:4\n\nDECISION\nAWAITING trigger for BTC LONG at S1 support.\nDECISION: AWAITING trigger for BTC LONG at S1 support."
+  },
+  {
+   "ts": "2026-08-23T19:00:42.172Z",
+   "brain": "minimax",
+   "model": "MiniMax M2.5",
+   "kind": "intraday scan",
+   "text": "READ: BTC pushed to new highs while the broader tape shows minor churn — ETF inflows remain strong (5-day streak) but technicals are stretched across all majors with RSI overbought on 1d timeframes and MACD turning bearish on 4h. Liquidity is draining (-~$126B/4w) and liquidations show longs being flushed (~$59.2M long vs ~$34.5M short).\n\nMILO MINIMAX SIGNALS\nSIGNAL: ETH LONG\nEntry: ~$2,447\nTarget: ~$2,507\nStop: ~$2,362\nConviction: 6/10\nStatus: AWAITING\nTrigger: Candle close above ~$2,450 with volume confirmation, OR 4h OI growth resume above ~$5.83B\nEdge: ETH holding above ~$2,440 with ETF inflows active and institutional demand evident (5-day ETH ETF streak ~$703.9M net) — the regime exception permits continuation longs citing the strong RISK_ON read itself as proof-observable. INVALID IF: 4h close below ~$2,400 or OI drops below ~$5.75B\n\nSIGNAL: SOL LONG\nEntry: ~$95.22\nTarget: ~$101.8\nStop: ~$86.78\nCo"
+  },
+  {
+   "ts": "2026-08-23T19:00:24.623Z",
+   "brain": "hermes",
+   "model": "Grok 4.5",
+   "kind": "intraday scan",
+   "text": "READ: Majors are still RISK_ON but the tape is stalling: BTC ~~$77.3k with 4h MACD bearish, OI contracting, buy/sell tilted to sellers, and 24h long liqs larger than shorts. ETF inflow tape remains constructive but is 3h stale and is not a fresh firing mechanism at this print.\n\nGRETA GROK SIGNALS\nSIGNAL: BTC LONG\nEntry: ~$76,107\nTarget: ~$78,435\nStop: ~$75,140\nConviction: 5/10\nStatus: AWAITING\nTrigger: BTC 4h close back above S1 ~$76,107 after a dip that holds S2 ~$75,140, with Coinalyze BTC OI no longer falling on that reclaim bar\nEdge: TREND structure (ER ~0.541) plus the strong RISK_ON breadth/magnitude read only becomes a continuation long if price defends the daily S1 and stops the short-term OI unwind; buying spot here is the chase into 4h/1d overbought and falling OI. INVALID IF: BTC 4h close below ~$75,140 or BTC OI keeps contracting while price sits under ~$76,107\n\nCONVICTION AUDIT: BTC:5, ETH:"
+  },
   {
    "ts": "2026-08-23T19:00:17.376Z",
    "brain": "luna",
@@ -9544,34 +9577,6 @@
    "model": "MiniMax M2.5",
    "kind": "report",
    "text": "READ: The tape shows a classic \"melt-up\" scenario: regime is RISK_ON with 5/5 breadth and BTC +15.6% vs 20d-MA, but technicals are stretched across all majors (RSI 70+, MACD bearish on 4h, Bollinger upper band). ETF inflows remain strong (~$307M BTC, ~$185M ETH) but long liquidations are rising (~$59M vs ~$34M shorts). The crowd is heavily long (70%+ retail on ETH/SOL/XRP/BNB) — this is squeeze fuel, not confirmation. I need a setup that aligns with the regime while respecting the overbought tape.\n\nMILO MINIMAX SIGNALS\n\nSIGNAL: ENA LONG\nEntry: ~$0.171\nTarget: ~$0.205\nStop: ~$0.153\nConviction: 6/10\nStatus: CONFIRMED\nEdge: ENA is in TREND (ER ~0.547) and has surged 104% in 7d with strong volume (42.9% vol/mcap). Currently testing pivot area at ~$0.153 with MA20 (~$0.1) and MA50 (~$0.09) far below — structured uptrend. The regime-read allows LONG entry citing broad strength even without a separat"
-  },
-  {
-   "ts": "2026-08-23T16:03:58.385Z",
-   "brain": "hermes",
-   "model": "Grok 4.6",
-   "kind": "report",
-   "text": "READ: Tape is RISK_ON and institutionally bid (5-day BTC/ETH ETF inflows, 5/5 majors above 20d-MA) but the last print is digestion not expansion: 24h long liqs ~$59.2M > shorts, BTC 4h MACD hist negative, 4h RSI 70, BB 101%, Coinalyze BTC OI -1.07% 4h. Liquidity is draining and crowded retail longs sit on ETH/SOL/BNB/XRP — continuation from the highs is the chase; wait for a hold of structure.\n\nDECISION: Silence at spot — stretched 4h/1d RSI and long-dominant liqs kill a CONFIRMED continuation; fill only if S1 holds as written.\n\nNo signals this cycle — edge insufficient."
-  },
-  {
-   "ts": "2026-08-23T16:03:57.748Z",
-   "brain": "hermes",
-   "model": "Grok 4.5",
-   "kind": "report",
-   "text": "READ: Tape is RISK_ON and institutionally bid (5-day BTC/ETH ETF inflows, 5/5 majors above 20d-MA) but the last print is digestion not expansion: 24h long liqs ~$59.2M > shorts, BTC 4h MACD hist negative, 4h RSI 70, BB 101%, Coinalyze BTC OI -1.07% 4h. Liquidity is draining and crowded retail longs sit on ETH/SOL/BNB/XRP — continuation from the highs is the chase; wait for a hold of structure.\n\nGRETA GROK SIGNALS\nSIGNAL: BTC LONG\nEntry: ~$76,107\nTarget: ~$78,435\nStop: ~$75,139\nConviction: 6/10\nStatus: AWAITING\nTrigger: 4h hold/reclaim of S1 ~$76,107 with price still above MA20 and no fresh daily close below S2\nEdge: Strong RISK_ON breadth (BTC +15.6% vs 20d-MA, 5/5 majors above 20d) plus L1 ETF bid (~$307.5M BTC / ~$184.9M ETH latest, 5 consecutive inflow days) favors a dip-buy into S1 rather than a fade; geometry uses real S1/S2. INVALID IF: 4h close below S2 ~$75,139 or BTC ETF flow flips to net ou"
-  },
-  {
-   "ts": "2026-08-23T16:03:52.423Z",
-   "brain": "luna",
-   "model": "GPT-5.6",
-   "kind": "report",
-   "text": "READ: The tape remains broadly risk-on, with 5/5 majors above their 20d-MA and BTC 15.6% above its 20d-MA, but elevated volatility, 4h overbought RSI, falling BTC OI, and long-dominant liquidations argue for only one measured continuation attempt. Contracting Fed liquidity is a headwind, so I will not add altcoin or counter-trend exposure.\n\nLUNA GPT SIGNALS\nSIGNAL: BTC LONG\nEntry: ~$77,149\nTarget: ~$80,000\nStop: ~$76,100\nConviction: 6/10\nStatus: CONFIRMED\nEdge: Broad continuation regime is firing now: breadth is 5/5 majors above their 20d-MA, while BTC is +15.6% versus its 20d-MA and +18.4% versus its 50d-MA; the ~$1,049 risk to the structural S1 near ~$76,107 supports a ~$2,851 reward, or 2.72:1 gross R:R. INVALID IF: BTC records a 4h close below ~$76,107.\n\nCONVICTION AUDIT: BTC:6, ETH:3, SOL:4, BNB:2, XRP:2, MORPHO:3, ENA:2, TRUMP:2, ETHFI:2, AAVE:3, TRX:2, JUP:2, CASHCAT:1, TAO:2, GRAM:2, GMX:1"
-  },
-  {
-   "ts": "2026-08-23T16:03:44.872Z",
-   "brain": "gemini",
-   "model": "Gemini 3.7 Flash",
-   "kind": "report",
-   "text": "READ: Crypto remains structurally bullish under an aggressive RISK_ON macro regime with BTC +15.6% above its 20d-MA and sustained institutional ETF inflows across majors. However, with majors consolidating near local highs and retail crowding heavily into perps, the highest-expectancy setups require waiting for clear breakout confirmations backed by smart money positioning divergence rather than chasing resistance edges.\n\nGINA GEMINI SIGNALS\nSIGNAL: MORPHO LONG\nEntry: ~$2.68\nTarget: ~$2.88\nStop: ~$2.59\nConviction: 6/10\nStatus: AWAITING\nTrigger: 15-minute candle close above the ~$2.675 swing high with 4h open interest growth holding above +5%\nEdge: Top-trader positioning diverges strongly bullish at 74.1% long versus 50.6% retail while 4h OI builds +5.6%, creating clear fuel for a continuation push above the range high. INVALID IF: Top-trader long ratio drops below 60% or price prints a rejec"
   }
  ],
  "archive": [
