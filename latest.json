@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-24T05:00:46.418Z",
+ "generatedAt": "2026-08-24T05:05:00.833Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,7 +26,7 @@
    "losses": 5,
    "wr": "44",
    "pnl": -6.14,
-   "account": 492.8,
+   "account": 493.11,
    "retPct": -1.4,
    "accountRealized": 493.86
   },
@@ -2382,23 +2382,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-08-23T05:05:00.000Z",
-   "hl": 0,
-   "hl_spot": 499.91221199999995,
-   "grvt": null,
-   "extended": 480.950841,
-   "capital": 3485.6604339999994,
-   "qwen": 493.86,
-   "openclaw": 569.75,
-   "hermes": 499.91,
-   "manual": 480.95,
-   "kimi": 483.73,
-   "deepseek": 508.3,
-   "gemini": 526.14,
-   "luna": 485.67,
-   "minimax": 500
-  },
   {
    "ts": "2026-08-23T05:10:00.000Z",
    "hl": 0,
@@ -7277,6 +7260,23 @@
    "gemini": 547.6,
    "luna": 473.38,
    "minimax": 500
+  },
+  {
+   "ts": "2026-08-24T05:05:00.000Z",
+   "hl": 0,
+   "hl_spot": 500.145792,
+   "grvt": null,
+   "extended": 528.819863,
+   "capital": 3542.304927,
+   "qwen": 493.11,
+   "openclaw": 569.75,
+   "hermes": 500.15,
+   "manual": 528.82,
+   "kimi": 483.1,
+   "deepseek": 508.3,
+   "gemini": 547.6,
+   "luna": 473.38,
+   "minimax": 500
   }
  ],
  "venuesLive": {
@@ -7604,35 +7604,35 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 76876.43,
-    "change24hPct": 0.36
+    "price": 76956,
+    "change24hPct": 0.51
    },
    {
     "symbol": "ETH",
-    "price": 2437.39,
-    "change24hPct": 2.45
+    "price": 2438.06,
+    "change24hPct": 2.51
    },
    {
     "symbol": "BNB",
-    "price": 696.58,
-    "change24hPct": 2.08
+    "price": 696.6,
+    "change24hPct": 2.02
    },
    {
     "symbol": "XRP",
-    "price": 1.4785,
-    "change24hPct": 1.41
+    "price": 1.4734,
+    "change24hPct": 0.62
    },
    {
     "symbol": "SOL",
-    "price": 94.17,
-    "change24hPct": 1.62
+    "price": 94.09,
+    "change24hPct": 1.49
    }
   ],
   "fearGreed": {
    "value": 73,
    "classification": "Greed"
   },
-  "regime": null,
+  "regime": "RISK_ON",
   "stockFearGreed": {
    "value": 55,
    "classification": "Greed",
@@ -7647,6 +7647,13 @@
     "price": 15.13,
     "change": -5.5
    }
+  },
+  "netLiquidity": {
+   "usdB": 5791.8,
+   "deltaB": -125.6,
+   "weeks": 4,
+   "trend": "DRAINING",
+   "date": "2026-08-19"
   },
   "riskIndex": {
    "score": 40,
@@ -7709,6 +7716,7 @@
    ],
    "computedAt": 1787544099874
   },
+  "equityRegime": "NEUTRAL",
   "longShort": [
    {
     "asset": "BTC",
@@ -7817,7 +7825,7 @@
      "changePct": -7.7
     }
    ],
-   "ageMin": 60
+   "ageMin": 65
   },
   "chainRotation": {
    "chains": [
@@ -7960,7 +7968,7 @@
      1
     ]
    ],
-   "ageMin": 345
+   "ageMin": 350
   }
  },
  "calendar": [
@@ -8026,6 +8034,18 @@
   },
   {
    "date": "2026-08-26",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-26",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-26",
    "event": "NVDA earnings (AMC)",
    "type": "EARNINGS",
    "impact": "HIGH"
@@ -8044,6 +8064,12 @@
   },
   {
    "date": "2026-08-27",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-27",
    "event": "MRVL earnings (AMC)",
    "type": "EARNINGS",
    "impact": "MED"
@@ -8055,9 +8081,21 @@
    "impact": "MED"
   },
   {
+   "date": "2026-08-28",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
+  },
+  {
    "date": "2026-08-31",
    "event": "OP token unlock — 24.2M cliff = 0.56% of float (Investors + Core Contributors)",
    "type": "UNLOCK",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-01",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
    "impact": "MED"
   },
   {
@@ -8073,14 +8111,32 @@
    "impact": "MED"
   },
   {
+   "date": "2026-09-03",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-04",
-   "event": "Non-Farm Payrolls (Aug)",
+   "event": "Non-Farm Payrolls",
    "type": "NFP",
    "impact": "HIGH"
   },
   {
+   "date": "2026-09-10",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-10",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-11",
-   "event": "US CPI Release (Aug)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
   },
@@ -8089,6 +8145,18 @@
    "event": "FOMC Rate Decision",
    "type": "Fed",
    "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-16",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-17",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
   }
  ],
  "weekAhead": {
@@ -9387,7 +9455,7 @@
   }
  },
  "intel": {
-  "ageH": 1.5,
+  "ageH": 1.6,
   "narratives": [
    "AI Infrastructure: Focus on massive electricity demands and hardware demand driving $NVDA pricing (X).",
    "Real World Assets (RWA): Significant growth on Mantle reaching $245M in July (newsletter).",
