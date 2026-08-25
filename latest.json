@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-25T13:55:10.223Z",
+ "generatedAt": "2026-08-25T14:00:00.859Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 5,
    "wr": "44",
    "pnl": -6.14,
-   "account": 498.25,
-   "retPct": -0.3,
+   "account": 499.64,
+   "retPct": -0.1,
    "accountRealized": 493.86
   },
   {
@@ -105,14 +105,14 @@
    "label": "Gina Gemini",
    "venue": "LIGHTER",
    "paper": false,
-   "trades": 9,
+   "trades": 10,
    "wins": 6,
-   "losses": 3,
-   "wr": "67",
-   "pnl": 45.01,
+   "losses": 4,
+   "wr": "60",
+   "pnl": 36.97,
    "account": 524.92,
    "retPct": 5,
-   "accountRealized": 545.01
+   "accountRealized": 536.97
   },
   {
    "key": "luna",
@@ -223,7 +223,7 @@
     528.84,
     547.47,
     545.01,
-    545.01
+    536.97
    ],
    "luna": [
     500,
@@ -2933,26 +2933,26 @@
    "gemini": 529.06,
    "luna": 483.29,
    "minimax": 500
+  },
+  {
+   "ts": "2026-08-25T14:00:00.000Z",
+   "hl": 0,
+   "hl_spot": 485.662698,
+   "grvt": null,
+   "extended": 686.35658,
+   "capital": 3661.903263,
+   "qwen": 499.64,
+   "openclaw": 569.75,
+   "hermes": 485.66,
+   "manual": 686.36,
+   "kimi": 483.55,
+   "deepseek": 510.37,
+   "gemini": 524.92,
+   "luna": 470.08,
+   "minimax": 500
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-08-24T14:00:00.000Z",
-   "hl": 0,
-   "hl_spot": 500.16283,
-   "grvt": null,
-   "extended": 580.215992,
-   "capital": 3607.033729,
-   "qwen": 499.54,
-   "openclaw": 569.75,
-   "hermes": 500.16,
-   "manual": 580.22,
-   "kimi": 482.47,
-   "deepseek": 508.3,
-   "gemini": 550.64,
-   "luna": 484.29,
-   "minimax": 500
-  },
   {
    "ts": "2026-08-24T14:05:00.000Z",
    "hl": 0,
@@ -7814,6 +7814,23 @@
    "gemini": 524.92,
    "luna": 470.08,
    "minimax": 500
+  },
+  {
+   "ts": "2026-08-25T14:00:00.000Z",
+   "hl": 0,
+   "hl_spot": 485.662698,
+   "grvt": null,
+   "extended": 686.35658,
+   "capital": 3661.903263,
+   "qwen": 499.64,
+   "openclaw": 569.75,
+   "hermes": 485.66,
+   "manual": 686.36,
+   "kimi": 483.55,
+   "deepseek": 510.37,
+   "gemini": 524.92,
+   "luna": 470.08,
+   "minimax": 500
   }
  ],
  "venuesLive": {
@@ -7935,23 +7952,6 @@
    "conviction": 5,
    "openedAt": "2026-08-25T05:09:24.388Z",
    "thesis": "deepseek pick (paper, trigger-filled from AWAITING watch at $2,501.78: 1h close above $2,475 with OI flat-to-rising; entry at $2,475.)",
-   "smartMoney": 1
-  },
-  {
-   "id": 527,
-   "asset": "ETH",
-   "direction": "LONG",
-   "actor": "gemini",
-   "venue": "LIGHTER",
-   "entry": 2501.78,
-   "stop": 2439.24,
-   "target": 2639.38,
-   "levelsApprox": true,
-   "trailed": false,
-   "rr": 2.4,
-   "conviction": 5,
-   "openedAt": "2026-08-25T05:09:23.751Z",
-   "thesis": "gemini pick (LIVE, trigger-filled from AWAITING watch at $2,501.78: ETH 1h close above R1 resistance ($2506.73) with 4h MACD histogram flipping positive)",
    "smartMoney": 1
   },
   {
@@ -8083,6 +8083,20 @@
    "entry": 80559.26,
    "exit": 78550,
    "openedAt": "2026-08-25T05:09:25.005Z"
+  },
+  {
+   "id": 527,
+   "asset": "ETH",
+   "direction": "LONG",
+   "actor": "gemini",
+   "venue": "LIGHTER",
+   "outcome": "LOSS",
+   "pct": -2.3,
+   "exitReason": null,
+   "closedAt": "2026-08-25T13:51:17.304Z",
+   "entry": 2501.78,
+   "exit": 2443.91,
+   "openedAt": "2026-08-25T05:09:23.751Z"
   },
   {
    "id": 534,
@@ -8223,48 +8237,34 @@
    "entry": 77235,
    "exit": 79850,
    "openedAt": "2026-08-21T16:03:42.463Z"
-  },
-  {
-   "id": 517,
-   "asset": "BTC",
-   "direction": "LONG",
-   "actor": "luna",
-   "venue": "LIGHTER",
-   "outcome": "WIN",
-   "pct": 3.1,
-   "exitReason": "LONG BTC: stopped out at SL +3.1% (entry $77238 → exit $79636.3). WHY: Stop was hit at $79640.4 but trade exited at $79636.3 (stop noise/slippage), invalidation condition ($76107 break) never…",
-   "closedAt": "2026-08-24T14:40:28.344Z",
-   "entry": 77238,
-   "exit": 79636.3,
-   "openedAt": "2026-08-23T17:31:31.690Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 78277.13,
-    "change24hPct": -0.17
+    "price": 78642,
+    "change24hPct": 0.06
    },
    {
     "symbol": "ETH",
-    "price": 2447.01,
-    "change24hPct": -1.74
+    "price": 2460.73,
+    "change24hPct": -1.33
    },
    {
     "symbol": "BNB",
-    "price": 691.61,
-    "change24hPct": -1.09
+    "price": 694.24,
+    "change24hPct": -0.79
    },
    {
     "symbol": "XRP",
-    "price": 1.4465,
-    "change24hPct": -2.76
+    "price": 1.4573,
+    "change24hPct": -2.25
    },
    {
     "symbol": "SOL",
-    "price": 96.54,
-    "change24hPct": 1.81
+    "price": 97.14,
+    "change24hPct": 2.23
    }
   ],
   "fearGreed": {
@@ -8474,7 +8474,7 @@
      "changePct": -8.4
     }
    ],
-   "ageMin": 235
+   "ageMin": 240
   },
   "chainRotation": {
    "chains": [
@@ -8617,7 +8617,7 @@
      1
     ]
    ],
-   "ageMin": 340
+   "ageMin": 345
   }
  },
  "calendar": [
@@ -9399,35 +9399,9 @@
       "actor": "minimax",
       "conv": 6,
       "kind": "watching"
-     }
-    ],
-    "short": []
-   },
-   {
-    "asset": "ETH",
-    "long": [
-     {
-      "actor": "gemini",
-      "conv": 5,
-      "kind": "live"
-     },
-     {
-      "actor": "deepseek",
-      "conv": 5,
-      "kind": "paper"
-     },
-     {
-      "actor": "luna",
-      "conv": 5,
-      "kind": "live"
      },
      {
       "actor": "kimi",
-      "conv": 6,
-      "kind": "watching"
-     },
-     {
-      "actor": "qwen",
       "conv": 6,
       "kind": "watching"
      }
@@ -9460,6 +9434,32 @@
      {
       "actor": "grok",
       "conv": 5,
+      "kind": "watching"
+     }
+    ],
+    "short": []
+   },
+   {
+    "asset": "ETH",
+    "long": [
+     {
+      "actor": "deepseek",
+      "conv": 5,
+      "kind": "paper"
+     },
+     {
+      "actor": "luna",
+      "conv": 5,
+      "kind": "live"
+     },
+     {
+      "actor": "kimi",
+      "conv": 6,
+      "kind": "watching"
+     },
+     {
+      "actor": "qwen",
+      "conv": 6,
       "kind": "watching"
      }
     ],
@@ -10198,6 +10198,20 @@
  },
  "deskNotes": [
   {
+   "ts": "2026-08-25T13:57:22.406Z",
+   "brain": "kimi",
+   "model": "Kimi K2.5",
+   "kind": "intraday scan",
+   "text": "READ: BTC pulled back to test the ~$78,300 pivot after failing at ~$80,500, while ETH leads majors lower (-1.66% 24h) on flat OI; SOL remains bid (+2.2%) but leverage is crowded with OI +8% in 24h and daily RSI at 86.\n\nKENNY KIMI SIGNALS\nSIGNAL: BTC LONG\nEntry: ~$77,108\nTarget: ~$81,272\nStop: ~$75,224\nConviction: 6/10\nStatus: AWAITING\nTrigger: BTC price reaches S1 support ~$77,108\nEdge: RISK_ON regime is ACTIVE (BTC +14.7% vs 20d-MA, breadth 5/5 majors above 20d-MA) providing macro tailwind for dip-buying at structural support; entry triggers on test of S1. INVALID IF: Price breaks below S2 ~$75,224 on a daily closing basis.\n\nCONVICTION AUDIT — MANDATORY\nCONVICTION AUDIT: BTC:6, ETH:4, SOL:5, BNB:5, XRP:3, SUI:4\n\nNO SIGNALS — waiting for cleaner setup.\n\nDECISION\nAwaiting BTC long entry at S1 support.\nDECISION: Awaiting BTC long entry at S1 support."
+  },
+  {
+   "ts": "2026-08-25T13:55:15.706Z",
+   "brain": "deepseek",
+   "model": "DeepSeek V4",
+   "kind": "intraday scan",
+   "text": "READ: Majors faded from local highs into mid-range chop; RISK_ON regime still holds but per-asset structure offers no fresh continuation entry at current prices.\n\nDANNY DEEPSEEK SIGNALS\nNO SIGNALS — waiting for cleaner setup.\nWATCH: SOL LONG AWAITING entry ~$101.2 on a 4h close above that level with 4h OI positive; current ~$96.68 is mid-range and not actionable.\n\nCONVICTION AUDIT — MANDATORY. Output this line even when you trade nothing.\nCONVICTION AUDIT: BTC:5, ETH:3, SOL:4, BNB:4, XRP:3, SUI:3, INJ:3, PENGU:2, POL:2\n\nDECISION\nSilence — no new edge; hold existing positions and wait for structure to clear.\nDECISION: Silence — no new edge; hold existing positions and wait for structure to clear."
+  },
+  {
    "ts": "2026-08-25T13:54:13.122Z",
    "brain": "grok",
    "model": "Grok 4.5",
@@ -10294,20 +10308,6 @@
    "model": "MiniMax M2.5",
    "kind": "intraday scan",
    "text": "READ: BTC ETF inflows continue (~$337.6M, 6th consecutive positive day) but most majors are red on the day (-1.5% to -4.2%), while SOL leads with +2.48% — divergence in action. Short liquidations dominate (~$84.7M vs ~$54.2M long), confirming the squeeze dynamic. LIQUIDITY DRAINING (-~$126B over 4w) creates macro headwind for extended risk assets.\n\nMILO MINIMAX SIGNALS\nNO SIGNALS — waiting for cleaner setup.\n\nCONVICTION AUDIT — MANDATORY\nBTC:5, ETH:4, SOL:3, BNB:3, XRP:3, INJ:4, PENGU:2, POL:2\n\nDECISION\nSilence — no confirmed mechanism firing within acceptable R:R parameters. Regime is strong LONG-biased but SOL's structure (TRANS) and extreme overbought (RSI 1d ~86.88, Bollinger 99.3%) create hostile entry for both directions. AWAITING SOL breakout confirmation OR pullback to prior range before committing.\nDECISION: Silence — no confirmed mechanism firing within acceptable R:R parameters. Re"
-  },
-  {
-   "ts": "2026-08-25T13:00:20.159Z",
-   "brain": "luna",
-   "model": "GPT-5.6",
-   "kind": "intraday scan",
-   "text": "READ: SOL has cooled to ~$98.62 from the prior ~~$99.6 snapshot while BTC remains near ~$79K; ETH, BNB, XRP, and SUI are weaker. Funding remains neutral on BTC/ETH, while the broad risk-on regime and strong ETF inflows persist ahead of high-impact GDP/PCE releases.\n\nLUNA GPT SIGNALS\nSIGNAL: SOL LONG\nEntry: ~$98.62\nTarget: ~$102.8\nStop: ~$97\nConviction: 6/10\nStatus: CONFIRMED\nEdge: Continuation-long regime proof is firing: breadth is 5/5 majors above their 20d-MA while BTC is +15.7% versus its 20d-MA and +20.0% versus its 50d-MA; SOL also has rising 24h OI of +8.05%. The stop is just below the ~$97.073 pivot, with risk ~$1.62 and reward ~$4.18 (2.58:1). INVALID IF: SOL breaks and sustains below the ~$97.073 pivot before reaching target.\n\nCONVICTION AUDIT: BTC:4, ETH:3, SOL:6, BNB:3, XRP:2, SUI:3\n\nDECISION\nTrade SOL LONG.\nDECISION: Trade SOL LONG."
-  },
-  {
-   "ts": "2026-08-25T13:00:16.019Z",
-   "brain": "gemini",
-   "model": "Gemini 3.7 Flash",
-   "kind": "intraday scan",
-   "text": "READ: Crypto majors have paused in range chop with short-term sell pressure rising (BTC 4h buy ratio down to 44.3%) and OI contracting on BTC, while SOL demonstrates the strongest relative strength with 24h OI expansion (+10.7%) and persistent ETF inflows. Dollar liquidity continues draining macro-wide, requiring confirmed structural breakout triggers rather than market-order chasing.\n\nGINA GEMINI SIGNALS\nSIGNAL: SOL LONG\nEntry: ~$101.2\nTarget: ~$107\nStop: ~$98.4\nConviction: 6/10\nStatus: AWAITING\nTrigger: 4h candle close above R1 ~$100.89 with positive taker buy volume delta and expanding OI.\nEdge: SOL shows sustained 24h OI accumulation (+10.7%) alongside 5 consecutive positive ETF inflow days (~$33.5M latest), positioning it for continuation once R1 resistance is reclaimed. INVALID IF: 4h candle closes back below ~$98.4 pivot support or taker sell ratio exceeds 55% on the breakout atte"
   }
  ],
  "archive": [
@@ -10326,6 +10326,22 @@
    "exit": 78550,
    "conviction": 6,
    "openedAt": "2026-08-25T05:09:25.005Z"
+  },
+  {
+   "id": 527,
+   "asset": "ETH",
+   "direction": "LONG",
+   "actor": "gemini",
+   "venue": "LIGHTER",
+   "outcome": "LOSS",
+   "pct": -2.3,
+   "pnlUsd": -8.03,
+   "exitReason": null,
+   "closedAt": "2026-08-25T13:51:17.304Z",
+   "entry": 2501.78,
+   "exit": 2443.91,
+   "conviction": 5,
+   "openedAt": "2026-08-25T05:09:23.751Z"
   },
   {
    "id": 534,
@@ -11973,10 +11989,10 @@
    "grok": 1,
    "kimi": 0,
    "deepseek": 0,
-   "gemini": 1,
+   "gemini": 2,
    "luna": 2,
    "minimax": 0,
-   "fleet": 4
+   "fleet": 5
   },
   "limits": {
    "dailyLossPct": 7.5,
