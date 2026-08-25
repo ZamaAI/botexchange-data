@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-25T13:45:00.829Z",
+ "generatedAt": "2026-08-25T13:50:03.016Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 5,
    "wr": "44",
    "pnl": -6.14,
-   "account": 499.68,
-   "retPct": -0.1,
+   "account": 499.07,
+   "retPct": -0.2,
    "accountRealized": 493.86
   },
   {
@@ -119,14 +119,14 @@
    "label": "Luna GPT",
    "venue": "LIGHTER",
    "paper": false,
-   "trades": 14,
+   "trades": 15,
    "wins": 5,
-   "losses": 9,
-   "wr": "36",
-   "pnl": -7.22,
+   "losses": 10,
+   "wr": "33",
+   "pnl": -11.23,
    "account": 476.23,
    "retPct": -4.8,
-   "accountRealized": 492.78
+   "accountRealized": 488.77
   },
   {
    "key": "minimax",
@@ -233,7 +233,7 @@
     511.48,
     493.84,
     499.96,
-    492.78
+    488.77
    ],
    "minimax": [
     500,
@@ -2936,23 +2936,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-08-24T13:50:00.000Z",
-   "hl": 0,
-   "hl_spot": 500.16283,
-   "grvt": null,
-   "extended": 583.59705,
-   "capital": 3608.550788,
-   "qwen": 498.2,
-   "openclaw": 569.75,
-   "hermes": 500.16,
-   "manual": 583.6,
-   "kimi": 482.62,
-   "deepseek": 508.3,
-   "gemini": 550.35,
-   "luna": 482.56,
-   "minimax": 500
-  },
   {
    "ts": "2026-08-24T13:55:00.000Z",
    "hl": 0,
@@ -7814,6 +7797,23 @@
    "gemini": 528.76,
    "luna": 476.23,
    "minimax": 500
+  },
+  {
+   "ts": "2026-08-25T13:50:00.000Z",
+   "hl": 0,
+   "hl_spot": 485.330191,
+   "grvt": null,
+   "extended": 706.787725,
+   "capital": 3690.286185,
+   "qwen": 499.07,
+   "openclaw": 569.75,
+   "hermes": 485.33,
+   "manual": 706.79,
+   "kimi": 483.24,
+   "deepseek": 508.98,
+   "gemini": 528.76,
+   "luna": 476.23,
+   "minimax": 500
   }
  ],
  "venuesLive": {
@@ -7850,23 +7850,6 @@
    "conviction": 5,
    "openedAt": "2026-08-25T13:38:59.542Z",
    "thesis": "luna pick (LIVE, trigger-filled from AWAITING watch at $2,473.27: ETH reclaims $2,480 and consolidated OI turns rising from its currently declining state.)",
-   "smartMoney": 1
-  },
-  {
-   "id": 534,
-   "asset": "BTC",
-   "direction": "LONG",
-   "actor": "luna",
-   "venue": "LIGHTER",
-   "entry": 79403,
-   "stop": 78609,
-   "target": 81785.1,
-   "levelsApprox": true,
-   "trailed": false,
-   "rr": 2.9,
-   "conviction": 5,
-   "openedAt": "2026-08-25T11:39:13.868Z",
-   "thesis": "Strong broad continuation regime is firing now: breadth is 5/5 majors above their 20d-MA, while BTC is +15.9% versus its 20d-MA and +20.2% versus its 50d-MA; the pivot stop provides structural invalidation and the geometry is 2.92:1 gross R:R.",
    "smartMoney": 1
   },
   {
@@ -8088,6 +8071,20 @@
  ],
  "recentCloses": [
   {
+   "id": 534,
+   "asset": "BTC",
+   "direction": "LONG",
+   "actor": "luna",
+   "venue": "LIGHTER",
+   "outcome": "LOSS",
+   "pct": -1.1,
+   "exitReason": null,
+   "closedAt": "2026-08-25T13:48:50.638Z",
+   "entry": 79403,
+   "exit": 78529.7,
+   "openedAt": "2026-08-25T11:39:13.868Z"
+  },
+  {
    "id": 535,
    "asset": "SOL",
    "direction": "LONG",
@@ -8240,48 +8237,34 @@
    "entry": 95.5,
    "exit": 93.511,
    "openedAt": "2026-08-23T22:03:12.646Z"
-  },
-  {
-   "id": 512,
-   "asset": "LIT",
-   "direction": "SHORT",
-   "actor": "manual",
-   "venue": "EXTENDED",
-   "outcome": "WIN",
-   "pct": 1.3,
-   "exitReason": "Manual SHORT on Extended — entry $3.342 → exit $3.2989 (+1.29% move 10x), realised +$12.15 → WIN.",
-   "closedAt": "2026-08-23T14:42:55.490Z",
-   "entry": 3.342,
-   "exit": 3.2989,
-   "openedAt": "2026-08-23T14:26:13.523Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 78646.01,
-    "change24hPct": 0.43
+    "price": 78488,
+    "change24hPct": 0.25
    },
    {
     "symbol": "ETH",
-    "price": 2464.63,
-    "change24hPct": -0.93
+    "price": 2458.01,
+    "change24hPct": -1.38
    },
    {
     "symbol": "BNB",
-    "price": 694.22,
-    "change24hPct": -0.7
+    "price": 692.8,
+    "change24hPct": -0.9
    },
    {
     "symbol": "XRP",
-    "price": 1.456,
-    "change24hPct": -2.29
+    "price": 1.4546,
+    "change24hPct": -2.21
    },
    {
     "symbol": "SOL",
-    "price": 97.5,
-    "change24hPct": 2.76
+    "price": 97.09,
+    "change24hPct": 2.23
    }
   ],
   "fearGreed": {
@@ -8386,32 +8369,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 0.917,
-    "longPct": 47.9,
+    "ratio": 0.927,
+    "longPct": 48.1,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.39,
-    "longPct": 70.5,
+    "ratio": 2.376,
+    "longPct": 70.4,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 1.898,
+    "ratio": 1.901,
     "longPct": 65.5,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.373,
-    "longPct": 70.3,
+    "ratio": 2.389,
+    "longPct": 70.5,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.419,
-    "longPct": 70.8,
+    "ratio": 2.409,
+    "longPct": 70.7,
     "bias": "CROWDED LONG"
    }
   ],
@@ -8491,7 +8474,7 @@
      "changePct": -8.4
     }
    ],
-   "ageMin": 225
+   "ageMin": 230
   },
   "chainRotation": {
    "chains": [
@@ -8634,7 +8617,7 @@
      1
     ]
    ],
-   "ageMin": 330
+   "ageMin": 335
   }
  },
  "calendar": [
@@ -9403,12 +9386,12 @@
       "kind": "paper"
      },
      {
-      "actor": "luna",
-      "conv": 7,
-      "kind": "live"
+      "actor": "gemini",
+      "conv": 5,
+      "kind": "watching"
      },
      {
-      "actor": "gemini",
+      "actor": "luna",
       "conv": 5,
       "kind": "watching"
      },
@@ -9534,28 +9517,28 @@
   "disagreement": "BNB"
  },
  "manualBook": {
-  "at": "2026-08-25T13:30:11.756Z",
+  "at": "2026-08-25T13:50:03.016Z",
   "positions": [
    {
     "asset": "DOGE",
     "stock": false,
     "direction": "LONG",
     "entry": 0.09255,
-    "pnlPct": -3.96
+    "pnlPct": -4.46
    },
    {
     "asset": "TAO",
     "stock": false,
     "direction": "LONG",
     "entry": 242.2,
-    "pnlPct": -3.13
+    "pnlPct": -3.18
    },
    {
     "asset": "SAMSUNG",
     "stock": false,
     "direction": "LONG",
     "entry": 181.01,
-    "pnlPct": 3.37
+    "pnlPct": 3.88
    }
   ]
  },
@@ -10147,7 +10130,7 @@
   }
  },
  "intel": {
-  "ageH": 4.2,
+  "ageH": 4.3,
   "narratives": [
    "- Agentic Economy: Focus on AI agents as primary economic infrastructure and programmable stablecoins (X).",
    "- RWA (Real World Assets): Significant growth on Mantle ($245M) and expansion of tokenized equities via Uniswap/Coinbase (newsletter).",
@@ -10333,6 +10316,22 @@
   }
  ],
  "archive": [
+  {
+   "id": 534,
+   "asset": "BTC",
+   "direction": "LONG",
+   "actor": "luna",
+   "venue": "LIGHTER",
+   "outcome": "LOSS",
+   "pct": -1.1,
+   "pnlUsd": -4.01,
+   "exitReason": null,
+   "closedAt": "2026-08-25T13:48:50.638Z",
+   "entry": 79403,
+   "exit": 78529.7,
+   "conviction": 5,
+   "openedAt": "2026-08-25T11:39:13.868Z"
+  },
   {
    "id": 535,
    "asset": "SOL",
@@ -11964,9 +11963,9 @@
    "kimi": 0,
    "deepseek": 0,
    "gemini": 1,
-   "luna": 1,
+   "luna": 2,
    "minimax": 0,
-   "fleet": 3
+   "fleet": 4
   },
   "limits": {
    "dailyLossPct": 7.5,
