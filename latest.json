@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-26T16:25:18.413Z",
+ "generatedAt": "2026-08-26T16:30:01.206Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 6,
    "wr": "40",
    "pnl": -14.5,
-   "account": 476.64,
-   "retPct": -4.7,
+   "account": 475.33,
+   "retPct": -4.9,
    "accountRealized": 485.5
   },
   {
@@ -3405,23 +3405,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-08-25T16:30:00.000Z",
-   "hl": 0,
-   "hl_spot": 485.74239,
-   "grvt": null,
-   "extended": 686.25254,
-   "capital": 3667.106187,
-   "qwen": 501.62,
-   "openclaw": 569.75,
-   "hermes": 485.74,
-   "manual": 686.25,
-   "kimi": 487.94,
-   "deepseek": 508.47,
-   "gemini": 523.98,
-   "luna": 473.76,
-   "minimax": 500
-  },
   {
    "ts": "2026-08-25T16:35:00.000Z",
    "hl": 0,
@@ -8300,6 +8283,23 @@
    "gemini": 517.26,
    "luna": 466.61,
    "minimax": 488.68
+  },
+  {
+   "ts": "2026-08-26T16:30:00.000Z",
+   "hl": 1.53594,
+   "hl_spot": 487.08478099999996,
+   "grvt": null,
+   "extended": 627.86224,
+   "capital": 3570.290451,
+   "qwen": 475.33,
+   "openclaw": 569.75,
+   "hermes": 488.62,
+   "manual": 627.86,
+   "kimi": 484.38,
+   "deepseek": 495.92,
+   "gemini": 517.26,
+   "luna": 466.61,
+   "minimax": 488.68
   }
  ],
  "venuesLive": {
@@ -8757,35 +8757,35 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 78044,
-    "change24hPct": -1.33
+    "price": 78060.63,
+    "change24hPct": -1.38
    },
    {
     "symbol": "ETH",
-    "price": 2449.31,
-    "change24hPct": -0.83
+    "price": 2449.29,
+    "change24hPct": -0.93
    },
    {
     "symbol": "BNB",
-    "price": 696.55,
-    "change24hPct": -0.18
+    "price": 696.58,
+    "change24hPct": -0.24
    },
    {
     "symbol": "XRP",
-    "price": 1.3734,
-    "change24hPct": -6.42
+    "price": 1.3743,
+    "change24hPct": -6.6
    },
    {
     "symbol": "SOL",
-    "price": 95.71,
-    "change24hPct": -2.24
+    "price": 95.79,
+    "change24hPct": -2.31
    }
   ],
   "fearGreed": {
    "value": 65,
    "classification": "Greed"
   },
-  "regime": null,
+  "regime": "RISK_ON",
   "stockFearGreed": {
    "value": 59,
    "classification": "Greed",
@@ -8800,6 +8800,13 @@
     "price": 15.56,
     "change": 0.71
    }
+  },
+  "netLiquidity": {
+   "usdB": 5791.8,
+   "deltaB": -125.6,
+   "weeks": 4,
+   "trend": "DRAINING",
+   "date": "2026-08-19"
   },
   "riskIndex": {
    "score": 39,
@@ -8862,6 +8869,7 @@
    ],
    "computedAt": 1787760121761
   },
+  "equityRegime": "NEUTRAL",
   "longShort": [
    {
     "asset": "BTC",
@@ -8970,7 +8978,7 @@
      "changePct": -11.9
     }
    ],
-   "ageMin": 25
+   "ageMin": 30
   },
   "chainRotation": {
    "chains": [
@@ -9113,10 +9121,22 @@
      1
     ]
    ],
-   "ageMin": 310
+   "ageMin": 315
   }
  },
  "calendar": [
+  {
+   "date": "2026-08-26",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-08-26",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
+   "impact": "HIGH"
+  },
   {
    "date": "2026-08-26",
    "event": "MON — Phantom Support Ends",
@@ -9173,6 +9193,12 @@
   },
   {
    "date": "2026-08-27",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-08-27",
    "event": "SEI token unlock — 4.3M cliff = 1.68% of float; 14d total 23.52% (Team + Ecosystem Reserve)",
    "type": "UNLOCK",
    "impact": "MED"
@@ -9202,9 +9228,21 @@
    "impact": "MED"
   },
   {
+   "date": "2026-08-28",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
+  },
+  {
    "date": "2026-08-31",
    "event": "OP token unlock — 24.2M cliff = 0.56% of float (Investors + Core Contributors)",
    "type": "UNLOCK",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-01",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
    "impact": "MED"
   },
   {
@@ -9220,14 +9258,32 @@
    "impact": "MED"
   },
   {
+   "date": "2026-09-03",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-04",
-   "event": "Non-Farm Payrolls (Aug)",
+   "event": "Non-Farm Payrolls",
    "type": "NFP",
    "impact": "HIGH"
   },
   {
+   "date": "2026-09-10",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-10",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-11",
-   "event": "US CPI Release (Aug)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
   },
@@ -9236,6 +9292,30 @@
    "event": "FOMC Rate Decision",
    "type": "Fed",
    "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-16",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-17",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-24",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-25",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
   }
  ],
  "weekAhead": {
@@ -10540,7 +10620,7 @@
   }
  },
  "intel": {
-  "ageH": 6.9,
+  "ageH": 7,
   "narratives": [
    "Debasement Trade: Shift toward $GLD and $IBIT as a store of value over AI-centric assets (X, newsletter).",
    "Tokenized Assets: Coinbase launched tokenized stocks on Base; rise of \"attention markets\" (newsletter).",
@@ -10556,57 +10636,7 @@
    "(DAY 4) ENA — watch, basis trade is coming back and it will benefit uniquely (X).",
    "(NEW) UMIA — watch, public auction starting August 29 at 8am ET (newsletter)."
   ],
-  "tweetOfDay": {
-   "handle": "elonmusk",
-   "likes": 22586,
-   "reposts": 2311,
-   "text": "All accurate",
-   "at": "2026-08-25T16:49:45.000Z"
-  },
-  "wirePosts": [
-   {
-    "handle": "elonmusk",
-    "likes": 22586,
-    "reposts": 2311,
-    "text": "All accurate",
-    "at": "2026-08-25T16:49:45.000Z"
-   },
-   {
-    "handle": "unusual_whales",
-    "likes": 4301,
-    "reposts": 640,
-    "text": "BREAKING: Look at this.  On June 18, Trump bought up to $500,000 of Boeing, $BA.  That EXACT SAME DAY, the Navy awarded Boeing an $880 million contract for P-8A training systems.",
-    "at": "2026-08-25T16:17:52.000Z"
-   },
-   {
-    "handle": "unusual_whales",
-    "likes": 2184,
-    "reposts": 267,
-    "text": "Apple, $AAPL, App Store sales dropped for the first time in a decade https://t.co/D07TG7BgL1",
-    "at": "2026-08-25T18:19:00.000Z"
-   },
-   {
-    "handle": "EricBalchunas",
-    "likes": 1059,
-    "reposts": 130,
-    "text": "Another sign the debasement trade is starting to replace AI mania: Store of value frenemies $GLD & $IBIT are back in the Top 10 most traded ETFs, knocking down some of the semiconductor ETFs, which took over the list all summer. They're still punching above weight but not nearly ",
-    "at": "2026-08-25T17:34:33.000Z"
-   },
-   {
-    "handle": "CryptoHayes",
-    "likes": 940,
-    "reposts": 82,
-    "text": "More details to come, but your $FLOP airdrop will depend on testnet activity, and the testnet token faucet will live on https://t.co/rmJglK5aXf accessible by agents with a DID key. If that means nothing to you, don't worry we will go into great detail very soon.",
-    "at": "2026-08-25T11:16:38.000Z"
-   },
-   {
-    "handle": "blknoiz06",
-    "likes": 901,
-    "reposts": 81,
-    "text": "please give us native solana addresses on @XMoney &amp; buy buttons please please please please",
-    "at": "2026-08-25T20:17:38.000Z"
-   }
-  ]
+  "tweetOfDay": null
  },
  "deskNotes": [
   {
