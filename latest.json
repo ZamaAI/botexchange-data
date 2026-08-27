@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T08:20:01.202Z",
+ "generatedAt": "2026-08-27T08:25:01.618Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 6,
    "wr": "40",
    "pnl": -14.5,
-   "account": 496.75,
-   "retPct": -0.6,
+   "account": 497.31,
+   "retPct": -0.5,
    "accountRealized": 485.5
   },
   {
@@ -91,14 +91,14 @@
    "label": "Danny DeepSeek",
    "venue": "LIGHTER",
    "paper": false,
-   "trades": 4,
-   "wins": 1,
+   "trades": 5,
+   "wins": 2,
    "losses": 3,
-   "wr": "25",
-   "pnl": -6.84,
+   "wr": "40",
+   "pnl": 12.75,
    "account": 514.44,
    "retPct": 2.9,
-   "accountRealized": 493.16
+   "accountRealized": 512.75
   },
   {
    "key": "gemini",
@@ -227,7 +227,7 @@
     508.48,
     493.16,
     493.16,
-    493.16
+    512.75
    ],
    "gemini": [
     500,
@@ -3687,23 +3687,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-08-26T08:25:00.000Z",
-   "hl": 0,
-   "hl_spot": 485.782511,
-   "grvt": null,
-   "extended": 656.53483,
-   "capital": 3618.324217,
-   "qwen": 490.17,
-   "openclaw": 569.75,
-   "hermes": 485.78,
-   "manual": 656.53,
-   "kimi": 482.55,
-   "deepseek": 508.39,
-   "gemini": 519.65,
-   "luna": 466.61,
-   "minimax": 497.85
-  },
   {
    "ts": "2026-08-26T08:30:00.000Z",
    "hl": 0,
@@ -8582,6 +8565,23 @@
    "gemini": 526.1,
    "luna": 512,
    "minimax": 488.68
+  },
+  {
+   "ts": "2026-08-27T08:25:00.000Z",
+   "hl": 3.35724,
+   "hl_spot": 520.206776,
+   "grvt": null,
+   "extended": 743.489228,
+   "capital": 3780.6129480000004,
+   "qwen": 497.31,
+   "openclaw": 569.75,
+   "hermes": 523.56,
+   "manual": 743.49,
+   "kimi": 471.38,
+   "deepseek": 514.44,
+   "gemini": 526.1,
+   "luna": 512,
+   "minimax": 488.68
   }
  ],
  "venuesLive": {
@@ -8774,23 +8774,6 @@
    "smartMoney": null
   },
   {
-   "id": 542,
-   "asset": "SOL",
-   "direction": "LONG",
-   "actor": "deepseek",
-   "venue": "PAPER",
-   "entry": 96.76,
-   "stop": 95.15,
-   "target": 103.08,
-   "levelsApprox": false,
-   "trailed": false,
-   "rr": 3.9,
-   "conviction": 5,
-   "openedAt": "2026-08-25T20:48:49.751Z",
-   "thesis": "deepseek pick (LIVE, trigger-filled from AWAITING watch at $96.76: Limit long fills at $96.80 on a pullback AND SOL OI 24h remains > +5% (currently +7.16%))",
-   "smartMoney": 1
-  },
-  {
    "id": 533,
    "asset": "BNB",
    "direction": "SHORT",
@@ -8902,6 +8885,20 @@
  ],
  "recentCloses": [
   {
+   "id": 542,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "deepseek",
+   "venue": "PAPER",
+   "outcome": "WIN",
+   "pct": 6.5,
+   "exitReason": null,
+   "closedAt": "2026-08-27T08:24:17.070Z",
+   "entry": 96.76,
+   "exit": 103.08,
+   "openedAt": "2026-08-25T20:48:49.751Z"
+  },
+  {
    "id": 559,
    "asset": "SOL",
    "direction": "SHORT",
@@ -8909,7 +8906,7 @@
    "venue": "LIGHTER",
    "outcome": "LOSS",
    "pct": -2.3,
-   "exitReason": null,
+   "exitReason": "SHORT SOL: stopped out at SL -2.3% (entry $101.25 → exit $103.618). WHY: Stop hit on noise in a transitional chop-range; thesis mechanism (funding reversal, OI expansion) never broke down, but…",
    "closedAt": "2026-08-27T08:09:39.597Z",
    "entry": 101.25,
    "exit": 103.618,
@@ -8923,7 +8920,7 @@
    "venue": "LIGHTER",
    "outcome": "LOSS",
    "pct": -1.8,
-   "exitReason": null,
+   "exitReason": "SHORT XRP: stopped out at SL -1.8% (entry $1.4038 → exit $1.429225). WHY: Trigger never materialized—price closed above $1.40 on the 4h, invalidating the setup before trade logic even engaged.",
    "closedAt": "2026-08-27T08:09:06.076Z",
    "entry": 1.4038,
    "exit": 1.429225,
@@ -8937,7 +8934,7 @@
    "venue": "HL",
    "outcome": "WIN",
    "pct": 8.1,
-   "exitReason": null,
+   "exitReason": "LONG SOL: stopped out at SL +8.1% (entry $95.3 → exit $103.05). WHY: OI remained positive through S1 break, confirming fresh longs held conviction; price found buyers at support rather than flushing,…",
    "closedAt": "2026-08-27T08:07:52.563Z",
    "entry": 95.3,
    "exit": 103.05,
@@ -9054,48 +9051,34 @@
    "entry": 98.22,
    "exit": 96.393,
    "openedAt": "2026-08-25T16:08:56.100Z"
-  },
-  {
-   "id": 532,
-   "asset": "SUI",
-   "direction": "LONG",
-   "actor": "deepseek",
-   "venue": "PAPER",
-   "outcome": "LOSS",
-   "pct": -5.1,
-   "exitReason": "LONG SUI: stopped out at SL -5.1% (entry $0.8048 → exit $0.7637). WHY: Pivot support broke cleanly without bid recovery, so the pullback mechanism never triggered; price continued lower instead of…",
-   "closedAt": "2026-08-25T20:48:58.519Z",
-   "entry": 0.8048,
-   "exit": 0.7637,
-   "openedAt": "2026-08-25T07:53:54.493Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 79513.18,
-    "change24hPct": 0.66
+    "price": 79583.99,
+    "change24hPct": 0.78
    },
    {
     "symbol": "ETH",
-    "price": 2517.44,
-    "change24hPct": 2.21
+    "price": 2517.83,
+    "change24hPct": 2.31
    },
    {
     "symbol": "BNB",
-    "price": 708.79,
-    "change24hPct": 1.48
+    "price": 709.95,
+    "change24hPct": 1.71
    },
    {
     "symbol": "XRP",
-    "price": 1.4212,
-    "change24hPct": -1.06
+    "price": 1.4271,
+    "change24hPct": -0.63
    },
    {
     "symbol": "SOL",
-    "price": 103.01,
-    "change24hPct": 6.01
+    "price": 103.52,
+    "change24hPct": 6.63
    }
   ],
   "fearGreed": {
@@ -9190,32 +9173,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.105,
-    "longPct": 52.5,
+    "ratio": 1.087,
+    "longPct": 52.1,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.39,
-    "longPct": 70.5,
+    "ratio": 2.358,
+    "longPct": 70.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 1.72,
-    "longPct": 63.2,
+    "ratio": 1.669,
+    "longPct": 62.5,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.438,
-    "longPct": 70.9,
+    "ratio": 2.446,
+    "longPct": 71,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.478,
-    "longPct": 71.3,
+    "ratio": 2.513,
+    "longPct": 71.5,
     "bias": "CROWDED LONG"
    }
   ],
@@ -9295,7 +9278,7 @@
      "changePct": -11.9
     }
    ],
-   "ageMin": 260
+   "ageMin": 265
   },
   "chainRotation": {
    "chains": [
@@ -9434,7 +9417,7 @@
      1
     ]
    ],
-   "ageMin": 5
+   "ageMin": 10
   }
  },
  "calendar": [
@@ -10281,22 +10264,6 @@
     "short": []
    },
    {
-    "asset": "SOL",
-    "long": [
-     {
-      "actor": "deepseek",
-      "conv": 5,
-      "kind": "paper"
-     },
-     {
-      "actor": "luna",
-      "conv": 5,
-      "kind": "live"
-     }
-    ],
-    "short": []
-   },
-   {
     "asset": "AAVE",
     "long": [
      {
@@ -10336,6 +10303,17 @@
       "actor": "deepseek",
       "conv": 5,
       "kind": "live"
+     }
+    ],
+    "short": []
+   },
+   {
+    "asset": "LITE",
+    "long": [
+     {
+      "actor": "qwen",
+      "conv": 6,
+      "kind": "watching"
      }
     ],
     "short": []
@@ -10995,7 +10973,7 @@
   }
  },
  "intel": {
-  "ageH": 4.8,
+  "ageH": 4.9,
   "narratives": [
    "- Tokenized Equities (RWAs): Coinbase's Base launch of B20 tokenized stocks ($NVDAc, $METAc, $AAPLc, $GOOGLc) with Alpaca custody integrates 24/7 equities into 50+ DeFi protocols (newsletter).",
    "- Agentic AI Economy: Shift toward AI agents executing payments, treasury management, and borrowing on-chain at machine speed instead of traditional banking rails (both).",
@@ -11184,6 +11162,22 @@
  ],
  "archive": [
   {
+   "id": 542,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "deepseek",
+   "venue": "PAPER",
+   "outcome": "WIN",
+   "pct": 6.5,
+   "pnlUsd": 19.59,
+   "exitReason": null,
+   "closedAt": "2026-08-27T08:24:17.070Z",
+   "entry": 96.76,
+   "exit": 103.08,
+   "conviction": 5,
+   "openedAt": "2026-08-25T20:48:49.751Z"
+  },
+  {
    "id": 559,
    "asset": "SOL",
    "direction": "SHORT",
@@ -11192,7 +11186,7 @@
    "outcome": "LOSS",
    "pct": -2.3,
    "pnlUsd": -4.5,
-   "exitReason": null,
+   "exitReason": "SHORT SOL: stopped out at SL -2.3% (entry $101.25 → exit $103.618). WHY: Stop hit on noise in a transitional chop-range; thesis mechanism (funding reversal, OI expansion) never broke down, but…",
    "closedAt": "2026-08-27T08:09:39.597Z",
    "entry": 101.25,
    "exit": 103.618,
@@ -11208,7 +11202,7 @@
    "outcome": "LOSS",
    "pct": -1.8,
    "pnlUsd": -3.79,
-   "exitReason": null,
+   "exitReason": "SHORT XRP: stopped out at SL -1.8% (entry $1.4038 → exit $1.429225). WHY: Trigger never materialized—price closed above $1.40 on the 4h, invalidating the setup before trade logic even engaged.",
    "closedAt": "2026-08-27T08:09:06.076Z",
    "entry": 1.4038,
    "exit": 1.429225,
@@ -11224,7 +11218,7 @@
    "outcome": "WIN",
    "pct": 8.1,
    "pnlUsd": 32.07,
-   "exitReason": null,
+   "exitReason": "LONG SOL: stopped out at SL +8.1% (entry $95.3 → exit $103.05). WHY: OI remained positive through S1 break, confirming fresh longs held conviction; price found buyers at support rather than flushing,…",
    "closedAt": "2026-08-27T08:07:52.563Z",
    "entry": 95.3,
    "exit": 103.05,
