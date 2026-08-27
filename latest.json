@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T23:25:01.207Z",
+ "generatedAt": "2026-08-27T23:30:01.692Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 6,
    "wr": "40",
    "pnl": -14.5,
-   "account": 498.5,
-   "retPct": -0.3,
+   "account": 498.17,
+   "retPct": -0.4,
    "accountRealized": 485.5
   },
   {
@@ -3942,23 +3942,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-08-26T23:30:00.000Z",
-   "hl": 22.00824,
-   "hl_spot": 507.346856,
-   "grvt": null,
-   "extended": 714.357581,
-   "capital": 3719.9995960000006,
-   "qwen": 489.2,
-   "openclaw": 569.75,
-   "hermes": 529.36,
-   "manual": 714.36,
-   "kimi": 478.81,
-   "deepseek": 509.07,
-   "gemini": 518.74,
-   "luna": 480.03,
-   "minimax": 488.68
-  },
   {
    "ts": "2026-08-26T23:35:00.000Z",
    "hl": 22.524498,
@@ -8820,6 +8803,23 @@
    "gemini": 522.91,
    "luna": 544.25,
    "minimax": 488.68
+  },
+  {
+   "ts": "2026-08-27T23:30:00.000Z",
+   "hl": 6.84744,
+   "hl_spot": 524.005696,
+   "grvt": null,
+   "extended": 764.281866,
+   "capital": 3858.068698,
+   "qwen": 498.17,
+   "openclaw": 569.75,
+   "hermes": 530.85,
+   "manual": 764.28,
+   "kimi": 467.65,
+   "deepseek": 538.49,
+   "gemini": 522.91,
+   "luna": 544.25,
+   "minimax": 488.68
   }
  ],
  "venuesLive": {
@@ -8841,6 +8841,23 @@
   "liveN": 38
  },
  "openTrades": [
+  {
+   "id": 568,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "luna",
+   "venue": "LIGHTER",
+   "entry": 109.86,
+   "stop": 107.114,
+   "target": 117.55,
+   "levelsApprox": true,
+   "trailed": false,
+   "rr": 2.6,
+   "conviction": 6,
+   "openedAt": "2026-08-27T23:25:29.585Z",
+   "thesis": "luna pick (LIVE, trigger-filled from AWAITING watch at $109.86: 4h close and reclaim above the $109.92 swing high while SOL OI remains rising.)",
+   "smartMoney": 1
+  },
   {
    "id": 567,
    "asset": "SOL",
@@ -9362,28 +9379,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 80366,
-    "change24hPct": 2.07
+    "price": 80321.96,
+    "change24hPct": 1.85
    },
    {
     "symbol": "ETH",
-    "price": 2514.05,
-    "change24hPct": 0.68
+    "price": 2514.17,
+    "change24hPct": 0.61
    },
    {
     "symbol": "BNB",
     "price": 712.54,
-    "change24hPct": 0.95
+    "change24hPct": 0.91
    },
    {
     "symbol": "XRP",
-    "price": 1.4565,
-    "change24hPct": 2.97
+    "price": 1.456,
+    "change24hPct": 2.88
    },
    {
     "symbol": "SOL",
-    "price": 109.66,
-    "change24hPct": 8.8
+    "price": 109.93,
+    "change24hPct": 8.97
    }
   ],
   "fearGreed": {
@@ -9488,31 +9505,31 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 0.922,
+    "ratio": 0.923,
     "longPct": 48,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.255,
+    "ratio": 2.257,
     "longPct": 69.3,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 1.444,
-    "longPct": 59.1,
+    "ratio": 1.449,
+    "longPct": 59.2,
     "bias": "BALANCED"
    },
    {
     "asset": "BNB",
-    "ratio": 2.386,
+    "ratio": 2.389,
     "longPct": 70.5,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.471,
+    "ratio": 2.466,
     "longPct": 71.2,
     "bias": "CROWDED LONG"
    }
@@ -9593,7 +9610,7 @@
      "changePct": -11.9
     }
    ],
-   "ageMin": 85
+   "ageMin": 90
   },
   "chainRotation": {
    "chains": [
@@ -9732,7 +9749,7 @@
      1
     ]
    ],
-   "ageMin": 84
+   "ageMin": 89
   }
  },
  "calendar": [
@@ -10597,6 +10614,11 @@
       "kind": "live"
      },
      {
+      "actor": "luna",
+      "conv": 6,
+      "kind": "live"
+     },
+     {
       "actor": "grok",
       "conv": 6,
       "kind": "watching"
@@ -10604,11 +10626,6 @@
      {
       "actor": "kimi",
       "conv": 5,
-      "kind": "watching"
-     },
-     {
-      "actor": "luna",
-      "conv": 6,
       "kind": "watching"
      },
      {
