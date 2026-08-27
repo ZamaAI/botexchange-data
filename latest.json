@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T17:50:01.644Z",
+ "generatedAt": "2026-08-27T17:55:07.875Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 6,
    "wr": "40",
    "pnl": -14.5,
-   "account": 500.97,
-   "retPct": 0.2,
+   "account": 500.67,
+   "retPct": 0.1,
    "accountRealized": 485.5
   },
   {
@@ -3840,23 +3840,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-08-26T17:55:00.000Z",
-   "hl": 6.843834,
-   "hl_spot": 492.12266700000004,
-   "grvt": null,
-   "extended": 631.406732,
-   "capital": 3583.1033979999997,
-   "qwen": 479.53,
-   "openclaw": 569.75,
-   "hermes": 498.97,
-   "manual": 631.41,
-   "kimi": 483.11,
-   "deepseek": 498.4,
-   "gemini": 515.85,
-   "luna": 465.74,
-   "minimax": 488.68
-  },
   {
    "ts": "2026-08-26T18:00:00.000Z",
    "hl": 6.7275,
@@ -8735,6 +8718,23 @@
    "gemini": 523.75,
    "luna": 545.81,
    "minimax": 488.68
+  },
+  {
+   "ts": "2026-08-27T17:55:00.000Z",
+   "hl": 9.05236,
+   "hl_spot": 525.858186,
+   "grvt": null,
+   "extended": 797.017685,
+   "capital": 3905.571903,
+   "qwen": 500.67,
+   "openclaw": 569.75,
+   "hermes": 534.91,
+   "manual": 797.02,
+   "kimi": 467.78,
+   "deepseek": 546.67,
+   "gemini": 523.75,
+   "luna": 545.81,
+   "minimax": 488.68
   }
  ],
  "venuesLive": {
@@ -9232,28 +9232,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 80508,
-    "change24hPct": 2.68
+    "price": 80501.99,
+    "change24hPct": 2.6
    },
    {
     "symbol": "ETH",
-    "price": 2520.11,
-    "change24hPct": 2.54
+    "price": 2520.15,
+    "change24hPct": 2.38
    },
    {
     "symbol": "BNB",
-    "price": 710.91,
+    "price": 711.34,
     "change24hPct": 1.68
    },
    {
     "symbol": "XRP",
-    "price": 1.4583,
-    "change24hPct": 5.29
+    "price": 1.4598,
+    "change24hPct": 5.23
    },
    {
     "symbol": "SOL",
-    "price": 108.17,
-    "change24hPct": 11.54
+    "price": 108.3,
+    "change24hPct": 11.65
    }
   ],
   "fearGreed": {
@@ -9268,12 +9268,12 @@
   },
   "macro": {
    "dxy": {
-    "price": 99.13,
-    "change": -0.04
+    "price": 99.15,
+    "change": -0.02
    },
    "vix": {
-    "price": 14.51,
-    "change": -4.6
+    "price": 14.66,
+    "change": -3.62
    }
   },
   "netLiquidity": {
@@ -9358,32 +9358,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 0.93,
-    "longPct": 48.2,
+    "ratio": 0.928,
+    "longPct": 48.1,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.287,
+    "ratio": 2.288,
     "longPct": 69.6,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 1.513,
+    "ratio": 1.51,
     "longPct": 60.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.388,
+    "ratio": 2.384,
     "longPct": 70.5,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.417,
-    "longPct": 70.7,
+    "ratio": 2.421,
+    "longPct": 70.8,
     "bias": "CROWDED LONG"
    }
   ],
@@ -9463,7 +9463,7 @@
      "changePct": -6.4
     }
    ],
-   "ageMin": 110
+   "ageMin": 115
   },
   "chainRotation": {
    "chains": [
@@ -9606,7 +9606,7 @@
      1
     ]
    ],
-   "ageMin": 155
+   "ageMin": 160
   }
  },
  "calendar": [
@@ -10499,22 +10499,6 @@
     "short": []
    },
    {
-    "asset": "SOL",
-    "long": [
-     {
-      "actor": "grok",
-      "conv": 5,
-      "kind": "watching"
-     },
-     {
-      "actor": "luna",
-      "conv": 5,
-      "kind": "watching"
-     }
-    ],
-    "short": []
-   },
-   {
     "asset": "XRP",
     "long": [
      {
@@ -10551,26 +10535,37 @@
      }
     ],
     "short": []
+   },
+   {
+    "asset": "LINK",
+    "long": [
+     {
+      "actor": "luna",
+      "conv": 5,
+      "kind": "live"
+     }
+    ],
+    "short": []
    }
   ],
   "disagreement": "BNB"
  },
  "manualBook": {
-  "at": "2026-08-27T17:35:08.200Z",
+  "at": "2026-08-27T17:55:07.875Z",
   "positions": [
    {
     "asset": "NEAR",
     "stock": false,
     "direction": "LONG",
     "entry": 1.8909,
-    "pnlPct": 2.36
+    "pnlPct": 1.84
    },
    {
     "asset": "MON",
     "stock": false,
     "direction": "LONG",
     "entry": 0.02779,
-    "pnlPct": 3.71
+    "pnlPct": 3.74
    },
    {
     "asset": "AMD",
@@ -10591,7 +10586,7 @@
     "stock": false,
     "direction": "LONG",
     "entry": 0.25925,
-    "pnlPct": 2.33
+    "pnlPct": 1.51
    }
   ]
  },
@@ -10871,72 +10866,72 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 5328,
+   "totalPrints7d": 5330,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
     {
      "coin": "ETH",
-     "l": 4,
-     "s": 3,
-     "netK": 16073,
-     "concPct": 76
+     "l": 3,
+     "s": 4,
+     "netK": 16572,
+     "concPct": 73
     },
     {
      "coin": "LIT",
      "l": 1,
      "s": 3,
-     "netK": -2611,
+     "netK": -2597,
      "concPct": 81
     },
     {
      "coin": "PUMP",
-     "l": 2,
-     "s": 0,
-     "netK": 2260,
-     "concPct": 99
+     "l": 1,
+     "s": 1,
+     "netK": 2205,
+     "concPct": 100
     },
     {
      "coin": "BTC",
-     "l": 4,
-     "s": 0,
-     "netK": 1703,
-     "concPct": 83
+     "l": 3,
+     "s": 1,
+     "netK": 1625,
+     "concPct": 84
     },
     {
      "coin": "SKHYNIXUSD",
      "l": 2,
      "s": 0,
-     "netK": 1532,
+     "netK": 1529,
      "concPct": 100
     },
     {
      "coin": "XAU",
      "l": 3,
      "s": 0,
-     "netK": 1528,
-     "concPct": 97
+     "netK": 1511,
+     "concPct": 98
     },
     {
      "coin": "SOL",
      "l": 2,
-     "s": 3,
-     "netK": -1434,
+     "s": 2,
+     "netK": -1396,
      "concPct": 76
     },
     {
      "coin": "MSTR",
      "l": 0,
      "s": 3,
-     "netK": -1404,
+     "netK": -1398,
      "concPct": 98
     }
    ],
    "coinFlow": [
     {
      "coin": "ETH",
-     "netK": -4992,
-     "n": 1474
+     "netK": -5002,
+     "n": 1472
     },
     {
      "coin": "BTC",
@@ -10945,8 +10940,8 @@
     },
     {
      "coin": "SOL",
-     "netK": -982,
-     "n": 641
+     "netK": -1040,
+     "n": 647
     },
     {
      "coin": "ZEC",
@@ -10965,30 +10960,30 @@
      "prints": 322,
      "volK": 6401,
      "biasK": -565,
-     "equity": 7248560,
+     "equity": 7241419,
      "positions": [
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 3280,
-       "upnlK": 12
+       "usdK": 3287,
+       "upnlK": 9
       },
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 1407,
-       "upnlK": 18
+       "usdK": 1451,
+       "upnlK": 15
       },
       {
        "coin": "HYPE",
        "side": "LONG",
-       "usdK": 543,
-       "upnlK": 6
+       "usdK": 357,
+       "upnlK": 5
       },
       {
        "coin": "SOL",
        "side": "SHORT",
-       "usdK": 311,
+       "usdK": 312,
        "upnlK": -3
       }
      ]
@@ -10998,13 +10993,13 @@
      "prints": 249,
      "volK": 5322,
      "biasK": 245,
-     "equity": 2706,
+     "equity": 2416,
      "positions": [
       {
        "coin": "BTC",
        "side": "LONG",
        "usdK": 134,
-       "upnlK": 1
+       "upnlK": 0
       }
      ]
     },
@@ -11028,19 +11023,19 @@
      "prints": 74,
      "volK": 3457,
      "biasK": -1202,
-     "equity": 471567,
+     "equity": 464463,
      "positions": [
       {
        "coin": "LIT",
        "side": "LONG",
-       "usdK": 740,
-       "upnlK": 143
+       "usdK": 734,
+       "upnlK": 136
       },
       {
        "coin": "ASTER",
        "side": "LONG",
        "usdK": 166,
-       "upnlK": 2
+       "upnlK": 1
       }
      ]
     },
@@ -11049,12 +11044,12 @@
      "prints": 192,
      "volK": 3107,
      "biasK": -171,
-     "equity": 74283,
+     "equity": 74270,
      "positions": [
       {
        "coin": "ETH",
-       "side": "LONG",
-       "usdK": 0,
+       "side": "SHORT",
+       "usdK": 2,
        "upnlK": 0
       }
      ]
@@ -11245,7 +11240,7 @@
   }
  },
  "intel": {
-  "ageH": 1,
+  "ageH": 1.1,
   "narratives": [
    "- AI & Agentic Economy: Focus centers on AI agents requiring on-chain crypto/DeFi rails for autonomous transactions (Raoul Pal, CZ), OpenAI targeting AGI this year, and Eigen Labs' Darkbloom routing AI workloads to Apple",
    "- Tokenized Equities & RWAs: Coinbase introduced B20 tokenized tech stocks on Base, while Real-World Asset (RWA) value on Robinhood Chain reached $41.9M across 202 assets (newsletter).",
