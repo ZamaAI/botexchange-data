@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T07:50:24.502Z",
+ "generatedAt": "2026-08-28T07:55:01.360Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,7 +26,7 @@
    "losses": 6,
    "wr": "40",
    "pnl": -14.5,
-   "account": 489.73,
+   "account": 489.27,
    "retPct": -2.1,
    "accountRealized": 485.5
   },
@@ -4088,23 +4088,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-08-27T07:55:00.000Z",
-   "hl": 25.17088,
-   "hl_spot": 510.147021,
-   "grvt": null,
-   "extended": 719.011246,
-   "capital": 3754.5459739999997,
-   "qwen": 489.64,
-   "openclaw": 569.75,
-   "hermes": 535.32,
-   "manual": 719.01,
-   "kimi": 478.33,
-   "deepseek": 507.04,
-   "gemini": 519.85,
-   "luna": 505.36,
-   "minimax": 488.68
-  },
   {
    "ts": "2026-08-27T08:00:00.000Z",
    "hl": 27.31126,
@@ -8966,6 +8949,23 @@
    "gemini": 507.36,
    "luna": 507.66,
    "minimax": 488.68
+  },
+  {
+   "ts": "2026-08-28T07:55:00.000Z",
+   "hl": 3.46804,
+   "hl_spot": 520.38391,
+   "grvt": null,
+   "extended": 721.574609,
+   "capital": 3728.74002,
+   "qwen": 489.27,
+   "openclaw": 569.75,
+   "hermes": 523.85,
+   "manual": 721.57,
+   "kimi": 468.9,
+   "deepseek": 509.76,
+   "gemini": 507.36,
+   "luna": 507.66,
+   "minimax": 488.68
   }
  ],
  "venuesLive": {
@@ -9384,35 +9384,35 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 79662.93,
-    "change24hPct": 1.01
+    "price": 79618.36,
+    "change24hPct": 0.74
    },
    {
     "symbol": "ETH",
-    "price": 2496.28,
-    "change24hPct": 0.14
+    "price": 2494.81,
+    "change24hPct": -0.06
    },
    {
     "symbol": "BNB",
-    "price": 706.96,
-    "change24hPct": 0.13
+    "price": 706.35,
+    "change24hPct": -0.16
    },
    {
     "symbol": "XRP",
-    "price": 1.4213,
-    "change24hPct": 0.93
+    "price": 1.4206,
+    "change24hPct": 0.7
    },
    {
     "symbol": "SOL",
-    "price": 106.69,
-    "change24hPct": 5.04
+    "price": 106.6,
+    "change24hPct": 4.65
    }
   ],
   "fearGreed": {
    "value": 73,
    "classification": "Greed"
   },
-  "regime": null,
+  "regime": "RISK_ON",
   "stockFearGreed": {
    "value": 58,
    "classification": "Greed",
@@ -9427,6 +9427,13 @@
     "price": 14.54,
     "change": 0.21
    }
+  },
+  "netLiquidity": {
+   "usdB": 5779.5,
+   "deltaB": -45.4,
+   "weeks": 4,
+   "trend": "FLAT",
+   "date": "2026-08-26"
   },
   "riskIndex": {
    "score": 33,
@@ -9489,6 +9496,7 @@
    ],
    "computedAt": 1787889781312
   },
+  "equityRegime": "NEUTRAL",
   "longShort": [
    {
     "asset": "BTC",
@@ -9597,7 +9605,7 @@
      "changePct": -9.7
     }
    ],
-   "ageMin": 230
+   "ageMin": 235
   },
   "chainRotation": {
    "chains": [
@@ -9732,10 +9740,16 @@
      7
     ]
    ],
-   "ageMin": 215
+   "ageMin": 220
   }
  },
  "calendar": [
+  {
+   "date": "2026-08-28",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
+  },
   {
    "date": "2026-08-28",
    "event": "ZRO — EDU Chain Support Ends",
@@ -9804,6 +9818,12 @@
   },
   {
    "date": "2026-09-01",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-01",
    "event": "DELL earnings (AMC)",
    "type": "EARNINGS",
    "impact": "MED"
@@ -9815,14 +9835,32 @@
    "impact": "MED"
   },
   {
+   "date": "2026-09-03",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-04",
-   "event": "Non-Farm Payrolls (Aug)",
+   "event": "Non-Farm Payrolls",
    "type": "NFP",
    "impact": "HIGH"
   },
   {
+   "date": "2026-09-10",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-10",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-11",
-   "event": "US CPI Release (Aug)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
   },
@@ -9831,6 +9869,30 @@
    "event": "FOMC Rate Decision",
    "type": "Fed",
    "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-16",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-17",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-24",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-25",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
   }
  ],
  "weekAhead": {
@@ -11309,7 +11371,7 @@
   }
  },
  "intel": {
-  "ageH": 4.3,
+  "ageH": 4.4,
   "narratives": [
    "- AI Infrastructure & Crypto Risk Rally: Nvidia's record earnings and Hugging Face acquisition sparked double-digit gains in crypto lending tokens (AAVE, KMNO, SPK), even as US AI data centers face a 3.7-year power grid ",
    "- Robinhood Chain & Tokenized RWAs: Gaining traction with $443M in daily DEX volume, $41.9M in RWA value across 202 tokenized assets, and strong meme token momentum. (both)",
@@ -13651,7 +13713,7 @@
     "venue": "LIGHTER",
     "halted": true,
     "rule": "consecutive_loss_agent",
-    "reason": "luna: 3 consecutive losses (24h window), last one 1.7h ago. luna cooldown 18.6h remaining (other agents unaffected; 2 paper wins release early — has 0).",
+    "reason": "luna: 3 consecutive losses (24h window), last one 1.8h ago. luna cooldown 18.5h remaining (other agents unaffected; 2 paper wins release early — has 0).",
     "equity": 507.66,
     "peak": 536.23
    },
