@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T02:40:10.899Z",
+ "generatedAt": "2026-08-28T02:45:01.369Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 6,
    "wr": "40",
    "pnl": -14.5,
-   "account": 493.35,
-   "retPct": -1.3,
+   "account": 492.54,
+   "retPct": -1.5,
    "accountRealized": 485.5
   },
   {
@@ -91,14 +91,14 @@
    "label": "Danny DeepSeek",
    "venue": "LIGHTER",
    "paper": false,
-   "trades": 6,
+   "trades": 7,
    "wins": 3,
-   "losses": 3,
-   "wr": "50",
-   "pnl": 13.8,
+   "losses": 4,
+   "wr": "43",
+   "pnl": 3.13,
    "account": 514.2,
    "retPct": 2.8,
-   "accountRealized": 513.8
+   "accountRealized": 503.13
   },
   {
    "key": "gemini",
@@ -234,7 +234,7 @@
     493.16,
     493.16,
     512.75,
-    513.8
+    503.13
    ],
    "gemini": [
     500,
@@ -4003,23 +4003,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-08-27T02:45:00.000Z",
-   "hl": 22.27572,
-   "hl_spot": 507.29987200000005,
-   "grvt": null,
-   "extended": 738.078233,
-   "capital": 3740.4806450000005,
-   "qwen": 484.3,
-   "openclaw": 569.75,
-   "hermes": 529.58,
-   "manual": 738.08,
-   "kimi": 479.28,
-   "deepseek": 504.57,
-   "gemini": 517.43,
-   "luna": 481.9,
-   "minimax": 488.68
-  },
   {
    "ts": "2026-08-27T02:50:00.000Z",
    "hl": 22.27572,
@@ -8881,6 +8864,23 @@
    "gemini": 512.33,
    "luna": 514.65,
    "minimax": 488.68
+  },
+  {
+   "ts": "2026-08-28T02:45:00.000Z",
+   "hl": 5.75606,
+   "hl_spot": 522.886614,
+   "grvt": null,
+   "extended": 753.234904,
+   "capital": 3781.162517,
+   "qwen": 492.54,
+   "openclaw": 569.75,
+   "hermes": 528.64,
+   "manual": 753.23,
+   "kimi": 468.47,
+   "deepseek": 514.2,
+   "gemini": 512.33,
+   "luna": 514.65,
+   "minimax": 488.68
   }
  ],
  "venuesLive": {
@@ -8917,23 +8917,6 @@
    "conviction": 6,
    "openedAt": "2026-08-27T22:03:37.427Z",
    "thesis": "SOL maintains trend structure (ER 0.49) with 24h OI expanding +16.8% alongside dominant bid-side order book depth (imbalance 2.57 with $16.7M bids vs $6.5M asks within 1%).",
-   "smartMoney": 1
-  },
-  {
-   "id": 566,
-   "asset": "SOL",
-   "direction": "LONG",
-   "actor": "deepseek",
-   "venue": "LIGHTER",
-   "entry": 109.44,
-   "stop": 106.704,
-   "target": 117.101,
-   "levelsApprox": true,
-   "trailed": false,
-   "rr": 2.9,
-   "conviction": 5,
-   "openedAt": "2026-08-27T20:25:28.394Z",
-   "thesis": "deepseek pick (LIVE, trigger-filled from AWAITING watch at $109.44: 4h close above SOL range high $109.62 with SOL OI still rising (current $0.97B OI, +21.83% 24h) and funding not negative)",
    "smartMoney": 1
   },
   {
@@ -9217,6 +9200,20 @@
  ],
  "recentCloses": [
   {
+   "id": 566,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "deepseek",
+   "venue": "LIGHTER",
+   "outcome": "LOSS",
+   "pct": -2.5,
+   "exitReason": null,
+   "closedAt": "2026-08-28T02:31:05.844Z",
+   "entry": 109.44,
+   "exit": 106.726,
+   "openedAt": "2026-08-27T20:25:28.394Z"
+  },
+  {
    "id": 569,
    "asset": "SOL",
    "direction": "LONG",
@@ -9369,48 +9366,34 @@
    "entry": 101.25,
    "exit": 103.618,
    "openedAt": "2026-08-27T07:02:06.912Z"
-  },
-  {
-   "id": 560,
-   "asset": "XRP",
-   "direction": "SHORT",
-   "actor": "luna",
-   "venue": "LIGHTER",
-   "outcome": "LOSS",
-   "pct": -1.8,
-   "exitReason": "SHORT XRP: stopped out at SL -1.8% (entry $1.4038 → exit $1.429225). WHY: Trigger never materialized—price closed above $1.40 on the 4h, invalidating the setup before trade logic even engaged.",
-   "closedAt": "2026-08-27T08:09:06.076Z",
-   "entry": 1.4038,
-   "exit": 1.429225,
-   "openedAt": "2026-08-27T07:09:11.116Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 80059.49,
-    "change24hPct": 1.67
+    "price": 80037.99,
+    "change24hPct": 1.65
    },
    {
     "symbol": "ETH",
-    "price": 2498.65,
-    "change24hPct": 0.15
+    "price": 2496.56,
+    "change24hPct": 0.1
    },
    {
     "symbol": "BNB",
-    "price": 709.02,
-    "change24hPct": 0.87
+    "price": 708.52,
+    "change24hPct": 0.81
    },
    {
     "symbol": "XRP",
-    "price": 1.4355,
-    "change24hPct": 2.17
+    "price": 1.4343,
+    "change24hPct": 2.27
    },
    {
     "symbol": "SOL",
-    "price": 107.13,
-    "change24hPct": 6.02
+    "price": 107,
+    "change24hPct": 6.07
    }
   ],
   "fearGreed": {
@@ -9620,7 +9603,7 @@
      "changePct": -11.9
     }
    ],
-   "ageMin": 280
+   "ageMin": 285
   },
   "chainRotation": {
    "chains": [
@@ -9759,7 +9742,7 @@
      1
     ]
    ],
-   "ageMin": 279
+   "ageMin": 284
   }
  },
  "calendar": [
@@ -10642,11 +10625,6 @@
     "asset": "SOL",
     "long": [
      {
-      "actor": "deepseek",
-      "conv": 5,
-      "kind": "live"
-     },
-     {
       "actor": "gemini",
       "conv": 7,
       "kind": "live"
@@ -10985,77 +10963,77 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 5284,
+   "totalPrints7d": 5288,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
     {
      "coin": "ETH",
-     "l": 6,
-     "s": 3,
-     "netK": 16427,
-     "concPct": 70
+     "l": 5,
+     "s": 4,
+     "netK": 15983,
+     "concPct": 72
     },
     {
      "coin": "LIT",
      "l": 1,
      "s": 3,
-     "netK": -2855,
-     "concPct": 87
+     "netK": -2938,
+     "concPct": 89
     },
     {
      "coin": "SOL",
      "l": 2,
-     "s": 2,
-     "netK": -2903,
-     "concPct": 93
+     "s": 3,
+     "netK": -2881,
+     "concPct": 92
     },
     {
      "coin": "PUMP",
      "l": 1,
      "s": 1,
-     "netK": 2101,
+     "netK": 2096,
      "concPct": 99
-    },
-    {
-     "coin": "SKHYNIXUSD",
-     "l": 2,
-     "s": 0,
-     "netK": 1539,
-     "concPct": 100
     },
     {
      "coin": "BTC",
      "l": 3,
      "s": 1,
-     "netK": 1405,
-     "concPct": 83
+     "netK": 1367,
+     "concPct": 78
     },
     {
      "coin": "XAU",
      "l": 2,
      "s": 1,
-     "netK": 1481,
-     "concPct": 98
+     "netK": 1450,
+     "concPct": 96
+    },
+    {
+     "coin": "SKHYNIXUSD",
+     "l": 2,
+     "s": 0,
+     "netK": 1507,
+     "concPct": 100
     },
     {
      "coin": "MSTR",
      "l": 0,
      "s": 3,
-     "netK": -1391,
+     "netK": -1387,
      "concPct": 99
     }
    ],
    "coinFlow": [
     {
      "coin": "ETH",
-     "netK": -3484,
-     "n": 1440
+     "netK": -3680,
+     "n": 1436
     },
     {
      "coin": "BTC",
-     "netK": 1871,
-     "n": 833
+     "netK": 1883,
+     "n": 834
     },
     {
      "coin": "SOL",
@@ -11063,47 +11041,47 @@
      "n": 672
     },
     {
-     "coin": "ZEC",
-     "netK": 484,
-     "n": 326
-    },
-    {
      "coin": "SKHYNIXUSD",
      "netK": -472,
      "n": 137
+    },
+    {
+     "coin": "SNDK",
+     "netK": 436,
+     "n": 275
     }
    ],
    "accounts": [
     {
      "id": 102394,
-     "prints": 321,
-     "volK": 6384,
-     "biasK": -577,
-     "equity": 7181500,
+     "prints": 328,
+     "volK": 6478,
+     "biasK": -671,
+     "equity": 7184044,
      "positions": [
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 3596,
-       "upnlK": -25
+       "usdK": 3624,
+       "upnlK": -22
       },
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 1259,
-       "upnlK": 1
-      },
-      {
-       "coin": "ZEC",
-       "side": "LONG",
-       "usdK": 196,
-       "upnlK": -7
+       "usdK": 1348,
+       "upnlK": 3
       },
       {
        "coin": "XRP",
        "side": "SHORT",
-       "usdK": 144,
-       "upnlK": 2
+       "usdK": 145,
+       "upnlK": 1
+      },
+      {
+       "coin": "HYPE",
+       "side": "LONG",
+       "usdK": 128,
+       "upnlK": -1
       }
      ]
     },
@@ -11112,27 +11090,12 @@
      "prints": 257,
      "volK": 5515,
      "biasK": 437,
-     "equity": 2642,
+     "equity": 2694,
      "positions": [
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 130,
-       "upnlK": 0
-      }
-     ]
-    },
-    {
-     "id": 362053,
-     "prints": 60,
-     "volK": 3287,
-     "biasK": -122,
-     "equity": 24,
-     "positions": [
-      {
-       "coin": "ETH",
-       "side": "SHORT",
-       "usdK": 1,
+       "usdK": 123,
        "upnlK": 0
       }
      ]
@@ -11142,12 +11105,12 @@
      "prints": 197,
      "volK": 3197,
      "biasK": -162,
-     "equity": 74217,
+     "equity": 74222,
      "positions": [
       {
        "coin": "ETH",
        "side": "SHORT",
-       "usdK": 6,
+       "usdK": 7,
        "upnlK": 0
       }
      ]
@@ -11157,19 +11120,34 @@
      "prints": 65,
      "volK": 3190,
      "biasK": -1016,
-     "equity": 453941,
+     "equity": 455161,
      "positions": [
       {
        "coin": "LIT",
        "side": "LONG",
-       "usdK": 433,
-       "upnlK": 75
+       "usdK": 365,
+       "upnlK": 64
       },
       {
        "coin": "ASTER",
        "side": "LONG",
-       "usdK": 145,
-       "upnlK": -3
+       "usdK": 73,
+       "upnlK": -1
+      }
+     ]
+    },
+    {
+     "id": 362053,
+     "prints": 56,
+     "volK": 3091,
+     "biasK": -318,
+     "equity": 23,
+     "positions": [
+      {
+       "coin": "ETH",
+       "side": "SHORT",
+       "usdK": 1,
+       "upnlK": 0
       }
      ]
     }
@@ -11359,7 +11337,7 @@
   }
  },
  "intel": {
-  "ageH": 5.2,
+  "ageH": 5.3,
   "narratives": [
    "• DeFi Lending & Exploits: Lending tokens (AAVE, KMNO, SPK) rallied over 30%, though Base protocol Moonwell suffered a $9M exploit via collateral manipulation (newsletter).",
    "• Perp DEXs & Derivatives: Hyperliquid gained traction due to fee growth and rumors of Revolut utilizing its builder code (X).",
@@ -11546,6 +11524,22 @@
   }
  ],
  "archive": [
+  {
+   "id": 566,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "deepseek",
+   "venue": "LIGHTER",
+   "outcome": "LOSS",
+   "pct": -2.5,
+   "pnlUsd": -10.67,
+   "exitReason": null,
+   "closedAt": "2026-08-28T02:31:05.844Z",
+   "entry": 109.44,
+   "exit": 106.726,
+   "conviction": 5,
+   "openedAt": "2026-08-27T20:25:28.394Z"
+  },
   {
    "id": 569,
    "asset": "SOL",
@@ -13639,11 +13633,11 @@
    "openclaw": 0,
    "grok": 0,
    "kimi": 2,
-   "deepseek": 0,
+   "deepseek": 1,
    "gemini": 0,
    "luna": 1,
    "minimax": 0,
-   "fleet": 1
+   "fleet": 2
   },
   "limits": {
    "dailyLossPct": 7.5,
