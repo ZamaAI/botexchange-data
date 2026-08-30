@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-30T23:47:15.624Z",
+ "generatedAt": "2026-08-30T23:52:01.197Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 7,
    "wr": "36",
    "pnl": -22.13,
-   "account": 461.55,
-   "retPct": -7.7,
+   "account": 464.36,
+   "retPct": -7.1,
    "accountRealized": 477.87
   },
   {
@@ -91,14 +91,14 @@
    "label": "Danny DeepSeek",
    "venue": "LIGHTER",
    "paper": false,
-   "trades": 13,
-   "wins": 6,
+   "trades": 14,
+   "wins": 7,
    "losses": 7,
-   "wr": "46",
-   "pnl": 12.35,
+   "wr": "50",
+   "pnl": 46.57,
    "account": 561.18,
    "retPct": 12.2,
-   "accountRealized": 512.35
+   "accountRealized": 546.57
   },
   {
    "key": "gemini",
@@ -119,14 +119,14 @@
    "label": "Luna GPT",
    "venue": "LIGHTER",
    "paper": false,
-   "trades": 25,
+   "trades": 27,
    "wins": 7,
-   "losses": 18,
-   "wr": "28",
-   "pnl": -19.47,
+   "losses": 20,
+   "wr": "26",
+   "pnl": -54.92,
    "account": 463,
    "retPct": -7.4,
-   "accountRealized": 480.53
+   "accountRealized": 445.08
   },
   {
    "key": "minimax",
@@ -248,7 +248,7 @@
     512.75,
     502.02,
     502.02,
-    512.35
+    546.57
    ],
    "gemini": [
     500,
@@ -278,7 +278,7 @@
     524.12,
     498.3,
     498.3,
-    480.53
+    445.08
    ],
    "minimax": [
     500,
@@ -5197,23 +5197,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-29T23:50:00.000Z",
-   "hl": 17.433500000000002,
-   "hl_spot": 534.805889,
-   "grvt": null,
-   "extended": 693.402156,
-   "capital": 3759.850973,
-   "qwen": 481.52,
-   "openclaw": 569.75,
-   "hermes": 552.24,
-   "manual": 693.4,
-   "kimi": 479.19,
-   "deepseek": 527.13,
-   "gemini": 509.04,
-   "luna": 507,
-   "minimax": 490.89
-  },
-  {
    "ts": "2026-08-29T23:55:00.000Z",
    "hl": 17.44134,
    "hl_spot": 534.81263,
@@ -10091,6 +10074,23 @@
    "gemini": 501.38,
    "luna": 463,
    "minimax": 484.28
+  },
+  {
+   "ts": "2026-08-30T23:50:00.000Z",
+   "hl": 0,
+   "hl_spot": 507.074248,
+   "grvt": null,
+   "extended": 759.964404,
+   "capital": 3748.39039,
+   "qwen": 464.36,
+   "openclaw": 569.75,
+   "hermes": 507.07,
+   "manual": 759.96,
+   "kimi": 470.55,
+   "deepseek": 561.18,
+   "gemini": 501.38,
+   "luna": 463,
+   "minimax": 484.28
   }
  ],
  "venuesLive": {
@@ -10113,6 +10113,40 @@
  },
  "openTrades": [
   {
+   "id": 613,
+   "asset": "BTC",
+   "direction": "LONG",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "entry": 77244,
+   "stop": 76250,
+   "target": 80800,
+   "levelsApprox": false,
+   "trailed": false,
+   "rr": 3.6,
+   "conviction": 6,
+   "openedAt": "2026-08-30T23:49:02.914Z",
+   "thesis": "qwen pick (paper, trigger-filled from AWAITING watch at $77,244: 1h close above 77700)",
+   "smartMoney": null
+  },
+  {
+   "id": 612,
+   "asset": "ZEC",
+   "direction": "SHORT",
+   "actor": "deepseek",
+   "venue": "LIGHTER",
+   "entry": 823.88,
+   "stop": 844.477,
+   "target": 774.447,
+   "levelsApprox": true,
+   "trailed": false,
+   "rr": 2.2,
+   "conviction": 5,
+   "openedAt": "2026-08-30T23:49:01.894Z",
+   "thesis": "deepseek pick (LIVE, trigger-filled from AWAITING watch at $823.88: 4h candle closes below $824 after price tags $846–$850.5 and rejects, with ZEC OI still rising and HL funding still positive.)",
+   "smartMoney": null
+  },
+  {
    "id": 611,
    "asset": "BTC",
    "direction": "LONG",
@@ -10130,23 +10164,6 @@
    "smartMoney": null
   },
   {
-   "id": 604,
-   "asset": "XRP",
-   "direction": "LONG",
-   "actor": "luna",
-   "venue": "LIGHTER",
-   "entry": 1.4187,
-   "stop": 1.34067,
-   "target": 1.60313,
-   "levelsApprox": true,
-   "trailed": false,
-   "rr": 2.3,
-   "conviction": 5,
-   "openedAt": "2026-08-30T17:04:03.005Z",
-   "thesis": "luna pick (LIVE, trigger-filled from AWAITING watch at $1.419: 4h close above the $1.407 pivot and $1.42 entry area, with XRP OI turning positive from its currently flat-to-falling state.)",
-   "smartMoney": null
-  },
-  {
    "id": 596,
    "asset": "MRVL",
    "direction": "LONG",
@@ -10161,40 +10178,6 @@
    "conviction": 6,
    "openedAt": "2026-08-29T22:03:10.639Z",
    "thesis": "Qwen scanner pick (paper) — no rationale line captured",
-   "smartMoney": null
-  },
-  {
-   "id": 593,
-   "asset": "SOL",
-   "direction": "LONG",
-   "actor": "luna",
-   "venue": "PAPER",
-   "entry": 105.21,
-   "stop": 100.95,
-   "target": 115.5,
-   "levelsApprox": false,
-   "trailed": false,
-   "rr": 2.4,
-   "conviction": 5,
-   "openedAt": "2026-08-29T18:49:34.716Z",
-   "thesis": "luna pick (LIVE, trigger-filled from AWAITING watch at $105.21: 4h close at or above the $105.48 pivot with consolidated SOL OI turning positive after its current 24h contraction.)",
-   "smartMoney": 1
-  },
-  {
-   "id": 588,
-   "asset": "TRUMP",
-   "direction": "SHORT",
-   "actor": "deepseek",
-   "venue": "LIGHTER",
-   "entry": 2.792,
-   "stop": 2.47092,
-   "target": 2.3034,
-   "levelsApprox": true,
-   "trailed": true,
-   "rr": 2.4,
-   "conviction": 5,
-   "openedAt": "2026-08-29T07:19:35.898Z",
-   "thesis": "deepseek pick (LIVE, trigger-filled from AWAITING watch at $2.792: 4h close below $2.80 while 24h OI stays negative (currently -10%) and funding remains >+10% APR.)",
    "smartMoney": null
   },
   {
@@ -10375,6 +10358,48 @@
  ],
  "recentCloses": [
   {
+   "id": 593,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "luna",
+   "venue": "PAPER",
+   "outcome": "LOSS",
+   "pct": -4,
+   "exitReason": null,
+   "closedAt": "2026-08-30T23:49:11.221Z",
+   "entry": 105.21,
+   "exit": 100.95,
+   "openedAt": "2026-08-29T18:49:34.716Z"
+  },
+  {
+   "id": 588,
+   "asset": "TRUMP",
+   "direction": "SHORT",
+   "actor": "deepseek",
+   "venue": "LIGHTER",
+   "outcome": "WIN",
+   "pct": 17.8,
+   "exitReason": null,
+   "closedAt": "2026-08-30T23:48:15.127Z",
+   "entry": 2.792,
+   "exit": 2.2945,
+   "openedAt": "2026-08-29T07:19:35.898Z"
+  },
+  {
+   "id": 604,
+   "asset": "XRP",
+   "direction": "LONG",
+   "actor": "luna",
+   "venue": "LIGHTER",
+   "outcome": "LOSS",
+   "pct": -5.6,
+   "exitReason": null,
+   "closedAt": "2026-08-30T23:48:08.183Z",
+   "entry": 1.4187,
+   "exit": 1.339399,
+   "openedAt": "2026-08-30T17:04:03.005Z"
+  },
+  {
    "id": 609,
    "asset": "SOL",
    "direction": "LONG",
@@ -10499,76 +10524,34 @@
    "entry": 78012.19,
    "exit": 78151.9,
    "openedAt": "2026-08-29T14:49:35.577Z"
-  },
-  {
-   "id": 600,
-   "asset": "UNI",
-   "direction": "LONG",
-   "actor": "deepseek",
-   "venue": "LIGHTER",
-   "outcome": "WIN",
-   "pct": 5.4,
-   "exitReason": "LONG UNI: stopped out at SL +5.4% (entry $4.951 → exit $5.2185). WHY: Range breakout triggered as planned but you exited early on minor resistance instead of holding for full target despite positive…",
-   "closedAt": "2026-08-30T23:03:10.915Z",
-   "entry": 4.951,
-   "exit": 5.2185,
-   "openedAt": "2026-08-30T06:56:01.542Z"
-  },
-  {
-   "id": 595,
-   "asset": "HYPE",
-   "direction": "LONG",
-   "actor": "qwen",
-   "venue": "PAPER",
-   "outcome": "LOSS",
-   "pct": -2.5,
-   "exitReason": "LONG HYPE: stopped out at SL -2.5% (entry $83.32 → exit $81.2). WHY: Structural support broke before momentum could sustain, invalidating the thesis mechanism entirely.",
-   "closedAt": "2026-08-30T22:34:10.751Z",
-   "entry": 83.32,
-   "exit": 81.2,
-   "openedAt": "2026-08-29T22:03:10.615Z"
-  },
-  {
-   "id": 582,
-   "asset": "SOL",
-   "direction": "LONG",
-   "actor": "deepseek",
-   "venue": "LIGHTER",
-   "outcome": "BREAKEVEN",
-   "pct": 0.2,
-   "exitReason": "LONG SOL: stopped out at SL +0.2% (entry $103.1 → exit $103.28). WHY: Chop range chase into resistance—mechanism never triggered; S1 held but lacked follow-through conviction to extend, trapped in…",
-   "closedAt": "2026-08-30T22:30:24.208Z",
-   "entry": 103.1,
-   "exit": 103.28,
-   "openedAt": "2026-08-28T19:04:34.096Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 77181.27,
-    "change24hPct": -1.38
+    "price": 77494.18,
+    "change24hPct": -0.97
    },
    {
     "symbol": "ETH",
-    "price": 2396.44,
-    "change24hPct": -2.48
+    "price": 2408,
+    "change24hPct": -2.08
    },
    {
     "symbol": "BNB",
-    "price": 681.37,
-    "change24hPct": -1.61
+    "price": 682.92,
+    "change24hPct": -1.39
    },
    {
     "symbol": "XRP",
-    "price": 1.3406,
-    "change24hPct": -3.99
+    "price": 1.3499,
+    "change24hPct": -3.32
    },
    {
     "symbol": "SOL",
-    "price": 100.52,
-    "change24hPct": -4.85
+    "price": 101.4,
+    "change24hPct": -4.13
    }
   ],
   "fearGreed": {
@@ -10773,7 +10756,7 @@
      "changePct": -10.8
     }
    ],
-   "ageMin": 107
+   "ageMin": 112
   },
   "chainRotation": {
    "chains": [
@@ -10908,7 +10891,7 @@
      15
     ]
    ],
-   "ageMin": 332
+   "ageMin": 337
   }
  },
  "calendar": [
@@ -11797,23 +11780,6 @@
     ]
    },
    {
-    "asset": "XRP",
-    "long": [
-     {
-      "actor": "luna",
-      "conv": 5,
-      "kind": "live"
-     }
-    ],
-    "short": [
-     {
-      "actor": "deepseek",
-      "conv": 5,
-      "kind": "watching"
-     }
-    ]
-   },
-   {
     "asset": "ETH",
     "long": [
      {
@@ -11855,7 +11821,7 @@
      {
       "actor": "qwen",
       "conv": 6,
-      "kind": "watching"
+      "kind": "paper"
      }
     ],
     "short": []
@@ -11880,6 +11846,22 @@
      }
     ],
     "short": []
+   },
+   {
+    "asset": "XRP",
+    "long": [],
+    "short": [
+     {
+      "actor": "luna",
+      "conv": 5,
+      "kind": "watching"
+     },
+     {
+      "actor": "deepseek",
+      "conv": 5,
+      "kind": "watching"
+     }
+    ]
    },
    {
     "asset": "AAVE",
@@ -12543,7 +12525,7 @@
   }
  },
  "intel": {
-  "ageH": 2.3,
+  "ageH": 2.4,
   "narratives": [
    "• Agentic Finance & Tokenization: AI agents managing finance are expected to route around legacy banking rails, driving demand into Ethereum infrastructure and tokenization as BitMine continues multi-billion ETH accumula",
    "• Robinhood Chain Speculation: Traders are highlighting Robinhood ($HOOD) infrastructure and ecosystem low/mid-caps ($HMM, $PONGO, $NASDANQ) as key venues for small/mid-cap gains (X).",
@@ -12731,6 +12713,54 @@
   }
  ],
  "archive": [
+  {
+   "id": 593,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "luna",
+   "venue": "PAPER",
+   "outcome": "LOSS",
+   "pct": -4,
+   "pnlUsd": -12.15,
+   "exitReason": null,
+   "closedAt": "2026-08-30T23:49:11.221Z",
+   "entry": 105.21,
+   "exit": 100.95,
+   "conviction": 5,
+   "openedAt": "2026-08-29T18:49:34.716Z"
+  },
+  {
+   "id": 588,
+   "asset": "TRUMP",
+   "direction": "SHORT",
+   "actor": "deepseek",
+   "venue": "LIGHTER",
+   "outcome": "WIN",
+   "pct": 17.8,
+   "pnlUsd": 34.22,
+   "exitReason": null,
+   "closedAt": "2026-08-30T23:48:15.127Z",
+   "entry": 2.792,
+   "exit": 2.2945,
+   "conviction": 5,
+   "openedAt": "2026-08-29T07:19:35.898Z"
+  },
+  {
+   "id": 604,
+   "asset": "XRP",
+   "direction": "LONG",
+   "actor": "luna",
+   "venue": "LIGHTER",
+   "outcome": "LOSS",
+   "pct": -5.6,
+   "pnlUsd": -23.3,
+   "exitReason": null,
+   "closedAt": "2026-08-30T23:48:08.183Z",
+   "entry": 1.4187,
+   "exit": 1.339399,
+   "conviction": 5,
+   "openedAt": "2026-08-30T17:04:03.005Z"
+  },
   {
    "id": 609,
    "asset": "SOL",
@@ -15544,11 +15574,11 @@
    "openclaw": 0,
    "grok": 0,
    "kimi": 1,
-   "deepseek": 1,
+   "deepseek": 0,
    "gemini": 0,
-   "luna": 1,
+   "luna": 2,
    "minimax": 0,
-   "fleet": 1
+   "fleet": 0
   },
   "limits": {
    "dailyLossPct": 7.5,
