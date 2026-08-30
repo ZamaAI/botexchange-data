@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-30T06:12:27.631Z",
+ "generatedAt": "2026-08-30T06:15:02.333Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 6,
    "wr": "40",
    "pnl": -14.5,
-   "account": 477.77,
-   "retPct": -4.4,
+   "account": 477.5,
+   "retPct": -4.5,
    "accountRealized": 485.5
   },
   {
@@ -4908,23 +4908,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-29T06:15:00.000Z",
-   "hl": 4.183260000000001,
-   "hl_spot": 521.561342,
-   "grvt": null,
-   "extended": 648.679267,
-   "capital": 3655.060371,
-   "qwen": 513.85,
-   "openclaw": 569.75,
-   "hermes": 525.74,
-   "manual": 648.68,
-   "kimi": 475.11,
-   "deepseek": 512.12,
-   "gemini": 500.86,
-   "luna": 503.19,
-   "minimax": 488.4
-  },
-  {
    "ts": "2026-08-29T06:20:00.000Z",
    "hl": 4.183260000000001,
    "hl_spot": 521.561342,
@@ -9802,6 +9785,23 @@
    "gemini": 506.14,
    "luna": 506.81,
    "minimax": 491.38
+  },
+  {
+   "ts": "2026-08-30T06:15:00.000Z",
+   "hl": 13.775129999999999,
+   "hl_spot": 530.886621,
+   "grvt": null,
+   "extended": 693.563462,
+   "capital": 3750.394409,
+   "qwen": 477.5,
+   "openclaw": 569.75,
+   "hermes": 544.66,
+   "manual": 693.56,
+   "kimi": 478.09,
+   "deepseek": 528.79,
+   "gemini": 506.14,
+   "luna": 506.81,
+   "minimax": 491.38
   }
  ],
  "venuesLive": {
@@ -10395,35 +10395,35 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 78110.33,
-    "change24hPct": 0.73
+    "price": 78123.33,
+    "change24hPct": 0.83
    },
    {
     "symbol": "ETH",
-    "price": 2455.4,
-    "change24hPct": 0.8
+    "price": 2455.87,
+    "change24hPct": 0.99
    },
    {
     "symbol": "BNB",
-    "price": 693.55,
-    "change24hPct": 0.71
+    "price": 693.61,
+    "change24hPct": 0.78
    },
    {
     "symbol": "XRP",
-    "price": 1.3939,
-    "change24hPct": 0.84
+    "price": 1.3946,
+    "change24hPct": 1.08
    },
    {
     "symbol": "SOL",
-    "price": 104.95,
-    "change24hPct": 1.35
+    "price": 105,
+    "change24hPct": 1.5
    }
   ],
   "fearGreed": {
    "value": 69,
    "classification": "Greed"
   },
-  "regime": null,
+  "regime": "RISK_ON",
   "stockFearGreed": {
    "value": 54,
    "classification": "Neutral",
@@ -10438,6 +10438,13 @@
     "price": 14.43,
     "change": -0.55
    }
+  },
+  "netLiquidity": {
+   "usdB": 5779.5,
+   "deltaB": -45.4,
+   "weeks": 4,
+   "trend": "FLAT",
+   "date": "2026-08-26"
   },
   "riskIndex": {
    "score": 29,
@@ -10500,6 +10507,7 @@
    ],
    "computedAt": 1788062505749
   },
+  "equityRegime": "NEUTRAL",
   "longShort": [
    {
     "asset": "BTC",
@@ -10603,7 +10611,7 @@
      "changePct": -7.3
     }
    ],
-   "ageMin": 132
+   "ageMin": 135
   },
   "chainRotation": {
    "chains": [
@@ -10738,7 +10746,7 @@
      13
     ]
    ],
-   "ageMin": 76
+   "ageMin": 79
   }
  },
  "calendar": [
@@ -10804,6 +10812,12 @@
   },
   {
    "date": "2026-09-01",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-01",
    "event": "DELL earnings (AMC)",
    "type": "EARNINGS",
    "impact": "MED"
@@ -10815,14 +10829,32 @@
    "impact": "MED"
   },
   {
+   "date": "2026-09-03",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-04",
-   "event": "Non-Farm Payrolls (Aug)",
+   "event": "Non-Farm Payrolls",
    "type": "NFP",
    "impact": "HIGH"
   },
   {
+   "date": "2026-09-10",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-10",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-11",
-   "event": "US CPI Release (Aug)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
   },
@@ -10837,6 +10869,36 @@
    "event": "FOMC Rate Decision",
    "type": "Fed",
    "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-16",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-17",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-24",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-25",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-29",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
   }
  ],
  "weekAhead": {
