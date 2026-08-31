@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-31T04:52:15.212Z",
+ "generatedAt": "2026-08-31T04:57:01.193Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 7,
    "wr": "36",
    "pnl": -22.13,
-   "account": 464.16,
-   "retPct": -7.2,
+   "account": 465.15,
+   "retPct": -7,
    "accountRealized": 477.87
   },
   {
@@ -4969,22 +4969,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-30T04:55:00.000Z",
-   "hl": 13.483314,
-   "hl_spot": 530.61135,
-   "grvt": null,
-   "extended": 697.120817,
-   "capital": 3753.792267,
-   "qwen": 477.65,
-   "hermes": 544.09,
-   "manual": 697.12,
-   "kimi": 477.8,
-   "deepseek": 530.29,
-   "gemini": 505.93,
-   "luna": 506.57,
-   "minimax": 491.03
-  },
-  {
    "ts": "2026-08-30T05:00:00.000Z",
    "hl": 13.483314,
    "hl_spot": 530.61135,
@@ -9575,6 +9559,22 @@
    "gemini": 500.07,
    "luna": 463,
    "minimax": 483.15
+  },
+  {
+   "ts": "2026-08-31T04:55:00.000Z",
+   "hl": 0,
+   "hl_spot": 507.096232,
+   "grvt": null,
+   "extended": 750.754483,
+   "capital": 3733.5804580000004,
+   "qwen": 465.15,
+   "hermes": 507.1,
+   "manual": 750.75,
+   "kimi": 471.71,
+   "deepseek": 556.84,
+   "gemini": 500.07,
+   "luna": 463,
+   "minimax": 483.15
   }
  ],
  "venuesLive": {
@@ -9970,35 +9970,35 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 77494.44,
-    "change24hPct": -0.7
+    "price": 77603.39,
+    "change24hPct": -0.6
    },
    {
     "symbol": "ETH",
-    "price": 2414.04,
-    "change24hPct": -1.62
+    "price": 2416.52,
+    "change24hPct": -1.52
    },
    {
     "symbol": "BNB",
-    "price": 683.17,
-    "change24hPct": -1.37
+    "price": 683.43,
+    "change24hPct": -1.39
    },
    {
     "symbol": "XRP",
-    "price": 1.3489,
-    "change24hPct": -2.88
+    "price": 1.3516,
+    "change24hPct": -2.78
    },
    {
     "symbol": "SOL",
-    "price": 101.33,
-    "change24hPct": -3.37
+    "price": 101.46,
+    "change24hPct": -3.32
    }
   ],
   "fearGreed": {
    "value": 62,
    "classification": "Greed"
   },
-  "regime": null,
+  "regime": "RISK_ON",
   "stockFearGreed": {
    "value": 54,
    "classification": "Neutral",
@@ -10013,6 +10013,13 @@
     "price": 14.43,
     "change": -0.55
    }
+  },
+  "netLiquidity": {
+   "usdB": 5779.5,
+   "deltaB": -45.4,
+   "weeks": 4,
+   "trend": "FLAT",
+   "date": "2026-08-26"
   },
   "riskIndex": {
    "score": 39,
@@ -10075,6 +10082,7 @@
    ],
    "computedAt": 1788148894841
   },
+  "equityRegime": "NEUTRAL",
   "longShort": [
    {
     "asset": "BTC",
@@ -10178,7 +10186,7 @@
      "changePct": -14.5
     }
    ],
-   "ageMin": 52
+   "ageMin": 57
   },
   "chainRotation": {
    "chains": [
@@ -10317,7 +10325,7 @@
      3
     ]
    ],
-   "ageMin": 217
+   "ageMin": 222
   }
  },
  "calendar": [
@@ -10365,6 +10373,12 @@
   },
   {
    "date": "2026-09-01",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-01",
    "event": "SEI token unlock — 4.3M cliff = 1.68% of float; 14d total 23.55% (Team + Ecosystem Reserve)",
    "type": "UNLOCK",
    "impact": "MED"
@@ -10388,8 +10402,14 @@
    "impact": "MED"
   },
   {
+   "date": "2026-09-03",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-04",
-   "event": "Non-Farm Payrolls (Aug)",
+   "event": "Non-Farm Payrolls",
    "type": "NFP",
    "impact": "HIGH"
   },
@@ -10406,8 +10426,20 @@
    "impact": "MED"
   },
   {
+   "date": "2026-09-10",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-10",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-09-11",
-   "event": "US CPI Release (Aug)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
   },
@@ -10421,6 +10453,48 @@
    "date": "2026-09-16",
    "event": "FOMC Rate Decision",
    "type": "Fed",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-16",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-17",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-24",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-25",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-29",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-30",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-30",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
    "impact": "HIGH"
   }
  ],
@@ -11843,7 +11917,7 @@
   }
  },
  "intel": {
-  "ageH": 1.4,
+  "ageH": 1.5,
   "narratives": [
    "- Robinhood Chain & Memecoins: Speculation is ramping up around a Robinhood-native ecosystem ($HMM, $PONGO, $NASDANQ), with traders forecasting multi-billion dollar memecoin valuations ahead of Q4 retail capital inflows.",
    "- Mantle Network RWA Expansion: Mantle's Real World Asset TVL reached $245M in July (+1,000% since 2025), supported by tokenized equities platform xStocksFi (offering >700 stocks) and a new 6.5% APY yield vault co-launch",
