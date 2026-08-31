@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-31T01:17:01.193Z",
+ "generatedAt": "2026-08-31T01:22:03.406Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 7,
    "wr": "36",
    "pnl": -22.13,
-   "account": 467.22,
-   "retPct": -6.6,
+   "account": 468.22,
+   "retPct": -6.4,
    "accountRealized": 477.87
   },
   {
@@ -5231,23 +5231,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-30T01:20:00.000Z",
-   "hl": 14.545628,
-   "hl_spot": 531.899369,
-   "grvt": null,
-   "extended": 700.468536,
-   "capital": 3758.3370809999997,
-   "qwen": 479.2,
-   "openclaw": 569.75,
-   "hermes": 546.44,
-   "manual": 700.47,
-   "kimi": 478.38,
-   "deepseek": 527.74,
-   "gemini": 507.44,
-   "luna": 506.92,
-   "minimax": 489.99
-  },
-  {
    "ts": "2026-08-30T01:25:00.000Z",
    "hl": 14.545628,
    "hl_spot": 531.899369,
@@ -10125,6 +10108,23 @@
    "gemini": 501.38,
    "luna": 463,
    "minimax": 483.15
+  },
+  {
+   "ts": "2026-08-31T01:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 507.294087,
+   "grvt": null,
+   "extended": 756.737137,
+   "capital": 3743.5761090000005,
+   "qwen": 468.22,
+   "openclaw": 569.75,
+   "hermes": 507.29,
+   "manual": 756.74,
+   "kimi": 472.32,
+   "deepseek": 558.73,
+   "gemini": 501.38,
+   "luna": 463,
+   "minimax": 483.15
   }
  ],
  "venuesLive": {
@@ -10146,6 +10146,23 @@
   "liveN": 58
  },
  "openTrades": [
+  {
+   "id": 614,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "gemini",
+   "venue": "LIGHTER",
+   "entry": 101.62,
+   "stop": 99.0795,
+   "target": 106.701,
+   "levelsApprox": true,
+   "trailed": false,
+   "rr": 2.1,
+   "conviction": 5,
+   "openedAt": "2026-08-31T01:19:07.041Z",
+   "thesis": "gemini pick (LIVE, trigger-filled from AWAITING watch at $101.62: Price taps $101.50 near range-low support ($100.31-$100.52) while predicted funding remains negative (-0.0376% daily) and prints a 15m bid-absorption reversal candle.)",
+   "smartMoney": 1
+  },
   {
    "id": 613,
    "asset": "BTC",
@@ -10452,7 +10469,7 @@
    "venue": "HL",
    "outcome": "BREAKEVEN",
    "pct": 0.2,
-   "exitReason": null,
+   "exitReason": "LONG BTC: stopped out at SL +0.2% (entry $77374 → exit $77550). WHY: Flush mechanism triggered but conviction was too low (5/10) to hold through the mushy-middle chop; should've faded the opposite…",
    "closedAt": "2026-08-30T23:36:12.638Z",
    "entry": 77374,
    "exit": 77550,
@@ -10466,7 +10483,7 @@
    "venue": "PAPER",
    "outcome": "LOSS",
    "pct": -2.8,
-   "exitReason": null,
+   "exitReason": "LONG SOL: stopped out at SL -2.8% (entry $105.5 → exit $102.5). WHY: Stop hit on noise in choppy range; funding never inverted and shorts didn't capitulate—squeeze thesis required aggressive markup…",
    "closedAt": "2026-08-30T23:34:10.687Z",
    "entry": 105.5,
    "exit": 102.5,
@@ -10480,7 +10497,7 @@
    "venue": "PAPER",
    "outcome": "LOSS",
    "pct": -1,
-   "exitReason": null,
+   "exitReason": "LONG ETH: stopped out at SL -1.0% (entry $2463.01 → exit $2438). WHY: ETH failed to sustain above $2470 resistance; 4h close never materialized, inflow streak broke, and you chased into chop rather…",
    "closedAt": "2026-08-30T23:34:09.518Z",
    "entry": 2463.01,
    "exit": 2438,
@@ -10494,7 +10511,7 @@
    "venue": "LIGHTER",
    "outcome": "LOSS",
    "pct": -1.4,
-   "exitReason": null,
+   "exitReason": "LONG BNB: stopped out at SL -1.4% (entry $697.73 → exit $688). WHY: Entry trigger never fired (1h didn't close above $698.69); chased into range resistance during CHOP instead of waiting for…",
    "closedAt": "2026-08-30T23:34:02.080Z",
    "entry": 697.73,
    "exit": 688,
@@ -10508,7 +10525,7 @@
    "venue": "LIGHTER",
    "outcome": "LOSS",
    "pct": -1.1,
-   "exitReason": null,
+   "exitReason": "LONG BTC: stopped out at SL -1.1% (entry $78720.68 → exit $77839.3). WHY: Thesis required sustained 4h momentum above R2 with expanding OI; market chopped instead, invalidating the breakout trigger…",
    "closedAt": "2026-08-30T23:23:25.773Z",
    "entry": 78720.68,
    "exit": 77839.3,
@@ -10547,27 +10564,27 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 77623.09,
-    "change24hPct": -0.49
+    "price": 77743.47,
+    "change24hPct": -0.42
    },
    {
     "symbol": "ETH",
-    "price": 2416.79,
-    "change24hPct": -1.56
+    "price": 2418.34,
+    "change24hPct": -1.55
    },
    {
     "symbol": "BNB",
-    "price": 684.2,
-    "change24hPct": -0.99
+    "price": 685.11,
+    "change24hPct": -0.9
    },
    {
     "symbol": "XRP",
-    "price": 1.352,
-    "change24hPct": -2.73
+    "price": 1.3509,
+    "change24hPct": -2.92
    },
    {
     "symbol": "SOL",
-    "price": 101.67,
+    "price": 101.83,
     "change24hPct": -3.31
    }
   ],
@@ -10673,19 +10690,19 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.071,
-    "longPct": 51.7,
+    "ratio": 1.074,
+    "longPct": 51.8,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.618,
+    "ratio": 2.619,
     "longPct": 72.4,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 1.915,
+    "ratio": 1.913,
     "longPct": 65.7,
     "bias": "CROWDED LONG"
    },
@@ -10697,8 +10714,8 @@
    },
    {
     "asset": "XRP",
-    "ratio": 2.408,
-    "longPct": 70.7,
+    "ratio": 2.402,
+    "longPct": 70.6,
     "bias": "CROWDED LONG"
    }
   ],
@@ -10773,7 +10790,7 @@
      "changePct": -10.8
     }
    ],
-   "ageMin": 197
+   "ageMin": 202
   },
   "chainRotation": {
    "chains": [
@@ -10912,7 +10929,7 @@
      3
     ]
    ],
-   "ageMin": 2
+   "ageMin": 7
   }
  },
  "calendar": [
@@ -11830,7 +11847,7 @@
      {
       "actor": "gemini",
       "conv": 5,
-      "kind": "watching"
+      "kind": "live"
      },
      {
       "actor": "luna",
@@ -11908,14 +11925,14 @@
   "disagreement": "ETH"
  },
  "manualBook": {
-  "at": "2026-08-31T01:02:02.908Z",
+  "at": "2026-08-31T01:22:03.406Z",
   "positions": [
    {
     "asset": "SOXL",
     "stock": false,
     "direction": "LONG",
     "entry": 126.45,
-    "pnlPct": -13.76
+    "pnlPct": -14.2
    }
   ]
  },
@@ -12212,7 +12229,7 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 4766,
+   "totalPrints7d": 4754,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
@@ -12220,69 +12237,69 @@
      "coin": "ETH",
      "l": 3,
      "s": 3,
-     "netK": -218,
-     "concPct": 47
+     "netK": 316,
+     "concPct": 40
     },
     {
      "coin": "BTC",
-     "l": 4,
-     "s": 3,
-     "netK": -929,
+     "l": 3,
+     "s": 4,
+     "netK": -1184,
      "concPct": 36
     },
     {
      "coin": "SOL",
      "l": 1,
      "s": 5,
-     "netK": -2220,
+     "netK": -2224,
      "concPct": 82
     },
     {
      "coin": "ZEC",
-     "l": 1,
-     "s": 3,
-     "netK": -2285,
-     "concPct": 54
+     "l": 0,
+     "s": 4,
+     "netK": -2602,
+     "concPct": 56
     },
     {
      "coin": "HYPE",
-     "l": 4,
-     "s": 2,
-     "netK": 1255,
-     "concPct": 87
+     "l": 5,
+     "s": 1,
+     "netK": 1271,
+     "concPct": 86
     },
     {
      "coin": "SNDK",
      "l": 2,
      "s": 2,
-     "netK": 844,
-     "concPct": 79
+     "netK": 916,
+     "concPct": 80
     },
     {
      "coin": "WLD",
      "l": 1,
      "s": 1,
-     "netK": -818,
+     "netK": -821,
      "concPct": 100
     },
     {
      "coin": "XAG",
      "l": 4,
      "s": 0,
-     "netK": 642,
-     "concPct": 51
+     "netK": 619,
+     "concPct": 53
     }
    ],
    "coinFlow": [
     {
      "coin": "ETH",
-     "netK": -1797,
-     "n": 1310
+     "netK": -1761,
+     "n": 1307
     },
     {
      "coin": "BTC",
-     "netK": 1706,
-     "n": 743
+     "netK": 1483,
+     "n": 736
     },
     {
      "coin": "SOL",
@@ -12306,22 +12323,22 @@
      "prints": 244,
      "volK": 5089,
      "biasK": 443,
-     "equity": 1246,
+     "equity": 1223,
      "positions": [
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 75,
+       "usdK": 58,
        "upnlK": 0
       }
      ]
     },
     {
      "id": 699574,
-     "prints": 82,
-     "volK": 4128,
-     "biasK": 492,
-     "equity": 107040,
+     "prints": 77,
+     "volK": 3872,
+     "biasK": 236,
+     "equity": 106753,
      "positions": [
       {
        "coin": "BTC",
@@ -12333,29 +12350,29 @@
     },
     {
      "id": 313004,
-     "prints": 234,
-     "volK": 3827,
-     "biasK": -323,
-     "equity": 74921,
+     "prints": 233,
+     "volK": 3816,
+     "biasK": -333,
+     "equity": 74912,
      "positions": []
     },
     {
      "id": 102394,
-     "prints": 189,
-     "volK": 3545,
-     "biasK": 28,
-     "equity": 7066530,
+     "prints": 188,
+     "volK": 3533,
+     "biasK": 39,
+     "equity": 7065218,
      "positions": [
       {
        "coin": "ETH",
        "side": "SHORT",
-       "usdK": 1695,
-       "upnlK": -5
+       "usdK": 1482,
+       "upnlK": -3
       },
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 745,
+       "usdK": 747,
        "upnlK": -11
       },
       {
@@ -12538,7 +12555,7 @@
   }
  },
  "intel": {
-  "ageH": 3.8,
+  "ageH": 3.9,
   "narratives": [
    "• Agentic Finance & Tokenization: AI agents managing finance are expected to route around legacy banking rails, driving demand into Ethereum infrastructure and tokenization as BitMine continues multi-billion ETH accumula",
    "• Robinhood Chain Speculation: Traders are highlighting Robinhood ($HOOD) infrastructure and ecosystem low/mid-caps ($HMM, $PONGO, $NASDANQ) as key venues for small/mid-cap gains (X).",
@@ -12815,7 +12832,7 @@
    "outcome": "BREAKEVEN",
    "pct": 0.2,
    "pnlUsd": 1.16,
-   "exitReason": null,
+   "exitReason": "LONG BTC: stopped out at SL +0.2% (entry $77374 → exit $77550). WHY: Flush mechanism triggered but conviction was too low (5/10) to hold through the mushy-middle chop; should've faded the opposite…",
    "closedAt": "2026-08-30T23:36:12.638Z",
    "entry": 77374,
    "exit": 77550,
@@ -12831,7 +12848,7 @@
    "outcome": "LOSS",
    "pct": -2.8,
    "pnlUsd": -8.53,
-   "exitReason": null,
+   "exitReason": "LONG SOL: stopped out at SL -2.8% (entry $105.5 → exit $102.5). WHY: Stop hit on noise in choppy range; funding never inverted and shorts didn't capitulate—squeeze thesis required aggressive markup…",
    "closedAt": "2026-08-30T23:34:10.687Z",
    "entry": 105.5,
    "exit": 102.5,
@@ -12847,7 +12864,7 @@
    "outcome": "LOSS",
    "pct": -1,
    "pnlUsd": -3.05,
-   "exitReason": null,
+   "exitReason": "LONG ETH: stopped out at SL -1.0% (entry $2463.01 → exit $2438). WHY: ETH failed to sustain above $2470 resistance; 4h close never materialized, inflow streak broke, and you chased into chop rather…",
    "closedAt": "2026-08-30T23:34:09.518Z",
    "entry": 2463.01,
    "exit": 2438,
@@ -12863,7 +12880,7 @@
    "outcome": "LOSS",
    "pct": -1.4,
    "pnlUsd": -5.64,
-   "exitReason": null,
+   "exitReason": "LONG BNB: stopped out at SL -1.4% (entry $697.73 → exit $688). WHY: Entry trigger never fired (1h didn't close above $698.69); chased into range resistance during CHOP instead of waiting for…",
    "closedAt": "2026-08-30T23:34:02.080Z",
    "entry": 697.73,
    "exit": 688,
@@ -12879,7 +12896,7 @@
    "outcome": "LOSS",
    "pct": -1.1,
    "pnlUsd": -5.03,
-   "exitReason": null,
+   "exitReason": "LONG BTC: stopped out at SL -1.1% (entry $78720.68 → exit $77839.3). WHY: Thesis required sustained 4h momentum above R2 with expanding OI; market chopped instead, invalidating the breakout trigger…",
    "closedAt": "2026-08-30T23:23:25.773Z",
    "entry": 78720.68,
    "exit": 77839.3,
