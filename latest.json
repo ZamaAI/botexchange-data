@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-01T21:57:06.404Z",
+ "generatedAt": "2026-09-01T22:02:00.884Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 8,
    "wr": "33",
    "pnl": -29.92,
-   "account": 481.76,
-   "retPct": -3.6,
+   "account": 481.48,
+   "retPct": -3.7,
    "accountRealized": 470.08
   },
   {
@@ -5630,25 +5630,25 @@
    "gemini": 497.16,
    "luna": 456.74,
    "minimax": 473.32
+  },
+  {
+   "ts": "2026-09-01T22:00:00.000Z",
+   "hl": 1.50597,
+   "hl_spot": 496.701838,
+   "grvt": null,
+   "extended": 722.895761,
+   "capital": 3644.3583340000005,
+   "qwen": 481.48,
+   "hermes": 498.21,
+   "manual": 722.9,
+   "kimi": 474.02,
+   "deepseek": 521.19,
+   "gemini": 497.16,
+   "luna": 456.88,
+   "minimax": 473.04
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-08-31T22:00:00.000Z",
-   "hl": 8.3932,
-   "hl_spot": 514.931558,
-   "grvt": null,
-   "extended": 818.914144,
-   "capital": 3828.6152239999997,
-   "qwen": 490.94,
-   "hermes": 523.32,
-   "manual": 818.91,
-   "kimi": 474.02,
-   "deepseek": 551.97,
-   "gemini": 515.5,
-   "luna": 460.78,
-   "minimax": 483.15
-  },
   {
    "ts": "2026-08-31T22:05:00.000Z",
    "hl": 7.56328,
@@ -10240,6 +10240,22 @@
    "gemini": 497.16,
    "luna": 456.88,
    "minimax": 473.04
+  },
+  {
+   "ts": "2026-09-01T22:00:00.000Z",
+   "hl": 1.50597,
+   "hl_spot": 496.701838,
+   "grvt": null,
+   "extended": 722.895761,
+   "capital": 3644.3583340000005,
+   "qwen": 481.48,
+   "hermes": 498.21,
+   "manual": 722.9,
+   "kimi": 474.02,
+   "deepseek": 521.19,
+   "gemini": 497.16,
+   "luna": 456.88,
+   "minimax": 473.04
   }
  ],
  "venuesLive": {
@@ -10685,28 +10701,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 77265.04,
-    "change24hPct": -2.17
+    "price": 77195.36,
+    "change24hPct": -2.27
    },
    {
     "symbol": "ETH",
-    "price": 2417.04,
-    "change24hPct": -2.5
+    "price": 2414.42,
+    "change24hPct": -2.58
    },
    {
     "symbol": "BNB",
-    "price": 680.89,
-    "change24hPct": -1.71
+    "price": 680.47,
+    "change24hPct": -1.78
    },
    {
     "symbol": "XRP",
-    "price": 1.3508,
-    "change24hPct": -2.56
+    "price": 1.3492,
+    "change24hPct": -2.72
    },
    {
     "symbol": "SOL",
-    "price": 99.65,
-    "change24hPct": -3.85
+    "price": 99.64,
+    "change24hPct": -3.92
    }
   ],
   "fearGreed": {
@@ -10737,8 +10753,8 @@
    "date": "2026-08-26"
   },
   "riskIndex": {
-   "score": 37,
-   "band": "STABLE",
+   "score": 42,
+   "band": "NORMAL",
    "weighting": "equal",
    "weightPct": 10,
    "componentsLive": 10,
@@ -10746,56 +10762,66 @@
    "components": [
     {
      "key": "leverage",
-     "score": 50,
-     "detail": "majors OI +2.5%/24h"
+     "label": "Leverage build",
+     "score": 43,
+     "detail": "majors OI +1.5%/24h"
     },
     {
      "key": "funding",
-     "score": 20,
-     "detail": "mean |funding| 0.014%/day"
+     "label": "Funding extremity",
+     "score": 18,
+     "detail": "mean |funding| 0.012%/day"
     },
     {
      "key": "crowding",
+     "label": "Positioning crowding",
      "score": 53,
      "detail": "crowd 67% long — squeeze fuel below"
     },
     {
      "key": "liquidations",
-     "score": 37,
-     "detail": "$27M forced /24h (BTC/ETH/SOL, Binance)"
+     "label": "Liquidation stress",
+     "score": 60,
+     "detail": "$79M forced /24h (BTC/ETH/SOL, Binance)"
     },
     {
      "key": "volatility",
-     "score": 94,
-     "detail": "94th percentile vs own history"
+     "label": "Realized volatility",
+     "score": 95,
+     "detail": "95th percentile vs own history"
     },
     {
      "key": "liquidity",
-     "score": 47,
-     "detail": "stables +0.13%/7d, Fed flat"
+     "label": "Liquidity / dry powder",
+     "score": 49,
+     "detail": "stables +0.04%/7d, Fed flat"
     },
     {
      "key": "macro",
+     "label": "Macro coupling",
      "score": 4,
      "detail": "BTC↔NQ corr 0.03"
     },
     {
      "key": "breadth",
+     "label": "Breadth fragility",
      "score": 0,
      "detail": "5/5 majors above their 20d MA"
     },
     {
      "key": "impliedvol",
+     "label": "Implied volatility",
      "score": 23,
-     "detail": "BTC DVOL 38.0 vs 90d median 37.5"
+     "detail": "BTC DVOL 38.1 vs 90d median 37.5"
     },
     {
      "key": "takerflow",
-     "score": 37,
-     "detail": "48.9% taker buy — sellers crossing the spread"
+     "label": "Taker flow imbalance",
+     "score": 76,
+     "detail": "47.7% taker buy — sellers crossing the spread"
     }
    ],
-   "computedAt": 1788278538085
+   "computedAt": 1788300097747
   },
   "equityRegime": "NEUTRAL",
   "longShort": [
@@ -10833,18 +10859,18 @@
   "funding": [
    {
     "asset": "BTC",
-    "dailyPct": 0.0116,
+    "dailyPct": 0.0227,
     "signal": "NEUTRAL"
    },
    {
     "asset": "ETH",
-    "dailyPct": 0.0033,
+    "dailyPct": 0.0018,
     "signal": "NEUTRAL"
    },
    {
     "asset": "SOL",
-    "dailyPct": -0.0264,
-    "signal": "SQUEEZE ALERT"
+    "dailyPct": -0.013,
+    "signal": "NEUTRAL"
    }
   ],
   "btcNqCorr": {
@@ -10854,54 +10880,54 @@
   "movers": {
    "gainers": [
     {
-     "symbol": "GOOSE",
-     "price": 0.080457,
-     "changePct": 335.8
+     "symbol": "MARSCOIN",
+     "price": 0.068251,
+     "changePct": 55.8
     },
     {
-     "symbol": "MARSCOIN",
-     "price": 0.067478,
-     "changePct": 53.7
+     "symbol": "UAI",
+     "price": 0.543632,
+     "changePct": 43.3
+    },
+    {
+     "symbol": "MAGMA",
+     "price": 0.437869,
+     "changePct": 22.6
+    },
+    {
+     "symbol": "ONG",
+     "price": 0.110536,
+     "changePct": 22.6
     },
     {
      "symbol": "USELESS",
-     "price": 0.103279,
-     "changePct": 37.7
-    },
-    {
-     "symbol": "ARB",
-     "price": 0.109746,
-     "changePct": 25.5
-    },
-    {
-     "symbol": "BC",
-     "price": 0.03016753,
-     "changePct": 20.4
+     "price": 0.109355,
+     "changePct": 20.3
     }
    ],
    "losers": [
     {
-     "symbol": "AIX",
-     "price": 0.650803,
-     "changePct": -47.5
+     "symbol": "CYS",
+     "price": 0.428411,
+     "changePct": -32.9
     },
     {
-     "symbol": "CYS",
-     "price": 0.457806,
-     "changePct": -32.1
+     "symbol": "GEKKO",
+     "price": 8.44553e-7,
+     "changePct": -26.3
     },
     {
      "symbol": "SKR",
-     "price": 0.02429987,
-     "changePct": -20.2
+     "price": 0.02334682,
+     "changePct": -19.8
     },
     {
-     "symbol": "A7A5",
-     "price": 0.00959743,
-     "changePct": -16.8
+     "symbol": "AIX",
+     "price": 0.649727,
+     "changePct": -17.2
     }
    ],
-   "ageMin": 357
+   "ageMin": 2
   },
   "chainRotation": {
    "chains": [
@@ -11036,7 +11062,7 @@
      9
     ]
    ],
-   "ageMin": 172
+   "ageMin": 177
   }
  },
  "calendar": [
@@ -12669,7 +12695,7 @@
   }
  },
  "intel": {
-  "ageH": 0.5,
+  "ageH": 0.6,
   "narratives": [
    "* Corporate Bitcoin & Crypto Treasuries: Corporate balance sheet accumulation remains high with Strategy buying $369.7M in BTC, Strive adding $143M in BTC, Metaplanet moving $377M in BTC to Coinbase, and Bitmine acquirin",
    "* Real-World Asset (RWA) Tokenization: Regulatory and institutional rails are accelerating via SEC blockchain transaction proposals, an ICE/tZERO transfer agent partnership, and CoinGecko RWA data feeds for pre-IPO asset",
