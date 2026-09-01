@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-01T04:37:00.828Z",
+ "generatedAt": "2026-09-01T04:42:05.514Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -12,7 +12,7 @@
   },
   "machine": {
    "label": "Danny DeepSeek",
-   "account": 549.27
+   "account": 548.61
   }
  },
  "standings": [
@@ -26,7 +26,7 @@
    "losses": 8,
    "wr": "33",
    "pnl": -29.92,
-   "account": 489.93,
+   "account": 489.9,
    "retPct": -2,
    "accountRealized": 470.08
   },
@@ -40,8 +40,8 @@
    "losses": 2,
    "wr": "33",
    "pnl": 7.46,
-   "account": 524.17,
-   "retPct": 4.8,
+   "account": 521.69,
+   "retPct": 4.3,
    "accountRealized": 507.46
   },
   {
@@ -82,8 +82,8 @@
    "losses": 9,
    "wr": "44",
    "pnl": 34.83,
-   "account": 549.27,
-   "retPct": 9.9,
+   "account": 548.61,
+   "retPct": 9.7,
    "accountRealized": 534.83
   },
   {
@@ -96,8 +96,8 @@
    "losses": 7,
    "wr": "46",
    "pnl": 11.2,
-   "account": 522.76,
-   "retPct": 4.6,
+   "account": 521.02,
+   "retPct": 4.2,
    "accountRealized": 511.2
   },
   {
@@ -110,8 +110,8 @@
    "losses": 20,
    "wr": "26",
    "pnl": -54.92,
-   "account": 460,
-   "retPct": -8,
+   "account": 460.78,
+   "retPct": -7.8,
    "accountRealized": 445.08
   },
   {
@@ -5353,22 +5353,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-08-31T04:40:00.000Z",
-   "hl": 0,
-   "hl_spot": 507.096232,
-   "grvt": null,
-   "extended": 753.814961,
-   "capital": 3736.803229,
-   "qwen": 464.64,
-   "hermes": 507.1,
-   "manual": 753.81,
-   "kimi": 471.78,
-   "deepseek": 556.84,
-   "gemini": 500.17,
-   "luna": 463,
-   "minimax": 483.15
-  },
-  {
    "ts": "2026-08-31T04:45:00.000Z",
    "hl": 0,
    "hl_spot": 507.096232,
@@ -9959,14 +9943,30 @@
    "gemini": 522.76,
    "luna": 460,
    "minimax": 483.15
+  },
+  {
+   "ts": "2026-09-01T04:40:00.000Z",
+   "hl": 7.677117,
+   "hl_spot": 514.017172,
+   "grvt": null,
+   "extended": 839.941327,
+   "capital": 3850.184421,
+   "qwen": 489.9,
+   "hermes": 521.69,
+   "manual": 839.94,
+   "kimi": 474.02,
+   "deepseek": 548.61,
+   "gemini": 521.02,
+   "luna": 460.78,
+   "minimax": 483.15
   }
  ],
  "venuesLive": {
-  "hl": 8.97962,
-  "hl_spot": 515.193984,
+  "hl": 7.677117,
+  "hl_spot": 514.017172,
   "grvt": null,
-  "lighter": 2490.149109,
-  "total": 3014.322713
+  "lighter": 2488.548805,
+  "total": 3010.243094
  },
  "awaitingScore": {
   "at": "2026-09-01T02:15:23.702Z",
@@ -10478,28 +10478,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 78726.27,
-    "change24hPct": 1.59
+    "price": 78718.45,
+    "change24hPct": 1.55
    },
    {
     "symbol": "ETH",
-    "price": 2473.52,
-    "change24hPct": 2.47
+    "price": 2471.94,
+    "change24hPct": 2.39
    },
    {
     "symbol": "BNB",
-    "price": 693.02,
-    "change24hPct": 1.39
+    "price": 692.62,
+    "change24hPct": 1.37
    },
    {
     "symbol": "XRP",
-    "price": 1.3841,
-    "change24hPct": 2.53
+    "price": 1.3824,
+    "change24hPct": 2.44
    },
    {
     "symbol": "SOL",
-    "price": 103.81,
-    "change24hPct": 2.51
+    "price": 103.78,
+    "change24hPct": 2.43
    }
   ],
   "fearGreed": {
@@ -10539,86 +10539,96 @@
    "components": [
     {
      "key": "leverage",
-     "score": 39,
-     "detail": "majors OI +0.8%/24h"
+     "label": "Leverage build",
+     "score": 36,
+     "detail": "majors OI +0.4%/24h"
     },
     {
      "key": "funding",
-     "score": 27,
-     "detail": "mean |funding| 0.019%/day"
+     "label": "Funding extremity",
+     "score": 31,
+     "detail": "mean |funding| 0.022%/day"
     },
     {
      "key": "crowding",
+     "label": "Positioning crowding",
      "score": 47,
      "detail": "crowd 65% long — squeeze fuel below"
     },
     {
      "key": "liquidations",
+     "label": "Liquidation stress",
      "score": 44,
-     "detail": "$37M forced /24h (BTC/ETH/SOL, Binance)"
+     "detail": "$38M forced /24h (BTC/ETH/SOL, Binance)"
     },
     {
      "key": "volatility",
+     "label": "Realized volatility",
      "score": 92,
      "detail": "92th percentile vs own history"
     },
     {
      "key": "liquidity",
+     "label": "Liquidity / dry powder",
      "score": 47,
      "detail": "stables +0.13%/7d, Fed flat"
     },
     {
      "key": "macro",
+     "label": "Macro coupling",
      "score": 5,
      "detail": "BTC↔NQ corr 0.04"
     },
     {
      "key": "breadth",
+     "label": "Breadth fragility",
      "score": 0,
      "detail": "5/5 majors above their 20d MA"
     },
     {
      "key": "impliedvol",
+     "label": "Implied volatility",
      "score": 21,
      "detail": "BTC DVOL 37.4 vs 90d median 37.5"
     },
     {
      "key": "takerflow",
-     "score": 17,
-     "detail": "50.5% taker buy — buyers crossing the spread"
+     "label": "Taker flow imbalance",
+     "score": 19,
+     "detail": "50.6% taker buy — buyers crossing the spread"
     }
    ],
-   "computedAt": 1788235325459
+   "computedAt": 1788237714374
   },
   "equityRegime": "NEUTRAL",
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.015,
+    "ratio": 1.016,
     "longPct": 50.4,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.285,
-    "longPct": 69.6,
+    "ratio": 2.283,
+    "longPct": 69.5,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 1.909,
-    "longPct": 65.6,
+    "ratio": 1.914,
+    "longPct": 65.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.435,
+    "ratio": 2.438,
     "longPct": 70.9,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.362,
+    "ratio": 2.368,
     "longPct": 70.3,
     "bias": "CROWDED LONG"
    }
@@ -10626,17 +10636,17 @@
   "funding": [
    {
     "asset": "BTC",
-    "dailyPct": 0.0273,
+    "dailyPct": 0.0295,
     "signal": "NEUTRAL"
    },
    {
     "asset": "ETH",
-    "dailyPct": 0.0243,
+    "dailyPct": 0.0272,
     "signal": "NEUTRAL"
    },
    {
     "asset": "SOL",
-    "dailyPct": -0.0055,
+    "dailyPct": -0.0091,
     "signal": "NEUTRAL"
    }
   ],
@@ -10648,53 +10658,53 @@
    "gainers": [
     {
      "symbol": "RAM",
-     "price": 0.930535,
-     "changePct": 3539.4
+     "price": 0.930518,
+     "changePct": 3542.6
     },
     {
      "symbol": "GOOSE",
-     "price": 0.07022,
-     "changePct": 288.5
+     "price": 0.071799,
+     "changePct": 301
     },
     {
      "symbol": "USELESS",
-     "price": 0.095282,
+     "price": 0.095165,
      "changePct": 42.5
     },
     {
-     "symbol": "ARB",
-     "price": 0.111627,
-     "changePct": 30.6
+     "symbol": "PONS",
+     "price": 0.44472,
+     "changePct": 41.2
     },
     {
-     "symbol": "SAFE",
-     "price": 0.226531,
-     "changePct": 29.2
+     "symbol": "0G",
+     "price": 0.245452,
+     "changePct": 32.8
     }
    ],
    "losers": [
     {
-     "symbol": "CYS",
-     "price": 0.524621,
-     "changePct": -36.7
-    },
-    {
      "symbol": "AIX",
-     "price": 0.777932,
-     "changePct": -33.9
+     "price": 0.773309,
+     "changePct": -40.3
     },
     {
-     "symbol": "PROM",
-     "price": 5.27,
-     "changePct": -16
+     "symbol": "CYS",
+     "price": 0.515974,
+     "changePct": -38.6
     },
     {
      "symbol": "BC",
-     "price": 0.0295402,
-     "changePct": -13.7
+     "price": 0.02973205,
+     "changePct": -12.6
+    },
+    {
+     "symbol": "FF",
+     "price": 0.082745,
+     "changePct": -11.7
     }
    ],
-   "ageMin": 37
+   "ageMin": 2
   },
   "chainRotation": {
    "chains": [
@@ -10829,7 +10839,7 @@
      11
     ]
    ],
-   "ageMin": 5
+   "ageMin": 10
   }
  },
  "calendar": [
@@ -12446,7 +12456,7 @@
   }
  },
  "intel": {
-  "ageH": 1.1,
+  "ageH": 1.2,
   "narratives": [
    "• AI Infrastructure & M&A Consolidation: Highlighted by Anthropic's $35B cloud infrastructure deal with Lambda, Hut 8, and Nvidia, alongside Nvidia's $12.9B acquisition of Hugging Face and high-profile legal battles (Son",
    "• Layer 2 / Network Revenue Shifting: Robinhood Chain emerged as a market leader in daily gas revenue (+$1M/day), outpacing legacy networks like Tron, Base, and Ethereum on heavy DEX trading volume. (both)",
@@ -15550,7 +15560,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 524.17,
+    "equity": 521.69,
     "peak": 546.82
    },
    "LIGHTER_kimi": {
@@ -15568,7 +15578,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 549.27,
+    "equity": 548.61,
     "peak": 554.05
    },
    "LIGHTER_gemini": {
@@ -15577,7 +15587,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 522.76,
+    "equity": 521.02,
     "peak": 547.6
    },
    "LIGHTER_luna": {
@@ -15586,7 +15596,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 460,
+    "equity": 460.78,
     "peak": 536.23
    },
    "LIGHTER_minimax": {
