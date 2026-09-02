@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-02T11:17:07.369Z",
+ "generatedAt": "2026-09-02T11:22:01.273Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,7 +26,7 @@
    "losses": 8,
    "wr": "33",
    "pnl": -29.92,
-   "account": 479.2,
+   "account": 478.77,
    "retPct": -4.2,
    "accountRealized": 470.08
   },
@@ -63,14 +63,14 @@
    "label": "Kenny Kimi",
    "venue": "LIGHTER",
    "paper": false,
-   "trades": 12,
+   "trades": 13,
    "wins": 2,
-   "losses": 10,
-   "wr": "17",
-   "pnl": -41.49,
+   "losses": 11,
+   "wr": "15",
+   "pnl": -58.25,
    "account": 458.25,
    "retPct": -8.3,
-   "accountRealized": 458.51
+   "accountRealized": 441.75
   },
   {
    "key": "deepseek",
@@ -219,7 +219,7 @@
     463.6,
     463.6,
     458.51,
-    458.51
+    441.75
    ],
    "deepseek": [
     500,
@@ -5675,22 +5675,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-01T11:20:00.000Z",
-   "hl": -3.48,
-   "hl_spot": 503.234829,
-   "grvt": null,
-   "extended": 790.418224,
-   "capital": 3758.8562070000003,
-   "qwen": 486.77,
-   "hermes": 499.75,
-   "manual": 790.42,
-   "kimi": 474.02,
-   "deepseek": 545.38,
-   "gemini": 504.44,
-   "luna": 462.92,
-   "minimax": 480.98
-  },
-  {
    "ts": "2026-09-01T11:25:00.000Z",
    "hl": -3.48,
    "hl_spot": 503.234829,
@@ -10281,6 +10265,22 @@
    "gemini": 485.57,
    "luna": 458.84,
    "minimax": 454.36
+  },
+  {
+   "ts": "2026-09-02T11:20:00.000Z",
+   "hl": -4.282,
+   "hl_spot": 490.99495,
+   "grvt": null,
+   "extended": 632.357985,
+   "capital": 3522.8807970000003,
+   "qwen": 478.77,
+   "hermes": 486.71,
+   "manual": 632.36,
+   "kimi": 458.25,
+   "deepseek": 545.84,
+   "gemini": 485.57,
+   "luna": 458.84,
+   "minimax": 454.36
   }
  ],
  "venuesLive": {
@@ -10317,23 +10317,6 @@
    "conviction": 6,
    "openedAt": "2026-09-02T09:49:09.953Z",
    "thesis": "gemini pick (LIVE, trigger-filled from AWAITING watch at $98.66: SOL retraces to range-low support at $98.50 and prints a 15m bullish reversal candle with sell volume declining.)",
-   "smartMoney": null
-  },
-  {
-   "id": 644,
-   "asset": "UNI",
-   "direction": "LONG",
-   "actor": "kimi",
-   "venue": "LIGHTER",
-   "entry": 6.161,
-   "stop": 5.91456,
-   "target": 6.68468,
-   "levelsApprox": true,
-   "trailed": false,
-   "rr": 2.1,
-   "conviction": 6,
-   "openedAt": "2026-09-02T09:49:08.555Z",
-   "thesis": "kimi pick (LIVE, trigger-filled from AWAITING watch at $6.161: 4h close above $6.15 (R1 $6.142 / swing high $6.073 zone) with OI still rising (currently +3.9% 4h / +8.5% 24h) — a confirmed range break, not the current touch of the ceiling.)",
    "smartMoney": null
   },
   {
@@ -10565,6 +10548,20 @@
  ],
  "recentCloses": [
   {
+   "id": 644,
+   "asset": "UNI",
+   "direction": "LONG",
+   "actor": "kimi",
+   "venue": "LIGHTER",
+   "outcome": "LOSS",
+   "pct": -4.3,
+   "exitReason": "LONG UNI: stopped out at SL -4.3% (entry $6.161 → exit $5.8961). WHY: Range broke above $6.15 but lacked follow-through; OI rise masked weak conviction, reverting to chop before stop hit.",
+   "closedAt": "2026-09-02T11:17:56.533Z",
+   "entry": 6.161,
+   "exit": 5.8961,
+   "openedAt": "2026-09-02T09:49:08.555Z"
+  },
+  {
    "id": 628,
    "asset": "XRP",
    "direction": "LONG",
@@ -10572,7 +10569,7 @@
    "venue": "LIGHTER",
    "outcome": "LOSS",
    "pct": -4.7,
-   "exitReason": null,
+   "exitReason": "LONG XRP: stopped out at SL -4.7% (entry $1.38 → exit $1.314823). WHY: Retail crowding signal inverted when ETF inflows didn't propagate to alts; chased into chop range instead of fading upper bound…",
    "closedAt": "2026-09-02T10:52:58.986Z",
    "entry": 1.38,
    "exit": 1.314823,
@@ -10586,7 +10583,7 @@
    "venue": "LIGHTER",
    "outcome": "LOSS",
    "pct": -2.2,
-   "exitReason": null,
+   "exitReason": "LONG ETH: stopped out at SL -2.2% (entry $2415.46 → exit $2363.45). WHY: The structural bid from Bitmine never materialized as support; ETH broke below S2 on a 4h close, confirming thesis…",
    "closedAt": "2026-09-02T10:32:57.490Z",
    "entry": 2415.46,
    "exit": 2363.45,
@@ -10717,48 +10714,34 @@
    "entry": 102.03,
    "exit": 100.3,
    "openedAt": "2026-09-01T16:03:59.195Z"
-  },
-  {
-   "id": 632,
-   "asset": "SOL",
-   "direction": "LONG",
-   "actor": "gemini",
-   "venue": "LIGHTER",
-   "outcome": "LOSS",
-   "pct": -1.8,
-   "exitReason": "LONG SOL: stopped out at SL -1.8% (entry $101.65 → exit $99.77). WHY: S1 support ($100.97) never held—price broke below thesis trigger immediately, turning chase-into-chop into a trapped long in a…",
-   "closedAt": "2026-09-01T18:19:02.210Z",
-   "entry": 101.65,
-   "exit": 99.77,
-   "openedAt": "2026-09-01T13:04:10.421Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 76616,
-    "change24hPct": -1.8
+    "price": 76497.55,
+    "change24hPct": -1.82
    },
    {
     "symbol": "ETH",
-    "price": 2374.26,
-    "change24hPct": -3.32
+    "price": 2371.76,
+    "change24hPct": -3.37
    },
    {
     "symbol": "BNB",
-    "price": 682.55,
-    "change24hPct": -0.57
+    "price": 681.88,
+    "change24hPct": -0.6
    },
    {
     "symbol": "XRP",
-    "price": 1.3193,
-    "change24hPct": -4.18
+    "price": 1.3166,
+    "change24hPct": -4.48
    },
    {
     "symbol": "SOL",
-    "price": 97.99,
-    "change24hPct": -4.26
+    "price": 97.74,
+    "change24hPct": -4.38
    }
   ],
   "fearGreed": {
@@ -10863,31 +10846,31 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.307,
-    "longPct": 56.7,
+    "ratio": 1.317,
+    "longPct": 56.9,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.857,
+    "ratio": 2.865,
     "longPct": 74.1,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.029,
-    "longPct": 67,
+    "ratio": 2.04,
+    "longPct": 67.1,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.349,
-    "longPct": 70.1,
+    "ratio": 2.351,
+    "longPct": 70.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.479,
+    "ratio": 2.489,
     "longPct": 71.3,
     "bias": "CROWDED LONG"
    }
@@ -10968,7 +10951,7 @@
      "changePct": -21.6
     }
    ],
-   "ageMin": 77
+   "ageMin": 82
   },
   "chainRotation": {
    "chains": [
@@ -11107,7 +11090,7 @@
      2
     ]
    ],
-   "ageMin": 182
+   "ageMin": 187
   }
  },
  "calendar": [
@@ -11954,27 +11937,6 @@
     "short": []
    },
    {
-    "asset": "UNI",
-    "long": [
-     {
-      "actor": "kimi",
-      "conv": 6,
-      "kind": "live"
-     },
-     {
-      "actor": "gemini",
-      "conv": 6,
-      "kind": "watching"
-     },
-     {
-      "actor": "qwen",
-      "conv": 7,
-      "kind": "watching"
-     }
-    ],
-    "short": []
-   },
-   {
     "asset": "CRCL",
     "long": [
      {
@@ -11985,6 +11947,22 @@
      {
       "actor": "luna",
       "conv": 5,
+      "kind": "watching"
+     }
+    ],
+    "short": []
+   },
+   {
+    "asset": "UNI",
+    "long": [
+     {
+      "actor": "gemini",
+      "conv": 6,
+      "kind": "watching"
+     },
+     {
+      "actor": "qwen",
+      "conv": 7,
       "kind": "watching"
      }
     ],
@@ -12720,7 +12698,7 @@
   }
  },
  "intel": {
-  "ageH": 1.8,
+  "ageH": 1.9,
   "narratives": [
    "* Tokenized Equities & RWA Yield: Robinhood Chain volume hit $1.49B behind tokenized stock wrappers, while native dApp Ripe launched Yam Finance-style yield farming using tokenized NVDA and AAPL (newsletter).",
    "* 24/7 Continuous Equity Trading: SEC proposed rule updates for blockchain settlement and smart contracts alongside a institutional roundtable targeting continuous stock trading (both).",
@@ -12907,6 +12885,22 @@
  ],
  "archive": [
   {
+   "id": 644,
+   "asset": "UNI",
+   "direction": "LONG",
+   "actor": "kimi",
+   "venue": "LIGHTER",
+   "outcome": "LOSS",
+   "pct": -4.3,
+   "pnlUsd": -16.76,
+   "exitReason": "LONG UNI: stopped out at SL -4.3% (entry $6.161 → exit $5.8961). WHY: Range broke above $6.15 but lacked follow-through; OI rise masked weak conviction, reverting to chop before stop hit.",
+   "closedAt": "2026-09-02T11:17:56.533Z",
+   "entry": 6.161,
+   "exit": 5.8961,
+   "conviction": 6,
+   "openedAt": "2026-09-02T09:49:08.555Z"
+  },
+  {
    "id": 628,
    "asset": "XRP",
    "direction": "LONG",
@@ -12915,7 +12909,7 @@
    "outcome": "LOSS",
    "pct": -4.7,
    "pnlUsd": -19.99,
-   "exitReason": null,
+   "exitReason": "LONG XRP: stopped out at SL -4.7% (entry $1.38 → exit $1.314823). WHY: Retail crowding signal inverted when ETF inflows didn't propagate to alts; chased into chop range instead of fading upper bound…",
    "closedAt": "2026-09-02T10:52:58.986Z",
    "entry": 1.38,
    "exit": 1.314823,
@@ -12931,7 +12925,7 @@
    "outcome": "LOSS",
    "pct": -2.2,
    "pnlUsd": -8.66,
-   "exitReason": null,
+   "exitReason": "LONG ETH: stopped out at SL -2.2% (entry $2415.46 → exit $2363.45). WHY: The structural bid from Bitmine never materialized as support; ETH broke below S2 on a 4h close, confirming thesis…",
    "closedAt": "2026-09-02T10:32:57.490Z",
    "entry": 2415.46,
    "exit": 2363.45,
@@ -16229,12 +16223,12 @@
   },
   "streaks": {
    "grok": 1,
-   "kimi": 0,
+   "kimi": 1,
    "deepseek": 0,
    "gemini": 2,
    "luna": 0,
    "minimax": 2,
-   "fleet": 2
+   "fleet": 3
   },
   "limits": {
    "dailyLossPct": 7.5,
