@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-03T01:17:06.666Z",
+ "generatedAt": "2026-09-03T01:22:03.827Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 8,
    "wr": "33",
    "pnl": -29.92,
-   "account": 456.38,
-   "retPct": -8.7,
+   "account": 456.2,
+   "retPct": -8.8,
    "accountRealized": 470.08
   },
   {
@@ -5675,22 +5675,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-02T01:20:00.000Z",
-   "hl": 1.44594,
-   "hl_spot": 496.115456,
-   "grvt": null,
-   "extended": 719.852793,
-   "capital": 3644.2110880000005,
-   "qwen": 481.83,
-   "hermes": 497.56,
-   "manual": 719.85,
-   "kimi": 474.02,
-   "deepseek": 528.22,
-   "gemini": 497.16,
-   "luna": 457.42,
-   "minimax": 469.02
-  },
-  {
    "ts": "2026-09-02T01:25:00.000Z",
    "hl": 1.4877,
    "hl_spot": 496.162436,
@@ -10265,6 +10249,22 @@
    "gemini": 494.72,
    "luna": 454.85,
    "minimax": 454.36
+  },
+  {
+   "ts": "2026-09-03T01:20:00.000Z",
+   "hl": 8.849450000000001,
+   "hl_spot": 503.737816,
+   "grvt": null,
+   "extended": 629.491196,
+   "capital": 3547.922129,
+   "qwen": 456.2,
+   "hermes": 512.59,
+   "manual": 629.49,
+   "kimi": 457.08,
+   "deepseek": 543.87,
+   "gemini": 494.72,
+   "luna": 454.85,
+   "minimax": 454.36
   }
  ],
  "venuesLive": {
@@ -10857,28 +10857,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 77372.85,
-    "change24hPct": 0.15
+    "price": 77325.46,
+    "change24hPct": 0.05
    },
    {
     "symbol": "ETH",
-    "price": 2389.58,
-    "change24hPct": -0.88
+    "price": 2387.45,
+    "change24hPct": -1.03
    },
    {
     "symbol": "BNB",
-    "price": 689.77,
-    "change24hPct": 0.82
+    "price": 689.44,
+    "change24hPct": 0.71
    },
    {
     "symbol": "XRP",
-    "price": 1.3596,
-    "change24hPct": 1.36
+    "price": 1.357,
+    "change24hPct": 1.14
    },
    {
     "symbol": "SOL",
-    "price": 100.35,
-    "change24hPct": 0.65
+    "price": 100.17,
+    "change24hPct": 0.41
    }
   ],
   "fearGreed": {
@@ -10983,7 +10983,7 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.218,
+    "ratio": 1.216,
     "longPct": 54.9,
     "bias": "BALANCED"
    },
@@ -10995,20 +10995,20 @@
    },
    {
     "asset": "SOL",
-    "ratio": 2.023,
+    "ratio": 2.024,
     "longPct": 66.9,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.375,
+    "ratio": 2.38,
     "longPct": 70.4,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.374,
-    "longPct": 70.4,
+    "ratio": 2.4,
+    "longPct": 70.6,
     "bias": "CROWDED LONG"
    }
   ],
@@ -11083,7 +11083,7 @@
      "changePct": -13.1
     }
    ],
-   "ageMin": 197
+   "ageMin": 202
   },
   "chainRotation": {
    "chains": [
@@ -11218,7 +11218,7 @@
      12
     ]
    ],
-   "ageMin": 196
+   "ageMin": 201
   }
  },
  "calendar": [
@@ -12006,6 +12006,38 @@
     ]
    },
    {
+    "asset": "SOL",
+    "long": [
+     {
+      "actor": "grok",
+      "conv": 5,
+      "kind": "live"
+     },
+     {
+      "actor": "gemini",
+      "conv": 6,
+      "kind": "live"
+     },
+     {
+      "actor": "kimi",
+      "conv": 6,
+      "kind": "watching"
+     },
+     {
+      "actor": "luna",
+      "conv": 5,
+      "kind": "watching"
+     }
+    ],
+    "short": [
+     {
+      "actor": "deepseek",
+      "conv": 5,
+      "kind": "watching"
+     }
+    ]
+   },
+   {
     "asset": "ARB",
     "long": [
      {
@@ -12076,37 +12108,6 @@
       "actor": "gemini",
       "conv": 6,
       "kind": "paper"
-     }
-    ],
-    "short": []
-   },
-   {
-    "asset": "SOL",
-    "long": [
-     {
-      "actor": "grok",
-      "conv": 5,
-      "kind": "live"
-     },
-     {
-      "actor": "gemini",
-      "conv": 6,
-      "kind": "live"
-     },
-     {
-      "actor": "kimi",
-      "conv": 6,
-      "kind": "watching"
-     },
-     {
-      "actor": "luna",
-      "conv": 5,
-      "kind": "watching"
-     },
-     {
-      "actor": "deepseek",
-      "conv": 6,
-      "kind": "watching"
      }
     ],
     "short": []
@@ -12547,7 +12548,7 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 4575,
+   "totalPrints7d": 4559,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
@@ -12555,43 +12556,43 @@
      "coin": "BTC",
      "l": 1,
      "s": 4,
-     "netK": -3862,
-     "concPct": 51
+     "netK": -4099,
+     "concPct": 50
     },
     {
      "coin": "ETH",
-     "l": 2,
-     "s": 4,
-     "netK": 3099,
+     "l": 3,
+     "s": 3,
+     "netK": 3089,
      "concPct": 72
     },
     {
      "coin": "SOL",
      "l": 2,
      "s": 2,
-     "netK": -2237,
+     "netK": -2247,
      "concPct": 94
     },
     {
      "coin": "ZEC",
      "l": 2,
      "s": 2,
-     "netK": -203,
+     "netK": -204,
      "concPct": 53
     },
     {
      "coin": "HYPE",
      "l": 3,
      "s": 1,
-     "netK": 1693,
-     "concPct": 78
+     "netK": 1673,
+     "concPct": 79
     },
     {
      "coin": "XAU",
      "l": 1,
      "s": 3,
-     "netK": -763,
-     "concPct": 65
+     "netK": -793,
+     "concPct": 64
     },
     {
      "coin": "SNDK",
@@ -12604,25 +12605,25 @@
      "coin": "WLD",
      "l": 1,
      "s": 1,
-     "netK": -879,
+     "netK": -881,
      "concPct": 100
     }
    ],
    "coinFlow": [
     {
      "coin": "ETH",
-     "netK": -3510,
-     "n": 1373
+     "netK": -3461,
+     "n": 1365
     },
     {
      "coin": "BTC",
-     "netK": 1461,
-     "n": 738
+     "netK": 1869,
+     "n": 740
     },
     {
      "coin": "SOL",
-     "netK": 1046,
-     "n": 566
+     "netK": 947,
+     "n": 560
     },
     {
      "coin": "ZEC",
@@ -12638,15 +12639,15 @@
    "accounts": [
     {
      "id": 313004,
-     "prints": 305,
-     "volK": 5029,
-     "biasK": -371,
-     "equity": 76247,
+     "prints": 302,
+     "volK": 4965,
+     "biasK": -347,
+     "equity": 76221,
      "positions": [
       {
        "coin": "ETH",
-       "side": "SHORT",
-       "usdK": 4,
+       "side": "LONG",
+       "usdK": 0,
        "upnlK": 0
       }
      ]
@@ -12672,12 +12673,12 @@
      "prints": 99,
      "volK": 2773,
      "biasK": 30,
-     "equity": 950466,
+     "equity": 950434,
      "positions": [
       {
        "coin": "BTC",
        "side": "SHORT",
-       "usdK": 106,
+       "usdK": 338,
        "upnlK": 0
       },
       {
@@ -12687,14 +12688,14 @@
        "upnlK": 0
       },
       {
-       "coin": "XRP",
+       "coin": "SOL",
        "side": "LONG",
-       "usdK": 0,
+       "usdK": 1,
        "upnlK": 0
       },
       {
-       "coin": "HYPE",
-       "side": "SHORT",
+       "coin": "XRP",
+       "side": "LONG",
        "usdK": 0,
        "upnlK": 0
       }
@@ -12876,7 +12877,7 @@
   }
  },
  "intel": {
-  "ageH": 3.8,
+  "ageH": 3.9,
   "narratives": [
    "* Tokenized Equities & MemeFi Infrastructure: Robinhood Chain DEX pools pair memecoins (e.g., BONER, AI) directly against stock wrappers (HIMS, NVDA), yielding up to 819% APR on TVL as meme trades force routing into unde",
    "* Decentralized AI & Agentic Compute: Capital is rotating back into base-layer chains serving as settlement layers for AI agents, accompanied by major software releases including Anthropic's Claude Fable 5.1 (75% cache d",
