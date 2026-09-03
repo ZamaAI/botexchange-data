@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-03T14:32:01.792Z",
+ "generatedAt": "2026-09-03T14:37:01.218Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 8,
    "wr": "33",
    "pnl": -29.92,
-   "account": 519.36,
-   "retPct": 3.9,
+   "account": 519.92,
+   "retPct": 4,
    "accountRealized": 470.08
   },
   {
@@ -5684,22 +5684,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-02T14:35:00.000Z",
-   "hl": 4.3744250000000005,
-   "hl_spot": 499.312681,
-   "grvt": null,
-   "extended": 643.713791,
-   "capital": 3550.7387590000003,
-   "qwen": 488.88,
-   "hermes": 503.69,
-   "manual": 643.71,
-   "kimi": 457.25,
-   "deepseek": 541.93,
-   "gemini": 490.68,
-   "luna": 458.17,
-   "minimax": 454.36
-  },
-  {
    "ts": "2026-09-02T14:40:00.000Z",
    "hl": 3.89189,
    "hl_spot": 498.845133,
@@ -10274,6 +10258,22 @@
    "gemini": 503.22,
    "luna": 480.36,
    "minimax": 452.47
+  },
+  {
+   "ts": "2026-09-03T14:35:00.000Z",
+   "hl": 24.929450000000003,
+   "hl_spot": 520.260314,
+   "grvt": null,
+   "extended": 733.984941,
+   "capital": 3754.668752,
+   "qwen": 519.92,
+   "hermes": 545.19,
+   "manual": 733.98,
+   "kimi": 471.87,
+   "deepseek": 566.61,
+   "gemini": 503.22,
+   "luna": 480.36,
+   "minimax": 452.47
   }
  ],
  "venuesLive": {
@@ -10295,6 +10295,42 @@
   "liveN": 83
  },
  "openTrades": [
+  {
+   "id": 667,
+   "asset": "BNB",
+   "direction": "SHORT",
+   "actor": "deepseek",
+   "venue": "LIGHTER",
+   "entry": 718.02,
+   "stop": 725.2,
+   "target": 674.939,
+   "levelsApprox": true,
+   "cls": "crypto",
+   "trailed": false,
+   "rr": 5.4,
+   "conviction": 5,
+   "openedAt": "2026-09-03T14:34:10.395Z",
+   "thesis": "deepseek pick (LIVE, trigger-filled from AWAITING watch at $718.02: BNB tags $718 near the swing high $726.08 with 1h RSI >75 (already 71.75 and rising) and prints a 1h bearish rejection close.)",
+   "smartMoney": null
+  },
+  {
+   "id": 666,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "deepseek",
+   "venue": "LIGHTER",
+   "entry": 102.86,
+   "stop": 99.2599,
+   "target": 110.575,
+   "levelsApprox": true,
+   "cls": "crypto",
+   "trailed": false,
+   "rr": 2.2,
+   "conviction": 5,
+   "openedAt": "2026-09-03T14:34:07.153Z",
+   "thesis": "deepseek pick (LIVE, trigger-filled from AWAITING watch at $102.86: 4h close above R2 $102.84 AND SOL OI 4h flips from falling to flat/rising, entering at/above $102.90.)",
+   "smartMoney": null
+  },
   {
    "id": 664,
    "asset": "SOL",
@@ -10895,28 +10931,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 79777.09,
-    "change24hPct": 3.39
+    "price": 79728.64,
+    "change24hPct": 3.37
    },
    {
     "symbol": "ETH",
-    "price": 2454.48,
-    "change24hPct": 2.44
+    "price": 2457.11,
+    "change24hPct": 2.52
    },
    {
     "symbol": "BNB",
-    "price": 718.49,
-    "change24hPct": 4.63
+    "price": 718.68,
+    "change24hPct": 4.61
    },
    {
     "symbol": "XRP",
-    "price": 1.4092,
-    "change24hPct": 5.21
+    "price": 1.41,
+    "change24hPct": 5.46
    },
    {
     "symbol": "SOL",
-    "price": 102.9,
-    "change24hPct": 3.86
+    "price": 102.48,
+    "change24hPct": 3.36
    }
   ],
   "fearGreed": {
@@ -11138,7 +11174,7 @@
      "changePct": -9.1
     }
    ],
-   "ageMin": 272
+   "ageMin": 277
   },
   "chainRotation": {
    "chains": [
@@ -11269,7 +11305,7 @@
      2
     ]
    ],
-   "ageMin": 196
+   "ageMin": 201
   }
  },
  "calendar": [
@@ -12023,12 +12059,7 @@
      {
       "actor": "deepseek",
       "conv": 5,
-      "kind": "watching"
-     },
-     {
-      "actor": "luna",
-      "conv": 5,
-      "kind": "watching"
+      "kind": "live"
      },
      {
       "actor": "kimi",
@@ -12055,12 +12086,12 @@
     ],
     "short": [
      {
-      "actor": "minimax",
+      "actor": "deepseek",
       "conv": 5,
-      "kind": "watching"
+      "kind": "live"
      },
      {
-      "actor": "deepseek",
+      "actor": "minimax",
       "conv": 5,
       "kind": "watching"
      }
@@ -12182,11 +12213,6 @@
      {
       "actor": "grok",
       "conv": 5,
-      "kind": "watching"
-     },
-     {
-      "actor": "gemini",
-      "conv": 6,
       "kind": "watching"
      },
      {
@@ -17664,8 +17690,8 @@
     "pickCycles7d": 64,
     "pickRate7d": 93,
     "awaiting7d": 30,
-    "saves7d": 16,
-    "routedSaves7d": 15,
+    "saves7d": 18,
+    "routedSaves7d": 17,
     "cost7dUsd": 2.4,
     "calls7d": 69
    },
