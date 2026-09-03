@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-03T13:02:01.199Z",
+ "generatedAt": "2026-09-03T13:07:01.889Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 8,
    "wr": "33",
    "pnl": -29.92,
-   "account": 487.9,
-   "retPct": -2.4,
+   "account": 488.64,
+   "retPct": -2.3,
    "accountRealized": 470.08
   },
   {
@@ -5684,22 +5684,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-02T13:05:00.000Z",
-   "hl": -2.24557,
-   "hl_spot": 492.816106,
-   "grvt": null,
-   "extended": 634.985852,
-   "capital": 3525.8666330000005,
-   "qwen": 480.26,
-   "hermes": 490.57,
-   "manual": 634.99,
-   "kimi": 457.25,
-   "deepseek": 543.4,
-   "gemini": 486.2,
-   "luna": 458.15,
-   "minimax": 454.36
-  },
-  {
    "ts": "2026-09-02T13:10:00.000Z",
    "hl": -2.24557,
    "hl_spot": 492.816106,
@@ -10274,6 +10258,22 @@
    "gemini": 499.88,
    "luna": 475.56,
    "minimax": 454.36
+  },
+  {
+   "ts": "2026-09-03T13:05:00.000Z",
+   "hl": 16.467010000000002,
+   "hl_spot": 512.016559,
+   "grvt": null,
+   "extended": 721.374036,
+   "capital": 3720.8484430000003,
+   "qwen": 488.64,
+   "hermes": 528.48,
+   "manual": 721.37,
+   "kimi": 463.53,
+   "deepseek": 576.7,
+   "gemini": 499.88,
+   "luna": 475.56,
+   "minimax": 454.36
   }
  ],
  "venuesLive": {
@@ -10895,28 +10895,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 78671.21,
-    "change24hPct": 2.55
+    "price": 78538.2,
+    "change24hPct": 2.16
    },
    {
     "symbol": "ETH",
-    "price": 2421.59,
-    "change24hPct": 1.67
+    "price": 2417.37,
+    "change24hPct": 1.35
    },
    {
     "symbol": "BNB",
-    "price": 713.74,
-    "change24hPct": 4.37
+    "price": 713.44,
+    "change24hPct": 4.18
    },
    {
     "symbol": "XRP",
-    "price": 1.3862,
-    "change24hPct": 4.9
+    "price": 1.3831,
+    "change24hPct": 4.26
    },
    {
     "symbol": "SOL",
-    "price": 101.53,
-    "change24hPct": 3.7
+    "price": 101.45,
+    "change24hPct": 3.28
    }
   ],
   "fearGreed": {
@@ -11033,32 +11033,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.176,
-    "longPct": 54,
+    "ratio": 1.152,
+    "longPct": 53.5,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.694,
-    "longPct": 72.9,
+    "ratio": 2.702,
+    "longPct": 73,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 1.985,
-    "longPct": 66.5,
+    "ratio": 2.077,
+    "longPct": 67.5,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.211,
-    "longPct": 68.9,
+    "ratio": 2.201,
+    "longPct": 68.8,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.394,
-    "longPct": 70.5,
+    "ratio": 2.339,
+    "longPct": 70,
     "bias": "CROWDED LONG"
    }
   ],
@@ -11138,7 +11138,7 @@
      "changePct": -9.1
     }
    ],
-   "ageMin": 182
+   "ageMin": 187
   },
   "chainRotation": {
    "chains": [
@@ -11269,7 +11269,7 @@
      2
     ]
    ],
-   "ageMin": 106
+   "ageMin": 111
   }
  },
  "calendar": [
@@ -12120,42 +12120,6 @@
     "short": []
    },
    {
-    "asset": "SOL",
-    "long": [
-     {
-      "actor": "grok",
-      "conv": 5,
-      "kind": "live"
-     },
-     {
-      "actor": "gemini",
-      "conv": 6,
-      "kind": "live"
-     },
-     {
-      "actor": "deepseek",
-      "conv": 5,
-      "kind": "watching"
-     },
-     {
-      "actor": "luna",
-      "conv": 5,
-      "kind": "watching"
-     },
-     {
-      "actor": "qwen",
-      "conv": 6,
-      "kind": "watching"
-     },
-     {
-      "actor": "kimi",
-      "conv": 5,
-      "kind": "watching"
-     }
-    ],
-    "short": []
-   },
-   {
     "asset": "ETH",
     "long": [
      {
@@ -12180,6 +12144,37 @@
      },
      {
       "actor": "grok",
+      "conv": 5,
+      "kind": "watching"
+     }
+    ],
+    "short": []
+   },
+   {
+    "asset": "SOL",
+    "long": [
+     {
+      "actor": "grok",
+      "conv": 5,
+      "kind": "live"
+     },
+     {
+      "actor": "gemini",
+      "conv": 6,
+      "kind": "live"
+     },
+     {
+      "actor": "deepseek",
+      "conv": 5,
+      "kind": "watching"
+     },
+     {
+      "actor": "luna",
+      "conv": 5,
+      "kind": "watching"
+     },
+     {
+      "actor": "kimi",
       "conv": 5,
       "kind": "watching"
      }
@@ -13042,6 +13037,13 @@
  },
  "deskNotes": [
   {
+   "ts": "2026-09-03T13:02:51.222Z",
+   "brain": "deepseek",
+   "model": "DeepSeek V4",
+   "kind": "intraday scan",
+   "text": "READ: BTC is pressing into the ~$79.4k range high with 4SEP max pain at ~$72k, while SOL/ETH gains are mostly short-covering on falling OI — no fresh CONFIRMED edge right now.\n\nDANNY DEEPSEEK SIGNALS\nSIGNAL: SOL LONG\nEntry: ~$102.9\nTarget: ~$110.6\nStop: ~$99.4\nConviction: 5/10\nStatus: AWAITING\nTrigger: 4h close above R2 ~$102.84 AND SOL OI 4h flips from falling to flat/rising, entering at/above ~$102.9.\nEdge: SOL is attempting a continuation breakout from a transitional structure while the recent +1.63% move came on 24h OI -6.1% short covering; joining a move while leverage unwinds has measured positive expectancy, but needs an R2 reclaim to confirm fresh demand. INVALID IF: 4h close back below pivot ~$99.5 before the trigger, or SOL OI keeps falling with no new long build.\n\nCONVICTION AUDIT: BTC:5, ETH:4, SOL:6, BNB:3, XRP:3, ARB:6, SUI:2\nDECISION\nsilence — one AWAITING watch only, no live"
+  },
+  {
    "ts": "2026-09-03T13:01:10.260Z",
    "brain": "grok",
    "model": "Grok 4.6",
@@ -13145,13 +13147,6 @@
    "model": "GPT-5.6",
    "kind": "intraday scan",
    "text": "READ: Since the last report, SOL has advanced to ~$100.75 while its positioning data shows the move is being driven by leverage unwinding rather than fresh long build. BTC and ETH remain supported but have no new clean edge, and their existing positions prevent duplication.\n\nLUNA GPT SIGNALS\nSIGNAL: SOL LONG\nEntry: ~$100.75\nTarget: ~$106.2\nStop: ~$98.3\nConviction: 6/10\nStatus: CONFIRMED\nEdge: SOL price is rising while OI falls 6.1% over 24h, confirming short-covering, and last-4h buy pressure is 52% versus 49.3% selling; the structural S1 at ~$98.3 provides invalidation. INVALID IF: SOL breaks and holds below ~$98.3 before reaching target.\n\nCONVICTION AUDIT — MANDATORY.\nCONVICTION AUDIT: BTC:3, ETH:2, SOL:6, BNB:3, XRP:2, ARB:4, SUI:3\n\nDECISION\nTrade SOL long; no additional setups.\nDECISION: Trade SOL long; no additional setups."
-  },
-  {
-   "ts": "2026-09-03T11:34:08.471Z",
-   "brain": "gemini",
-   "model": "Gemini 3.7 Flash",
-   "kind": "intraday scan",
-   "text": "READ: Crypto majors remain in an orderly risk-on regime with BTC holding above ~$77.8k, while altcoins show localized momentum divergence. Existing long exposure in BTC, ETH, and SOL is healthy, keeping the hurdle high for new immediate capital deployment.\n\nGINA GEMINI SIGNALS\nSIGNAL: ARB LONG\nEntry: ~$0.142\nTarget: ~$0.153\nStop: ~$0.137\nConviction: 6/10\nStatus: AWAITING\nTrigger: 1h candle close above ~$0.141 swing high with 4h OI expanding >3%\nEdge: ARB demonstrates the highest trend efficiency in the universe (ER ~0.587) and clearing the ~$0.141 range high unlocks continuation toward ~$0.153 resistance. INVALID IF: Price rejects ~$0.141 and breaks below the ~$0.133 pivot support on rising sell volume.\n\nCONVICTION AUDIT: BTC:4, ETH:4, SOL:5, ARB:6, BNB:3, XRP:3, SUI:4\n\nDECISION\nAwaiting ARB breakout confirmation above range high before adding risk.\nDECISION: Awaiting ARB breakout confirma"
   }
  ],
  "archive": [
@@ -17585,7 +17580,7 @@
      "arm": "wide",
      "tier": "low",
      "model": "deepseek-v4-pro",
-     "cycles": 154
+     "cycles": 155
     }
    ],
    "current": {
@@ -17663,14 +17658,14 @@
     }
    ],
    "activity": {
-    "cycles7d": 68,
-    "pickCycles7d": 63,
+    "cycles7d": 69,
+    "pickCycles7d": 64,
     "pickRate7d": 93,
     "awaiting7d": 30,
     "saves7d": 16,
     "routedSaves7d": 15,
-    "cost7dUsd": 2.38,
-    "calls7d": 68
+    "cost7dUsd": 2.4,
+    "calls7d": 69
    },
    "recentCloses": [
     {
@@ -18337,8 +18332,8 @@
     "awaiting7d": 12,
     "saves7d": 7,
     "routedSaves7d": 3,
-    "cost7dUsd": 0.99,
-    "calls7d": 115
+    "cost7dUsd": 1.01,
+    "calls7d": 116
    },
    "recentCloses": [
     {
