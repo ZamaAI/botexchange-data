@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-03T04:02:06.109Z",
+ "generatedAt": "2026-09-03T04:07:04.108Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -26,8 +26,8 @@
    "losses": 8,
    "wr": "33",
    "pnl": -29.92,
-   "account": 513.66,
-   "retPct": 2.7,
+   "account": 513.84,
+   "retPct": 2.8,
    "accountRealized": 470.08
   },
   {
@@ -5675,22 +5675,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-02T04:05:00.000Z",
-   "hl": 2.77182,
-   "hl_spot": 498.22972,
-   "grvt": null,
-   "extended": 694.105735,
-   "capital": 3633.8502100000005,
-   "qwen": 482.59,
-   "hermes": 501,
-   "manual": 694.11,
-   "kimi": 474.02,
-   "deepseek": 540.02,
-   "gemini": 497.16,
-   "luna": 454.64,
-   "minimax": 471.94
-  },
-  {
    "ts": "2026-09-02T04:10:00.000Z",
    "hl": 2.77182,
    "hl_spot": 498.22972,
@@ -10265,6 +10249,22 @@
    "gemini": 495.52,
    "luna": 458.59,
    "minimax": 454.36
+  },
+  {
+   "ts": "2026-09-03T04:05:00.000Z",
+   "hl": 11.49437,
+   "hl_spot": 506.347047,
+   "grvt": null,
+   "extended": 693.151832,
+   "capital": 3639.5273620000003,
+   "qwen": 513.84,
+   "hermes": 517.84,
+   "manual": 693.15,
+   "kimi": 460.93,
+   "deepseek": 558.17,
+   "gemini": 495.52,
+   "luna": 458.59,
+   "minimax": 454.36
   }
  ],
  "venuesLive": {
@@ -10286,6 +10286,23 @@
   "liveN": 83
  },
  "openTrades": [
+  {
+   "id": 658,
+   "asset": "BMNR",
+   "direction": "LONG",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "entry": 23.06,
+   "stop": 22.7,
+   "target": 25.6,
+   "levelsApprox": false,
+   "trailed": false,
+   "rr": 7.1,
+   "conviction": 6,
+   "openedAt": "2026-09-03T04:04:05.399Z",
+   "thesis": "qwen pick (paper, trigger-filled from AWAITING watch at $23.06: price touches 23.10)",
+   "smartMoney": null
+  },
   {
    "id": 657,
    "asset": "BTC",
@@ -10857,28 +10874,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 77714.9,
-    "change24hPct": 0.27
+    "price": 77760,
+    "change24hPct": 0.36
    },
    {
     "symbol": "ETH",
-    "price": 2403.78,
-    "change24hPct": -0.35
+    "price": 2405.67,
+    "change24hPct": -0.32
    },
    {
     "symbol": "BNB",
-    "price": 692.81,
-    "change24hPct": 0.8
+    "price": 693.41,
+    "change24hPct": 0.87
    },
    {
     "symbol": "XRP",
-    "price": 1.3679,
-    "change24hPct": 1.29
+    "price": 1.3683,
+    "change24hPct": 1.45
    },
    {
     "symbol": "SOL",
-    "price": 100.51,
-    "change24hPct": 0.36
+    "price": 100.61,
+    "change24hPct": 0.58
    }
   ],
   "fearGreed": {
@@ -10983,7 +11000,7 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.197,
+    "ratio": 1.199,
     "longPct": 54.5,
     "bias": "BALANCED"
    },
@@ -10995,19 +11012,19 @@
    },
    {
     "asset": "SOL",
-    "ratio": 2.081,
+    "ratio": 2.076,
     "longPct": 67.5,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.376,
+    "ratio": 2.374,
     "longPct": 70.4,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.408,
+    "ratio": 2.413,
     "longPct": 70.7,
     "bias": "CROWDED LONG"
    }
@@ -11088,7 +11105,7 @@
      "changePct": -10.8
     }
    ],
-   "ageMin": 2
+   "ageMin": 7
   },
   "chainRotation": {
    "chains": [
@@ -11223,7 +11240,7 @@
      12
     ]
    ],
-   "ageMin": 361
+   "ageMin": 366
   }
  },
  "calendar": [
@@ -12023,6 +12040,33 @@
     ]
    },
    {
+    "asset": "ARB",
+    "long": [
+     {
+      "actor": "deepseek",
+      "conv": 5,
+      "kind": "live"
+     },
+     {
+      "actor": "gemini",
+      "conv": 6,
+      "kind": "watching"
+     },
+     {
+      "actor": "kimi",
+      "conv": 6,
+      "kind": "watching"
+     }
+    ],
+    "short": [
+     {
+      "actor": "luna",
+      "conv": 6,
+      "kind": "watching"
+     }
+    ]
+   },
+   {
     "asset": "SOL",
     "long": [
      {
@@ -12045,18 +12089,23 @@
     ]
    },
    {
-    "asset": "ARB",
+    "asset": "SUI",
     "long": [
      {
-      "actor": "deepseek",
+      "actor": "grok",
       "conv": 5,
-      "kind": "live"
+      "kind": "watching"
      }
     ],
     "short": [
      {
       "actor": "luna",
-      "conv": 6,
+      "conv": 5,
+      "kind": "watching"
+     },
+     {
+      "actor": "deepseek",
+      "conv": 5,
       "kind": "watching"
      }
     ]
@@ -12135,23 +12184,12 @@
      }
     ],
     "short": []
-   },
-   {
-    "asset": "CRV",
-    "long": [
-     {
-      "actor": "qwen",
-      "conv": 6,
-      "kind": "watching"
-     }
-    ],
-    "short": []
    }
   ],
   "disagreement": "BTC"
  },
  "manualBook": {
-  "at": "2026-09-03T03:47:19.500Z",
+  "at": "2026-09-03T04:07:04.108Z",
   "positions": [
    {
     "asset": "BTC",
@@ -12165,7 +12203,7 @@
     "stock": false,
     "direction": "LONG",
     "entry": 0.47379,
-    "pnlPct": 0.64
+    "pnlPct": 1.82
    }
   ]
  },
@@ -12944,6 +12982,48 @@
  },
  "deskNotes": [
   {
+   "ts": "2026-09-03T04:05:27.430Z",
+   "brain": "deepseek",
+   "model": "DeepSeek V4",
+   "kind": "report",
+   "text": "READ: Majors are chopping inside ranges while ARB is the only clean trend, but I am already long ARB. Options expiry tomorrow plus NFP Friday makes chasing range noise low-edge.\n\nDANNY DEEPSEEK SIGNALS\nSIGNAL: SUI SHORT\nEntry: ~$0.763\nTarget: ~$0.717\nStop: ~$0.784\nConviction: 5/10\nStatus: AWAITING\nTrigger: 1h candle closes below ~$0.763 while 24h OI remains >+10% and price has not reclaimed ~$0.78.\nEdge: SUI sits near the top of its CHOP range with crowded longs (retail 67.4% / top traders 71.1%) and 24h OI rising +12.3%; a loss of ~$0.763 would trigger long deleveraging toward S1. INVALID IF: SUI prints a 1h close back above ~$0.78 before the breakdown fill.\n\nCONVICTION AUDIT: BTC:3, ETH:3, SOL:4, BNB:3, XRP:4, ARB:5, SUI:5\n\nDECISION\nNo CONFIRMED trades; holding existing open book and waiting for SUI breakdown or an ARB continuation trigger beyond my open long.\n\nRISK FLAGS\nNONE\nDECISION: "
+  },
+  {
+   "ts": "2026-09-03T04:04:01.089Z",
+   "brain": "kimi",
+   "model": "Kimi K3",
+   "kind": "report",
+   "text": "READ: Tape is RISK_ON but flat-lined: BTC pinned mid-range (~$77,688 in ~$76,264–~$79,400) with BTC ETF inflows (~$101M) offset by ETH ETF outflows (~$48M) and long-side liquidation dominance. The real action is ARB — TREND structure (ER 0.53), OI +6% 24h with price +12.8%, but it is already pressing the top of its range at the swing high, so the chase entry is the hostile one; the breakout retest is the trade.\n\nKENNY KIMI SIGNALS\nSIGNAL: ARB LONG\nEntry: ~$0.133\nTarget: ~$0.15\nStop: ~$0.125\nConviction: 6/10\nStatus: AWAITING\nTrigger: 4h close above the ~$0.133 swing high / R1 (~$0.133) with OI still rising (currently +6% over 24h) — a confirmed range breakout, not the +44% 7d chase.\nEdge: TREND coin (ER 0.53) with OI expanding +6% 24h into the range top and HL-vs-Binance funding gap +11.35% showing leveraged demand; aligned-with-structure breakout is our best measured bucket. INVALID IF: break"
+  },
+  {
+   "ts": "2026-09-03T04:03:59.548Z",
+   "brain": "grok",
+   "model": "Grok 4.6",
+   "kind": "report",
+   "text": "READ: Tape is RISK_ON but 4h structure is CHOP on every major: BTC mid-range vs ~$76,264–~$79,400, ETH/SOL mid-band with bearish 4h MACD, and continuation longs already on the book. Flows split (BTC ETF +~$101M vs ETH/SOL ETF outflows; ETH 24h OI −3.1% with long liquidation), so chasing ARB/SUI at the top 15–20% of their ranges is the fleet’s documented bleed, not an edge.\n\nDECISION: No CONFIRMED adds — already long BTC and SOL with profit-locked stops; ARB/SUI spots are range-high chases. Watch SUI only if price returns to ~$0.734 and holds a 4h close with OI still up; NFP ~2,026-09-04 is a size-down event."
+  },
+  {
+   "ts": "2026-09-03T04:03:58.948Z",
+   "brain": "grok",
+   "model": "Grok 4.6",
+   "kind": "report",
+   "text": "READ: Tape is RISK_ON but 4h structure is CHOP on every major: BTC mid-range vs ~$76,264–~$79,400, ETH/SOL mid-band with bearish 4h MACD, and continuation longs already on the book. Flows split (BTC ETF +~$101M vs ETH/SOL ETF outflows; ETH 24h OI −3.1% with long liquidation), so chasing ARB/SUI at the top 15–20% of their ranges is the fleet’s documented bleed, not an edge.\n\nGRETA GROK SIGNALS\nSIGNAL: SUI LONG\nEntry: ~$0.734\nTarget: ~$0.78\nStop: ~$0.717\nConviction: 5/10\nStatus: AWAITING\nTrigger: 4h candle close holds above pivot ~$0.734 while Coinalyze/HL OI 24h remains positive (currently +12.3%) — do not fill on a wick-tag.\nEdge: SUI OI is already expanding (+1.7% 4h / +12.3% 24h) with elevated RV, so a mean-reversion LONG from the pivot (range pos ~0.44) is a with-structure fade rather than a range-high chase at ~$0.768. INVALID IF: 4h close back below ~$0.734 or 24h OI flips negative bef"
+  },
+  {
+   "ts": "2026-09-03T04:03:45.597Z",
+   "brain": "luna",
+   "model": "GPT-5.6",
+   "kind": "report",
+   "text": "READ: Risk-on backdrop remains intact, but majors are largely choppy and flow signals conflict: BTC has ETF inflows while ETH has ETF outflows and long liquidation. SUI is near the top of its range with leveraged-long crowding, so I prefer waiting for a confirmed rejection rather than chasing a long.\n\nLUNA GPT SIGNALS\nSIGNAL: SUI SHORT\nEntry: ~$0.78\nTarget: ~$0.757\nStop: ~$0.79\nConviction: 5/10\nStatus: AWAITING\nTrigger: 4h rejection candle at or above ~$0.78, followed by a close back below ~$0.78 while SUI remains above +10% daily funding and OI remains elevated.\nEdge: SUI retail longs are crowded at 67.4%, OI is rising +12.3% over 24h, and funding is +10.95% daily while price sits near the ~$0.78 range ceiling, creating a potential leveraged-long unwind after rejection. INVALID IF: 4h price closes above ~$0.79.\n\nCONVICTION AUDIT: BTC:4, ETH:3, SOL:4, BNB:3, XRP:3, ARB:4, SUI:5, LI"
+  },
+  {
+   "ts": "2026-09-03T04:03:38.865Z",
+   "brain": "gemini",
+   "model": "Gemini 3.7 Flash",
+   "kind": "report",
+   "text": "READ: Crypto majors remain locked in compression chop ahead of Friday's US NFP and Deribit monthly options expiry, with BTC holding above its 20d-MA (~$74,619) while Deribit front skew exhibits strong defensive put hedging (-8.02 pts). Capital rotation is highly fragmented, with isolated momentum in high-ER trend setups like ARB contrasting with heavy long crowding across retail altcoin perps.\n\nGINA GEMINI SIGNALS\nSIGNAL: ARB LONG\nEntry: ~$0.133\nTarget: ~$0.143\nStop: ~$0.129\nConviction: 6/10\nStatus: AWAITING\nTrigger: 4h candle close above the ~$0.133 swing high with spot order book bid-to-ask imbalance maintaining >= 1.50\nEdge: ARB exhibits distinct trend strength with 4h Efficiency Ratio at 0.53 and resting bid depth outstripping asks by 1.98x (~$63K bids vs ~$32K asks), setting up a clean continuation squeeze above range resistance. INVALID IF: 4h candle closes back below ~$0.129"
+  },
+  {
    "ts": "2026-09-03T01:05:59.259Z",
    "brain": "minimax",
    "model": "MiniMax M3",
@@ -13012,48 +13092,6 @@
    "model": "Grok 4.6",
    "kind": "report",
    "text": "READ: Tape is RISK_ON on the MAs but 4h structure is CHOP on BTC/ETH and TRANS on SOL: ETF outflows (~$236.5M BTC) plus long-liq ~$26.2M vs shorts ~$17.7M are a flow headwind, not a confirmed breakdown. No funding-vs-price divergence or OI flush is firing at current prints; adding risk here is the chase the book already punishes.\n\nDECISION: Silence on new live size: already long BTC and SOL into the same chop; ETH is the only honest AWAITING fade at S1. Flip to CONFIRMED only if the OI-stabilization + S1 hold both print, not on the touch.\n\nNo signals this cycle — edge insufficient."
-  },
-  {
-   "ts": "2026-09-02T22:03:56.017Z",
-   "brain": "grok",
-   "model": "Grok 4.6",
-   "kind": "report",
-   "text": "READ: Tape is RISK_ON on the MAs but 4h structure is CHOP on BTC/ETH and TRANS on SOL: ETF outflows (~$236.5M BTC) plus long-liq ~$26.2M vs shorts ~$17.7M are a flow headwind, not a confirmed breakdown. No funding-vs-price divergence or OI flush is firing at current prints; adding risk here is the chase the book already punishes.\n\nGRETA GROK SIGNALS\nSIGNAL: ETH LONG\nEntry: ~$2,372.8\nTarget: ~$2,474.9\nStop: ~$2,327\nConviction: 5/10\nStatus: AWAITING\nTrigger: 4h close back above S1 ~$2,372.8 AND ETH OI 4h stops falling (currently Coinalyze 4h -0.33% / 24h -2.18%) with 4h buy volume remaining above 50%\nEdge: ETH is in the lower third of the ~$2,356–~$2,535 chop (pos ~0.19) with 12-day ETH ETF inflows still L1 and 7d exchange supply leaving (-~$451.9M) — a reclaim of S1 with OI stabilizing is the fade-from-range-low, not a mid-range chase. INVALID IF: ETH prints a 4h close below S2 ~$2,327 or ETF s"
-  },
-  {
-   "ts": "2026-09-02T22:03:55.862Z",
-   "brain": "luna",
-   "model": "GPT-5.6",
-   "kind": "report",
-   "text": "READ: Risk-on structure remains intact, but the tape is presently choppy and flow-divergent: BTC is flat with a ~$236.5M ETF outflow and essentially flat OI, while ETH is undergoing long liquidation with OI down 2.18% over 24h. I prefer waiting for confirmed price-and-OI reclaims rather than chasing strength near range pivots.\n\nLUNA GPT SIGNALS\nSIGNAL: BTC LONG\nEntry: ~$77,700\nTarget: ~$81,200\nStop: ~$76,166\nConviction: 6/10\nStatus: AWAITING\nTrigger: 4h close at or above ~$77,693 pivot with consolidated BTC OI turning clearly positive from the current +0.01% 4h reading.\nEdge: A confirmed pivot reclaim with rising OI would establish fresh leveraged participation in the prevailing uptrend; current BTC OI is only +0.01% over 4h, so the mechanism is not firing yet. INVALID IF: BTC closes below ~$76,166 S1 before the reclaim.\n\nSIGNAL: SOL LONG\nEntry: ~$101.1\nTarget: ~$109.2\nStop: ~$97.427\nC"
-  },
-  {
-   "ts": "2026-09-02T22:03:44.728Z",
-   "brain": "gemini",
-   "model": "Gemini 3.7 Flash",
-   "kind": "report",
-   "text": "READ: The broad crypto complex remains locked in compression chop with BTC hovering near ~$77.3k after a ~$236M ETF outflow day, while major alts show mixed structural momentum. Macro yields and oil are elevated following Middle East escalation, but underlying crypto market breadth maintains a RISK_ON baseline. With majors lacking fresh directional ignition, selective positioning in trending alts with clear breakout triggers offers the highest expected value.\n\nGINA GEMINI SIGNALS\nSIGNAL: ARB LONG\nEntry: ~$0.127\nTarget: ~$0.137\nStop: ~$0.123\nConviction: 6/10\nStatus: AWAITING\nTrigger: Confirmed 4h candle close above ~$0.127 resistance with 4h OI expansion exceeding +3%\nEdge: ARB displays strong relative trend structure (ER ~0.481) with 24h OI up +8.2% and top traders heavily long (54.2%), poised to accelerate on a clean break of the ~$0.127 range high. INVALID IF: 4h close falls back below $0"
-  },
-  {
-   "ts": "2026-09-02T19:02:02.722Z",
-   "brain": "deepseek",
-   "model": "DeepSeek V4",
-   "kind": "intraday scan",
-   "text": "READ: Since last report, SOL has stabilized near ~$99.4 while Coinalyze 4h OI is rising +2.66% — the only fresh-positioning signal on an otherwise flat/deleveraging tape; ARB remains bid up 16.9% 24h.\n\nDANNY DEEPSEEK SIGNALS\nSIGNAL: SOL LONG\nEntry: ~$101\nTarget: ~$110\nStop: ~$97\nConviction: 5/10\nStatus: AWAITING\nTrigger: 4h close above ~$101 with Coinalyze SOL 4h OI still positive (currently +2.66%).\nEdge: OI expanding while price holds above the ~$97.38 range low after 24h SOL long liquidations of ~$2.6M — fresh positioning potential. INVALID IF: price closes below ~$97 before the ~$101 trigger.\n\nCONVICTION AUDIT: BTC:4, ETH:3, SOL:5, BNB:3, XRP:3, ARB:4\n\nDECISION\nSilence — no confirmed edge; watching SOL breakout trigger.\nDECISION: Silence — no confirmed edge; watching SOL breakout trigger."
-  },
-  {
-   "ts": "2026-09-02T19:00:32.338Z",
-   "brain": "kimi",
-   "model": "Kimi K3",
-   "kind": "intraday scan",
-   "text": "READ: Since the last report the tape firmed slightly (BTC +0.3% 24h, BNB +1.1%) while ETH/SOL/XRP stay soft with long-side liquidations dominant (~$23.9M vs ~$13.8M); the standout is ARB, +16.9% on the day with OI up ~5.8% and a bid-heavy HL book, having cleared its 4h range high ~$0.12.\n\nKENNY KIMI SIGNALS\nSIGNAL: ARB LONG\nEntry: ~$0.121\nTarget: ~$0.135\nStop: ~$0.114\nConviction: 6/10\nStatus: AWAITING\nTrigger: Retest of the broken range-high ~$0.12 that HOLDS as support (price trades back to ~~$0.121 without closing a 4h candle below ~$0.119 R1-turned-support).\nEdge: ARB broke above its 4h range high ~$0.12 with OI rising +5.3% 4h / +5.8% 24h and a bid-heavy book (imb 2.75) — fresh positioning behind a real breakout, but chasing +16.9% spot is the fleet's #1 loss signature, so the entry is the retest, not the spike. INVALID IF: a 4h close back below ~$0.119 (failed breakout / range re-e"
-  },
-  {
-   "ts": "2026-09-02T19:00:31.359Z",
-   "brain": "grok",
-   "model": "Grok 4.6",
-   "kind": "intraday scan",
-   "text": "READ: Majors are chopping mid-range with BTC/SOL already carrying live longs; ETH OI is still contracting and ARB’s +16.9% print is a post-break chase, not a fresh imbalance. ETF outflow on BTC and NFP risk in 48h keep new adds on a higher bar.\n\nGRETA GROK SIGNALS\nSIGNAL: ETH LONG\nEntry: ~$2,372.8\nTarget: ~$2,474.9\nStop: ~$2,327\nConviction: 5/10\nStatus: AWAITING\nTrigger: 4h candle close holding above S1 ~$2,372.8 AND ETH Coinalyze OI 4h change no longer negative (currently -1.58%)\nEdge: Range-low support fade only after deleveraging stops — ETH OI is still falling and 4h MACD is bearish, so the long is not live until S1 holds with OI flattening. INVALID IF: ETH 4h close back below ~$2,372.8 or OI 4h stays negative after the touch.\n\nCONVICTION AUDIT: BTC:4, ETH:5, SOL:4, BNB:3, XRP:2, ARB:3, UNI:2, XMR:1, DELL:2, NVDA:2\n\nDECISION\nSilence on new live risk — ETH S1 hold is the only honest watc"
   }
  ],
  "archive": [
@@ -16930,7 +16968,7 @@
      "arm": "wide",
      "tier": "medium",
      "model": "grok-4.6",
-     "cycles": 146
+     "cycles": 147
     }
    ],
    "current": {
@@ -17011,11 +17049,11 @@
     "cycles7d": 65,
     "pickCycles7d": 52,
     "pickRate7d": 80,
-    "awaiting7d": 15,
+    "awaiting7d": 16,
     "saves7d": 7,
     "routedSaves7d": 7,
-    "cost7dUsd": 3.91,
-    "calls7d": 79
+    "cost7dUsd": 3.86,
+    "calls7d": 78
    },
    "recentCloses": [
     {
@@ -17158,7 +17196,7 @@
      "arm": "wide",
      "tier": "medium",
      "model": "kimi-k3",
-     "cycles": 19
+     "cycles": 20
     }
    ],
    "current": {
@@ -17237,12 +17275,12 @@
    ],
    "activity": {
     "cycles7d": 56,
-    "pickCycles7d": 42,
-    "pickRate7d": 75,
-    "awaiting7d": 17,
+    "pickCycles7d": 43,
+    "pickRate7d": 77,
+    "awaiting7d": 18,
     "saves7d": 12,
     "routedSaves7d": 11,
-    "cost7dUsd": 2.72,
+    "cost7dUsd": 2.79,
     "calls7d": 60
    },
    "recentCloses": [
@@ -17370,7 +17408,7 @@
      "arm": "wide",
      "tier": "low",
      "model": "deepseek-v4-pro",
-     "cycles": 147
+     "cycles": 148
     }
    ],
    "current": {
@@ -17451,7 +17489,7 @@
     "cycles7d": 65,
     "pickCycles7d": 59,
     "pickRate7d": 91,
-    "awaiting7d": 28,
+    "awaiting7d": 29,
     "saves7d": 16,
     "routedSaves7d": 15,
     "cost7dUsd": 2.24,
@@ -17582,7 +17620,7 @@
      "arm": "tight",
      "tier": "low",
      "model": "gemini-3.7-flash",
-     "cycles": 147
+     "cycles": 148
     }
    ],
    "current": {
@@ -17802,7 +17840,7 @@
      "arm": "tight",
      "tier": "high",
      "model": "openai/gpt-5.6-luna",
-     "cycles": 91
+     "cycles": 92
     }
    ],
    "current": {
@@ -18116,14 +18154,14 @@
     }
    ],
    "activity": {
-    "cycles7d": 64,
+    "cycles7d": 63,
     "pickCycles7d": 18,
-    "pickRate7d": 28,
+    "pickRate7d": 29,
     "awaiting7d": 7,
     "saves7d": 7,
     "routedSaves7d": 3,
-    "cost7dUsd": 0.81,
-    "calls7d": 110
+    "cost7dUsd": 0.8,
+    "calls7d": 108
    },
    "recentCloses": [
     {
@@ -18270,10 +18308,10 @@
     "cycles7d": 0,
     "pickCycles7d": 0,
     "pickRate7d": null,
-    "awaiting7d": 26,
-    "saves7d": 5,
+    "awaiting7d": 29,
+    "saves7d": 6,
     "routedSaves7d": 0,
-    "cost7dUsd": 1.27,
+    "cost7dUsd": 1.28,
     "calls7d": 29
    },
    "recentCloses": [
