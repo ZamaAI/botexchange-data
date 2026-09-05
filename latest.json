@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-05T01:07:08.347Z",
+ "generatedAt": "2026-09-05T01:12:00.368Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -5693,22 +5693,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-04T01:10:00.000Z",
-   "hl": 0,
-   "hl_spot": 534.795133,
-   "grvt": null,
-   "extended": 704.82502,
-   "capital": 3729.734877,
-   "qwen": 514.76,
-   "hermes": 534.8,
-   "manual": 704.83,
-   "kimi": 474.75,
-   "deepseek": 565.98,
-   "gemini": 507.3,
-   "luna": 491.03,
-   "minimax": 450.1
-  },
-  {
    "ts": "2026-09-04T01:15:00.000Z",
    "hl": 0,
    "hl_spot": 534.806125,
@@ -10299,6 +10283,22 @@
    "gemini": 507.3,
    "luna": 490.74,
    "minimax": 450.59
+  },
+  {
+   "ts": "2026-09-05T01:10:00.000Z",
+   "hl": 0,
+   "hl_spot": 534.531875,
+   "grvt": null,
+   "extended": 612.255488,
+   "capital": 3644.783348,
+   "qwen": 497.74,
+   "hermes": 534.53,
+   "manual": 612.26,
+   "kimi": 473.26,
+   "deepseek": 575.14,
+   "gemini": 507.3,
+   "luna": 490.74,
+   "minimax": 450.59
   }
  ],
  "venuesLive": {
@@ -10761,27 +10761,27 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 79600.02,
-    "change24hPct": -1.82
+    "price": 79675.99,
+    "change24hPct": -1.69
    },
    {
     "symbol": "ETH",
-    "price": 2454,
-    "change24hPct": -1.97
+    "price": 2455.59,
+    "change24hPct": -2.06
    },
    {
     "symbol": "BNB",
-    "price": 719.77,
-    "change24hPct": -0.48
+    "price": 720.27,
+    "change24hPct": -0.43
    },
    {
     "symbol": "XRP",
-    "price": 1.3984,
-    "change24hPct": -3.13
+    "price": 1.4006,
+    "change24hPct": -3.11
    },
    {
     "symbol": "SOL",
-    "price": 101.87,
+    "price": 102.01,
     "change24hPct": -1.73
    }
   ],
@@ -11004,7 +11004,7 @@
      "changePct": -18.8
     }
    ],
-   "ageMin": 187
+   "ageMin": 192
   },
   "chainRotation": {
    "chains": [
@@ -11143,7 +11143,7 @@
      1
     ]
    ],
-   "ageMin": 232
+   "ageMin": 237
   }
  },
  "calendar": [
@@ -11943,6 +11943,11 @@
     "asset": "BTC",
     "long": [
      {
+      "actor": "minimax",
+      "conv": 5,
+      "kind": "watching"
+     },
+     {
       "actor": "grok",
       "conv": 5,
       "kind": "watching"
@@ -11963,11 +11968,6 @@
       "actor": "deepseek",
       "conv": 7,
       "kind": "live"
-     },
-     {
-      "actor": "minimax",
-      "conv": 5,
-      "kind": "watching"
      },
      {
       "actor": "kimi",
@@ -12902,6 +12902,13 @@
  },
  "deskNotes": [
   {
+   "ts": "2026-09-05T01:09:07.473Z",
+   "brain": "minimax",
+   "model": "MiniMax M3",
+   "kind": "intraday scan",
+   "text": "READ: Long cascade continues across majors: ~$87.5M of the ~$107M 24h total liquidations are longs (BTC ~$47M, ETH ~$35.2M, SOL ~$5.4M); OI contracting 6.2%/8.3%/7.3% on BTC/ETH/SOL with ex-price confirming genuine deleveraging, not just price drift. Funding eased to half the 3d average on BTC/ETH, flipped negative on SOL (17h ago) and XRP (1h ago); 4h candles show lower-wick rejections on ETH (66%)/BNB (72%)/XRP (56%) but no structural bottom confirmed yet — tape sits in no-man's land between cascade continuation and post-deleveraging bounce.\n\nMILO MINIMAX SIGNALS\nSIGNAL: ETH LONG\nEntry: ~$2,469\nTarget: ~$2,628\nStop: ~$2,408\nConviction: 5/10\nStatus: AWAITING\nTrigger: ETH reclaims pivot ~$2,469 with a 4h CLOSE above ~$2,469, AND 4h OI rising >+1% on that same bar (fresh longs entering, not just short covering — confirms demand, not a dead cat bounce).\nEdge: Post-deleveraging continuation "
+  },
+  {
    "ts": "2026-09-05T01:01:47.344Z",
    "brain": "deepseek",
    "model": "DeepSeek V4",
@@ -13005,13 +13012,6 @@
    "model": "Grok 4.6",
    "kind": "intraday scan",
    "text": "READ: Majors printed confirmed 4h breakdown bars on 2.3–3.6x volume and are chopping mid-range after longs took 70% of 24h liqs; ETF inflows remain positive but Fed liquidity is draining and NFP is live, so continuation longs are not firing at spot.\nGRETA GROK SIGNALS\nSIGNAL: SOL LONG\nEntry: ~$100.14\nTarget: ~$110.6\nStop: ~$96.35\nConviction: 5/10\nStatus: AWAITING\nTrigger: SOL tags S1 ~$100.14 and prints a full 4h close back above ~$100.14 (not a wick-only tag) while Coinalyze SOL predicted funding stays non-positive\nEdge: Last closed 4h bar ~$101.46 broke the prior 5-bar low on 2.3x volume and flushed toward S1; a hold-and-close back above S1 would be a failed-breakdown reclaim into still-elevated RV, not a mid-range chase. INVALID IF: a closed 4h bar prints below S2 ~$96.347 before any reclaim close above ~$100.14\nCONVICTION AUDIT: BTC:4, ETH:3, SOL:5, BNB:2, XRP:3, UNI:2, SUI:2, ZEC:3, ARB:1, "
-  },
-  {
-   "ts": "2026-09-04T19:00:24.596Z",
-   "brain": "luna",
-   "model": "GPT-5.6",
-   "kind": "intraday scan",
-   "text": "READ: Crypto is modestly above the last snapshot, but the confirmed 4h breakdowns remain intact: BTC, ETH, SOL, and XRP all closed below prior 5-bar lows on elevated volume. Long liquidations dominate at ~$90.4M versus ~$39.2M shorts, while the upcoming high-impact NFP event argues against chasing a fresh entry.\n\nLUNA GPT SIGNALS\nSIGNAL: ETH SHORT\nEntry: ~$2,488\nTarget: ~$2,380\nStop: ~$2,538\nConviction: 5/10\nStatus: AWAITING\nTrigger: ETH retests ~$2,488, the prior 4h low, and then closes a 1h candle back below ~$2,488.\nEdge: The bearish breakdown mechanism is already active: the latest closed 4h ETH candle closed at ~$2,452 below the prior 5-bar low of ~$2,488.4 on 3.6x average volume, while 24h long liquidations reached ~$36.2M versus ~$11.3M shorts. INVALID IF: A 1h candle closes back above ~$2,488 after the retest.\n\nCONVICTION AUDIT: BTC:4, ETH:5, SOL:4, BNB:3, XRP:2\n\nDECISION\nAwait ETH retest-a"
   }
  ],
  "archive": [
@@ -18746,7 +18746,7 @@
      "arm": "tight",
      "tier": "high",
      "model": "minimax/minimax-m3",
-     "cycles": 22
+     "cycles": 23
     }
    ],
    "current": {
@@ -18824,14 +18824,14 @@
     }
    ],
    "activity": {
-    "cycles7d": 67,
-    "pickCycles7d": 34,
+    "cycles7d": 68,
+    "pickCycles7d": 35,
     "pickRate7d": 51,
     "awaiting7d": 15,
     "saves7d": 9,
     "routedSaves7d": 6,
-    "cost7dUsd": 1.39,
-    "calls7d": 123
+    "cost7dUsd": 1.42,
+    "calls7d": 124
    },
    "recentCloses": [
     {
