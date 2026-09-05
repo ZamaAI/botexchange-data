@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-05T13:17:00.375Z",
+ "generatedAt": "2026-09-05T13:22:00.846Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -5726,22 +5726,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-04T13:20:00.000Z",
-   "hl": 0,
-   "hl_spot": 534.839101,
-   "grvt": null,
-   "extended": 598.973757,
-   "capital": 3626.6302080000005,
-   "qwen": 501.04,
-   "hermes": 534.84,
-   "manual": 598.97,
-   "kimi": 468.2,
-   "deepseek": 573.88,
-   "gemini": 507.3,
-   "luna": 491.03,
-   "minimax": 451.45
-  },
-  {
    "ts": "2026-09-04T13:25:00.000Z",
    "hl": 0,
    "hl_spot": 534.839101,
@@ -10332,6 +10316,22 @@
    "gemini": 507.3,
    "luna": 490.49,
    "minimax": 449.92
+  },
+  {
+   "ts": "2026-09-05T13:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 534.542318,
+   "grvt": null,
+   "extended": 674.028769,
+   "capital": 3720.772211,
+   "qwen": 498.62,
+   "hermes": 534.54,
+   "manual": 674.03,
+   "kimi": 492.17,
+   "deepseek": 571.36,
+   "gemini": 507.3,
+   "luna": 490.49,
+   "minimax": 449.92
   }
  ],
  "venuesLive": {
@@ -10352,7 +10352,253 @@
   "liveWR": 27.7,
   "liveN": 83
  },
- "referee": null,
+ "referee": {
+  "at": "2026-09-05T13:17:05.211Z",
+  "windowDays": 14,
+  "total": 265,
+  "verdicts": {
+   "n": 265,
+   "good": 116,
+   "missed": 76,
+   "ambiguous": 0,
+   "unresolved": 34,
+   "unscorable": 39
+  },
+  "byGate": {
+   "reentry_cooldown": {
+    "n": 34,
+    "good": 19,
+    "missed": 15,
+    "ambiguous": 0,
+    "unresolved": 0,
+    "unscorable": 0
+   },
+   "rr_floor": {
+    "n": 52,
+    "good": 22,
+    "missed": 22,
+    "ambiguous": 0,
+    "unresolved": 5,
+    "unscorable": 3
+   },
+   "anticipation": {
+    "n": 108,
+    "good": 39,
+    "missed": 24,
+    "ambiguous": 0,
+    "unresolved": 18,
+    "unscorable": 27
+   },
+   "stop_hard_ceiling": {
+    "n": 19,
+    "good": 7,
+    "missed": 5,
+    "ambiguous": 0,
+    "unresolved": 3,
+    "unscorable": 4
+   },
+   "struct_chase": {
+    "n": 52,
+    "good": 29,
+    "missed": 10,
+    "ambiguous": 0,
+    "unresolved": 8,
+    "unscorable": 5
+   }
+  },
+  "byActor": {
+   "luna": {
+    "n": 46,
+    "good": 25,
+    "missed": 19,
+    "ambiguous": 0,
+    "unresolved": 1,
+    "unscorable": 1
+   },
+   "deepseek": {
+    "n": 15,
+    "good": 12,
+    "missed": 3,
+    "ambiguous": 0,
+    "unresolved": 0,
+    "unscorable": 0
+   },
+   "grok": {
+    "n": 19,
+    "good": 12,
+    "missed": 6,
+    "ambiguous": 0,
+    "unresolved": 1,
+    "unscorable": 0
+   },
+   "qwen": {
+    "n": 117,
+    "good": 35,
+    "missed": 23,
+    "ambiguous": 0,
+    "unresolved": 23,
+    "unscorable": 36
+   },
+   "kimi": {
+    "n": 21,
+    "good": 9,
+    "missed": 7,
+    "ambiguous": 0,
+    "unresolved": 5,
+    "unscorable": 0
+   },
+   "minimax": {
+    "n": 22,
+    "good": 9,
+    "missed": 10,
+    "ambiguous": 0,
+    "unresolved": 1,
+    "unscorable": 2
+   },
+   "gemini": {
+    "n": 25,
+    "good": 14,
+    "missed": 8,
+    "ambiguous": 0,
+    "unresolved": 3,
+    "unscorable": 0
+   }
+  },
+  "recent": [
+   {
+    "ts": "2026-09-05T13:00:39.469Z",
+    "asset": "BNB",
+    "direction": "LONG",
+    "actor": "luna",
+    "gate": "anticipation",
+    "conviction": 6,
+    "verdict": "UNSCORABLE",
+    "detail": "stop 3.1% > 3% (crypto) at conv 6",
+    "note": "no candles (asset not on Binance spot?)"
+   },
+   {
+    "ts": "2026-09-05T10:03:24.088Z",
+    "asset": "ZEC",
+    "direction": "LONG",
+    "actor": "qwen",
+    "gate": "anticipation",
+    "conviction": 7,
+    "verdict": "UNRESOLVED",
+    "detail": "stop 3.4% > 3% (crypto) at conv 7",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-09-05T04:04:03.321Z",
+    "asset": "XMR",
+    "direction": "LONG",
+    "actor": "qwen",
+    "gate": "struct_chase",
+    "conviction": 7,
+    "verdict": "UNSCORABLE",
+    "detail": "CHOP edge chase pos 20.91 conv 7 < 8",
+    "note": "no candles (asset not on Binance spot?)"
+   },
+   {
+    "ts": "2026-09-05T03:04:13.661Z",
+    "asset": "ZEC",
+    "direction": "LONG",
+    "actor": "qwen",
+    "gate": "struct_chase",
+    "conviction": 7,
+    "verdict": "UNRESOLVED",
+    "detail": "TRANS edge chase pos 0.92 conv 7 < 8",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-09-04T22:02:24.689Z",
+    "asset": "XMR",
+    "direction": "SHORT",
+    "actor": "qwen",
+    "gate": "anticipation",
+    "conviction": 8,
+    "verdict": "UNSCORABLE",
+    "detail": "stop 7.0% > 3% (crypto) at conv 8",
+    "note": "no candles (asset not on Binance spot?)"
+   },
+   {
+    "ts": "2026-09-04T21:19:13.653Z",
+    "asset": "ZEC",
+    "direction": "LONG",
+    "actor": "kimi",
+    "gate": "struct_chase",
+    "conviction": 6,
+    "verdict": "UNRESOLVED",
+    "detail": "TRANS edge chase pos 1.00 conv 6 < 8",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-09-04T20:49:11.451Z",
+    "asset": "ZEC",
+    "direction": "LONG",
+    "actor": "gemini",
+    "gate": "struct_chase",
+    "conviction": 6,
+    "verdict": "UNRESOLVED",
+    "detail": "TRANS edge chase pos 1.02 conv 6 < 8",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-09-04T20:19:12.557Z",
+    "asset": "ZEC",
+    "direction": "LONG",
+    "actor": "kimi",
+    "gate": "rr_floor",
+    "conviction": 6,
+    "verdict": "UNRESOLVED",
+    "detail": "awaiting fill R:R 1.80 < 2 floor (registered 2.22 at trigger 1030, filled mark 1036.78, real lane)",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-09-04T19:04:12.896Z",
+    "asset": "SOL",
+    "direction": "LONG",
+    "actor": "qwen",
+    "gate": "anticipation",
+    "conviction": 6,
+    "verdict": "UNRESOLVED",
+    "detail": "stop 3.6% > 3% (crypto) at conv 6",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-09-04T17:04:10.163Z",
+    "asset": "ZEC",
+    "direction": "LONG",
+    "actor": "gemini",
+    "gate": "rr_floor",
+    "conviction": 6,
+    "verdict": "UNRESOLVED",
+    "detail": "awaiting fill R:R 1.90 < 2 floor (registered 2.24 at trigger 1032, filled mark 1036.33, real lane)",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-09-04T10:02:48.717Z",
+    "asset": "ZEC",
+    "direction": "LONG",
+    "actor": "qwen",
+    "gate": "anticipation",
+    "conviction": 8,
+    "verdict": "UNRESOLVED",
+    "detail": "stop 6.9% > 3% (crypto) at conv 8",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-09-04T04:18:31.782Z",
+    "asset": "SOL",
+    "direction": "LONG",
+    "actor": "qwen",
+    "gate": "anticipation",
+    "conviction": 6,
+    "verdict": "UNRESOLVED",
+    "detail": "stop 3.7% > 3% (crypto) at conv 6",
+    "note": "no level touched yet (now )"
+   }
+  ]
+ },
  "openTrades": [
   {
    "id": 686,
@@ -10533,7 +10779,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 2.21,
-    "asOf": "2026-09-05T13:13:19.059Z"
+    "asOf": "2026-09-05T13:19:15.576Z"
    }
   },
   {
@@ -10551,7 +10797,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 68.39,
-    "asOf": "2026-09-05T13:13:19.615Z"
+    "asOf": "2026-09-05T13:19:16.160Z"
    }
   },
   {
@@ -10569,7 +10815,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 763.16,
-    "asOf": "2026-09-05T13:13:20.174Z"
+    "asOf": "2026-09-05T13:19:17.265Z"
    }
   },
   {
@@ -10587,7 +10833,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 747.85,
-    "asOf": "2026-09-05T13:13:20.453Z"
+    "asOf": "2026-09-05T13:19:17.543Z"
    }
   },
   {
@@ -10605,7 +10851,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 747.85,
-    "asOf": "2026-09-05T13:13:20.731Z"
+    "asOf": "2026-09-05T13:19:17.841Z"
    }
   },
   {
@@ -10623,7 +10869,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 2.282,
-    "asOf": "2026-09-05T13:13:21.011Z"
+    "asOf": "2026-09-05T13:19:18.122Z"
    }
   },
   {
@@ -10641,7 +10887,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 747.85,
-    "asOf": "2026-09-05T13:13:09.368Z"
+    "asOf": "2026-09-05T13:19:05.341Z"
    }
   }
  ],
@@ -10819,28 +11065,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 79708.01,
-    "change24hPct": 0.46
+    "price": 79723.59,
+    "change24hPct": 0.38
    },
    {
     "symbol": "ETH",
-    "price": 2458.61,
-    "change24hPct": 0.25
+    "price": 2459.43,
+    "change24hPct": 0.22
    },
    {
     "symbol": "BNB",
-    "price": 766.82,
-    "change24hPct": 7.12
+    "price": 766.65,
+    "change24hPct": 7.02
    },
    {
     "symbol": "XRP",
-    "price": 1.4146,
-    "change24hPct": 0.34
+    "price": 1.4162,
+    "change24hPct": 0.26
    },
    {
     "symbol": "SOL",
-    "price": 103.3,
-    "change24hPct": 1.9
+    "price": 103.27,
+    "change24hPct": 1.66
    }
   ],
   "fearGreed": {
@@ -10947,19 +11193,19 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.052,
+    "ratio": 1.054,
     "longPct": 51.3,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.624,
+    "ratio": 2.626,
     "longPct": 72.4,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.169,
+    "ratio": 2.167,
     "longPct": 68.4,
     "bias": "CROWDED LONG"
    },
@@ -10971,7 +11217,7 @@
    },
    {
     "asset": "XRP",
-    "ratio": 2.465,
+    "ratio": 2.461,
     "longPct": 71.1,
     "bias": "CROWDED LONG"
    }
@@ -11052,7 +11298,7 @@
      "changePct": -8.9
     }
    ],
-   "ageMin": 197
+   "ageMin": 202
   },
   "chainRotation": {
    "chains": [
@@ -11195,7 +11441,7 @@
      1
     ]
    ],
-   "ageMin": 182
+   "ageMin": 187
   }
  },
  "calendar": [
@@ -12925,7 +13171,7 @@
   }
  },
  "intel": {
-  "ageH": 3.8,
+  "ageH": 3.9,
   "narratives": [
    "• Offshore Stock Tokens & Tokenized Equities: Robinhood's offshore AMC stock token sparked major legal friction with AMC's CEO after trading at a massive premium before a 10x float dilution crashed the price gap. (newsle",
    "• Privacy Infrastructure & Non-Sovereign Money: Driven by Zcash's breakout, Monero's native strength, and ethrex launching an Ethereum privacy testnet to execute EIP roadmaps directly to mempools without relayers. (both)",
