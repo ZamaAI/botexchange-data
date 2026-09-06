@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-06T05:27:04.900Z",
+ "generatedAt": "2026-09-06T05:32:02.029Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -29,7 +29,7 @@
    "costUsd": 3.09,
    "costCalls": 72,
    "netPnl": -10.66,
-   "account": 500.44,
+   "account": 500.65,
    "retPct": 0.1,
    "accountRealized": 492.43
   },
@@ -55,17 +55,17 @@
    "label": "Manual",
    "venue": "Extended",
    "paper": false,
-   "trades": 77,
-   "wins": 49,
-   "losses": 28,
+   "trades": 80,
+   "wins": 51,
+   "losses": 29,
    "wr": "64",
-   "pnl": 285.64,
+   "pnl": 293.05,
    "costUsd": 0,
    "costCalls": 0,
-   "netPnl": 285.64,
+   "netPnl": 293.05,
    "account": 770.68,
    "retPct": 54.1,
-   "accountRealized": 785.64
+   "accountRealized": 793.05
   },
   {
    "key": "kimi",
@@ -173,7 +173,8 @@
    "09-02",
    "09-03",
    "09-04",
-   "09-05"
+   "09-05",
+   "09-06"
   ],
   "bySource": {
    "qwen": [
@@ -195,6 +196,7 @@
     470.08,
     508.41,
     492.43,
+    492.43,
     492.43
    ],
    "grok": [
@@ -214,6 +216,7 @@
     507.46,
     496.3,
     496.3,
+    535.75,
     535.75,
     535.75,
     535.75
@@ -237,7 +240,8 @@
     670.97,
     715.08,
     690.86,
-    785.64
+    771.68,
+    793.05
    ],
    "kimi": [
     500,
@@ -258,6 +262,7 @@
     441.75,
     441.43,
     462.87,
+    477.44,
     477.44
    ],
    "deepseek": [
@@ -277,6 +282,7 @@
     534.83,
     509.92,
     517.14,
+    551.28,
     551.28,
     551.28,
     551.28
@@ -300,6 +306,7 @@
     494.92,
     538.4,
     538.4,
+    538.4,
     538.4
    ],
    "luna": [
@@ -321,6 +328,7 @@
     424.81,
     465.45,
     465.45,
+    465.45,
     465.45
    ],
    "minimax": [
@@ -340,6 +348,7 @@
     469.48,
     469.48,
     440.84,
+    464.17,
     464.17,
     464.17,
     464.17
@@ -5726,22 +5735,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-05T05:30:00.000Z",
-   "hl": 0,
-   "hl_spot": 534.542318,
-   "grvt": null,
-   "extended": 616.95017,
-   "capital": 3651.0323930000004,
-   "qwen": 498.62,
-   "hermes": 534.54,
-   "manual": 616.95,
-   "kimi": 474.22,
-   "deepseek": 575.47,
-   "gemini": 507.3,
-   "luna": 490.77,
-   "minimax": 450.81
-  },
-  {
    "ts": "2026-09-05T05:35:00.000Z",
    "hl": 0,
    "hl_spot": 534.542318,
@@ -10332,6 +10325,22 @@
    "gemini": 506.48,
    "luna": 492.78,
    "minimax": 447.48
+  },
+  {
+   "ts": "2026-09-06T05:30:00.000Z",
+   "hl": 0,
+   "hl_spot": 534.530776,
+   "grvt": null,
+   "extended": 770.681529,
+   "capital": 3855.9142279999996,
+   "qwen": 500.65,
+   "hermes": 534.53,
+   "manual": 770.68,
+   "kimi": 538.8,
+   "deepseek": 564.21,
+   "gemini": 506.48,
+   "luna": 492.78,
+   "minimax": 447.48
   }
  ],
  "venuesLive": {
@@ -10600,7 +10609,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-06T05:27:04.928Z",
+  "at": "2026-09-06T05:32:02.054Z",
   "windowDays": 14,
   "registered": 288,
   "filled": 95,
@@ -10758,7 +10767,7 @@
   }
  },
  "learning": {
-  "at": "2026-09-06T05:27:04.929Z",
+  "at": "2026-09-06T05:32:02.055Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -11489,6 +11498,20 @@
  ],
  "recentCloses": [
   {
+   "id": 699,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "WIN",
+   "pct": 3.2,
+   "exitReason": "Manual LONG on Extended — entry $101.76 → exit $104.99 (+3.17% move 10x), realised +$21.37 → WIN.",
+   "closedAt": "2026-09-06T03:24:04.767Z",
+   "entry": 101.76,
+   "exit": 104.99,
+   "openedAt": "2026-09-04T16:31:39.080Z"
+  },
+  {
    "id": 673,
    "asset": "ETH",
    "direction": "SHORT",
@@ -11501,6 +11524,34 @@
    "entry": 2511.96,
    "exit": 2506.33,
    "openedAt": "2026-09-04T00:34:07.137Z"
+  },
+  {
+   "id": 700,
+   "asset": "PUMP",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "LOSS",
+   "pct": -8.2,
+   "exitReason": "Manual LONG on Extended — entry $0.004355 → exit $0.004 (-8.15% move 10x), realised $-35.13 → LOSS.",
+   "closedAt": "2026-09-05T18:37:23.905Z",
+   "entry": 0.004355,
+   "exit": 0.004,
+   "openedAt": "2026-09-04T05:04:17.461Z"
+  },
+  {
+   "id": 698,
+   "asset": "CASHCAT",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "WIN",
+   "pct": 3.2,
+   "exitReason": "Manual LONG on Extended — entry $0.26525 → exit $0.27367 (+3.17% move 5x), realised +$21.17 → WIN.",
+   "closedAt": "2026-09-05T18:04:57.285Z",
+   "entry": 0.26525,
+   "exit": 0.27367,
+   "openedAt": "2026-09-05T14:43:31.413Z"
   },
   {
    "id": 689,
@@ -11613,76 +11664,34 @@
    "entry": 0.47379,
    "exit": 0.49252,
    "openedAt": "2026-08-31T04:04:29.983Z"
-  },
-  {
-   "id": 666,
-   "asset": "SOL",
-   "direction": "LONG",
-   "actor": "deepseek",
-   "venue": "LIGHTER",
-   "outcome": "BREAKEVEN",
-   "pct": -0.1,
-   "exitReason": "LONG SOL: stopped out at SL -0.1% (entry $102.86 → exit $102.787). WHY: OI never flipped to rising confirmation; entered on incomplete signal while CHOP showed range-bound, chased R2 resistance…",
-   "closedAt": "2026-09-04T12:30:50.115Z",
-   "entry": 102.86,
-   "exit": 102.787,
-   "openedAt": "2026-09-03T14:34:07.153Z"
-  },
-  {
-   "id": 682,
-   "asset": "ONG",
-   "direction": "LONG",
-   "actor": "manual",
-   "venue": "EXTENDED",
-   "outcome": "LOSS",
-   "pct": -7.2,
-   "exitReason": "Manual LONG on Extended — entry $0.101852 → exit $0.094525 (-7.19% move 5x), realised $-49.08 → LOSS.",
-   "closedAt": "2026-09-04T12:30:31.698Z",
-   "entry": 0.101852,
-   "exit": 0.094525,
-   "openedAt": "2026-09-04T04:25:18.112Z"
-  },
-  {
-   "id": 653,
-   "asset": "ETH",
-   "direction": "LONG",
-   "actor": "kimi",
-   "venue": "LIGHTER",
-   "outcome": "WIN",
-   "pct": 5.6,
-   "exitReason": "LONG ETH: stopped out at SL +5.6% (entry $2390 → exit $2524.7). WHY: Exit was stop-loss noise, not thesis invalidation—flush mechanism held, buy pressure sustained 51%+, and range held above $2,326,…",
-   "closedAt": "2026-09-04T08:51:38.530Z",
-   "entry": 2390,
-   "exit": 2524.7,
-   "openedAt": "2026-09-02T22:04:27.512Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 79845.99,
-    "change24hPct": 0.39
+    "price": 79864.01,
+    "change24hPct": 0.34
    },
    {
     "symbol": "ETH",
-    "price": 2505.14,
+    "price": 2506.88,
     "change24hPct": 2.28
    },
    {
     "symbol": "BNB",
-    "price": 762.2,
-    "change24hPct": 5.58
+    "price": 761.97,
+    "change24hPct": 5.41
    },
    {
     "symbol": "XRP",
-    "price": 1.4203,
-    "change24hPct": 1.66
+    "price": 1.4201,
+    "change24hPct": 1.55
    },
    {
     "symbol": "SOL",
-    "price": 105.97,
-    "change24hPct": 4.19
+    "price": 105.99,
+    "change24hPct": 4.11
    }
   ],
   "fearGreed": {
@@ -11904,7 +11913,7 @@
      "changePct": -8.9
     }
    ],
-   "ageMin": 87
+   "ageMin": 92
   },
   "chainRotation": {
    "chains": [
@@ -12039,7 +12048,7 @@
      9
     ]
    ],
-   "ageMin": 312
+   "ageMin": 317
   }
  },
  "calendar": [
@@ -13860,7 +13869,7 @@
   }
  },
  "intel": {
-  "ageH": 2,
+  "ageH": 2.1,
   "narratives": [
    "* Tokenized RWAs & Stock Derivatives: Robinhood Chain expanded to 862,800 tokenized-stock holders despite regulatory friction and a 50x depeg controversy on tokenized AMC, while OpenReserve secured preliminary OCC approv",
    "* Next-Gen Launchpads & DEXs: Pons took significant market share from Pump Fun by flipping it in daily revenue, Polymarket rolled out public perps trading up to 20x across 67 contracts, and Hyperliquid is pursuing U.S. p",
@@ -14048,6 +14057,23 @@
  ],
  "archive": [
   {
+   "id": 699,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "WIN",
+   "pct": 3.2,
+   "pnlUsd": 21.37,
+   "exitReason": "Manual LONG on Extended — entry $101.76 → exit $104.99 (+3.17% move 10x), realised +$21.37 → WIN.",
+   "closedAt": "2026-09-06T03:24:04.767Z",
+   "entry": 101.76,
+   "exit": 104.99,
+   "conviction": null,
+   "openedAt": "2026-09-04T16:31:39.080Z",
+   "rr": null
+  },
+  {
    "id": 673,
    "asset": "ETH",
    "direction": "SHORT",
@@ -14063,6 +14089,40 @@
    "conviction": 5,
    "openedAt": "2026-09-04T00:34:07.137Z",
    "rr": 2.1
+  },
+  {
+   "id": 700,
+   "asset": "PUMP",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "LOSS",
+   "pct": -8.2,
+   "pnlUsd": -35.13,
+   "exitReason": "Manual LONG on Extended — entry $0.004355 → exit $0.004 (-8.15% move 10x), realised $-35.13 → LOSS.",
+   "closedAt": "2026-09-05T18:37:23.905Z",
+   "entry": 0.004355,
+   "exit": 0.004,
+   "conviction": null,
+   "openedAt": "2026-09-04T05:04:17.461Z",
+   "rr": null
+  },
+  {
+   "id": 698,
+   "asset": "CASHCAT",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "WIN",
+   "pct": 3.2,
+   "pnlUsd": 21.17,
+   "exitReason": "Manual LONG on Extended — entry $0.26525 → exit $0.27367 (+3.17% move 5x), realised +$21.17 → WIN.",
+   "closedAt": "2026-09-05T18:04:57.285Z",
+   "entry": 0.26525,
+   "exit": 0.27367,
+   "conviction": null,
+   "openedAt": "2026-09-05T14:43:31.413Z",
+   "rr": null
   },
   {
    "id": 689,
