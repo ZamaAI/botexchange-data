@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-07T00:02:09.345Z",
+ "generatedAt": "2026-09-07T00:07:00.833Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -29,7 +29,7 @@
    "costUsd": 3.23,
    "costCalls": 75,
    "netPnl": -10.8,
-   "account": 501.26,
+   "account": 501.45,
    "retPct": 0.3,
    "accountRealized": 492.43
   },
@@ -5735,22 +5735,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-06T00:05:00.000Z",
-   "hl": 0,
-   "hl_spot": 534.537371,
-   "grvt": null,
-   "extended": 735.732015,
-   "capital": 3782.509225,
-   "qwen": 497.33,
-   "hermes": 534.54,
-   "manual": 735.73,
-   "kimi": 495.08,
-   "deepseek": 572.1,
-   "gemini": 507.3,
-   "luna": 488.66,
-   "minimax": 448.14
-  },
-  {
    "ts": "2026-09-06T00:10:00.000Z",
    "hl": 0,
    "hl_spot": 534.537371,
@@ -10309,6 +10293,22 @@
    "gemini": 508.55,
    "luna": 490.97,
    "minimax": 448.31
+  },
+  {
+   "ts": "2026-09-07T00:05:00.000Z",
+   "hl": 0,
+   "hl_spot": 534.839101,
+   "grvt": null,
+   "extended": 820.548475,
+   "capital": 3934.600375,
+   "qwen": 501.45,
+   "hermes": 534.84,
+   "manual": 820.55,
+   "kimi": 571.96,
+   "deepseek": 558.47,
+   "gemini": 508.55,
+   "luna": 490.97,
+   "minimax": 448.31
   }
  ],
  "venuesLive": {
@@ -10577,20 +10577,20 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-07T00:02:09.368Z",
+  "at": "2026-09-07T00:07:00.860Z",
   "windowDays": 14,
   "registered": 302,
-  "filled": 94,
+  "filled": 95,
   "dropped": 157,
   "expired": 9,
-  "pending": 42,
+  "pending": 41,
   "fills": {
    "live": {
-    "n": 80,
+    "n": 81,
     "w": 18,
     "l": 29,
     "be": 28,
-    "open": 5,
+    "open": 6,
     "expired": 0
    },
    "paper": {
@@ -10677,10 +10677,10 @@
    {
     "actor": "gemini",
     "registered": 48,
-    "filled": 13,
+    "filled": 14,
     "dropped": 29,
     "expired": 0,
-    "pending": 6
+    "pending": 5
    },
    {
     "actor": "kimi",
@@ -10709,11 +10709,11 @@
   ],
   "confirmed": {
    "since": "2026-09-04T05:00:00.000Z",
-   "n": 6,
+   "n": 7,
    "w": 1,
    "l": 1,
    "be": 1,
-   "open": 3
+   "open": 4
   },
   "baseline": {
    "measuredAt": "2026-09-04",
@@ -10735,7 +10735,7 @@
   }
  },
  "learning": {
-  "at": "2026-09-07T00:02:09.370Z",
+  "at": "2026-09-07T00:07:00.862Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -11084,6 +11084,24 @@
  },
  "openTrades": [
   {
+   "id": 703,
+   "asset": "BTC",
+   "direction": "LONG",
+   "actor": "gemini",
+   "venue": "LIGHTER",
+   "entry": 80327.99,
+   "stop": 78950,
+   "target": 83200,
+   "levelsApprox": false,
+   "cls": "crypto",
+   "trailed": false,
+   "rr": 2.1,
+   "conviction": 6,
+   "openedAt": "2026-09-07T00:04:08.232Z",
+   "thesis": "gemini pick (LIVE, trigger-filled from AWAITING watch at $80,327.99 : 1h candle close above $80,200 pivot with volume >1.2x 20-period average confirming absorption and structural reclaim.)",
+   "smartMoney": null
+  },
+  {
    "id": 702,
    "asset": "BNB",
    "direction": "SHORT",
@@ -11369,8 +11387,8 @@
     "tf": "1h",
     "mode": "breakout",
     "status": "not",
-    "lastClose": 13.047,
-    "asOf": "2026-09-06T23:49:20.532Z"
+    "lastClose": 13.233,
+    "asOf": "2026-09-07T00:04:21.099Z"
    }
   },
   {
@@ -11386,9 +11404,9 @@
    "confirm": {
     "tf": "1h",
     "mode": "breakout",
-    "status": "not",
-    "lastClose": 80055.17,
-    "asOf": "2026-09-06T23:49:13.498Z"
+    "status": "through",
+    "lastClose": 80341.83,
+    "asOf": "2026-09-07T00:04:14.059Z"
    }
   },
   {
@@ -11405,8 +11423,8 @@
     "tf": "1h",
     "mode": "breakout",
     "status": "not",
-    "lastClose": 2.444,
-    "asOf": "2026-09-06T23:49:21.619Z"
+    "lastClose": 2.439,
+    "asOf": "2026-09-07T00:04:21.467Z"
    }
   },
   {
@@ -11435,8 +11453,8 @@
     "tf": "4h",
     "mode": "breakout",
     "status": "not",
-    "lastClose": 12.38,
-    "asOf": "2026-09-06T23:49:22.357Z"
+    "lastClose": 13.233,
+    "asOf": "2026-09-07T00:04:22.208Z"
    }
   },
   {
@@ -11453,8 +11471,8 @@
     "tf": "4h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 79829.99,
-    "asOf": "2026-09-06T23:49:03.316Z"
+    "lastClose": 80341.83,
+    "asOf": "2026-09-07T00:04:03.414Z"
    }
   }
  ],
@@ -11632,28 +11650,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 80294,
-    "change24hPct": 0.58
+    "price": 80382,
+    "change24hPct": 0.63
    },
    {
     "symbol": "ETH",
-    "price": 2511.99,
-    "change24hPct": 1.27
+    "price": 2513.51,
+    "change24hPct": 1.38
    },
    {
     "symbol": "BNB",
-    "price": 752.26,
-    "change24hPct": -1.88
+    "price": 755.41,
+    "change24hPct": -1.53
    },
    {
     "symbol": "XRP",
-    "price": 1.4221,
-    "change24hPct": 0.73
+    "price": 1.4235,
+    "change24hPct": 0.84
    },
    {
     "symbol": "SOL",
-    "price": 106.5,
-    "change24hPct": 3.18
+    "price": 106.47,
+    "change24hPct": 3.11
    }
   ],
   "fearGreed": {
@@ -11871,7 +11889,7 @@
      "changePct": -17.9
     }
    ],
-   "ageMin": 122
+   "ageMin": 127
   },
   "chainRotation": {
    "chains": [
@@ -12014,7 +12032,7 @@
      1
     ]
    ],
-   "ageMin": 167
+   "ageMin": 172
   }
  },
  "calendar": [
@@ -12810,6 +12828,11 @@
    {
     "asset": "BTC",
     "long": [
+     {
+      "actor": "gemini",
+      "conv": 6,
+      "kind": "live"
+     },
      {
       "actor": "kimi",
       "conv": 5,
@@ -13626,7 +13649,7 @@
   }
  },
  "intel": {
-  "ageH": 2.6,
+  "ageH": 2.7,
   "narratives": [
    "* Revenue-Generating DeFi & Real Yield: Capital rotating heavily into fee-earning protocols (HYPE, UNI, Arbitrum's $6.19M H1 DAO income) as traders demand fundamental cash flow and holder alignment over low-float VC toke",
    "* Prediction Markets & Retail Brokerage Shift: Robinhood prediction volume outperforming traditional equities trading, sparking ecosystem M&A and on-chain launchpad traction. (both)",
@@ -20262,8 +20285,8 @@
     "pickCycles7d": 65,
     "pickRate7d": 98,
     "awaiting7d": 31,
-    "saves7d": 9,
-    "routedSaves7d": 7,
+    "saves7d": 10,
+    "routedSaves7d": 8,
     "cost7dUsd": 1.96,
     "calls7d": 75
    },
