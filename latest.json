@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-07T00:17:00.827Z",
+ "generatedAt": "2026-09-07T00:22:04.388Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -29,8 +29,8 @@
    "costUsd": 3.23,
    "costCalls": 75,
    "netPnl": -10.8,
-   "account": 501.47,
-   "retPct": 0.3,
+   "account": 501.77,
+   "retPct": 0.4,
    "accountRealized": 492.43
   },
   {
@@ -5735,22 +5735,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-06T00:20:00.000Z",
-   "hl": 0,
-   "hl_spot": 534.537371,
-   "grvt": null,
-   "extended": 735.228937,
-   "capital": 3781.3739039999996,
-   "qwen": 497.76,
-   "hermes": 534.54,
-   "manual": 735.23,
-   "kimi": 495.75,
-   "deepseek": 571.03,
-   "gemini": 507.3,
-   "luna": 488.91,
-   "minimax": 447.66
-  },
-  {
    "ts": "2026-09-06T00:25:00.000Z",
    "hl": 0,
    "hl_spot": 534.537371,
@@ -10309,6 +10293,22 @@
    "gemini": 509.01,
    "luna": 490.52,
    "minimax": 447.05
+  },
+  {
+   "ts": "2026-09-07T00:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 534.839101,
+   "grvt": null,
+   "extended": 820.549301,
+   "capital": 3934.792364,
+   "qwen": 501.77,
+   "hermes": 534.84,
+   "manual": 820.55,
+   "kimi": 575.06,
+   "deepseek": 556.81,
+   "gemini": 509.01,
+   "luna": 490.52,
+   "minimax": 447.05
   }
  ],
  "venuesLive": {
@@ -10577,13 +10577,13 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-07T00:17:00.854Z",
+  "at": "2026-09-07T00:22:04.414Z",
   "windowDays": 14,
   "registered": 302,
-  "filled": 95,
+  "filled": 96,
   "dropped": 157,
   "expired": 9,
-  "pending": 41,
+  "pending": 40,
   "fills": {
    "live": {
     "n": 81,
@@ -10594,11 +10594,11 @@
     "expired": 0
    },
    "paper": {
-    "n": 18,
+    "n": 19,
     "w": 7,
     "l": 9,
     "be": 0,
-    "open": 0,
+    "open": 1,
     "expired": 2
    }
   },
@@ -10653,10 +10653,10 @@
    {
     "actor": "qwen",
     "registered": 58,
-    "filled": 5,
+    "filled": 6,
     "dropped": 37,
     "expired": 2,
-    "pending": 14
+    "pending": 13
    },
    {
     "actor": "luna",
@@ -10735,7 +10735,7 @@
   }
  },
  "learning": {
-  "at": "2026-09-07T00:17:00.856Z",
+  "at": "2026-09-07T00:22:04.416Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -11084,6 +11084,24 @@
  },
  "openTrades": [
   {
+   "id": 704,
+   "asset": "BTC",
+   "direction": "LONG",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "entry": 80142.81,
+   "stop": 78900,
+   "target": 83000,
+   "levelsApprox": false,
+   "cls": "crypto",
+   "trailed": false,
+   "rr": 2.3,
+   "conviction": 6,
+   "openedAt": "2026-09-07T00:19:14.834Z",
+   "thesis": "qwen pick (paper, trigger-filled from AWAITING watch at $80,142.81 : 1h close above 80207)",
+   "smartMoney": null
+  },
+  {
    "id": 703,
    "asset": "BTC",
    "direction": "LONG",
@@ -11388,7 +11406,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 13.233,
-    "asOf": "2026-09-07T00:04:21.099Z"
+    "asOf": "2026-09-07T00:19:22.628Z"
    }
   },
   {
@@ -11406,7 +11424,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 80341.83,
-    "asOf": "2026-09-07T00:04:14.059Z"
+    "asOf": "2026-09-07T00:19:14.463Z"
    }
   },
   {
@@ -11424,7 +11442,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 2.439,
-    "asOf": "2026-09-07T00:04:21.467Z"
+    "asOf": "2026-09-07T00:19:22.999Z"
    }
   },
   {
@@ -11454,7 +11472,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 13.233,
-    "asOf": "2026-09-07T00:04:22.208Z"
+    "asOf": "2026-09-07T00:19:23.964Z"
    }
   },
   {
@@ -11472,7 +11490,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 80341.83,
-    "asOf": "2026-09-07T00:04:03.414Z"
+    "asOf": "2026-09-07T00:19:05.204Z"
    }
   }
  ],
@@ -11650,28 +11668,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 80269.99,
-    "change24hPct": 0.46
+    "price": 80181.95,
+    "change24hPct": 0.34
    },
    {
     "symbol": "ETH",
-    "price": 2513.67,
+    "price": 2514.98,
     "change24hPct": 1.29
    },
    {
     "symbol": "BNB",
-    "price": 754,
-    "change24hPct": -1.88
+    "price": 752.92,
+    "change24hPct": -1.97
    },
    {
     "symbol": "XRP",
-    "price": 1.4243,
-    "change24hPct": 0.9
+    "price": 1.4208,
+    "change24hPct": 0.6
    },
    {
     "symbol": "SOL",
-    "price": 106.45,
-    "change24hPct": 2.99
+    "price": 106.2,
+    "change24hPct": 2.73
    }
   ],
   "fearGreed": {
@@ -11686,8 +11704,8 @@
   },
   "macro": {
    "dxy": {
-    "price": 99.16,
-    "change": 0
+    "price": 99.14,
+    "change": -0.02
    },
    "vix": {
     "price": 14.53,
@@ -11788,13 +11806,13 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.059,
+    "ratio": 1.057,
     "longPct": 51.4,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.251,
+    "ratio": 2.244,
     "longPct": 69.2,
     "bias": "CROWDED LONG"
    },
@@ -11806,13 +11824,13 @@
    },
    {
     "asset": "BNB",
-    "ratio": 2.221,
+    "ratio": 2.222,
     "longPct": 69,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.459,
+    "ratio": 2.46,
     "longPct": 71.1,
     "bias": "CROWDED LONG"
    }
@@ -11889,7 +11907,7 @@
      "changePct": -17.9
     }
    ],
-   "ageMin": 137
+   "ageMin": 142
   },
   "chainRotation": {
    "chains": [
@@ -12032,7 +12050,7 @@
      1
     ]
    ],
-   "ageMin": 182
+   "ageMin": 187
   }
  },
  "calendar": [
@@ -12834,6 +12852,11 @@
       "kind": "live"
      },
      {
+      "actor": "qwen",
+      "conv": 6,
+      "kind": "paper"
+     },
+     {
       "actor": "kimi",
       "conv": 5,
       "kind": "watching"
@@ -12841,11 +12864,6 @@
      {
       "actor": "grok",
       "conv": 5,
-      "kind": "watching"
-     },
-     {
-      "actor": "qwen",
-      "conv": 6,
       "kind": "watching"
      }
     ],
@@ -12998,7 +13016,7 @@
   "disagreement": "BNB"
  },
  "manualBook": {
-  "at": "2026-09-07T00:02:09.345Z",
+  "at": "2026-09-07T00:22:04.388Z",
   "positions": [
    {
     "asset": "BTC",
@@ -13649,7 +13667,7 @@
   }
  },
  "intel": {
-  "ageH": 2.8,
+  "ageH": 2.9,
   "narratives": [
    "* Revenue-Generating DeFi & Real Yield: Capital rotating heavily into fee-earning protocols (HYPE, UNI, Arbitrum's $6.19M H1 DAO income) as traders demand fundamental cash flow and holder alignment over low-float VC toke",
    "* Prediction Markets & Retail Brokerage Shift: Robinhood prediction volume outperforming traditional equities trading, sparking ecosystem M&A and on-chain launchpad traction. (both)",
@@ -20939,7 +20957,7 @@
     "pickCycles7d": 0,
     "pickRate7d": null,
     "awaiting7d": 35,
-    "saves7d": 6,
+    "saves7d": 7,
     "routedSaves7d": 0,
     "cost7dUsd": 1.28,
     "calls7d": 29
