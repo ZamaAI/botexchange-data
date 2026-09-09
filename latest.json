@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T21:57:04.247Z",
+ "generatedAt": "2026-09-09T22:02:00.663Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -29,7 +29,7 @@
    "costUsd": 3.71,
    "costCalls": 86,
    "netPnl": -24.3,
-   "account": 475.83,
+   "account": 476.05,
    "retPct": -4.8,
    "accountRealized": 479.41,
    "regimes": {
@@ -1048,22 +1048,6 @@
   }
  },
  "equityHourly": [
-  {
-   "ts": "2026-08-26T22:00:00.000Z",
-   "hl": 12.28752,
-   "hl_spot": 497.54698399999995,
-   "grvt": null,
-   "extended": 696.743849,
-   "capital": 3674.070153,
-   "qwen": 484.24,
-   "hermes": 509.83,
-   "manual": 696.74,
-   "kimi": 479.08,
-   "deepseek": 508.73,
-   "gemini": 518.23,
-   "luna": 471.82,
-   "minimax": 488.68
-  },
   {
    "ts": "2026-08-26T23:00:00.000Z",
    "hl": 18.30294,
@@ -6311,6 +6295,22 @@
    "gemini": 492.45,
    "luna": 487.88,
    "minimax": 447.19
+  },
+  {
+   "ts": "2026-09-09T22:00:00.000Z",
+   "hl": 0,
+   "hl_spot": 530.9342320000001,
+   "grvt": null,
+   "extended": 556.077431,
+   "capital": 3616.471563,
+   "qwen": 476.05,
+   "hermes": 530.93,
+   "manual": 556.08,
+   "kimi": 551.54,
+   "deepseek": 548.07,
+   "gemini": 492.45,
+   "luna": 487.88,
+   "minimax": 448.57
   }
  ],
  "equityLive": [
@@ -9673,6 +9673,22 @@
    "gemini": 492.45,
    "luna": 487.88,
    "minimax": 448.57
+  },
+  {
+   "ts": "2026-09-09T22:00:00.000Z",
+   "hl": 0,
+   "hl_spot": 530.9342320000001,
+   "grvt": null,
+   "extended": 556.077431,
+   "capital": 3616.471563,
+   "qwen": 476.05,
+   "hermes": 530.93,
+   "manual": 556.08,
+   "kimi": 551.54,
+   "deepseek": 548.07,
+   "gemini": 492.45,
+   "luna": 487.88,
+   "minimax": 448.57
   }
  ],
  "venuesLive": {
@@ -10987,7 +11003,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-09T21:57:04.275Z",
+  "at": "2026-09-09T22:02:00.696Z",
   "windowDays": 14,
   "registered": 300,
   "filled": 86,
@@ -11145,7 +11161,7 @@
   }
  },
  "learning": {
-  "at": "2026-09-09T21:57:04.277Z",
+  "at": "2026-09-09T22:02:00.699Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -11934,28 +11950,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 78106,
-    "change24hPct": -0.45
+    "price": 78166,
+    "change24hPct": -0.53
    },
    {
     "symbol": "ETH",
-    "price": 2460.31,
-    "change24hPct": -0.82
+    "price": 2462.19,
+    "change24hPct": -0.96
    },
    {
     "symbol": "BNB",
-    "price": 728.14,
-    "change24hPct": -3.18
+    "price": 725.57,
+    "change24hPct": -3.63
    },
    {
     "symbol": "XRP",
-    "price": 1.3955,
-    "change24hPct": -1.5
+    "price": 1.3966,
+    "change24hPct": -1.65
    },
    {
     "symbol": "SOL",
-    "price": 102.04,
-    "change24hPct": -0.89
+    "price": 102.16,
+    "change24hPct": -1.02
    }
   ],
   "fearGreed": {
@@ -11998,8 +12014,8 @@
    "date": "2026-09-02"
   },
   "riskIndex": {
-   "score": 37,
-   "band": "STABLE",
+   "score": 40,
+   "band": "NORMAL",
    "weighting": "equal",
    "weightPct": 10,
    "componentsLive": 10,
@@ -12007,56 +12023,66 @@
    "components": [
     {
      "key": "leverage",
-     "score": 25,
-     "detail": "majors OI -1.2%/24h"
+     "label": "Leverage build",
+     "score": 22,
+     "detail": "majors OI -1.7%/24h"
     },
     {
      "key": "funding",
-     "score": 20,
+     "label": "Funding extremity",
+     "score": 19,
      "detail": "mean |funding| 0.014%/day"
     },
     {
      "key": "crowding",
-     "score": 52,
+     "label": "Positioning crowding",
+     "score": 53,
      "detail": "crowd 67% long — squeeze fuel below"
     },
     {
      "key": "liquidations",
-     "score": 43,
-     "detail": "$37M forced /24h (BTC/ETH/SOL, Binance)"
+     "label": "Liquidation stress",
+     "score": 49,
+     "detail": "$49M forced /24h (BTC/ETH/SOL, Binance)"
     },
     {
      "key": "volatility",
-     "score": 58,
-     "detail": "58th percentile vs own history"
+     "label": "Realized volatility",
+     "score": 59,
+     "detail": "59th percentile vs own history"
     },
     {
      "key": "liquidity",
+     "label": "Liquidity / dry powder",
      "score": 52,
      "detail": "stables +0.53%/7d, Fed draining"
     },
     {
      "key": "macro",
+     "label": "Macro coupling",
      "score": 22,
      "detail": "BTC↔NQ corr 0.18"
     },
     {
      "key": "breadth",
-     "score": 40,
-     "detail": "3/5 majors above their 20d MA"
+     "label": "Breadth fragility",
+     "score": 60,
+     "detail": "2/5 majors above their 20d MA"
     },
     {
      "key": "impliedvol",
+     "label": "Implied volatility",
      "score": 29,
-     "detail": "BTC DVOL 40.3 vs 90d median 37.5"
+     "detail": "BTC DVOL 40.0 vs 90d median 37.5"
     },
     {
      "key": "takerflow",
-     "score": 29,
-     "detail": "49.1% taker buy — sellers crossing the spread"
+     "label": "Taker flow imbalance",
+     "score": 39,
+     "detail": "48.8% taker buy — sellers crossing the spread"
     }
    ],
-   "computedAt": 1788969724962
+   "computedAt": 1788991301469
   },
   "equityRegime": "RISK_OFF",
   "longShort": [
@@ -12094,17 +12120,17 @@
   "funding": [
    {
     "asset": "BTC",
-    "dailyPct": 0.0144,
+    "dailyPct": 0.0152,
     "signal": "NEUTRAL"
    },
    {
     "asset": "ETH",
-    "dailyPct": 0.0092,
+    "dailyPct": -0.0046,
     "signal": "NEUTRAL"
    },
    {
     "asset": "SOL",
-    "dailyPct": -0.0185,
+    "dailyPct": -0.021,
     "signal": "SQUEEZE ALERT"
    }
   ],
@@ -12115,59 +12141,54 @@
   "movers": {
    "gainers": [
     {
-     "symbol": "WOULD",
-     "price": 0.184526,
-     "changePct": 543.3
-    },
-    {
      "symbol": "IOST",
-     "price": 0.00170595,
-     "changePct": 89.9
+     "price": 0.00239429,
+     "changePct": 176.5
     },
     {
-     "symbol": "STONK",
-     "price": 0.237784,
-     "changePct": 40.7
+     "symbol": "HOOD",
+     "price": 0.085444,
+     "changePct": 23.7
     },
     {
-     "symbol": "RAY",
-     "price": 1.38,
-     "changePct": 22.9
+     "symbol": "BR",
+     "price": 0.31857,
+     "changePct": 17.3
     },
     {
-     "symbol": "AIOZ",
-     "price": 0.075141,
-     "changePct": 17.8
+     "symbol": "MINA",
+     "price": 0.091426,
+     "changePct": 12.4
+    },
+    {
+     "symbol": "ZANO",
+     "price": 6.43,
+     "changePct": 12
     }
    ],
    "losers": [
     {
      "symbol": "AMC",
-     "price": 0.073604,
-     "changePct": -33.5
+     "price": 0.05864,
+     "changePct": -34.7
     },
     {
-     "symbol": "AKE",
-     "price": 0.01550753,
-     "changePct": -21
-    },
-    {
-     "symbol": "CARDS",
-     "price": 0.124525,
-     "changePct": -14.5
+     "symbol": "NEX",
+     "price": 0.00000109,
+     "changePct": -23.6
     },
     {
      "symbol": "PONS",
-     "price": 0.708257,
-     "changePct": -14.1
+     "price": 0.633731,
+     "changePct": -20.3
     },
     {
-     "symbol": "SAFE",
-     "price": 0.081151,
-     "changePct": -12.6
+     "symbol": "DIEM",
+     "price": 1746.19,
+     "changePct": -19.6
     }
    ],
-   "ageMin": 357
+   "ageMin": 2
   },
   "chainRotation": {
    "chains": [
@@ -12306,13 +12327,19 @@
      1
     ]
    ],
-   "ageMin": 222
+   "ageMin": 227
   }
  },
  "calendar": [
   {
    "date": "2026-09-09",
    "event": "SOL — Transaction V1 Live",
+   "type": "CRYPTO",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-09",
+   "event": "STX — Bond Enrollment Closes",
    "type": "CRYPTO",
    "impact": "MED"
   },
@@ -12331,12 +12358,6 @@
   {
    "date": "2026-09-10",
    "event": "STX — Genesis Bond",
-   "type": "CRYPTO",
-   "impact": "MED"
-  },
-  {
-   "date": "2026-09-10",
-   "event": "PENDLE — USDG LP Incentives",
    "type": "CRYPTO",
    "impact": "MED"
   },
@@ -13725,7 +13746,7 @@
   }
  },
  "intel": {
-  "ageH": 0.5,
+  "ageH": 0.6,
   "narratives": [
    "* Decentralized & Zero-Retention AI: Privacy-focused compute network Venice (VVV) is gaining significant market share following public disputes and existential safety debates surrounding centralized AI labs like OpenAI a",
    "* Memecoin Launchpad Flippening: Challenger launchpads Ponsfamily and Stonkfun have surpassed Pumpfun in daily protocol revenue generation. (newsletter)",
