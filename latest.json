@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-10T23:02:02.366Z",
+ "generatedAt": "2026-09-10T23:07:04.015Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -8,11 +8,11 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 435.74
+   "account": 425.02
   },
   "machine": {
    "label": "Danny DeepSeek",
-   "account": 547.75
+   "account": 548.1
   }
  },
  "standings": [
@@ -132,8 +132,8 @@
    "costUsd": 12.68,
    "costCalls": 257,
    "netPnl": 19.61,
-   "account": 530.73,
-   "retPct": 6.1,
+   "account": 530.14,
+   "retPct": 6,
    "accountRealized": 532.29,
    "regimes": {
     "RISK_ON": {
@@ -238,8 +238,8 @@
    "costUsd": 0,
    "costCalls": 0,
    "netPnl": 98.27,
-   "account": 435.74,
-   "retPct": -12.9,
+   "account": 425.02,
+   "retPct": -15,
    "accountRealized": 598.27,
    "regimes": {
     "RISK_ON": {
@@ -409,7 +409,7 @@
    "costUsd": 7.72,
    "costCalls": 224,
    "netPnl": 26.63,
-   "account": 547.75,
+   "account": 548.1,
    "retPct": 9.6,
    "accountRealized": 534.35,
    "regimes": {
@@ -726,8 +726,8 @@
    "costUsd": 3.82,
    "costCalls": 301,
    "netPnl": -48.84,
-   "account": 450.75,
-   "retPct": -9.8,
+   "account": 450.15,
+   "retPct": -10,
    "accountRealized": 454.98,
    "regimes": {
     "RISK_ON": {
@@ -779,18 +779,18 @@
    "watch": {
     "registered": 35,
     "filled": 10,
-    "refused": 12,
+    "refused": 13,
     "cancelled": 10,
     "expired": 1,
-    "pending": 1,
+    "pending": 0,
     "topGates": [
      [
       "duplicate_open",
       3
      ],
      [
-      "anticipation",
-      2
+      "struct_chase",
+      3
      ]
     ],
     "fills": {
@@ -6309,22 +6309,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-09T23:05:00.000Z",
-   "hl": 0,
-   "hl_spot": 530.876524,
-   "grvt": null,
-   "extended": 561.596183,
-   "capital": 3618.3684040000003,
-   "qwen": 475.66,
-   "hermes": 530.88,
-   "manual": 561.6,
-   "kimi": 550.9,
-   "deepseek": 544.04,
-   "gemini": 492.45,
-   "luna": 487.88,
-   "minimax": 449.66
-  },
-  {
    "ts": "2026-09-09T23:10:00.000Z",
    "hl": 0,
    "hl_spot": 530.876524,
@@ -10883,14 +10867,30 @@
    "gemini": 492.45,
    "luna": 487.88,
    "minimax": 450.75
+  },
+  {
+   "ts": "2026-09-10T23:05:00.000Z",
+   "hl": -0.3979,
+   "hl_spot": 530.539088,
+   "grvt": null,
+   "extended": 425.023992,
+   "capital": 3477.799742,
+   "qwen": 470.97,
+   "hermes": 530.14,
+   "manual": 425.02,
+   "kimi": 543.1,
+   "deepseek": 548.1,
+   "gemini": 492.45,
+   "luna": 487.88,
+   "minimax": 450.15
   }
  ],
  "venuesLive": {
-  "hl": -0.09342,
-  "hl_spot": 530.826801,
+  "hl": -0.3979,
+  "hl_spot": 530.539088,
   "grvt": null,
-  "lighter": 2522.8929740000003,
-  "total": 3053.6263550000003
+  "lighter": 2522.634562,
+  "total": 3052.7757500000002
  },
  "awaitingScore": {
   "at": "2026-09-10T19:04:35.176Z",
@@ -12191,13 +12191,13 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-10T23:02:02.393Z",
+  "at": "2026-09-10T23:07:04.040Z",
   "windowDays": 14,
   "registered": 305,
   "filled": 81,
-  "dropped": 186,
+  "dropped": 187,
   "expired": 8,
-  "pending": 30,
+  "pending": 29,
   "fills": {
    "live": {
     "n": 70,
@@ -12228,7 +12228,7 @@
    },
    {
     "reason": "struct_chase",
-    "n": 25
+    "n": 26
    },
    {
     "reason": "correlation_cap",
@@ -12304,9 +12304,9 @@
     "actor": "minimax",
     "registered": 32,
     "filled": 9,
-    "dropped": 22,
+    "dropped": 23,
     "expired": 0,
-    "pending": 1
+    "pending": 0
    },
    {
     "actor": "grok",
@@ -12345,7 +12345,7 @@
   }
  },
  "learning": {
-  "at": "2026-09-10T23:02:02.395Z",
+  "at": "2026-09-10T23:07:04.042Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -12763,8 +12763,8 @@
     "tf": "1h",
     "mode": "breakout",
     "status": "not",
-    "lastClose": 714.37,
-    "asOf": "2026-09-10T22:49:18.607Z"
+    "lastClose": 711.98,
+    "asOf": "2026-09-10T23:04:17.510Z"
    }
   },
   {
@@ -12780,9 +12780,9 @@
    "confirm": {
     "tf": "1h",
     "mode": "breakout",
-    "status": "not",
-    "lastClose": 99.82,
-    "asOf": "2026-09-10T22:49:19.352Z"
+    "status": "through",
+    "lastClose": 99.27,
+    "asOf": "2026-09-10T23:04:18.256Z"
    }
   },
   {
@@ -12812,7 +12812,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 99.69,
-    "asOf": "2026-09-10T22:49:17.495Z"
+    "asOf": "2026-09-10T23:04:16.397Z"
    }
   },
   {
@@ -12830,7 +12830,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 77160.83,
-    "asOf": "2026-09-10T22:49:19.722Z"
+    "asOf": "2026-09-10T23:04:18.649Z"
    }
   }
  ],
@@ -13008,28 +13008,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 76857.81,
-    "change24hPct": -1.46
+    "price": 76822.14,
+    "change24hPct": -1.7
    },
    {
     "symbol": "ETH",
-    "price": 2445.59,
-    "change24hPct": -0.31
+    "price": 2444.15,
+    "change24hPct": -0.6
    },
    {
     "symbol": "BNB",
-    "price": 712.27,
-    "change24hPct": -1.08
+    "price": 711.69,
+    "change24hPct": -1.29
    },
    {
     "symbol": "XRP",
-    "price": 1.343,
-    "change24hPct": -3.17
+    "price": 1.3407,
+    "change24hPct": -3.56
    },
    {
     "symbol": "SOL",
-    "price": 99.34,
-    "change24hPct": -1.72
+    "price": 99.23,
+    "change24hPct": -2.18
    }
   ],
   "fearGreed": {
@@ -13038,7 +13038,7 @@
   },
   "regime": "RISK_OFF",
   "stockFearGreed": {
-   "value": 36,
+   "value": 33,
    "classification": "Fear",
    "source": "CNN"
   },
@@ -13152,26 +13152,26 @@
    },
    {
     "asset": "ETH",
-    "ratio": 2.683,
+    "ratio": 2.696,
     "longPct": 72.9,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.217,
+    "ratio": 2.219,
     "longPct": 68.9,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.636,
+    "ratio": 2.634,
     "longPct": 72.5,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.472,
-    "longPct": 71.2,
+    "ratio": 2.442,
+    "longPct": 71,
     "bias": "CROWDED LONG"
    }
   ],
@@ -13246,7 +13246,7 @@
      "changePct": -12.5
     }
    ],
-   "ageMin": 62
+   "ageMin": 67
   },
   "chainRotation": {
    "chains": [
@@ -13385,7 +13385,7 @@
      2
     ]
    ],
-   "ageMin": 61
+   "ageMin": 66
   }
  },
  "calendar": [
@@ -14068,22 +14068,6 @@
     ]
    },
    {
-    "asset": "XRP",
-    "long": [],
-    "short": [
-     {
-      "actor": "kimi",
-      "conv": 6,
-      "kind": "watching"
-     },
-     {
-      "actor": "minimax",
-      "conv": 6,
-      "kind": "watching"
-     }
-    ]
-   },
-   {
     "asset": "ATOM",
     "long": [
      {
@@ -14123,6 +14107,17 @@
       "actor": "minimax",
       "conv": 5,
       "kind": "live"
+     }
+    ],
+    "short": []
+   },
+   {
+    "asset": "ETHFI",
+    "long": [
+     {
+      "actor": "qwen",
+      "conv": 6,
+      "kind": "watching"
      }
     ],
     "short": []
@@ -14522,7 +14517,7 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 5409,
+   "totalPrints7d": 5417,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
@@ -14530,64 +14525,69 @@
      "coin": "BTC",
      "l": 3,
      "s": 2,
-     "netK": 2471,
-     "concPct": 60
+     "netK": 1699,
+     "concPct": 51
     },
     {
      "coin": "ZEC",
      "l": 1,
      "s": 2,
-     "netK": -2457,
-     "concPct": 97
+     "netK": -2449,
+     "concPct": 96
     },
     {
      "coin": "ETH",
-     "l": 2,
-     "s": 3,
-     "netK": -1011,
+     "l": 1,
+     "s": 4,
+     "netK": -1012,
      "concPct": 55
     },
     {
      "coin": "SOL",
      "l": 2,
      "s": 2,
-     "netK": -1130,
+     "netK": -1117,
      "concPct": 90
     },
     {
      "coin": "HOOD",
      "l": 2,
      "s": 0,
-     "netK": 1015,
+     "netK": 999,
      "concPct": 100
     },
     {
      "coin": "WLD",
      "l": 1,
      "s": 1,
-     "netK": -736,
+     "netK": -733,
      "concPct": 100
     },
     {
      "coin": "LIT",
      "l": 1,
      "s": 2,
-     "netK": 360,
+     "netK": 357,
      "concPct": 77
     },
     {
      "coin": "BRENTOIL",
      "l": 1,
      "s": 1,
-     "netK": 148,
+     "netK": 147,
      "concPct": 63
     }
    ],
    "coinFlow": [
     {
      "coin": "ETH",
-     "netK": -6110,
-     "n": 1030
+     "netK": -6253,
+     "n": 1036
+    },
+    {
+     "coin": "LIT",
+     "netK": -1223,
+     "n": 94
     },
     {
      "coin": "USDJPY",
@@ -14595,19 +14595,14 @@
      "n": 66
     },
     {
-     "coin": "LIT",
-     "netK": -1191,
-     "n": 95
-    },
-    {
      "coin": "ZEC",
-     "netK": -917,
-     "n": 710
+     "netK": -901,
+     "n": 708
     },
     {
      "coin": "HYPE",
-     "netK": 913,
-     "n": 290
+     "netK": 896,
+     "n": 291
     }
    ],
    "accounts": [
@@ -14624,13 +14619,13 @@
      "prints": 112,
      "volK": 5408,
      "biasK": -982,
-     "equity": 102470,
+     "equity": 101543,
      "positions": [
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 592,
-       "upnlK": -1
+       "usdK": 591,
+       "upnlK": -2
       },
       {
        "coin": "WTI",
@@ -14653,19 +14648,19 @@
      "prints": 157,
      "volK": 4096,
      "biasK": 303,
-     "equity": 928303,
+     "equity": 927153,
      "positions": [
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 405,
-       "upnlK": 4
+       "usdK": 404,
+       "upnlK": 3
       },
       {
        "coin": "BTC",
        "side": "LONG",
        "usdK": 181,
-       "upnlK": 0
+       "upnlK": -1
       },
       {
        "coin": "SOL",
@@ -14686,7 +14681,7 @@
      "prints": 124,
      "volK": 2886,
      "biasK": 376,
-     "equity": 68363,
+     "equity": 68388,
      "positions": [
       {
        "coin": "US100",
@@ -14878,7 +14873,7 @@
   }
  },
  "intel": {
-  "ageH": 1.6,
+  "ageH": 1.7,
   "narratives": [
    "* Crypto Banking & Fiduciary Rails: Block applied for an OCC national trust charter (Builders Bank & Trust), Robinhood agreed to acquire a stake in Crypto.com, and EtherFi introduced consumer card tiers with up to 4% cas",
    "* Memecoin Launchpad Wars: Solana-based platforms Ponsfamily and Stonkfun surpassed Pumpfun in daily protocol revenue, while Pumpfun expanded into RWA and equity pairs (newsletter).",
@@ -20894,7 +20889,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 530.73,
+    "equity": 530.14,
     "peak": 546.82
    },
    "LIGHTER_kimi": {
@@ -20912,7 +20907,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 547.75,
+    "equity": 548.1,
     "peak": 575.41
    },
    "LIGHTER_gemini": {
@@ -20939,7 +20934,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 450.75,
+    "equity": 450.15,
     "peak": 500
    }
   },
