@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-10T17:37:06.894Z",
+ "generatedAt": "2026-09-10T17:42:00.475Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -723,9 +723,9 @@
    "losses": 6,
    "wr": "14",
    "pnl": -45.02,
-   "costUsd": 3.7,
-   "costCalls": 297,
-   "netPnl": -48.72,
+   "costUsd": 3.79,
+   "costCalls": 299,
+   "netPnl": -48.81,
    "account": 446.44,
    "retPct": -10.7,
    "accountRealized": 454.98,
@@ -809,10 +809,10 @@
     }
    },
    "exits": {
-    "n": 11,
+    "n": 12,
     "byClass": {
      "STOP_INITIAL": 6,
-     "TRAIL_BE": 3,
+     "TRAIL_BE": 4,
      "TRAIL_LOCK": 1,
      "STOP_SCRATCH": 1
     }
@@ -6325,22 +6325,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-09T17:40:00.000Z",
-   "hl": 0,
-   "hl_spot": 530.829259,
-   "grvt": null,
-   "extended": 606.746327,
-   "capital": 3690.2616129999997,
-   "qwen": 483.74,
-   "hermes": 530.83,
-   "manual": 606.75,
-   "kimi": 560.12,
-   "deepseek": 561.24,
-   "gemini": 492.45,
-   "luna": 487.88,
-   "minimax": 450.04
-  },
-  {
    "ts": "2026-09-09T17:45:00.000Z",
    "hl": 0,
    "hl_spot": 530.829259,
@@ -10915,6 +10899,22 @@
    "gemini": 492.45,
    "luna": 487.88,
    "minimax": 446.44
+  },
+  {
+   "ts": "2026-09-10T17:40:00.000Z",
+   "hl": 1.62793,
+   "hl_spot": 532.501407,
+   "grvt": null,
+   "extended": 502.166802,
+   "capital": 3552.693926,
+   "qwen": 470.97,
+   "hermes": 534.13,
+   "manual": 502.17,
+   "kimi": 543.1,
+   "deepseek": 545.57,
+   "gemini": 492.45,
+   "luna": 487.88,
+   "minimax": 446.44
   }
  ],
  "venuesLive": {
@@ -12213,11 +12213,11 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-10T17:37:06.920Z",
+  "at": "2026-09-10T17:42:00.537Z",
   "windowDays": 14,
-  "registered": 307,
+  "registered": 306,
   "filled": 83,
-  "dropped": 186,
+  "dropped": 185,
   "expired": 9,
   "pending": 29,
   "fills": {
@@ -12225,8 +12225,8 @@
     "n": 71,
     "w": 14,
     "l": 26,
-    "be": 27,
-    "open": 4,
+    "be": 28,
+    "open": 3,
     "expired": 0
    },
    "paper": {
@@ -12273,12 +12273,12 @@
     "n": 6
    },
    {
-    "reason": "refused_at_fill_unrecorded",
+    "reason": "contradiction",
     "n": 4
    },
    {
-    "reason": "contradiction",
-    "n": 4
+    "reason": "refused_at_fill_unrecorded",
+    "n": 3
    }
   ],
   "byActor": [
@@ -12316,9 +12316,9 @@
    },
    {
     "actor": "luna",
-    "registered": 41,
+    "registered": 40,
     "filled": 13,
-    "dropped": 27,
+    "dropped": 26,
     "expired": 0,
     "pending": 1
    },
@@ -12344,8 +12344,8 @@
    "n": 16,
    "w": 3,
    "l": 5,
-   "be": 4,
-   "open": 4
+   "be": 5,
+   "open": 3
   },
   "baseline": {
    "measuredAt": "2026-09-04",
@@ -12367,21 +12367,21 @@
   }
  },
  "learning": {
-  "at": "2026-09-10T17:37:06.922Z",
+  "at": "2026-09-10T17:42:00.538Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
-   "n": 147,
+   "n": 148,
    "conviction": [
     {
      "band": "5",
-     "n": 78,
+     "n": 79,
      "w": 20,
      "l": 31,
-     "be": 27,
+     "be": 28,
      "wr": 39,
      "avgR": 0.12,
-     "pnl": 147.51
+     "pnl": 147.8
     },
     {
      "band": "6",
@@ -12417,13 +12417,13 @@
     },
     {
      "band": "2–4%",
-     "n": 72,
+     "n": 73,
      "w": 10,
      "l": 34,
-     "be": 28,
+     "be": 29,
      "wr": 23,
-     "avgR": -0.19,
-     "pnl": -139.76
+     "avgR": -0.18,
+     "pnl": -139.46
     },
     {
      "band": "4–8%",
@@ -12469,13 +12469,13 @@
     },
     {
      "band": "2.5–3.5",
-     "n": 66,
+     "n": 67,
      "w": 19,
      "l": 31,
-     "be": 16,
+     "be": 17,
      "wr": 38,
      "avgR": 0.14,
-     "pnl": 33.5
+     "pnl": 33.8
     },
     {
      "band": ">3.5",
@@ -12501,13 +12501,13 @@
     },
     {
      "band": "SHORT",
-     "n": 34,
+     "n": 35,
      "w": 3,
      "l": 14,
-     "be": 17,
+     "be": 18,
      "wr": 18,
-     "avgR": -0.29,
-     "pnl": -31.28
+     "avgR": -0.28,
+     "pnl": -30.98
     }
    ],
    "intel": [
@@ -12523,28 +12523,28 @@
     },
     {
      "band": "untagged",
-     "n": 130,
+     "n": 131,
      "w": 28,
      "l": 56,
-     "be": 46,
+     "be": 47,
      "wr": 33,
      "avgR": 0.01,
-     "pnl": 66.24
+     "pnl": 66.54
     }
    ]
   },
   "all": {
-   "n": 179,
+   "n": 180,
    "conviction": [
     {
      "band": "5",
-     "n": 88,
+     "n": 89,
      "w": 23,
      "l": 38,
-     "be": 27,
+     "be": 28,
      "wr": 38,
      "avgR": 0.15,
-     "pnl": 147.51
+     "pnl": 147.8
     },
     {
      "band": "6",
@@ -12590,13 +12590,13 @@
     },
     {
      "band": "2–4%",
-     "n": 87,
+     "n": 88,
      "w": 13,
      "l": 46,
-     "be": 28,
+     "be": 29,
      "wr": 22,
      "avgR": -0.21,
-     "pnl": -139.76
+     "pnl": -139.46
     },
     {
      "band": "4–8%",
@@ -12642,13 +12642,13 @@
     },
     {
      "band": "2.5–3.5",
-     "n": 73,
+     "n": 74,
      "w": 21,
      "l": 36,
-     "be": 16,
+     "be": 17,
      "wr": 37,
      "avgR": 0.14,
-     "pnl": 33.5
+     "pnl": 33.8
     },
     {
      "band": ">3.5",
@@ -12674,13 +12674,13 @@
     },
     {
      "band": "SHORT",
-     "n": 38,
+     "n": 39,
      "w": 4,
      "l": 17,
-     "be": 17,
+     "be": 18,
      "wr": 19,
-     "avgR": -0.28,
-     "pnl": -31.28
+     "avgR": -0.27,
+     "pnl": -30.98
     }
    ],
    "intel": [
@@ -12696,22 +12696,22 @@
     },
     {
      "band": "untagged",
-     "n": 160,
+     "n": 161,
      "w": 38,
      "l": 76,
-     "be": 46,
+     "be": 47,
      "wr": 33,
      "avgR": 0.09,
-     "pnl": 66.24
+     "pnl": 66.54
     }
    ]
   },
   "paperN": 32,
   "takeaways": [
-   "By stop distance the 4–8% band earns 0.26R per trade on average (n=19); the 2–4% band loses 0.19R (n=72).",
+   "By stop distance the 4–8% band earns 0.26R per trade on average (n=19); the 2–4% band loses 0.18R (n=73).",
    "Targets planned at 2–2.5× risk hit 32% of the time and targets at 2.5–3.5× hit 38% — no penalty for the wider target in this window.",
-   "Longs won 40% (n=113); shorts won 18% (n=34).",
-   "Picks that cited news or social intel won 55% (n=17) against 33% for picks that did not (n=130)."
+   "Longs won 40% (n=113); shorts won 18% (n=35).",
+   "Picks that cited news or social intel won 55% (n=17) against 33% for picks that did not (n=131)."
   ]
  },
  "openTrades": [
@@ -12786,24 +12786,6 @@
    "openedAt": "2026-09-07T16:05:29.876Z",
    "thesis": "SOL long liquidation is firing now — Coinalyze 24h OI -6.31% with price -2.46% (Bybit flags LONG_LIQUIDATION), and the last closed 4h bar printed $103.26 below the prior 5-bar low $103.80.",
    "smartMoney": 2
-  },
-  {
-   "id": 709,
-   "asset": "ETH",
-   "direction": "SHORT",
-   "actor": "minimax",
-   "venue": "LIGHTER",
-   "entry": 2475.47,
-   "stop": 2469.281325,
-   "target": 2300,
-   "levelsApprox": false,
-   "cls": "crypto",
-   "trailed": true,
-   "rr": 2.5,
-   "conviction": 5,
-   "openedAt": "2026-09-07T16:04:15.660Z",
-   "thesis": "minimax pick (LIVE, trigger-filled from AWAITING watch at $2,475.47 : ETH prints a 4h CLOSE below $2,474.87 (S1 pivot support) — breakdown through crowded-long support)",
-   "smartMoney": 3
   }
  ],
  "awaiting": [
@@ -12893,6 +12875,20 @@
   }
  ],
  "recentCloses": [
+  {
+   "id": 709,
+   "asset": "ETH",
+   "direction": "SHORT",
+   "actor": "minimax",
+   "venue": "LIGHTER",
+   "outcome": "BREAKEVEN",
+   "pct": 0.2,
+   "exitReason": null,
+   "closedAt": "2026-09-10T17:34:48.053Z",
+   "entry": 2475.47,
+   "exit": 2470.94,
+   "openedAt": "2026-09-07T16:04:15.660Z"
+  },
   {
    "id": 726,
    "asset": "PLTR_24_5",
@@ -13046,48 +13042,34 @@
    "entry": 259.52,
    "exit": 249.74,
    "openedAt": "2026-09-06T09:39:32.813Z"
-  },
-  {
-   "id": 713,
-   "asset": "BTC",
-   "direction": "LONG",
-   "actor": "grok",
-   "venue": "HL",
-   "outcome": "BREAKEVEN",
-   "pct": 0.1,
-   "exitReason": "LONG BTC: stopped out at SL +0.1% (entry $78355.63 → exit $78463). WHY: Thesis required full 4h close above $78405 with non-expanding OI; price tagged S1 but closed below trigger, mechanism never…",
-   "closedAt": "2026-09-09T15:07:14.903Z",
-   "entry": 78355.63,
-   "exit": 78463,
-   "openedAt": "2026-09-08T08:04:03.323Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 77482.67,
-    "change24hPct": -1.7
+    "price": 77364.87,
+    "change24hPct": -1.69
    },
    {
     "symbol": "ETH",
-    "price": 2471.38,
+    "price": 2466.89,
     "change24hPct": -0.95
    },
    {
     "symbol": "BNB",
-    "price": 713.29,
-    "change24hPct": -3.76
+    "price": 712.12,
+    "change24hPct": -3.85
    },
    {
     "symbol": "XRP",
-    "price": 1.3634,
+    "price": 1.3611,
     "change24hPct": -4.13
    },
    {
     "symbol": "SOL",
-    "price": 100.35,
-    "change24hPct": -3.09
+    "price": 100.12,
+    "change24hPct": -3.13
    }
   ],
   "fearGreed": {
@@ -13309,7 +13291,7 @@
      "changePct": -23.8
     }
    ],
-   "ageMin": 97
+   "ageMin": 102
   },
   "chainRotation": {
    "chains": [
@@ -13448,7 +13430,7 @@
      1
     ]
    ],
-   "ageMin": 142
+   "ageMin": 147
   }
  },
  "calendar": [
@@ -14097,33 +14079,6 @@
     ]
    },
    {
-    "asset": "ETH",
-    "long": [
-     {
-      "actor": "kimi",
-      "conv": 5,
-      "kind": "watching"
-     }
-    ],
-    "short": [
-     {
-      "actor": "minimax",
-      "conv": 5,
-      "kind": "live"
-     },
-     {
-      "actor": "luna",
-      "conv": 5,
-      "kind": "watching"
-     },
-     {
-      "actor": "gemini",
-      "conv": 6,
-      "kind": "watching"
-     }
-    ]
-   },
-   {
     "asset": "BNB",
     "long": [
      {
@@ -14140,6 +14095,28 @@
      },
      {
       "actor": "minimax",
+      "conv": 6,
+      "kind": "watching"
+     }
+    ]
+   },
+   {
+    "asset": "ETH",
+    "long": [
+     {
+      "actor": "kimi",
+      "conv": 5,
+      "kind": "watching"
+     }
+    ],
+    "short": [
+     {
+      "actor": "luna",
+      "conv": 5,
+      "kind": "watching"
+     },
+     {
+      "actor": "gemini",
       "conv": 6,
       "kind": "watching"
      }
@@ -14997,6 +14974,13 @@
  },
  "deskNotes": [
   {
+   "ts": "2026-09-10T17:41:53.986Z",
+   "brain": "minimax",
+   "model": "MiniMax M3",
+   "kind": "intraday scan",
+   "text": "READ: Tape continues lower — last closed 4h bar broke below the prior 5-bar low across BTC, ETH, SOL, BNB, XRP, and DOT, with elevated volume on the major breakdowns (2-4x the 20-bar average). Long liquidations dominate (93% of 24h total: ~$69.9M long vs ~$5.2M short), funding has flipped negative on ETH/SOL/XRP (shorts paying longs), and crowded retail longs (L/S 2.84 ETH, 2.61 B"
+  },
+  {
    "ts": "2026-09-10T17:35:16.413Z",
    "brain": "deepseek",
    "model": "DeepSeek V4",
@@ -15100,16 +15084,29 @@
    "model": "Grok 4.6",
    "kind": "intraday scan",
    "text": "READ: Tape extended the RISK_OFF dump: BTC ~$76,861 through S1, ETH ~$2,417 below the quoted 4h range, SOL ~$99.23 printing under S1 on an unclosed 4h bar. Longs still dominate 24h liquidations with no closed-bar reclaim or OI-supported squeeze — continuation longs remain chase.\nDECISION: Silence on new risk; refresh SOL S1-reclaim watch only."
-  },
-  {
-   "ts": "2026-09-10T13:00:38.814Z",
-   "brain": "luna",
-   "model": "GPT-5.6",
-   "kind": "intraday scan",
-   "text": "READ: Crypto has sold off sharply since the prior snapshot, with ETH now below its prior breakdown trigger and a new 4h bar still forming. ETH long liquidation pressure and leveraged short build support continuation, but no closed-bar confirmation exists yet.\nDECISION: Silence on immediate execution; register the ETH breakdown watch only."
   }
  ],
  "archive": [
+  {
+   "id": 709,
+   "asset": "ETH",
+   "direction": "SHORT",
+   "actor": "minimax",
+   "venue": "LIGHTER",
+   "outcome": "BREAKEVEN",
+   "pct": 0.2,
+   "pnlUsd": 0.3,
+   "exitReason": null,
+   "closedAt": "2026-09-10T17:34:48.053Z",
+   "stop": 2545,
+   "target": 2300,
+   "thesis": "minimax pick (LIVE, trigger-filled from AWAITING watch at $2,475.47 : ETH prints a 4h CLOSE below $2,474.87 (S1 pivot support) — breakdown through crowded-long support)",
+   "entry": 2475.47,
+   "exit": 2470.94,
+   "conviction": 5,
+   "openedAt": "2026-09-07T16:04:15.660Z",
+   "rr": 2.5
+  },
   {
    "id": 726,
    "asset": "PLTR_24_5",
@@ -20954,7 +20951,7 @@
    "gemini": 0,
    "luna": 0,
    "minimax": 0,
-   "fleet": 2
+   "fleet": 0
   },
   "limits": {
    "dailyLossPct": 7.5,
@@ -22749,7 +22746,7 @@
      "arm": "tight",
      "tier": "high",
      "model": "minimax/minimax-m3",
-     "cycles": 69
+     "cycles": 70
     }
    ],
    "current": {
@@ -22759,10 +22756,10 @@
     "since": "2026-09-02T22:09:08.292Z",
     "w": 1,
     "l": 2,
-    "be": 4,
-    "n": 7,
-    "rsum": 0.7165477286597779,
-    "pnl": 0.05,
+    "be": 5,
+    "n": 8,
+    "rsum": 0.781699461724638,
+    "pnl": 0.35,
     "wr": 33,
     "avgR": 0.1,
     "bestUsd": 11.37,
@@ -22771,12 +22768,12 @@
    "record": {
     "w": 1,
     "l": 6,
-    "be": 4,
-    "n": 11,
-    "rsum": -3.3938771092446087,
-    "pnl": -45.1,
+    "be": 5,
+    "n": 12,
+    "rsum": -3.328725376179748,
+    "pnl": -44.8,
     "wr": 14,
-    "avgR": -0.31,
+    "avgR": -0.28,
     "bestUsd": 11.37,
     "worstUsd": -19.99,
     "account": 454.98,
@@ -22799,11 +22796,11 @@
      "band": "2-4%",
      "w": 0,
      "l": 5,
-     "be": 1,
-     "n": 6,
-     "pnl": -36.05,
+     "be": 2,
+     "n": 7,
+     "pnl": -35.75,
      "wr": 0,
-     "avgR": -0.83
+     "avgR": -0.71
     },
     {
      "band": "4-8%",
@@ -22827,16 +22824,27 @@
     }
    ],
    "activity": {
-    "cycles7d": 58,
+    "cycles7d": 59,
     "pickCycles7d": 38,
-    "pickRate7d": 66,
+    "pickRate7d": 64,
     "awaiting7d": 22,
     "saves7d": 9,
     "routedSaves7d": 9,
-    "cost7dUsd": 2.09,
-    "calls7d": 84
+    "cost7dUsd": 2.17,
+    "calls7d": 86
    },
    "recentCloses": [
+    {
+     "id": 709,
+     "asset": "ETH",
+     "direction": "SHORT",
+     "outcome": "BREAKEVEN",
+     "venue": "LIGHTER",
+     "pct": 0.18,
+     "pnlUsd": 0.3,
+     "exitReason": null,
+     "closedAt": "2026-09-10T17:34:48.053Z"
+    },
     {
      "id": 693,
      "asset": "BNB",
@@ -22913,17 +22921,6 @@
      "pnlUsd": -5.15,
      "exitReason": "SHORT SOL: stopped out at SL -2.7% (entry $101.44 → exit $104.218). [entry structure: CHOP er0.236 pos0.42 aligned chase] WHY: Funding stayed benign, OI increase was shorts covering not fresh entries, and chop-range chase into resistance got stopped by mean-reversion bounce before breakdown confirmed.",
      "closedAt": "2026-09-03T14:59:09.186Z"
-    },
-    {
-     "id": 628,
-     "asset": "XRP",
-     "direction": "LONG",
-     "outcome": "LOSS",
-     "venue": "LIGHTER",
-     "pct": -4.72,
-     "pnlUsd": -19.99,
-     "exitReason": "LONG XRP: stopped out at SL -4.7% (entry $1.38 → exit $1.314823). [entry structure: CHOP er0.138 pos0.42 against chase] WHY: Retail crowding signal inverted when ETF inflows didn't propagate to alts; chased into chop range instead of fading upper bound where institutional bid was absent.",
-     "closedAt": "2026-09-02T10:52:58.986Z"
     }
    ],
    "falsifiers": [
