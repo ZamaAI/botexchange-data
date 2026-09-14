@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-14T10:17:04.441Z",
+ "generatedAt": "2026-09-14T10:22:03.134Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -31,7 +31,7 @@
    "costUsd": 4.61,
    "costCalls": 105,
    "netPnl": -33.64,
-   "account": 479.74,
+   "account": 479.41,
    "retPct": -4.1,
    "accountRealized": 470.97,
    "regimes": {
@@ -794,11 +794,11 @@
    },
    "watch": {
     "registered": 45,
-    "filled": 12,
+    "filled": 13,
     "refused": 13,
     "cancelled": 14,
     "expired": 1,
-    "pending": 4,
+    "pending": 3,
     "topGates": [
      [
       "duplicate_open",
@@ -6343,22 +6343,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-13T10:20:00.000Z",
-   "hl": 0,
-   "hl_spot": 539.513185,
-   "grvt": null,
-   "extended": 332.259905,
-   "capital": 3374.9629780000005,
-   "qwen": 470.97,
-   "hermes": 539.51,
-   "manual": 332.26,
-   "kimi": 535.86,
-   "deepseek": 535.15,
-   "gemini": 492.45,
-   "luna": 496.85,
-   "minimax": 441.93
-  },
-  {
    "ts": "2026-09-13T10:25:00.000Z",
    "hl": 0,
    "hl_spot": 539.513185,
@@ -10949,6 +10933,22 @@
    "gemini": 492.45,
    "luna": 493.87,
    "minimax": 437.63
+  },
+  {
+   "ts": "2026-09-14T10:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 539.513185,
+   "grvt": null,
+   "extended": 411.490643,
+   "capital": 3443.6075410000003,
+   "qwen": 479.41,
+   "hermes": 539.51,
+   "manual": 411.49,
+   "kimi": 532.55,
+   "deepseek": 535.15,
+   "gemini": 492.45,
+   "luna": 493.87,
+   "minimax": 437.63
   }
  ],
  "venuesLive": {
@@ -12265,20 +12265,20 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-14T10:17:04.468Z",
+  "at": "2026-09-14T10:22:03.158Z",
   "windowDays": 14,
   "registered": 288,
-  "filled": 56,
+  "filled": 57,
   "dropped": 182,
   "expired": 14,
-  "pending": 36,
+  "pending": 35,
   "fills": {
    "live": {
-    "n": 48,
+    "n": 49,
     "w": 13,
     "l": 16,
     "be": 17,
-    "open": 2,
+    "open": 3,
     "expired": 0
    },
    "paper": {
@@ -12357,10 +12357,10 @@
    {
     "actor": "minimax",
     "registered": 40,
-    "filled": 11,
+    "filled": 12,
     "dropped": 25,
     "expired": 0,
-    "pending": 4
+    "pending": 3
    },
    {
     "actor": "deepseek",
@@ -12389,11 +12389,11 @@
   ],
   "confirmed": {
    "since": "2026-09-04T05:00:00.000Z",
-   "n": 20,
+   "n": 21,
    "w": 4,
    "l": 7,
    "be": 7,
-   "open": 2
+   "open": 3
   },
   "baseline": {
    "measuredAt": "2026-09-04",
@@ -12415,7 +12415,7 @@
   }
  },
  "learning": {
-  "at": "2026-09-14T10:17:04.471Z",
+  "at": "2026-09-14T10:22:03.160Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -12764,6 +12764,24 @@
  },
  "openTrades": [
   {
+   "id": 739,
+   "asset": "BTC",
+   "direction": "SHORT",
+   "actor": "minimax",
+   "venue": "LIGHTER",
+   "entry": 78014,
+   "stop": 78800,
+   "target": 76046.58,
+   "levelsApprox": false,
+   "cls": "crypto",
+   "trailed": false,
+   "rr": 2.5,
+   "conviction": 5,
+   "openedAt": "2026-09-14T10:19:21.431Z",
+   "thesis": "minimax pick (LIVE, trigger-filled from AWAITING watch at $78,014 : 4h close back below $78,000 from above $78,200 — failed 20d-MA reclaim SHORT)",
+   "smartMoney": 4
+  },
+  {
    "id": 737,
    "asset": "ZEC",
    "direction": "LONG",
@@ -12852,7 +12870,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 2523.94,
-    "asOf": "2026-09-14T10:04:04.277Z"
+    "asOf": "2026-09-14T10:19:06.100Z"
    }
   },
   {
@@ -12870,7 +12888,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 101.94,
-    "asOf": "2026-09-14T10:04:00.492Z"
+    "asOf": "2026-09-14T10:19:02.382Z"
    }
   },
   {
@@ -12888,7 +12906,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 2.342,
-    "asOf": "2026-09-14T10:04:19.004Z"
+    "asOf": "2026-09-14T10:19:22.084Z"
    }
   },
   {
@@ -12901,7 +12919,13 @@
    "stop": 1.46268,
    "target": 1.31211,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 1.3908,
+    "asOf": "2026-09-14T10:19:22.833Z"
+   }
   },
   {
    "asset": "BTC",
@@ -12915,10 +12939,10 @@
    "levelsApprox": true,
    "confirm": {
     "tf": "4h",
-    "mode": "retest",
-    "status": "not",
+    "mode": "breakout",
+    "status": "through",
     "lastClose": 77892.24,
-    "asOf": "2026-09-14T10:04:18.633Z"
+    "asOf": "2026-09-14T10:19:21.418Z"
    }
   }
  ],
@@ -13096,28 +13120,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 78036.01,
-    "change24hPct": 1.61
+    "price": 78016.01,
+    "change24hPct": 1.64
    },
    {
     "symbol": "ETH",
-    "price": 2519.56,
-    "change24hPct": 1.43
+    "price": 2518.19,
+    "change24hPct": 1.51
    },
    {
     "symbol": "BNB",
-    "price": 723.62,
-    "change24hPct": 1.02
+    "price": 723.08,
+    "change24hPct": 1.03
    },
    {
     "symbol": "XRP",
-    "price": 1.4,
-    "change24hPct": 4.11
+    "price": 1.3982,
+    "change24hPct": 4.04
    },
    {
     "symbol": "SOL",
-    "price": 101.8,
-    "change24hPct": 1.91
+    "price": 101.84,
+    "change24hPct": 2.05
    }
   ],
   "fearGreed": {
@@ -13234,13 +13258,13 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.508,
-    "longPct": 60.1,
+    "ratio": 1.501,
+    "longPct": 60,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "ETH",
-    "ratio": 2.748,
+    "ratio": 2.747,
     "longPct": 73.3,
     "bias": "CROWDED LONG"
    },
@@ -13252,13 +13276,13 @@
    },
    {
     "asset": "BNB",
-    "ratio": 2.472,
-    "longPct": 71.2,
+    "ratio": 2.465,
+    "longPct": 71.1,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.376,
+    "ratio": 2.374,
     "longPct": 70.4,
     "bias": "CROWDED LONG"
    }
@@ -13339,7 +13363,7 @@
      "changePct": -16.5
     }
    ],
-   "ageMin": 17
+   "ageMin": 22
   },
   "chainRotation": {
    "chains": [
@@ -13482,7 +13506,7 @@
      1
     ]
    ],
-   "ageMin": 182
+   "ageMin": 187
   }
  },
  "calendar": [
@@ -14111,17 +14135,17 @@
     ],
     "short": [
      {
+      "actor": "minimax",
+      "conv": 5,
+      "kind": "live"
+     },
+     {
       "actor": "qwen",
       "conv": 7,
       "kind": "watching"
      },
      {
       "actor": "luna",
-      "conv": 5,
-      "kind": "watching"
-     },
-     {
-      "actor": "minimax",
       "conv": 5,
       "kind": "watching"
      }
@@ -14936,7 +14960,7 @@
   }
  },
  "intel": {
-  "ageH": 0.8,
+  "ageH": 0.9,
   "narratives": [
    "* AI Policy & Race for Dominance: Fast-tracking US AI capabilities against China alongside Anthropic's $2T IPO plans on Nasdaq, despite aggressive pushback including Sanders' 20-year prison proposal for superintelligence",
    "* Middle East Energy Disruption: Attack on Saudi Arabia's East-West pipeline taking 4M bpd offline, lifting Brent/WTI +3% and causing Costco to ration motor oil (X).",
@@ -23043,8 +23067,8 @@
     "pickCycles7d": 28,
     "pickRate7d": 43,
     "awaiting7d": 19,
-    "saves7d": 5,
-    "routedSaves7d": 5,
+    "saves7d": 6,
+    "routedSaves7d": 6,
     "cost7dUsd": 1.89,
     "calls7d": 74
    },
