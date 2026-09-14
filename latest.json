@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-14T07:02:07.958Z",
+ "generatedAt": "2026-09-14T07:07:00.863Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -31,8 +31,8 @@
    "costUsd": 4.55,
    "costCalls": 104,
    "netPnl": -33.58,
-   "account": 477.96,
-   "retPct": -4.4,
+   "account": 478.39,
+   "retPct": -4.3,
    "accountRealized": 470.97,
    "regimes": {
     "RISK_ON": {
@@ -416,9 +416,9 @@
    "closed": 32,
    "wr": "43",
    "pnl": 30.33,
-   "costUsd": 8.81,
-   "costCalls": 258,
-   "netPnl": 21.52,
+   "costUsd": 8.86,
+   "costCalls": 259,
+   "netPnl": 21.47,
    "account": 535.15,
    "retPct": 7,
    "accountRealized": 530.33,
@@ -739,9 +739,9 @@
    "closed": 15,
    "wr": "13",
    "pnl": -70.27,
-   "costUsd": 4.68,
-   "costCalls": 337,
-   "netPnl": -74.95,
+   "costUsd": 4.71,
+   "costCalls": 338,
+   "netPnl": -74.98,
    "account": 438.23,
    "retPct": -12.4,
    "accountRealized": 429.73,
@@ -793,12 +793,12 @@
     "uncaptured": 1
    },
    "watch": {
-    "registered": 44,
+    "registered": 45,
     "filled": 12,
     "refused": 13,
     "cancelled": 14,
     "expired": 1,
-    "pending": 3,
+    "pending": 4,
     "topGates": [
      [
       "duplicate_open",
@@ -6343,22 +6343,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-13T07:05:00.000Z",
-   "hl": 0,
-   "hl_spot": 539.513185,
-   "grvt": null,
-   "extended": 376.280793,
-   "capital": 3415.784697,
-   "qwen": 470.97,
-   "hermes": 539.51,
-   "manual": 376.28,
-   "kimi": 538.95,
-   "deepseek": 535.15,
-   "gemini": 492.45,
-   "luna": 494.27,
-   "minimax": 438.22
-  },
-  {
    "ts": "2026-09-13T07:10:00.000Z",
    "hl": 0,
    "hl_spot": 539.513185,
@@ -10949,6 +10933,22 @@
    "gemini": 492.45,
    "luna": 494.28,
    "minimax": 438.23
+  },
+  {
+   "ts": "2026-09-14T07:05:00.000Z",
+   "hl": 0,
+   "hl_spot": 539.562099,
+   "grvt": null,
+   "extended": 409.654842,
+   "capital": 3442.8132429999996,
+   "qwen": 478.39,
+   "hermes": 539.56,
+   "manual": 409.65,
+   "kimi": 532.53,
+   "deepseek": 535.15,
+   "gemini": 492.45,
+   "luna": 494.28,
+   "minimax": 438.23
   }
  ],
  "venuesLive": {
@@ -12265,13 +12265,13 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-14T07:02:07.985Z",
+  "at": "2026-09-14T07:07:00.888Z",
   "windowDays": 14,
-  "registered": 288,
-  "filled": 57,
-  "dropped": 184,
+  "registered": 287,
+  "filled": 56,
+  "dropped": 183,
   "expired": 14,
-  "pending": 33,
+  "pending": 34,
   "fills": {
    "live": {
     "n": 52,
@@ -12314,7 +12314,7 @@
    },
    {
     "reason": "reentry_cooldown",
-    "n": 8
+    "n": 7
    },
    {
     "reason": "contradiction",
@@ -12339,14 +12339,6 @@
     "pending": 19
    },
    {
-    "actor": "kimi",
-    "registered": 42,
-    "filled": 10,
-    "dropped": 28,
-    "expired": 1,
-    "pending": 3
-   },
-   {
     "actor": "gemini",
     "registered": 41,
     "filled": 6,
@@ -12355,17 +12347,25 @@
     "pending": 2
    },
    {
-    "actor": "minimax",
-    "registered": 39,
-    "filled": 11,
-    "dropped": 25,
-    "expired": 0,
+    "actor": "kimi",
+    "registered": 41,
+    "filled": 10,
+    "dropped": 27,
+    "expired": 1,
     "pending": 3
    },
    {
-    "actor": "deepseek",
-    "registered": 36,
+    "actor": "minimax",
+    "registered": 40,
     "filled": 11,
+    "dropped": 25,
+    "expired": 0,
+    "pending": 4
+   },
+   {
+    "actor": "deepseek",
+    "registered": 35,
+    "filled": 10,
     "dropped": 22,
     "expired": 0,
     "pending": 3
@@ -12415,7 +12415,7 @@
   }
  },
  "learning": {
-  "at": "2026-09-14T07:02:07.987Z",
+  "at": "2026-09-14T07:07:00.889Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -12863,8 +12863,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 77611.79,
-    "asOf": "2026-09-14T06:49:04.872Z"
+    "lastClose": 77593.15,
+    "asOf": "2026-09-14T07:04:05.121Z"
    }
   },
   {
@@ -12880,9 +12880,9 @@
    "confirm": {
     "tf": "1h",
     "mode": "breakout",
-    "status": "not",
-    "lastClose": 6.166,
-    "asOf": "2026-09-14T06:49:18.409Z"
+    "status": "through",
+    "lastClose": 6.112,
+    "asOf": "2026-09-14T07:04:18.112Z"
    }
   },
   {
@@ -12900,7 +12900,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 6.192,
-    "asOf": "2026-09-14T06:49:19.163Z"
+    "asOf": "2026-09-14T07:04:18.876Z"
    }
   }
  ],
@@ -13078,28 +13078,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 77613.84,
-    "change24hPct": 0.6
+    "price": 77662.01,
+    "change24hPct": 0.64
    },
    {
     "symbol": "ETH",
-    "price": 2514.08,
-    "change24hPct": 0
+    "price": 2518.33,
+    "change24hPct": 0.15
    },
    {
     "symbol": "BNB",
-    "price": 723.38,
-    "change24hPct": 0.14
+    "price": 724.25,
+    "change24hPct": 0.24
    },
    {
     "symbol": "XRP",
-    "price": 1.3859,
-    "change24hPct": 1.82
+    "price": 1.3877,
+    "change24hPct": 1.94
    },
    {
     "symbol": "SOL",
-    "price": 101.55,
-    "change24hPct": 0.27
+    "price": 101.6,
+    "change24hPct": 0.22
    }
   ],
   "fearGreed": {
@@ -13316,7 +13316,7 @@
      "changePct": -18.8
     }
    ],
-   "ageMin": 182
+   "ageMin": 187
   },
   "chainRotation": {
    "chains": [
@@ -13459,7 +13459,7 @@
      1
     ]
    ],
-   "ageMin": 407
+   "ageMin": 412
   }
  },
  "calendar": [
@@ -14046,33 +14046,6 @@
  "consensus": {
   "assets": [
    {
-    "asset": "BTC",
-    "long": [
-     {
-      "actor": "minimax",
-      "conv": 5,
-      "kind": "watching"
-     },
-     {
-      "actor": "grok",
-      "conv": 5,
-      "kind": "watching"
-     }
-    ],
-    "short": [
-     {
-      "actor": "qwen",
-      "conv": 7,
-      "kind": "watching"
-     },
-     {
-      "actor": "luna",
-      "conv": 5,
-      "kind": "watching"
-     }
-    ]
-   },
-   {
     "asset": "SOL",
     "long": [
      {
@@ -14099,6 +14072,33 @@
     "short": [
      {
       "actor": "kimi",
+      "conv": 5,
+      "kind": "watching"
+     }
+    ]
+   },
+   {
+    "asset": "BTC",
+    "long": [
+     {
+      "actor": "grok",
+      "conv": 5,
+      "kind": "watching"
+     }
+    ],
+    "short": [
+     {
+      "actor": "qwen",
+      "conv": 7,
+      "kind": "watching"
+     },
+     {
+      "actor": "luna",
+      "conv": 5,
+      "kind": "watching"
+     },
+     {
+      "actor": "minimax",
       "conv": 5,
       "kind": "watching"
      }
@@ -14192,7 +14192,7 @@
     "short": []
    }
   ],
-  "disagreement": "BTC"
+  "disagreement": "SOL"
  },
  "manualBook": {
   "at": "2026-09-14T07:02:07.958Z",
@@ -14904,7 +14904,7 @@
   }
  },
  "intel": {
-  "ageH": 3.6,
+  "ageH": 3.7,
   "narratives": [
    "* AI Arms Race vs. Regulatory Clampdown: Diverging forces collide as Trump pushes for unconstrained US AI acceleration to beat China, Anthropic books a Nasdaq IPO listing, and lawmakers push for severe criminal penalties",
    "* Middle East Energy Shock: Geopolitical escalation and pipeline outages put 4% of global crude offline, forcing diesel to record levels and prompting retail motor oil rationing at Costco (X).",
@@ -14974,6 +14974,20 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-09-14T07:03:13.754Z",
+   "brain": "minimax",
+   "model": "MiniMax M3",
+   "kind": "intraday scan",
+   "text": "READ: BTC and XRP printed confirmed 4h breakout bars above their prior 5-bar highs (BTC +0.98% v1.4x, XRP +2.34% v1.2x) on a tape that is still -1.1% from its 20d-MA. The breakouts lack the regime's required confirmation: BTC OI is FLAT, funding neutral, and the 20d-MA is not reclaimed — the bounce reads as a bear-flag pop that should fail.\nDECISION: Hold ETH SHORT; add BTC failed-reclaim SHORT watch; keep BNB and INJ range-top watches untouched; no new CONFIRMED entry."
+  },
+  {
+   "ts": "2026-09-14T07:02:16.866Z",
+   "brain": "deepseek",
+   "model": "DeepSeek V4",
+   "kind": "intraday scan",
+   "text": "READ: BTC/ETH/SOL all remain mid-range CHOP; XRP printed a minor 4h breakout but sits at 0.63 of its range, so no favourable edge is active.\nDECISION: Silence — no mechanism firing at current prices; existing AWAITING watches remain valid."
+  },
   {
    "ts": "2026-09-14T07:00:37.261Z",
    "brain": "kimi",
@@ -15071,20 +15085,6 @@
    "model": "GPT-5.6",
    "kind": "intraday scan",
    "text": "READ: Live prices are softer, with SOL confirming a 4h close below the prior 5-bar low while BTC remains above its pending breakdown trigger. ETH is holding above the open short’s profit-lock stop, but no new mechanism is firing at an actionable entry.\nDECISION: Silence; retain the existing BTC short and SOL long watches without adding exposure."
-  },
-  {
-   "ts": "2026-09-14T01:00:31.650Z",
-   "brain": "grok",
-   "model": "Grok 4.6",
-   "kind": "intraday scan",
-   "text": "READ: BTC slipped to ~$76,799 inside the same CHOP band; the forming 4h wicked to ~$76,388 but has not closed, so the range-low rejection for W#~623 is still unconfirmed. Tape remains RISK_OFF with majors mid-range and no live squeeze or OI unwind firing at spot.\nDECISION: Silence — keep the existing BTC range-low watch; no new mechanism at live prices."
-  },
-  {
-   "ts": "2026-09-14T01:00:31.590Z",
-   "brain": "kimi",
-   "model": "Kimi K3",
-   "kind": "intraday scan",
-   "text": "READ: Tape softened slightly since the last pulse — all five majors -0.6% to -2.0% on 24h, longs dominating liquidations (78%) with funding still positive on BTC/ETH (crowded longs bleeding slowly). Nothing has triggered: my three watches sit untouched and the last closed 4h bars confirm none of their levels; SOL printed a confirmed 4h breakdown bar below ~$99.42 but my W#~617 breakdown trigger is already standing for that exact thesis.\nDECISION: Silence — three pending watches already cover the SOL breakdown and ETH/SOL breakout theses; no new mechanism is firing that they don't capture."
   }
  ],
  "archive": [
@@ -22338,7 +22338,7 @@
      "arm": "wide",
      "tier": "low",
      "model": "deepseek-v4-pro",
-     "cycles": 252
+     "cycles": 253
     }
    ],
    "current": {
@@ -22416,14 +22416,14 @@
     }
    ],
    "activity": {
-    "cycles7d": 65,
+    "cycles7d": 66,
     "pickCycles7d": 18,
-    "pickRate7d": 28,
+    "pickRate7d": 27,
     "awaiting7d": 13,
     "saves7d": 3,
     "routedSaves7d": 3,
-    "cost7dUsd": 2.09,
-    "calls7d": 65
+    "cost7dUsd": 2.15,
+    "calls7d": 66
    },
    "recentCloses": [
     {
@@ -23018,7 +23018,7 @@
      "arm": "tight",
      "tier": "high",
      "model": "minimax/minimax-m3",
-     "cycles": 106
+     "cycles": 107
     }
    ],
    "current": {
@@ -23096,14 +23096,14 @@
     }
    ],
    "activity": {
-    "cycles7d": 64,
-    "pickCycles7d": 27,
-    "pickRate7d": 42,
-    "awaiting7d": 18,
+    "cycles7d": 65,
+    "pickCycles7d": 28,
+    "pickRate7d": 43,
+    "awaiting7d": 19,
     "saves7d": 6,
     "routedSaves7d": 6,
-    "cost7dUsd": 1.85,
-    "calls7d": 73
+    "cost7dUsd": 1.87,
+    "calls7d": 74
    },
    "recentCloses": [
     {
