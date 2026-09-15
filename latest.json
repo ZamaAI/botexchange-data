@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-15T16:27:10.544Z",
+ "generatedAt": "2026-09-15T16:32:56.154Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -31,8 +31,8 @@
    "costUsd": 4.85,
    "costCalls": 110,
    "netPnl": -41.42,
-   "account": 467.14,
-   "retPct": -6.6,
+   "account": 467.53,
+   "retPct": -6.5,
    "accountRealized": 463.43,
    "regimes": {
     "RISK_ON": {
@@ -6297,22 +6297,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-14T16:30:00.000Z",
-   "hl": 0,
-   "hl_spot": 539.518681,
-   "grvt": null,
-   "extended": 420.214943,
-   "capital": 3449.325332,
-   "qwen": 483.56,
-   "hermes": 539.52,
-   "manual": 420.21,
-   "kimi": 532.7,
-   "deepseek": 535.15,
-   "gemini": 492.45,
-   "luna": 493.82,
-   "minimax": 434.52
-  },
-  {
    "ts": "2026-09-14T16:35:00.000Z",
    "hl": 0,
    "hl_spot": 539.518681,
@@ -10199,6 +10183,22 @@
    "gemini": 492.45,
    "luna": 488.31,
    "minimax": 428.49
+  },
+  {
+   "ts": "2026-09-15T16:30:00.000Z",
+   "hl": 0,
+   "hl_spot": 539.524177,
+   "grvt": null,
+   "extended": 364.424707,
+   "capital": 3379.936162,
+   "qwen": 467.53,
+   "hermes": 539.52,
+   "manual": 364.42,
+   "kimi": 530.64,
+   "deepseek": 535.15,
+   "gemini": 492.45,
+   "luna": 488.31,
+   "minimax": 428.49
   }
  ],
  "venuesLive": {
@@ -11505,7 +11505,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-15T16:27:10.605Z",
+  "at": "2026-09-15T16:32:56.181Z",
   "windowDays": 14,
   "registered": 283,
   "filled": 57,
@@ -11655,7 +11655,7 @@
   }
  },
  "learning": {
-  "at": "2026-09-15T16:27:10.607Z",
+  "at": "2026-09-15T16:32:56.183Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -12123,7 +12123,13 @@
    "stop": 20.8,
    "target": 24.5,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "through",
+    "lastClose": 22.659,
+    "asOf": "2026-09-15T16:27:35.662Z"
+   }
   },
   {
    "asset": "SOL",
@@ -12135,7 +12141,13 @@
    "stop": 96.727,
    "target": 101.637,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 99.36,
+    "asOf": "2026-09-15T16:27:45.540Z"
+   }
   },
   {
    "asset": "BTC",
@@ -12147,7 +12159,13 @@
    "stop": 75286.5,
    "target": 77948.2,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "through",
+    "lastClose": 76512,
+    "asOf": "2026-09-15T16:27:38.374Z"
+   }
   },
   {
    "asset": "ETH",
@@ -12159,7 +12177,13 @@
    "stop": 2460.67,
    "target": 2209.83,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 2424.46,
+    "asOf": "2026-09-15T16:27:45.912Z"
+   }
   },
   {
    "asset": "BNB",
@@ -12171,7 +12195,13 @@
    "stop": 750.988,
    "target": 710.294,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 718.61,
+    "asOf": "2026-09-15T16:27:46.285Z"
+   }
   }
  ],
  "recentCloses": [
@@ -12348,35 +12378,35 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 76454.01,
-    "change24hPct": -2.74
+    "price": 76407.1,
+    "change24hPct": -2.92
    },
    {
     "symbol": "ETH",
-    "price": 2422.88,
-    "change24hPct": -3.82
+    "price": 2421.88,
+    "change24hPct": -4.07
    },
    {
     "symbol": "BNB",
-    "price": 719.11,
-    "change24hPct": -0.61
+    "price": 719.21,
+    "change24hPct": -0.69
    },
    {
     "symbol": "XRP",
-    "price": 1.3914,
-    "change24hPct": -1.44
+    "price": 1.3873,
+    "change24hPct": -1.85
    },
    {
     "symbol": "SOL",
-    "price": 99.23,
-    "change24hPct": -3.08
+    "price": 99.18,
+    "change24hPct": -3.32
    }
   ],
   "fearGreed": {
    "value": 69,
    "classification": "Greed"
   },
-  "regime": null,
+  "regime": "RISK_OFF",
   "stockFearGreed": {
    "value": 29,
    "classification": "Fear",
@@ -12403,6 +12433,13 @@
     "price": 4327.4,
     "change": -0.56
    }
+  },
+  "netLiquidity": {
+   "usdB": 5856.9,
+   "deltaB": 61.6,
+   "weeks": 4,
+   "trend": "ADDING",
+   "date": "2026-09-09"
   },
   "riskIndex": {
    "score": 48,
@@ -12568,7 +12605,7 @@
      "changePct": -14.1
     }
    ],
-   "ageMin": 27
+   "ageMin": 32
   },
   "chainRotation": {
    "chains": [
@@ -12711,7 +12748,7 @@
      1
     ]
    ],
-   "ageMin": 312
+   "ageMin": 317
   }
  },
  "calendar": [
@@ -12735,7 +12772,13 @@
   },
   {
    "date": "2026-09-16",
-   "event": "SEI token unlock — 4.3M cliff = 1.62% of float; 14d total 22.62% (Team + Ecosystem Reserve)",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-16",
+   "event": "SEI token unlock — 4.3M cliff = 1.61% of float; 14d total 22.61% (Team + Ecosystem Reserve)",
    "type": "UNLOCK",
    "impact": "MED"
   },
@@ -12782,16 +12825,82 @@
    "impact": "MED"
   },
   {
+   "date": "2026-09-17",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-24",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-25",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-29",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-30",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-30",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-10-01",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-10-02",
-   "event": "Non-Farm Payrolls (Sep)",
+   "event": "Non-Farm Payrolls",
    "type": "NFP",
    "impact": "HIGH"
   },
   {
+   "date": "2026-10-08",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-10-14",
-   "event": "US CPI Release (Sep)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
+  },
+  {
+   "date": "2026-10-15",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-10-15",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-10-15",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
   }
  ],
  "weekAhead": {
@@ -12900,17 +13009,7 @@
     "when": "AMC",
     "epsEst": 0.84,
     "epsPrior": 0.9,
-    "mcap": 24571097100,
-    "universe": false
-   },
-   {
-    "symbol": "FPS",
-    "name": "Forgent Power Solutions",
-    "date": "2026-09-15",
-    "when": "BMO",
-    "epsEst": 0.22,
-    "epsPrior": null,
-    "mcap": 9686927400,
+    "mcap": 24608880600,
     "universe": false
    },
    {
@@ -12920,7 +13019,7 @@
     "when": "TBD",
     "epsEst": -0.09,
     "epsPrior": -0.1,
-    "mcap": 228918528,
+    "mcap": 218221392,
     "universe": false
    },
    {
@@ -12930,7 +13029,7 @@
     "when": "TBD",
     "epsEst": null,
     "epsPrior": 1.05,
-    "mcap": 190810272,
+    "mcap": 190600560,
     "universe": false
    },
    {
@@ -12940,7 +13039,7 @@
     "when": "TBD",
     "epsEst": null,
     "epsPrior": 0.24,
-    "mcap": 147504080,
+    "mcap": 148392672,
     "universe": false
    },
    {
@@ -12950,7 +13049,7 @@
     "when": "AMC",
     "epsEst": 0.01,
     "epsPrior": 0.03,
-    "mcap": 133733416,
+    "mcap": 133373920,
     "universe": false
    },
    {
@@ -12960,7 +13059,7 @@
     "when": "TBD",
     "epsEst": -0.21,
     "epsPrior": -0.14,
-    "mcap": 130589328,
+    "mcap": 127152768,
     "universe": false
    },
    {
@@ -12970,7 +13069,17 @@
     "when": "BMO",
     "epsEst": -0.08,
     "epsPrior": -0.02,
-    "mcap": 89296112,
+    "mcap": 86452288,
+    "universe": false
+   },
+   {
+    "symbol": "UPXI",
+    "name": "Upexi",
+    "date": "2026-09-15",
+    "when": "TBD",
+    "epsEst": null,
+    "epsPrior": null,
+    "mcap": 80797592,
     "universe": false
    },
    {
@@ -14163,7 +14272,7 @@
   }
  },
  "intel": {
-  "ageH": 1,
+  "ageH": 1.1,
   "narratives": [
    "* Tokenized Equities & Bridge Routing: LI.FI and Jumper now control 41.2% of the bridge aggregator market, heavily fueled by tokenized stocks and Robinhood Chain's rise to the 5th largest bridge destination (newsletter).",
    "* Decentralized AMM Sunset vs. New Memecoin Rails: While pioneer AMMs like Balancer wind down, fast-launch memecoin platforms Ponsfamily and Stonkfun surpassed Pump.fun in daily revenue (newsletter).",
