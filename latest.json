@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-15T22:17:02.591Z",
+ "generatedAt": "2026-09-15T22:22:05.135Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -31,8 +31,8 @@
    "costUsd": 4.9,
    "costCalls": 111,
    "netPnl": -58.15,
-   "account": 451.3,
-   "retPct": -9.7,
+   "account": 452.16,
+   "retPct": -9.6,
    "accountRealized": 446.75,
    "regimes": {
     "RISK_ON": {
@@ -579,11 +579,11 @@
    },
    "watch": {
     "registered": 68,
-    "filled": 14,
+    "filled": 15,
     "refused": 19,
     "cancelled": 20,
     "expired": 4,
-    "pending": 3,
+    "pending": 2,
     "topGates": [
      [
       "struct_chase",
@@ -6297,22 +6297,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-14T22:20:00.000Z",
-   "hl": 0,
-   "hl_spot": 539.518681,
-   "grvt": null,
-   "extended": 435.787967,
-   "capital": 3453.5752569999995,
-   "qwen": 490.89,
-   "hermes": 539.52,
-   "manual": 435.79,
-   "kimi": 532.92,
-   "deepseek": 535.15,
-   "gemini": 492.45,
-   "luna": 488.31,
-   "minimax": 428.49
-  },
-  {
    "ts": "2026-09-14T22:25:00.000Z",
    "hl": 0,
    "hl_spot": 539.518681,
@@ -10199,6 +10183,22 @@
    "gemini": 492.45,
    "luna": 488.31,
    "minimax": 428.49
+  },
+  {
+   "ts": "2026-09-15T22:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 539.6110140000001,
+   "grvt": null,
+   "extended": 343.46462,
+   "capital": 3353.732147,
+   "qwen": 452.16,
+   "hermes": 539.61,
+   "manual": 343.46,
+   "kimi": 525.63,
+   "deepseek": 534.82,
+   "gemini": 492.45,
+   "luna": 488.31,
+   "minimax": 428.49
   }
  ],
  "venuesLive": {
@@ -11505,20 +11505,20 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-15T22:17:02.616Z",
+  "at": "2026-09-15T22:22:05.161Z",
   "windowDays": 14,
   "registered": 287,
-  "filled": 55,
+  "filled": 56,
   "dropped": 188,
   "expired": 19,
-  "pending": 25,
+  "pending": 24,
   "fills": {
    "live": {
-    "n": 44,
+    "n": 45,
     "w": 12,
     "l": 14,
     "be": 18,
-    "open": 0,
+    "open": 1,
     "expired": 0
    },
    "paper": {
@@ -11597,10 +11597,10 @@
    {
     "actor": "gemini",
     "registered": 38,
-    "filled": 5,
+    "filled": 6,
     "dropped": 30,
     "expired": 0,
-    "pending": 3
+    "pending": 2
    },
    {
     "actor": "deepseek",
@@ -11629,11 +11629,11 @@
   ],
   "confirmed": {
    "since": "2026-09-04T05:00:00.000Z",
-   "n": 22,
+   "n": 23,
    "w": 4,
    "l": 8,
    "be": 10,
-   "open": 0
+   "open": 1
   },
   "baseline": {
    "measuredAt": "2026-09-04",
@@ -11655,7 +11655,7 @@
   }
  },
  "learning": {
-  "at": "2026-09-15T22:17:02.619Z",
+  "at": "2026-09-15T22:22:05.163Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -12004,6 +12004,24 @@
  },
  "openTrades": [
   {
+   "id": 751,
+   "asset": "VVV",
+   "direction": "LONG",
+   "actor": "gemini",
+   "venue": "LIGHTER",
+   "entry": 21.22,
+   "stop": 20.7,
+   "target": 23.5,
+   "levelsApprox": false,
+   "cls": "crypto",
+   "trailed": false,
+   "rr": 4.4,
+   "conviction": 6,
+   "openedAt": "2026-09-15T22:19:07.525Z",
+   "thesis": "gemini pick (LIVE → LIGHTER, trigger-filled from AWAITING watch at 21.22 : 1h candle close back above $21.50 after tagging sub-$21.30 range support)",
+   "smartMoney": null
+  },
+  {
    "id": 750,
    "asset": "BTC",
    "direction": "LONG",
@@ -12092,7 +12110,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1.2781,
-    "asOf": "2026-09-15T22:04:14.017Z"
+    "asOf": "2026-09-15T22:19:12.621Z"
    }
   },
   {
@@ -12110,7 +12128,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 96.55,
-    "asOf": "2026-09-15T22:04:14.760Z"
+    "asOf": "2026-09-15T22:19:13.368Z"
    }
   },
   {
@@ -12140,7 +12158,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 2390.83,
-    "asOf": "2026-09-15T22:04:15.131Z"
+    "asOf": "2026-09-15T22:19:14.109Z"
    }
   },
   {
@@ -12165,7 +12183,13 @@
    "stop": 73727.3,
    "target": 77844,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 75453.85,
+    "asOf": "2026-09-15T22:19:14.481Z"
+   }
   },
   {
    "asset": "XRP",
@@ -12177,7 +12201,13 @@
    "stop": 1.24645,
    "target": 1.37495,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 1.2781,
+    "asOf": "2026-09-15T22:19:14.853Z"
+   }
   },
   {
    "asset": "ETH",
@@ -12189,7 +12219,13 @@
    "stop": 2416.95,
    "target": 2204.73,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 2416.65,
+    "asOf": "2026-09-15T22:19:15.224Z"
+   }
   }
  ],
  "recentCloses": [
@@ -12366,28 +12402,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 75299.38,
-    "change24hPct": -4.44
+    "price": 75222.34,
+    "change24hPct": -4.35
    },
    {
     "symbol": "ETH",
-    "price": 2384.56,
-    "change24hPct": -6.6
+    "price": 2385.01,
+    "change24hPct": -6.3
    },
    {
     "symbol": "BNB",
-    "price": 710,
-    "change24hPct": -1.98
+    "price": 709.94,
+    "change24hPct": -1.84
    },
    {
     "symbol": "XRP",
-    "price": 1.2789,
-    "change24hPct": -11.82
+    "price": 1.279,
+    "change24hPct": -11.41
    },
    {
     "symbol": "SOL",
-    "price": 96.62,
-    "change24hPct": -6.6
+    "price": 96.48,
+    "change24hPct": -6.5
    }
   ],
   "fearGreed": {
@@ -12504,8 +12540,8 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.789,
-    "longPct": 64.1,
+    "ratio": 1.794,
+    "longPct": 64.2,
     "bias": "CROWDED LONG"
    },
    {
@@ -12516,19 +12552,19 @@
    },
    {
     "asset": "SOL",
-    "ratio": 2.299,
+    "ratio": 2.301,
     "longPct": 69.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.408,
+    "ratio": 2.418,
     "longPct": 70.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.558,
+    "ratio": 2.561,
     "longPct": 71.9,
     "bias": "CROWDED LONG"
    }
@@ -12604,7 +12640,7 @@
      "changePct": -16.4
     }
    ],
-   "ageMin": 17
+   "ageMin": 22
   },
   "chainRotation": {
    "chains": [
@@ -12743,7 +12779,7 @@
      1
     ]
    ],
-   "ageMin": 238
+   "ageMin": 243
   }
  },
  "calendar": [
@@ -13537,12 +13573,12 @@
     "asset": "VVV",
     "long": [
      {
-      "actor": "qwen",
+      "actor": "gemini",
       "conv": 6,
-      "kind": "watching"
+      "kind": "live"
      },
      {
-      "actor": "gemini",
+      "actor": "qwen",
       "conv": 6,
       "kind": "watching"
      }
@@ -13586,14 +13622,14 @@
   "disagreement": "BTC"
  },
  "manualBook": {
-  "at": "2026-09-15T22:02:05.929Z",
+  "at": "2026-09-15T22:22:05.135Z",
   "positions": [
    {
     "asset": "NEAR",
     "stock": false,
     "direction": "LONG",
     "entry": 2.5649,
-    "pnlPct": -10.09
+    "pnlPct": -10.02
    },
    {
     "asset": "XAU",
@@ -13607,7 +13643,7 @@
     "stock": false,
     "direction": "LONG",
     "entry": 0.04038,
-    "pnlPct": -5.58
+    "pnlPct": -6.08
    },
    {
     "asset": "MINIMAX",
@@ -13621,14 +13657,14 @@
     "stock": true,
     "direction": "LONG",
     "entry": 115.481,
-    "pnlPct": -5.74
+    "pnlPct": -6.23
    },
    {
     "asset": "PUMP",
     "stock": false,
     "direction": "LONG",
     "entry": 0.004079,
-    "pnlPct": -14
+    "pnlPct": -14.44
    }
   ]
  },
@@ -14280,7 +14316,7 @@
   }
  },
  "intel": {
-  "ageH": 0.8,
+  "ageH": 0.9,
   "narratives": [
    "* Tokenized Equities & Robinhood Chain: Rapid expansion led by Robinhood enabling 1:1 stock redemptions and voting rights, LI.FI/Jumper routing surging volume, and native yield protocols like Standard Reserve deploying o",
    "* Decentralized Privacy: Gaining renewed attention following Ledger's integration of shielded Zcash pools and Ethereum's research into native sender anonymity via FOCIL and framed transactions (both).",
@@ -21837,8 +21873,8 @@
     "pickCycles7d": 16,
     "pickRate7d": 24,
     "awaiting7d": 12,
-    "saves7d": 0,
-    "routedSaves7d": 0,
+    "saves7d": 1,
+    "routedSaves7d": 1,
     "cost7dUsd": 1.7,
     "calls7d": 67
    },
