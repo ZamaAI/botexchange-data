@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-15T13:02:05.663Z",
+ "generatedAt": "2026-09-15T13:07:01.955Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -31,8 +31,8 @@
    "costUsd": 4.81,
    "costCalls": 109,
    "netPnl": -33.84,
-   "account": 481.05,
-   "retPct": -3.8,
+   "account": 484.22,
+   "retPct": -3.2,
    "accountRealized": 470.97,
    "regimes": {
     "RISK_ON": {
@@ -305,8 +305,8 @@
    "trades": 19,
    "wins": 7,
    "losses": 12,
-   "be": 9,
-   "closed": 28,
+   "be": 10,
+   "closed": 29,
    "wr": "37",
    "pnl": 35.31,
    "costUsd": 16.43,
@@ -395,10 +395,10 @@
     }
    },
    "exits": {
-    "n": 28,
+    "n": 29,
     "byClass": {
      "STOP_INITIAL": 12,
-     "TRAIL_BE": 9,
+     "TRAIL_BE": 10,
      "TRAIL_LOCK": 4,
      "TARGET": 3
     }
@@ -416,9 +416,9 @@
    "closed": 32,
    "wr": "43",
    "pnl": 30.33,
-   "costUsd": 9.18,
-   "costCalls": 269,
-   "netPnl": 21.15,
+   "costUsd": 9.21,
+   "costCalls": 270,
+   "netPnl": 21.12,
    "account": 535.15,
    "retPct": 7,
    "accountRealized": 530.33,
@@ -473,9 +473,9 @@
     "registered": 72,
     "filled": 29,
     "refused": 12,
-    "cancelled": 14,
+    "cancelled": 15,
     "expired": 7,
-    "pending": 3,
+    "pending": 2,
     "topGates": [
      [
       "reentry_cooldown",
@@ -6288,22 +6288,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-14T13:05:00.000Z",
-   "hl": 0,
-   "hl_spot": 539.562099,
-   "grvt": null,
-   "extended": 408.665616,
-   "capital": 3444.694649,
-   "qwen": 473.63,
-   "hermes": 539.56,
-   "manual": 408.67,
-   "kimi": 529.57,
-   "deepseek": 535.15,
-   "gemini": 492.45,
-   "luna": 495.94,
-   "minimax": 442.4
-  },
-  {
    "ts": "2026-09-14T13:10:00.000Z",
    "hl": 0,
    "hl_spot": 539.562099,
@@ -10190,6 +10174,22 @@
    "gemini": 492.45,
    "luna": 488.31,
    "minimax": 428.49
+  },
+  {
+   "ts": "2026-09-15T13:05:00.000Z",
+   "hl": 0,
+   "hl_spot": 539.518681,
+   "grvt": null,
+   "extended": 385.049856,
+   "capital": 3401.32744,
+   "qwen": 484.22,
+   "hermes": 539.52,
+   "manual": 385.05,
+   "kimi": 531.41,
+   "deepseek": 535.15,
+   "gemini": 492.45,
+   "luna": 488.31,
+   "minimax": 428.49
   }
  ],
  "venuesLive": {
@@ -11496,20 +11496,20 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-15T13:02:05.687Z",
+  "at": "2026-09-15T13:07:01.980Z",
   "windowDays": 14,
   "registered": 284,
   "filled": 58,
-  "dropped": 176,
+  "dropped": 177,
   "expired": 18,
-  "pending": 32,
+  "pending": 31,
   "fills": {
    "live": {
-    "n": 47,
+    "n": 46,
     "w": 12,
-    "l": 16,
-    "be": 18,
-    "open": 1,
+    "l": 15,
+    "be": 19,
+    "open": 0,
     "expired": 0
    },
    "paper": {
@@ -11525,7 +11525,7 @@
   "dropReasons": [
    {
     "reason": "desk_cancelled",
-    "n": 77
+    "n": 78
    },
    {
     "reason": "anticipation",
@@ -11597,9 +11597,9 @@
     "actor": "deepseek",
     "registered": 32,
     "filled": 10,
-    "dropped": 19,
+    "dropped": 20,
     "expired": 0,
-    "pending": 3
+    "pending": 2
    },
    {
     "actor": "luna",
@@ -11623,8 +11623,8 @@
    "n": 22,
    "w": 4,
    "l": 8,
-   "be": 9,
-   "open": 1
+   "be": 10,
+   "open": 0
   },
   "baseline": {
    "measuredAt": "2026-09-04",
@@ -11646,11 +11646,11 @@
   }
  },
  "learning": {
-  "at": "2026-09-15T13:02:05.689Z",
+  "at": "2026-09-15T13:07:01.982Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
-   "n": 158,
+   "n": 159,
    "conviction": [
     {
      "band": "5",
@@ -11664,13 +11664,13 @@
     },
     {
      "band": "6",
-     "n": 59,
+     "n": 60,
      "w": 9,
      "l": 28,
-     "be": 22,
+     "be": 23,
      "wr": 24,
-     "avgR": -0.22,
-     "pnl": -111.08
+     "avgR": -0.21,
+     "pnl": -110.93
     },
     {
      "band": "7",
@@ -11696,13 +11696,13 @@
     },
     {
      "band": "2–4%",
-     "n": 79,
+     "n": 80,
      "w": 11,
      "l": 35,
-     "be": 33,
+     "be": 34,
      "wr": 24,
      "avgR": -0.15,
-     "pnl": -135.74
+     "pnl": -135.59
     },
     {
      "band": "4–8%",
@@ -11748,13 +11748,13 @@
     },
     {
      "band": "2.5–3.5",
-     "n": 70,
+     "n": 71,
      "w": 19,
      "l": 32,
-     "be": 19,
+     "be": 20,
      "wr": 37,
      "avgR": 0.12,
-     "pnl": 31.78
+     "pnl": 31.93
     },
     {
      "band": ">3.5",
@@ -11780,13 +11780,13 @@
     },
     {
      "band": "SHORT",
-     "n": 42,
+     "n": 43,
      "w": 3,
      "l": 16,
-     "be": 23,
+     "be": 24,
      "wr": 16,
-     "avgR": -0.27,
-     "pnl": -35.56
+     "avgR": -0.26,
+     "pnl": -35.41
     }
    ],
    "intel": [
@@ -11802,18 +11802,18 @@
     },
     {
      "band": "untagged",
-     "n": 141,
+     "n": 142,
      "w": 29,
      "l": 60,
-     "be": 52,
+     "be": 53,
      "wr": 33,
      "avgR": 0,
-     "pnl": 38.54
+     "pnl": 38.7
     }
    ]
   },
   "all": {
-   "n": 190,
+   "n": 191,
    "conviction": [
     {
      "band": "5",
@@ -11827,13 +11827,13 @@
     },
     {
      "band": "6",
-     "n": 74,
+     "n": 75,
      "w": 15,
      "l": 37,
-     "be": 22,
+     "be": 23,
      "wr": 29,
-     "avgR": -0.03,
-     "pnl": -111.08
+     "avgR": -0.02,
+     "pnl": -110.93
     },
     {
      "band": "7",
@@ -11869,13 +11869,13 @@
     },
     {
      "band": "2–4%",
-     "n": 94,
+     "n": 95,
      "w": 14,
      "l": 47,
-     "be": 33,
+     "be": 34,
      "wr": 23,
      "avgR": -0.18,
-     "pnl": -135.74
+     "pnl": -135.59
     },
     {
      "band": "4–8%",
@@ -11921,13 +11921,13 @@
     },
     {
      "band": "2.5–3.5",
-     "n": 77,
+     "n": 78,
      "w": 21,
      "l": 37,
-     "be": 19,
+     "be": 20,
      "wr": 36,
      "avgR": 0.12,
-     "pnl": 31.78
+     "pnl": 31.93
     },
     {
      "band": ">3.5",
@@ -11953,13 +11953,13 @@
     },
     {
      "band": "SHORT",
-     "n": 46,
+     "n": 47,
      "w": 4,
      "l": 19,
-     "be": 23,
+     "be": 24,
      "wr": 17,
-     "avgR": -0.26,
-     "pnl": -35.56
+     "avgR": -0.25,
+     "pnl": -35.41
     }
    ],
    "intel": [
@@ -11975,22 +11975,22 @@
     },
     {
      "band": "untagged",
-     "n": 171,
+     "n": 172,
      "w": 39,
      "l": 80,
-     "be": 52,
+     "be": 53,
      "wr": 33,
      "avgR": 0.08,
-     "pnl": 38.54
+     "pnl": 38.7
     }
    ]
   },
   "paperN": 32,
   "takeaways": [
-   "By stop distance the <2% band earns 0.2R per trade on average (n=59); the 2–4% band loses 0.15R (n=79).",
+   "By stop distance the <2% band earns 0.2R per trade on average (n=59); the 2–4% band loses 0.15R (n=80).",
    "Targets planned at 2–2.5× risk hit 32% of the time and targets at 2.5–3.5× hit 37% — no penalty for the wider target in this window.",
-   "Longs won 40% (n=116); shorts won 16% (n=42).",
-   "Picks that cited news or social intel won 55% (n=17) against 33% for picks that did not (n=141)."
+   "Longs won 40% (n=116); shorts won 16% (n=43).",
+   "Picks that cited news or social intel won 55% (n=17) against 33% for picks that did not (n=142)."
   ]
  },
  "openTrades": [
@@ -12028,24 +12028,6 @@
    "conviction": 6,
    "openedAt": "2026-09-15T04:21:23.514Z",
    "thesis": "qwen pick (paper, trigger-filled from AWAITING watch at 0.620600 : 1h close back above 0.620 after tagging 0.6117)",
-   "smartMoney": null
-  },
-  {
-   "id": 746,
-   "asset": "XRP",
-   "direction": "SHORT",
-   "actor": "kimi",
-   "venue": "LIGHTER",
-   "entry": 1.4263,
-   "stop": 1.42273425,
-   "target": 1.345,
-   "levelsApprox": false,
-   "cls": "crypto",
-   "trailed": true,
-   "rr": 2.8,
-   "conviction": 6,
-   "openedAt": "2026-09-15T00:04:16.300Z",
-   "thesis": "kimi pick (LIVE → LIGHTER, trigger-filled from AWAITING watch at 1.426 : 1h close back below $1.425 after tagging the $1.43–$1.434 CHOP range high — a rejection candle at the range top, not a wick-through.)",
    "smartMoney": null
   },
   {
@@ -12172,8 +12154,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 5.923,
-    "asOf": "2026-09-15T12:49:18.341Z"
+    "lastClose": 5.935,
+    "asOf": "2026-09-15T13:04:17.648Z"
    }
   },
   {
@@ -12190,12 +12172,26 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 76940.01,
-    "asOf": "2026-09-15T12:49:11.980Z"
+    "lastClose": 76957.65,
+    "asOf": "2026-09-15T13:04:11.853Z"
    }
   }
  ],
  "recentCloses": [
+  {
+   "id": 746,
+   "asset": "XRP",
+   "direction": "SHORT",
+   "actor": "kimi",
+   "venue": "LIGHTER",
+   "outcome": "BREAKEVEN",
+   "pct": 0.2,
+   "exitReason": null,
+   "closedAt": "2026-09-15T13:02:20.490Z",
+   "entry": 1.4263,
+   "exit": 1.4239347148760328,
+   "openedAt": "2026-09-15T00:04:16.300Z"
+  },
   {
    "id": 729,
    "asset": "ETH",
@@ -12349,48 +12345,34 @@
    "entry": 1.131,
    "exit": 1.04259,
    "openedAt": "2026-09-09T14:49:17.631Z"
-  },
-  {
-   "id": 725,
-   "asset": "SOL",
-   "direction": "LONG",
-   "actor": "grok",
-   "venue": "HL",
-   "outcome": "WIN",
-   "pct": 4.9,
-   "exitReason": "LONG SOL: hit target +4.9% (entry $99.49 → exit $104.39999999999999). WHY: Thesis triggered: S1 bounce held + 4h close above $99.53 confirmed support, but low conviction (5/10) + TRANS structure…",
-   "closedAt": "2026-09-11T14:04:00.901Z",
-   "entry": 99.49,
-   "exit": 104.39999999999999,
-   "openedAt": "2026-09-10T13:04:15.742Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 76997.99,
-    "change24hPct": -0.87
+    "price": 77104.01,
+    "change24hPct": -0.55
    },
    {
     "symbol": "ETH",
-    "price": 2481.37,
-    "change24hPct": -0.85
+    "price": 2484.47,
+    "change24hPct": -0.35
    },
    {
     "symbol": "BNB",
-    "price": 720.65,
-    "change24hPct": 0.19
+    "price": 721.99,
+    "change24hPct": 0.64
    },
    {
     "symbol": "XRP",
-    "price": 1.4242,
-    "change24hPct": 2.18
+    "price": 1.4537,
+    "change24hPct": 4.99
    },
    {
     "symbol": "SOL",
-    "price": 101.05,
-    "change24hPct": -0.17
+    "price": 101.33,
+    "change24hPct": 0.54
    }
   ],
   "fearGreed": {
@@ -12607,7 +12589,7 @@
      "changePct": -20.1
     }
    ],
-   "ageMin": 182
+   "ageMin": 187
   },
   "chainRotation": {
    "chains": [
@@ -12750,7 +12732,7 @@
      1
     ]
    ],
-   "ageMin": 107
+   "ageMin": 112
   }
  },
  "calendar": [
@@ -13536,11 +13518,6 @@
     "long": [],
     "short": [
      {
-      "actor": "kimi",
-      "conv": 6,
-      "kind": "live"
-     },
-     {
       "actor": "deepseek",
       "conv": 5,
       "kind": "watching"
@@ -13983,30 +13960,30 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 7091,
+   "totalPrints7d": 7103,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
     {
      "coin": "BRENTOIL",
-     "l": 1,
-     "s": 1,
-     "netK": -2009,
+     "l": 0,
+     "s": 2,
+     "netK": -2019,
      "concPct": 100
     },
     {
      "coin": "ETH",
      "l": 4,
      "s": 1,
-     "netK": 1238,
-     "concPct": 63
+     "netK": 1259,
+     "concPct": 62
     },
     {
      "coin": "ZEC",
      "l": 1,
      "s": 1,
-     "netK": -950,
-     "concPct": 91
+     "netK": -934,
+     "concPct": 89
     },
     {
      "coin": "BTC",
@@ -14019,64 +13996,64 @@
      "coin": "LIT",
      "l": 1,
      "s": 0,
-     "netK": 818,
+     "netK": 815,
      "concPct": 100
     },
     {
      "coin": "WLD",
      "l": 0,
      "s": 1,
-     "netK": -770,
+     "netK": -774,
      "concPct": 100
     },
     {
      "coin": "ENA",
      "l": 0,
      "s": 1,
-     "netK": -588,
+     "netK": -591,
      "concPct": 100
     },
     {
      "coin": "PUMP",
      "l": 0,
      "s": 1,
-     "netK": -453,
+     "netK": -455,
      "concPct": 100
     }
    ],
    "coinFlow": [
     {
      "coin": "ETH",
-     "netK": -6683,
-     "n": 1323
+     "netK": -6671,
+     "n": 1321
     },
     {
      "coin": "US100",
-     "netK": 2221,
-     "n": 1596
-    },
-    {
-     "coin": "ZEC",
-     "netK": -714,
-     "n": 960
-    },
-    {
-     "coin": "SOL",
-     "netK": 569,
-     "n": 275
+     "netK": 2288,
+     "n": 1602
     },
     {
      "coin": "BTC",
-     "netK": 562,
-     "n": 862
+     "netK": 837,
+     "n": 869
+    },
+    {
+     "coin": "ZEC",
+     "netK": -699,
+     "n": 959
+    },
+    {
+     "coin": "SOL",
+     "netK": 556,
+     "n": 276
     }
    ],
    "accounts": [
     {
      "id": 212627,
-     "prints": 495,
-     "volK": 20088,
-     "biasK": 170,
+     "prints": 492,
+     "volK": 19993,
+     "biasK": 178,
      "equity": 2282,
      "positions": []
     },
@@ -14085,18 +14062,18 @@
      "prints": 155,
      "volK": 7457,
      "biasK": -171,
-     "equity": 105983,
+     "equity": 106681,
      "positions": [
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 590,
+       "usdK": 591,
        "upnlK": 1
       },
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 326,
+       "usdK": 327,
        "upnlK": 1
       }
      ]
@@ -14114,7 +14091,7 @@
      "prints": 62,
      "volK": 5407,
      "biasK": -3158,
-     "equity": 20498,
+     "equity": 21146,
      "positions": [
       {
        "coin": "ETH",
@@ -14129,7 +14106,7 @@
      "prints": 45,
      "volK": 3747,
      "biasK": -561,
-     "equity": 190,
+     "equity": 196,
      "positions": [
       {
        "coin": "ETH",
@@ -14293,7 +14270,7 @@
   }
  },
  "intel": {
-  "ageH": 3.5,
+  "ageH": 3.6,
   "narratives": [
    "* Tokenized Equities & RWA: Robinhood integrating shareholder voting and in-kind redemptions into stock tokens; Kraken launched xStocks vaults enabling loans against tokenized shares (newsletter).",
    "* Robinhood Chain Ecosystem: Perp trading volume remained strong and new protocols like The Standard Reserve launched with demand-responsive issuance and soulbound licenses (both).",
@@ -14364,6 +14341,13 @@
   ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-09-15T13:02:24.351Z",
+   "brain": "deepseek",
+   "model": "DeepSeek V4",
+   "kind": "intraday scan",
+   "text": "READ: BTC and ETH are grinding lower inside their CHOP ranges into tomorrow's FOMC; XRP is the only mild outperformer, but no liquidation cascade, OI build, or funding/price divergence is currently firing, so entries would be chases.\nDECISION: Silence — hold the open INJ short; no new edge confirmed."
+  },
   {
    "ts": "2026-09-15T13:00:38.959Z",
    "brain": "luna",
@@ -14468,16 +14452,29 @@
    "model": "Grok 4.6",
    "kind": "intraday scan",
    "text": "READ: BTC slipped to ~$77,235 inside CHOP mid-range (pos ~0.31 of ~$76,047–~$79,890); no 1h close has tagged range-low and funding/OI are not showing a live squeeze. Tape still RISK_OFF with no new firing mechanism vs last cycle.\nDECISION: Silence — keep the range-low BTC fade watch; no mid-range chase."
-  },
-  {
-   "ts": "2026-09-15T07:00:14.977Z",
-   "brain": "gemini",
-   "model": "Gemini 3.7 Flash",
-   "kind": "intraday scan",
-   "text": "READ: Crypto majors remain locked in tight 4h chop ranges with declining volume and neutral funding across the board. In RISK_OFF regime with mid-range positioning, entering market orders here is low-edge chop chasing.\nDECISION: Silence; holding pending watches at structural range boundaries while market chops mid-band."
   }
  ],
  "archive": [
+  {
+   "id": 746,
+   "asset": "XRP",
+   "direction": "SHORT",
+   "actor": "kimi",
+   "venue": "LIGHTER",
+   "outcome": "BREAKEVEN",
+   "pct": 0.2,
+   "pnlUsd": 0.15,
+   "exitReason": null,
+   "closedAt": "2026-09-15T13:02:20.490Z",
+   "stop": 1.455,
+   "target": 1.345,
+   "thesis": "kimi pick (LIVE → LIGHTER, trigger-filled from AWAITING watch at 1.426 : 1h close back below $1.425 after tagging the $1.43–$1.434 CHOP range high — a rejection candle at the range top, not a wick-through.)",
+   "entry": 1.4263,
+   "exit": 1.4239347148760328,
+   "conviction": 6,
+   "openedAt": "2026-09-15T00:04:16.300Z",
+   "rr": 2.8
+  },
   {
    "id": 729,
    "asset": "ETH",
@@ -20457,26 +20454,6 @@
    "conviction": 5,
    "openedAt": "2026-08-14T18:04:59.811Z",
    "rr": 2
-  },
-  {
-   "id": 440,
-   "asset": "SOL",
-   "direction": "SHORT",
-   "actor": "kimi",
-   "venue": "LIGHTER",
-   "outcome": "LOSS",
-   "pct": -1.3,
-   "pnlUsd": -4.24,
-   "exitReason": "SHORT SOL: stopped out at SL -1.3% (entry $77.24 → exit $78.236). WHY: Stop hit on noise; OI never dropped below +2% and funding stayed positive, so invalidation condition didn't trigger—thesis…",
-   "closedAt": "2026-08-19T12:49:33.824Z",
-   "stop": 78.2,
-   "target": 74.5,
-   "thesis": "SOL OI rising +4.5% over 24h (Bybit contract count) with predicted funding overheating at +0.0281% daily indicates leveraged longs are crowded into the 4h range high ($77.65); fading the compression as transitional…",
-   "entry": 77.24,
-   "exit": 78.236,
-   "conviction": 6,
-   "openedAt": "2026-08-19T10:07:53.504Z",
-   "rr": 2.9
   }
  ],
  "risk": {
@@ -21433,22 +21410,22 @@
     "since": "2026-09-01T04:44:15.457Z",
     "w": 5,
     "l": 5,
-    "be": 3,
-    "n": 13,
-    "rsum": 5.602988942153088,
-    "pnl": 63.59,
+    "be": 4,
+    "n": 14,
+    "rsum": 5.685403057970754,
+    "pnl": 63.74,
     "wr": 50,
-    "avgR": 0.43,
+    "avgR": 0.41,
     "bestUsd": 39.38,
     "worstUsd": -18.53
    },
    "record": {
     "w": 7,
     "l": 12,
-    "be": 9,
-    "n": 28,
-    "rsum": 1.1423852130176153,
-    "pnl": 37.62,
+    "be": 10,
+    "n": 29,
+    "rsum": 1.2247993288352819,
+    "pnl": 37.78,
     "wr": 37,
     "avgR": 0.04,
     "bestUsd": 39.38,
@@ -21473,11 +21450,11 @@
      "band": "2-4%",
      "w": 2,
      "l": 8,
-     "be": 5,
-     "n": 15,
-     "pnl": -46.83,
+     "be": 6,
+     "n": 16,
+     "pnl": -46.67,
      "wr": 20,
-     "avgR": -0.41
+     "avgR": -0.38
     },
     {
      "band": "4-8%",
@@ -21511,6 +21488,17 @@
     "calls7d": 66
    },
    "recentCloses": [
+    {
+     "id": 746,
+     "asset": "XRP",
+     "direction": "SHORT",
+     "outcome": "BREAKEVEN",
+     "venue": "LIGHTER",
+     "pct": 0.17,
+     "pnlUsd": 0.15,
+     "exitReason": null,
+     "closedAt": "2026-09-15T13:02:20.490Z"
+    },
     {
      "id": 735,
      "asset": "VVV",
@@ -21587,17 +21575,6 @@
      "pnlUsd": 39.38,
      "exitReason": "LONG LINK: hit target +9.5% (entry $12.201 → exit $13.35548). WHY: Mechanism played out: 4h close above TRANS range high triggered breakout confirmation while OI rise confirmed fresh longs positioning, range structure held as support.",
      "closedAt": "2026-09-07T05:35:37.078Z"
-    },
-    {
-     "id": 695,
-     "asset": "ZEC",
-     "direction": "LONG",
-     "outcome": "WIN",
-     "venue": "LIGHTER",
-     "pct": 5.95,
-     "pnlUsd": 25.36,
-     "exitReason": "LONG ZEC: stopped out at SL +6.0% (entry $1074.5 → exit $1138.478). WHY: Exit was stop noise, not thesis invalidation; the breakout held and momentum mechanism (OI rise + short squeeze) executed as planned before you got shaken out.",
-     "closedAt": "2026-09-06T14:32:15.548Z"
     }
    ],
    "falsifiers": [
@@ -21639,7 +21616,7 @@
      "arm": "wide",
      "tier": "low",
      "model": "deepseek-v4-pro",
-     "cycles": 263
+     "cycles": 264
     }
    ],
    "current": {
@@ -21717,14 +21694,14 @@
     }
    ],
    "activity": {
-    "cycles7d": 65,
+    "cycles7d": 66,
     "pickCycles7d": 16,
-    "pickRate7d": 25,
+    "pickRate7d": 24,
     "awaiting7d": 13,
     "saves7d": 3,
     "routedSaves7d": 2,
-    "cost7dUsd": 2.11,
-    "calls7d": 65
+    "cost7dUsd": 2.14,
+    "calls7d": 66
    },
    "recentCloses": [
     {
