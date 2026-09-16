@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-16T17:52:10.157Z",
+ "generatedAt": "2026-09-16T17:57:00.869Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -31,8 +31,8 @@
    "costUsd": 5.04,
    "costCalls": 114,
    "netPnl": -19.68,
-   "account": 500.52,
-   "retPct": 0.1,
+   "account": 500.02,
+   "retPct": 0,
    "accountRealized": 485.36,
    "regimes": {
     "RISK_ON": {
@@ -6306,22 +6306,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-15T17:55:00.000Z",
-   "hl": 0,
-   "hl_spot": 539.524177,
-   "grvt": null,
-   "extended": 365.452103,
-   "capital": 3383.277574,
-   "qwen": 469.16,
-   "hermes": 539.52,
-   "manual": 365.45,
-   "kimi": 532.95,
-   "deepseek": 535.15,
-   "gemini": 492.45,
-   "luna": 488.31,
-   "minimax": 428.49
-  },
-  {
    "ts": "2026-09-15T18:00:00.000Z",
    "hl": 0,
    "hl_spot": 539.524177,
@@ -10912,6 +10896,22 @@
    "gemini": 494.02,
    "luna": 495.25,
    "minimax": 428.72
+  },
+  {
+   "ts": "2026-09-16T17:55:00.000Z",
+   "hl": 0,
+   "hl_spot": 539.303788,
+   "grvt": null,
+   "extended": 348.319133,
+   "capital": 3349.1551160000004,
+   "qwen": 500.02,
+   "hermes": 539.3,
+   "manual": 348.32,
+   "kimi": 520.76,
+   "deepseek": 521.82,
+   "gemini": 494.02,
+   "luna": 495.25,
+   "minimax": 428.72
   }
  ],
  "venuesLive": {
@@ -12144,7 +12144,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-16T17:52:10.220Z",
+  "at": "2026-09-16T17:57:00.897Z",
   "windowDays": 14,
   "registered": 282,
   "filled": 55,
@@ -12294,7 +12294,7 @@
   }
  },
  "learning": {
-  "at": "2026-09-16T17:52:10.222Z",
+  "at": "2026-09-16T17:57:00.900Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -12810,7 +12810,13 @@
    "stop": 2280,
    "target": 2536,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 2392.05,
+    "asOf": "2026-09-16T17:52:22.814Z"
+   }
   },
   {
    "asset": "COHR",
@@ -12834,7 +12840,13 @@
    "stop": 73843.5,
    "target": 77217,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 75768,
+    "asOf": "2026-09-16T17:52:15.688Z"
+   }
   },
   {
    "asset": "ZEC",
@@ -12858,7 +12870,13 @@
    "stop": 76449.8,
    "target": 71177.4,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 75788.41,
+    "asOf": "2026-09-16T17:52:23.189Z"
+   }
   }
  ],
  "recentCloses": [
@@ -13035,35 +13053,35 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 75442.5,
-    "change24hPct": -2.08
+    "price": 75574.01,
+    "change24hPct": -1.8
    },
    {
     "symbol": "ETH",
-    "price": 2375.49,
-    "change24hPct": -2.76
+    "price": 2381.31,
+    "change24hPct": -2.45
    },
    {
     "symbol": "BNB",
-    "price": 710.48,
-    "change24hPct": -1.86
+    "price": 711.32,
+    "change24hPct": -1.63
    },
    {
     "symbol": "XRP",
-    "price": 1.254,
-    "change24hPct": -11.15
+    "price": 1.2567,
+    "change24hPct": -10.6
    },
    {
     "symbol": "SOL",
-    "price": 96.37,
-    "change24hPct": -4.15
+    "price": 96.63,
+    "change24hPct": -3.64
    }
   ],
   "fearGreed": {
    "value": 51,
    "classification": "Neutral"
   },
-  "regime": null,
+  "regime": "RISK_OFF",
   "stockFearGreed": {
    "value": 28,
    "classification": "Fear",
@@ -13090,6 +13108,13 @@
     "price": 4386.2,
     "change": 1.23
    }
+  },
+  "netLiquidity": {
+   "usdB": 5856.9,
+   "deltaB": 61.6,
+   "weeks": 4,
+   "trend": "ADDING",
+   "date": "2026-09-09"
   },
   "riskIndex": {
    "score": 45,
@@ -13152,6 +13177,7 @@
    ],
    "computedAt": 1789574530112
   },
+  "equityRegime": "RISK_OFF",
   "longShort": [
    {
     "asset": "BTC",
@@ -13260,7 +13286,7 @@
      "changePct": -11.4
     }
    ],
-   "ageMin": 112
+   "ageMin": 117
   },
   "chainRotation": {
    "chains": [
@@ -13403,7 +13429,7 @@
      3
     ]
    ],
-   "ageMin": 157
+   "ageMin": 162
   }
  },
  "calendar": [
@@ -13412,6 +13438,12 @@
    "event": "FOMC Rate Decision",
    "type": "Fed",
    "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-16",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
   },
   {
    "date": "2026-09-16",
@@ -13463,9 +13495,45 @@
   },
   {
    "date": "2026-09-17",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-17",
    "event": "SEI token unlock — 4.3M cliff = 1.58% of float; 14d total 22.13% (Team + Ecosystem Reserve)",
    "type": "UNLOCK",
    "impact": "MED"
+  },
+  {
+   "date": "2026-09-24",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-25",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-29",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-30",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-30",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
+   "impact": "HIGH"
   },
   {
    "date": "2026-09-30",
@@ -13474,16 +13542,46 @@
    "impact": "MED"
   },
   {
+   "date": "2026-10-01",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-10-02",
-   "event": "Non-Farm Payrolls (Sep)",
+   "event": "Non-Farm Payrolls",
    "type": "NFP",
    "impact": "HIGH"
   },
   {
+   "date": "2026-10-08",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-10-14",
-   "event": "US CPI Release (Sep)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
+  },
+  {
+   "date": "2026-10-15",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-10-15",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-10-15",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
   }
  ],
  "weekAhead": {
@@ -14884,7 +14982,7 @@
   }
  },
  "intel": {
-  "ageH": 2.4,
+  "ageH": 2.5,
   "narratives": [
    "* Confidential DeFi & Privacy: Gaining significant momentum with Zama launching 16 ERC-7984 encrypted vaults on Ethereum that maintain Morpho yields (newsletter) alongside Ledger enabling shielded pool integration for Zc",
    "* New Layer-1 Deployments: Circle launched its Arc Layer-1 mainnet with USDC gas fees and day-one protocol deployments from Uniswap, Morpho, and Aave V4 (both).",
