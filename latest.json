@@ -1,14 +1,14 @@
 {
- "generatedAt": "2026-09-17T17:27:59.043Z",
+ "generatedAt": "2026-09-17T17:32:03.294Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
  "verdict": {
   "tie": false,
-  "manLeads": false,
+  "manLeads": true,
   "man": {
    "label": "Manual",
-   "account": 460.41
+   "account": 540.01
   },
   "machine": {
    "label": "Greta Grok",
@@ -31,7 +31,7 @@
    "costUsd": 5.23,
    "costCalls": 118,
    "netPnl": -43.31,
-   "account": 470.01,
+   "account": 470.06,
    "retPct": -6,
    "accountRealized": 461.92,
    "regimes": {
@@ -234,19 +234,19 @@
    "label": "Manual",
    "venue": "Extended",
    "paper": false,
-   "trades": 104,
-   "wins": 62,
+   "trades": 105,
+   "wins": 63,
    "losses": 42,
    "be": 7,
-   "closed": 111,
+   "closed": 112,
    "wr": "60",
-   "pnl": -39.59,
+   "pnl": 40.01,
    "costUsd": 0,
    "costCalls": 0,
-   "netPnl": -39.59,
-   "account": 460.41,
-   "retPct": -7.9,
-   "accountRealized": 460.41,
+   "netPnl": 40.01,
+   "account": 540.01,
+   "retPct": 8,
+   "accountRealized": 540.01,
    "regimes": {
     "RISK_ON": {
      "n": 0,
@@ -267,10 +267,10 @@
      "pnl": 0
     },
     "UNKNOWN": {
-     "n": 104,
-     "w": 62,
+     "n": 105,
+     "w": 63,
      "l": 42,
-     "pnl": -39.61
+     "pnl": 39.99
     },
     "known": 0,
     "riskOnPct": null
@@ -963,7 +963,7 @@
     544.26,
     555.19,
     460.41,
-    460.41
+    540.01
    ],
    "kimi": [
     500,
@@ -6315,22 +6315,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-16T17:30:00.000Z",
-   "hl": 0,
-   "hl_spot": 539.303788,
-   "grvt": null,
-   "extended": 363.467049,
-   "capital": 3366.303338,
-   "qwen": 500.76,
-   "hermes": 539.3,
-   "manual": 363.47,
-   "kimi": 522.91,
-   "deepseek": 523.81,
-   "gemini": 495.06,
-   "luna": 492.08,
-   "minimax": 428.72
-  },
-  {
    "ts": "2026-09-16T17:35:00.000Z",
    "hl": 0,
    "hl_spot": 539.303788,
@@ -10921,6 +10905,22 @@
    "gemini": 497.29,
    "luna": 488.79,
    "minimax": 428.72
+  },
+  {
+   "ts": "2026-09-17T17:30:00.000Z",
+   "hl": 0,
+   "hl_spot": 539.29994,
+   "grvt": null,
+   "extended": null,
+   "capital": null,
+   "qwen": 470.06,
+   "hermes": 539.3,
+   "manual": 540.01,
+   "kimi": 530.86,
+   "deepseek": 524.16,
+   "gemini": 497.29,
+   "luna": 488.79,
+   "minimax": 428.72
   }
  ],
  "venuesLive": {
@@ -12059,7 +12059,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-17T17:27:59.069Z",
+  "at": "2026-09-17T17:32:03.320Z",
   "windowDays": 14,
   "registered": 259,
   "filled": 41,
@@ -12209,7 +12209,7 @@
   }
  },
  "learning": {
-  "at": "2026-09-17T17:27:59.072Z",
+  "at": "2026-09-17T17:32:03.322Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -12760,6 +12760,20 @@
  ],
  "recentCloses": [
   {
+   "id": 772,
+   "asset": "NEAR",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "WIN",
+   "pct": 12.3,
+   "exitReason": "Manual LONG on Extended — entry $2.5649 → exit $2.8793 (+12.26% move 10x), realised +$79.60 → WIN.",
+   "closedAt": "2026-09-17T17:03:09.447Z",
+   "entry": 2.5649,
+   "exit": 2.8793,
+   "openedAt": "2026-09-11T12:50:45.746Z"
+  },
+  {
    "id": 769,
    "asset": "ARB",
    "direction": "SHORT",
@@ -12912,48 +12926,34 @@
    "entry": 1107.45,
    "exit": 1250,
    "openedAt": "2026-09-14T03:04:18.725Z"
-  },
-  {
-   "id": 765,
-   "asset": "POLYX",
-   "direction": "LONG",
-   "actor": "manual",
-   "venue": "EXTENDED",
-   "outcome": "LOSS",
-   "pct": -7.2,
-   "exitReason": "Manual LONG on Extended — entry $0.04038 → exit $0.037482 (-7.18% move 5x), realised $-17.66 → LOSS.",
-   "closedAt": "2026-09-16T13:04:02.813Z",
-   "entry": 0.04038,
-   "exit": 0.037482,
-   "openedAt": "2026-09-14T14:35:18.021Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 76885.99,
-    "change24hPct": 1.49
+    "price": 76874,
+    "change24hPct": 1.56
    },
    {
     "symbol": "ETH",
-    "price": 2471.73,
-    "change24hPct": 3.39
+    "price": 2470.09,
+    "change24hPct": 3.47
    },
    {
     "symbol": "BNB",
-    "price": 730.11,
-    "change24hPct": 2.31
+    "price": 729.98,
+    "change24hPct": 2.34
    },
    {
     "symbol": "XRP",
-    "price": 1.3062,
-    "change24hPct": 3.25
+    "price": 1.3054,
+    "change24hPct": 3.32
    },
    {
     "symbol": "SOL",
-    "price": 101.8,
-    "change24hPct": 4.84
+    "price": 101.87,
+    "change24hPct": 5.08
    }
   ],
   "fearGreed": {
@@ -12968,24 +12968,24 @@
   },
   "macro": {
    "dxy": {
-    "price": 100.25,
-    "change": -0.06
+    "price": 100.24,
+    "change": -0.07
    },
    "vix": {
-    "price": 15.67,
-    "change": -11.52
+    "price": 15.62,
+    "change": -11.8
    },
    "spx": {
-    "price": 7634.26,
-    "change": 1.09
+    "price": 7631.24,
+    "change": 1.05
    },
    "ndx": {
-    "price": 29752.25,
-    "change": 2.72
+    "price": 29723.5,
+    "change": 2.62
    },
    "gold": {
-    "price": 4400.7,
-    "change": 0.3
+    "price": 4401.1,
+    "change": 0.31
    }
   },
   "netLiquidity": {
@@ -13060,31 +13060,31 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.435,
+    "ratio": 1.434,
     "longPct": 58.9,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.821,
+    "ratio": 2.818,
     "longPct": 73.8,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 1.962,
+    "ratio": 1.956,
     "longPct": 66.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.564,
+    "ratio": 2.561,
     "longPct": 71.9,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.598,
+    "ratio": 2.6,
     "longPct": 72.2,
     "bias": "CROWDED LONG"
    }
@@ -13165,7 +13165,7 @@
      "changePct": -9.3
     }
    ],
-   "ageMin": 87
+   "ageMin": 92
   },
   "chainRotation": {
    "chains": [
@@ -13308,7 +13308,7 @@
      2
     ]
    ],
-   "ageMin": 372
+   "ageMin": 377
   }
  },
  "calendar": [
@@ -14910,7 +14910,7 @@
   }
  },
  "intel": {
-  "ageH": 2,
+  "ageH": 2.1,
   "narratives": [
    "* Privacy Tokens: Surged to the forefront of market attention as ZEC gained over 20% and the Privacy index rose 15%, fueled by commentary championing encrypted money and heavy short squeezes. (both)",
    "* Circle Arc Layer-1: Deployed with sub-second finality and USDC gas, onboarding 100+ day-one dApps (Aave V4, Uniswap, Morpho) and institutional validators like BlackRock, DTCC, and Visa. (newsletter)",
@@ -15098,6 +15098,26 @@
   }
  ],
  "archive": [
+  {
+   "id": 772,
+   "asset": "NEAR",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "WIN",
+   "pct": 12.3,
+   "pnlUsd": 79.6,
+   "exitReason": "Manual LONG on Extended — entry $2.5649 → exit $2.8793 (+12.26% move 10x), realised +$79.60 → WIN.",
+   "closedAt": "2026-09-17T17:03:09.447Z",
+   "stop": null,
+   "target": null,
+   "thesis": "Manual operator trade on Extended (imported — own research / macro).",
+   "entry": 2.5649,
+   "exit": 2.8793,
+   "conviction": null,
+   "openedAt": "2026-09-11T12:50:45.746Z",
+   "rr": null
+  },
   {
    "id": 769,
    "asset": "ARB",
@@ -21076,26 +21096,6 @@
    "exit": 0.14183,
    "conviction": null,
    "openedAt": "2026-08-21T15:45:00.769Z",
-   "rr": null
-  },
-  {
-   "id": 467,
-   "asset": "MU_24_5",
-   "direction": "LONG",
-   "actor": "manual",
-   "venue": "EXTENDED",
-   "outcome": "WIN",
-   "pct": 4.3,
-   "pnlUsd": 38.16,
-   "exitReason": "Manual LONG on Extended — entry $924.41 → exit $964.29 (+4.31% move 10x), realised +$38.16 → WIN.",
-   "closedAt": "2026-08-21T14:14:39.458Z",
-   "stop": null,
-   "target": null,
-   "thesis": "Manual operator trade on Extended (imported — own research / macro).",
-   "entry": 924.41,
-   "exit": 964.29,
-   "conviction": null,
-   "openedAt": "2026-08-19T18:10:46.719Z",
    "rr": null
   }
  ],
