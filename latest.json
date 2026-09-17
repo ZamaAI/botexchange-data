@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-17T16:17:06.003Z",
+ "generatedAt": "2026-09-17T16:22:00.849Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -31,7 +31,7 @@
    "costUsd": 5.23,
    "costCalls": 118,
    "netPnl": -43.31,
-   "account": 470.44,
+   "account": 470.68,
    "retPct": -5.9,
    "accountRealized": 461.92,
    "regimes": {
@@ -6315,22 +6315,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-16T16:20:00.000Z",
-   "hl": 0,
-   "hl_spot": 539.303788,
-   "grvt": null,
-   "extended": 365.803305,
-   "capital": 3369.989975,
-   "qwen": 500.87,
-   "hermes": 539.3,
-   "manual": 365.8,
-   "kimi": 523.48,
-   "deepseek": 524.44,
-   "gemini": 498.98,
-   "luna": 488.31,
-   "minimax": 428.72
-  },
-  {
    "ts": "2026-09-16T16:25:00.000Z",
    "hl": 0,
    "hl_spot": 539.303788,
@@ -10921,6 +10905,22 @@
    "gemini": 497.19,
    "luna": 488.79,
    "minimax": 428.72
+  },
+  {
+   "ts": "2026-09-17T16:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 539.185624,
+   "grvt": null,
+   "extended": 528.730918,
+   "capital": 3537.4969250000004,
+   "qwen": 470.68,
+   "hermes": 539.19,
+   "manual": 528.73,
+   "kimi": 530.71,
+   "deepseek": 523.21,
+   "gemini": 497.19,
+   "luna": 488.79,
+   "minimax": 428.72
   }
  ],
  "venuesLive": {
@@ -12059,7 +12059,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-17T16:17:06.029Z",
+  "at": "2026-09-17T16:22:00.876Z",
   "windowDays": 14,
   "registered": 259,
   "filled": 41,
@@ -12209,7 +12209,7 @@
   }
  },
  "learning": {
-  "at": "2026-09-17T16:17:06.031Z",
+  "at": "2026-09-17T16:22:00.878Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -12679,10 +12679,10 @@
    "levelsApprox": false,
    "confirm": {
     "tf": "1h",
-    "mode": "retest",
+    "mode": "breakout",
     "status": "not",
     "lastClose": 1.3078,
-    "asOf": "2026-09-17T16:04:10.169Z"
+    "asOf": "2026-09-17T16:19:09.790Z"
    }
   },
   {
@@ -12697,10 +12697,10 @@
    "levelsApprox": false,
    "confirm": {
     "tf": "1h",
-    "mode": "retest",
+    "mode": "breakout",
     "status": "not",
     "lastClose": 101.29,
-    "asOf": "2026-09-17T16:04:18.642Z"
+    "asOf": "2026-09-17T16:19:15.753Z"
    }
   },
   {
@@ -12718,7 +12718,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 76780.01,
-    "asOf": "2026-09-17T16:04:07.170Z"
+    "asOf": "2026-09-17T16:19:06.768Z"
    }
   },
   {
@@ -12731,7 +12731,13 @@
    "stop": 94.57,
    "target": 101.325,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 101.29,
+    "asOf": "2026-09-17T16:19:16.130Z"
+   }
   },
   {
    "asset": "BTC",
@@ -12748,7 +12754,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 76780.01,
-    "asOf": "2026-09-17T16:04:12.423Z"
+    "asOf": "2026-09-17T16:19:11.286Z"
    }
   }
  ],
@@ -12761,7 +12767,7 @@
    "venue": "LIGHTER",
    "outcome": "BREAKEVEN",
    "pct": 0.2,
-   "exitReason": null,
+   "exitReason": "SHORT ARB: stopped out at SL +0.2% (entry $0.1723 → exit $0.17196). WHY: Mechanism never triggered—price held above $0.1700 support instead of breaking lower, leaving SHORT trapped in mushy-middle…",
    "closedAt": "2026-09-17T16:16:53.718Z",
    "entry": 0.1723,
    "exit": 0.17196,
@@ -12926,28 +12932,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 76772,
-    "change24hPct": 1.31
+    "price": 76710.4,
+    "change24hPct": 1.17
    },
    {
     "symbol": "ETH",
-    "price": 2470.94,
-    "change24hPct": 3.17
+    "price": 2467.76,
+    "change24hPct": 2.96
    },
    {
     "symbol": "BNB",
-    "price": 727.73,
-    "change24hPct": 2.13
+    "price": 727.51,
+    "change24hPct": 2.05
    },
    {
     "symbol": "XRP",
-    "price": 1.307,
-    "change24hPct": 3.14
+    "price": 1.3054,
+    "change24hPct": 2.92
    },
    {
     "symbol": "SOL",
-    "price": 101.27,
-    "change24hPct": 4.13
+    "price": 101.2,
+    "change24hPct": 3.93
    }
   ],
   "fearGreed": {
@@ -13169,7 +13175,7 @@
      "changePct": -9.3
     }
    ],
-   "ageMin": 17
+   "ageMin": 22
   },
   "chainRotation": {
    "chains": [
@@ -13312,7 +13318,7 @@
      2
     ]
    ],
-   "ageMin": 302
+   "ageMin": 307
   }
  },
  "calendar": [
@@ -14921,7 +14927,7 @@
   }
  },
  "intel": {
-  "ageH": 0.8,
+  "ageH": 0.9,
   "narratives": [
    "* Privacy Tokens: Surged to the forefront of market attention as ZEC gained over 20% and the Privacy index rose 15%, fueled by commentary championing encrypted money and heavy short squeezes. (both)",
    "* Circle Arc Layer-1: Deployed with sub-second finality and USDC gas, onboarding 100+ day-one dApps (Aave V4, Uniswap, Morpho) and institutional validators like BlackRock, DTCC, and Visa. (newsletter)",
@@ -15118,7 +15124,7 @@
    "outcome": "BREAKEVEN",
    "pct": 0.2,
    "pnlUsd": 0.38,
-   "exitReason": null,
+   "exitReason": "SHORT ARB: stopped out at SL +0.2% (entry $0.1723 → exit $0.17196). WHY: Mechanism never triggered—price held above $0.1700 support instead of breaking lower, leaving SHORT trapped in mushy-middle…",
    "closedAt": "2026-09-17T16:16:53.718Z",
    "stop": 0.179,
    "target": 0.145,
@@ -22180,7 +22186,7 @@
      "venue": "LIGHTER",
      "pct": 0.2,
      "pnlUsd": 0.38,
-     "exitReason": null,
+     "exitReason": "SHORT ARB: stopped out at SL +0.2% (entry $0.1723 → exit $0.17196). [entry structure: TRANS er0.338 pos0.96 against fade] WHY: Mechanism never triggered—price held above $0.1700 support instead of breaking lower, leaving SHORT trapped in mushy-middle chop rather than confirming rejection thesis.",
      "closedAt": "2026-09-17T16:16:53.718Z"
     },
     {
