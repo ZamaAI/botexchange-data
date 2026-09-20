@@ -1,32 +1,32 @@
 {
- "generatedAt": "2026-09-20T15:52:01.826Z",
+ "generatedAt": "2026-09-20T15:57:04.983Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
  "verdict": {
   "tie": false,
-  "manLeads": true,
+  "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 559.88
+   "account": 516.21
   },
   "machine": {
    "label": "Kenny Kimi",
-   "account": 549.34
+   "account": 548.57
   }
  },
  "verdictBasis": "mtm",
  "verdictBy": {
   "mtm": {
    "tie": false,
-   "manLeads": true,
+   "manLeads": false,
    "man": {
     "label": "Manual",
-    "account": 559.88
+    "account": 516.21
    },
    "machine": {
     "label": "Kenny Kimi",
-    "account": 549.34
+    "account": 548.57
    }
   },
   "realized": {
@@ -46,17 +46,17 @@
   "mtm": {
    "man": {
     "label": "Manual",
-    "account": 559.88,
+    "account": 516.21,
     "seat": 518.25,
-    "ret": 8.03
+    "ret": -0.39
    },
    "machines": [
     {
      "key": "kimi",
      "label": "Kenny Kimi",
-     "account": 549.34,
+     "account": 548.57,
      "seat": 496,
-     "ret": 10.75
+     "ret": 10.6
     },
     {
      "key": "grok",
@@ -68,9 +68,9 @@
     {
      "key": "deepseek",
      "label": "Danny DeepSeek",
-     "account": 531.47,
+     "account": 530.71,
      "seat": 499.96,
-     "ret": 6.3
+     "ret": 6.15
     },
     {
      "key": "gemini",
@@ -89,23 +89,23 @@
     {
      "key": "minimax",
      "label": "Milo GLM",
-     "account": 415.94,
+     "account": 415.48,
      "seat": 500,
-     "ret": -16.81
+     "ret": -16.9
     }
    ],
    "fleet": {
     "n": 6,
-    "mean": 1.42,
-    "median": 3.78
+    "mean": 1.36,
+    "median": 3.7
    },
    "best": {
     "label": "Kenny Kimi",
-    "ret": 10.75
+    "ret": 10.6
    },
-   "manBeatsFleetMean": true,
+   "manBeatsFleetMean": false,
    "manBeatsBest": false,
-   "belowMan": 5
+   "belowMan": 2
   },
   "realized": {
    "man": {
@@ -197,8 +197,8 @@
    "costUsd": 5.67,
    "costCalls": 128,
    "netPnl": -56.93,
-   "account": 457.24,
-   "retPct": -8.6,
+   "account": 458.47,
+   "retPct": -8.3,
    "accountRealized": 448.74,
    "regimes": {
     "RISK_ON": {
@@ -410,8 +410,8 @@
    "costUsd": 0,
    "costCalls": 0,
    "netPnl": 59.88,
-   "account": 559.88,
-   "retPct": 12,
+   "account": 516.21,
+   "retPct": 3.2,
    "accountRealized": 559.88,
    "regimes": {
     "RISK_ON": {
@@ -478,8 +478,8 @@
    "costUsd": 20.48,
    "costCalls": 326,
    "netPnl": 14.92,
-   "account": 549.34,
-   "retPct": 9.9,
+   "account": 548.57,
+   "retPct": 9.7,
    "accountRealized": 535.4,
    "regimes": {
     "RISK_ON": {
@@ -585,8 +585,8 @@
    "costUsd": 10.84,
    "costCalls": 318,
    "netPnl": 6.12,
-   "account": 531.47,
-   "retPct": 6.3,
+   "account": 530.71,
+   "retPct": 6.1,
    "accountRealized": 516.96,
    "regimes": {
     "RISK_ON": {
@@ -908,8 +908,8 @@
    "costUsd": 6.12,
    "costCalls": 397,
    "netPnl": -90.11,
-   "account": 415.94,
-   "retPct": -16.8,
+   "account": 415.48,
+   "retPct": -16.9,
    "accountRealized": 416.01,
    "regimes": {
     "RISK_ON": {
@@ -6499,22 +6499,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-19T15:55:00.000Z",
-   "hl": 0,
-   "hl_spot": 539.309284,
-   "grvt": null,
-   "extended": 578.106974,
-   "capital": 3589.5436200000004,
-   "qwen": 475.2,
-   "hermes": 539.31,
-   "manual": 578.11,
-   "kimi": 538.67,
-   "deepseek": 521.99,
-   "gemini": 503.7,
-   "luna": 488.79,
-   "minimax": 418.02
-  },
-  {
    "ts": "2026-09-19T16:00:00.000Z",
    "hl": 0,
    "hl_spot": 539.309284,
@@ -11105,14 +11089,30 @@
    "gemini": 503.7,
    "luna": 488.79,
    "minimax": 415.94
+  },
+  {
+   "ts": "2026-09-20T15:55:00.000Z",
+   "hl": 0,
+   "hl_spot": 539.562099,
+   "grvt": null,
+   "extended": 516.207073,
+   "capital": 3543.9676409999997,
+   "qwen": 458.47,
+   "hermes": 539.56,
+   "manual": 516.21,
+   "kimi": 548.57,
+   "deepseek": 530.71,
+   "gemini": 503.7,
+   "luna": 488.79,
+   "minimax": 415.48
   }
  ],
  "venuesLive": {
   "hl": 0,
   "hl_spot": 539.562099,
   "grvt": null,
-  "lighter": 2490.192552,
-  "total": 3029.754651
+  "lighter": 2488.198469,
+  "total": 3027.7605679999997
  },
  "awaitingScore": {
   "at": "2026-09-19T02:15:19.605Z",
@@ -12197,7 +12197,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-20T15:52:01.853Z",
+  "at": "2026-09-20T15:57:05.008Z",
   "windowDays": 14,
   "registered": 238,
   "filled": 42,
@@ -12343,7 +12343,7 @@
   }
  },
  "learning": {
-  "at": "2026-09-20T15:52:01.856Z",
+  "at": "2026-09-20T15:57:05.010Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -13060,28 +13060,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 80894,
-    "change24hPct": -1.04
+    "price": 80949.99,
+    "change24hPct": -0.83
    },
    {
     "symbol": "ETH",
-    "price": 2607.13,
-    "change24hPct": -1.49
+    "price": 2610.55,
+    "change24hPct": -1.17
    },
    {
     "symbol": "BNB",
-    "price": 756.65,
-    "change24hPct": -1.54
+    "price": 757,
+    "change24hPct": -1.3
    },
    {
     "symbol": "XRP",
-    "price": 1.3874,
-    "change24hPct": -3.16
+    "price": 1.39,
+    "change24hPct": -2.8
    },
    {
     "symbol": "SOL",
-    "price": 108.5,
-    "change24hPct": -2.85
+    "price": 108.72,
+    "change24hPct": -2.57
    }
   ],
   "fearGreed": {
@@ -13194,14 +13194,14 @@
    },
    {
     "asset": "ETH",
-    "ratio": 2.424,
-    "longPct": 70.8,
+    "ratio": 2.413,
+    "longPct": 70.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 1.75,
-    "longPct": 63.6,
+    "ratio": 1.756,
+    "longPct": 63.7,
     "bias": "CROWDED LONG"
    },
    {
@@ -13293,7 +13293,7 @@
      "changePct": -18.9
     }
    ],
-   "ageMin": 352
+   "ageMin": 357
   },
   "chainRotation": {
    "chains": [
@@ -13436,7 +13436,7 @@
      1
     ]
    ],
-   "ageMin": 129
+   "ageMin": 134
   }
  },
  "calendar": [
@@ -14548,7 +14548,7 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 9215,
+   "totalPrints7d": 9203,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
@@ -14556,43 +14556,50 @@
      "coin": "DRAM",
      "l": 1,
      "s": 0,
-     "netK": 585,
+     "netK": 588,
      "concPct": 100
     },
     {
      "coin": "LIT",
      "l": 1,
      "s": 1,
-     "netK": 472,
+     "netK": 475,
      "concPct": 100
     },
     {
      "coin": "ETH",
      "l": 3,
      "s": 1,
-     "netK": -283,
+     "netK": -278,
      "concPct": 83
     },
     {
      "coin": "SNDK",
      "l": 1,
      "s": 1,
-     "netK": -420,
+     "netK": -411,
+     "concPct": 100
+    },
+    {
+     "coin": "ZEC",
+     "l": 0,
+     "s": 1,
+     "netK": -218,
      "concPct": 100
     },
     {
      "coin": "ETHFI",
      "l": 1,
      "s": 0,
-     "netK": 196,
+     "netK": 198,
      "concPct": 100
     },
     {
      "coin": "PUMP",
      "l": 1,
      "s": 1,
-     "netK": 153,
-     "concPct": 91
+     "netK": 154,
+     "concPct": 92
     },
     {
      "coin": "US100",
@@ -14600,20 +14607,13 @@
      "s": 1,
      "netK": 137,
      "concPct": 47
-    },
-    {
-     "coin": "NBIS",
-     "l": 1,
-     "s": 0,
-     "netK": 173,
-     "concPct": 100
     }
    ],
    "coinFlow": [
     {
      "coin": "ETH",
-     "netK": 1927,
-     "n": 1385
+     "netK": 1940,
+     "n": 1386
     },
     {
      "coin": "HYPE",
@@ -14621,19 +14621,19 @@
      "n": 509
     },
     {
-     "coin": "ENA",
-     "netK": -1062,
-     "n": 129
+     "coin": "BTC",
+     "netK": 1684,
+     "n": 792
     },
     {
-     "coin": "BTC",
-     "netK": 1044,
-     "n": 779
+     "coin": "ENA",
+     "netK": -1112,
+     "n": 132
     },
     {
      "coin": "SOL",
-     "netK": 964,
-     "n": 239
+     "netK": 1052,
+     "n": 235
     }
    ],
    "accounts": [
@@ -14658,14 +14658,8 @@
      "prints": 234,
      "volK": 5757,
      "biasK": 756,
-     "equity": 888885,
+     "equity": 889115,
      "positions": [
-      {
-       "coin": "BTC",
-       "side": "LONG",
-       "usdK": 121,
-       "upnlK": 0
-      },
       {
        "coin": "ETH",
        "side": "LONG",
@@ -14677,6 +14671,18 @@
        "side": "LONG",
        "usdK": 22,
        "upnlK": 0
+      },
+      {
+       "coin": "BTC",
+       "side": "SHORT",
+       "usdK": 9,
+       "upnlK": 0
+      },
+      {
+       "coin": "SOL",
+       "side": "LONG",
+       "usdK": 4,
+       "upnlK": 0
       }
      ]
     },
@@ -14685,7 +14691,7 @@
      "prints": 260,
      "volK": 4345,
      "biasK": 162,
-     "equity": 7310,
+     "equity": 7329,
      "positions": [
       {
        "coin": "ETH",
@@ -14700,48 +14706,48 @@
        "upnlK": 0
       },
       {
-       "coin": "HYPE",
-       "side": "LONG",
-       "usdK": 1,
+       "coin": "AMD",
+       "side": "SHORT",
+       "usdK": 3,
        "upnlK": 0
       },
       {
-       "coin": "US100",
+       "coin": "SNDK",
        "side": "LONG",
-       "usdK": 0,
+       "usdK": 1,
        "upnlK": 0
       }
      ]
     },
     {
      "id": 702386,
-     "prints": 249,
-     "volK": 4209,
-     "biasK": -445,
-     "equity": 1551784,
+     "prints": 251,
+     "volK": 4232,
+     "biasK": -444,
+     "equity": 1551468,
      "positions": [
-      {
-       "coin": "NBIS",
-       "side": "LONG",
-       "usdK": 173,
-       "upnlK": 0
-      },
       {
        "coin": "ZEC",
        "side": "SHORT",
-       "usdK": 110,
+       "usdK": 218,
        "upnlK": 0
       },
       {
-       "coin": "XAG",
+       "coin": "NBIS",
+       "side": "LONG",
+       "usdK": 174,
+       "upnlK": 1
+      },
+      {
+       "coin": "NVDA",
        "side": "LONG",
        "usdK": 105,
        "upnlK": 0
       },
       {
-       "coin": "NVDA",
+       "coin": "SPY",
        "side": "LONG",
-       "usdK": 101,
+       "usdK": 92,
        "upnlK": 0
       }
      ]
@@ -14914,7 +14920,7 @@
   }
  },
  "intel": {
-  "ageH": 0.4,
+  "ageH": 0.5,
   "narratives": [
    "* State-Level AI & Enterprise Frontier: US government momentum around an \"AI Force\" and AI Czar aligns with Anthropic planning a new Claude release to counter OpenAI's GPT-6 Astra ahead of its planned November IPO. (X)",
    "* Tokenized Real-World Assets (RWA): Ethereum's monthly tokenized equities volume eclipsed the Singapore Stock Exchange, reflecting institutional prioritization of base-layer security over execution speed. (newsletter)",
@@ -21116,7 +21122,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 549.34,
+    "equity": 548.57,
     "peak": 562.65
    },
    "LIGHTER_deepseek": {
@@ -21125,7 +21131,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 531.47,
+    "equity": 530.71,
     "peak": 575.41
    },
    "LIGHTER_gemini": {
@@ -21152,7 +21158,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 415.94,
+    "equity": 415.48,
     "peak": 500
    }
   },
