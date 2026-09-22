@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-22T02:15:03.962Z",
+ "generatedAt": "2026-09-22T02:17:00.463Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -11119,49 +11119,33 @@
   "liveN": 46
  },
  "referee": {
-  "at": "2026-09-21T02:16:41.727Z",
+  "at": "2026-09-22T02:16:38.292Z",
   "windowDays": 14,
-  "total": 127,
+  "total": 124,
   "verdicts": {
-   "n": 127,
-   "good": 68,
-   "missed": 21,
+   "n": 124,
+   "good": 56,
+   "missed": 24,
    "ambiguous": 0,
-   "unresolved": 10,
-   "unscorable": 28
+   "unresolved": 13,
+   "unscorable": 31
   },
   "byGate": {
-   "rr_floor": {
-    "n": 21,
-    "good": 9,
-    "missed": 9,
+   "struct_chase": {
+    "n": 26,
+    "good": 21,
+    "missed": 2,
     "ambiguous": 0,
-    "unresolved": 2,
-    "unscorable": 1
+    "unresolved": 3,
+    "unscorable": 0
    },
    "anticipation": {
-    "n": 62,
-    "good": 27,
+    "n": 58,
+    "good": 19,
     "missed": 8,
     "ambiguous": 0,
-    "unresolved": 5,
-    "unscorable": 22
-   },
-   "struct_chase": {
-    "n": 25,
-    "good": 22,
-    "missed": 1,
-    "ambiguous": 0,
-    "unresolved": 2,
-    "unscorable": 0
-   },
-   "reentry_cooldown": {
-    "n": 4,
-    "good": 4,
-    "missed": 0,
-    "ambiguous": 0,
-    "unresolved": 0,
-    "unscorable": 0
+    "unresolved": 6,
+    "unscorable": 25
    },
    "stop_hard_ceiling": {
     "n": 15,
@@ -11170,37 +11154,53 @@
     "ambiguous": 0,
     "unresolved": 1,
     "unscorable": 5
+   },
+   "rr_floor": {
+    "n": 22,
+    "good": 7,
+    "missed": 11,
+    "ambiguous": 0,
+    "unresolved": 3,
+    "unscorable": 1
+   },
+   "reentry_cooldown": {
+    "n": 3,
+    "good": 3,
+    "missed": 0,
+    "ambiguous": 0,
+    "unresolved": 0,
+    "unscorable": 0
    }
   },
   "byActor": {
-   "qwen": {
-    "n": 98,
-    "good": 44,
-    "missed": 17,
-    "ambiguous": 0,
-    "unresolved": 9,
-    "unscorable": 28
-   },
    "minimax": {
-    "n": 7,
-    "good": 6,
+    "n": 6,
+    "good": 5,
     "missed": 1,
     "ambiguous": 0,
     "unresolved": 0,
     "unscorable": 0
    },
-   "kimi": {
-    "n": 9,
-    "good": 7,
-    "missed": 2,
+   "qwen": {
+    "n": 96,
+    "good": 34,
+    "missed": 19,
     "ambiguous": 0,
-    "unresolved": 0,
-    "unscorable": 0
+    "unresolved": 12,
+    "unscorable": 31
    },
    "gemini": {
     "n": 3,
     "good": 3,
     "missed": 0,
+    "ambiguous": 0,
+    "unresolved": 0,
+    "unscorable": 0
+   },
+   "kimi": {
+    "n": 8,
+    "good": 6,
+    "missed": 2,
     "ambiguous": 0,
     "unresolved": 0,
     "unscorable": 0
@@ -11214,9 +11214,9 @@
     "unscorable": 0
    },
    "luna": {
-    "n": 2,
+    "n": 3,
     "good": 1,
-    "missed": 0,
+    "missed": 1,
     "ambiguous": 0,
     "unresolved": 1,
     "unscorable": 0
@@ -11231,30 +11231,32 @@
    }
   },
   "byActorGate": {
-   "qwen": {
-    "rr_floor": {
-     "n": 14,
-     "good": 6,
-     "missed": 5,
-     "ambiguous": 0,
-     "unresolved": 2,
-     "unscorable": 1
-    },
-    "anticipation": {
-     "n": 61,
-     "good": 26,
-     "missed": 8,
-     "ambiguous": 0,
-     "unresolved": 5,
-     "unscorable": 22
-    },
-    "reentry_cooldown": {
-     "n": 1,
-     "good": 1,
+   "minimax": {
+    "struct_chase": {
+     "n": 5,
+     "good": 5,
      "missed": 0,
      "ambiguous": 0,
      "unresolved": 0,
      "unscorable": 0
+    },
+    "rr_floor": {
+     "n": 1,
+     "good": 0,
+     "missed": 1,
+     "ambiguous": 0,
+     "unresolved": 0,
+     "unscorable": 0
+    }
+   },
+   "qwen": {
+    "anticipation": {
+     "n": 57,
+     "good": 19,
+     "missed": 8,
+     "ambiguous": 0,
+     "unresolved": 5,
+     "unscorable": 25
     },
     "stop_hard_ceiling": {
      "n": 15,
@@ -11264,56 +11266,20 @@
      "unresolved": 1,
      "unscorable": 5
     },
+    "rr_floor": {
+     "n": 15,
+     "good": 4,
+     "missed": 7,
+     "ambiguous": 0,
+     "unresolved": 3,
+     "unscorable": 1
+    },
     "struct_chase": {
-     "n": 7,
+     "n": 9,
      "good": 5,
      "missed": 1,
      "ambiguous": 0,
-     "unresolved": 1,
-     "unscorable": 0
-    }
-   },
-   "minimax": {
-    "struct_chase": {
-     "n": 6,
-     "good": 6,
-     "missed": 0,
-     "ambiguous": 0,
-     "unresolved": 0,
-     "unscorable": 0
-    },
-    "rr_floor": {
-     "n": 1,
-     "good": 0,
-     "missed": 1,
-     "ambiguous": 0,
-     "unresolved": 0,
-     "unscorable": 0
-    }
-   },
-   "kimi": {
-    "anticipation": {
-     "n": 1,
-     "good": 1,
-     "missed": 0,
-     "ambiguous": 0,
-     "unresolved": 0,
-     "unscorable": 0
-    },
-    "struct_chase": {
-     "n": 6,
-     "good": 6,
-     "missed": 0,
-     "ambiguous": 0,
-     "unresolved": 0,
-     "unscorable": 0
-    },
-    "rr_floor": {
-     "n": 2,
-     "good": 0,
-     "missed": 2,
-     "ambiguous": 0,
-     "unresolved": 0,
+     "unresolved": 3,
      "unscorable": 0
     }
    },
@@ -11335,6 +11301,24 @@
      "unscorable": 0
     }
    },
+   "kimi": {
+    "struct_chase": {
+     "n": 6,
+     "good": 6,
+     "missed": 0,
+     "ambiguous": 0,
+     "unresolved": 0,
+     "unscorable": 0
+    },
+    "rr_floor": {
+     "n": 2,
+     "good": 0,
+     "missed": 2,
+     "ambiguous": 0,
+     "unresolved": 0,
+     "unscorable": 0
+    }
+   },
    "grok": {
     "struct_chase": {
      "n": 1,
@@ -11357,6 +11341,14 @@
     "struct_chase": {
      "n": 2,
      "good": 1,
+     "missed": 1,
+     "ambiguous": 0,
+     "unresolved": 0,
+     "unscorable": 0
+    },
+    "anticipation": {
+     "n": 1,
+     "good": 0,
      "missed": 0,
      "ambiguous": 0,
      "unresolved": 1,
@@ -11391,88 +11383,6 @@
    }
   },
   "byActorRecent": {
-   "qwen": [
-    {
-     "ts": "2026-09-20T22:02:58.200Z",
-     "asset": "STX",
-     "direction": "LONG",
-     "gate": "anticipation",
-     "conviction": 7,
-     "verdict": "UNRESOLVED",
-     "detail": "stop 7.7% > 3% (crypto) at conv 7",
-     "note": "no level touched yet (now )"
-    },
-    {
-     "ts": "2026-09-20T16:04:14.502Z",
-     "asset": "MSTR",
-     "direction": "LONG",
-     "gate": "anticipation",
-     "conviction": 6,
-     "verdict": "UNSCORABLE",
-     "detail": "stop 6.8% > 2% (equity) at conv 6",
-     "note": "MSTR not on Binance spot — no price path to score against"
-    },
-    {
-     "ts": "2026-09-20T10:02:35.965Z",
-     "asset": "INJ",
-     "direction": "LONG",
-     "gate": "anticipation",
-     "conviction": 7,
-     "verdict": "UNRESOLVED",
-     "detail": "stop 5.5% > 3% (crypto) at conv 7",
-     "note": "no level touched yet (now )"
-    },
-    {
-     "ts": "2026-09-20T10:02:35.955Z",
-     "asset": "ETH",
-     "direction": "LONG",
-     "gate": "anticipation",
-     "conviction": 7,
-     "verdict": "UNRESOLVED",
-     "detail": "stop 3.1% > 3% (crypto) at conv 7",
-     "note": "no level touched yet (now )"
-    },
-    {
-     "ts": "2026-09-20T04:03:01.349Z",
-     "asset": "PEPE",
-     "direction": "LONG",
-     "gate": "anticipation",
-     "conviction": 6,
-     "verdict": "UNRESOLVED",
-     "detail": "stop 6.5% > 3% (crypto) at conv 6",
-     "note": "no level touched yet (now )"
-    },
-    {
-     "ts": "2026-09-20T04:03:01.329Z",
-     "asset": "AVAX",
-     "direction": "LONG",
-     "gate": "anticipation",
-     "conviction": 6,
-     "verdict": "MISSED_WIN",
-     "detail": "stop 7.2% > 3% (crypto) at conv 6",
-     "note": "target touched first"
-    },
-    {
-     "ts": "2026-09-19T23:04:19.158Z",
-     "asset": "SUI",
-     "direction": "LONG",
-     "gate": "rr_floor",
-     "conviction": 5,
-     "verdict": "UNRESOLVED",
-     "detail": "awaiting fill R:R 1.89 < 2 floor (registered 2.18 at trigger 0.86, filled mark 0.8655, paper lane)",
-     "note": "no level touched yet (now )"
-    },
-    {
-     "ts": "2026-09-19T22:04:22.187Z",
-     "asset": "MSTR",
-     "direction": "SHORT",
-     "gate": "anticipation",
-     "conviction": 6,
-     "verdict": "UNSCORABLE",
-     "detail": "stop 4.9% > 2% (equity) at conv 6",
-     "note": "MSTR not on Binance spot — no price path to score against"
-    }
-   ],
    "minimax": [
     {
      "ts": "2026-09-11T16:04:17.537Z",
@@ -11533,15 +11443,119 @@
      "verdict": "GOOD_REJECT",
      "detail": "TRANS edge chase pos 0.05 conv 6 < 8",
      "note": "stop touched first"
+    }
+   ],
+   "qwen": [
+    {
+     "ts": "2026-09-22T01:34:14.414Z",
+     "asset": "WLD",
+     "direction": "LONG",
+     "gate": "struct_chase",
+     "conviction": 6,
+     "verdict": "UNRESOLVED",
+     "detail": "CHOP edge chase pos 0.88 conv 6 < 8",
+     "note": "no level touched yet (now )"
     },
     {
-     "ts": "2026-09-07T16:12:34.022Z",
-     "asset": "XRP",
-     "direction": "SHORT",
+     "ts": "2026-09-21T16:19:14.016Z",
+     "asset": "ARM",
+     "direction": "LONG",
+     "gate": "anticipation",
+     "conviction": 7,
+     "verdict": "UNSCORABLE",
+     "detail": "stop 7.7% > 2% (equity) at conv 7",
+     "note": "ARM not on Binance spot — no price path to score against"
+    },
+    {
+     "ts": "2026-09-21T16:04:07.664Z",
+     "asset": "INTC",
+     "direction": "LONG",
+     "gate": "anticipation",
+     "conviction": 6,
+     "verdict": "UNSCORABLE",
+     "detail": "stop 8.5% > 2% (equity) at conv 6",
+     "note": "INTC not on Binance spot — no price path to score against"
+    },
+    {
+     "ts": "2026-09-21T16:03:04.216Z",
+     "asset": "AMD",
+     "direction": "LONG",
+     "gate": "anticipation",
+     "conviction": 8,
+     "verdict": "UNSCORABLE",
+     "detail": "stop 4.0% > 2% (equity) at conv 8",
+     "note": "AMD not on Binance spot — no price path to score against"
+    },
+    {
+     "ts": "2026-09-21T13:34:09.638Z",
+     "asset": "ALGO",
+     "direction": "LONG",
+     "gate": "anticipation",
+     "conviction": 6,
+     "verdict": "UNRESOLVED",
+     "detail": "stop 6.4% > 3% (crypto) at conv 6",
+     "note": "no level touched yet (now )"
+    },
+    {
+     "ts": "2026-09-21T13:04:09.627Z",
+     "asset": "ALGO",
+     "direction": "LONG",
+     "gate": "rr_floor",
+     "conviction": 6,
+     "verdict": "UNRESOLVED",
+     "detail": "awaiting fill R:R 1.94 < 2 floor (registered 2.33 at trigger 0.1145, filled mark 0.1155, paper lane)",
+     "note": "no level touched yet (now )"
+    },
+    {
+     "ts": "2026-09-21T11:19:08.938Z",
+     "asset": "ARB",
+     "direction": "LONG",
+     "gate": "struct_chase",
+     "conviction": 6,
+     "verdict": "UNRESOLVED",
+     "detail": "TRANS edge chase pos 0.92 conv 6 < 8",
+     "note": "no level touched yet (now )"
+    },
+    {
+     "ts": "2026-09-21T11:11:37.503Z",
+     "asset": "ARB",
+     "direction": "LONG",
+     "gate": "rr_floor",
+     "conviction": 6,
+     "verdict": "UNRESOLVED",
+     "detail": "awaiting fill R:R 1.96 < 2 floor (registered 2.23 at trigger 0.231, filled mark 0.2322, paper lane)",
+     "note": "no level touched yet (now )"
+    }
+   ],
+   "gemini": [
+    {
+     "ts": "2026-09-15T15:04:08.677Z",
+     "asset": "SOL",
+     "direction": "LONG",
+     "gate": "rr_floor",
+     "conviction": 6,
+     "verdict": "GOOD_REJECT",
+     "detail": "awaiting fill R:R 1.88 < 2 floor (registered 2.40 at trigger 98.8, filled mark 99.07, real lane)",
+     "note": "stop touched first"
+    },
+    {
+     "ts": "2026-09-09T11:04:10.490Z",
+     "asset": "NEAR",
+     "direction": "LONG",
      "gate": "struct_chase",
      "conviction": 6,
      "verdict": "GOOD_REJECT",
-     "detail": "TRANS edge chase pos 0.06 conv 6 < 8",
+     "detail": "CHOP edge chase pos 1.05 conv 6 < 8",
+     "note": "stop touched first"
+    },
+    {
+     "ts": "2026-09-08T18:49:20.744Z",
+     "asset": "DOT",
+     "direction": "LONG",
+     "gate": "rr_floor",
+     "conviction": 6,
+     "verdict": "GOOD_REJECT",
+     "detail": "awaiting fill R:R 1.67 < 2 floor (registered 2.29 at trigger 1.205, filled mark 1.213, real lane)",
      "note": "stop touched first"
     }
    ],
@@ -11627,38 +11641,6 @@
      "note": "stop touched first"
     }
    ],
-   "gemini": [
-    {
-     "ts": "2026-09-15T15:04:08.677Z",
-     "asset": "SOL",
-     "direction": "LONG",
-     "gate": "rr_floor",
-     "conviction": 6,
-     "verdict": "GOOD_REJECT",
-     "detail": "awaiting fill R:R 1.88 < 2 floor (registered 2.40 at trigger 98.8, filled mark 99.07, real lane)",
-     "note": "stop touched first"
-    },
-    {
-     "ts": "2026-09-09T11:04:10.490Z",
-     "asset": "NEAR",
-     "direction": "LONG",
-     "gate": "struct_chase",
-     "conviction": 6,
-     "verdict": "GOOD_REJECT",
-     "detail": "CHOP edge chase pos 1.05 conv 6 < 8",
-     "note": "stop touched first"
-    },
-    {
-     "ts": "2026-09-08T18:49:20.744Z",
-     "asset": "DOT",
-     "direction": "LONG",
-     "gate": "rr_floor",
-     "conviction": 6,
-     "verdict": "GOOD_REJECT",
-     "detail": "awaiting fill R:R 1.67 < 2 floor (registered 2.29 at trigger 1.205, filled mark 1.213, real lane)",
-     "note": "stop touched first"
-    }
-   ],
    "grok": [
     {
      "ts": "2026-09-15T20:34:13.734Z",
@@ -11683,14 +11665,24 @@
    ],
    "luna": [
     {
+     "ts": "2026-09-21T13:00:26.420Z",
+     "asset": "BTC",
+     "direction": "LONG",
+     "gate": "anticipation",
+     "conviction": 6,
+     "verdict": "UNRESOLVED",
+     "detail": "stop 3.9% > 3% (crypto) at conv 6",
+     "note": "no level touched yet (now )"
+    },
+    {
      "ts": "2026-09-20T22:03:36.860Z",
      "asset": "BNB",
      "direction": "LONG",
      "gate": "struct_chase",
      "conviction": 6,
-     "verdict": "UNRESOLVED",
+     "verdict": "MISSED_WIN",
      "detail": "TRANS edge chase pos 0.84 conv 6 < 8",
-     "note": "no level touched yet (now )"
+     "note": "target touched first"
     },
     {
      "ts": "2026-09-10T16:05:21.347Z",
@@ -11768,136 +11760,136 @@
   },
   "recent": [
    {
-    "ts": "2026-09-20T22:03:36.860Z",
-    "asset": "BNB",
+    "ts": "2026-09-22T01:34:14.414Z",
+    "asset": "WLD",
     "direction": "LONG",
-    "actor": "luna",
+    "actor": "qwen",
     "gate": "struct_chase",
     "conviction": 6,
     "verdict": "UNRESOLVED",
-    "detail": "TRANS edge chase pos 0.84 conv 6 < 8",
+    "detail": "CHOP edge chase pos 0.88 conv 6 < 8",
     "note": "no level touched yet (now )"
    },
    {
-    "ts": "2026-09-20T22:02:58.200Z",
-    "asset": "STX",
-    "direction": "LONG",
-    "actor": "qwen",
-    "gate": "anticipation",
-    "conviction": 7,
-    "verdict": "UNRESOLVED",
-    "detail": "stop 7.7% > 3% (crypto) at conv 7",
-    "note": "no level touched yet (now )"
-   },
-   {
-    "ts": "2026-09-20T16:04:14.502Z",
-    "asset": "MSTR",
-    "direction": "LONG",
-    "actor": "qwen",
-    "gate": "anticipation",
-    "conviction": 6,
-    "verdict": "UNSCORABLE",
-    "detail": "stop 6.8% > 2% (equity) at conv 6",
-    "note": "MSTR not on Binance spot — no price path to score against"
-   },
-   {
-    "ts": "2026-09-20T10:02:35.965Z",
-    "asset": "INJ",
-    "direction": "LONG",
-    "actor": "qwen",
-    "gate": "anticipation",
-    "conviction": 7,
-    "verdict": "UNRESOLVED",
-    "detail": "stop 5.5% > 3% (crypto) at conv 7",
-    "note": "no level touched yet (now )"
-   },
-   {
-    "ts": "2026-09-20T10:02:35.955Z",
-    "asset": "ETH",
-    "direction": "LONG",
-    "actor": "qwen",
-    "gate": "anticipation",
-    "conviction": 7,
-    "verdict": "UNRESOLVED",
-    "detail": "stop 3.1% > 3% (crypto) at conv 7",
-    "note": "no level touched yet (now )"
-   },
-   {
-    "ts": "2026-09-20T04:03:01.349Z",
-    "asset": "PEPE",
-    "direction": "LONG",
-    "actor": "qwen",
-    "gate": "anticipation",
-    "conviction": 6,
-    "verdict": "UNRESOLVED",
-    "detail": "stop 6.5% > 3% (crypto) at conv 6",
-    "note": "no level touched yet (now )"
-   },
-   {
-    "ts": "2026-09-20T04:03:01.329Z",
-    "asset": "AVAX",
-    "direction": "LONG",
-    "actor": "qwen",
-    "gate": "anticipation",
-    "conviction": 6,
-    "verdict": "MISSED_WIN",
-    "detail": "stop 7.2% > 3% (crypto) at conv 6",
-    "note": "target touched first"
-   },
-   {
-    "ts": "2026-09-19T23:04:19.158Z",
-    "asset": "SUI",
-    "direction": "LONG",
-    "actor": "qwen",
-    "gate": "rr_floor",
-    "conviction": 5,
-    "verdict": "UNRESOLVED",
-    "detail": "awaiting fill R:R 1.89 < 2 floor (registered 2.18 at trigger 0.86, filled mark 0.8655, paper lane)",
-    "note": "no level touched yet (now )"
-   },
-   {
-    "ts": "2026-09-19T22:04:22.187Z",
-    "asset": "MSTR",
-    "direction": "SHORT",
-    "actor": "qwen",
-    "gate": "anticipation",
-    "conviction": 6,
-    "verdict": "UNSCORABLE",
-    "detail": "stop 4.9% > 2% (equity) at conv 6",
-    "note": "MSTR not on Binance spot — no price path to score against"
-   },
-   {
-    "ts": "2026-09-19T16:04:15.509Z",
-    "asset": "MSTR",
+    "ts": "2026-09-21T16:19:14.016Z",
+    "asset": "ARM",
     "direction": "LONG",
     "actor": "qwen",
     "gate": "anticipation",
     "conviction": 7,
     "verdict": "UNSCORABLE",
     "detail": "stop 7.7% > 2% (equity) at conv 7",
-    "note": "MSTR not on Binance spot — no price path to score against"
+    "note": "ARM not on Binance spot — no price path to score against"
    },
    {
-    "ts": "2026-09-19T10:02:37.004Z",
-    "asset": "AAVE",
+    "ts": "2026-09-21T16:04:07.664Z",
+    "asset": "INTC",
     "direction": "LONG",
     "actor": "qwen",
     "gate": "anticipation",
     "conviction": 6,
-    "verdict": "GOOD_REJECT",
-    "detail": "stop 5.6% > 3% (crypto) at conv 6",
-    "note": "stop touched first"
+    "verdict": "UNSCORABLE",
+    "detail": "stop 8.5% > 2% (equity) at conv 6",
+    "note": "INTC not on Binance spot — no price path to score against"
    },
    {
-    "ts": "2026-09-19T00:04:17.695Z",
+    "ts": "2026-09-21T16:03:04.216Z",
+    "asset": "AMD",
+    "direction": "LONG",
+    "actor": "qwen",
+    "gate": "anticipation",
+    "conviction": 8,
+    "verdict": "UNSCORABLE",
+    "detail": "stop 4.0% > 2% (equity) at conv 8",
+    "note": "AMD not on Binance spot — no price path to score against"
+   },
+   {
+    "ts": "2026-09-21T13:34:09.638Z",
+    "asset": "ALGO",
+    "direction": "LONG",
+    "actor": "qwen",
+    "gate": "anticipation",
+    "conviction": 6,
+    "verdict": "UNRESOLVED",
+    "detail": "stop 6.4% > 3% (crypto) at conv 6",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-09-21T13:04:09.627Z",
+    "asset": "ALGO",
+    "direction": "LONG",
+    "actor": "qwen",
+    "gate": "rr_floor",
+    "conviction": 6,
+    "verdict": "UNRESOLVED",
+    "detail": "awaiting fill R:R 1.94 < 2 floor (registered 2.33 at trigger 0.1145, filled mark 0.1155, paper lane)",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-09-21T13:00:26.420Z",
+    "asset": "BTC",
+    "direction": "LONG",
+    "actor": "luna",
+    "gate": "anticipation",
+    "conviction": 6,
+    "verdict": "UNRESOLVED",
+    "detail": "stop 3.9% > 3% (crypto) at conv 6",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-09-21T11:19:08.938Z",
+    "asset": "ARB",
+    "direction": "LONG",
+    "actor": "qwen",
+    "gate": "struct_chase",
+    "conviction": 6,
+    "verdict": "UNRESOLVED",
+    "detail": "TRANS edge chase pos 0.92 conv 6 < 8",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-09-21T11:11:37.503Z",
+    "asset": "ARB",
+    "direction": "LONG",
+    "actor": "qwen",
+    "gate": "rr_floor",
+    "conviction": 6,
+    "verdict": "UNRESOLVED",
+    "detail": "awaiting fill R:R 1.96 < 2 floor (registered 2.23 at trigger 0.231, filled mark 0.2322, paper lane)",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-09-21T04:34:03.825Z",
+    "asset": "ETH",
+    "direction": "LONG",
+    "actor": "qwen",
+    "gate": "anticipation",
+    "conviction": 7,
+    "verdict": "UNRESOLVED",
+    "detail": "stop 3.6% > 3% (crypto) at conv 7",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-09-21T03:04:04.300Z",
+    "asset": "ETH",
+    "direction": "LONG",
+    "actor": "qwen",
+    "gate": "rr_floor",
+    "conviction": 7,
+    "verdict": "UNRESOLVED",
+    "detail": "awaiting fill R:R 1.67 < 2 floor (registered 2.20 at trigger 2650, filled mark 2667.95, paper lane)",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-09-20T22:03:36.860Z",
     "asset": "BNB",
-    "direction": "SHORT",
-    "actor": "deepseek",
-    "gate": "reentry_cooldown",
-    "conviction": 5,
-    "verdict": "GOOD_REJECT",
-    "detail": "own #781 closed LOSS 2026-09-18T13:52:27.653Z (<12h); conv 5 < override 8",
-    "note": "stop touched first"
+    "direction": "LONG",
+    "actor": "luna",
+    "gate": "struct_chase",
+    "conviction": 6,
+    "verdict": "MISSED_WIN",
+    "detail": "TRANS edge chase pos 0.84 conv 6 < 8",
+    "note": "target touched first"
    }
   ]
  },
@@ -12134,7 +12126,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-22T02:15:03.983Z",
+  "at": "2026-09-22T02:17:00.487Z",
   "windowDays": 14,
   "registered": 248,
   "filled": 42,
@@ -12280,7 +12272,7 @@
   }
  },
  "learning": {
-  "at": "2026-09-22T02:15:03.985Z",
+  "at": "2026-09-22T02:17:00.489Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -12949,27 +12941,27 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 85605.09,
-    "change24hPct": 5.21
+    "price": 85663.67,
+    "change24hPct": 5.28
    },
    {
     "symbol": "ETH",
-    "price": 2743.34,
-    "change24hPct": 3.13
+    "price": 2745.24,
+    "change24hPct": 3.11
    },
    {
     "symbol": "BNB",
-    "price": 788.26,
-    "change24hPct": 1.23
+    "price": 789.39,
+    "change24hPct": 1.36
    },
    {
     "symbol": "XRP",
-    "price": 1.5124,
-    "change24hPct": 6.81
+    "price": 1.5154,
+    "change24hPct": 6.99
    },
    {
     "symbol": "SOL",
-    "price": 117.41,
+    "price": 117.52,
     "change24hPct": 5.22
    }
   ],
@@ -13198,7 +13190,7 @@
      "changePct": -10.3
     }
    ],
-   "ageMin": 255
+   "ageMin": 257
   },
   "chainRotation": {
    "chains": [
@@ -13341,7 +13333,7 @@
      1
     ]
    ],
-   "ageMin": 240
+   "ageMin": 242
   }
  },
  "calendar": [
