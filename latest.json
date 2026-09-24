@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-24T08:57:06.368Z",
+ "generatedAt": "2026-09-24T09:02:07.956Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -12,11 +12,11 @@
   "manLeads": true,
   "man": {
    "label": "Manual",
-   "account": 751.99
+   "account": 753.94
   },
   "machine": {
    "label": "Greta Grok",
-   "account": 539.56
+   "account": 545.74
   }
  },
  "verdictBasis": "mtm",
@@ -26,11 +26,11 @@
    "manLeads": true,
    "man": {
     "label": "Manual",
-    "account": 751.99
+    "account": 753.94
    },
    "machine": {
     "label": "Greta Grok",
-    "account": 539.56
+    "account": 545.74
    }
   },
   "realized": {
@@ -38,7 +38,7 @@
    "manLeads": true,
    "man": {
     "label": "Manual",
-    "account": 917.49
+    "account": 900.24
    },
    "machine": {
     "label": "Greta Grok",
@@ -50,17 +50,17 @@
   "mtm": {
    "man": {
     "label": "Manual",
-    "account": 751.99,
+    "account": 753.94,
     "seat": 518.25,
-    "ret": 45.1
+    "ret": 45.48
    },
    "machines": [
     {
      "key": "grok",
      "label": "Greta Grok",
-     "account": 539.56,
+     "account": 545.74,
      "seat": 499.97,
-     "ret": 7.92
+     "ret": 9.16
     },
     {
      "key": "deepseek",
@@ -86,26 +86,26 @@
     {
      "key": "luna",
      "label": "Luna GPT",
-     "account": 490.81,
+     "account": 490.44,
      "seat": 493.09,
-     "ret": -0.46
+     "ret": -0.54
     },
     {
      "key": "minimax",
      "label": "Milo GLM",
-     "account": 405.86,
+     "account": 405.17,
      "seat": 500,
-     "ret": -18.83
+     "ret": -18.97
     }
    ],
    "fleet": {
     "n": 6,
-    "mean": -0.49,
+    "mean": -0.32,
     "median": 2.15
    },
    "best": {
     "label": "Greta Grok",
-    "ret": 7.92
+    "ret": 9.16
    },
    "manBeatsFleetMean": true,
    "manBeatsBest": true,
@@ -114,9 +114,9 @@
   "realized": {
    "man": {
     "label": "Manual",
-    "account": 917.49,
+    "account": 900.24,
     "seat": 518.25,
-    "ret": 77.03
+    "ret": 73.71
    },
    "machines": [
     {
@@ -201,8 +201,8 @@
    "costUsd": 6.38,
    "costCalls": 143,
    "netPnl": 28.96,
-   "account": 527.37,
-   "retPct": 5.5,
+   "account": 528.66,
+   "retPct": 5.7,
    "accountRealized": 535.34,
    "regimes": {
     "RISK_ON": {
@@ -289,7 +289,8 @@
      "PAPER_STOP": 22,
      "PAPER_TARGET": 10
     }
-   }
+   },
+   "modelRun": null
   },
   {
    "key": "grok",
@@ -306,8 +307,8 @@
    "costUsd": 19.3,
    "costCalls": 386,
    "netPnl": 26.44,
-   "account": 539.56,
-   "retPct": 7.9,
+   "account": 545.74,
+   "retPct": 9.1,
    "accountRealized": 545.74,
    "regimes": {
     "RISK_ON": {
@@ -397,26 +398,27 @@
      "TARGET": 2,
      "CLOSE_REC": 1
     }
-   }
+   },
+   "modelRun": null
   },
   {
    "key": "manual",
    "label": "Manual",
    "venue": "Extended",
    "paper": false,
-   "trades": 121,
-   "wins": 76,
-   "losses": 45,
+   "trades": 123,
+   "wins": 77,
+   "losses": 46,
    "be": 12,
-   "closed": 133,
+   "closed": 135,
    "wr": "63",
-   "pnl": 417.49,
+   "pnl": 400.24,
    "costUsd": 0,
    "costCalls": 0,
-   "netPnl": 417.49,
-   "account": 751.99,
-   "retPct": 50.4,
-   "accountRealized": 917.49,
+   "netPnl": 400.24,
+   "account": 753.94,
+   "retPct": 50.8,
+   "accountRealized": 900.24,
    "regimes": {
     "RISK_ON": {
      "n": 0,
@@ -437,10 +439,10 @@
      "pnl": 0
     },
     "UNKNOWN": {
-     "n": 121,
-     "w": 76,
-     "l": 45,
-     "pnl": 427.55
+     "n": 123,
+     "w": 77,
+     "l": 46,
+     "pnl": 410.29
     },
     "known": 0,
     "riskOnPct": null
@@ -465,7 +467,8 @@
     "uncaptured": 0
    },
    "watch": null,
-   "exits": null
+   "exits": null,
+   "modelRun": null
   },
   {
    "key": "kimi",
@@ -572,6 +575,17 @@
      "TRAIL_LOCK": 5,
      "TARGET": 4
     }
+   },
+   "modelRun": {
+    "model": "kimi-k3",
+    "since": "2026-09-01T04:44:15.457Z",
+    "w": 7,
+    "l": 9,
+    "be": 6,
+    "open": 0,
+    "closed": 22,
+    "pnl": 39.25,
+    "label": "Kimi K3"
    }
   },
   {
@@ -680,7 +694,8 @@
      "TARGET": 3,
      "STOP_SCRATCH": 1
     }
-   }
+   },
+   "modelRun": null
   },
   {
    "key": "gemini",
@@ -787,6 +802,17 @@
      "TRAIL_LOCK": 4,
      "TARGET": 4
     }
+   },
+   "modelRun": {
+    "model": "gemini-3.8-flash",
+    "since": "2026-09-20T10:02:56.242Z",
+    "w": 0,
+    "l": 0,
+    "be": 0,
+    "open": 0,
+    "closed": 0,
+    "pnl": 0,
+    "label": "Gemini 3.8 Flash"
    }
   },
   {
@@ -804,8 +830,8 @@
    "costUsd": 2.08,
    "costCalls": 348,
    "netPnl": -6.6,
-   "account": 490.81,
-   "retPct": -1.8,
+   "account": 490.44,
+   "retPct": -1.9,
    "accountRealized": 495.48,
    "regimes": {
     "RISK_ON": {
@@ -895,7 +921,8 @@
      "TARGET": 3,
      "STOP_SCRATCH": 3
     }
-   }
+   },
+   "modelRun": null
   },
   {
    "key": "minimax",
@@ -912,8 +939,8 @@
    "costUsd": 6.21,
    "costCalls": 432,
    "netPnl": -101.59,
-   "account": 405.86,
-   "retPct": -18.8,
+   "account": 405.17,
+   "retPct": -19,
    "accountRealized": 404.62,
    "regimes": {
     "RISK_ON": {
@@ -1002,9 +1029,41 @@
      "TRAIL_LOCK": 1,
      "STOP_SCRATCH": 3
     }
+   },
+   "modelRun": {
+    "model": "z-ai/glm-5.3-flash",
+    "since": "2026-09-20T10:05:20.323Z",
+    "w": 0,
+    "l": 2,
+    "be": 2,
+    "open": 2,
+    "closed": 4,
+    "pnl": -9.59,
+    "label": "GLM 5.3 Flash"
    }
   }
  ],
+ "book": {
+  "n": 3,
+  "longs": 0,
+  "shorts": 3,
+  "netUsd": -530.31,
+  "grossUsd": 530.31,
+  "marked": 3,
+  "oneWay": true,
+  "assets": [
+   {
+    "asset": "BTC",
+    "n": 2,
+    "netUsd": -364.05
+   },
+   {
+    "asset": "ETH",
+    "n": 1,
+    "netUsd": -166.25
+   }
+  ]
+ },
  "seriesDaily": {
   "labels": [
    "start",
@@ -1043,7 +1102,8 @@
    "09-20",
    "09-21",
    "09-22",
-   "09-23"
+   "09-23",
+   "09-24"
   ],
   "bySource": {
    "qwen": [
@@ -1083,6 +1143,7 @@
     448.74,
     535.34,
     535.34,
+    535.34,
     535.34
    ],
    "grok": [
@@ -1110,6 +1171,7 @@
     536.45,
     537.07,
     537.07,
+    545.74,
     545.74,
     545.74,
     545.74,
@@ -1161,7 +1223,8 @@
     552.05,
     698.14,
     722.25,
-    917.49
+    917.49,
+    900.24
    ],
    "kimi": [
     500,
@@ -1200,6 +1263,7 @@
     537.86,
     538.38,
     539.95,
+    513.29,
     513.29
    ],
    "deepseek": [
@@ -1239,6 +1303,7 @@
     521.56,
     516.94,
     518.92,
+    520.66,
     520.66
    ],
    "gemini": [
@@ -1273,6 +1338,7 @@
     493.88,
     498.72,
     495.42,
+    505.23,
     505.23,
     505.23,
     505.23,
@@ -1317,6 +1383,7 @@
     494.01,
     494.01,
     495.35,
+    495.48,
     495.48
    ],
    "minimax": [
@@ -1356,27 +1423,12 @@
     414.21,
     409.45,
     404.58,
+    404.62,
     404.62
    ]
   }
  },
  "equityHourly": [
-  {
-   "ts": "2026-09-10T09:00:00.000Z",
-   "hl": 0,
-   "hl_spot": 530.983696,
-   "grvt": null,
-   "extended": 524.073195,
-   "capital": 3580.142033,
-   "qwen": 477.3,
-   "hermes": 530.98,
-   "manual": 524.07,
-   "kimi": 552.71,
-   "deepseek": 543.74,
-   "gemini": 492.45,
-   "luna": 487.88,
-   "minimax": 447.36
-  },
   {
    "ts": "2026-09-10T10:00:00.000Z",
    "hl": 0,
@@ -6656,25 +6708,25 @@
    "gemini": 503.7,
    "luna": 488.31,
    "minimax": 401.95
+  },
+  {
+   "ts": "2026-09-24T09:00:00.000Z",
+   "hl": null,
+   "hl_spot": null,
+   "grvt": null,
+   "extended": 753.937955,
+   "capital": null,
+   "qwen": 528.66,
+   "hermes": 545.74,
+   "manual": 753.94,
+   "kimi": 511.14,
+   "deepseek": 520.61,
+   "gemini": 503.7,
+   "luna": 490.44,
+   "minimax": 405.17
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-09-23T09:00:00.000Z",
-   "hl": 0,
-   "hl_spot": 539.562099,
-   "grvt": null,
-   "extended": 987.897539,
-   "capital": 4014.071598,
-   "qwen": 536.54,
-   "hermes": 539.56,
-   "manual": 987.9,
-   "kimi": 532.46,
-   "deepseek": 540.27,
-   "gemini": 503.7,
-   "luna": 500.59,
-   "minimax": 408.63
-  },
   {
    "ts": "2026-09-23T09:05:00.000Z",
    "hl": 0,
@@ -11266,14 +11318,30 @@
    "gemini": 503.7,
    "luna": 490.81,
    "minimax": 405.86
+  },
+  {
+   "ts": "2026-09-24T09:00:00.000Z",
+   "hl": null,
+   "hl_spot": null,
+   "grvt": null,
+   "extended": 753.937955,
+   "capital": null,
+   "qwen": 528.66,
+   "hermes": 545.74,
+   "manual": 753.94,
+   "kimi": 511.14,
+   "deepseek": 520.61,
+   "gemini": 503.7,
+   "luna": 490.44,
+   "minimax": 405.17
   }
  ],
  "venuesLive": {
-  "hl": 0,
-  "hl_spot": 539.561,
+  "hl": null,
+  "hl_spot": null,
   "grvt": null,
-  "lighter": 2433.083078,
-  "total": 2972.6440780000003
+  "lighter": 2432.0165210000005,
+  "total": 2432.0165210000005
  },
  "awaitingScore": {
   "at": "2026-09-21T02:15:19.370Z",
@@ -12284,7 +12352,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-24T08:57:06.393Z",
+  "at": "2026-09-24T09:02:08.078Z",
   "windowDays": 14,
   "registered": 233,
   "filled": 45,
@@ -12430,7 +12498,7 @@
   }
  },
  "learning": {
-  "at": "2026-09-24T08:57:06.396Z",
+  "at": "2026-09-24T09:02:08.081Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -12902,8 +12970,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 68.97,
-    "asOf": "2026-09-24T08:49:25.628Z"
+    "lastClose": 68.43,
+    "asOf": "2026-09-24T09:01:20.546Z"
    }
   },
   {
@@ -12920,8 +12988,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 7.876,
-    "asOf": "2026-09-24T08:49:27.231Z"
+    "lastClose": 7.759,
+    "asOf": "2026-09-24T09:01:21.343Z"
    }
   },
   {
@@ -12938,8 +13006,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 84524.02,
-    "asOf": "2026-09-24T08:49:03.574Z"
+    "lastClose": 83660,
+    "asOf": "2026-09-24T09:01:01.519Z"
    }
   },
   {
@@ -12957,7 +13025,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 115.52,
-    "asOf": "2026-09-24T08:49:15.455Z"
+    "asOf": "2026-09-24T09:01:12.355Z"
    }
   },
   {
@@ -12975,7 +13043,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 115.52,
-    "asOf": "2026-09-24T08:49:16.611Z"
+    "asOf": "2026-09-24T09:01:13.137Z"
    }
   },
   {
@@ -12992,6 +13060,34 @@
   }
  ],
  "recentCloses": [
+  {
+   "id": 830,
+   "asset": "TSLA_24_5",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "WIN",
+   "pct": 2.2,
+   "exitReason": "Manual LONG on Extended — entry $368.56 → exit $376.82 (+2.24% move 10x), realised +$17.49 → WIN.",
+   "closedAt": "2026-09-24T08:28:21.914Z",
+   "entry": 368.56,
+   "exit": 376.82,
+   "openedAt": "2026-09-18T10:28:27.486Z"
+  },
+  {
+   "id": 829,
+   "asset": "SPCX",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "LOSS",
+   "pct": -2.9,
+   "exitReason": "Manual LONG on Extended — entry $152.24 → exit $147.86 (-2.88% move 10x), realised $-34.74 → LOSS.",
+   "closedAt": "2026-09-24T08:12:26.015Z",
+   "entry": 152.24,
+   "exit": 147.86,
+   "openedAt": "2026-09-21T19:12:31.294Z"
+  },
   {
    "id": 824,
    "asset": "MU_24_5",
@@ -13131,62 +13227,34 @@
    "entry": 186.68,
    "exit": 190.81,
    "openedAt": "2026-09-19T04:25:05.713Z"
-  },
-  {
-   "id": 817,
-   "asset": "GOOGL",
-   "direction": "LONG",
-   "actor": "manual",
-   "venue": "EXTENDED",
-   "outcome": "WIN",
-   "pct": 0.6,
-   "exitReason": "Manual LONG on Extended — entry $351.41 → exit $353.65 (+0.64% move 10x), realised +$7.97 → WIN.",
-   "closedAt": "2026-09-22T16:11:16.815Z",
-   "entry": 351.41,
-   "exit": 353.65,
-   "openedAt": "2026-09-21T12:41:59.113Z"
-  },
-  {
-   "id": 816,
-   "asset": "DOGE",
-   "direction": "LONG",
-   "actor": "manual",
-   "venue": "EXTENDED",
-   "outcome": "WIN",
-   "pct": 2.8,
-   "exitReason": "Manual LONG on Extended — entry $0.09633 → exit $0.09899 (+2.76% move 10x), realised +$16.14 → WIN.",
-   "closedAt": "2026-09-22T05:24:54.508Z",
-   "entry": 0.09633,
-   "exit": 0.09899,
-   "openedAt": "2026-09-21T16:46:19.212Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 83512.21,
-    "change24hPct": -2.75
+    "price": 83676.89,
+    "change24hPct": -2.61
    },
    {
     "symbol": "ETH",
-    "price": 2665.51,
-    "change24hPct": -2.51
+    "price": 2671.85,
+    "change24hPct": -2.42
    },
    {
     "symbol": "BNB",
-    "price": 769.04,
-    "change24hPct": -2.17
+    "price": 770.84,
+    "change24hPct": -1.98
    },
    {
     "symbol": "XRP",
-    "price": 1.4813,
-    "change24hPct": -7.1
+    "price": 1.484,
+    "change24hPct": -7.24
    },
    {
     "symbol": "SOL",
-    "price": 113.88,
-    "change24hPct": -3
+    "price": 114.23,
+    "change24hPct": -2.67
    }
   ],
   "fearGreed": {
@@ -13198,6 +13266,28 @@
    "value": 35,
    "classification": "Fear",
    "source": "CNN"
+  },
+  "macro": {
+   "dxy": {
+    "price": 101.13,
+    "change": 0.03
+   },
+   "vix": {
+    "price": 16.23,
+    "change": 6.92
+   },
+   "spx": {
+    "price": 7706.03,
+    "change": -0.76
+   },
+   "ndx": {
+    "price": 30432,
+    "change": -1.08
+   },
+   "gold": {
+    "price": 4302,
+    "change": -0.38
+   }
   },
   "netLiquidity": {
    "usdB": 5864.1,
@@ -13271,14 +13361,14 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.205,
-    "longPct": 54.6,
+    "ratio": 1.22,
+    "longPct": 55,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.702,
-    "longPct": 73,
+    "ratio": 2.747,
+    "longPct": 73.3,
     "bias": "CROWDED LONG"
    },
    {
@@ -13289,14 +13379,14 @@
    },
    {
     "asset": "BNB",
-    "ratio": 2.322,
+    "ratio": 2.326,
     "longPct": 69.9,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.291,
-    "longPct": 69.6,
+    "ratio": 2.426,
+    "longPct": 70.8,
     "bias": "CROWDED LONG"
    }
   ],
@@ -13376,7 +13466,7 @@
      "changePct": -13.9
     }
    ],
-   "ageMin": 297
+   "ageMin": 302
   },
   "chainRotation": {
    "chains": [
@@ -13519,7 +13609,7 @@
      1
     ]
    ],
-   "ageMin": 228
+   "ageMin": 233
   }
  },
  "calendar": [
@@ -13599,6 +13689,12 @@
    "date": "2026-09-30",
    "event": "OP token unlock — 24.2M cliff = 0.56% of float (Investors + Core Contributors)",
    "type": "UNLOCK",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-30",
+   "event": "MU earnings (AMC)",
+   "type": "EARNINGS",
    "impact": "MED"
   },
   {
@@ -14251,7 +14347,39 @@
   ],
   "disagreement": "BTC"
  },
- "manualBook": null,
+ "manualBook": {
+  "at": "2026-09-24T09:02:07.956Z",
+  "positions": [
+   {
+    "asset": "META",
+    "stock": true,
+    "direction": "LONG",
+    "entry": 745.42,
+    "pnlPct": -2.04
+   },
+   {
+    "asset": "NVDA",
+    "stock": true,
+    "direction": "LONG",
+    "entry": 228.99,
+    "pnlPct": -2.71
+   },
+   {
+    "asset": "GOOGL",
+    "stock": false,
+    "direction": "LONG",
+    "entry": 342.42,
+    "pnlPct": -1.4
+   },
+   {
+    "asset": "PUMP",
+    "stock": false,
+    "direction": "LONG",
+    "entry": 0.004022,
+    "pnlPct": -1.99
+   }
+  ]
+ },
  "report": {
   "xPost": "Zama Sentinel — bias check: 5 bull / 4 bear across 9/18 active signals. BTC $83,855.",
   "intelligence": "SUMMARY\nMarket is in a confirmed downtrend with -5.64% 24h drawdown driven by long liquidations and OI contraction. Institutional ETF inflows ($32.4M today) provide a hard floor, but retail sentiment remains fragile with high short interest on key altcoins. The primary signal is the divergence between stablecoin dry powder expansion and spot market selling pressure. Risk of a deeper flush exists if BTC breaks below immediate support, though supply shock scores remain low for major caps.\n\nIN-DEPTH ANALYSIS\nThe macro backdrop shows a disconnect: US10Y yields are spiking (+3.04%), pressuring risk assets, yet stablecoin supply is expanding (+0.71% 7d), indicating dry powder accumulation. The critical divergence lies in derivatives positioning: OI is contracting across BTC, ETH, and SOL while long liquidations dominate ($81.1M vs $9.3M shorts). This suggests a deleveraging cascade rather than",
@@ -14582,37 +14710,37 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 17613,
+   "totalPrints7d": 17609,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
     {
-     "coin": "BTC",
-     "l": 1,
-     "s": 1,
-     "netK": 557,
-     "concPct": 95
-    },
-    {
      "coin": "US100",
      "l": 5,
      "s": 3,
-     "netK": 116,
+     "netK": 164,
      "concPct": 43
     },
     {
      "coin": "SOL",
      "l": 2,
      "s": 0,
-     "netK": 379,
-     "concPct": 94
+     "netK": 389,
+     "concPct": 95
     },
     {
      "coin": "ZEC",
      "l": 1,
      "s": 0,
-     "netK": 303,
+     "netK": 316,
      "concPct": 100
+    },
+    {
+     "coin": "BTC",
+     "l": 1,
+     "s": 1,
+     "netK": 225,
+     "concPct": 90
     },
     {
      "coin": "NVDA",
@@ -14632,14 +14760,14 @@
      "coin": "XAG",
      "l": 1,
      "s": 0,
-     "netK": 207,
+     "netK": 206,
      "concPct": 100
     },
     {
      "coin": "BRENTOIL",
      "l": 0,
      "s": 1,
-     "netK": -140,
+     "netK": -139,
      "concPct": 100
     }
    ],
@@ -14656,8 +14784,8 @@
     },
     {
      "coin": "US100",
-     "netK": -1652,
-     "n": 10412
+     "netK": -1678,
+     "n": 10408
     },
     {
      "coin": "ENA",
@@ -14676,27 +14804,27 @@
      "prints": 5320,
      "volK": 134958,
      "biasK": 387,
-     "equity": 44148,
+     "equity": 44322,
      "positions": [
       {
        "coin": "US100",
        "side": "LONG",
-       "usdK": 183,
+       "usdK": 220,
        "upnlK": 0
       }
      ]
     },
     {
      "id": 281474976489995,
-     "prints": 1656,
-     "volK": 35615,
-     "biasK": -46,
-     "equity": 13556,
+     "prints": 1654,
+     "volK": 35583,
+     "biasK": -15,
+     "equity": 13612,
      "positions": [
       {
        "coin": "US100",
        "side": "LONG",
-       "usdK": 54,
+       "usdK": 74,
        "upnlK": 0
       }
      ]
@@ -14706,12 +14834,12 @@
      "prints": 1627,
      "volK": 33663,
      "biasK": -757,
-     "equity": 33852,
+     "equity": 33791,
      "positions": [
       {
        "coin": "US500",
        "side": "SHORT",
-       "usdK": 130,
+       "usdK": 76,
        "upnlK": 0
       }
      ]
@@ -14721,7 +14849,7 @@
      "prints": 593,
      "volK": 8770,
      "biasK": -116,
-     "equity": 12384,
+     "equity": 12290,
      "positions": [
       {
        "coin": "AAVE",
@@ -14742,7 +14870,7 @@
      "prints": 225,
      "volK": 6227,
      "biasK": 1152,
-     "equity": 858538,
+     "equity": 858573,
      "positions": [
       {
        "coin": "BTC",
@@ -14753,7 +14881,7 @@
       {
        "coin": "SOL",
        "side": "LONG",
-       "usdK": 22,
+       "usdK": 18,
        "upnlK": 0
       },
       {
@@ -14952,7 +15080,7 @@
   }
  },
  "intel": {
-  "ageH": 5.5,
+  "ageH": 5.6,
   "narratives": [
    "* Tokenized Equities & RWA: Gaining major institutional backing through the NYSE/Blockchain.com digital trading initiative and Ondo's in-kind equity minting with Alpaca. (both)",
    "* Stablecoin Infrastructure & Sovereign Integration: U.S. policymakers are exploring global USD stablecoin distribution supported by FedNow cross-border functionality, while Galaxy allocated $100M of Sky's USDS/sUSDS to ",
@@ -15138,6 +15266,46 @@
   }
  ],
  "archive": [
+  {
+   "id": 830,
+   "asset": "TSLA_24_5",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "WIN",
+   "pct": 2.2,
+   "pnlUsd": 17.49,
+   "exitReason": "Manual LONG on Extended — entry $368.56 → exit $376.82 (+2.24% move 10x), realised +$17.49 → WIN.",
+   "closedAt": "2026-09-24T08:28:21.914Z",
+   "stop": null,
+   "target": null,
+   "thesis": "Manual operator trade on Extended (imported — own research / macro).",
+   "entry": 368.56,
+   "exit": 376.82,
+   "conviction": null,
+   "openedAt": "2026-09-18T10:28:27.486Z",
+   "rr": null
+  },
+  {
+   "id": 829,
+   "asset": "SPCX",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "LOSS",
+   "pct": -2.9,
+   "pnlUsd": -34.74,
+   "exitReason": "Manual LONG on Extended — entry $152.24 → exit $147.86 (-2.88% move 10x), realised $-34.74 → LOSS.",
+   "closedAt": "2026-09-24T08:12:26.015Z",
+   "stop": null,
+   "target": null,
+   "thesis": "Manual operator trade on Extended (imported — own research / macro).",
+   "entry": 152.24,
+   "exit": 147.86,
+   "conviction": null,
+   "openedAt": "2026-09-21T19:12:31.294Z",
+   "rr": null
+  },
   {
    "id": 824,
    "asset": "MU_24_5",
@@ -21097,46 +21265,6 @@
    "conviction": 7,
    "openedAt": "2026-08-24T10:03:45.323Z",
    "rr": 2.2
-  },
-  {
-   "id": 521,
-   "asset": "ETH",
-   "direction": "LONG",
-   "actor": "luna",
-   "venue": "LIGHTER",
-   "outcome": "BREAKEVEN",
-   "pct": 0.2,
-   "pnlUsd": -1.99,
-   "exitReason": "LONG ETH: stopped out at SL +0.2% (entry $2461.36 → exit $2466.63). WHY: Exited on stop noise ($2466.63 vs $2467.51 stop) in a transitional mush; short-covering thesis never manifested into sustained…",
-   "closedAt": "2026-08-24T17:02:16.727Z",
-   "stop": 2420,
-   "target": 2563.49,
-   "thesis": "ETH short-covering is firing now, with price up 2.06% over 24h while OI is down 3.0% over 24h; institutional demand also remains active with a latest $184.9M ETH ETF inflow and five consecutive positive days.",
-   "entry": 2461.36,
-   "exit": 2466.63,
-   "conviction": 6,
-   "openedAt": "2026-08-24T10:04:00.479Z",
-   "rr": 2.5
-  },
-  {
-   "id": 464,
-   "asset": "BTC",
-   "direction": "LONG",
-   "actor": "gemini",
-   "venue": "PAPER",
-   "outcome": "WIN",
-   "pct": 3.4,
-   "pnlUsd": 10.16,
-   "exitReason": "LONG BTC: hit target +3.4% (entry $77235 → exit $79850). WHY: Spot ETF inflows continued through exit, short squeeze held price above R2, structural resistance converted to support—thesis mechanism…",
-   "closedAt": "2026-08-24T15:35:29.123Z",
-   "stop": 75950,
-   "target": 79850,
-   "thesis": "Institutional spot ETF inflows of $606.3M (4 consecutive positive days, +$1360.4M 7d) are driving an active short squeeze ($230.9M Binance short liquidations in 24h) holding price firmly above broken R2 structural…",
-   "entry": 77235,
-   "exit": 79850,
-   "conviction": 7,
-   "openedAt": "2026-08-21T16:03:42.463Z",
-   "rr": 2
   }
  ],
  "risk": {
@@ -21146,7 +21274,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 539.56,
+    "equity": null,
     "peak": 546.82
    },
    "LIGHTER_kimi": {
@@ -21182,7 +21310,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 490.81,
+    "equity": 490.44,
     "peak": 536.23
    },
    "LIGHTER_minimax": {
@@ -21191,7 +21319,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 405.86,
+    "equity": 405.17,
     "peak": 500
    }
   },
