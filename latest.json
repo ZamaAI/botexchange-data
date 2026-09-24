@@ -1,12 +1,18 @@
 {
- "generatedAt": "2026-09-24T09:57:07.036Z",
+ "generatedAt": "2026-09-24T10:02:00.859Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
  "mtmAgeMin": {
   "manual": 0
  },
- "feedCoverage": null,
+ "feedCoverage": {
+  "at": "2026-09-24T10:01:49.349Z",
+  "present": 60,
+  "total": 60,
+  "missing": [],
+  "empty": []
+ },
  "verdict": {
   "tie": false,
   "manLeads": true,
@@ -201,8 +207,8 @@
    "costUsd": 6.38,
    "costCalls": 143,
    "netPnl": 21.67,
-   "account": 524.72,
-   "retPct": 4.9,
+   "account": 524.9,
+   "retPct": 5,
    "accountRealized": 528.05,
    "regimes": {
     "RISK_ON": {
@@ -1429,22 +1435,6 @@
   }
  },
  "equityHourly": [
-  {
-   "ts": "2026-09-10T10:00:00.000Z",
-   "hl": 0,
-   "hl_spot": 530.982597,
-   "grvt": null,
-   "extended": 510.305324,
-   "capital": 3566.567854,
-   "qwen": 476.74,
-   "hermes": 530.98,
-   "manual": 510.31,
-   "kimi": 553.76,
-   "deepseek": 543.94,
-   "gemini": 492.45,
-   "luna": 487.88,
-   "minimax": 446.3
-  },
   {
    "ts": "2026-09-10T11:00:00.000Z",
    "hl": 0,
@@ -6724,25 +6714,25 @@
    "gemini": 503.7,
    "luna": 490.44,
    "minimax": 405.17
+  },
+  {
+   "ts": "2026-09-24T10:00:00.000Z",
+   "hl": 0,
+   "hl_spot": 539.561,
+   "grvt": null,
+   "extended": 740.13501,
+   "capital": 3715.4351420000003,
+   "qwen": 524.9,
+   "hermes": 539.56,
+   "manual": 740.14,
+   "kimi": 511.14,
+   "deepseek": 520.61,
+   "gemini": 503.7,
+   "luna": 491.49,
+   "minimax": 407.84
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-09-23T10:00:00.000Z",
-   "hl": 0,
-   "hl_spot": 539.562099,
-   "grvt": null,
-   "extended": 991.531459,
-   "capital": 4015.787273,
-   "qwen": 536.31,
-   "hermes": 539.56,
-   "manual": 991.53,
-   "kimi": 532.24,
-   "deepseek": 539.36,
-   "gemini": 503.7,
-   "luna": 500.33,
-   "minimax": 408.12
-  },
   {
    "ts": "2026-09-23T10:05:00.000Z",
    "hl": 0,
@@ -11334,6 +11324,22 @@
    "gemini": 503.7,
    "luna": 491.49,
    "minimax": 407.84
+  },
+  {
+   "ts": "2026-09-24T10:00:00.000Z",
+   "hl": 0,
+   "hl_spot": 539.561,
+   "grvt": null,
+   "extended": 740.13501,
+   "capital": 3715.4351420000003,
+   "qwen": 524.9,
+   "hermes": 539.56,
+   "manual": 740.14,
+   "kimi": 511.14,
+   "deepseek": 520.61,
+   "gemini": 503.7,
+   "luna": 491.49,
+   "minimax": 407.84
   }
  ],
  "venuesLive": {
@@ -12352,7 +12358,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-24T09:57:07.075Z",
+  "at": "2026-09-24T10:02:00.910Z",
   "windowDays": 14,
   "registered": 233,
   "filled": 45,
@@ -12498,7 +12504,7 @@
   }
  },
  "learning": {
-  "at": "2026-09-24T09:57:07.077Z",
+  "at": "2026-09-24T10:02:00.912Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -13215,28 +13221,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 83233.28,
-    "change24hPct": -3.1
+    "price": 83356,
+    "change24hPct": -2.91
    },
    {
     "symbol": "ETH",
-    "price": 2642.54,
-    "change24hPct": -3.42
+    "price": 2643.92,
+    "change24hPct": -3.33
    },
    {
     "symbol": "BNB",
-    "price": 766.33,
-    "change24hPct": -2.05
+    "price": 767.43,
+    "change24hPct": -1.99
    },
    {
     "symbol": "XRP",
-    "price": 1.458,
-    "change24hPct": -8.67
+    "price": 1.4605,
+    "change24hPct": -8.4
    },
    {
     "symbol": "SOL",
-    "price": 113.2,
-    "change24hPct": -3.63
+    "price": 113.17,
+    "change24hPct": -3.62
    }
   ],
   "fearGreed": {
@@ -13288,56 +13294,66 @@
    "components": [
     {
      "key": "leverage",
-     "score": 17,
-     "detail": "majors OI -2.4%/24h"
+     "label": "Leverage build",
+     "score": 19,
+     "detail": "majors OI -2.2%/24h"
     },
     {
      "key": "funding",
-     "score": 30,
-     "detail": "mean |funding| 0.021%/day"
+     "label": "Funding extremity",
+     "score": 4,
+     "detail": "mean |funding| 0.003%/day"
     },
     {
      "key": "crowding",
-     "score": 49,
-     "detail": "crowd 66% long — squeeze fuel below"
+     "label": "Positioning crowding",
+     "score": 50,
+     "detail": "crowd 67% long — squeeze fuel below"
     },
     {
      "key": "liquidations",
-     "score": 63,
-     "detail": "$90M forced /24h (BTC/ETH/SOL, Binance)"
+     "label": "Liquidation stress",
+     "score": 70,
+     "detail": "$125M forced /24h (BTC/ETH/SOL, Binance)"
     },
     {
      "key": "volatility",
-     "score": 77,
-     "detail": "77th percentile vs own history"
+     "label": "Realized volatility",
+     "score": 79,
+     "detail": "79th percentile vs own history"
     },
     {
      "key": "liquidity",
-     "score": 18,
-     "detail": "stables +0.71%/7d, Fed adding"
+     "label": "Liquidity / dry powder",
+     "score": 23,
+     "detail": "stables +0.48%/7d, Fed adding"
     },
     {
      "key": "macro",
-     "score": 61,
-     "detail": "BTC↔NQ corr 0.49"
+     "label": "Macro coupling",
+     "score": 78,
+     "detail": "BTC↔NQ corr 0.62"
     },
     {
      "key": "breadth",
+     "label": "Breadth fragility",
      "score": 0,
      "detail": "5/5 majors above their 20d MA"
     },
     {
      "key": "impliedvol",
-     "score": 18,
-     "detail": "BTC DVOL 36.2 vs 90d median 37.5"
+     "label": "Implied volatility",
+     "score": 20,
+     "detail": "BTC DVOL 36.8 vs 90d median 37.5"
     },
     {
      "key": "takerflow",
-     "score": 78,
-     "detail": "47.7% taker buy — sellers crossing the spread"
+     "label": "Taker flow imbalance",
+     "score": 64,
+     "detail": "48.1% taker buy — sellers crossing the spread"
     }
    ],
-   "computedAt": 1790222494338
+   "computedAt": 1790244109337
   },
   "equityRegime": "NEUTRAL",
   "longShort": [
@@ -13375,17 +13391,17 @@
   "funding": [
    {
     "asset": "BTC",
-    "dailyPct": 0.014,
+    "dailyPct": -0.0002,
     "signal": "NEUTRAL"
    },
    {
     "asset": "ETH",
-    "dailyPct": 0.03,
+    "dailyPct": 0.0069,
     "signal": "NEUTRAL"
    },
    {
     "asset": "SOL",
-    "dailyPct": 0.0191,
+    "dailyPct": -0.0016,
     "signal": "NEUTRAL"
    }
   ],
@@ -13397,58 +13413,53 @@
    "gainers": [
     {
      "symbol": "ALEO",
-     "price": 0.03931857,
-     "changePct": 139.6
+     "price": 0.03607673,
+     "changePct": 109.9
     },
     {
      "symbol": "ETN",
-     "price": 0.00299955,
-     "changePct": 62.6
+     "price": 0.00333567,
+     "changePct": 82.2
     },
     {
      "symbol": "NIL",
-     "price": 0.131852,
-     "changePct": 37.1
+     "price": 0.140313,
+     "changePct": 47.2
     },
     {
-     "symbol": "BTW",
-     "price": 1.073,
-     "changePct": 17.4
+     "symbol": "LSK",
+     "price": 0.409909,
+     "changePct": 30.5
     },
     {
-     "symbol": "DBR",
-     "price": 0.02173223,
-     "changePct": 16.1
+     "symbol": "META",
+     "price": 6.36,
+     "changePct": 16.3
     }
    ],
    "losers": [
     {
-     "symbol": "MUBARAK",
-     "price": 0.050212,
-     "changePct": -37.8
+     "symbol": "ORBIO",
+     "price": 0.0594,
+     "changePct": -22.8
+    },
+    {
+     "symbol": "NOCK",
+     "price": 0.0271622,
+     "changePct": -22.4
     },
     {
      "symbol": "NEX",
-     "price": 8.382e-7,
-     "changePct": -21
+     "price": 8.42458e-7,
+     "changePct": -21.4
     },
     {
-     "symbol": "SPX",
-     "price": 0.419871,
-     "changePct": -19.8
-    },
-    {
-     "symbol": "SN53",
-     "price": 9.54,
-     "changePct": -14.6
-    },
-    {
-     "symbol": "ARB",
-     "price": 0.215497,
-     "changePct": -13.9
+     "symbol": "AURORA",
+     "price": 0.068,
+     "changePct": -19
     }
    ],
-   "ageMin": 357
+   "ageMin": 2
   },
   "chainRotation": {
    "chains": [
@@ -13591,7 +13602,7 @@
      1
     ]
    ],
-   "ageMin": 288
+   "ageMin": 293
   }
  },
  "calendar": [
@@ -14692,57 +14703,50 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 17689,
+   "totalPrints7d": 17708,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
     {
      "coin": "US100",
-     "l": 3,
-     "s": 6,
-     "netK": -82,
-     "concPct": 25
+     "l": 4,
+     "s": 5,
+     "netK": -2,
+     "concPct": 29
     },
     {
      "coin": "SOL",
      "l": 2,
      "s": 0,
-     "netK": 351,
-     "concPct": 94
+     "netK": 370,
+     "concPct": 92
     },
     {
      "coin": "ZEC",
      "l": 1,
      "s": 0,
-     "netK": 251,
-     "concPct": 100
-    },
-    {
-     "coin": "ETH",
-     "l": 0,
-     "s": 1,
-     "netK": -244,
+     "netK": 228,
      "concPct": 100
     },
     {
      "coin": "XAG",
      "l": 1,
      "s": 0,
-     "netK": 207,
+     "netK": 209,
      "concPct": 100
     },
     {
      "coin": "NVDA",
      "l": 1,
      "s": 0,
-     "netK": 193,
+     "netK": 197,
      "concPct": 100
     },
     {
      "coin": "NBIS",
      "l": 1,
      "s": 0,
-     "netK": 142,
+     "netK": 146,
      "concPct": 100
     },
     {
@@ -14751,12 +14755,19 @@
      "s": 1,
      "netK": -123,
      "concPct": 100
+    },
+    {
+     "coin": "CHIP",
+     "l": 1,
+     "s": 0,
+     "netK": 89,
+     "concPct": 100
     }
    ],
    "coinFlow": [
     {
      "coin": "ZEC",
-     "netK": 2119,
+     "netK": 2123,
      "n": 1155
     },
     {
@@ -14766,8 +14777,8 @@
     },
     {
      "coin": "US100",
-     "netK": -1675,
-     "n": 10456
+     "netK": -1831,
+     "n": 10475
     },
     {
      "coin": "ENA",
@@ -14776,37 +14787,37 @@
     },
     {
      "coin": "ETH",
-     "netK": -954,
-     "n": 1103
+     "netK": -1251,
+     "n": 1102
     }
    ],
    "accounts": [
     {
      "id": 748358,
-     "prints": 5352,
-     "volK": 135538,
-     "biasK": 393,
-     "equity": 44075,
+     "prints": 5365,
+     "volK": 136092,
+     "biasK": 409,
+     "equity": 44255,
      "positions": [
       {
        "coin": "US100",
        "side": "LONG",
-       "usdK": 121,
+       "usdK": 158,
        "upnlK": 0
       }
      ]
     },
     {
      "id": 281474976489995,
-     "prints": 1660,
-     "volK": 35639,
-     "biasK": -19,
-     "equity": 13400,
+     "prints": 1661,
+     "volK": 35652,
+     "biasK": -38,
+     "equity": 13546,
      "positions": [
       {
        "coin": "US100",
        "side": "LONG",
-       "usdK": 78,
+       "usdK": 110,
        "upnlK": 0
       }
      ]
@@ -14816,12 +14827,12 @@
      "prints": 1627,
      "volK": 33663,
      "biasK": -757,
-     "equity": 33844,
+     "equity": 33822,
      "positions": [
       {
        "coin": "US500",
        "side": "SHORT",
-       "usdK": 38,
+       "usdK": 18,
        "upnlK": 0
       }
      ]
@@ -14831,7 +14842,7 @@
      "prints": 593,
      "volK": 8770,
      "biasK": -116,
-     "equity": 12792,
+     "equity": 12704,
      "positions": [
       {
        "coin": "AAVE",
@@ -14849,17 +14860,11 @@
     },
     {
      "id": 737089,
-     "prints": 224,
-     "volK": 6215,
-     "biasK": 1165,
-     "equity": 857523,
+     "prints": 221,
+     "volK": 6116,
+     "biasK": 1066,
+     "equity": 857390,
      "positions": [
-      {
-       "coin": "ETH",
-       "side": "SHORT",
-       "usdK": 244,
-       "upnlK": 0
-      },
       {
        "coin": "BTC",
        "side": "LONG",
@@ -14869,7 +14874,13 @@
       {
        "coin": "SOL",
        "side": "LONG",
-       "usdK": 22,
+       "usdK": 28,
+       "upnlK": 0
+      },
+      {
+       "coin": "ETH",
+       "side": "LONG",
+       "usdK": 5,
        "upnlK": 0
       },
       {
@@ -15062,7 +15073,7 @@
   }
  },
  "intel": {
-  "ageH": 0.5,
+  "ageH": 0.6,
   "narratives": [
    "* Real-World Asset (RWA) Tokenization: NYSE x Blockchain.com 24/7 equity infrastructure and Ondo's in-kind minting allowing institutions to swap Alpaca-held shares directly into tokens (both).",
    "* AI Agent Payment Infrastructure: BlackRock and crypto analysts highlighting stablecoins and tokenized compute as the machine-native money layer for autonomous AI agents (both).",
