@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-27T10:47:13.103Z",
+ "generatedAt": "2026-09-27T10:52:15.051Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -199,7 +199,7 @@
  "volState": {
   "hour": "2026-09-27T10",
   "asOf": "2026-09-27T10:00:00.000Z",
-  "ageMin": 47,
+  "ageMin": 52,
   "freezeMax": 15,
   "rows": [
    {
@@ -854,7 +854,7 @@
  },
  "seasonTransfers": {
   "since": "2026-08-19T15:00:18.670Z",
-  "sweptAt": null,
+  "sweptAt": "2026-09-27T10:50:00.005Z",
   "bySeat": {},
   "rows": []
  },
@@ -874,7 +874,7 @@
    "costUsd": 6.97,
    "costCalls": 156,
    "netPnl": -2.23,
-   "account": 496.62,
+   "account": 496.69,
    "retPct": -0.7,
    "accountRealized": 504.74,
    "regimes": {
@@ -1752,9 +1752,9 @@
   "btc": {
    "startDate": "2026-08-19",
    "start": 65923.21,
-   "now": 84858.01,
+   "now": 84832,
    "retPct": 28.7,
-   "value": 643.61
+   "value": 643.42
   }
  },
  "oi": {
@@ -7711,22 +7711,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-09-26T10:50:00.000Z",
-   "hl": 0,
-   "hl_spot": 539.320276,
-   "grvt": null,
-   "extended": 766.292534,
-   "capital": 3705.1562470000003,
-   "qwen": 517.63,
-   "hermes": 539.32,
-   "manual": 766.29,
-   "kimi": 493.22,
-   "deepseek": 519.78,
-   "gemini": 503.7,
-   "luna": 489.39,
-   "minimax": 392.5
-  },
-  {
    "ts": "2026-09-26T10:55:00.000Z",
    "hl": 0,
    "hl_spot": 539.320276,
@@ -12317,6 +12301,22 @@
    "gemini": 503.7,
    "luna": 487.82,
    "minimax": 392.5
+  },
+  {
+   "ts": "2026-09-27T10:50:00.000Z",
+   "hl": 0,
+   "hl_spot": 539.331268,
+   "grvt": null,
+   "extended": 788.892988,
+   "capital": 3726.198669,
+   "qwen": 496.69,
+   "hermes": 539.33,
+   "manual": 788.89,
+   "kimi": 493.22,
+   "deepseek": 519.78,
+   "gemini": 503.7,
+   "luna": 487.82,
+   "minimax": 392.5
   }
  ],
  "venuesLive": {
@@ -13219,7 +13219,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-09-27T10:47:13.762Z",
+  "at": "2026-09-27T10:52:15.169Z",
   "windowDays": 14,
   "registered": 218,
   "filled": 44,
@@ -13365,7 +13365,7 @@
   }
  },
  "learning": {
-  "at": "2026-09-27T10:47:13.765Z",
+  "at": "2026-09-27T10:52:15.172Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -13797,7 +13797,13 @@
    "stop": 0.526325,
    "target": 0.66573,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 0.5376,
+    "asOf": "2026-09-27T10:49:41.076Z"
+   }
   },
   {
    "asset": "BTC",
@@ -13809,7 +13815,13 @@
    "stop": 82467,
    "target": 85382.5,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 84944.01,
+    "asOf": "2026-09-27T10:49:23.613Z"
+   }
   },
   {
    "asset": "WLD",
@@ -13821,7 +13833,13 @@
    "stop": 0.554775,
    "target": 0.60314,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 0.5376,
+    "asOf": "2026-09-27T10:49:40.046Z"
+   }
   },
   {
    "asset": "WLD",
@@ -13833,7 +13851,13 @@
    "stop": 0.557424,
    "target": 0.591552,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 0.5376,
+    "asOf": "2026-09-27T10:49:38.371Z"
+   }
   },
   {
    "asset": "SUI",
@@ -13845,7 +13869,13 @@
    "stop": 1.17,
    "target": 1.33,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 1.2546,
+    "asOf": "2026-09-27T10:49:21.861Z"
+   }
   },
   {
    "asset": "NEAR",
@@ -13857,7 +13887,13 @@
    "stop": 4.65,
    "target": 5.93,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 5.276,
+    "asOf": "2026-09-27T10:49:36.798Z"
+   }
   },
   {
    "asset": "FIL",
@@ -13869,7 +13905,13 @@
    "stop": 0.97,
    "target": 1.26,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 1.1432,
+    "asOf": "2026-09-27T10:49:32.407Z"
+   }
   },
   {
    "asset": "BTC",
@@ -13881,7 +13923,13 @@
    "stop": 80085.6,
    "target": 87440.4,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 84944.01,
+    "asOf": "2026-09-27T10:49:16.951Z"
+   }
   },
   {
    "asset": "SOL",
@@ -13893,7 +13941,13 @@
    "stop": 118.048,
    "target": 131.505,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 124.47,
+    "asOf": "2026-09-27T10:49:06.346Z"
+   }
   },
   {
    "asset": "BTC",
@@ -13905,7 +13959,13 @@
    "stop": 81631.8,
    "target": 86189.9,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 84944.01,
+    "asOf": "2026-09-27T10:49:36.102Z"
+   }
   },
   {
    "asset": "SOL",
@@ -13917,7 +13977,13 @@
    "stop": 112.073,
    "target": 121.745,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 124.47,
+    "asOf": "2026-09-27T10:49:20.540Z"
+   }
   },
   {
    "asset": "XRP",
@@ -13929,7 +13995,13 @@
    "stop": 1.4356,
    "target": 1.5984,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 1.5387,
+    "asOf": "2026-09-27T10:49:35.413Z"
+   }
   },
   {
    "asset": "FIL",
@@ -13941,7 +14013,13 @@
    "stop": 0.897,
    "target": 1.209,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 1.1432,
+    "asOf": "2026-09-27T10:49:34.400Z"
+   }
   },
   {
    "asset": "BTC",
@@ -13953,7 +14031,13 @@
    "stop": 82417.5,
    "target": 84915,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 84944.01,
+    "asOf": "2026-09-27T10:49:24.164Z"
+   }
   },
   {
    "asset": "BTC",
@@ -13965,7 +14049,13 @@
    "stop": 81800,
    "target": 86200,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 84944.01,
+    "asOf": "2026-09-27T10:49:01.782Z"
+   }
   },
   {
    "asset": "BE",
@@ -13989,7 +14079,13 @@
    "stop": 78.9,
    "target": 61,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 71.63,
+    "asOf": "2026-09-27T10:49:31.315Z"
+   }
   },
   {
    "asset": "SOL",
@@ -14001,7 +14097,13 @@
    "stop": 126.25,
    "target": 113,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 124.47,
+    "asOf": "2026-09-27T10:49:30.254Z"
+   }
   },
   {
    "asset": "WLD",
@@ -14013,7 +14115,13 @@
    "stop": 0.516135,
    "target": 0.624795,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 0.5376,
+    "asOf": "2026-09-27T10:49:29.011Z"
+   }
   },
   {
    "asset": "SOL",
@@ -14025,7 +14133,13 @@
    "stop": 117.408,
    "target": 135.234,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "through",
+    "lastClose": 124.12,
+    "asOf": "2026-09-27T10:49:25.774Z"
+   }
   },
   {
    "asset": "XRP",
@@ -14037,7 +14151,13 @@
    "stop": 1.40352,
    "target": 1.59358,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 1.5387,
+    "asOf": "2026-09-27T10:49:27.132Z"
+   }
   },
   {
    "asset": "SOL",
@@ -14049,7 +14169,13 @@
    "stop": 113.68,
    "target": 122.38,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 124.47,
+    "asOf": "2026-09-27T10:49:21.172Z"
+   }
   },
   {
    "asset": "BNB",
@@ -14061,7 +14187,13 @@
    "stop": 749.925,
    "target": 791.587,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 780.05,
+    "asOf": "2026-09-27T10:49:10.913Z"
+   }
   },
   {
    "asset": "SOL",
@@ -14073,7 +14205,13 @@
    "stop": 119.5,
    "target": 136.5,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 124.47,
+    "asOf": "2026-09-27T10:49:24.836Z"
+   }
   },
   {
    "asset": "ONDO",
@@ -14085,7 +14223,13 @@
    "stop": 0.42,
    "target": 0.55,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 0.5447,
+    "asOf": "2026-09-27T10:49:18.028Z"
+   }
   },
   {
    "asset": "ETH",
@@ -14097,7 +14241,13 @@
    "stop": 2585.63,
    "target": 2716.88,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 2716.15,
+    "asOf": "2026-09-27T10:49:19.243Z"
+   }
   },
   {
    "asset": "ETH",
@@ -14109,7 +14259,13 @@
    "stop": 2550,
    "target": 2820,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 2716.15,
+    "asOf": "2026-09-27T10:49:13.888Z"
+   }
   },
   {
    "asset": "LINK",
@@ -14121,7 +14277,13 @@
    "stop": 12.83,
    "target": 15,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "through",
+    "lastClose": 14.347,
+    "asOf": "2026-09-27T10:49:14.947Z"
+   }
   },
   {
    "asset": "NBIS",
@@ -14145,7 +14307,13 @@
    "stop": 0.215,
    "target": 0.265,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 0.2563,
+    "asOf": "2026-09-27T10:49:12.371Z"
+   }
   },
   {
    "asset": "UNI",
@@ -14157,7 +14325,13 @@
    "stop": 8.21,
    "target": 9.5,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 9.995,
+    "asOf": "2026-09-27T10:49:00.687Z"
+   }
   },
   {
    "asset": "INJ",
@@ -14169,7 +14343,13 @@
    "stop": 7,
    "target": 8.6,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 7.855,
+    "asOf": "2026-09-27T10:49:09.497Z"
+   }
   },
   {
    "asset": "ETH",
@@ -14181,7 +14361,13 @@
    "stop": 2539.35,
    "target": 2718.9,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 2716.15,
+    "asOf": "2026-09-27T10:49:08.434Z"
+   }
   },
   {
    "asset": "BCH",
@@ -14193,7 +14379,13 @@
    "stop": 346,
    "target": 442,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 340.5,
+    "asOf": "2026-09-27T10:49:04.967Z"
+   }
   },
   {
    "asset": "BTC",
@@ -14205,7 +14397,13 @@
    "stop": 85210.1,
    "target": 92201.7,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 84791,
+    "asOf": "2026-09-27T10:49:03.418Z"
+   }
   },
   {
    "asset": "SNDK",
@@ -14394,35 +14592,35 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 84858.01,
-    "change24hPct": 0.82
+    "price": 84832,
+    "change24hPct": 0.79
    },
    {
     "symbol": "ETH",
-    "price": 2709.39,
-    "change24hPct": 0.77
+    "price": 2710.01,
+    "change24hPct": 0.79
    },
    {
     "symbol": "BNB",
-    "price": 779.61,
-    "change24hPct": 0.77
+    "price": 779.63,
+    "change24hPct": 0.75
    },
    {
     "symbol": "XRP",
-    "price": 1.5369,
-    "change24hPct": -0.79
+    "price": 1.5363,
+    "change24hPct": -0.92
    },
    {
     "symbol": "SOL",
-    "price": 124.08,
-    "change24hPct": 2.89
+    "price": 124.05,
+    "change24hPct": 2.84
    }
   ],
   "fearGreed": {
    "value": 70,
    "classification": "Greed"
   },
-  "regime": null,
+  "regime": "RISK_ON",
   "stockFearGreed": {
    "value": 37,
    "classification": "Fear",
@@ -14449,6 +14647,13 @@
     "price": 4321.2,
     "change": 0.54
    }
+  },
+  "netLiquidity": {
+   "usdB": 5770.2,
+   "deltaB": -9.3,
+   "weeks": 4,
+   "trend": "FLAT",
+   "date": "2026-09-23"
   },
   "riskIndex": {
    "score": 41,
@@ -14511,6 +14716,7 @@
    ],
    "computedAt": 1790503300696
   },
+  "equityRegime": "NEUTRAL",
   "longShort": [
    {
     "asset": "BTC",
@@ -14619,7 +14825,7 @@
      "changePct": -9.2
     }
    ],
-   "ageMin": 47
+   "ageMin": 52
   },
   "chainRotation": {
    "chains": [
@@ -14754,7 +14960,7 @@
      9
     ]
    ],
-   "ageMin": 272
+   "ageMin": 277
   }
  },
  "calendar": [
@@ -14790,9 +14996,27 @@
   },
   {
    "date": "2026-09-29",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-09-29",
    "event": "ADA — Amaru Pre-Release",
    "type": "CRYPTO",
    "impact": "MED"
+  },
+  {
+   "date": "2026-09-30",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-09-30",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
+   "impact": "HIGH"
   },
   {
    "date": "2026-09-30",
@@ -14807,16 +15031,58 @@
    "impact": "MED"
   },
   {
+   "date": "2026-10-01",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-10-02",
-   "event": "Non-Farm Payrolls (Sep)",
+   "event": "Non-Farm Payrolls",
    "type": "NFP",
    "impact": "HIGH"
   },
   {
+   "date": "2026-10-08",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-10-14",
-   "event": "US CPI Release (Sep)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
+  },
+  {
+   "date": "2026-10-15",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-10-15",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-10-15",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-10-22",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-10-23",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
   }
  ],
  "weekAhead": {
@@ -16273,7 +16539,7 @@
   }
  },
  "intel": {
-  "ageH": 1.3,
+  "ageH": 1.4,
   "narratives": [
    "* AI Security & Agent Scalability: Mounting enterprise focus on vulnerabilities as OpenAI and Anthropic investigate thousands of security incidents, while on-chain agent trading expands (Technocore competition registerin",
    "* L1 Infrastructure & Cycle Structure: Analysts highlight shallower cycle drawdowns (53% vs historical 75%+) and expanding base-layer capability ($SOL, $SUI) as drivers for mainstream adoption beyond regulatory hurdles (",
