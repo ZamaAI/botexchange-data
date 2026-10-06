@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-06T18:12:08.428Z",
+ "generatedAt": "2026-10-06T18:15:05.815Z",
  "startCapital": 500,
  "since": "2026-10-06",
  "accountBasis": "mtm",
@@ -198,7 +198,7 @@
  "volState": {
   "hour": "2026-10-06T17",
   "asOf": "2026-10-06T17:00:00.000Z",
-  "ageMin": 72,
+  "ageMin": 75,
   "freezeMax": 15,
   "rows": [
    {
@@ -829,7 +829,7 @@
  },
  "seasonTransfers": {
   "since": "2026-10-06T17:58:58.594Z",
-  "sweptAt": null,
+  "sweptAt": "2026-10-06T18:13:59.467Z",
   "bySeat": {},
   "rows": []
  },
@@ -1577,9 +1577,9 @@
   "btc": {
    "startDate": "2026-10-06",
    "start": 85719.43,
-   "now": 85799.99,
+   "now": 85780.38,
    "retPct": 0.1,
-   "value": 500.47
+   "value": 500.36
   }
  },
  "oi": {
@@ -1907,6 +1907,22 @@
   },
   {
    "ts": "2026-10-06T18:10:00.000Z",
+   "hl": 0,
+   "hl_spot": 499.34042999999997,
+   "grvt": null,
+   "extended": 509.450993,
+   "capital": 3510.77717,
+   "qwen": 495.43,
+   "hermes": 499.34,
+   "manual": 509.45,
+   "kimi": 500.06,
+   "deepseek": 500.04,
+   "gemini": 500.69,
+   "luna": 500.83,
+   "minimax": 500.36
+  },
+  {
+   "ts": "2026-10-06T18:15:00.000Z",
    "hl": 0,
    "hl_spot": 499.34042999999997,
    "grvt": null,
@@ -2782,7 +2798,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-10-06T18:12:08.830Z",
+  "at": "2026-10-06T18:15:05.822Z",
   "windowDays": 14,
   "registered": 152,
   "filled": 30,
@@ -2964,35 +2980,35 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 85799.99,
-    "change24hPct": 0.49
+    "price": 85780.38,
+    "change24hPct": 0.39
    },
    {
     "symbol": "ETH",
-    "price": 2701.02,
-    "change24hPct": -0.17
+    "price": 2700.63,
+    "change24hPct": -0.25
    },
    {
     "symbol": "BNB",
-    "price": 783.18,
-    "change24hPct": -0.41
+    "price": 783.03,
+    "change24hPct": -0.47
    },
    {
     "symbol": "XRP",
-    "price": 1.5107,
-    "change24hPct": 1
+    "price": 1.5092,
+    "change24hPct": 0.81
    },
    {
     "symbol": "SOL",
-    "price": 121.2,
-    "change24hPct": 1.05
+    "price": 121.13,
+    "change24hPct": 0.97
    }
   ],
   "fearGreed": {
    "value": 73,
    "classification": "Greed"
   },
-  "regime": null,
+  "regime": "RISK_ON",
   "stockFearGreed": {
    "value": 48,
    "classification": "Neutral",
@@ -3019,6 +3035,13 @@
     "price": 4192.9,
     "change": 0.87
    }
+  },
+  "netLiquidity": {
+   "usdB": 5782.8,
+   "deltaB": 14.1,
+   "weeks": 4,
+   "trend": "FLAT",
+   "date": "2026-09-30"
   },
   "riskIndex": {
    "score": 32,
@@ -3081,6 +3104,7 @@
    ],
    "computedAt": 1791302520338
   },
+  "equityRegime": "RISK_ON",
   "longShort": [
    {
     "asset": "BTC",
@@ -3189,7 +3213,7 @@
      "changePct": -11.7
     }
    ],
-   "ageMin": 132
+   "ageMin": 135
   },
   "chainRotation": {
    "chains": [
@@ -3197,9 +3221,9 @@
      "name": "Solana",
      "token": "SOL",
      "cls": "crypto",
-     "vol24h": 2048121778,
-     "d1": 19.9,
-     "d7": -23.1
+     "vol24h": 2057146063,
+     "d1": 20.4,
+     "d7": -22.7
     },
     {
      "name": "Base",
@@ -3221,17 +3245,17 @@
      "name": "Ethereum",
      "token": "ETH",
      "cls": "crypto",
-     "vol24h": 1094437655,
-     "d1": 87.3,
-     "d7": -38.5
+     "vol24h": 1097555402,
+     "d1": 87.8,
+     "d7": -38.3
     },
     {
      "name": "BSC",
      "token": "BNB",
      "cls": "crypto",
-     "vol24h": 835708447,
-     "d1": 17.2,
-     "d7": -19.7
+     "vol24h": 841373593,
+     "d1": 18,
+     "d7": -19.2
     },
     {
      "name": "Hyperliquid",
@@ -3317,18 +3341,22 @@
    "boosts": [
     [
      "solana",
-     25
+     19
     ],
     [
      "robinhood",
-     3
+     6
     ],
     [
      "bsc",
      2
+    ],
+    [
+     "arc",
+     2
     ]
    ],
-   "ageMin": 417
+   "ageMin": 2
   }
  },
  "calendar": [
@@ -3387,6 +3415,12 @@
    "impact": "MED"
   },
   {
+   "date": "2026-10-08",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
    "date": "2026-10-09",
    "event": "WLD token unlock — 40.2M over 14d = 0.72% of float; largest day 0.05% (Community + Investors) [linear vesting]",
    "type": "UNLOCK",
@@ -3418,7 +3452,7 @@
   },
   {
    "date": "2026-10-14",
-   "event": "US CPI Release (Sep)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
   },
@@ -3432,6 +3466,24 @@
    "date": "2026-10-14",
    "event": "ASML earnings (BMO)",
    "type": "EARNINGS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-10-15",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-10-15",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-10-15",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
    "impact": "MED"
   },
   {
@@ -3453,10 +3505,58 @@
    "impact": "MED"
   },
   {
+   "date": "2026-10-22",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-10-23",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
+  },
+  {
    "date": "2026-10-28",
    "event": "FOMC Rate Decision",
    "type": "Fed",
    "impact": "HIGH"
+  },
+  {
+   "date": "2026-10-29",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-10-29",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-10-29",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-10-30",
+   "event": "Employment Cost Index",
+   "type": "ECI",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-11-03",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-11-05",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
   }
  ],
  "weekAhead": {
@@ -4491,7 +4591,7 @@
   }
  },
  "intel": {
-  "ageH": 2.7,
+  "ageH": 2.8,
   "narratives": [
    "* Pre-IPO & Asset Tokenization (RWA): Ondo Finance debuted Ondo Private Markets to issue secondary-tradable tokenized notes tracking private pre-IPO firms, starting with an AI firm, though sector social mindshare remains",
    "* Exchange & Retail Margining Oversight: CFTC's proposed CTX and CAM frameworks introduce elective registration, customer asset segregation, and AML compliance for margined crypto platforms (both).",
