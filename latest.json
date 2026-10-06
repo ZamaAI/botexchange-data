@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-06T15:02:07.363Z",
+ "generatedAt": "2026-10-06T15:07:00.416Z",
  "startCapital": 500,
  "since": "2026-08-19",
  "accountBasis": "mtm",
@@ -198,7 +198,7 @@
  "volState": {
   "hour": "2026-10-06T14",
   "asOf": "2026-10-06T14:00:00.000Z",
-  "ageMin": 62,
+  "ageMin": 67,
   "freezeMax": 15,
   "rows": [
    {
@@ -1329,11 +1329,11 @@
    },
    "watch": {
     "registered": 111,
-    "filled": 39,
+    "filled": 40,
     "refused": 16,
     "cancelled": 37,
     "expired": 8,
-    "pending": 4,
+    "pending": 3,
     "topGates": [
      [
       "reentry_cooldown",
@@ -1757,9 +1757,9 @@
   "btc": {
    "startDate": "2026-08-19",
    "start": 65923.21,
-   "now": 86656.81,
-   "retPct": 31.5,
-   "value": 657.26
+   "now": 86588.76,
+   "retPct": 31.3,
+   "value": 656.74
   }
  },
  "oi": {
@@ -6729,22 +6729,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-10-05T15:05:00.000Z",
-   "hl": 0,
-   "hl_spot": 539.380731,
-   "grvt": null,
-   "extended": 920.198581,
-   "capital": 3866.393845,
-   "qwen": 496.65,
-   "hermes": 539.38,
-   "manual": 920.2,
-   "kimi": 482.58,
-   "deepseek": 521.04,
-   "gemini": 519.69,
-   "luna": 489.32,
-   "minimax": 393.22
-  },
-  {
    "ts": "2026-10-05T15:10:00.000Z",
    "hl": 0,
    "hl_spot": 539.380731,
@@ -11335,6 +11319,22 @@
    "gemini": 519.69,
    "luna": 497.05,
    "minimax": 388.91
+  },
+  {
+   "ts": "2026-10-06T15:05:00.000Z",
+   "hl": 0,
+   "hl_spot": 539.393922,
+   "grvt": null,
+   "extended": 967.393318,
+   "capital": 3917.8986099999997,
+   "qwen": 474.08,
+   "hermes": 539.39,
+   "manual": 967.39,
+   "kimi": 483.46,
+   "deepseek": 521.04,
+   "gemini": 519.69,
+   "luna": 497.05,
+   "minimax": 388.91
   }
  ],
  "venuesLive": {
@@ -12197,13 +12197,13 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-10-06T15:02:07.392Z",
+  "at": "2026-10-06T15:07:00.445Z",
   "windowDays": 14,
   "registered": 152,
-  "filled": 29,
+  "filled": 30,
   "dropped": 69,
   "expired": 22,
-  "pending": 32,
+  "pending": 31,
   "fills": {
    "live": {
     "n": 21,
@@ -12214,11 +12214,11 @@
     "expired": 0
    },
    "paper": {
-    "n": 9,
+    "n": 10,
     "w": 1,
     "l": 4,
     "be": 0,
-    "open": 1,
+    "open": 2,
     "expired": 3
    }
   },
@@ -12265,10 +12265,10 @@
    {
     "actor": "deepseek",
     "registered": 21,
-    "filled": 2,
+    "filled": 3,
     "dropped": 14,
     "expired": 1,
-    "pending": 4
+    "pending": 3
    },
    {
     "actor": "minimax",
@@ -12331,7 +12331,7 @@
   }
  },
  "learning": {
-  "at": "2026-10-06T15:02:07.393Z",
+  "at": "2026-10-06T15:07:00.447Z",
   "since": "2026-08-19T15:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -12680,6 +12680,24 @@
  },
  "openTrades": [
   {
+   "id": 870,
+   "asset": "ALGO",
+   "direction": "LONG",
+   "actor": "deepseek",
+   "venue": "PAPER",
+   "entry": 0.12463,
+   "stop": 0.122,
+   "target": 0.133,
+   "levelsApprox": false,
+   "cls": "crypto",
+   "trailed": false,
+   "rr": 3.2,
+   "conviction": 5,
+   "openedAt": "2026-10-06T15:04:37.089Z",
+   "thesis": "deepseek pick (LIVE desk, routes DB_ONLY — paper, trigger-filled from AWAITING watch at 0.124630 : 1h close back above $0.1245 after tagging the $0.1239 range low — a rejection candle at the bottom of the $0.1239–$0.1342 CHOP range.)",
+   "smartMoney": null
+  },
+  {
    "id": 868,
    "asset": "WDC",
    "direction": "LONG",
@@ -12718,24 +12736,6 @@
  ],
  "awaiting": [
   {
-   "asset": "ALGO",
-   "direction": "LONG",
-   "brain": "Danny DeepSeek",
-   "conviction": 5,
-   "trigger": "1h close back above $0.1245 after tagging the $0.1239 range low — a rejection candle at the bottom of the $0.1239–$0.1342 CHOP range.",
-   "entry": 0.1245,
-   "stop": 0.12201,
-   "target": 0.133215,
-   "levelsApprox": true,
-   "confirm": {
-    "tf": "1h",
-    "mode": "retest",
-    "status": "not",
-    "lastClose": 0.1253,
-    "asOf": "2026-10-06T14:49:35.307Z"
-   }
-  },
-  {
    "asset": "ETH",
    "direction": "LONG",
    "brain": "Gina Gemini",
@@ -12749,8 +12749,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 2714.79,
-    "asOf": "2026-10-06T14:49:02.047Z"
+    "lastClose": 2722.24,
+    "asOf": "2026-10-06T15:04:01.838Z"
    }
   },
   {
@@ -12766,9 +12766,9 @@
    "confirm": {
     "tf": "1h",
     "mode": "retest",
-    "status": "through",
-    "lastClose": 43.043,
-    "asOf": "2026-10-06T14:49:34.280Z"
+    "status": "not",
+    "lastClose": 42.781,
+    "asOf": "2026-10-06T15:04:36.044Z"
    }
   },
   {
@@ -12785,8 +12785,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 5.145,
-    "asOf": "2026-10-06T14:49:33.882Z"
+    "lastClose": 5.143,
+    "asOf": "2026-10-06T15:04:35.643Z"
    }
   },
   {
@@ -12803,8 +12803,8 @@
     "tf": "1h",
     "mode": "breakout",
     "status": "not",
-    "lastClose": 86324.01,
-    "asOf": "2026-10-06T14:49:05.804Z"
+    "lastClose": 86595.61,
+    "asOf": "2026-10-06T15:04:06.454Z"
    }
   },
   {
@@ -12821,8 +12821,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 1.5147,
-    "asOf": "2026-10-06T14:49:18.354Z"
+    "lastClose": 1.5227,
+    "asOf": "2026-10-06T15:04:18.697Z"
    }
   },
   {
@@ -12839,8 +12839,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 86324.01,
-    "asOf": "2026-10-06T14:49:08.384Z"
+    "lastClose": 86595.61,
+    "asOf": "2026-10-06T15:04:09.439Z"
    }
   },
   {
@@ -12857,8 +12857,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 2714.79,
-    "asOf": "2026-10-06T14:49:33.143Z"
+    "lastClose": 2722.24,
+    "asOf": "2026-10-06T15:04:34.635Z"
    }
   },
   {
@@ -12875,8 +12875,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 120.91,
-    "asOf": "2026-10-06T14:49:32.185Z"
+    "lastClose": 121.75,
+    "asOf": "2026-10-06T15:04:33.905Z"
    }
   },
   {
@@ -12892,9 +12892,9 @@
    "confirm": {
     "tf": "1h",
     "mode": "retest",
-    "status": "not",
-    "lastClose": 415.93,
-    "asOf": "2026-10-06T14:49:31.203Z"
+    "status": "through",
+    "lastClose": 415.63,
+    "asOf": "2026-10-06T15:04:32.921Z"
    }
   },
   {
@@ -12911,8 +12911,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 2714.79,
-    "asOf": "2026-10-06T14:49:31.195Z"
+    "lastClose": 2722.24,
+    "asOf": "2026-10-06T15:04:32.910Z"
    }
   },
   {
@@ -12929,8 +12929,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 1.1506,
-    "asOf": "2026-10-06T14:49:30.055Z"
+    "lastClose": 1.1601,
+    "asOf": "2026-10-06T15:04:31.106Z"
    }
   },
   {
@@ -12947,8 +12947,8 @@
     "tf": "1h",
     "mode": "breakout",
     "status": "not",
-    "lastClose": 43.043,
-    "asOf": "2026-10-06T14:49:28.682Z"
+    "lastClose": 42.781,
+    "asOf": "2026-10-06T15:04:29.397Z"
    }
   },
   {
@@ -12965,8 +12965,8 @@
     "tf": "1h",
     "mode": "breakout",
     "status": "not",
-    "lastClose": 1.1506,
-    "asOf": "2026-10-06T14:49:28.300Z"
+    "lastClose": 1.1601,
+    "asOf": "2026-10-06T15:04:29.016Z"
    }
   },
   {
@@ -12983,8 +12983,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 86324.01,
-    "asOf": "2026-10-06T14:49:27.266Z"
+    "lastClose": 86595.61,
+    "asOf": "2026-10-06T15:04:27.978Z"
    }
   },
   {
@@ -13001,8 +13001,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 120.91,
-    "asOf": "2026-10-06T14:49:10.753Z"
+    "lastClose": 121.75,
+    "asOf": "2026-10-06T15:04:11.792Z"
    }
   },
   {
@@ -13019,8 +13019,8 @@
     "tf": "1h",
     "mode": "breakout",
     "status": "not",
-    "lastClose": 181.94,
-    "asOf": "2026-10-06T14:49:09.412Z"
+    "lastClose": 183.09,
+    "asOf": "2026-10-06T15:04:10.468Z"
    }
   },
   {
@@ -13037,8 +13037,8 @@
     "tf": "1h",
     "mode": "breakout",
     "status": "not",
-    "lastClose": 1.1958,
-    "asOf": "2026-10-06T14:49:25.060Z"
+    "lastClose": 1.1993,
+    "asOf": "2026-10-06T15:04:26.122Z"
    }
   },
   {
@@ -13055,8 +13055,8 @@
     "tf": "1h",
     "mode": "breakout",
     "status": "not",
-    "lastClose": 120.91,
-    "asOf": "2026-10-06T14:49:04.470Z"
+    "lastClose": 121.75,
+    "asOf": "2026-10-06T15:04:04.287Z"
    }
   },
   {
@@ -13073,8 +13073,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 0.3807,
-    "asOf": "2026-10-06T14:49:24.004Z"
+    "lastClose": 0.381,
+    "asOf": "2026-10-06T15:04:24.674Z"
    }
   },
   {
@@ -13091,8 +13091,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 86324.01,
-    "asOf": "2026-10-06T14:49:21.900Z"
+    "lastClose": 86595.61,
+    "asOf": "2026-10-06T15:04:22.584Z"
    }
   },
   {
@@ -13109,8 +13109,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 0.1253,
-    "asOf": "2026-10-06T14:49:22.590Z"
+    "lastClose": 0.1248,
+    "asOf": "2026-10-06T15:04:23.264Z"
    }
   },
   {
@@ -13127,8 +13127,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 0.565,
-    "asOf": "2026-10-06T14:49:19.397Z"
+    "lastClose": 0.5666,
+    "asOf": "2026-10-06T15:04:19.737Z"
    }
   },
   {
@@ -13145,8 +13145,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 120.91,
-    "asOf": "2026-10-06T14:49:07.196Z"
+    "lastClose": 121.75,
+    "asOf": "2026-10-06T15:04:07.503Z"
    }
   },
   {
@@ -13163,8 +13163,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 2714.79,
-    "asOf": "2026-10-06T14:49:17.383Z"
+    "lastClose": 2722.24,
+    "asOf": "2026-10-06T15:04:17.740Z"
    }
   },
   {
@@ -13181,8 +13181,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 14.004,
-    "asOf": "2026-10-06T14:49:15.986Z"
+    "lastClose": 14.086,
+    "asOf": "2026-10-06T15:04:16.337Z"
    }
   },
   {
@@ -13199,8 +13199,8 @@
     "tf": "1h",
     "mode": "breakout",
     "status": "not",
-    "lastClose": 415.93,
-    "asOf": "2026-10-06T14:49:14.632Z"
+    "lastClose": 415.63,
+    "asOf": "2026-10-06T15:04:14.985Z"
    }
   },
   {
@@ -13217,8 +13217,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 120.91,
-    "asOf": "2026-10-06T14:49:03.432Z"
+    "lastClose": 121.75,
+    "asOf": "2026-10-06T15:04:03.233Z"
    }
   },
   {
@@ -13235,8 +13235,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 2714.79,
-    "asOf": "2026-10-06T14:49:05.138Z"
+    "lastClose": 2722.24,
+    "asOf": "2026-10-06T15:04:05.326Z"
    }
   },
   {
@@ -13253,8 +13253,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 120.91,
-    "asOf": "2026-10-06T14:49:14.628Z"
+    "lastClose": 121.75,
+    "asOf": "2026-10-06T15:04:14.977Z"
    }
   },
   {
@@ -13271,8 +13271,8 @@
     "tf": "1h",
     "mode": "breakout",
     "status": "not",
-    "lastClose": 305.68,
-    "asOf": "2026-10-06T14:49:12.062Z"
+    "lastClose": 306.46,
+    "asOf": "2026-10-06T15:04:13.136Z"
    }
   },
   {
@@ -13290,7 +13290,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 182.89,
-    "asOf": "2026-10-06T14:49:11.684Z"
+    "asOf": "2026-10-06T15:04:12.756Z"
    }
   }
  ],
@@ -13468,28 +13468,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 86656.81,
-    "change24hPct": 1.27
+    "price": 86588.76,
+    "change24hPct": 1.18
    },
    {
     "symbol": "ETH",
-    "price": 2721.29,
-    "change24hPct": 0.68
+    "price": 2720.44,
+    "change24hPct": 0.66
    },
    {
     "symbol": "BNB",
-    "price": 786.4,
-    "change24hPct": -0.26
+    "price": 785.79,
+    "change24hPct": -0.47
    },
    {
     "symbol": "XRP",
-    "price": 1.5225,
-    "change24hPct": 1.54
+    "price": 1.5208,
+    "change24hPct": 1.34
    },
    {
     "symbol": "SOL",
     "price": 121.82,
-    "change24hPct": 1.97
+    "change24hPct": 1.83
    }
   ],
   "fearGreed": {
@@ -13711,7 +13711,7 @@
      "changePct": -12.2
     }
    ],
-   "ageMin": 302
+   "ageMin": 307
   },
   "chainRotation": {
    "chains": [
@@ -13850,7 +13850,7 @@
      2
     ]
    ],
-   "ageMin": 227
+   "ageMin": 232
   }
  },
  "calendar": [
@@ -14448,7 +14448,7 @@
      {
       "actor": "deepseek",
       "conv": 5,
-      "kind": "watching"
+      "kind": "paper"
      }
     ],
     "short": []
@@ -15157,7 +15157,7 @@
   }
  },
  "intel": {
-  "ageH": 5.6,
+  "ageH": 5.7,
   "narratives": [
    "* RWA & Tokenized Equities: Institutional tokenization is gaining massive traction, led by OKX and ICE filing for 63 tokenized equities in Uniswap v4 pools on X Layer, alongside Mantle hitting record tokenized asset and ",
    "* DeFi Credit Rating: S&P Global introduced letter-grade credit scoring for DeFi lending vaults, setting the curator's score as the ceiling for vault ratings (newsletter).",
@@ -25155,7 +25155,7 @@
     "pickCycles7d": 14,
     "pickRate7d": 38,
     "awaiting7d": 10,
-    "saves7d": 0,
+    "saves7d": 1,
     "routedSaves7d": 0,
     "cost7dUsd": 0.31,
     "calls7d": 37
