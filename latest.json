@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-07T03:17:00.434Z",
+ "generatedAt": "2026-10-07T03:22:04.592Z",
  "startCapital": 500,
  "since": "2026-10-06",
  "accountBasis": "mtm",
@@ -17,10 +17,10 @@
  },
  "verdict": {
   "tie": false,
-  "manLeads": true,
+  "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 501.15
+   "account": 497.71
   },
   "machine": {
    "label": "Luna GPT",
@@ -31,10 +31,10 @@
  "verdictBy": {
   "mtm": {
    "tie": false,
-   "manLeads": true,
+   "manLeads": false,
    "man": {
     "label": "Manual",
-    "account": 501.15
+    "account": 497.71
    },
    "machine": {
     "label": "Luna GPT",
@@ -58,9 +58,9 @@
   "mtm": {
    "man": {
     "label": "Manual",
-    "account": 501.15,
+    "account": 497.71,
     "seat": 506.01,
-    "ret": -0.96
+    "ret": -1.64
    },
    "machines": [
     {
@@ -75,13 +75,6 @@
      "label": "Luna GPT",
      "account": 500.83,
      "seat": 500.83,
-     "ret": 0
-    },
-    {
-     "key": "kimi",
-     "label": "Kenny Kimi",
-     "account": 500.06,
-     "seat": 500.06,
      "ret": 0
     },
     {
@@ -104,11 +97,18 @@
      "account": 500.36,
      "seat": 500.36,
      "ret": 0
+    },
+    {
+     "key": "kimi",
+     "label": "Kenny Kimi",
+     "account": 499.76,
+     "seat": 500.06,
+     "ret": -0.06
     }
    ],
    "fleet": {
     "n": 6,
-    "mean": 0.01,
+    "mean": 0,
     "median": 0
    },
    "best": {
@@ -198,7 +198,7 @@
  "volState": {
   "hour": "2026-10-07T02",
   "asOf": "2026-10-07T02:00:00.000Z",
-  "ageMin": 77,
+  "ageMin": 82,
   "freezeMax": 15,
   "rows": [
    {
@@ -967,8 +967,8 @@
    "costUsd": 0,
    "costCalls": 0,
    "netPnl": 0,
-   "account": 501.15,
-   "retPct": 0.2,
+   "account": 497.71,
+   "retPct": -0.5,
    "accountRealized": 500,
    "regimes": {
     "RISK_ON": {
@@ -1040,7 +1040,7 @@
    "costUsd": 0.26,
    "costCalls": 3,
    "netPnl": -0.26,
-   "account": 500.06,
+   "account": 499.76,
    "retPct": 0,
    "accountRealized": 500,
    "regimes": {
@@ -1092,11 +1092,11 @@
    },
    "watch": {
     "registered": 2,
-    "filled": 0,
+    "filled": 1,
     "refused": 0,
     "cancelled": 0,
     "expired": 0,
-    "pending": 2,
+    "pending": 1,
     "topGates": [],
     "fills": {
      "w": 0,
@@ -1473,11 +1473,16 @@
    "watch": {
     "registered": 1,
     "filled": 0,
-    "refused": 0,
+    "refused": 1,
     "cancelled": 0,
     "expired": 0,
-    "pending": 1,
-    "topGates": [],
+    "pending": 0,
+    "topGates": [
+     [
+      "stop_min_distance",
+      1
+     ]
+    ],
     "fills": {
      "w": 0,
      "l": 0,
@@ -1505,9 +1510,9 @@
   "btc": {
    "startDate": "2026-10-06",
    "start": 85719.43,
-   "now": 84030.01,
+   "now": 84008.05,
    "retPct": -2,
-   "value": 490.15
+   "value": 490.02
   }
  },
  "oi": {
@@ -1737,14 +1742,20 @@
   ]
  },
  "book": {
-  "n": 0,
-  "longs": 0,
+  "n": 1,
+  "longs": 1,
   "shorts": 0,
-  "netUsd": 0,
-  "grossUsd": 0,
-  "marked": 0,
+  "netUsd": 162.71,
+  "grossUsd": 162.71,
+  "marked": 1,
   "oneWay": false,
-  "assets": []
+  "assets": [
+   {
+    "asset": "SOL",
+    "n": 1,
+    "netUsd": 162.71
+   }
+  ]
  },
  "seriesDaily": {
   "labels": [
@@ -3740,14 +3751,30 @@
    "gemini": 500.69,
    "luna": 500.83,
    "minimax": 500.36
+  },
+  {
+   "ts": "2026-10-07T03:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 499.56026999999995,
+   "grvt": null,
+   "extended": 497.708995,
+   "capital": 3498.962258,
+   "qwen": 496.93,
+   "hermes": 499.56,
+   "manual": 497.71,
+   "kimi": 499.76,
+   "deepseek": 500.04,
+   "gemini": 500.69,
+   "luna": 500.83,
+   "minimax": 500.36
   }
  ],
  "venuesLive": {
   "hl": 0,
   "hl_spot": 499.56026999999995,
   "grvt": null,
-  "lighter": 2501.985747,
-  "total": 3001.546017
+  "lighter": 2501.692993,
+  "total": 3001.253263
  },
  "awaitingScore": {
   "at": "2026-10-07T02:15:27.119Z",
@@ -4594,20 +4621,20 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-10-07T03:17:00.442Z",
+  "at": "2026-10-07T03:22:04.625Z",
   "windowDays": 14,
   "registered": 155,
-  "filled": 27,
-  "dropped": 69,
+  "filled": 28,
+  "dropped": 70,
   "expired": 20,
-  "pending": 10,
+  "pending": 8,
   "fills": {
    "live": {
-    "n": 20,
+    "n": 21,
     "w": 2,
     "l": 5,
     "be": 13,
-    "open": 0,
+    "open": 1,
     "expired": 0
    },
    "paper": {
@@ -4639,7 +4666,7 @@
    },
    {
     "reason": "stop_min_distance",
-    "n": 2
+    "n": 3
    },
    {
     "reason": "duplicate_open",
@@ -4658,10 +4685,10 @@
    {
     "actor": "kimi",
     "registered": 22,
-    "filled": 4,
+    "filled": 5,
     "dropped": 7,
     "expired": 5,
-    "pending": 2
+    "pending": 1
    },
    {
     "actor": "deepseek",
@@ -4675,9 +4702,9 @@
     "actor": "minimax",
     "registered": 19,
     "filled": 7,
-    "dropped": 9,
+    "dropped": 10,
     "expired": 0,
-    "pending": 1
+    "pending": 0
    },
    {
     "actor": "luna",
@@ -4706,11 +4733,11 @@
   ],
   "confirmed": {
    "since": "2026-09-04T05:00:00.000Z",
-   "n": 61,
+   "n": 62,
    "w": 11,
    "l": 21,
    "be": 29,
-   "open": 0
+   "open": 1
   },
   "baseline": {
    "measuredAt": "2026-09-04",
@@ -4733,6 +4760,24 @@
  },
  "learning": null,
  "openTrades": [
+  {
+   "id": 873,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "kimi",
+   "venue": "LIGHTER",
+   "entry": 118.22,
+   "stop": 116.35,
+   "target": 122,
+   "levelsApprox": false,
+   "cls": "crypto",
+   "trailed": false,
+   "rr": 2,
+   "conviction": 5,
+   "openedAt": "2026-10-07T03:19:04.455Z",
+   "thesis": "kimi pick (LIVE → LIGHTER, trigger-filled from AWAITING watch at 118.22 : 1h close back above $117.9 after tagging the SOL range low $117.7 (rejection candle at the bottom edge of the $117.7–$122.29 CHOP range))",
+   "smartMoney": null
+  },
   {
    "id": 868,
    "asset": "WDC",
@@ -4768,7 +4813,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 764.85,
-    "asOf": "2026-10-07T03:04:05.896Z"
+    "asOf": "2026-10-07T03:19:05.733Z"
    }
   },
   {
@@ -4786,25 +4831,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 83868.41,
-    "asOf": "2026-10-07T03:04:08.350Z"
-   }
-  },
-  {
-   "asset": "SOL",
-   "direction": "LONG",
-   "brain": "Garry GLM",
-   "conviction": 5,
-   "trigger": "1h close back above $118.00 after tagging the quoted 4h range low $117.70 — a rejection candle at the favourable edge of the SOL range ($118.88–$122.29), not a touch alone.",
-   "entry": 118,
-   "stop": 117.41,
-   "target": 122.13,
-   "levelsApprox": true,
-   "confirm": {
-    "tf": "1h",
-    "mode": "retest",
-    "status": "through",
-    "lastClose": 118.3,
-    "asOf": "2026-10-07T03:04:03.578Z"
+    "asOf": "2026-10-07T03:19:07.529Z"
    }
   },
   {
@@ -4822,7 +4849,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 2.253,
-    "asOf": "2026-10-07T03:04:14.422Z"
+    "asOf": "2026-10-07T03:19:11.200Z"
    }
   },
   {
@@ -4840,7 +4867,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 10.856,
-    "asOf": "2026-10-07T03:04:12.265Z"
+    "asOf": "2026-10-07T03:19:09.361Z"
    }
   },
   {
@@ -4858,7 +4885,7 @@
     "mode": "breakout",
     "status": "unknown",
     "lastClose": null,
-    "asOf": "2026-10-07T03:04:11.857Z"
+    "asOf": "2026-10-07T03:19:08.922Z"
    }
   },
   {
@@ -4876,7 +4903,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 2.221,
-    "asOf": "2026-10-07T03:04:09.649Z"
+    "asOf": "2026-10-07T03:19:08.537Z"
    }
   },
   {
@@ -4894,25 +4921,7 @@
     "mode": "retest",
     "status": "through",
     "lastClose": 118.3,
-    "asOf": "2026-10-07T03:04:06.991Z"
-   }
-  },
-  {
-   "asset": "SOL",
-   "direction": "LONG",
-   "brain": "Kenny Kimi",
-   "conviction": 5,
-   "trigger": "1h close back above $117.9 after tagging the SOL range low $117.7 (rejection candle at the bottom edge of the $117.7–$122.29 CHOP range)",
-   "entry": 117.9,
-   "stop": 116.132,
-   "target": 122.026,
-   "levelsApprox": true,
-   "confirm": {
-    "tf": "1h",
-    "mode": "retest",
-    "status": "through",
-    "lastClose": 118.3,
-    "asOf": "2026-10-07T03:04:04.921Z"
+    "asOf": "2026-10-07T03:19:06.774Z"
    }
   },
   {
@@ -4930,7 +4939,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 83868.41,
-    "asOf": "2026-10-07T03:04:02.182Z"
+    "asOf": "2026-10-07T03:19:01.258Z"
    }
   }
  ],
@@ -4939,28 +4948,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 84030.01,
-    "change24hPct": -1.78
+    "price": 84008.05,
+    "change24hPct": -1.81
    },
    {
     "symbol": "ETH",
-    "price": 2612.18,
-    "change24hPct": -3.29
+    "price": 2606.91,
+    "change24hPct": -3.49
    },
    {
     "symbol": "BNB",
-    "price": 766.11,
-    "change24hPct": -2.08
+    "price": 765.95,
+    "change24hPct": -2.09
    },
    {
     "symbol": "XRP",
-    "price": 1.463,
-    "change24hPct": -2.39
+    "price": 1.4625,
+    "change24hPct": -2.4
    },
    {
     "symbol": "SOL",
-    "price": 118.27,
-    "change24hPct": -1.65
+    "price": 118.14,
+    "change24hPct": -1.74
    }
   ],
   "fearGreed": {
@@ -5077,14 +5086,14 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.326,
+    "ratio": 1.327,
     "longPct": 57,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 3.117,
-    "longPct": 75.7,
+    "ratio": 3.127,
+    "longPct": 75.8,
     "bias": "CROWDED LONG"
    },
    {
@@ -5095,14 +5104,14 @@
    },
    {
     "asset": "BNB",
-    "ratio": 2.527,
-    "longPct": 71.7,
+    "ratio": 2.54,
+    "longPct": 71.8,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.679,
-    "longPct": 72.8,
+    "ratio": 2.689,
+    "longPct": 72.9,
     "bias": "CROWDED LONG"
    }
   ],
@@ -5177,7 +5186,7 @@
      "changePct": -17.4
     }
    ],
-   "ageMin": 317
+   "ageMin": 322
   },
   "chainRotation": {
    "chains": [
@@ -5316,7 +5325,7 @@
      1
     ]
    ],
-   "ageMin": 182
+   "ageMin": 187
   }
  },
  "calendar": [
@@ -5771,27 +5780,6 @@
  "consensus": {
   "assets": [
    {
-    "asset": "SOL",
-    "long": [
-     {
-      "actor": "minimax",
-      "conv": 5,
-      "kind": "watching"
-     },
-     {
-      "actor": "kimi",
-      "conv": 5,
-      "kind": "watching"
-     },
-     {
-      "actor": "grok",
-      "conv": 5,
-      "kind": "watching"
-     }
-    ],
-    "short": []
-   },
-   {
     "asset": "BTC",
     "long": [
      {
@@ -5802,6 +5790,22 @@
      {
       "actor": "gemini",
       "conv": 6,
+      "kind": "watching"
+     }
+    ],
+    "short": []
+   },
+   {
+    "asset": "SOL",
+    "long": [
+     {
+      "actor": "kimi",
+      "conv": 5,
+      "kind": "live"
+     },
+     {
+      "actor": "grok",
+      "conv": 5,
       "kind": "watching"
      }
     ],
@@ -6429,7 +6433,7 @@
   }
  },
  "intel": {
-  "ageH": 5.8,
+  "ageH": 5.9,
   "narratives": [
    "* Federal Crypto Derivatives Framework: The CFTC opened a 60-day comment window on Regulations CTX and CAM to regulate exchange leverage and margined products following the Senate Clarity Act's failure (newsletter).",
    "* Pre-IPO & RWA Tokenization: Ondo Finance launched tokenized secondary notes for private pre-IPO firms, even as tokenized equities currently command under 1% of total crypto mindshare (newsletter).",
@@ -6651,7 +6655,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 500.06,
+    "equity": 499.76,
     "peak": 500.06
    },
    "LIGHTER_deepseek": {
@@ -7566,8 +7570,8 @@
     "pickCycles7d": 11,
     "pickRate7d": 28,
     "awaiting7d": 8,
-    "saves7d": 2,
-    "routedSaves7d": 2,
+    "saves7d": 3,
+    "routedSaves7d": 3,
     "cost7dUsd": 3.46,
     "calls7d": 39
    },
