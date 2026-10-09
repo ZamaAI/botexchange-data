@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T15:57:00.402Z",
+ "generatedAt": "2026-10-09T16:02:07.903Z",
  "startCapital": 500,
  "since": "2026-10-06",
  "accountBasis": "mtm",
@@ -7,24 +7,24 @@
   "manual": 0
  },
  "feedCoverage": {
-  "at": "2026-10-09T10:02:10.066Z",
+  "at": "2026-10-09T16:01:47.556Z",
   "present": 59,
   "total": 60,
-  "missing": [
-   "polymarketData"
-  ],
-  "empty": []
+  "missing": [],
+  "empty": [
+   "binanceListings"
+  ]
  },
  "verdict": {
   "tie": false,
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 223.85
+   "account": 228.9
   },
   "machine": {
    "label": "Garry GLM",
-   "account": 505.29
+   "account": 505.86
   }
  },
  "verdictBasis": "mtm",
@@ -34,11 +34,11 @@
    "manLeads": false,
    "man": {
     "label": "Manual",
-    "account": 223.85
+    "account": 228.9
    },
    "machine": {
     "label": "Garry GLM",
-    "account": 505.29
+    "account": 505.86
    }
   },
   "realized": {
@@ -58,24 +58,17 @@
   "mtm": {
    "man": {
     "label": "Manual",
-    "account": 223.85,
+    "account": 228.9,
     "seat": 500.14,
-    "ret": -55.24
+    "ret": -54.23
    },
    "machines": [
     {
      "key": "minimax",
      "label": "Garry GLM",
-     "account": 505.29,
+     "account": 505.86,
      "seat": 500.36,
-     "ret": 0.98
-    },
-    {
-     "key": "kimi",
-     "label": "Kenny Kimi",
-     "account": 500.46,
-     "seat": 500.06,
-     "ret": 0.08
+     "ret": 1.1
     },
     {
      "key": "gemini",
@@ -83,6 +76,13 @@
      "account": 500.69,
      "seat": 500.69,
      "ret": 0
+    },
+    {
+     "key": "kimi",
+     "label": "Kenny Kimi",
+     "account": 499.3,
+     "seat": 500.06,
+     "ret": -0.15
     },
     {
      "key": "deepseek",
@@ -108,12 +108,12 @@
    ],
    "fleet": {
     "n": 6,
-    "mean": -0.37,
-    "median": -0.28
+    "mean": -0.39,
+    "median": -0.36
    },
    "best": {
     "label": "Garry GLM",
-    "ret": 0.98
+    "ret": 1.1
    },
    "manBeatsFleetMean": false,
    "manBeatsBest": false,
@@ -198,7 +198,7 @@
  "volState": {
   "hour": "2026-10-09T15",
   "asOf": "2026-10-09T15:00:00.000Z",
-  "ageMin": 57,
+  "ageMin": 62,
   "freezeMax": 15,
   "rows": [
    {
@@ -1032,8 +1032,8 @@
    "costUsd": 0,
    "costCalls": 0,
    "netPnl": -227.45,
-   "account": 223.85,
-   "retPct": -55.2,
+   "account": 228.9,
+   "retPct": -54.2,
    "accountRealized": 272.55,
    "regimes": {
     "RISK_ON": {
@@ -1105,8 +1105,8 @@
    "costUsd": 2.29,
    "costCalls": 25,
    "netPnl": -5,
-   "account": 500.46,
-   "retPct": 0.1,
+   "account": 499.3,
+   "retPct": -0.1,
    "accountRealized": 497.29,
    "regimes": {
     "RISK_ON": {
@@ -1502,8 +1502,8 @@
    "costUsd": 0.06,
    "costCalls": 25,
    "netPnl": -0.06,
-   "account": 505.29,
-   "retPct": 1.1,
+   "account": 505.86,
+   "retPct": 1.2,
    "accountRealized": 500,
    "regimes": {
     "RISK_ON": {
@@ -1596,9 +1596,9 @@
   "btc": {
    "startDate": "2026-10-06",
    "start": 85719.43,
-   "now": 82859.89,
-   "retPct": -3.3,
-   "value": 483.32
+   "now": 82786.01,
+   "retPct": -3.4,
+   "value": 482.89
   }
  },
  "oi": {
@@ -3028,25 +3028,25 @@
    "gemini": 500.69,
    "luna": 495.51,
    "minimax": 505.16
-  }
- ],
- "equityLive": [
+  },
   {
-   "ts": "2026-10-08T16:00:00.000Z",
+   "ts": "2026-10-09T16:00:00.000Z",
    "hl": 0,
    "hl_spot": 491.189684,
    "grvt": null,
-   "extended": 311.54301,
-   "capital": 3302.6999389999996,
-   "qwen": 488.46,
+   "extended": 228.89842,
+   "capital": 3218.651587,
+   "qwen": 494.56,
    "hermes": 491.19,
-   "manual": 311.54,
-   "kimi": 497.35,
+   "manual": 228.9,
+   "kimi": 499.3,
    "deepseek": 497.2,
    "gemini": 500.69,
-   "luna": 494.75,
-   "minimax": 509.98
-  },
+   "luna": 495.51,
+   "minimax": 505.86
+  }
+ ],
+ "equityLive": [
   {
    "ts": "2026-10-08T16:05:00.000Z",
    "hl": 0,
@@ -7638,14 +7638,30 @@
    "gemini": 500.69,
    "luna": 495.51,
    "minimax": 505.29
+  },
+  {
+   "ts": "2026-10-09T16:00:00.000Z",
+   "hl": 0,
+   "hl_spot": 491.189684,
+   "grvt": null,
+   "extended": 228.89842,
+   "capital": 3218.651587,
+   "qwen": 494.56,
+   "hermes": 491.19,
+   "manual": 228.9,
+   "kimi": 499.3,
+   "deepseek": 497.2,
+   "gemini": 500.69,
+   "luna": 495.51,
+   "minimax": 505.86
   }
  ],
  "venuesLive": {
   "hl": 0,
   "hl_spot": 491.189684,
   "grvt": null,
-  "lighter": 2499.156958,
-  "total": 2990.346642
+  "lighter": 2498.563483,
+  "total": 2989.753167
  },
  "awaitingScore": {
   "at": "2026-10-09T02:15:25.519Z",
@@ -8456,7 +8472,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-10-09T15:57:00.413Z",
+  "at": "2026-10-09T16:02:07.917Z",
   "windowDays": 14,
   "registered": 160,
   "filled": 31,
@@ -8603,7 +8619,7 @@
   }
  },
  "learning": {
-  "at": "2026-10-09T15:57:00.413Z",
+  "at": "2026-10-09T16:02:07.917Z",
   "since": "2026-10-06T18:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -9543,28 +9559,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 82859.89,
-    "change24hPct": 2.25
+    "price": 82786.01,
+    "change24hPct": 2.17
    },
    {
     "symbol": "ETH",
-    "price": 2488.69,
-    "change24hPct": 2.34
+    "price": 2487.14,
+    "change24hPct": 2.33
    },
    {
     "symbol": "BNB",
-    "price": 740.48,
-    "change24hPct": 1.15
+    "price": 739.85,
+    "change24hPct": 1.27
    },
    {
     "symbol": "XRP",
-    "price": 1.3815,
-    "change24hPct": 2.76
+    "price": 1.3804,
+    "change24hPct": 2.5
    },
    {
     "symbol": "SOL",
-    "price": 109.64,
-    "change24hPct": 0.92
+    "price": 109.51,
+    "change24hPct": 0.88
    }
   ],
   "fearGreed": {
@@ -9579,24 +9595,24 @@
   },
   "macro": {
    "dxy": {
-    "price": 102.27,
-    "change": 0.12
+    "price": 102.3,
+    "change": 0.15
    },
    "vix": {
-    "price": 14.93,
-    "change": -3.11
+    "price": 14.92,
+    "change": -3.18
    },
    "spx": {
-    "price": 7798,
-    "change": 0.42
+    "price": 7796.34,
+    "change": 0.4
    },
    "ndx": {
-    "price": 31045.75,
-    "change": 0.25
+    "price": 31084,
+    "change": 0.37
    },
    "gold": {
-    "price": 4215.1,
-    "change": 1.4
+    "price": 4215.7,
+    "change": 1.41
    }
   },
   "netLiquidity": {
@@ -9607,7 +9623,7 @@
    "date": "2026-10-07"
   },
   "riskIndex": {
-   "score": 52,
+   "score": 44,
    "band": "NORMAL",
    "weighting": "equal",
    "weightPct": 10,
@@ -9617,32 +9633,32 @@
     {
      "key": "leverage",
      "label": "Leverage build",
-     "score": 23,
-     "detail": "majors OI -1.5%/24h"
+     "score": 10,
+     "detail": "majors OI -3.6%/24h"
     },
     {
      "key": "funding",
      "label": "Funding extremity",
-     "score": 18,
-     "detail": "mean |funding| 0.012%/day"
+     "score": 7,
+     "detail": "mean |funding| 0.005%/day"
     },
     {
      "key": "crowding",
      "label": "Positioning crowding",
-     "score": 64,
-     "detail": "crowd 71% long — squeeze fuel below"
+     "score": 59,
+     "detail": "crowd 69% long — squeeze fuel below"
     },
     {
      "key": "liquidations",
      "label": "Liquidation stress",
-     "score": 87,
-     "detail": "$270M forced /24h (BTC/ETH/SOL, Binance)"
+     "score": 51,
+     "detail": "$53M forced /24h (BTC/ETH/SOL, Binance)"
     },
     {
      "key": "volatility",
      "label": "Realized volatility",
-     "score": 29,
-     "detail": "29th percentile vs own history"
+     "score": 27,
+     "detail": "27th percentile vs own history"
     },
     {
      "key": "liquidity",
@@ -9653,7 +9669,7 @@
     {
      "key": "macro",
      "label": "Macro coupling",
-     "score": 88,
+     "score": 87,
      "detail": "BTC↔NQ corr 0.70"
     },
     {
@@ -9666,22 +9682,22 @@
      "key": "impliedvol",
      "label": "Implied volatility",
      "score": 19,
-     "detail": "BTC DVOL 36.8 vs 90d median 37.5"
+     "detail": "BTC DVOL 36.7 vs 90d median 37.5"
     },
     {
      "key": "takerflow",
      "label": "Taker flow imbalance",
-     "score": 38,
-     "detail": "48.9% taker buy — sellers crossing the spread"
+     "score": 29,
+     "detail": "50.9% taker buy — buyers crossing the spread"
     }
    ],
-   "computedAt": 1791540130062
+   "computedAt": 1791561707547
   },
   "equityRegime": "RISK_ON",
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.527,
+    "ratio": 1.526,
     "longPct": 60.4,
     "bias": "CROWDED LONG"
    },
@@ -9693,19 +9709,19 @@
    },
    {
     "asset": "SOL",
-    "ratio": 2.367,
+    "ratio": 2.366,
     "longPct": 70.3,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.226,
+    "ratio": 2.225,
     "longPct": 69,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.477,
+    "ratio": 2.476,
     "longPct": 71.2,
     "bias": "CROWDED LONG"
    }
@@ -9713,17 +9729,17 @@
   "funding": [
    {
     "asset": "BTC",
-    "dailyPct": 0.0089,
+    "dailyPct": 0.0039,
     "signal": "NEUTRAL"
    },
    {
     "asset": "ETH",
-    "dailyPct": -0.0153,
-    "signal": "SQUEEZE ALERT"
+    "dailyPct": 0.0046,
+    "signal": "NEUTRAL"
    },
    {
     "asset": "SOL",
-    "dailyPct": -0.0133,
+    "dailyPct": 0.0057,
     "signal": "NEUTRAL"
    }
   ],
@@ -9735,58 +9751,58 @@
    "gainers": [
     {
      "symbol": "US",
-     "price": 0.027683,
-     "changePct": 86.6
+     "price": 0.03334805,
+     "changePct": 110.5
     },
     {
      "symbol": "KAIA",
-     "price": 0.0603,
-     "changePct": 53.4
+     "price": 0.052126,
+     "changePct": 43.4
     },
     {
-     "symbol": "RLC",
-     "price": 1.085,
-     "changePct": 42.1
+     "symbol": "DRV",
+     "price": 0.562628,
+     "changePct": 38.8
+    },
+    {
+     "symbol": "Q",
+     "price": 0.02937616,
+     "changePct": 26.6
     },
     {
      "symbol": "HASH",
-     "price": 0.00750561,
-     "changePct": 39.1
-    },
-    {
-     "symbol": "STRK",
-     "price": 0.073424,
-     "changePct": 30.4
+     "price": 0.00646151,
+     "changePct": 25
     }
    ],
    "losers": [
     {
-     "symbol": "MET",
-     "price": 0.421966,
-     "changePct": -16.1
+     "symbol": "QRL",
+     "price": 1.19,
+     "changePct": -16.8
     },
     {
-     "symbol": "ORCA",
-     "price": 2.39,
-     "changePct": -13.9
+     "symbol": "AMP",
+     "price": 0.0006593,
+     "changePct": -16.7
     },
     {
-     "symbol": "ALGO",
-     "price": 0.118597,
-     "changePct": -13.8
+     "symbol": "H",
+     "price": 0.058152,
+     "changePct": -9.8
     },
     {
-     "symbol": "NOS",
-     "price": 0.57249,
-     "changePct": -13.3
+     "symbol": "AI",
+     "price": 0.089567,
+     "changePct": -9.6
     },
     {
-     "symbol": "PONS",
-     "price": 0.35107,
-     "changePct": -13.1
+     "symbol": "WIN",
+     "price": 0.00005162,
+     "changePct": -7.1
     }
    ],
-   "ageMin": 357
+   "ageMin": 2
   },
   "chainRotation": {
    "chains": [
@@ -9929,7 +9945,7 @@
      1
     ]
    ],
-   "ageMin": 162
+   "ageMin": 167
   }
  },
  "calendar": [
@@ -10666,21 +10682,21 @@
   "disagreement": "BTC"
  },
  "manualBook": {
-  "at": "2026-10-09T15:47:03.884Z",
+  "at": "2026-10-09T16:02:07.903Z",
   "positions": [
    {
     "asset": "PUMP",
     "stock": false,
     "direction": "LONG",
     "entry": 0.005841,
-    "pnlPct": -5.73
+    "pnlPct": -5.76
    },
    {
     "asset": "BTC",
     "stock": false,
     "direction": "SHORT",
     "entry": 82273,
-    "pnlPct": -0.85
+    "pnlPct": -0.55
    }
   ]
  },
@@ -11430,7 +11446,7 @@
   }
  },
  "intel": {
-  "ageH": 0.5,
+  "ageH": 0.6,
   "narratives": [
    "* AI/Quantum Cryptography Defense: Triggered by Justin Drake's warning that GPU clusters could crack ECDSA keys; Starknet is exploring a quantum-safe L1, Monad is reorienting toward quantum defense, and Zcash is pushing ",
    "* Tokenized Equities & RWAs: Securitize debuted Solana-based 1:1 equity tokens for major tech names with USDC settlement, while Standard Chartered Singapore announced plans for institutional crypto/RWA custody by year-en",
@@ -12095,7 +12111,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 500.46,
+    "equity": 499.3,
     "peak": 500.06
    },
    "LIGHTER_deepseek": {
@@ -12131,7 +12147,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 505.29,
+    "equity": 505.86,
     "peak": 506.78
    }
   },
@@ -12776,7 +12792,7 @@
   "text": "Bitcoin is flashing a stark warning sign as institutional ETF outflows of $487 million collide with heavy long liquidations totaling $248 million, dragging the session firmly lower. The single most critical signal emerging from this chaos is a dangerous divergence between stablecoin dry powder availability and aggressive spot selling, which points to a liquidity trap rather than healthy organic accumulation. While Bitcoin's daily RSI sits at a neutral 49.67, the four-hour MACD histogram plunges deep into negative territory at -154.9, confirming that bearish momentum is far from exhausted. This technical weakness aligns with alarming on-chain data showing net outflows to exchanges exceeding $2.1 billion over the last seven days, whereas Ethereum sees a contrasting inflow of $241 million. The market bias remains bearish with a high probability of continuation lower, especially if price breaks below the critical support level of $81,500 for BTC, which would trigger further deleveraging of crowded long positions. Dollar liquidity is currently flat, offering no macro tailwind to arrest the decline, so traders must respect the price structure on its own merits. Most breakout longs lack real momentum proof and bleed quickly without a reclaim of the 20-day moving average or a negative funding squeeze. Shorts carry the clear tailwind here given the dominance of long liquidations and failed reclaims. While headlines mention government transfers of $1.01 billion in BTC, the immediate pressure from exchange inflows suggests smart money is positioning for further downside before any potential recovery. Do not reflexively dip-buy without a high-conviction reversal signal at clear exhaustion or support with a tangible catalyst."
  },
  "extendedCalls": {
-  "at": "2026-10-09T15:57:02.385Z",
+  "at": "2026-10-09T16:02:07.932Z",
   "horizonH": 12,
   "minRead": 20,
   "briefs": 4,
