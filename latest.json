@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T22:52:05.765Z",
+ "generatedAt": "2026-10-10T22:57:00.784Z",
  "startCapital": 500,
  "since": "2026-10-06",
  "accountBasis": "mtm",
@@ -199,7 +199,7 @@
  "volState": {
   "hour": "2026-10-10T22",
   "asOf": "2026-10-10T22:00:00.000Z",
-  "ageMin": 52,
+  "ageMin": 57,
   "freezeMax": 15,
   "rows": [
    {
@@ -874,8 +874,8 @@
    "costUsd": 0.87,
    "costCalls": 17,
    "netPnl": -6.31,
-   "account": 494.81,
-   "retPct": -1,
+   "account": 494.57,
+   "retPct": -1.1,
    "accountRealized": 494.56,
    "regimes": {
     "RISK_ON": {
@@ -1645,9 +1645,9 @@
   "btc": {
    "startDate": "2026-10-06",
    "start": 85719.43,
-   "now": 83059.54,
+   "now": 83086.01,
    "retPct": -3.1,
-   "value": 484.48
+   "value": 484.64
   }
  },
  "oi": {
@@ -3558,22 +3558,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-10-09T22:55:00.000Z",
-   "hl": 0,
-   "hl_spot": 491.069322,
-   "grvt": null,
-   "extended": 184.609877,
-   "capital": 3172.785752,
-   "qwen": 494.56,
-   "hermes": 491.07,
-   "manual": 184.61,
-   "kimi": 500.59,
-   "deepseek": 497.2,
-   "gemini": 500.69,
-   "luna": 493.18,
-   "minimax": 505.44
-  },
   {
    "ts": "2026-10-09T23:00:00.000Z",
    "hl": 0,
@@ -8149,6 +8133,22 @@
    "gemini": 500.69,
    "luna": 490.4,
    "minimax": 503.39
+  },
+  {
+   "ts": "2026-10-10T22:55:00.000Z",
+   "hl": 0,
+   "hl_spot": 491.269376,
+   "grvt": null,
+   "extended": 210.091267,
+   "capital": 3196.996981,
+   "qwen": 494.57,
+   "hermes": 491.27,
+   "manual": 210.09,
+   "kimi": 503.95,
+   "deepseek": 497.2,
+   "gemini": 500.69,
+   "luna": 490.4,
+   "minimax": 503.39
   }
  ],
  "venuesLive": {
@@ -8957,7 +8957,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-10-10T22:52:05.816Z",
+  "at": "2026-10-10T22:57:00.795Z",
   "windowDays": 14,
   "registered": 168,
   "filled": 29,
@@ -9104,7 +9104,7 @@
   }
  },
  "learning": {
-  "at": "2026-10-10T22:52:05.816Z",
+  "at": "2026-10-10T22:57:00.795Z",
   "since": "2026-10-06T18:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -10278,28 +10278,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 83059.54,
-    "change24hPct": 0.52
+    "price": 83086.01,
+    "change24hPct": 0.55
    },
    {
     "symbol": "ETH",
-    "price": 2506.97,
-    "change24hPct": 0.68
+    "price": 2508.93,
+    "change24hPct": 0.75
    },
    {
     "symbol": "BNB",
-    "price": 751.07,
-    "change24hPct": 1.21
+    "price": 751.3,
+    "change24hPct": 1.22
    },
    {
     "symbol": "XRP",
-    "price": 1.4023,
-    "change24hPct": 0.49
+    "price": 1.4037,
+    "change24hPct": 0.56
    },
    {
     "symbol": "SOL",
-    "price": 110.37,
-    "change24hPct": 1
+    "price": 110.52,
+    "change24hPct": 1.14
    }
   ],
   "fearGreed": {
@@ -10521,7 +10521,7 @@
      "changePct": -8.4
     }
    ],
-   "ageMin": 52
+   "ageMin": 57
   },
   "chainRotation": {
    "chains": [
@@ -10664,7 +10664,7 @@
      1
     ]
    ],
-   "ageMin": 397
+   "ageMin": 402
   }
  },
  "calendar": [
@@ -11840,23 +11840,30 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 7036,
+   "totalPrints7d": 7039,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
     {
-     "coin": "BTC",
-     "l": 3,
-     "s": 1,
-     "netK": 2468,
-     "concPct": 78
-    },
-    {
      "coin": "SOL",
      "l": 1,
      "s": 1,
-     "netK": 905,
-     "concPct": 66
+     "netK": 1103,
+     "concPct": 68
+    },
+    {
+     "coin": "BTC",
+     "l": 2,
+     "s": 1,
+     "netK": 919,
+     "concPct": 75
+    },
+    {
+     "coin": "ETH",
+     "l": 2,
+     "s": 0,
+     "netK": 831,
+     "concPct": 97
     },
     {
      "coin": "US100",
@@ -11869,14 +11876,14 @@
      "coin": "NVDA",
      "l": 1,
      "s": 0,
-     "netK": 632,
+     "netK": 628,
      "concPct": 100
     },
     {
-     "coin": "ETH",
+     "coin": "HYPE",
      "l": 2,
      "s": 0,
-     "netK": 483,
+     "netK": 325,
      "concPct": 95
     },
     {
@@ -11884,13 +11891,6 @@
      "l": 0,
      "s": 1,
      "netK": -315,
-     "concPct": 100
-    },
-    {
-     "coin": "HYPE",
-     "l": 1,
-     "s": 0,
-     "netK": 310,
      "concPct": 100
     },
     {
@@ -11918,14 +11918,14 @@
      "n": 579
     },
     {
-     "coin": "SOL",
-     "netK": -345,
-     "n": 271
+     "coin": "IBM",
+     "netK": 334,
+     "n": 107
     },
     {
-     "coin": "IBM",
-     "netK": 286,
-     "n": 109
+     "coin": "SOL",
+     "netK": -334,
+     "n": 272
     }
    ],
    "accounts": [
@@ -11949,7 +11949,7 @@
      "prints": 292,
      "volK": 16075,
      "biasK": -7411,
-     "equity": 681142,
+     "equity": 681165,
      "positions": [
       {
        "coin": "BTC",
@@ -11960,7 +11960,7 @@
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 23,
+       "usdK": 28,
        "upnlK": 0
       }
      ]
@@ -12192,7 +12192,7 @@
   }
  },
  "intel": {
-  "ageH": 1.4,
+  "ageH": 1.5,
   "narratives": [
    "- Papertrade Protocol: Generated heavy opening trading activity, logging over $1B–$2B in open interest and distributing millions in staker rewards within hours of launch (X).",
    "- Exchange Inflows & Security Exploits: Heightened vigilance around custody after a 59 ETH Ledger drainer theft and massive exchange deposits across SOL, UNI, and dormant ETH (X).",
@@ -13460,7 +13460,7 @@
   "text": "Bitcoin sits at 82,923 after a session that closed flat to slightly lower, driven by a violent short squeeze on futures despite heavy institutional outflows from Hyperliquid desks. The primary signal is a stark divergence in whale positioning: retail and leveraged shorts are being squeezed while smart money accumulates ETH and SOL on lighter venues. Top-30 accounts on Hyperliquid remain heavily net short across major assets, with BTC positions down 688 million and ETH down 870 million. In contrast, T+1 data reveals a \"lighter whale\" flow accumulating BTC by 4.1 million in the last twenty-four hours and adding 590 thousand to ETH over seven days. This suggests the heavy shorts are trapped or forced into covering. The dominant risk is the structural disconnect between exchange net inflows for BTC and the aggressive short covering fueling price action. Liquidity remains flat with no macro tailwind, forcing traders to rely entirely on price structure. Most breakout longs here bleed because they lack real momentum proof like rising open interest or a reclaim of the twenty-day moving average. Shorts carry the tailwind via distribution or long-liquidation dominance. A counter-trend long is only justified as a high-conviction reversal at clear exhaustion with a catalyst, never a reflexive dip-buy. Security concerns also loom large as a hardware drainer exploit via Ledger reseller CryptoBillis drained nearly 90 million in assets, including 80 BTC and 7 million USDT. Meanwhile, Ether ETFs extend their outflow streak to nine days while Solana funds snap a record fourteen-week inflow run. Tom Lee expects Ethereum to surpass 5,000 by year-end and hit 50,000 in this cycle. The tape is down-trending in a risk-off regime where continuation longs need genuine proof of strength."
  },
  "extendedCalls": {
-  "at": "2026-10-10T22:52:05.852Z",
+  "at": "2026-10-10T22:57:03.329Z",
   "horizonH": 12,
   "minRead": 20,
   "briefs": 7,
