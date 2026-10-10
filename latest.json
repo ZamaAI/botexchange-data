@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10T04:32:09.559Z",
+ "generatedAt": "2026-10-10T04:37:00.432Z",
  "startCapital": 500,
  "since": "2026-10-06",
  "accountBasis": "mtm",
@@ -46,7 +46,7 @@
    "manLeads": false,
    "man": {
     "label": "Manual",
-    "account": 311.3
+    "account": 184.25
    },
    "machine": {
     "label": "Gina Gemini",
@@ -122,9 +122,9 @@
   "realized": {
    "man": {
     "label": "Manual",
-    "account": 311.3,
+    "account": 184.25,
     "seat": 500.14,
-    "ret": -37.76
+    "ret": -63.16
    },
    "machines": [
     {
@@ -198,7 +198,7 @@
  "volState": {
   "hour": "2026-10-10T04",
   "asOf": "2026-10-10T04:00:00.000Z",
-  "ageMin": 32,
+  "ageMin": 37,
   "freezeMax": 15,
   "rows": [
    {
@@ -805,7 +805,7 @@
  },
  "seasonTransfers": {
   "since": "2026-10-06T17:58:58.594Z",
-  "sweptAt": null,
+  "sweptAt": "2026-10-10T04:34:59.634Z",
   "bySeat": {},
   "rows": []
  },
@@ -1022,19 +1022,19 @@
    "label": "Manual",
    "venue": "Extended",
    "paper": false,
-   "trades": 7,
+   "trades": 8,
    "wins": 2,
-   "losses": 5,
+   "losses": 6,
    "be": 4,
-   "closed": 11,
-   "wr": "29",
-   "pnl": -188.7,
+   "closed": 12,
+   "wr": "25",
+   "pnl": -315.75,
    "costUsd": 0,
    "costCalls": 0,
-   "netPnl": -188.7,
+   "netPnl": -315.75,
    "account": 190.62,
    "retPct": -61.9,
-   "accountRealized": 311.3,
+   "accountRealized": 184.25,
    "regimes": {
     "RISK_ON": {
      "n": 0,
@@ -1055,10 +1055,10 @@
      "pnl": 0
     },
     "UNKNOWN": {
-     "n": 7,
+     "n": 8,
      "w": 2,
-     "l": 5,
-     "pnl": -187.1
+     "l": 6,
+     "pnl": -314.15
     },
     "known": 0,
     "riskOnPct": null
@@ -1596,9 +1596,9 @@
   "btc": {
    "startDate": "2026-10-06",
    "start": 85719.43,
-   "now": 82650.03,
+   "now": 82666.61,
    "retPct": -3.6,
-   "value": 482.1
+   "value": 482.19
   }
  },
  "oi": {
@@ -1861,7 +1861,7 @@
     500,
     511.39,
     272.55,
-    311.3
+    184.25
    ],
    "kimi": [
     500,
@@ -3226,22 +3226,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-10-09T04:35:00.000Z",
-   "hl": 0,
-   "hl_spot": 491.28916200000003,
-   "grvt": null,
-   "extended": 260.439736,
-   "capital": 3251.8513669999998,
-   "qwen": 502.71,
-   "hermes": 491.29,
-   "manual": 260.44,
-   "kimi": 501.62,
-   "deepseek": 497.2,
-   "gemini": 500.69,
-   "luna": 495.51,
-   "minimax": 505.09
-  },
   {
    "ts": "2026-10-09T04:40:00.000Z",
    "hl": 0,
@@ -7833,6 +7817,22 @@
    "gemini": 500.69,
    "luna": 492.34,
    "minimax": 505.16
+  },
+  {
+   "ts": "2026-10-10T04:35:00.000Z",
+   "hl": 0,
+   "hl_spot": 491.035797,
+   "grvt": null,
+   "extended": 190.622541,
+   "capital": 3179.072223,
+   "qwen": 494.56,
+   "hermes": 491.04,
+   "manual": 190.62,
+   "kimi": 502.02,
+   "deepseek": 497.2,
+   "gemini": 500.69,
+   "luna": 492.34,
+   "minimax": 505.16
   }
  ],
  "venuesLive": {
@@ -8641,7 +8641,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-10-10T04:32:09.980Z",
+  "at": "2026-10-10T04:37:00.444Z",
   "windowDays": 14,
   "registered": 165,
   "filled": 30,
@@ -8788,7 +8788,7 @@
   }
  },
  "learning": {
-  "at": "2026-10-10T04:32:09.982Z",
+  "at": "2026-10-10T04:37:00.445Z",
   "since": "2026-10-06T18:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -9203,7 +9203,13 @@
    "stop": 1.30163,
    "target": 1.43512,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 1.4038,
+    "asOf": "2026-10-10T04:34:20.721Z"
+   }
   },
   {
    "asset": "ASTS",
@@ -9215,7 +9221,13 @@
    "stop": 51,
    "target": 39.5,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "unknown",
+    "lastClose": null,
+    "asOf": "2026-10-10T04:34:24.676Z"
+   }
   },
   {
    "asset": "ATOM",
@@ -9227,7 +9239,13 @@
    "stop": 2.1012,
    "target": 1.8564,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 1.988,
+    "asOf": "2026-10-10T04:34:29.317Z"
+   }
   },
   {
    "asset": "XRP",
@@ -9239,7 +9257,13 @@
    "stop": 1.37664,
    "target": 1.59891,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 1.4038,
+    "asOf": "2026-10-10T04:34:27.908Z"
+   }
   },
   {
    "asset": "ETH",
@@ -9251,7 +9275,13 @@
    "stop": 2430,
    "target": 2180,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 2491.38,
+    "asOf": "2026-10-10T04:34:02.884Z"
+   }
   },
   {
    "asset": "JUP",
@@ -9263,7 +9293,13 @@
    "stop": 0.3977,
    "target": 0.34532,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 0.3714,
+    "asOf": "2026-10-10T04:34:24.669Z"
+   }
   },
   {
    "asset": "BTC",
@@ -9275,7 +9311,13 @@
    "stop": 79992,
    "target": 83628,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 82596.83,
+    "asOf": "2026-10-10T04:34:19.737Z"
+   }
   },
   {
    "asset": "BNB",
@@ -9287,7 +9329,13 @@
    "stop": 731.3,
    "target": 649.65,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 745.33,
+    "asOf": "2026-10-10T04:34:22.711Z"
+   }
   },
   {
    "asset": "CRCL",
@@ -9299,7 +9347,13 @@
    "stop": 78.5,
    "target": 88,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 85.118,
+    "asOf": "2026-10-10T04:34:21.386Z"
+   }
   },
   {
    "asset": "ZRO",
@@ -9311,7 +9365,13 @@
    "stop": 2.33,
    "target": 1.95,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 1.956,
+    "asOf": "2026-10-10T04:34:15.789Z"
+   }
   },
   {
    "asset": "BTC",
@@ -9323,7 +9383,13 @@
    "stop": 85000,
    "target": 79500,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 82596.83,
+    "asOf": "2026-10-10T04:34:21.378Z"
+   }
   },
   {
    "asset": "SOL",
@@ -9335,7 +9401,13 @@
    "stop": 101.2,
    "target": 115,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 109.69,
+    "asOf": "2026-10-10T04:34:05.734Z"
+   }
   },
   {
    "asset": "PYTH",
@@ -9347,7 +9419,13 @@
    "stop": 0.0888,
    "target": 0.071,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 0.07977,
+    "asOf": "2026-10-10T04:34:17.932Z"
+   }
   },
   {
    "asset": "ZRO",
@@ -9359,7 +9437,13 @@
    "stop": 1.8718,
    "target": 2.03415,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 1.956,
+    "asOf": "2026-10-10T04:34:10.526Z"
+   }
   },
   {
    "asset": "AAOI",
@@ -9371,7 +9455,13 @@
    "stop": 104,
    "target": 115,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "through",
+    "lastClose": 110.43,
+    "asOf": "2026-10-10T04:34:16.465Z"
+   }
   },
   {
    "asset": "SOL",
@@ -9383,7 +9473,13 @@
    "stop": 106.5,
    "target": 98,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 109.69,
+    "asOf": "2026-10-10T04:34:16.456Z"
+   }
   },
   {
    "asset": "BTC",
@@ -9395,7 +9491,13 @@
    "stop": 82358.8,
    "target": 75127.3,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 82596.83,
+    "asOf": "2026-10-10T04:34:12.886Z"
+   }
   },
   {
    "asset": "BTC",
@@ -9407,7 +9509,13 @@
    "stop": 82127.7,
    "target": 74845.4,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 82596.83,
+    "asOf": "2026-10-10T04:34:08.486Z"
+   }
   },
   {
    "asset": "SOL",
@@ -9419,7 +9527,13 @@
    "stop": 104.276,
    "target": 113.902,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 109.69,
+    "asOf": "2026-10-10T04:34:15.125Z"
+   }
   },
   {
    "asset": "ZRO",
@@ -9431,7 +9545,13 @@
    "stop": 1.862,
    "target": 2.204,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 1.956,
+    "asOf": "2026-10-10T04:34:14.167Z"
+   }
   },
   {
    "asset": "JUP",
@@ -9443,7 +9563,13 @@
    "stop": 0.295313,
    "target": 0.375,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 0.3714,
+    "asOf": "2026-10-10T04:34:11.555Z"
+   }
   },
   {
    "asset": "ZRO",
@@ -9455,7 +9581,13 @@
    "stop": 1.83543,
    "target": 2.13975,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 1.956,
+    "asOf": "2026-10-10T04:34:09.998Z"
+   }
   },
   {
    "asset": "XRP",
@@ -9467,7 +9599,13 @@
    "stop": 1.34,
    "target": 1.5,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 1.4038,
+    "asOf": "2026-10-10T04:34:07.163Z"
+   }
   },
   {
    "asset": "BTC",
@@ -9479,7 +9617,13 @@
    "stop": 80700,
    "target": 86000,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 82596.83,
+    "asOf": "2026-10-10T04:34:04.698Z"
+   }
   },
   {
    "asset": "NOK",
@@ -9491,7 +9635,13 @@
    "stop": 11.18,
    "target": 9.65,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 10.374,
+    "asOf": "2026-10-10T04:34:04.011Z"
+   }
   },
   {
    "asset": "RAY",
@@ -9503,7 +9653,13 @@
    "stop": 1.9957,
    "target": 2.57,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 2.2849,
+    "asOf": "2026-10-10T04:34:03.634Z"
+   }
   },
   {
    "asset": "NOK",
@@ -9515,7 +9671,13 @@
    "stop": 10.85,
    "target": 11.9,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 10.374,
+    "asOf": "2026-10-10T04:34:01.460Z"
+   }
   },
   {
    "asset": "ZRO",
@@ -9527,10 +9689,30 @@
    "stop": 2.12,
    "target": 2.7,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 1.956,
+    "asOf": "2026-10-10T04:34:01.061Z"
+   }
   }
  ],
  "recentCloses": [
+  {
+   "id": 900,
+   "asset": "PUMP",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "LOSS",
+   "pct": -10.2,
+   "exitReason": "Manual LONG on Extended — entry $0.00584100 → exit $0.00524400 (-10.22% move 10x), realised −$127.05 → LOSS.",
+   "closedAt": "2026-10-09T19:48:25.215Z",
+   "entry": 0.005841,
+   "exit": 0.005244,
+   "openedAt": "2026-10-08T11:43:58.353Z"
+  },
   {
    "id": 888,
    "asset": "ASTS",
@@ -9684,55 +9866,41 @@
    "entry": 768.9804,
    "exit": 755.9212,
    "openedAt": "2026-10-07T06:04:01.415Z"
-  },
-  {
-   "id": 891,
-   "asset": "ETH",
-   "direction": "SHORT",
-   "actor": "manual",
-   "venue": "EXTENDED",
-   "outcome": "BREAKEVEN",
-   "pct": 0,
-   "exitReason": "Manual SHORT on Extended — entry $2,547.4 → exit $2,546.6 (+0.03% move 50x), realised −$0.17 → BREAKEVEN.",
-   "closedAt": "2026-10-08T11:24:04.454Z",
-   "entry": 2547.4,
-   "exit": 2546.6,
-   "openedAt": "2026-10-07T17:55:33.759Z"
   }
  ],
  "market": {
   "prices": [
    {
     "symbol": "BTC",
-    "price": 82650.03,
-    "change24hPct": 0.25
+    "price": 82666.61,
+    "change24hPct": 0.27
    },
    {
     "symbol": "ETH",
-    "price": 2492.82,
-    "change24hPct": -0.03
+    "price": 2492.89,
+    "change24hPct": -0.04
    },
    {
     "symbol": "BNB",
-    "price": 745.51,
-    "change24hPct": 0.43
+    "price": 745.79,
+    "change24hPct": 0.51
    },
    {
     "symbol": "XRP",
-    "price": 1.4039,
-    "change24hPct": 0.54
+    "price": 1.4049,
+    "change24hPct": 0.67
    },
    {
     "symbol": "SOL",
-    "price": 109.63,
-    "change24hPct": -0.78
+    "price": 109.74,
+    "change24hPct": -0.63
    }
   ],
   "fearGreed": {
    "value": 64,
    "classification": "Greed"
   },
-  "regime": null,
+  "regime": "RISK_OFF",
   "stockFearGreed": {
    "value": 45,
    "classification": "Fear",
@@ -9759,6 +9927,13 @@
     "price": 4216.3,
     "change": 1.43
    }
+  },
+  "netLiquidity": {
+   "usdB": 5865,
+   "deltaB": 8.1,
+   "weeks": 4,
+   "trend": "FLAT",
+   "date": "2026-10-07"
   },
   "riskIndex": {
    "score": 42,
@@ -9930,7 +10105,7 @@
      "changePct": -9.4
     }
    ],
-   "ageMin": 32
+   "ageMin": 37
   },
   "chainRotation": {
    "chains": [
@@ -10073,7 +10248,7 @@
      1
     ]
    ],
-   "ageMin": 77
+   "ageMin": 82
   }
  },
  "calendar": [
@@ -10133,7 +10308,7 @@
   },
   {
    "date": "2026-10-14",
-   "event": "US CPI Release (Sep)",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
   },
@@ -10153,6 +10328,24 @@
    "date": "2026-10-14",
    "event": "ASML earnings (BMO)",
    "type": "EARNINGS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-10-15",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-10-15",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-10-15",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
    "impact": "MED"
   },
   {
@@ -10204,9 +10397,63 @@
    "impact": "MED"
   },
   {
+   "date": "2026-10-22",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-10-23",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
+   "impact": "MED"
+  },
+  {
    "date": "2026-10-28",
    "event": "FOMC Rate Decision",
    "type": "Fed",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-10-29",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-10-29",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-10-29",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-10-30",
+   "event": "Employment Cost Index",
+   "type": "ECI",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-11-03",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-11-05",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-11-06",
+   "event": "Non-Farm Payrolls",
+   "type": "NFP",
    "impact": "HIGH"
   }
  ],
@@ -11492,7 +11739,7 @@
   }
  },
  "intel": {
-  "ageH": 1.1,
+  "ageH": 1.2,
   "narratives": [
    "* Hardware Wallet Supply Chain Exploits: Major fallout from compromised Ledger units sold through third-party reseller CryptoBillis, resulting in Tether asset freezes and exchange warnings urging users to let new devices",
    "* AI Algorithmic & Cryptographic Threat: Rapidly rising narrative covering AI-driven disruptions, ranging from private lab preparations for catastrophic events to ECDSA encryption cracking risks across legacy crypto wall",
@@ -11678,6 +11925,26 @@
   }
  ],
  "archive": [
+  {
+   "id": 900,
+   "asset": "PUMP",
+   "direction": "LONG",
+   "actor": "manual",
+   "venue": "EXTENDED",
+   "outcome": "LOSS",
+   "pct": -10.2,
+   "pnlUsd": -127.05,
+   "exitReason": "Manual LONG on Extended — entry $0.00584100 → exit $0.00524400 (-10.22% move 10x), realised −$127.05 → LOSS.",
+   "closedAt": "2026-10-09T19:48:25.215Z",
+   "stop": null,
+   "target": null,
+   "thesis": "Manual operator trade on Extended (imported — own research / macro).",
+   "entry": 0.005841,
+   "exit": 0.005244,
+   "conviction": null,
+   "openedAt": "2026-10-08T11:43:58.353Z",
+   "rr": null
+  },
   {
    "id": 888,
    "asset": "ASTS",
@@ -12888,7 +13155,7 @@
   "text": "The single most critical factor dominating the market right now is the glaring divergence between retail Fears and Greed sitting at 64, signaling greed, while institutional whales are aggressively accumulating massive short positions on both Bitcoin and Ethereum totaling nearly one billion dollars in notional value. This setup screams a classic liquidity trap where desks bet heavily on downside moves despite the prevailing sentiment suggesting otherwise. While stablecoin dry powder remains abundant providing underlying bullish liquidity, current volume anomalies indicate significant distribution pressure that could easily trigger a sharp correction ahead of the upcoming Fed meeting. The market regime is firmly risk-off with the tape trending down, meaning continuation longs lack real momentum proof and will bleed without rising open interest or a reclaim of the twenty-day moving average. Most breakout attempts here fail to follow through, leaving shorts with the clear tailwind supported by long-liquidation dominance. A counter-trend long position is only justified as a high-conviction reversal at clear exhaustion points with a specific catalyst, never as a reflexive dip-buy in this flat dollar liquidity environment. The critical risk remains a short squeeze if price decisively breaks above eighty-three thousand five hundred dollars, but current data suggests that distribution pressure outweighs the potential for such an event unless ETF inflows show unexpected continuation or reversal patterns. Traders must watch exchange flows closely as the primary directional indicator rather than chasing headlines about AI agents or memecoin volatility which often distract from the core structural weakness."
  },
  "extendedCalls": {
-  "at": "2026-10-10T04:32:12.222Z",
+  "at": "2026-10-10T04:37:00.455Z",
   "horizonH": 12,
   "minRead": 20,
   "briefs": 6,
