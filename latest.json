@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-11T09:57:09.436Z",
+ "generatedAt": "2026-10-11T10:02:02.522Z",
  "startCapital": 500,
  "since": "2026-10-06",
  "accountBasis": "mtm",
@@ -7,7 +7,7 @@
   "manual": 0
  },
  "feedCoverage": {
-  "at": "2026-10-11T04:01:42.357Z",
+  "at": "2026-10-11T10:01:31.262Z",
   "present": 59,
   "total": 60,
   "missing": [],
@@ -198,7 +198,7 @@
  "volState": {
   "hour": "2026-10-11T09",
   "asOf": "2026-10-11T09:00:00.000Z",
-  "ageMin": 57,
+  "ageMin": 62,
   "freezeMax": 15,
   "rows": [
    {
@@ -897,7 +897,7 @@
    "costUsd": 0.92,
    "costCalls": 18,
    "netPnl": -12.61,
-   "account": 489.08,
+   "account": 489.07,
    "retPct": -2.2,
    "accountRealized": 488.31,
    "regimes": {
@@ -3763,25 +3763,25 @@
    "gemini": 500.69,
    "luna": 490.4,
    "minimax": 504.01
-  }
- ],
- "equityLive": [
+  },
   {
-   "ts": "2026-10-10T10:00:00.000Z",
+   "ts": "2026-10-11T10:00:00.000Z",
    "hl": 0,
-   "hl_spot": 491.189684,
+   "hl_spot": 491.288612,
    "grvt": null,
-   "extended": 200.622104,
-   "capital": 3187.814878,
-   "qwen": 494.56,
-   "hermes": 491.19,
-   "manual": 200.62,
-   "kimi": 502.97,
+   "extended": 212.793069,
+   "capital": 3197.741698,
+   "qwen": 489.07,
+   "hermes": 491.29,
+   "manual": 212.79,
+   "kimi": 501.56,
    "deepseek": 497.2,
    "gemini": 500.69,
    "luna": 490.4,
-   "minimax": 504.73
-  },
+   "minimax": 503.8
+  }
+ ],
+ "equityLive": [
   {
    "ts": "2026-10-10T10:05:00.000Z",
    "hl": 0,
@@ -8373,6 +8373,22 @@
    "gemini": 500.69,
    "luna": 490.4,
    "minimax": 503.8
+  },
+  {
+   "ts": "2026-10-11T10:00:00.000Z",
+   "hl": 0,
+   "hl_spot": 491.288612,
+   "grvt": null,
+   "extended": 212.793069,
+   "capital": 3197.741698,
+   "qwen": 489.07,
+   "hermes": 491.29,
+   "manual": 212.79,
+   "kimi": 501.56,
+   "deepseek": 497.2,
+   "gemini": 500.69,
+   "luna": 490.4,
+   "minimax": 503.8
   }
  ],
  "venuesLive": {
@@ -9171,7 +9187,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-10-11T09:57:09.447Z",
+  "at": "2026-10-11T10:02:02.532Z",
   "windowDays": 14,
   "registered": 165,
   "filled": 26,
@@ -9318,7 +9334,7 @@
   }
  },
  "learning": {
-  "at": "2026-10-11T09:57:09.448Z",
+  "at": "2026-10-11T10:02:02.533Z",
   "since": "2026-10-06T18:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -10551,23 +10567,23 @@
    },
    {
     "symbol": "ETH",
-    "price": 2502.62,
-    "change24hPct": 0.2
+    "price": 2502.69,
+    "change24hPct": 0.27
    },
    {
     "symbol": "BNB",
-    "price": 747.77,
-    "change24hPct": -0.32
+    "price": 747.85,
+    "change24hPct": -0.24
    },
    {
     "symbol": "XRP",
-    "price": 1.3933,
-    "change24hPct": -1.01
+    "price": 1.393,
+    "change24hPct": -0.91
    },
    {
     "symbol": "SOL",
-    "price": 109.49,
-    "change24hPct": -0.45
+    "price": 109.47,
+    "change24hPct": -0.32
    }
   ],
   "fearGreed": {
@@ -10610,7 +10626,7 @@
    "date": "2026-10-07"
   },
   "riskIndex": {
-   "score": 47,
+   "score": 48,
    "band": "NORMAL",
    "weighting": "equal",
    "weightPct": 10,
@@ -10620,14 +10636,14 @@
     {
      "key": "leverage",
      "label": "Leverage build",
-     "score": 34,
-     "detail": "majors OI +0.1%/24h"
+     "score": 36,
+     "detail": "majors OI +0.4%/24h"
     },
     {
      "key": "funding",
      "label": "Funding extremity",
-     "score": 29,
-     "detail": "mean |funding| 0.020%/day"
+     "score": 20,
+     "detail": "mean |funding| 0.014%/day"
     },
     {
      "key": "crowding",
@@ -10638,8 +10654,8 @@
     {
      "key": "liquidations",
      "label": "Liquidation stress",
-     "score": 7,
-     "detail": "$7M forced /24h (BTC/ETH/SOL, Binance)"
+     "score": 9,
+     "detail": "$8M forced /24h (BTC/ETH/SOL, Binance)"
     },
     {
      "key": "volatility",
@@ -10669,16 +10685,16 @@
      "key": "impliedvol",
      "label": "Implied volatility",
      "score": 20,
-     "detail": "BTC DVOL 37.0 vs 90d median 37.5"
+     "detail": "BTC DVOL 36.9 vs 90d median 37.5"
     },
     {
      "key": "takerflow",
      "label": "Taker flow imbalance",
-     "score": 44,
-     "detail": "48.7% taker buy — sellers crossing the spread"
+     "score": 61,
+     "detail": "48.2% taker buy — sellers crossing the spread"
     }
    ],
-   "computedAt": 1791691302352
+   "computedAt": 1791712891257
   },
   "equityRegime": "RISK_ON",
   "longShort": [
@@ -10716,17 +10732,17 @@
   "funding": [
    {
     "asset": "BTC",
-    "dailyPct": -0.0061,
+    "dailyPct": -0.0045,
     "signal": "NEUTRAL"
    },
    {
     "asset": "ETH",
-    "dailyPct": -0.033,
+    "dailyPct": -0.0249,
     "signal": "SQUEEZE ALERT"
    },
    {
     "asset": "SOL",
-    "dailyPct": 0.0213,
+    "dailyPct": 0.0134,
     "signal": "NEUTRAL"
    }
   ],
@@ -10738,58 +10754,58 @@
    "gainers": [
     {
      "symbol": "STRK",
-     "price": 0.110396,
-     "changePct": 49.2
+     "price": 0.109376,
+     "changePct": 54.6
+    },
+    {
+     "symbol": "CFX",
+     "price": 0.068141,
+     "changePct": 33.9
     },
     {
      "symbol": "CHIP",
-     "price": 0.067201,
-     "changePct": 28
+     "price": 0.064271,
+     "changePct": 22.7
     },
     {
      "symbol": "TIA",
-     "price": 0.602809,
-     "changePct": 26.7
+     "price": 0.595792,
+     "changePct": 22.6
     },
     {
-     "symbol": "SHFL",
-     "price": 0.484473,
-     "changePct": 20.7
-    },
-    {
-     "symbol": "AERO",
-     "price": 0.927538,
-     "changePct": 14.8
+     "symbol": "CARDS",
+     "price": 0.321335,
+     "changePct": 16.7
     }
    ],
    "losers": [
     {
-     "symbol": "US",
-     "price": 0.02025407,
-     "changePct": -24
-    },
-    {
-     "symbol": "DAI",
-     "price": 0.00136027,
-     "changePct": -18.7
-    },
-    {
-     "symbol": "HASH",
-     "price": 0.00535883,
-     "changePct": -14.6
-    },
-    {
-     "symbol": "EDGE",
-     "price": 0.342172,
-     "changePct": -11.2
+     "symbol": "APEPE",
+     "price": 0.00000129,
+     "changePct": -11.1
     },
     {
      "symbol": "SHX",
-     "price": 0.00655547,
-     "changePct": -9.5
+     "price": 0.00656032,
+     "changePct": -10.1
+    },
+    {
+     "symbol": "ELF",
+     "price": 0.066292,
+     "changePct": -7.7
+    },
+    {
+     "symbol": "DRV",
+     "price": 0.497351,
+     "changePct": -7.6
+    },
+    {
+     "symbol": "MUBARAK",
+     "price": 0.070772,
+     "changePct": -6.4
     }
    ],
-   "ageMin": 357
+   "ageMin": 2
   },
   "chainRotation": {
    "chains": [
@@ -10932,7 +10948,7 @@
      1
     ]
    ],
-   "ageMin": 222
+   "ageMin": 227
   }
  },
  "calendar": [
@@ -10969,6 +10985,12 @@
   {
    "date": "2026-10-13",
    "event": "FET — Predictive Coding Research",
+   "type": "CRYPTO",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-10-13",
+   "event": "NIGHT — OKJ Spot Listing",
    "type": "CRYPTO",
    "impact": "MED"
   },
@@ -11731,7 +11753,7 @@
   "disagreement": "ETH"
  },
  "manualBook": {
-  "at": "2026-10-11T09:42:09.601Z",
+  "at": "2026-10-11T10:02:02.522Z",
   "positions": [
    {
     "asset": "XPL",
@@ -12509,7 +12531,7 @@
   }
  },
  "intel": {
-  "ageH": 0.5,
+  "ageH": 0.6,
   "narratives": [
    "- Perp DEX Leverage Mania: papertrade launched on Hyperliquid with extreme speculative frenzy, amassing $123M in deposits, $7B in open interest, and distributing up to $15M in staker payouts in hours despite heavy trader",
    "- Geopolitical Supply Threats: Escalations in the Strait of Hormuz and Saudi Arabia alongside US pressure on Ukraine to stop striking Russian refineries are intensifying macro focus on crude oil (X).",
@@ -13800,7 +13822,7 @@
   "text": "The single most important signal dominating the market right now is a dangerous divergence between rising asset prices and heavy net short positioning on Hyperliquid for BTC, ETH, and SOL, which sets the stage for an imminent volatility spike if shorts are forced to cover. While US equities gained 0.45% and gold rallied 1.43%, crypto remains range-bound with Bitcoin stuck at $82,794, suggesting a fragile decoupling where the correlation coefficient of 0.72 indicates we are still tethered to equity risk appetite but lacking genuine momentum in major altcoins. The technical picture shows BTC and ETH RSI levels near neutral at 51 and 40 respectively, while Solana sits lower at 43, reinforcing a wait-and-see stance rather than a breakout scenario. Dominant risk remains a regulatory shock from French stablecoin tax proposals or a sudden halt in ETF inflows, which could invalidate the current squeeze thesis immediately as Ether ETFs extend their outflow streak to nine days despite Solana funds snapping a record 14-week inflow run. In this flat dollar liquidity regime with no macro tailwind either way, continuation longs need real proof of rising open interest and price, whereas shorts with a mechanism like distribution or long-liquidation dominance carry the true tailwind. Recent headlines add noise to the mix, including a critical security flaw fixed on the XRP Ledger and a whale withdrawing 26,070 ZEC worth roughly $31.93 million from a centralized exchange, yet these events do not alter the core structural weakness in the broader market. The tape is down-trending under a risk-off regime where most reflexive dip buys fail to follow through and bleed quickly."
  },
  "extendedCalls": {
-  "at": "2026-10-11T09:57:11.963Z",
+  "at": "2026-10-11T10:02:02.547Z",
   "horizonH": 12,
   "minRead": 20,
   "briefs": 8,
