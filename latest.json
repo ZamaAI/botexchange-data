@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-12T21:42:04.842Z",
+ "generatedAt": "2026-10-12T21:47:06.131Z",
  "startCapital": 500,
  "since": "2026-10-06",
  "accountBasis": "mtm",
@@ -20,11 +20,11 @@
   "manLeads": false,
   "man": {
    "label": "Manual",
-   "account": 168.99
+   "account": 112.1
   },
   "machine": {
-   "label": "Kenny Kimi",
-   "account": 501.41
+   "label": "Garry GLM",
+   "account": 500.83
   }
  },
  "verdictBasis": "mtm",
@@ -34,11 +34,11 @@
    "manLeads": false,
    "man": {
     "label": "Manual",
-    "account": 168.99
+    "account": 112.1
    },
    "machine": {
-    "label": "Kenny Kimi",
-    "account": 501.41
+    "label": "Garry GLM",
+    "account": 500.83
    }
   },
   "realized": {
@@ -58,18 +58,11 @@
   "mtm": {
    "man": {
     "label": "Manual",
-    "account": 168.99,
+    "account": 112.1,
     "seat": 500.14,
-    "ret": -66.21
+    "ret": -77.59
    },
    "machines": [
-    {
-     "key": "kimi",
-     "label": "Kenny Kimi",
-     "account": 501.41,
-     "seat": 500.06,
-     "ret": 0.27
-    },
     {
      "key": "minimax",
      "label": "Garry GLM",
@@ -83,6 +76,13 @@
      "account": 500.69,
      "seat": 500.69,
      "ret": 0
+    },
+    {
+     "key": "kimi",
+     "label": "Kenny Kimi",
+     "account": 499.34,
+     "seat": 500.06,
+     "ret": -0.14
     },
     {
      "key": "deepseek",
@@ -108,12 +108,12 @@
    ],
    "fleet": {
     "n": 6,
-    "mean": -0.68,
-    "median": -0.28
+    "mean": -0.75,
+    "median": -0.36
    },
    "best": {
-    "label": "Kenny Kimi",
-    "ret": 0.27
+    "label": "Garry GLM",
+    "ret": 0.09
    },
    "manBeatsFleetMean": false,
    "manBeatsBest": false,
@@ -198,7 +198,7 @@
  "volState": {
   "hour": "2026-10-12T21",
   "asOf": "2026-10-12T21:00:00.000Z",
-  "ageMin": 42,
+  "ageMin": 47,
   "freezeMax": 15,
   "rows": [
    {
@@ -888,8 +888,8 @@
    "costUsd": 1.23,
    "costCalls": 24,
    "netPnl": 108.7,
-   "account": 619.47,
-   "retPct": 23.9,
+   "account": 626.35,
+   "retPct": 25.3,
    "accountRealized": 609.93,
    "regimes": {
     "RISK_ON": {
@@ -1094,8 +1094,8 @@
    "costUsd": 0,
    "costCalls": 0,
    "netPnl": -269.61,
-   "account": 168.99,
-   "retPct": -66.2,
+   "account": 112.1,
+   "retPct": -77.6,
    "accountRealized": 230.39,
    "regimes": {
     "RISK_ON": {
@@ -1167,8 +1167,8 @@
    "costUsd": 4.82,
    "costCalls": 52,
    "netPnl": -0.51,
-   "account": 501.41,
-   "retPct": 0.3,
+   "account": 499.34,
+   "retPct": -0.1,
    "accountRealized": 504.31,
    "regimes": {
     "RISK_ON": {
@@ -1669,9 +1669,9 @@
   "btc": {
    "startDate": "2026-10-06",
    "start": 85719.43,
-   "now": 82912.72,
-   "retPct": -3.3,
-   "value": 483.63
+   "now": 82521.55,
+   "retPct": -3.7,
+   "value": 481.35
   }
  },
  "oi": {
@@ -4419,22 +4419,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-10-11T21:45:00.000Z",
-   "hl": 0,
-   "hl_spot": 491.288612,
-   "grvt": null,
-   "extended": 211.630907,
-   "capital": 3197.579517,
-   "qwen": 492.15,
-   "hermes": 491.29,
-   "manual": 211.63,
-   "kimi": 505.53,
-   "deepseek": 497.2,
-   "gemini": 500.69,
-   "luna": 490.4,
-   "minimax": 500.83
-  },
   {
    "ts": "2026-10-11T21:50:00.000Z",
    "hl": 0,
@@ -9026,14 +9010,30 @@
    "gemini": 500.69,
    "luna": 490.4,
    "minimax": 500.83
+  },
+  {
+   "ts": "2026-10-12T21:45:00.000Z",
+   "hl": 0,
+   "hl_spot": 455.288612,
+   "grvt": null,
+   "extended": 112.100676,
+   "capital": 3055.8649149999997,
+   "qwen": 626.35,
+   "hermes": 455.29,
+   "manual": 112.1,
+   "kimi": 499.34,
+   "deepseek": 497.2,
+   "gemini": 500.69,
+   "luna": 490.4,
+   "minimax": 500.83
   }
  ],
  "venuesLive": {
   "hl": 0,
   "hl_spot": 455.288612,
   "grvt": null,
-  "lighter": 2490.542102,
-  "total": 2945.8307139999997
+  "lighter": 2488.475627,
+  "total": 2943.7642389999996
  },
  "awaitingScore": {
   "at": "2026-10-12T02:15:34.233Z",
@@ -9812,7 +9812,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-10-12T21:42:04.856Z",
+  "at": "2026-10-12T21:47:06.144Z",
   "windowDays": 14,
   "registered": 148,
   "filled": 21,
@@ -9959,7 +9959,7 @@
   }
  },
  "learning": {
-  "at": "2026-10-12T21:42:04.856Z",
+  "at": "2026-10-12T21:47:06.144Z",
   "since": "2026-10-06T18:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -11097,28 +11097,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 82912.72,
-    "change24hPct": -0.74
+    "price": 82521.55,
+    "change24hPct": -1.15
    },
    {
     "symbol": "ETH",
-    "price": 2510.86,
-    "change24hPct": -0.69
+    "price": 2487.5,
+    "change24hPct": -1.53
    },
    {
     "symbol": "BNB",
-    "price": 745.79,
-    "change24hPct": -0.82
+    "price": 741,
+    "change24hPct": -1.42
    },
    {
     "symbol": "XRP",
-    "price": 1.359,
-    "change24hPct": -3.24
+    "price": 1.3456,
+    "change24hPct": -4.14
    },
    {
     "symbol": "SOL",
-    "price": 107.85,
-    "change24hPct": -2.53
+    "price": 106.83,
+    "change24hPct": -3.39
    }
   ],
   "fearGreed": {
@@ -11235,7 +11235,7 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.462,
+    "ratio": 1.464,
     "longPct": 59.4,
     "bias": "BALANCED"
    },
@@ -11253,14 +11253,14 @@
    },
    {
     "asset": "BNB",
-    "ratio": 2.083,
-    "longPct": 67.6,
+    "ratio": 2.081,
+    "longPct": 67.5,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.675,
-    "longPct": 72.8,
+    "ratio": 2.693,
+    "longPct": 72.9,
     "bias": "CROWDED LONG"
    }
   ],
@@ -11340,7 +11340,7 @@
      "changePct": -12.7
     }
    ],
-   "ageMin": 342
+   "ageMin": 347
   },
   "chainRotation": {
    "chains": [
@@ -11479,7 +11479,7 @@
      2
     ]
    ],
-   "ageMin": 341
+   "ageMin": 346
   }
  },
  "calendar": [
@@ -14130,7 +14130,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 501.41,
+    "equity": 499.34,
     "peak": 505.81
    },
    "LIGHTER_deepseek": {
@@ -14850,7 +14850,7 @@
   "text": "Bitcoin is currently trapped in a brutal long liquidation cascade where institutional net shorts on Hyperliquid totaling over one billion dollars are suppressing price discovery despite retail buying volume rising to forty-eight percent of total spot activity. The market closed red with BTC down 1.36 percent as the dollar index stubbornly holds above 102.50, effectively invalidating any bullish macro thesis until that support breaks. While the Fear and Greed index sits at 69 indicating greed, the tape tells a different story of risk-off sentiment driven by heavy whale distribution. We saw over one billion dollars wiped out in positions as Bitcoin hovered near eighty-three thousand to eighty-four thousand, coinciding with massive stablecoin supply contractions of eight hundred fifty-six million dollars and public sector Bitcoin holdings dropping by eighty-nine coins. The divergence is stark: retail RSI shows oversold conditions while whale desks aggressively short both BTC and ETH by hundreds of millions. This setup suggests a potential squeeze rather than immediate capitulation, yet the sustained strength of the DXY acts as a ceiling that prevents any clean breakout. Retail buyers are exhausting their ammunition against an overhang of institutional supply, creating a fragile floor that can be punctured by further macro headwinds or oil price spikes near one hundred ten dollars per barrel. Traders must avoid reflexive dip buys without clear exhaustion signals or catalysts, as continuation longs lack the necessary momentum proof to survive this regime. The only viable path forward requires a reclaim of the twenty-day moving average accompanied by rising open interest and negative funding rates to signal genuine demand rather than panic selling."
  },
  "extendedCalls": {
-  "at": "2026-10-12T21:42:07.454Z",
+  "at": "2026-10-12T21:47:06.158Z",
   "horizonH": 12,
   "minRead": 20,
   "briefs": 11,
