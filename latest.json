@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-13T12:17:06.441Z",
+ "generatedAt": "2026-10-13T12:22:01.592Z",
  "startCapital": 500,
  "since": "2026-10-06",
  "accountBasis": "mtm",
  "mtmAgeMin": {
-  "manual": 2
+  "manual": 12
  },
  "feedCoverage": {
   "at": "2026-10-13T10:01:33.757Z",
@@ -133,7 +133,7 @@
  "volState": {
   "hour": "2026-10-13T11",
   "asOf": "2026-10-13T11:00:00.000Z",
-  "ageMin": 77,
+  "ageMin": 82,
   "freezeMax": 15,
   "rows": [
    {
@@ -868,8 +868,8 @@
    "costUsd": 1.37,
    "costCalls": 27,
    "netPnl": 134.88,
-   "account": 637.64,
-   "retPct": 27.5,
+   "account": 638.16,
+   "retPct": 27.6,
    "accountRealized": 636.25,
    "regimes": {
     "RISK_ON": {
@@ -920,11 +920,11 @@
    },
    "watch": {
     "registered": 41,
-    "filled": 5,
+    "filled": 6,
     "refused": 12,
     "cancelled": 0,
     "expired": 5,
-    "pending": 19,
+    "pending": 18,
     "topGates": [
      [
       "anticipation",
@@ -1653,9 +1653,9 @@
   "btc": {
    "startDate": "2026-10-06",
    "start": 85719.43,
-   "now": 83228.01,
+   "now": 83225.98,
    "retPct": -2.9,
-   "value": 485.47
+   "value": 485.46
   }
  },
  "oi": {
@@ -4610,22 +4610,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-10-12T12:20:00.000Z",
-   "hl": 0,
-   "hl_spot": 491.189684,
-   "grvt": null,
-   "extended": 238.465668,
-   "capital": 3225.149227,
-   "qwen": 529.17,
-   "hermes": 491.19,
-   "manual": 238.47,
-   "kimi": 506.36,
-   "deepseek": 497.2,
-   "gemini": 500.69,
-   "luna": 490.4,
-   "minimax": 500.83
-  },
   {
    "ts": "2026-10-12T12:25:00.000Z",
    "hl": 0,
@@ -9201,6 +9185,22 @@
    "gemini": 500.69,
    "luna": 490.4,
    "minimax": 500.83
+  },
+  {
+   "ts": "2026-10-13T12:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 455.189684,
+   "grvt": null,
+   "extended": null,
+   "capital": null,
+   "qwen": 638.16,
+   "hermes": 455.19,
+   "manual": 470.73,
+   "kimi": 496.7,
+   "deepseek": 494.27,
+   "gemini": 500.69,
+   "luna": 490.4,
+   "minimax": 500.83
   }
  ],
  "venuesLive": {
@@ -9967,13 +9967,13 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-10-13T12:17:06.455Z",
+  "at": "2026-10-13T12:22:01.661Z",
   "windowDays": 14,
   "registered": 154,
-  "filled": 22,
+  "filled": 23,
   "dropped": 65,
   "expired": 7,
-  "pending": 31,
+  "pending": 30,
   "cancelled": 29,
   "other": 0,
   "fills": {
@@ -9986,11 +9986,11 @@
     "expired": 0
    },
    "paper": {
-    "n": 7,
+    "n": 8,
     "w": 2,
     "l": 4,
     "be": 0,
-    "open": 1,
+    "open": 2,
     "expired": 0
    }
   },
@@ -10025,10 +10025,10 @@
    {
     "actor": "qwen",
     "registered": 66,
-    "filled": 6,
+    "filled": 7,
     "dropped": 22,
     "expired": 6,
-    "pending": 19,
+    "pending": 18,
     "cancelled": 13
    },
    {
@@ -10114,7 +10114,7 @@
   }
  },
  "learning": {
-  "at": "2026-10-13T12:17:06.455Z",
+  "at": "2026-10-13T12:22:01.661Z",
   "since": "2026-10-06T18:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -10438,6 +10438,24 @@
  },
  "openTrades": [
   {
+   "id": 921,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "qwen",
+   "venue": "PAPER",
+   "entry": 105.755,
+   "stop": 101.2,
+   "target": 115,
+   "levelsApprox": false,
+   "cls": "crypto",
+   "trailed": false,
+   "rr": 2,
+   "conviction": 6,
+   "openedAt": "2026-10-13T12:19:02.502Z",
+   "thesis": "qwen pick (paper, trigger-filled from AWAITING watch at 105.755 : 1h close back above 106.00 after tagging 104.60)",
+   "smartMoney": null
+  },
+  {
    "id": 920,
    "asset": "XRP",
    "direction": "LONG",
@@ -10490,7 +10508,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 83360.01,
-    "asOf": "2026-10-13T12:04:20.054Z"
+    "asOf": "2026-10-13T12:19:23.423Z"
    }
   },
   {
@@ -10508,7 +10526,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 2500.86,
-    "asOf": "2026-10-13T12:04:35.667Z"
+    "asOf": "2026-10-13T12:19:38.101Z"
    }
   },
   {
@@ -10526,7 +10544,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 2.025,
-    "asOf": "2026-10-13T12:04:34.334Z"
+    "asOf": "2026-10-13T12:19:36.766Z"
    }
   },
   {
@@ -10544,7 +10562,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.4184,
-    "asOf": "2026-10-13T12:04:30.070Z"
+    "asOf": "2026-10-13T12:19:32.790Z"
    }
   },
   {
@@ -10562,7 +10580,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1.788,
-    "asOf": "2026-10-13T12:04:33.660Z"
+    "asOf": "2026-10-13T12:19:36.086Z"
    }
   },
   {
@@ -10580,7 +10598,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 106.18,
-    "asOf": "2026-10-13T12:04:32.318Z"
+    "asOf": "2026-10-13T12:19:35.420Z"
    }
   },
   {
@@ -10598,7 +10616,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 2500.86,
-    "asOf": "2026-10-13T12:04:28.649Z"
+    "asOf": "2026-10-13T12:19:31.723Z"
    }
   },
   {
@@ -10616,7 +10634,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 106.18,
-    "asOf": "2026-10-13T12:04:27.620Z"
+    "asOf": "2026-10-13T12:19:31.065Z"
    }
   },
   {
@@ -10634,7 +10652,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 979.83,
-    "asOf": "2026-10-13T12:04:26.687Z"
+    "asOf": "2026-10-13T12:19:30.109Z"
    }
   },
   {
@@ -10652,7 +10670,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 83360.01,
-    "asOf": "2026-10-13T12:04:07.957Z"
+    "asOf": "2026-10-13T12:19:10.325Z"
    }
   },
   {
@@ -10670,7 +10688,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 83360.01,
-    "asOf": "2026-10-13T12:04:26.679Z"
+    "asOf": "2026-10-13T12:19:30.101Z"
    }
   },
   {
@@ -10688,7 +10706,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 2.047,
-    "asOf": "2026-10-13T12:04:25.717Z"
+    "asOf": "2026-10-13T12:19:29.139Z"
    }
   },
   {
@@ -10706,7 +10724,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 144.54,
-    "asOf": "2026-10-13T12:04:24.339Z"
+    "asOf": "2026-10-13T12:19:27.375Z"
    }
   },
   {
@@ -10724,7 +10742,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 979.83,
-    "asOf": "2026-10-13T12:04:23.931Z"
+    "asOf": "2026-10-13T12:19:26.967Z"
    }
   },
   {
@@ -10742,7 +10760,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 83360.01,
-    "asOf": "2026-10-13T12:04:08.625Z"
+    "asOf": "2026-10-13T12:19:11.353Z"
    }
   },
   {
@@ -10760,7 +10778,7 @@
     "mode": "breakout",
     "status": "unknown",
     "lastClose": null,
-    "asOf": "2026-10-13T12:04:10.430Z"
+    "asOf": "2026-10-13T12:19:13.456Z"
    }
   },
   {
@@ -10778,7 +10796,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 83360.01,
-    "asOf": "2026-10-13T12:04:03.681Z"
+    "asOf": "2026-10-13T12:19:04.181Z"
    }
   },
   {
@@ -10796,7 +10814,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.8203,
-    "asOf": "2026-10-13T12:04:21.092Z"
+    "asOf": "2026-10-13T12:19:24.454Z"
    }
   },
   {
@@ -10814,7 +10832,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 83360.01,
-    "asOf": "2026-10-13T12:04:23.923Z"
+    "asOf": "2026-10-13T12:19:26.964Z"
    }
   },
   {
@@ -10832,7 +10850,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 0.3238,
-    "asOf": "2026-10-13T12:04:22.516Z"
+    "asOf": "2026-10-13T12:19:25.942Z"
    }
   },
   {
@@ -10850,7 +10868,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 109.66,
-    "asOf": "2026-10-13T12:04:12.795Z"
+    "asOf": "2026-10-13T12:19:15.755Z"
    }
   },
   {
@@ -10868,7 +10886,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 109.66,
-    "asOf": "2026-10-13T12:04:18.313Z"
+    "asOf": "2026-10-13T12:19:21.616Z"
    }
   },
   {
@@ -10886,7 +10904,7 @@
     "mode": "retest",
     "status": "unknown",
     "lastClose": null,
-    "asOf": "2026-10-13T12:04:16.040Z"
+    "asOf": "2026-10-13T12:19:19.031Z"
    }
   },
   {
@@ -10904,7 +10922,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1.788,
-    "asOf": "2026-10-13T12:04:15.661Z"
+    "asOf": "2026-10-13T12:19:18.650Z"
    }
   },
   {
@@ -10922,7 +10940,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.0569,
-    "asOf": "2026-10-13T12:04:14.208Z"
+    "asOf": "2026-10-13T12:19:17.198Z"
    }
   },
   {
@@ -10940,7 +10958,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 83360.01,
-    "asOf": "2026-10-13T12:04:00.928Z"
+    "asOf": "2026-10-13T12:19:00.703Z"
    }
   },
   {
@@ -10958,7 +10976,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 739.44,
-    "asOf": "2026-10-13T12:04:10.049Z"
+    "asOf": "2026-10-13T12:19:13.062Z"
    }
   },
   {
@@ -10976,25 +10994,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 83.411,
-    "asOf": "2026-10-13T12:04:08.633Z"
-   }
-  },
-  {
-   "asset": "SOL",
-   "direction": "LONG",
-   "brain": "Qwen",
-   "conviction": 6,
-   "trigger": "1h close back above 106.00 after tagging 104.60",
-   "entry": 106,
-   "stop": 101.2,
-   "target": 115,
-   "levelsApprox": false,
-   "confirm": {
-    "tf": "1h",
-    "mode": "retest",
-    "status": "through",
-    "lastClose": 106.18,
-    "asOf": "2026-10-13T12:04:01.994Z"
+    "asOf": "2026-10-13T12:19:11.356Z"
    }
   },
   {
@@ -11012,7 +11012,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 99.224,
-    "asOf": "2026-10-13T12:04:05.769Z"
+    "asOf": "2026-10-13T12:19:08.109Z"
    }
   },
   {
@@ -11030,7 +11030,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 2.047,
-    "asOf": "2026-10-13T12:04:05.392Z"
+    "asOf": "2026-10-13T12:19:05.515Z"
    }
   }
  ],
@@ -11208,27 +11208,27 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 83228.01,
-    "change24hPct": -0.1
+    "price": 83225.98,
+    "change24hPct": 0.03
    },
    {
     "symbol": "ETH",
-    "price": 2497.4,
-    "change24hPct": -1.84
+    "price": 2496.73,
+    "change24hPct": -1.71
    },
    {
     "symbol": "BNB",
-    "price": 738.56,
-    "change24hPct": -1.56
+    "price": 738.35,
+    "change24hPct": -1.45
    },
    {
     "symbol": "XRP",
-    "price": 1.3581,
-    "change24hPct": -3.12
+    "price": 1.3565,
+    "change24hPct": -3.07
    },
    {
     "symbol": "SOL",
-    "price": 106.09,
+    "price": 105.91,
     "change24hPct": -4.41
    }
   ],
@@ -11346,14 +11346,14 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.201,
+    "ratio": 1.203,
     "longPct": 54.6,
     "bias": "BALANCED"
    },
    {
     "asset": "ETH",
-    "ratio": 2.602,
-    "longPct": 72.2,
+    "ratio": 2.627,
+    "longPct": 72.4,
     "bias": "CROWDED LONG"
    },
    {
@@ -11364,7 +11364,7 @@
    },
    {
     "asset": "BNB",
-    "ratio": 2.084,
+    "ratio": 2.087,
     "longPct": 67.6,
     "bias": "CROWDED LONG"
    },
@@ -11451,7 +11451,7 @@
      "changePct": -17.3
     }
    ],
-   "ageMin": 137
+   "ageMin": 142
   },
   "chainRotation": {
    "chains": [
@@ -11594,7 +11594,7 @@
      1
     ]
    ],
-   "ageMin": 62
+   "ageMin": 67
   }
  },
  "calendar": [
@@ -12332,6 +12332,27 @@
     ]
    },
    {
+    "asset": "SOL",
+    "long": [
+     {
+      "actor": "qwen",
+      "conv": 6,
+      "kind": "paper"
+     },
+     {
+      "actor": "gemini",
+      "conv": 6,
+      "kind": "watching"
+     },
+     {
+      "actor": "kimi",
+      "conv": 5,
+      "kind": "watching"
+     }
+    ],
+    "short": []
+   },
+   {
     "asset": "ETH",
     "long": [],
     "short": [
@@ -12346,22 +12367,6 @@
       "kind": "watching"
      }
     ]
-   },
-   {
-    "asset": "SOL",
-    "long": [
-     {
-      "actor": "gemini",
-      "conv": 6,
-      "kind": "watching"
-     },
-     {
-      "actor": "kimi",
-      "conv": 5,
-      "kind": "watching"
-     }
-    ],
-    "short": []
    },
    {
     "asset": "ATOM",
@@ -12833,7 +12838,7 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 6202,
+   "totalPrints7d": 6193,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
@@ -12841,56 +12846,56 @@
      "coin": "ETH",
      "l": 2,
      "s": 2,
-     "netK": -4449,
+     "netK": -4468,
      "concPct": 94
     },
     {
      "coin": "BTC",
      "l": 1,
      "s": 4,
-     "netK": -595,
-     "concPct": 44
+     "netK": -559,
+     "concPct": 45
     },
     {
      "coin": "SOL",
      "l": 3,
      "s": 2,
-     "netK": -1083,
+     "netK": -1079,
      "concPct": 54
     },
     {
      "coin": "NVDA",
      "l": 1,
      "s": 0,
-     "netK": 668,
+     "netK": 672,
      "concPct": 100
-    },
-    {
-     "coin": "US100",
-     "l": 1,
-     "s": 3,
-     "netK": -255,
-     "concPct": 53
-    },
-    {
-     "coin": "SNDK",
-     "l": 2,
-     "s": 0,
-     "netK": 367,
-     "concPct": 99
     },
     {
      "coin": "ZEC",
      "l": 2,
      "s": 0,
-     "netK": 330,
+     "netK": 372,
+     "concPct": 99
+    },
+    {
+     "coin": "SNDK",
+     "l": 2,
+     "s": 0,
+     "netK": 296,
      "concPct": 98
+    },
+    {
+     "coin": "US100",
+     "l": 1,
+     "s": 3,
+     "netK": -150,
+     "concPct": 45
     },
     {
      "coin": "SPY",
      "l": 0,
      "s": 1,
-     "netK": -237,
+     "netK": -240,
      "concPct": 100
     }
    ],
@@ -12902,8 +12907,8 @@
     },
     {
      "coin": "US100",
-     "netK": -2572,
-     "n": 2474
+     "netK": -2485,
+     "n": 2473
     },
     {
      "coin": "SOL",
@@ -12912,8 +12917,8 @@
     },
     {
      "coin": "ETH",
-     "netK": 383,
-     "n": 712
+     "netK": 341,
+     "n": 709
     },
     {
      "coin": "NEAR",
@@ -12924,15 +12929,15 @@
    "accounts": [
     {
      "id": 281474976489995,
-     "prints": 885,
-     "volK": 20840,
-     "biasK": -863,
-     "equity": 12973,
+     "prints": 886,
+     "volK": 20856,
+     "biasK": -847,
+     "equity": 12965,
      "positions": [
       {
        "coin": "US100",
        "side": "SHORT",
-       "usdK": 101,
+       "usdK": 123,
        "upnlK": 0
       }
      ]
@@ -12942,24 +12947,24 @@
      "prints": 315,
      "volK": 17075,
      "biasK": -5409,
-     "equity": 665475,
+     "equity": 665452,
      "positions": [
-      {
-       "coin": "ETH",
-       "side": "LONG",
-       "usdK": 27,
-       "upnlK": 0
-      },
       {
        "coin": "BTC",
        "side": "SHORT",
-       "usdK": 26,
+       "usdK": 25,
        "upnlK": 0
       },
       {
        "coin": "SOL",
        "side": "LONG",
        "usdK": 20,
+       "upnlK": 0
+      },
+      {
+       "coin": "ETH",
+       "side": "LONG",
+       "usdK": 10,
        "upnlK": 0
       },
       {
@@ -12973,14 +12978,14 @@
     {
      "id": 748220,
      "prints": 434,
-     "volK": 11127,
-     "biasK": -937,
-     "equity": 30515,
+     "volK": 11121,
+     "biasK": -862,
+     "equity": 30517,
      "positions": [
       {
        "coin": "US100",
        "side": "SHORT",
-       "usdK": 202,
+       "usdK": 68,
        "upnlK": 0
       }
      ]
@@ -12990,13 +12995,13 @@
      "prints": 158,
      "volK": 4830,
      "biasK": -1611,
-     "equity": 83432,
+     "equity": 80697,
      "positions": [
       {
        "coin": "BTC",
        "side": "LONG",
        "usdK": 643,
-       "upnlK": 9
+       "upnlK": 8
       },
       {
        "coin": "ETH",
@@ -13023,7 +13028,7 @@
      "prints": 224,
      "volK": 4698,
      "biasK": 113,
-     "equity": 5815,
+     "equity": 5813,
      "positions": []
     }
    ]
@@ -13180,7 +13185,7 @@
   }
  },
  "intel": {
-  "ageH": 2.8,
+  "ageH": 2.9,
   "narratives": [
    "* Tokenized Assets (RWA): Morgan Stanley projects the tokenized assets market will reach $3T to $10T by 2030 (X).",
    "* Cross-Chain / Interoperability: LayerZero ($ZRO) gaining narrative traction through enterprise alignments with DTCC and ICE alongside Atlas launch catalysts (X).",
@@ -14898,7 +14903,7 @@
   "text": "The single most critical signal defining the current market structure is the dangerous divergence between surging retail buy volume and heavy institutional ETF outflows totaling $65.4 million today, while Bitcoin struggles to defend its $82,000 support level amidst a daily decline of 2.48%. This distribution pattern confirms that smart money is exiting via net exchange inflows for ETH as the Fear & Greed index sits at 57, masking underlying weakness with superficial greed. The risk is compounded by crowded short positions on SOL and a contracting stablecoin supply down 0.52% over seven days, creating a fragile floor beneath long liquidations that have already surged past $770 million. Headlines of whales moving $380 million after six years of dormancy suggest capitulation rather than accumulation, especially as Blur prepares to shut down its frontend next month amid dwindling NFT volume. The broader macro backdrop adds pressure with Brent crude spiking above $107 due to geopolitical strikes and global gold ETFs recording a record quarterly inflow of over $30 billion in Q3 2026, signaling a flight to safety that leaves risk assets vulnerable. Regulatory uncertainty looms large as the CFTC framework faces a potential 2028 election deadline, yet immediate technical breakdown below $81,500 could trigger cascading losses across the entire altcoin sector facing severe distribution pressure. With Papertrade revenue hitting $4 million and Hyperliquid whales maintaining heavy net shorts, the market lacks conviction for any meaningful upside despite the F&G reading. Traders must respect the confluence of stablecoin contraction and institutional selling, as a breach of key support levels will likely confirm a deeper correction rather than a healthy pullback."
  },
  "extendedCalls": {
-  "at": "2026-10-13T12:17:06.469Z",
+  "at": "2026-10-13T12:22:05.577Z",
   "horizonH": 12,
   "minRead": 20,
   "briefs": 12,
@@ -18421,7 +18426,7 @@
     "pickCycles7d": 0,
     "pickRate7d": null,
     "awaiting7d": 43,
-    "saves7d": 11,
+    "saves7d": 12,
     "routedSaves7d": 0,
     "cost7dUsd": 1.42,
     "calls7d": 28
