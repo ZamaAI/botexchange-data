@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15T22:17:03.978Z",
+ "generatedAt": "2026-10-15T22:22:05.126Z",
  "startCapital": 500,
  "since": "2026-10-06",
  "accountBasis": "mtm",
@@ -133,7 +133,7 @@
  "volState": {
   "hour": "2026-10-15T21",
   "asOf": "2026-10-15T21:00:00.000Z",
-  "ageMin": 77,
+  "ageMin": 82,
   "freezeMax": 15,
   "rows": [
    {
@@ -908,8 +908,8 @@
    "costUsd": 1.9,
    "costCalls": 37,
    "netPnl": 132.79,
-   "account": 631.96,
-   "retPct": 26.4,
+   "account": 631.63,
+   "retPct": 26.3,
    "accountRealized": 634.69,
    "regimes": {
     "RISK_ON": {
@@ -1831,8 +1831,8 @@
    "costUsd": 0.08,
    "costCalls": 14,
    "netPnl": -3.86,
-   "account": 504.95,
-   "retPct": 1,
+   "account": 504.52,
+   "retPct": 0.9,
    "accountRealized": 496.22,
    "regimes": {
     "RISK_ON": {
@@ -1931,9 +1931,9 @@
   "btc": {
    "startDate": "2026-10-06",
    "start": 85719.43,
-   "now": 82443.85,
+   "now": 82459.1,
    "retPct": -3.8,
-   "value": 480.89
+   "value": 480.98
   }
  },
  "oi": {
@@ -6270,24 +6270,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-10-14T22:20:00.000Z",
-   "hl": 0,
-   "hl_spot": 490.989684,
-   "grvt": null,
-   "extended": 424.938788,
-   "capital": 3405.046067,
-   "qwen": 624.04,
-   "hermes": 490.99,
-   "manual": 424.94,
-   "kimi": 495.93,
-   "deepseek": 501.26,
-   "gemini": 500.69,
-   "luna": 490.4,
-   "minimax": 500.83,
-   "haiku55": 500,
-   "qwen38": 500
-  },
   {
    "ts": "2026-10-14T22:25:00.000Z",
    "hl": 0.48988,
@@ -11417,6 +11399,24 @@
    "minimax": 500.97,
    "haiku55": 500,
    "qwen38": 504.95
+  },
+  {
+   "ts": "2026-10-15T22:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 486.690252,
+   "grvt": null,
+   "extended": 653.860258,
+   "capital": 3636.250165,
+   "qwen": 631.63,
+   "hermes": 486.69,
+   "manual": 653.86,
+   "kimi": 500.83,
+   "deepseek": 503.98,
+   "gemini": 503.04,
+   "luna": 486.88,
+   "minimax": 500.97,
+   "haiku55": 500,
+   "qwen38": 504.52
   }
  ],
  "venuesLive": {
@@ -12287,7 +12287,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-10-15T22:17:03.995Z",
+  "at": "2026-10-15T22:22:05.209Z",
   "windowDays": 14,
   "registered": 197,
   "filled": 38,
@@ -12452,7 +12452,7 @@
   }
  },
  "learning": {
-  "at": "2026-10-15T22:17:03.995Z",
+  "at": "2026-10-15T22:22:05.210Z",
   "since": "2026-10-06T18:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -13006,7 +13006,13 @@
    "stop": 2390.85,
    "target": 2499.53,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 2461.66,
+    "asOf": "2026-10-15T22:19:35.464Z"
+   }
   },
   {
    "asset": "ETH",
@@ -13018,7 +13024,13 @@
    "stop": 2502.48,
    "target": 2812.07,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 2452.9,
+    "asOf": "2026-10-15T22:19:34.422Z"
+   }
   },
   {
    "asset": "ETH",
@@ -13030,7 +13042,13 @@
    "stop": 2503.57,
    "target": 2813.29,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 2452.9,
+    "asOf": "2026-10-15T22:19:33.417Z"
+   }
   },
   {
    "asset": "ETH",
@@ -13047,7 +13065,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 2461.66,
-    "asOf": "2026-10-15T22:04:08.308Z"
+    "asOf": "2026-10-15T22:19:14.919Z"
    }
   },
   {
@@ -13065,7 +13083,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1.3441,
-    "asOf": "2026-10-15T22:04:25.536Z"
+    "asOf": "2026-10-15T22:19:32.081Z"
    }
   },
   {
@@ -13083,7 +13101,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 2.09,
-    "asOf": "2026-10-15T22:04:15.475Z"
+    "asOf": "2026-10-15T22:19:24.052Z"
    }
   },
   {
@@ -13101,7 +13119,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 2452.9,
-    "asOf": "2026-10-15T22:04:24.131Z"
+    "asOf": "2026-10-15T22:19:30.339Z"
    }
   },
   {
@@ -13119,7 +13137,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 82425.1,
-    "asOf": "2026-10-15T22:04:23.076Z"
+    "asOf": "2026-10-15T22:19:29.668Z"
    }
   },
   {
@@ -13137,7 +13155,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 106.05,
-    "asOf": "2026-10-15T22:04:22.024Z"
+    "asOf": "2026-10-15T22:19:28.257Z"
    }
   },
   {
@@ -13155,7 +13173,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 86.104,
-    "asOf": "2026-10-15T22:04:20.540Z"
+    "asOf": "2026-10-15T22:19:26.835Z"
    }
   },
   {
@@ -13185,7 +13203,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 106.03,
-    "asOf": "2026-10-15T22:04:17.765Z"
+    "asOf": "2026-10-15T22:19:25.785Z"
    }
   },
   {
@@ -13203,7 +13221,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 30.58,
-    "asOf": "2026-10-15T22:04:12.675Z"
+    "asOf": "2026-10-15T22:19:20.492Z"
    }
   },
   {
@@ -13221,7 +13239,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 55.966,
-    "asOf": "2026-10-15T22:04:15.480Z"
+    "asOf": "2026-10-15T22:19:24.433Z"
    }
   },
   {
@@ -13239,7 +13257,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 2461.66,
-    "asOf": "2026-10-15T22:04:05.860Z"
+    "asOf": "2026-10-15T22:19:11.887Z"
    }
   },
   {
@@ -13257,7 +13275,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 82425.1,
-    "asOf": "2026-10-15T22:04:04.862Z"
+    "asOf": "2026-10-15T22:19:10.854Z"
    }
   },
   {
@@ -13275,7 +13293,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1.756,
-    "asOf": "2026-10-15T22:04:13.707Z"
+    "asOf": "2026-10-15T22:19:21.915Z"
    }
   },
   {
@@ -13293,7 +13311,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 69.15,
-    "asOf": "2026-10-15T22:04:11.991Z"
+    "asOf": "2026-10-15T22:19:18.594Z"
    }
   },
   {
@@ -13311,7 +13329,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.09552,
-    "asOf": "2026-10-15T22:04:12.667Z"
+    "asOf": "2026-10-15T22:19:20.110Z"
    }
   },
   {
@@ -13329,7 +13347,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 474.56,
-    "asOf": "2026-10-15T22:04:11.062Z"
+    "asOf": "2026-10-15T22:19:18.181Z"
    }
   },
   {
@@ -13347,7 +13365,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.9266,
-    "asOf": "2026-10-15T22:04:11.056Z"
+    "asOf": "2026-10-15T22:19:17.797Z"
    }
   },
   {
@@ -13365,7 +13383,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 8.5,
-    "asOf": "2026-10-15T22:04:10.030Z"
+    "asOf": "2026-10-15T22:19:16.752Z"
    }
   },
   {
@@ -13383,7 +13401,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 82425.1,
-    "asOf": "2026-10-15T22:04:00.709Z"
+    "asOf": "2026-10-15T22:19:03.220Z"
    }
   },
   {
@@ -13401,7 +13419,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 733.09,
-    "asOf": "2026-10-15T22:04:01.723Z"
+    "asOf": "2026-10-15T22:19:04.549Z"
    }
   },
   {
@@ -13419,7 +13437,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1.3409,
-    "asOf": "2026-10-15T22:04:08.974Z"
+    "asOf": "2026-10-15T22:19:15.643Z"
    }
   },
   {
@@ -13437,7 +13455,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.4242,
-    "asOf": "2026-10-15T22:04:06.891Z"
+    "asOf": "2026-10-15T22:19:12.927Z"
    }
   },
   {
@@ -13455,7 +13473,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.8313,
-    "asOf": "2026-10-15T22:04:02.851Z"
+    "asOf": "2026-10-15T22:19:08.396Z"
    }
   },
   {
@@ -13473,7 +13491,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 0.3137,
-    "asOf": "2026-10-15T22:04:03.862Z"
+    "asOf": "2026-10-15T22:19:09.806Z"
    }
   },
   {
@@ -13491,7 +13509,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 111.22,
-    "asOf": "2026-10-15T22:04:02.138Z"
+    "asOf": "2026-10-15T22:19:07.063Z"
    }
   }
  ],
@@ -13669,28 +13687,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 82443.85,
-    "change24hPct": 0.95
+    "price": 82459.1,
+    "change24hPct": 1.04
    },
    {
     "symbol": "ETH",
-    "price": 2461.75,
+    "price": 2461.36,
     "change24hPct": 2.04
    },
    {
     "symbol": "BNB",
-    "price": 730.33,
-    "change24hPct": 0.25
+    "price": 730.39,
+    "change24hPct": 0.24
    },
    {
     "symbol": "XRP",
-    "price": 1.342,
-    "change24hPct": 0.79
+    "price": 1.3409,
+    "change24hPct": 0.58
    },
    {
     "symbol": "SOL",
-    "price": 106.08,
-    "change24hPct": 1.54
+    "price": 106,
+    "change24hPct": 1.48
    }
   ],
   "fearGreed": {
@@ -13815,32 +13833,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 1.514,
+    "ratio": 1.513,
     "longPct": 60.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "ETH",
-    "ratio": 2.687,
+    "ratio": 2.686,
     "longPct": 72.9,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 2.398,
+    "ratio": 2.397,
     "longPct": 70.6,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.514,
-    "longPct": 71.5,
+    "ratio": 2.517,
+    "longPct": 71.6,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.697,
-    "longPct": 73,
+    "ratio": 2.696,
+    "longPct": 72.9,
     "bias": "CROWDED LONG"
    }
   ],
@@ -13920,7 +13938,7 @@
      "changePct": -10.8
     }
    ],
-   "ageMin": 17
+   "ageMin": 22
   },
   "chainRotation": {
    "chains": [
@@ -14063,7 +14081,7 @@
      1
     ]
    ],
-   "ageMin": 122
+   "ageMin": 127
   }
  },
  "calendar": [
@@ -14997,7 +15015,7 @@
   "disagreement": "ETH"
  },
  "manualBook": {
-  "at": "2026-10-15T22:02:07.881Z",
+  "at": "2026-10-15T22:22:05.126Z",
   "positions": [
    {
     "asset": "PUMP",
@@ -15032,7 +15050,7 @@
     "stock": true,
     "direction": "LONG",
     "entry": 103.166,
-    "pnlPct": 0.11
+    "pnlPct": 0.61
    }
   ]
  },
@@ -15833,7 +15851,7 @@
   }
  },
  "intel": {
-  "ageH": 0.8,
+  "ageH": 0.9,
   "narratives": [
    "• Big Tech AI Hardware & Alliances: Public tech giants are establishing cross-firm AI integrations, notably the Apple-Meta local Mac Studio AI model deployment and Germany's multi-million-euro industrial robotics partner",
    "• Onchain Yield Spreads & Fixed Capital: Tokenized T-bill funds saw spreads widen to 1.06 points below onchain dollar yields in Q3; Maple delivered top base yields without incentives (+1.43 points over funds), Aave adjus",
@@ -18238,7 +18256,7 @@
   "text": "The single most critical factor dominating the market right now is the divergence between spot price stability and aggressive derivative deleveraging, signaling a long squeeze bottoming process rather than immediate capitulation. Institutional outflows totaling $261M from ETFs combined with a 0.59% contraction in stablecoin supply over seven days have overridden retail long liquidations of $210M to push sentiment lower. This dynamic is exacerbated by negative on-chain whale positioning, where Hyperliquid top accounts sit net short across BTC at $699M, ETH at $767M, and SOL at $143M. The primary risk remains macro-driven downside if US inflation data continues to anchor yields higher, triggering a 72% probability of renewed rate hike fears that could further erode dollar liquidity. Our internal real-money closes since late July confirm that shorts entered after the drop often stop on the bounce, while continuation longs bleed without real momentum proof like rising open interest or a reclaim of the 20-day moving average. The current tape is down-trending in a risk-off regime, but this does not automatically justify shorting this fleet as our historical data shows random shorts lose significantly more than our disciplined entries. Most breakout longs here lack follow-through and bleed quickly without a catalyst or clear exhaustion at support. Dollar liquidity is currently flat with no distinct tailwind or headwind, forcing traders to rely entirely on price structure rather than macro narratives. While headlines highlight Apple surpassing a five trillion market cap and Solana ecosystem growth, the underlying mechanics suggest caution against reflexive dip buying."
  },
  "extendedCalls": {
-  "at": "2026-10-15T22:17:04.009Z",
+  "at": "2026-10-15T22:22:05.261Z",
   "horizonH": 12,
   "minRead": 20,
   "briefs": 17,
