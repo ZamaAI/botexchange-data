@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-18T09:17:06.453Z",
+ "generatedAt": "2026-10-18T09:22:01.892Z",
  "startCapital": 500,
  "since": "2026-10-06",
  "accountBasis": "mtm",
@@ -133,7 +133,7 @@
  "volState": {
   "hour": "2026-10-18T08",
   "asOf": "2026-10-18T08:00:00.000Z",
-  "ageMin": 77,
+  "ageMin": 82,
   "freezeMax": 15,
   "rows": [
    {
@@ -764,7 +764,7 @@
  },
  "seasonTransfers": {
   "since": "2026-10-06T17:58:58.594Z",
-  "sweptAt": null,
+  "sweptAt": "2026-10-18T09:19:49.965Z",
   "bySeat": {
    "grok": {
     "net": 0.8,
@@ -836,8 +836,8 @@
    "costUsd": 1.95,
    "costCalls": 38,
    "netPnl": 114.79,
-   "account": 613.38,
-   "retPct": 22.7,
+   "account": 612.15,
+   "retPct": 22.4,
    "accountRealized": 616.74,
    "regimes": {
     "RISK_ON": {
@@ -1761,8 +1761,8 @@
    "costUsd": 0.1,
    "costCalls": 20,
    "netPnl": -8.13,
-   "account": 490.52,
-   "retPct": -1.9,
+   "account": 490.02,
+   "retPct": -2,
    "accountRealized": 491.97,
    "regimes": {
     "RISK_ON": {
@@ -1861,9 +1861,9 @@
   "btc": {
    "startDate": "2026-10-06",
    "start": 85719.43,
-   "now": 82015.94,
-   "retPct": -4.3,
-   "value": 478.4
+   "now": 81905.81,
+   "retPct": -4.4,
+   "value": 477.76
   }
  },
  "oi": {
@@ -6758,6 +6758,24 @@
    "minimax": 498.5,
    "haiku55": 500,
    "qwen38": 490.52
+  },
+  {
+   "ts": "2026-10-18T09:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 486.433589,
+   "grvt": null,
+   "extended": 430.493146,
+   "capital": 3394.5641529999994,
+   "qwen": 612.15,
+   "hermes": 486.43,
+   "manual": 430.49,
+   "kimi": 495.69,
+   "deepseek": 497.91,
+   "gemini": 498.65,
+   "luna": 486.88,
+   "minimax": 498.5,
+   "haiku55": 500,
+   "qwen38": 490.02
   }
  ],
  "venuesLive": {
@@ -7660,7 +7678,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-10-18T09:17:06.863Z",
+  "at": "2026-10-18T09:22:01.908Z",
   "windowDays": 14,
   "registered": 190,
   "filled": 37,
@@ -7821,7 +7839,7 @@
   }
  },
  "learning": {
-  "at": "2026-10-18T09:17:06.865Z",
+  "at": "2026-10-18T09:22:01.909Z",
   "since": "2026-10-06T18:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -8231,7 +8249,13 @@
    "stop": 0.07488,
    "target": 0.09204,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "through",
+    "lastClose": 0.07839,
+    "asOf": "2026-10-18T09:19:31.749Z"
+   }
   },
   {
    "asset": "BTC",
@@ -8243,7 +8267,13 @@
    "stop": 79292.5,
    "target": 84122.5,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 81681.14,
+    "asOf": "2026-10-18T09:19:30.724Z"
+   }
   },
   {
    "asset": "ETH",
@@ -8255,7 +8285,13 @@
    "stop": 2502.48,
    "target": 2812.07,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 2408.62,
+    "asOf": "2026-10-18T09:19:21.587Z"
+   }
   },
   {
    "asset": "BTC",
@@ -8267,7 +8303,13 @@
    "stop": 82486.8,
    "target": 86236.2,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 81681.14,
+    "asOf": "2026-10-18T09:19:29.349Z"
+   }
   },
   {
    "asset": "BTC",
@@ -8279,7 +8321,13 @@
    "stop": 83628,
    "target": 80316,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 81681.14,
+    "asOf": "2026-10-18T09:19:28.682Z"
+   }
   },
   {
    "asset": "AERO",
@@ -8291,7 +8339,13 @@
    "stop": 0.839632,
    "target": 0.939176,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 0.8356,
+    "asOf": "2026-10-18T09:19:27.662Z"
+   }
   },
   {
    "asset": "BTC",
@@ -8303,7 +8357,13 @@
    "stop": 82937,
    "target": 87147,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 81681.14,
+    "asOf": "2026-10-18T09:19:26.291Z"
+   }
   },
   {
    "asset": "USAR",
@@ -8315,7 +8375,13 @@
    "stop": 10.15,
    "target": 11.5,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 10.496,
+    "asOf": "2026-10-18T09:19:24.702Z"
+   }
   },
   {
    "asset": "STRK",
@@ -8327,7 +8393,13 @@
    "stop": 0.084,
    "target": 0.098,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 0.06439,
+    "asOf": "2026-10-18T09:19:24.317Z"
+   }
   },
   {
    "asset": "ETH",
@@ -8339,7 +8411,13 @@
    "stop": 2390.85,
    "target": 2499.53,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 2410.67,
+    "asOf": "2026-10-18T09:19:23.645Z"
+   }
   },
   {
    "asset": "ETH",
@@ -8351,7 +8429,13 @@
    "stop": 2502.48,
    "target": 2812.07,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 2408.62,
+    "asOf": "2026-10-18T09:19:22.924Z"
+   }
   },
   {
    "asset": "XRP",
@@ -8363,7 +8447,13 @@
    "stop": 1.2789,
    "target": 1.4094,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 1.2929,
+    "asOf": "2026-10-18T09:19:20.242Z"
+   }
   },
   {
    "asset": "ETH",
@@ -8375,7 +8465,13 @@
    "stop": 2420.6,
    "target": 2605.85,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 2408.62,
+    "asOf": "2026-10-18T09:19:18.193Z"
+   }
   },
   {
    "asset": "BTC",
@@ -8387,7 +8483,13 @@
    "stop": 81000,
    "target": 89000,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 81731.79,
+    "asOf": "2026-10-18T09:19:17.552Z"
+   }
   },
   {
    "asset": "SOL",
@@ -8399,7 +8501,13 @@
    "stop": 102.5,
    "target": 118,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 103.19,
+    "asOf": "2026-10-18T09:19:16.523Z"
+   }
   },
   {
    "asset": "CRCL",
@@ -8411,7 +8519,13 @@
    "stop": 86.19,
    "target": 93.5,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 81.907,
+    "asOf": "2026-10-18T09:19:15.471Z"
+   }
   },
   {
    "asset": "ZRO",
@@ -8423,7 +8537,13 @@
    "stop": 1.8816,
    "target": 2.303,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 1.834,
+    "asOf": "2026-10-18T09:19:15.094Z"
+   }
   },
   {
    "asset": "SOL",
@@ -8435,7 +8555,13 @@
    "stop": 111.23,
    "target": 120.877,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 103.31,
+    "asOf": "2026-10-18T09:19:13.694Z"
+   }
   },
   {
    "asset": "IREN",
@@ -8447,7 +8573,13 @@
    "stop": 25.8,
    "target": 31,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 26.318,
+    "asOf": "2026-10-18T09:19:10.308Z"
+   }
   },
   {
    "asset": "RKLB",
@@ -8459,7 +8591,13 @@
    "stop": 48.2,
    "target": 56,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 50.366,
+    "asOf": "2026-10-18T09:19:12.105Z"
+   }
   },
   {
    "asset": "ETH",
@@ -8471,7 +8609,13 @@
    "stop": 2415,
    "target": 2250,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 2410.67,
+    "asOf": "2026-10-18T09:19:04.543Z"
+   }
   },
   {
    "asset": "BTC",
@@ -8483,7 +8627,13 @@
    "stop": 79194,
    "target": 84018,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 81731.79,
+    "asOf": "2026-10-18T09:19:03.876Z"
+   }
   },
   {
    "asset": "ATOM",
@@ -8495,7 +8645,13 @@
    "stop": 1.6268,
    "target": 1.8426,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 1.714,
+    "asOf": "2026-10-18T09:19:11.729Z"
+   }
   },
   {
    "asset": "CRWV",
@@ -8507,7 +8663,13 @@
    "stop": 63,
    "target": 75,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 60.635,
+    "asOf": "2026-10-18T09:19:08.881Z"
+   }
   },
   {
    "asset": "PYTH",
@@ -8519,7 +8681,13 @@
    "stop": 0.093,
    "target": 0.078,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 0.07839,
+    "asOf": "2026-10-18T09:19:09.930Z"
+   }
   },
   {
    "asset": "DELL",
@@ -8531,7 +8699,13 @@
    "stop": 506,
    "target": 525,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 448.67,
+    "asOf": "2026-10-18T09:19:08.480Z"
+   }
   },
   {
    "asset": "AERO",
@@ -8543,7 +8717,13 @@
    "stop": 0.998,
    "target": 0.92,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 0.8356,
+    "asOf": "2026-10-18T09:19:08.102Z"
+   }
   },
   {
    "asset": "BTC",
@@ -8555,7 +8735,13 @@
    "stop": 85700,
    "target": 80900,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 81731.79,
+    "asOf": "2026-10-18T09:19:01.024Z"
+   }
   },
   {
    "asset": "BNB",
@@ -8567,7 +8753,13 @@
    "stop": 731.3,
    "target": 649.65,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 720.87,
+    "asOf": "2026-10-18T09:19:02.809Z"
+   }
   },
   {
    "asset": "XRP",
@@ -8579,7 +8771,13 @@
    "stop": 1.445,
    "target": 1.285,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 1.2924,
+    "asOf": "2026-10-18T09:19:07.039Z"
+   }
   },
   {
    "asset": "STX",
@@ -8591,7 +8789,13 @@
    "stop": 0.465,
    "target": 0.39,
    "levelsApprox": false,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 0.3694,
+    "asOf": "2026-10-18T09:19:05.617Z"
+   }
   }
  ],
  "recentCloses": [
@@ -8768,35 +8972,35 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 82015.94,
-    "change24hPct": 0.35
+    "price": 81905.81,
+    "change24hPct": 0.23
    },
    {
     "symbol": "ETH",
-    "price": 2421.97,
-    "change24hPct": -0.56
+    "price": 2416.76,
+    "change24hPct": -0.76
    },
    {
     "symbol": "BNB",
-    "price": 721.85,
-    "change24hPct": -0.12
+    "price": 721.27,
+    "change24hPct": -0.18
    },
    {
     "symbol": "XRP",
-    "price": 1.2987,
-    "change24hPct": -0.6
+    "price": 1.2965,
+    "change24hPct": -0.72
    },
    {
     "symbol": "SOL",
-    "price": 103.95,
-    "change24hPct": -1.05
+    "price": 103.66,
+    "change24hPct": -1.32
    }
   ],
   "fearGreed": {
    "value": 53,
    "classification": "Neutral"
   },
-  "regime": null,
+  "regime": "RISK_OFF",
   "stockFearGreed": {
    "value": 18,
    "classification": "Extreme Fear",
@@ -8831,6 +9035,13 @@
     "price": 5.098,
     "changeBp": 0.9
    }
+  },
+  "netLiquidity": {
+   "usdB": 5872.1,
+   "deltaB": 7.9,
+   "weeks": 4,
+   "trend": "FLAT",
+   "date": "2026-10-14"
   },
   "equityRegime": "NEUTRAL",
   "longShort": [
@@ -9002,7 +9213,7 @@
      3
     ]
    ],
-   "ageMin": 126
+   "ageMin": 131
   }
  },
  "calendar": [
@@ -9032,6 +9243,12 @@
   },
   {
    "date": "2026-10-22",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-10-22",
    "event": "WDC earnings (AMC)",
    "type": "EARNINGS",
    "impact": "MED"
@@ -9046,6 +9263,12 @@
    "date": "2026-10-22",
    "event": "NOK earnings (BMO)",
    "type": "EARNINGS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-10-23",
+   "event": "UMich Consumer Sentiment",
+   "type": "SENTIMENT",
    "impact": "MED"
   },
   {
@@ -9073,16 +9296,76 @@
    "impact": "HIGH"
   },
   {
+   "date": "2026-10-29",
+   "event": "US GDP Release",
+   "type": "GDP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-10-29",
+   "event": "PCE Inflation (Fed’s gauge)",
+   "type": "PCE",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-10-29",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-10-30",
+   "event": "Employment Cost Index",
+   "type": "ECI",
+   "impact": "MED"
+  },
+  {
    "date": "2026-11-01",
    "event": "ENA token unlock — 122.9M over 14d = 1.70% of float; largest day 0.12% (Team + Investors) [linear vesting]",
    "type": "UNLOCK",
    "impact": "MED"
   },
   {
-   "date": "2026-11-13",
-   "event": "US CPI Release (Oct)",
+   "date": "2026-11-03",
+   "event": "JOLTS Job Openings",
+   "type": "JOLTS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-11-05",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-11-06",
+   "event": "Non-Farm Payrolls",
+   "type": "NFP",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-11-10",
+   "event": "US CPI Release",
    "type": "CPI",
    "impact": "HIGH"
+  },
+  {
+   "date": "2026-11-12",
+   "event": "US Jobless Claims (weekly)",
+   "type": "CLAIMS",
+   "impact": "MED"
+  },
+  {
+   "date": "2026-11-13",
+   "event": "US PPI Release",
+   "type": "PPI",
+   "impact": "HIGH"
+  },
+  {
+   "date": "2026-11-17",
+   "event": "US Retail Sales",
+   "type": "RETAIL",
+   "impact": "MED"
   }
  ],
  "weekAhead": {
@@ -10107,37 +10390,30 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 4079,
+   "totalPrints7d": 4068,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
     {
      "coin": "BTC",
-     "l": 3,
-     "s": 2,
-     "netK": -3313,
-     "concPct": 54
+     "l": 2,
+     "s": 4,
+     "netK": -3778,
+     "concPct": 49
     },
     {
      "coin": "ETH",
      "l": 3,
      "s": 1,
-     "netK": 938,
-     "concPct": 64
-    },
-    {
-     "coin": "SOL",
-     "l": 2,
-     "s": 1,
-     "netK": -838,
-     "concPct": 97
+     "netK": 859,
+     "concPct": 61
     },
     {
      "coin": "HYPE",
      "l": 1,
      "s": 1,
-     "netK": -529,
-     "concPct": 98
+     "netK": -908,
+     "concPct": 99
     },
     {
      "coin": "US100",
@@ -10145,6 +10421,13 @@
      "s": 1,
      "netK": -54,
      "concPct": 65
+    },
+    {
+     "coin": "SOL",
+     "l": 2,
+     "s": 1,
+     "netK": 24,
+     "concPct": 59
     },
     {
      "coin": "XPT",
@@ -10171,8 +10454,13 @@
    "coinFlow": [
     {
      "coin": "ETH",
-     "netK": -3606,
-     "n": 858
+     "netK": -3285,
+     "n": 850
+    },
+    {
+     "coin": "HYPE",
+     "netK": -807,
+     "n": 226
     },
     {
      "coin": "XAG",
@@ -10180,19 +10468,14 @@
      "n": 66
     },
     {
-     "coin": "HYPE",
-     "netK": -681,
-     "n": 218
-    },
-    {
-     "coin": "BTC",
-     "netK": -529,
-     "n": 633
+     "coin": "SOL",
+     "netK": 450,
+     "n": 140
     },
     {
      "coin": "ZEC",
-     "netK": 361,
-     "n": 408
+     "netK": 443,
+     "n": 403
     }
    ],
    "accounts": [
@@ -10201,7 +10484,7 @@
      "prints": 550,
      "volK": 16794,
      "biasK": -388,
-     "equity": 56464,
+     "equity": 56494,
      "positions": [
       {
        "coin": "US100",
@@ -10216,12 +10499,12 @@
      "prints": 492,
      "volK": 12218,
      "biasK": 214,
-     "equity": 15549,
+     "equity": 15505,
      "positions": [
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 205,
+       "usdK": 193,
        "upnlK": 0
       }
      ]
@@ -10231,19 +10514,19 @@
      "prints": 79,
      "volK": 3776,
      "biasK": -3547,
-     "equity": 300460,
+     "equity": 302829,
      "positions": [
       {
        "coin": "BTC",
        "side": "SHORT",
-       "usdK": 2048,
+       "usdK": 2047,
        "upnlK": -3
       },
       {
        "coin": "ETH",
        "side": "SHORT",
-       "usdK": 980,
-       "upnlK": 2
+       "usdK": 978,
+       "upnlK": 4
       }
      ]
     },
@@ -10252,18 +10535,12 @@
      "prints": 69,
      "volK": 3521,
      "biasK": -226,
-     "equity": 1194893,
+     "equity": 1194757,
      "positions": [
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 42,
-       "upnlK": 0
-      },
-      {
-       "coin": "BTC",
-       "side": "LONG",
-       "usdK": 25,
+       "usdK": 116,
        "upnlK": 0
       },
       {
@@ -10271,21 +10548,33 @@
        "side": "LONG",
        "usdK": 21,
        "upnlK": 0
+      },
+      {
+       "coin": "BTC",
+       "side": "SHORT",
+       "usdK": 11,
+       "upnlK": 0
       }
      ]
     },
     {
      "id": 731910,
-     "prints": 101,
-     "volK": 2054,
-     "biasK": -481,
-     "equity": 133371,
+     "prints": 117,
+     "volK": 2316,
+     "biasK": -743,
+     "equity": 135513,
      "positions": [
+      {
+       "coin": "BTC",
+       "side": "SHORT",
+       "usdK": 1821,
+       "upnlK": 0
+      },
       {
        "coin": "HYPE",
        "side": "SHORT",
-       "usdK": 539,
-       "upnlK": -3
+       "usdK": 918,
+       "upnlK": -1
       }
      ]
     }
@@ -10499,7 +10788,7 @@
   }
  },
  "intel": {
-  "ageH": 5.8,
+  "ageH": 5.9,
   "narratives": [
    "* AI Capex vs. Credit Pressures: Big Tech's projected $750B capex and Anthropic's forecast of AI boosting US GDP to $44T by 2030 contrast with tech equity drawdowns and rising debt stress in tech credit (X).",
    "* Stablecoin Disruption: BIS findings highlight stablecoins taking market share directly from traditional bank deposits as macro debasement concerns escalate (X).",
@@ -13094,7 +13383,7 @@
   "text": "The single most critical factor dominating the market right now is the confluence of rising US inflation data and persistent institutional ETF selling, creating immediate overhead supply pressure despite a cautiously bullish bias. The September PPI unexpectedly surged to 6.3% with core at 5.0%, which has instantly boosted Fed rate hike odds to 49% and triggered approximately one billion dollars in total crypto liquidations as Bitcoin dropped toward the eighty-one thousand dollar support level. This macro friction is evident in today's twenty-sixty-one point five million dollar outflow from spot ETFs, yet on-chain data suggests this selling is being absorbed effectively; exchange inflows remain balanced for Bitcoin and are net positive for Ethereum over the past seven days. While the Fear and Greed index sits at sixty-three indicating greed, the tape is technically down-trending under a Risk Off regime, but history shows that shorting here is often premature. Our real-money closes since late July demonstrate that shorts were on the right side of entry only twenty-nine times in ninety-seven instances over this period, losing fifty-three R in total, whereas continuation longs require genuine momentum proof like rising open interest and price to succeed. Most breakout attempts bleed without follow-through because dollar liquidity is currently flat with no macro tailwind or headwind either way. Traders must avoid reflexive dip buys unless there is a clear exhaustion signal at support with a catalyst. The default stance remains no short unless a specific mechanism exists in the printed blocks, and conviction below seven dictates trading at half size."
  },
  "extendedCalls": {
-  "at": "2026-10-18T09:17:06.888Z",
+  "at": "2026-10-18T09:22:04.083Z",
   "horizonH": 12,
   "minRead": 20,
   "briefs": 18,
