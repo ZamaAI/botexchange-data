@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T02:15:10.461Z",
+ "generatedAt": "2026-10-20T02:17:02.977Z",
  "startCapital": 500,
  "since": "2026-10-06",
  "accountBasis": "mtm",
@@ -135,7 +135,7 @@
  "volState": {
   "hour": "2026-10-20T01",
   "asOf": "2026-10-20T01:00:00.000Z",
-  "ageMin": 75,
+  "ageMin": 77,
   "freezeMax": 15,
   "rows": [
    {
@@ -814,8 +814,8 @@
    "costUsd": 2.32,
    "costCalls": 45,
    "netPnl": 92.79,
-   "account": 594.81,
-   "retPct": 19,
+   "account": 597.94,
+   "retPct": 19.6,
    "accountRealized": 595.11,
    "regimes": {
     "RISK_ON": {
@@ -1839,9 +1839,9 @@
   "btc": {
    "startDate": "2026-10-06",
    "start": 85719.43,
-   "now": 81673.19,
-   "retPct": -4.7,
-   "value": 476.4
+   "now": 81748.32,
+   "retPct": -4.6,
+   "value": 476.84
   }
  },
  "oi": {
@@ -12323,7 +12323,7 @@
    "grvt": null,
    "extended": 290.655642,
    "capital": 3253.7189590000003,
-   "qwen": 594.81,
+   "qwen": 597.94,
    "hermes": 486.59,
    "manual": 290.66,
    "kimi": 494.53,
@@ -12343,51 +12343,35 @@
   "total": 2963.063317
  },
  "awaitingScore": {
-  "at": "2026-10-19T02:15:31.079Z",
+  "at": "2026-10-20T02:15:40.356Z",
   "windowDays": 14,
-  "scorable": 62,
-  "noTouch": 23,
-  "decided": 32,
+  "scorable": 55,
+  "noTouch": 25,
+  "decided": 28,
   "wouldWin": 7,
-  "laneWR": 21.9,
-  "liveWR": 21.7,
-  "liveN": 46
+  "laneWR": 25,
+  "liveWR": 21.3,
+  "liveN": 47
  },
  "referee": {
-  "at": "2026-10-19T02:16:28.717Z",
+  "at": "2026-10-20T02:16:55.692Z",
   "windowDays": 14,
-  "total": 86,
+  "total": 88,
   "verdicts": {
-   "n": 86,
-   "good": 48,
+   "n": 88,
+   "good": 44,
    "missed": 22,
    "ambiguous": 0,
-   "unresolved": 12,
+   "unresolved": 18,
    "unscorable": 4
   },
   "byGate": {
-   "rr_floor": {
-    "n": 25,
-    "good": 12,
-    "missed": 5,
-    "ambiguous": 0,
-    "unresolved": 6,
-    "unscorable": 2
-   },
-   "stop_hard_ceiling": {
-    "n": 4,
-    "good": 4,
-    "missed": 0,
-    "ambiguous": 0,
-    "unresolved": 0,
-    "unscorable": 0
-   },
    "struct_chase": {
     "n": 16,
-    "good": 12,
+    "good": 13,
     "missed": 2,
     "ambiguous": 0,
-    "unresolved": 2,
+    "unresolved": 1,
     "unscorable": 0
    },
    "anticipation": {
@@ -12398,12 +12382,28 @@
     "unresolved": 2,
     "unscorable": 2
    },
+   "rr_floor": {
+    "n": 26,
+    "good": 9,
+    "missed": 5,
+    "ambiguous": 0,
+    "unresolved": 10,
+    "unscorable": 2
+   },
    "stop_min_distance": {
-    "n": 8,
+    "n": 9,
     "good": 3,
     "missed": 4,
     "ambiguous": 0,
-    "unresolved": 1,
+    "unresolved": 2,
+    "unscorable": 0
+   },
+   "stop_hard_ceiling": {
+    "n": 4,
+    "good": 2,
+    "missed": 0,
+    "ambiguous": 0,
+    "unresolved": 2,
     "unscorable": 0
    },
    "reentry_cooldown": {
@@ -12417,19 +12417,19 @@
   },
   "byActor": {
    "qwen": {
-    "n": 65,
-    "good": 37,
+    "n": 63,
+    "good": 32,
     "missed": 18,
     "ambiguous": 0,
-    "unresolved": 6,
+    "unresolved": 9,
     "unscorable": 4
    },
    "kimi": {
     "n": 5,
-    "good": 3,
+    "good": 4,
     "missed": 1,
     "ambiguous": 0,
-    "unresolved": 1,
+    "unresolved": 0,
     "unscorable": 0
    },
    "minimax": {
@@ -12449,11 +12449,11 @@
     "unscorable": 0
    },
    "qwen38": {
-    "n": 9,
+    "n": 13,
     "good": 4,
     "missed": 2,
     "ambiguous": 0,
-    "unresolved": 3,
+    "unresolved": 7,
     "unscorable": 0
    },
    "gemini": {
@@ -12467,22 +12467,6 @@
   },
   "byActorGate": {
    "qwen": {
-    "rr_floor": {
-     "n": 18,
-     "good": 8,
-     "missed": 4,
-     "ambiguous": 0,
-     "unresolved": 4,
-     "unscorable": 2
-    },
-    "stop_hard_ceiling": {
-     "n": 4,
-     "good": 4,
-     "missed": 0,
-     "ambiguous": 0,
-     "unresolved": 0,
-     "unscorable": 0
-    },
     "struct_chase": {
      "n": 7,
      "good": 7,
@@ -12499,12 +12483,28 @@
      "unresolved": 1,
      "unscorable": 2
     },
+    "rr_floor": {
+     "n": 16,
+     "good": 5,
+     "missed": 4,
+     "ambiguous": 0,
+     "unresolved": 5,
+     "unscorable": 2
+    },
     "stop_min_distance": {
      "n": 5,
      "good": 2,
      "missed": 3,
      "ambiguous": 0,
      "unresolved": 0,
+     "unscorable": 0
+    },
+    "stop_hard_ceiling": {
+     "n": 4,
+     "good": 2,
+     "missed": 0,
+     "ambiguous": 0,
+     "unresolved": 2,
      "unscorable": 0
     },
     "reentry_cooldown": {
@@ -12519,10 +12519,10 @@
    "kimi": {
     "struct_chase": {
      "n": 4,
-     "good": 2,
+     "good": 3,
      "missed": 1,
      "ambiguous": 0,
-     "unresolved": 1,
+     "unresolved": 0,
      "unscorable": 0
     },
     "rr_floor": {
@@ -12556,19 +12556,19 @@
    },
    "qwen38": {
     "rr_floor": {
-     "n": 6,
+     "n": 9,
      "good": 3,
      "missed": 1,
      "ambiguous": 0,
-     "unresolved": 2,
+     "unresolved": 5,
      "unscorable": 0
     },
     "stop_min_distance": {
-     "n": 3,
+     "n": 4,
      "good": 1,
      "missed": 1,
      "ambiguous": 0,
-     "unresolved": 1,
+     "unresolved": 2,
      "unscorable": 0
     }
    },
@@ -12585,6 +12585,36 @@
   },
   "byActorRecent": {
    "qwen": [
+    {
+     "ts": "2026-10-19T14:04:23.468Z",
+     "asset": "NEAR",
+     "direction": "LONG",
+     "gate": "rr_floor",
+     "conviction": 6,
+     "verdict": "UNRESOLVED",
+     "detail": "awaiting fill R:R 0.74 < 2 floor (registered 0.89 at trigger 4.85, filled mark 4.87985, paper lane)",
+     "note": "no level touched yet (now )"
+    },
+    {
+     "ts": "2026-10-19T04:03:04.112Z",
+     "asset": "ARB",
+     "direction": "LONG",
+     "gate": "stop_hard_ceiling",
+     "conviction": 6,
+     "verdict": "UNRESOLVED",
+     "detail": "watch registration: stop 9.2% from the trigger, over the 8.0% (crypto) hard ceiling the save gate enforces at the fill",
+     "note": "no level touched yet (now )"
+    },
+    {
+     "ts": "2026-10-19T04:03:04.109Z",
+     "asset": "CRWV",
+     "direction": "LONG",
+     "gate": "stop_hard_ceiling",
+     "conviction": 6,
+     "verdict": "UNRESOLVED",
+     "detail": "watch registration: stop 10.7% from the trigger, over the 10.0% [2x ATR14 9.58%, clamped] (equity) hard ceiling the save gate enforces at the fill",
+     "note": "no level touched yet (now )"
+    },
     {
      "ts": "2026-10-19T01:04:14.942Z",
      "asset": "BNB",
@@ -12634,36 +12664,6 @@
      "verdict": "GOOD_REJECT",
      "detail": "watch registration: stop 4.7% from the trigger, over the 4.0% [flat — no volatility read, fail-closed] (equity) hard ceiling the save gate enforces at the fill",
      "note": "stop touched first"
-    },
-    {
-     "ts": "2026-10-18T10:04:20.048Z",
-     "asset": "BTC",
-     "direction": "LONG",
-     "gate": "rr_floor",
-     "conviction": 6,
-     "verdict": "UNRESOLVED",
-     "detail": "awaiting fill R:R 1.71 < 2 floor (registered 2.03 at trigger 81950, filled mark 82136.5, paper lane)",
-     "note": "no level touched yet (now )"
-    },
-    {
-     "ts": "2026-10-16T08:34:32.055Z",
-     "asset": "AERO",
-     "direction": "LONG",
-     "gate": "struct_chase",
-     "conviction": 7,
-     "verdict": "GOOD_REJECT",
-     "detail": "CHOP edge chase pos 0.78 conv 7 < 8",
-     "note": "stop touched first"
-    },
-    {
-     "ts": "2026-10-16T08:19:31.519Z",
-     "asset": "AERO",
-     "direction": "LONG",
-     "gate": "rr_floor",
-     "conviction": 7,
-     "verdict": "GOOD_REJECT",
-     "detail": "awaiting fill R:R 1.86 < 2 floor (registered 2.33 at trigger 0.945, filled mark 0.950005, paper lane)",
-     "note": "stop touched first"
     }
    ],
    "kimi": [
@@ -12673,9 +12673,9 @@
      "direction": "SHORT",
      "gate": "struct_chase",
      "conviction": 5,
-     "verdict": "UNRESOLVED",
+     "verdict": "GOOD_REJECT",
      "detail": "CHOP edge chase pos -0.06 conv 5 < 8",
-     "note": "no level touched yet (now )"
+     "note": "stop touched first"
     },
     {
      "ts": "2026-10-13T09:34:29.049Z",
@@ -12774,6 +12774,46 @@
    ],
    "qwen38": [
     {
+     "ts": "2026-10-19T22:05:33.437Z",
+     "asset": "INJ",
+     "direction": "LONG",
+     "gate": "rr_floor",
+     "conviction": 5,
+     "verdict": "UNRESOLVED",
+     "detail": "R:R 0.06 < 2 floor (QUENTIN QWEN, status AWAITING)",
+     "note": "no level touched yet (now )"
+    },
+    {
+     "ts": "2026-10-19T22:04:40.765Z",
+     "asset": "BTC",
+     "direction": "LONG",
+     "gate": "rr_floor",
+     "conviction": 5,
+     "verdict": "UNRESOLVED",
+     "detail": "R:R 1.73 < 2 floor (QUENTIN QWEN, status AWAITING)",
+     "note": "no level touched yet (now )"
+    },
+    {
+     "ts": "2026-10-19T19:01:34.056Z",
+     "asset": "BTC",
+     "direction": "LONG",
+     "gate": "rr_floor",
+     "conviction": 6,
+     "verdict": "UNRESOLVED",
+     "detail": "R:R 1.11 < 2 floor (QUENTIN QWEN, status AWAITING)",
+     "note": "no level touched yet (now )"
+    },
+    {
+     "ts": "2026-10-19T07:01:11.377Z",
+     "asset": "XRP",
+     "direction": "SHORT",
+     "gate": "stop_min_distance",
+     "conviction": 5,
+     "verdict": "UNRESOLVED",
+     "detail": "watch registration: stop 0.59% from the trigger, under the 1.0% noise floor the save gate enforces at the fill",
+     "note": "no level touched yet (now )"
+    },
+    {
      "ts": "2026-10-18T22:04:19.984Z",
      "asset": "SOL",
      "direction": "LONG",
@@ -12812,46 +12852,6 @@
      "verdict": "UNRESOLVED",
      "detail": "R:R 1.44 < 2 floor (QUENTIN QWEN, status AWAITING)",
      "note": "no level touched yet (now )"
-    },
-    {
-     "ts": "2026-10-15T22:04:19.616Z",
-     "asset": "BTC",
-     "direction": "LONG",
-     "gate": "rr_floor",
-     "conviction": 6,
-     "verdict": "UNRESOLVED",
-     "detail": "R:R 1.93 < 2 floor (QUENTIN QWEN, status AWAITING)",
-     "note": "no level touched yet (now )"
-    },
-    {
-     "ts": "2026-10-15T01:01:48.221Z",
-     "asset": "ETH",
-     "direction": "LONG",
-     "gate": "rr_floor",
-     "conviction": 7,
-     "verdict": "GOOD_REJECT",
-     "detail": "R:R 1.83 < 2 floor (QUENTIN QWEN, status CONFIRMED)",
-     "note": "stop touched first"
-    },
-    {
-     "ts": "2026-10-14T22:04:03.804Z",
-     "asset": "BTC",
-     "direction": "LONG",
-     "gate": "rr_floor",
-     "conviction": 6,
-     "verdict": "GOOD_REJECT",
-     "detail": "R:R 1.47 < 2 floor (QUENTIN QWEN, status AWAITING)",
-     "note": "stop touched first"
-    },
-    {
-     "ts": "2026-10-14T19:01:14.509Z",
-     "asset": "BTC",
-     "direction": "SHORT",
-     "gate": "stop_min_distance",
-     "conviction": 5,
-     "verdict": "UNRESOLVED",
-     "detail": "watch registration: stop 0.86% from the trigger, under the 1.0% noise floor the save gate enforces at the fill",
-     "note": "no level touched yet (now )"
     }
    ],
    "gemini": [
@@ -12878,6 +12878,83 @@
    ]
   },
   "recent": [
+   {
+    "ts": "2026-10-19T22:05:33.437Z",
+    "asset": "INJ",
+    "direction": "LONG",
+    "actor": "qwen38",
+    "gate": "rr_floor",
+    "conviction": 5,
+    "verdict": "UNRESOLVED",
+    "detail": "R:R 0.06 < 2 floor (QUENTIN QWEN, status AWAITING)",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-10-19T22:04:40.765Z",
+    "asset": "BTC",
+    "direction": "LONG",
+    "actor": "qwen38",
+    "gate": "rr_floor",
+    "conviction": 5,
+    "verdict": "UNRESOLVED",
+    "detail": "R:R 1.73 < 2 floor (QUENTIN QWEN, status AWAITING)",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-10-19T19:01:34.056Z",
+    "asset": "BTC",
+    "direction": "LONG",
+    "actor": "qwen38",
+    "gate": "rr_floor",
+    "conviction": 6,
+    "verdict": "UNRESOLVED",
+    "detail": "R:R 1.11 < 2 floor (QUENTIN QWEN, status AWAITING)",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-10-19T14:04:23.468Z",
+    "asset": "NEAR",
+    "direction": "LONG",
+    "actor": "qwen",
+    "gate": "rr_floor",
+    "conviction": 6,
+    "verdict": "UNRESOLVED",
+    "detail": "awaiting fill R:R 0.74 < 2 floor (registered 0.89 at trigger 4.85, filled mark 4.87985, paper lane)",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-10-19T07:01:11.377Z",
+    "asset": "XRP",
+    "direction": "SHORT",
+    "actor": "qwen38",
+    "gate": "stop_min_distance",
+    "conviction": 5,
+    "verdict": "UNRESOLVED",
+    "detail": "watch registration: stop 0.59% from the trigger, under the 1.0% noise floor the save gate enforces at the fill",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-10-19T04:03:04.112Z",
+    "asset": "ARB",
+    "direction": "LONG",
+    "actor": "qwen",
+    "gate": "stop_hard_ceiling",
+    "conviction": 6,
+    "verdict": "UNRESOLVED",
+    "detail": "watch registration: stop 9.2% from the trigger, over the 8.0% (crypto) hard ceiling the save gate enforces at the fill",
+    "note": "no level touched yet (now )"
+   },
+   {
+    "ts": "2026-10-19T04:03:04.109Z",
+    "asset": "CRWV",
+    "direction": "LONG",
+    "actor": "qwen",
+    "gate": "stop_hard_ceiling",
+    "conviction": 6,
+    "verdict": "UNRESOLVED",
+    "detail": "watch registration: stop 10.7% from the trigger, over the 10.0% [2x ATR14 9.58%, clamped] (equity) hard ceiling the save gate enforces at the fill",
+    "note": "no level touched yet (now )"
+   },
    {
     "ts": "2026-10-19T01:04:14.942Z",
     "asset": "BNB",
@@ -12929,85 +13006,8 @@
     "actor": "kimi",
     "gate": "struct_chase",
     "conviction": 5,
-    "verdict": "UNRESOLVED",
+    "verdict": "GOOD_REJECT",
     "detail": "CHOP edge chase pos -0.06 conv 5 < 8",
-    "note": "no level touched yet (now )"
-   },
-   {
-    "ts": "2026-10-18T17:04:04.650Z",
-    "asset": "ETH",
-    "direction": "SHORT",
-    "actor": "qwen",
-    "gate": "struct_chase",
-    "conviction": 6,
-    "verdict": "GOOD_REJECT",
-    "detail": "CHOP edge chase pos 0.30 conv 6 < 8",
-    "note": "stop touched first"
-   },
-   {
-    "ts": "2026-10-18T16:08:02.653Z",
-    "asset": "SOL",
-    "direction": "SHORT",
-    "actor": "qwen38",
-    "gate": "stop_min_distance",
-    "conviction": 5,
-    "verdict": "MISSED_WIN",
-    "detail": "watch registration: stop 0.89% from the trigger, under the 1.0% noise floor the save gate enforces at the fill",
-    "note": "target touched first"
-   },
-   {
-    "ts": "2026-10-18T16:02:50.580Z",
-    "asset": "IREN",
-    "direction": "LONG",
-    "actor": "qwen",
-    "gate": "stop_hard_ceiling",
-    "conviction": 6,
-    "verdict": "GOOD_REJECT",
-    "detail": "watch registration: stop 4.7% from the trigger, over the 4.0% [flat — no volatility read, fail-closed] (equity) hard ceiling the save gate enforces at the fill",
-    "note": "stop touched first"
-   },
-   {
-    "ts": "2026-10-18T10:04:20.048Z",
-    "asset": "BTC",
-    "direction": "LONG",
-    "actor": "qwen",
-    "gate": "rr_floor",
-    "conviction": 6,
-    "verdict": "UNRESOLVED",
-    "detail": "awaiting fill R:R 1.71 < 2 floor (registered 2.03 at trigger 81950, filled mark 82136.5, paper lane)",
-    "note": "no level touched yet (now )"
-   },
-   {
-    "ts": "2026-10-18T10:04:06.613Z",
-    "asset": "BTC",
-    "direction": "LONG",
-    "actor": "qwen38",
-    "gate": "stop_min_distance",
-    "conviction": 5,
-    "verdict": "GOOD_REJECT",
-    "detail": "watch registration: stop 0.59% from the trigger, under the 1.0% noise floor the save gate enforces at the fill",
-    "note": "stop touched first"
-   },
-   {
-    "ts": "2026-10-16T08:34:32.055Z",
-    "asset": "AERO",
-    "direction": "LONG",
-    "actor": "qwen",
-    "gate": "struct_chase",
-    "conviction": 7,
-    "verdict": "GOOD_REJECT",
-    "detail": "CHOP edge chase pos 0.78 conv 7 < 8",
-    "note": "stop touched first"
-   },
-   {
-    "ts": "2026-10-16T08:19:31.519Z",
-    "asset": "AERO",
-    "direction": "LONG",
-    "actor": "qwen",
-    "gate": "rr_floor",
-    "conviction": 7,
-    "verdict": "GOOD_REJECT",
-    "detail": "awaiting fill R:R 1.86 < 2 floor (registered 2.33 at trigger 0.945, filled mark 0.950005, paper lane)",
     "note": "stop touched first"
    }
   ]
@@ -13271,7 +13271,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-10-20T02:15:10.479Z",
+  "at": "2026-10-20T02:17:02.997Z",
   "windowDays": 14,
   "registered": 189,
   "filled": 40,
@@ -13436,7 +13436,7 @@
   }
  },
  "learning": {
-  "at": "2026-10-20T02:15:10.479Z",
+  "at": "2026-10-20T02:17:02.998Z",
   "since": "2026-10-06T18:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -14455,28 +14455,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 81673.19,
-    "change24hPct": -1.09
+    "price": 81748.32,
+    "change24hPct": -0.92
    },
    {
     "symbol": "ETH",
-    "price": 2393.16,
-    "change24hPct": -1.43
+    "price": 2397.62,
+    "change24hPct": -1.17
    },
    {
     "symbol": "BNB",
-    "price": 728.74,
-    "change24hPct": 0.26
+    "price": 729.04,
+    "change24hPct": 0.32
    },
    {
     "symbol": "XRP",
-    "price": 1.2992,
-    "change24hPct": -1.18
+    "price": 1.3012,
+    "change24hPct": -0.88
    },
    {
     "symbol": "SOL",
-    "price": 104.64,
-    "change24hPct": -0.65
+    "price": 104.86,
+    "change24hPct": -0.41
    }
   ],
   "fearGreed": {
@@ -14706,7 +14706,7 @@
      "changePct": -9.1
     }
    ],
-   "ageMin": 255
+   "ageMin": 257
   },
   "chainRotation": {
    "chains": [
@@ -14849,7 +14849,7 @@
      1
     ]
    ],
-   "ageMin": 240
+   "ageMin": 242
   }
  },
  "calendar": [
@@ -19262,7 +19262,7 @@
   "text": "Bitcoin is consolidating near the $82,000 mark while altcoins decouple on aggressive short liquidations totaling $52.8 million versus only $23.2 million in long squeezes. Despite this retail-driven volatility, the fundamental demand from institutions remains weak, evidenced by seven-day net ETF outflows of $451.6 million and a single day of $82 million in redemptions. This divergence creates a fragile floor where Hyperliquid desks sit heavily net short across major assets, including $594 million against BTC and $666 million against ETH. The tape is down-trending under a risk-off regime, yet our internal data shows that shorts entered after recent drops were on the wrong side of entry most of the time, losing significant capital while continuation longs found profit. Dollar liquidity is flat with no macro tailwind or headwind, forcing traders to rely solely on price structure rather than external catalysts. News headlines highlight a Mastercard stablecoin security tool and SkyAI selling its entire Solana treasury for a $201 million buyback, signaling sector rotation away from pure speculation toward utility or balance sheet repair. The Fear & Greed index sits at 59, indicating greed despite the lack of institutional buying pressure. Retail momentum is driving price higher through forced long unwinds and short squeezes, but without a reclaim of the 20-day moving average or rising open interest, these moves are prone to bleed on any macro shift. We see potential for a counter-trend bounce only if exhaustion signals appear at clear support levels with a specific catalyst, not as a reflexive dip buy. The market is currently trading on retail sentiment while waiting for institutional distribution to reverse."
  },
  "extendedCalls": {
-  "at": "2026-10-20T02:15:10.494Z",
+  "at": "2026-10-20T02:17:03.011Z",
   "horizonH": 12,
   "minRead": 20,
   "briefs": 23,
