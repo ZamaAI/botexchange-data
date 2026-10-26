@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T21:07:49.088Z",
+ "generatedAt": "2026-10-26T23:52:42.447Z",
  "startCapital": 500,
  "since": "2026-10-06",
  "accountBasis": "mtm",
@@ -7,17 +7,13 @@
   "manual": 0
  },
  "feedCoverage": {
-  "at": "2026-10-25T16:25:10.190Z",
-  "present": 26,
+  "at": "2026-10-26T22:23:32.091Z",
+  "present": 25,
   "total": 60,
   "missing": [
-   "movers",
-   "global",
-   "ssr",
    "bybitFunding",
    "liquidations",
    "altcoinSeason",
-   "macro",
    "fred",
    "czPredFunding",
    "czOITrend",
@@ -33,20 +29,25 @@
    "xvenueFunding",
    "termStructure",
    "cmcEvents",
+   "binanceListings",
+   "binanceLS",
    "unlocks",
+   "oiTrend",
+   "oiDecomp",
    "obDepth",
    "kalshiData",
+   "webIntel",
    "rekt",
    "dvol",
    "optionsSkew",
    "optionsStructure",
    "stableSupply",
    "exchangeFlows",
-   "cieloWhales"
+   "cieloWhales",
+   "chainRotation"
   ],
   "empty": [
-   "whales",
-   "binanceListings"
+   "whales"
   ]
  },
  "verdict": {
@@ -54,7 +55,7 @@
   "manLeads": true,
   "man": {
    "label": "Manual",
-   "account": 580.31
+   "account": 595.25
   },
   "machine": {
    "label": "Gina Gemini",
@@ -68,7 +69,7 @@
    "manLeads": true,
    "man": {
     "label": "Manual",
-    "account": 580.31
+    "account": 595.25
    },
    "machine": {
     "label": "Gina Gemini",
@@ -167,9 +168,9 @@
  "seasonStart": "2026-10-06T18:00:00.000Z",
  "seasonPromptVersion": "#548",
  "volState": {
-  "hour": "2026-10-26T20",
-  "asOf": "2026-10-26T20:00:00.000Z",
-  "ageMin": 68,
+  "hour": "2026-10-26T23",
+  "asOf": "2026-10-26T23:00:00.000Z",
+  "ageMin": 53,
   "freezeMax": 15,
   "rows": [
    {
@@ -225,7 +226,7 @@
     "tf": "1d",
     "barCloseAt": "2026-10-26T00:00:00.000Z",
     "bbwp": 66.7,
-    "signal": 52.5,
+    "signal": 52.4,
     "lookbackN": 252,
     "streak": 0,
     "exit": false,
@@ -435,30 +436,6 @@
     "exit": false,
     "prevStreak": 0,
     "rangePct": 3.7
-   },
-   {
-    "asset": "ENA",
-    "tf": "1d",
-    "barCloseAt": "2026-10-26T00:00:00.000Z",
-    "bbwp": 9.9,
-    "signal": 41.8,
-    "lookbackN": 252,
-    "streak": 2,
-    "exit": false,
-    "prevStreak": 0,
-    "rangePct": 15.19
-   },
-   {
-    "asset": "ENA",
-    "tf": "4h",
-    "barCloseAt": "2026-10-26T20:00:00.000Z",
-    "bbwp": 47.6,
-    "signal": 56.1,
-    "lookbackN": 252,
-    "streak": 0,
-    "exit": false,
-    "prevStreak": 0,
-    "rangePct": null
    },
    {
     "asset": "ETH",
@@ -936,8 +913,8 @@
    "costUsd": 3.29,
    "costCalls": 63,
    "netPnl": 115.69,
-   "account": 989.69,
-   "retPct": 97.9,
+   "account": 614.39,
+   "retPct": 22.9,
    "accountRealized": 618.98,
    "regimes": {
     "RISK_ON": {
@@ -989,14 +966,14 @@
    "watch": {
     "registered": 98,
     "filled": 22,
-    "refused": 37,
+    "refused": 38,
     "cancelled": 0,
-    "expired": 26,
-    "pending": 13,
+    "expired": 27,
+    "pending": 11,
     "topGates": [
      [
       "anticipation",
-      24
+      25
      ],
      [
       "struct_chase",
@@ -1044,9 +1021,9 @@
    "closed": 7,
    "wr": "0",
    "pnl": -24.48,
-   "costUsd": 9.12,
-   "costCalls": 135,
-   "netPnl": -33.6,
+   "costUsd": 9.17,
+   "costCalls": 136,
+   "netPnl": -33.65,
    "account": 473.66,
    "retPct": -5.3,
    "accountRealized": 475.52,
@@ -1148,8 +1125,8 @@
    "costUsd": 0,
    "costCalls": 0,
    "netPnl": -757.24,
-   "account": 580.31,
-   "retPct": 16.1,
+   "account": 595.25,
+   "retPct": 19.1,
    "accountRealized": -257.24,
    "regimes": {
     "RISK_ON": {
@@ -1219,9 +1196,9 @@
    "closed": 12,
    "wr": "33",
    "pnl": -1.49,
-   "costUsd": 12.43,
-   "costCalls": 134,
-   "netPnl": -13.92,
+   "costUsd": 12.51,
+   "costCalls": 135,
+   "netPnl": -14,
    "account": 498.51,
    "retPct": -0.3,
    "accountRealized": 498.51,
@@ -1276,9 +1253,9 @@
     "registered": 30,
     "filled": 9,
     "refused": 4,
-    "cancelled": 11,
+    "cancelled": 13,
     "expired": 3,
-    "pending": 3,
+    "pending": 1,
     "topGates": [
      [
       "struct_chase",
@@ -1333,9 +1310,9 @@
    "closed": 7,
    "wr": "14",
    "pnl": -8.99,
-   "costUsd": 1.3,
-   "costCalls": 134,
-   "netPnl": -10.29,
+   "costUsd": 1.31,
+   "costCalls": 135,
+   "netPnl": -10.3,
    "account": 490.91,
    "retPct": -1.8,
    "accountRealized": 491.01,
@@ -1555,7 +1532,7 @@
    "costUsd": 0.56,
    "costCalls": 134,
    "netPnl": -14.32,
-   "account": 488.18,
+   "account": 487.76,
    "retPct": -2.4,
    "accountRealized": 486.24,
    "regimes": {
@@ -1660,7 +1637,7 @@
    "wr": "0",
    "pnl": -1.64,
    "costUsd": 0.3,
-   "costCalls": 135,
+   "costCalls": 136,
    "netPnl": -1.94,
    "account": 498.5,
    "retPct": -0.3,
@@ -1770,9 +1747,9 @@
    "closed": 2,
    "wr": "50",
    "pnl": 12.74,
-   "costUsd": 0.29,
-   "costCalls": 68,
-   "netPnl": 12.45,
+   "costUsd": 0.3,
+   "costCalls": 69,
+   "netPnl": 12.44,
    "account": 512.74,
    "retPct": 2.5,
    "accountRealized": 512.74,
@@ -1824,12 +1801,12 @@
     "uncaptured": 0
    },
    "watch": {
-    "registered": 11,
+    "registered": 12,
     "filled": 2,
     "refused": 3,
     "cancelled": 4,
     "expired": 1,
-    "pending": 1,
+    "pending": 2,
     "topGates": [
      [
       "stop_min_distance",
@@ -1877,11 +1854,11 @@
    "closed": 7,
    "wr": "0",
    "pnl": -47.18,
-   "costUsd": 0.45,
-   "costCalls": 85,
-   "netPnl": -47.63,
-   "account": 449.35,
-   "retPct": -10.1,
+   "costUsd": 0.46,
+   "costCalls": 86,
+   "netPnl": -47.64,
+   "account": 311.53,
+   "retPct": -37.7,
    "accountRealized": 452.82,
    "regimes": {
     "RISK_ON": {
@@ -1931,12 +1908,12 @@
     "uncaptured": 0
    },
    "watch": {
-    "registered": 27,
+    "registered": 28,
     "filled": 5,
     "refused": 3,
     "cancelled": 16,
     "expired": 0,
-    "pending": 3,
+    "pending": 4,
     "topGates": [
      [
       "struct_chase",
@@ -1976,163 +1953,215 @@
   "btc": {
    "startDate": "2026-10-06",
    "start": 85719.43,
-   "now": 79908.85,
-   "retPct": -6.8,
-   "value": 466.11
+   "now": 80126.94,
+   "retPct": -6.5,
+   "value": 467.38
   }
  },
  "oi": {
-  "hour": "2026-10-26T20",
+  "hour": "2026-10-26T23",
   "w": 4,
   "majors": {
    "BTC": {
     "BINANCE": {
-     "h1": 0.18,
-     "h4": null,
+     "h1": 0.23,
+     "h4": 0.67,
      "h24": null,
-     "usd": 7593598414.938309
+     "usd": 7622184463.673129
     },
     "BYBIT": {
-     "h1": -0.25,
-     "h4": null,
+     "h1": 0.19,
+     "h4": 0.15,
      "h24": null,
-     "usd": 4930206709.92
+     "usd": 4946486862.71
     },
     "HL": {
-     "h1": 1.28,
-     "h4": null,
+     "h1": -0.52,
+     "h4": 1.42,
      "h24": null,
-     "usd": 3388571877.9891996
+     "usd": 3389570354.03982
     },
     "LIGHTER": {
-     "h1": 2.71,
-     "h4": null,
+     "h1": 0.51,
+     "h4": 3.46,
      "h24": null,
-     "usd": 175523283.324481
+     "usd": 176616471.382306
     }
    },
    "ETH": {
     "BINANCE": {
-     "h1": 0.03,
-     "h4": null,
+     "h1": 0.19,
+     "h4": -0.02,
      "h24": null,
-     "usd": 5448292825.78469
+     "usd": 5426564475.169834
     },
     "BYBIT": {
-     "h1": 0.05,
-     "h4": null,
+     "h1": 0.52,
+     "h4": -0.1,
      "h24": null,
-     "usd": 1791972362.88
+     "usd": 1783931517.52
     },
     "HL": {
-     "h1": -0.02,
-     "h4": null,
+     "h1": -0.05,
+     "h4": 0.3,
      "h24": null,
-     "usd": 2595929959.3737
+     "usd": 2594610391.3553605
     },
     "LIGHTER": {
-     "h1": 1.14,
-     "h4": null,
+     "h1": -0.37,
+     "h4": 0.54,
      "h24": null,
-     "usd": 82215978.80430101
+     "usd": 81430016.789544
     }
    },
    "SOL": {
     "BINANCE": {
-     "h1": null,
+     "h1": 0.75,
      "h4": null,
      "h24": null,
-     "usd": 888499308.0117
+     "usd": 893134656.5201592
     },
     "BYBIT": {
-     "h1": -0.24,
-     "h4": null,
+     "h1": 0.46,
+     "h4": -0.01,
      "h24": null,
-     "usd": 591804451.26
+     "usd": 592124143.81
     },
     "HL": {
-     "h1": 0.01,
-     "h4": null,
+     "h1": 0.17,
+     "h4": 0.13,
      "h24": null,
-     "usd": 558378617.0616001
+     "usd": 557584739.202
     },
     "LIGHTER": {
-     "h1": 1.26,
-     "h4": null,
+     "h1": 0.46,
+     "h4": 1.81,
      "h24": null,
-     "usd": 20392091.338914
+     "usd": 20449316.43088
     }
    },
    "BNB": {
     "BINANCE": {
-     "h1": null,
+     "h1": 0,
      "h4": null,
      "h24": null,
-     "usd": 414199805.2486
+     "usd": 411920973.4392
     },
     "BYBIT": {
-     "h1": -0.01,
-     "h4": null,
+     "h1": -0.29,
+     "h4": -0.56,
      "h24": null,
-     "usd": 105217216.99
+     "usd": 104315477.31
     },
     "HL": {
-     "h1": -0.12,
-     "h4": null,
+     "h1": -0.02,
+     "h4": -0.14,
      "h24": null,
-     "usd": 44382745.87296
+     "usd": 44224740.324099995
     },
     "LIGHTER": {
-     "h1": 0.09,
-     "h4": null,
+     "h1": -0.15,
+     "h4": -0.23,
      "h24": null,
-     "usd": 4286372.758358
+     "usd": 4258215.217410001
     }
    },
    "XRP": {
     "BINANCE": {
-     "h1": null,
+     "h1": 0.37,
      "h4": null,
      "h24": null,
-     "usd": 390507091.09932
+     "usd": 388883478.71375567
     },
     "BYBIT": {
-     "h1": null,
+     "h1": -0.55,
      "h4": null,
      "h24": null,
-     "usd": 284424810.35
+     "usd": 278983118.89
     },
     "HL": {
-     "h1": 0,
-     "h4": null,
+     "h1": 0.03,
+     "h4": -0.12,
      "h24": null,
-     "usd": 221896092.24960002
+     "usd": 220426318.5576
     },
     "LIGHTER": {
-     "h1": -2.45,
-     "h4": null,
+     "h1": 0.04,
+     "h4": -6.2,
      "h24": null,
-     "usd": 2368332.32216
+     "usd": 2264959.09144
     }
    }
   },
-  "builds": [],
-  "drops": [],
+  "builds": [
+   {
+    "asset": "NOK",
+    "venue": "HL-xyz",
+    "pct": 16.73
+   },
+   {
+    "asset": "WDC",
+    "venue": "HL-xyz",
+    "pct": 7.39
+   },
+   {
+    "asset": "BTC",
+    "venue": "LIGHTER",
+    "pct": 3.46
+   },
+   {
+    "asset": "XMR",
+    "venue": "HL",
+    "pct": 3.2
+   },
+   {
+    "asset": "BMNR",
+    "venue": "HL-xyz",
+    "pct": 2.25
+   }
+  ],
+  "drops": [
+   {
+    "asset": "CRWD",
+    "venue": "HL-xyz",
+    "pct": -17.73
+   },
+   {
+    "asset": "XRP",
+    "venue": "LIGHTER",
+    "pct": -6.2
+   },
+   {
+    "asset": "WLD",
+    "venue": "LIGHTER",
+    "pct": -3.51
+   },
+   {
+    "asset": "LITE",
+    "venue": "HL-xyz",
+    "pct": -2.94
+   },
+   {
+    "asset": "XMR",
+    "venue": "LIGHTER",
+    "pct": -2.52
+   }
+  ],
   "div": []
  },
  "book": {
   "n": 1,
   "longs": 0,
   "shorts": 1,
-  "netUsd": -156.68,
-  "grossUsd": 156.68,
+  "netUsd": -156.52,
+  "grossUsd": 156.52,
   "marked": 1,
   "oneWay": false,
   "assets": [
    {
     "asset": "BTC",
     "n": 1,
-    "netUsd": -156.68
+    "netUsd": -156.52
    }
   ]
  },
@@ -2394,42 +2423,6 @@
   }
  },
  "equityHourly": [
-  {
-   "ts": "2026-10-12T22:00:00.000Z",
-   "hl": 0,
-   "hl_spot": 455.288612,
-   "grvt": null,
-   "extended": 112.232915,
-   "capital": 3056.246429,
-   "qwen": 623.53,
-   "hermes": 455.29,
-   "manual": 112.23,
-   "kimi": 499.59,
-   "deepseek": 497.2,
-   "gemini": 500.69,
-   "luna": 490.4,
-   "minimax": 500.83,
-   "haiku55": null,
-   "qwen38": null
-  },
-  {
-   "ts": "2026-10-12T23:00:00.000Z",
-   "hl": 0,
-   "hl_spot": 455.189684,
-   "grvt": null,
-   "extended": 106.970534,
-   "capital": 3049.969299,
-   "qwen": 630.32,
-   "hermes": 455.19,
-   "manual": 106.97,
-   "kimi": 499.13,
-   "deepseek": 496.75,
-   "gemini": 500.69,
-   "luna": 490.4,
-   "minimax": 500.83,
-   "haiku55": null,
-   "qwen38": null
-  },
   {
    "ts": "2026-10-13T00:00:00.000Z",
    "hl": 0,
@@ -7415,603 +7408,45 @@
    "minimax": 498.5,
    "haiku55": 512.74,
    "qwen38": 449.17
+  },
+  {
+   "ts": "2026-10-26T22:00:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 602.645489,
+   "capital": 3550.714543,
+   "qwen": 622.14,
+   "hermes": 473.66,
+   "manual": 602.65,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.84,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 450.04
+  },
+  {
+   "ts": "2026-10-26T23:00:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 610.401061,
+   "capital": 3558.833345,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 610.4,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 488.2,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-10-25T21:10:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T21:15:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T21:20:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T21:25:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T21:30:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T21:35:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T21:40:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T21:45:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T21:50:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T21:55:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T22:00:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T22:05:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T22:10:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T22:15:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T22:20:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T22:25:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T22:30:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T22:35:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T22:40:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T22:45:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T22:50:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T22:55:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T23:00:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T23:05:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T23:10:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T23:15:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T23:20:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T23:25:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T23:30:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T23:35:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T23:40:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T23:45:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
-  {
-   "ts": "2026-10-25T23:50:00.000Z",
-   "hl": null,
-   "hl_spot": null,
-   "grvt": null,
-   "extended": null,
-   "capital": null,
-   "qwen": 618.98,
-   "hermes": 475.52,
-   "manual": -257.24,
-   "kimi": 498.51,
-   "deepseek": 491.01,
-   "gemini": 498.06,
-   "luna": 486.24,
-   "minimax": 498.36,
-   "haiku55": 512.74,
-   "qwen38": 460.28
-  },
   {
    "ts": "2026-10-25T23:55:00.000Z",
    "hl": null,
@@ -12565,14 +12000,608 @@
    "minimax": 498.5,
    "haiku55": 512.74,
    "qwen38": 449.35
+  },
+  {
+   "ts": "2026-10-26T21:10:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 580.313495,
+   "capital": 3528.729665,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 580.31,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 488.18,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T21:15:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 580.313495,
+   "capital": 3528.729665,
+   "qwen": 611.16,
+   "hermes": 473.66,
+   "manual": 580.31,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 488.18,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 449.42
+  },
+  {
+   "ts": "2026-10-26T21:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 582.915019,
+   "capital": 3531.099713,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 582.92,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.95,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T21:25:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 582.915019,
+   "capital": 3531.099713,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 582.92,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.95,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T21:30:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 582.915019,
+   "capital": 3531.099713,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 582.92,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.95,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T21:35:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 577.647791,
+   "capital": 3525.626881,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 577.65,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.75,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T21:40:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 577.647791,
+   "capital": 3525.626881,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 577.65,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.75,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T21:45:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 599.927318,
+   "capital": 3547.88622,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 599.93,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.73,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T21:50:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 599.927318,
+   "capital": 3547.88622,
+   "qwen": 465.73,
+   "hermes": 473.66,
+   "manual": 599.93,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.73,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 450.42
+  },
+  {
+   "ts": "2026-10-26T21:55:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 602.645489,
+   "capital": 3550.714543,
+   "qwen": 612.09,
+   "hermes": 473.66,
+   "manual": 602.65,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.84,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 449.65
+  },
+  {
+   "ts": "2026-10-26T22:00:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 602.645489,
+   "capital": 3550.714543,
+   "qwen": 622.14,
+   "hermes": 473.66,
+   "manual": 602.65,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.84,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 450.04
+  },
+  {
+   "ts": "2026-10-26T22:05:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 599.641038,
+   "capital": 3547.957956,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 599.64,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 488.09,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T22:10:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 599.641038,
+   "capital": 3547.957956,
+   "qwen": 463.16,
+   "hermes": 473.66,
+   "manual": 599.64,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 488.09,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 449.78
+  },
+  {
+   "ts": "2026-10-26T22:15:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 599.641038,
+   "capital": 3547.957956,
+   "qwen": 614.84,
+   "hermes": 473.66,
+   "manual": 599.64,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 488.09,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 449.76
+  },
+  {
+   "ts": "2026-10-26T22:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 602.221437,
+   "capital": 3550.4911190000003,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 602.22,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 488.04,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T22:25:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 602.221437,
+   "capital": 3550.4911190000003,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 602.22,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 488.04,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T22:30:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 605.005741,
+   "capital": 3553.403999,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 605.01,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 488.17,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T22:35:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 605.005741,
+   "capital": 3553.403999,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 605.01,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 488.17,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T22:40:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 607.49525,
+   "capital": 3555.752584,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 607.5,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 488.03,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T22:45:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 607.49525,
+   "capital": 3555.752584,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 607.5,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 488.03,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T22:50:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 607.696323,
+   "capital": 3555.918181,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 607.7,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.99,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T22:55:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 607.696323,
+   "capital": 3555.918181,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 607.7,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.99,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T23:00:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 610.401061,
+   "capital": 3558.833345,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 610.4,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 488.2,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T23:05:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 610.401061,
+   "capital": 3558.833345,
+   "qwen": 606.75,
+   "hermes": 473.66,
+   "manual": 610.4,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 488.2,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 311.53
+  },
+  {
+   "ts": "2026-10-26T23:10:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 610.401061,
+   "capital": 3558.833345,
+   "qwen": 615.82,
+   "hermes": 473.66,
+   "manual": 610.4,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 488.2,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T23:15:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": null,
+   "capital": null,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 610.4,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 488.28,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T23:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": null,
+   "capital": null,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 610.4,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 488.28,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T23:25:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 597.428215,
+   "capital": 3545.638039,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 597.43,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.98,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T23:30:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 597.428215,
+   "capital": 3545.638039,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 597.43,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.98,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T23:35:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 597.428215,
+   "capital": 3545.638039,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 597.43,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.98,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T23:40:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 595.250222,
+   "capital": 3543.2438580000003,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 595.25,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.76,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T23:45:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 595.250222,
+   "capital": 3543.2438580000003,
+   "qwen": 618.98,
+   "hermes": 473.66,
+   "manual": 595.25,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.76,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 452.82
+  },
+  {
+   "ts": "2026-10-26T23:50:00.000Z",
+   "hl": 0,
+   "hl_spot": 473.656609,
+   "grvt": null,
+   "extended": 595.250222,
+   "capital": 3543.2438580000003,
+   "qwen": 614.39,
+   "hermes": 473.66,
+   "manual": 595.25,
+   "kimi": 498.51,
+   "deepseek": 490.91,
+   "gemini": 498.65,
+   "luna": 487.76,
+   "minimax": 498.5,
+   "haiku55": 512.74,
+   "qwen38": 311.53
   }
  ],
  "venuesLive": {
   "hl": 0,
   "hl_spot": 473.656609,
   "grvt": null,
-  "lighter": 2474.759561,
-  "total": 2948.41617
+  "lighter": 2474.337027,
+  "total": 2947.993636
  },
  "awaitingScore": {
   "at": "2026-10-24T02:15:37.200Z",
@@ -13661,20 +13690,20 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-10-26T21:07:49.106Z",
+  "at": "2026-10-26T23:52:42.466Z",
   "windowDays": 14,
-  "registered": 180,
-  "filled": 38,
+  "registered": 178,
+  "filled": 37,
   "dropped": 100,
-  "expired": 17,
-  "pending": 25,
+  "expired": 18,
+  "pending": 23,
   "cancelled": 0,
   "other": 0,
   "fills": {
    "live": {
-    "n": 20,
+    "n": 19,
     "w": 3,
-    "l": 13,
+    "l": 12,
     "be": 3,
     "open": 1,
     "expired": 0
@@ -13692,7 +13721,7 @@
   "dropReasons": [
    {
     "reason": "desk_cancelled",
-    "n": 59
+    "n": 60
    },
    {
     "reason": "struct_chase",
@@ -13700,7 +13729,7 @@
    },
    {
     "reason": "anticipation",
-    "n": 13
+    "n": 12
    },
    {
     "reason": "stop_min_distance",
@@ -13734,38 +13763,38 @@
   "byActor": [
    {
     "actor": "qwen",
-    "registered": 63,
+    "registered": 61,
     "filled": 13,
-    "dropped": 23,
-    "expired": 14,
-    "pending": 13,
+    "dropped": 22,
+    "expired": 15,
+    "pending": 11,
     "cancelled": 0
    },
    {
     "actor": "qwen38",
-    "registered": 27,
+    "registered": 28,
     "filled": 5,
     "dropped": 19,
     "expired": 0,
-    "pending": 3,
-    "cancelled": 0
-   },
-   {
-    "actor": "deepseek",
-    "registered": 21,
-    "filled": 5,
-    "dropped": 15,
-    "expired": 0,
-    "pending": 1,
+    "pending": 4,
     "cancelled": 0
    },
    {
     "actor": "kimi",
     "registered": 20,
     "filled": 5,
-    "dropped": 10,
+    "dropped": 12,
     "expired": 2,
-    "pending": 3,
+    "pending": 1,
+    "cancelled": 0
+   },
+   {
+    "actor": "deepseek",
+    "registered": 20,
+    "filled": 4,
+    "dropped": 15,
+    "expired": 0,
+    "pending": 1,
     "cancelled": 0
    },
    {
@@ -13779,11 +13808,11 @@
    },
    {
     "actor": "haiku55",
-    "registered": 11,
+    "registered": 12,
     "filled": 2,
     "dropped": 7,
     "expired": 1,
-    "pending": 1,
+    "pending": 2,
     "cancelled": 0
    },
    {
@@ -13797,9 +13826,9 @@
    },
    {
     "actor": "gemini",
-    "registered": 10,
+    "registered": 9,
     "filled": 2,
-    "dropped": 7,
+    "dropped": 6,
     "expired": 0,
     "pending": 1,
     "cancelled": 0
@@ -13934,7 +13963,7 @@
   "postedAt": "2026-10-25T16:29:02.175Z"
  },
  "learning": {
-  "at": "2026-10-26T21:07:49.107Z",
+  "at": "2026-10-26T23:52:42.467Z",
   "since": "2026-10-06T18:00:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -14303,11 +14332,11 @@
    "actor": "luna",
    "venue": "LIGHTER",
    "entry": 80548.7,
-   "stop": 81612.9,
+   "stop": 80347.32825,
    "target": 78000,
    "levelsApprox": false,
    "cls": "crypto",
-   "trailed": false,
+   "trailed": true,
    "rr": 2.4,
    "conviction": 5,
    "openedAt": "2026-10-25T16:04:25.203Z",
@@ -14371,6 +14400,60 @@
  ],
  "awaiting": [
   {
+   "asset": "BTC",
+   "direction": "SHORT",
+   "brain": "Garry GLM",
+   "conviction": 5,
+   "trigger": "1h close back below $80,845 after tagging it (rejection candle at the 6-bar range high $80,844.7 / R1 $80,843 / Fib 0.786 $80,933 confluence; stop sits just above MA50 $81,848.6 — verified structure)",
+   "entry": 80845,
+   "stop": 81653.5,
+   "target": 78015.4,
+   "levelsApprox": true,
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 80001.86,
+    "asOf": "2026-10-26T23:52:01.020Z"
+   }
+  },
+  {
+   "asset": "BTC",
+   "direction": "LONG",
+   "brain": "Quentin Qwen",
+   "conviction": 5,
+   "trigger": "4h bar CLOSE above $80,843 (R1) with the forming-bar low having touched $79,655 (S1) in the same bar cycle — a confirmed reclaim of the intraday pivot ceiling on a rejection from support.",
+   "entry": 80843,
+   "stop": 79630.4,
+   "target": 84885.2,
+   "levelsApprox": true,
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "unknown",
+    "lastClose": null,
+    "asOf": "2026-10-26T23:43:25.200Z"
+   }
+  },
+  {
+   "asset": "ETH",
+   "direction": "LONG",
+   "brain": "Hana Haiku",
+   "conviction": 5,
+   "trigger": "4h close above $2,336.70, with the closed 4h bar tagging the level and closing above it.",
+   "entry": 2336.7,
+   "stop": 2278.28,
+   "target": 2500.27,
+   "levelsApprox": true,
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "unknown",
+    "lastClose": null,
+    "asOf": "2026-10-26T23:43:02.887Z"
+   }
+  },
+  {
    "asset": "ETH",
    "direction": "LONG",
    "brain": "Danny DeepSeek",
@@ -14385,7 +14468,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 2318.2,
-    "asOf": "2026-10-26T20:49:44.862Z"
+    "asOf": "2026-10-26T23:52:14.674Z"
    }
   },
   {
@@ -14401,9 +14484,9 @@
    "confirm": {
     "tf": "4h",
     "mode": "breakout",
-    "status": "not",
-    "lastClose": 100.49,
-    "asOf": "2026-10-26T20:50:41.197Z"
+    "status": "unknown",
+    "lastClose": null,
+    "asOf": "2026-10-26T23:42:40.867Z"
    }
   },
   {
@@ -14419,9 +14502,9 @@
    "confirm": {
     "tf": "4h",
     "mode": "retest",
-    "status": "not",
-    "lastClose": 2318.2,
-    "asOf": "2026-10-26T20:50:34.826Z"
+    "status": "unknown",
+    "lastClose": null,
+    "asOf": "2026-10-26T23:42:18.542Z"
    }
   },
   {
@@ -14437,27 +14520,9 @@
    "confirm": {
     "tf": "4h",
     "mode": "breakout",
-    "status": "not",
-    "lastClose": 2318.2,
-    "asOf": "2026-10-26T20:50:20.832Z"
-   }
-  },
-  {
-   "asset": "BTC",
-   "direction": "SHORT",
-   "brain": "Garry GLM",
-   "conviction": 5,
-   "trigger": "4h close below $80,939.54 — the 6-bar range floor (last CLOSED 4h bar closed $80,636.11 but the engine's confirm gate has not marked the tag/close condition met; a touch alone will not fill it)",
-   "entry": 80900,
-   "stop": 81709,
-   "target": 78068.5,
-   "levelsApprox": true,
-   "confirm": {
-    "tf": "4h",
-    "mode": "retest",
-    "status": "not",
-    "lastClose": 80020.01,
-    "asOf": "2026-10-26T21:07:37.767Z"
+    "status": "unknown",
+    "lastClose": null,
+    "asOf": "2026-10-26T23:41:56.382Z"
    }
   },
   {
@@ -14473,9 +14538,9 @@
    "confirm": {
     "tf": "1h",
     "mode": "breakout",
-    "status": "not",
-    "lastClose": 79864.94,
-    "asOf": "2026-10-26T21:04:14.362Z"
+    "status": "unknown",
+    "lastClose": null,
+    "asOf": "2026-10-26T23:49:37.427Z"
    }
   },
   {
@@ -14491,9 +14556,9 @@
    "confirm": {
     "tf": "1h",
     "mode": "breakout",
-    "status": "not",
-    "lastClose": 2318.2,
-    "asOf": "2026-10-26T20:50:07.404Z"
+    "status": "unknown",
+    "lastClose": null,
+    "asOf": "2026-10-26T23:41:31.838Z"
    }
   },
   {
@@ -14510,8 +14575,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 1221.29,
-    "asOf": "2026-10-26T21:05:05.988Z"
+    "lastClose": 1222.5,
+    "asOf": "2026-10-26T23:50:23.333Z"
    }
   },
   {
@@ -14527,9 +14592,9 @@
    "confirm": {
     "tf": "4h",
     "mode": "breakout",
-    "status": "not",
-    "lastClose": 80020.01,
-    "asOf": "2026-10-26T21:04:40.167Z"
+    "status": "unknown",
+    "lastClose": null,
+    "asOf": "2026-10-26T23:50:01.007Z"
    }
   },
   {
@@ -14547,7 +14612,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 80020.01,
-    "asOf": "2026-10-26T21:06:20.122Z"
+    "asOf": "2026-10-26T23:51:35.074Z"
    }
   },
   {
@@ -14563,9 +14628,9 @@
    "confirm": {
     "tf": "1h",
     "mode": "retest",
-    "status": "not",
-    "lastClose": 743.05,
-    "asOf": "2026-10-26T20:50:01.080Z"
+    "status": "unknown",
+    "lastClose": null,
+    "asOf": "2026-10-26T23:41:09.208Z"
    }
   },
   {
@@ -14581,9 +14646,9 @@
    "confirm": {
     "tf": "4h",
     "mode": "breakout",
-    "status": "not",
-    "lastClose": 743.05,
-    "asOf": "2026-10-26T20:49:50.639Z"
+    "status": "unknown",
+    "lastClose": null,
+    "asOf": "2026-10-26T23:40:46.682Z"
    }
   },
   {
@@ -14600,44 +14665,8 @@
     "tf": "1h",
     "mode": "retest",
     "status": "not",
-    "lastClose": 206.06,
-    "asOf": "2026-10-26T21:05:43.770Z"
-   }
-  },
-  {
-   "asset": "ZRO",
-   "direction": "LONG",
-   "brain": "Kenny Kimi",
-   "conviction": 6,
-   "trigger": "4h close above $2.139 — the CHOP range high — the confirmed-break entry, not a mid-range chase (spot $1.81 sits at position 0.15, we wait for the break).",
-   "entry": 2.14,
-   "stop": 2.0223,
-   "target": 2.5466,
-   "levelsApprox": true,
-   "confirm": {
-    "tf": "4h",
-    "mode": "breakout",
-    "status": "not",
-    "lastClose": 1.631,
-    "asOf": "2026-10-26T20:49:54.612Z"
-   }
-  },
-  {
-   "asset": "BTC",
-   "direction": "SHORT",
-   "brain": "Kenny Kimi",
-   "conviction": 6,
-   "trigger": "4h close below $80,900 — under the 6-bar range low $80,939.54 and S1 $80,111.35, confirming the range break.",
-   "entry": 80900,
-   "stop": 82113.5,
-   "target": 78068.5,
-   "levelsApprox": true,
-   "confirm": {
-    "tf": "4h",
-    "mode": "breakout",
-    "status": "through",
-    "lastClose": 80020.01,
-    "asOf": "2026-10-26T21:07:02.620Z"
+    "lastClose": 206.95,
+    "asOf": "2026-10-26T23:50:58.531Z"
    }
   },
   {
@@ -14653,9 +14682,9 @@
    "confirm": {
     "tf": "1h",
     "mode": "retest",
-    "status": "not",
-    "lastClose": 743.05,
-    "asOf": "2026-10-26T20:49:49.340Z"
+    "status": "unknown",
+    "lastClose": null,
+    "asOf": "2026-10-26T23:40:24.479Z"
    }
   },
   {
@@ -14671,9 +14700,9 @@
    "confirm": {
     "tf": "4h",
     "mode": "retest",
-    "status": "not",
-    "lastClose": 80020.01,
-    "asOf": "2026-10-26T20:49:48.363Z"
+    "status": "unknown",
+    "lastClose": null,
+    "asOf": "2026-10-26T23:25:02.536Z"
    }
   },
   {
@@ -14690,8 +14719,8 @@
     "tf": "1h",
     "mode": "breakout",
     "status": "through",
-    "lastClose": 0.44,
-    "asOf": "2026-10-26T20:49:47.029Z"
+    "lastClose": 0.4383,
+    "asOf": "2026-10-26T23:52:32.332Z"
    }
   },
   {
@@ -14707,24 +14736,6 @@
    "confirm": null
   },
   {
-   "asset": "SOL",
-   "direction": "LONG",
-   "brain": "Qwen",
-   "conviction": 6,
-   "trigger": "1h close back above 100.50 after tagging 100.43",
-   "entry": 100.5,
-   "stop": 97,
-   "target": 108.9,
-   "levelsApprox": false,
-   "confirm": {
-    "tf": "1h",
-    "mode": "retest",
-    "status": "not",
-    "lastClose": 100.33,
-    "asOf": "2026-10-26T21:04:26.381Z"
-   }
-  },
-  {
    "asset": "NOK",
    "direction": "LONG",
    "brain": "Qwen",
@@ -14738,8 +14749,8 @@
     "tf": "1h",
     "mode": "breakout",
     "status": "through",
-    "lastClose": 8.6692,
-    "asOf": "2026-10-26T21:07:08.370Z"
+    "lastClose": 8.6906,
+    "asOf": "2026-10-26T23:51:47.582Z"
    }
   },
   {
@@ -14756,8 +14767,8 @@
     "tf": "1h",
     "mode": "breakout",
     "status": "not",
-    "lastClose": 0.624,
-    "asOf": "2026-10-26T21:06:08.051Z"
+    "lastClose": 0.625,
+    "asOf": "2026-10-26T23:51:22.506Z"
    }
   },
   {
@@ -14774,8 +14785,8 @@
     "tf": "1h",
     "mode": "breakout",
     "status": "not",
-    "lastClose": 467.86,
-    "asOf": "2026-10-26T21:05:55.853Z"
+    "lastClose": 468.54,
+    "asOf": "2026-10-26T23:51:10.304Z"
    }
   },
   {
@@ -14792,26 +14803,8 @@
     "tf": "4h",
     "mode": "breakout",
     "status": "not",
-    "lastClose": 4.48,
-    "asOf": "2026-10-26T21:05:31.968Z"
-   }
-  },
-  {
-   "asset": "ENA",
-   "direction": "SHORT",
-   "brain": "Qwen",
-   "conviction": 6,
-   "trigger": "1h close below 0.2260 after tagging 0.2300",
-   "entry": 0.226,
-   "stop": 0.243,
-   "target": 0.188,
-   "levelsApprox": false,
-   "confirm": {
-    "tf": "1h",
-    "mode": "retest",
-    "status": "not",
-    "lastClose": 0.2073,
-    "asOf": "2026-10-26T21:05:17.965Z"
+    "lastClose": 4.4779,
+    "asOf": "2026-10-26T23:50:36.985Z"
    }
   }
  ],
@@ -14824,7 +14817,7 @@
    "venue": "PAPER",
    "outcome": "LOSS",
    "pct": -2.5,
-   "exitReason": null,
+   "exitReason": "LONG ZRO: stopped out at SL -2.5% (entry $1.69 → exit $1.648). WHY: (unscored — timeout of 30000ms exceeded)",
    "closedAt": "2026-10-26T19:59:13.734Z",
    "entry": 1.69,
    "exit": 1.648,
@@ -14880,7 +14873,7 @@
    "venue": "HL",
    "outcome": "LOSS",
    "pct": -2.5,
-   "exitReason": "LONG SOL: stopped out at SL -2.5% (entry $102.355 → exit $99.845). WHY: (unscored — timeout of 30000ms exceeded)",
+   "exitReason": "LONG SOL: stopped out at SL -2.5% (entry $102.355 → exit $99.845). WHY: Entered chase at range-high recovery; broke below 1h support $102.13 before establishing above it—mechanism never triggered,…",
    "closedAt": "2026-10-24T14:16:53.470Z",
    "entry": 102.355,
    "exit": 99.845,
@@ -14989,28 +14982,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 79908.85,
-    "change24hPct": -0.72
+    "price": 80126.94,
+    "change24hPct": 0.12
    },
    {
     "symbol": "ETH",
-    "price": 2305.42,
-    "change24hPct": -1.7
+    "price": 2323.2,
+    "change24hPct": -0.03
    },
    {
     "symbol": "BNB",
-    "price": 741.06,
-    "change24hPct": 0.09
+    "price": 742.34,
+    "change24hPct": 0.65
    },
    {
     "symbol": "XRP",
-    "price": 1.2886,
-    "change24hPct": -0.81
+    "price": 1.3032,
+    "change24hPct": 0.67
    },
    {
     "symbol": "SOL",
-    "price": 100.26,
-    "change24hPct": -1.34
+    "price": 100.88,
+    "change24hPct": -0.3
    }
   ],
   "fearGreed": {
@@ -15026,6 +15019,63 @@
   "btcNqCorr": {
    "corr": 0.65,
    "label": "COUPLED"
+  },
+  "movers": {
+   "gainers": [
+    {
+     "symbol": "Q",
+     "price": 0.144483,
+     "changePct": 150.8
+    },
+    {
+     "symbol": "BULLA",
+     "price": 0.15047,
+     "changePct": 65.2
+    },
+    {
+     "symbol": "TAG",
+     "price": 0.000683,
+     "changePct": 38.4
+    },
+    {
+     "symbol": "CHIP",
+     "price": 0.051267,
+     "changePct": 16.5
+    },
+    {
+     "symbol": "BEAM",
+     "price": 0.00332352,
+     "changePct": 11.7
+    }
+   ],
+   "losers": [
+    {
+     "symbol": "BTW",
+     "price": 1.2,
+     "changePct": -28.5
+    },
+    {
+     "symbol": "IRYS",
+     "price": 0.02718488,
+     "changePct": -25.5
+    },
+    {
+     "symbol": "ARC",
+     "price": 0.05066,
+     "changePct": -14.8
+    },
+    {
+     "symbol": "MAGMA",
+     "price": 0.300506,
+     "changePct": -13.2
+    },
+    {
+     "symbol": "T",
+     "price": 0.00478897,
+     "changePct": -12.8
+    }
+   ],
+   "ageMin": 111
   }
  },
  "calendar": [
@@ -15301,11 +15351,6 @@
       "kind": "live"
      },
      {
-      "actor": "kimi",
-      "conv": 6,
-      "kind": "watching"
-     },
-     {
       "actor": "minimax",
       "conv": 5,
       "kind": "watching"
@@ -15334,6 +15379,11 @@
       "actor": "qwen38",
       "conv": 5,
       "kind": "watching"
+     },
+     {
+      "actor": "haiku55",
+      "conv": 5,
+      "kind": "watching"
      }
     ],
     "short": []
@@ -15348,22 +15398,6 @@
      },
      {
       "actor": "qwen38",
-      "conv": 5,
-      "kind": "watching"
-     }
-    ],
-    "short": []
-   },
-   {
-    "asset": "SOL",
-    "long": [
-     {
-      "actor": "qwen",
-      "conv": 6,
-      "kind": "watching"
-     },
-     {
-      "actor": "grok",
       "conv": 5,
       "kind": "watching"
      }
@@ -15413,44 +15447,60 @@
      }
     ],
     "short": []
+   },
+   {
+    "asset": "NEAR",
+    "long": [
+     {
+      "actor": "kimi",
+      "conv": 5,
+      "kind": "watching"
+     }
+    ],
+    "short": []
    }
   ],
   "disagreement": "BTC"
  },
  "manualBook": {
-  "at": "2026-10-26T21:03:35.234Z",
+  "at": "2026-10-26T23:40:58.535Z",
   "positions": [
    {
     "asset": "HOOD",
     "stock": true,
     "direction": "LONG",
     "entry": 99.348,
-    "pnlPct": -6.68
+    "pnlPct": -6.41
    },
    {
     "asset": "XMR",
     "stock": false,
     "direction": "LONG",
     "entry": 579.58,
-    "pnlPct": 2.47
+    "pnlPct": 2.94
    },
    {
     "asset": "ENA",
     "stock": false,
     "direction": "SHORT",
     "entry": 0.20551,
-    "pnlPct": -0.52
+    "pnlPct": -1.03
    }
   ]
  },
  "report": {
-  "xPost": "The Bot Exchange — bias check: 0 bull / 4 bear across 4/18 active signals. BTC $80,532.",
-  "intelligence": "SUMMARY\nMarket closed with a broad-based rally across major assets as BTC reclaimed $80k and ETH surged 1.8%, driven by institutional ETF inflows offsetting earlier outflows and positive on-chain whale accumulation in ETH. The dominant signal is the divergence between macro-caution (ETF selling pressure) and micro-structure strength (whale net taker flow into ETH and QQQ). Primary risk remains regulatory volatility regarding Basel crypto exposure classifications and potential digital euro sovereignty shifts, which could suppress liquidity if adopted aggressively by European banks.\n\nIN-DEPTH ANALYSIS\nThe morning thesis of a bottoming process is validated by the close, though the path was choppy with BTC testing its $80k cost basis before stabilizing. Technicals show ETH and SOL in strong relative strength compared to BTC, which remains neutral on the daily RSI. The critical confluence lie",
-  "at": "2026-10-25T16:28:38.309Z"
+  "xPost": "The Bot Exchange — bias check: 0 bull / 4 bear across 4/18 active signals. BTC $79,998.",
+  "intelligence": "SUMMARY\nMarket closed flat to slightly negative with BTC testing support at $79k while macro equity correlation remains tight. Overnight consolidation holds intraday levels as ETF outflows and liquidations create a supply shock overhang. The primary setup for Asia/Europe is a liquidity grab below key moving averages followed by a potential retest of the 4h MACD zero line. Dominant risk is institutional selling pressure via spot ETFs combined with weak on-chain net flow for BTC.\n\nIN-DEPTH ANALYSIS\nThe confluence of technical oversold readings and negative whale flow creates a high-probability mean reversion setup, but institutional distribution acts as a ceiling. ETH shows the strongest divergence with RSI(1d) at 32.82 despite only -0.94% price action, suggesting capitulation is nearing completion. Whale desks are net buyers on ETH (+$5.3M) and SOL (+$1.25M) while dumping BTC (-$1.68M), i",
+  "at": "2026-10-26T22:41:39.135Z"
  },
  "marketsDesk": {
-  "at": "2026-10-25T16:28:38.309Z",
-  "macro": null,
+  "at": "2026-10-26T22:41:39.135Z",
+  "macro": {
+   "btcNqCorr": {
+    "corr": 0.65,
+    "n": 24
+   }
+  },
   "etf": {
    "BTC": {
     "latestM": -137.9,
@@ -15481,131 +15531,124 @@
   "whales": [],
   "topTraders": null,
   "lighterWhales": {
-   "totalPrints7d": 5132,
+   "totalPrints7d": 5015,
    "minUsdK": 10,
-   "booksSeen": 15,
+   "booksSeen": 14,
    "coins": [
+    {
+     "coin": "US100",
+     "l": 1,
+     "s": 0,
+     "netK": 804,
+     "concPct": 100
+    },
     {
      "coin": "US500",
      "l": 1,
      "s": 0,
-     "netK": 619,
+     "netK": 585,
      "concPct": 100
     },
     {
      "coin": "BTC",
-     "l": 1,
-     "s": 2,
-     "netK": -301,
-     "concPct": 44
-    },
-    {
-     "coin": "US100",
      "l": 0,
-     "s": 1,
-     "netK": -229,
-     "concPct": 100
+     "s": 2,
+     "netK": -422,
+     "concPct": 57
     },
     {
      "coin": "ETH",
      "l": 0,
      "s": 1,
-     "netK": -92,
-     "concPct": 100
-    },
-    {
-     "coin": "SOL",
-     "l": 0,
-     "s": 1,
-     "netK": -11,
+     "netK": -93,
      "concPct": 100
     }
    ],
    "coinFlow": [
     {
      "coin": "ETH",
-     "netK": 5302,
-     "n": 948
+     "netK": 5783,
+     "n": 930
     },
     {
      "coin": "US100",
-     "netK": 3070,
-     "n": 1571
+     "netK": 3745,
+     "n": 1521
     },
     {
      "coin": "BTC",
-     "netK": -1682,
-     "n": 532
-    },
-    {
-     "coin": "ZEC",
-     "netK": -1537,
-     "n": 423
+     "netK": -1640,
+     "n": 534
     },
     {
      "coin": "SOL",
-     "netK": 1293,
-     "n": 260
+     "netK": 1222,
+     "n": 258
+    },
+    {
+     "coin": "ZEC",
+     "netK": -902,
+     "n": 402
     }
    ],
    "accounts": [
     {
      "id": 748220,
-     "prints": 1004,
-     "volK": 47926,
-     "biasK": 1981,
-     "equity": 68329,
+     "prints": 986,
+     "volK": 47079,
+     "biasK": 2532,
+     "equity": 70739,
      "positions": [
       {
        "coin": "US100",
-       "side": "SHORT",
-       "usdK": 229,
-       "upnlK": 0
+       "side": "LONG",
+       "usdK": 804,
+       "upnlK": 2
       }
      ]
     },
     {
      "id": 748732,
-     "prints": 677,
-     "volK": 31658,
-     "biasK": 882,
-     "equity": 60752,
+     "prints": 660,
+     "volK": 31140,
+     "biasK": 946,
+     "equity": 61260,
      "positions": [
       {
        "coin": "US500",
        "side": "LONG",
-       "usdK": 619,
-       "upnlK": 0
+       "usdK": 585,
+       "upnlK": 1
       }
      ]
     },
     {
      "id": 731910,
-     "prints": 119,
-     "volK": 5516,
-     "biasK": -2236,
-     "equity": 52299,
-     "positions": []
-    },
-    {
-     "id": 757054,
-     "prints": 68,
-     "volK": 3683,
-     "biasK": -482,
-     "equity": 0,
+     "prints": 111,
+     "volK": 5238,
+     "biasK": -1958,
+     "equity": 54417,
      "positions": []
     },
     {
      "id": 749117,
-     "prints": 157,
-     "volK": 3518,
-     "biasK": 134,
-     "equity": 423081,
+     "prints": 154,
+     "volK": 3485,
+     "biasK": 124,
+     "equity": null,
+     "positions": []
+    },
+    {
+     "id": 717321,
+     "prints": 222,
+     "volK": 3211,
+     "biasK": 305,
+     "equity": 16822,
      "positions": [
       {
-       "coin": "BTC",
-       "side": "LONG",
-       "usdK": 119,
+       "coin": "ETH",
+       "side": "SHORT",
+       "usdK": 93,
        "upnlK": 0
       }
      ]
@@ -15615,13 +15658,13 @@
   "funding": [],
   "sr": {
    "BTC": {
-    "r2": 82433.75,
-    "r1": 81660.95,
-    "pivot": 80440.85,
-    "s1": 79668.05,
-    "s2": 78447.95,
-    "ma20": 82367.02,
-    "ma50": 81862.35,
+    "r2": 81532.38,
+    "r1": 80843.23,
+    "pivot": 80344.55,
+    "s1": 79655.4,
+    "s2": 79156.72,
+    "ma20": 82072.23,
+    "ma50": 81848.6,
     "fib382": 84164.28,
     "fib618": 82276.46,
     "fib786": 80932.58,
@@ -15629,13 +15672,13 @@
     "swingLow": 79220.74
    },
    "ETH": {
-    "r2": 2451.62,
-    "r1": 2405.22,
-    "pivot": 2343.84,
-    "s1": 2297.44,
-    "s2": 2236.06,
-    "ma20": 2456.65,
-    "ma50": 2544.99,
+    "r2": 2399.52,
+    "r1": 2364.69,
+    "pivot": 2336.7,
+    "s1": 2301.87,
+    "s2": 2273.88,
+    "ma20": 2436.76,
+    "ma50": 2540.69,
     "fib382": 2588.29,
     "fib618": 2471.5,
     "fib786": 2388.36,
@@ -15643,13 +15686,13 @@
     "swingLow": 2282.46
    },
    "SOL": {
-    "r2": 105.89,
-    "r1": 104.13,
-    "pivot": 101.38,
-    "s1": 99.6233,
-    "s2": 96.8667,
-    "ma20": 107.03,
-    "ma50": 109.66,
+    "r2": 103.91,
+    "r1": 102.66,
+    "pivot": 101.51,
+    "s1": 100.26,
+    "s2": 99.1133,
+    "ma20": 106.02,
+    "ma50": 109.54,
     "fib382": 114.89,
     "fib618": 108.68,
     "fib786": 104.25,
@@ -15657,13 +15700,13 @@
     "swingLow": 98.62
    },
    "BNB": {
-    "r2": 756.71,
-    "r1": 748.35,
-    "pivot": 733.18,
-    "s1": 724.82,
-    "s2": 709.65,
-    "ma20": 740.3,
-    "ma50": 750.16,
+    "r2": 754.18,
+    "r1": 746.43,
+    "pivot": 740.91,
+    "s1": 733.16,
+    "s2": 727.64,
+    "ma20": 738.3,
+    "ma50": 749.89,
     "fib382": 770.21,
     "fib618": 745.64,
     "fib786": 728.14,
@@ -15671,79 +15714,214 @@
     "swingLow": 705.86
    },
    "XRP": {
-    "r2": 1.3323,
-    "r1": 1.3159,
-    "pivot": 1.2853,
-    "s1": 1.2689,
-    "s2": 1.2383,
-    "ma20": 1.3502,
-    "ma50": 1.4056,
-    "fib382": 1.4563,
-    "fib618": 1.3793,
-    "fib786": 1.3244,
-    "swingHigh": 1.581,
+    "r2": 1.3298,
+    "r1": 1.313,
+    "pivot": 1.2991,
+    "s1": 1.2823,
+    "s2": 1.2684,
+    "ma20": 1.3399,
+    "ma50": 1.403,
+    "fib382": 1.4444,
+    "fib618": 1.3719,
+    "fib786": 1.3203,
+    "swingHigh": 1.5617,
     "swingLow": 1.2546
    },
-   "ZRO": {
-    "r2": 1.842,
-    "r1": 1.801,
-    "pivot": 1.72,
-    "s1": 1.679,
-    "s2": 1.598,
-    "ma20": 1.9608,
-    "ma50": 1.6033,
-    "fib382": 2.0781,
-    "fib618": 1.8279,
-    "fib786": 1.6498,
-    "swingHigh": 2.483,
-    "swingLow": 1.423
+   "STX": {
+    "r2": 0.3385,
+    "r1": 0.3219,
+    "pivot": 0.3076,
+    "s1": 0.291,
+    "s2": 0.2767,
+    "ma20": 0.369825,
+    "ma50": 0.33554,
+    "fib382": 0.399411,
+    "fib618": 0.358889,
+    "fib786": 0.330044,
+    "swingHigh": 0.465,
+    "swingLow": 0.2933
    },
-   "ZEC": {
-    "r2": 1275.09,
-    "r1": 1241.54,
-    "pivot": 1180.05,
-    "s1": 1146.5,
-    "s2": 1085.01,
-    "ma20": 1214.81,
-    "ma50": 1301.03,
-    "fib382": 1450.09,
-    "fib618": 1296.92,
-    "fib786": 1187.89,
-    "swingHigh": 1698,
-    "swingLow": 1049.01
+   "PENDLE": {
+    "r2": 2.06,
+    "r1": 2.011,
+    "pivot": 1.972,
+    "s1": 1.923,
+    "s2": 1.884,
+    "ma20": 2.0893,
+    "ma50": 2.2601,
+    "fib382": 2.3908,
+    "fib618": 2.2042,
+    "fib786": 2.0713,
+    "swingHigh": 2.693,
+    "swingLow": 1.902
+   },
+   "QNT": {
+    "r2": 211.92,
+    "r1": 201.07,
+    "pivot": 189.49,
+    "s1": 178.64,
+    "s2": 167.06,
+    "ma20": 209.41,
+    "ma50": 164.76,
+    "fib382": 287.22,
+    "fib618": 234.22,
+    "fib786": 196.5,
+    "swingHigh": 373,
+    "swingLow": 148.44
+   },
+   "ENA": {
+    "r2": 0.2253,
+    "r1": 0.2161,
+    "pivot": 0.2024,
+    "s1": 0.1932,
+    "s2": 0.1795,
+    "ma20": 0.2053,
+    "ma50": 0.2041,
+    "fib382": 0.248684,
+    "fib618": 0.220316,
+    "fib786": 0.200123,
+    "swingHigh": 0.2946,
+    "swingLow": 0.1744
+   },
+   "DASH": {
+    "r2": 55.6267,
+    "r1": 53.6533,
+    "pivot": 52.2167,
+    "s1": 50.2433,
+    "s2": 48.8067,
+    "ma20": 50.935,
+    "ma50": 56.169,
+    "fib382": 62.8088,
+    "fib618": 56.3212,
+    "fib786": 51.7029,
+    "swingHigh": 73.31,
+    "swingLow": 45.82
    }
   },
   "asOf": {
-   "macro": "2026-10-25T16:22:19.348Z",
-   "etf": "2026-10-25T16:06:41.221Z",
-   "liq": "2026-10-25T16:06:22.701Z",
-   "whales": "2026-10-25T16:06:30.699Z",
-   "topTraders": "2026-10-25T16:06:30.699Z",
-   "lighterWhales": "2026-10-25T16:18:39.279Z",
-   "funding": "2026-10-25T16:06:10.701Z",
-   "sr": "2026-10-25T16:07:01.438Z"
+   "macro": "2026-10-26T22:19:44.727Z",
+   "etf": "2026-10-26T22:02:23.521Z",
+   "liq": "2026-10-26T22:02:23.362Z",
+   "whales": "2026-10-26T22:02:31.356Z",
+   "topTraders": "2026-10-26T22:02:31.356Z",
+   "lighterWhales": "2026-10-26T22:34:19.160Z",
+   "funding": "2026-10-26T22:02:11.358Z",
+   "sr": "2026-10-26T22:04:13.772Z"
   }
  },
  "intel": {
-  "ageH": 5.7,
+  "ageH": 2.4,
   "narratives": [
-   "- Weekend Crypto Leverage Flush: A liquidation cascade of $838M wiped out overleveraged longs (X).",
-   "- AI ROI & Infrastructure Disconnect: High demand for $NVDA H200 chips (up 160%) vs. \"zero payoff\" in productivity outside big tech (X).",
-   "- Geopolitical Volatility: Focus on US-Iran friction and potential strikes (X).",
-   "- US Consumer Financial Strain: Focus on high costs like $28,303 annual family healthcare premiums (X).",
+   "• Brazilian Political Shock: Brazil's equity benchmark plunged 13.9% (undated) in its worst single-day session since 2020 after Lula da Silva defeated Flávio Bolsonaro, triggering circuit breakers and regional risk-off o",
+   "• AI Capex & Debt Financing Squeeze: Structural stress hit AI infrastructure as Elon Musk flagged a debt-financing freeze for pure-play AI data centers and Anthropic warned in its S-1 filing that catastrophic AI risks co",
+   "• Hyperliquid Short Positioning: Institutional hedging firm Abraxas Capital accumulated over $353M in total profit, maintaining over $1.29B in short positions across Hyperliquid accounts (undated) (X).",
    "🏦 STOCKS & MACRO EQUITIES",
-   "(DAY 5) NVDA — watch, H200 chip rental costs jumped ~160% year-to-date (X).",
-   "(DAY 2) MSFT — watch, upcoming earnings report (X).",
-   "(DAY 4) GOOGL — watch, upcoming earnings report (X)."
+   "• (DAY 3) MSFT — watch — Restructuring balance sheet and reallocating capital to AI capex via voluntary buyouts offered to ~60,000 workers globally (undated) (X).",
+   "• (NEW) CART — bullish — In advanced discussions to be acquired by DoorDash, with a deal possible as soon as this week (undated) (X).",
+   "• (NEW) DASH — watch — Pursuing a major delivery sector consolidation through advanced acquisition talks with Instacart (undated) (X).",
+   "• (NEW) PBR — bearish — State-run oil giant tumbled over 10% (undated) following the Brazilian presidential election outcome (X)."
   ],
   "potentialCoins": [
-   "(DAY 2) ENA — watch, Arthur Hayes offloaded 14M units in 24h to secure profit (X).",
-   "(DAY 1) ETH — watch, a whale added $5.67M USDC to avoid liquidation after a price dip (X).",
-   "(DAY 1) BTC — watch, price is back above the ~$80K local range low after a weekend flush (X)."
+   "• (DAY 8) BTC — watch — Defending the $80,000 pivot on Mon 26 Oct amid stalled ETF demand and mixed analyst forecasts ahead of upcoming FOMC and midterm risk (X).",
+   "• (DAY 7) ETH — bearish — Facing renewed downside pressure under $2,400 following $9.88M in cumulative selling from the Ethereum Foundation and an inactive ICO whale (undated) (X).",
+   "• (DAY 3) HYPE — watch — Three whale wallets transferred 494,310 HYPE ($37.83M) into Coinbase over the past 24h (X).",
+   "• (DAY 5) BNB — watch — CZ marked traditional finance convergence after ringing the NASDAQ bell for a tokenized treasury asset (undated) (X)."
   ],
-  "tweetOfDay": null
+  "tweetOfDay": {
+   "handle": "WatcherGuru",
+   "likes": 16673,
+   "reposts": 2516,
+   "text": "JUST IN: 🇧🇷 Over $200,000,000,000 wiped out from the Brazil stock market at open after Lula da Silva wins Brazil's presidential election, defeating Flávio Bolsonaro. https://t.co/nX4YiYChoL",
+   "at": "2026-10-26T13:25:34.000Z"
+  },
+  "wirePosts": [
+   {
+    "handle": "WatcherGuru",
+    "likes": 16673,
+    "reposts": 2516,
+    "text": "JUST IN: 🇧🇷 Over $200,000,000,000 wiped out from the Brazil stock market at open after Lula da Silva wins Brazil's presidential election, defeating Flávio Bolsonaro. https://t.co/nX4YiYChoL",
+    "at": "2026-10-26T13:25:34.000Z"
+   },
+   {
+    "handle": "WatcherGuru",
+    "likes": 9485,
+    "reposts": 872,
+    "text": "JUST IN: 🇧🇷 Brazil's stock market suspends trading due to circuit breaker.",
+    "at": "2026-10-26T13:05:10.000Z"
+   },
+   {
+    "handle": "WatcherGuru",
+    "likes": 9228,
+    "reposts": 827,
+    "text": "JUST IN: 🇧🇷 Brazil's largest oil company Petrobras $PBR crashes over 10% after Lula da Silva wins Brazil's presidential election, defeating Flávio Bolsonaro. https://t.co/mRcLqP0UwI",
+    "at": "2026-10-26T00:49:17.000Z"
+   },
+   {
+    "handle": "cz_binance",
+    "likes": 4551,
+    "reposts": 622,
+    "text": "When BNB started 9 years ago, I never thought I would be ringing the bell for a blockchain token (treasury) on NASDAQ one day. I don’t know what shows crypto and tradfi converging more than this.   #BNB Standard",
+    "at": "2026-10-26T16:25:55.000Z"
+   },
+   {
+    "handle": "blknoiz06",
+    "likes": 1341,
+    "reposts": 105,
+    "text": "it has become complete counter-consensus to be bullish onchain now, have never seen sentiment this bad & ive been here ~9 years  crypto twitter has forgotten that it requires actual work on the builder side to make coins do well, so many traders complaining about lower ceilings o",
+    "at": "2026-10-26T13:20:07.000Z"
+   },
+   {
+    "handle": "blknoiz06",
+    "likes": 1179,
+    "reposts": 69,
+    "text": "i am bearish btc/eth & large cap stocks believe btc & eth have broken mid timeframe trend and will continue to accelerate to downside under 82k/2400  dont think the average retail speculator is going to slow down tho, Q4 is going to have a lot of volatility for traders in both di",
+    "at": "2026-10-26T13:28:00.000Z"
+   }
+  ]
  },
  "deskNotes": [
+  {
+   "ts": "2026-10-26T22:35:31.171Z",
+   "brain": "minimax",
+   "model": "GLM 5.3 Flash",
+   "kind": "report",
+   "text": "READ: RISK_OFF tape still grinding lower: BTC below both its 20d and 50d MA with breadth 1/5 majors above the 20d, whale flow net selling BTC (−~$1.68M taker/7d) and the latest BTC ETF print an outflow (−~$137.9M). The one observable that matters on the chart: the ~$80,845 six-bar range high was tested on v2.8x volume and the bar closed back below it, then price closed the last 4h bar at ~$80,020 — sellers defended the level once. At current prices every chop coin sits mid-range or on the wrong side of its favourable edge (ETH at the range floor in a DOWN tape is a losing floor-long per the 18/18 replay), so nothing is tradeable RIGHT NOW.\nDECISION: Silence on new entries — my own book is 1W/16L and every fresh candidate is either a 24h-chase (QNT, CHIP, CAP) or a mid-range/hostile-side entry the realized record says loses. The BTC short stays a wait-for-the-rejection watch at the range hi"
+  },
+  {
+   "ts": "2026-10-26T22:33:45.536Z",
+   "brain": "qwen38",
+   "model": "Qwen 3.8 Flash",
+   "kind": "report",
+   "text": "READ: BTC is coiled between $79.2k swing-low support and the $80.8k R1/Pivot ceiling on compressed 14d vol (17th pctile), with the 4h MACD histogram turning positive (+18.1) and volume fading on the latest bar (1.3x vs the 2.8x breakout attempt). ETF flow is mixed (7d net inflow +$224M, latest day −$138M), stablecoin dry-powder ratio at 0.16 (bullish liquidity), and FOMC 2 days out caps upside conviction. The fleet's own record says shorts in a down-trend lost 53R; no asset on the tape shows a funding squeeze, OI flush, or confirmed reclaim mechanism that clears the DISCIPLINE BAR today.\nDECISION: Silence. No mechanism is already firing on a printed observable that clears the 2.2x bar with an honest structural stop. I already hold a live BTC LONG (1% from stop) and three valid pending watches — adding a fourth is churn. Watch management below refreshes nothing; all three remain live and "
+  },
+  {
+   "ts": "2026-10-26T22:33:26.331Z",
+   "brain": "deepseek",
+   "model": "DeepSeek V4.1 Flash",
+   "kind": "report",
+   "text": "READ: Tape is RISK_OFF and compressed: BTC ~$79,998 is pinned just above the ~$79,220 swing low and below its 20d/50d MAs, breadth 1/5, and realized vol sits in the 4th–24th percentile across the majors. Every per-asset check I run hits the same wall — no closed 4h bar has gone through a quoted level on ≥1.5x volume anywhere in my universe, no per-asset OI/funding divergence is printed, and FOMC lands in two days. The one real structure read is that BNB is the only major holding its MA20 (+0.76 RS), but its breakout geometry (range high ~$750.5 vs R2 ~$754.18) fails the R:R floor, and the CHOP floors (PENDLE 0.16, STX 0.25) are exactly the down-tape floors the replay data says are where breakdowns start, not buys.\nDECISION: Pass. Nothing in the printed data is firing right now, and churning a chop-range entry in a down tape is this desk's single costliest structure (CHOP+fade −0.42R, CHOP+ch"
+  },
+  {
+   "ts": "2026-10-26T22:33:20.811Z",
+   "brain": "kimi",
+   "model": "Kimi K3",
+   "kind": "report",
+   "text": "READ: Tape is flat-to-down into FOMC on the 28th with all majors compressed (BTC RV 17th pctile) and volume dead (SOL 0.08x, XRP 0.06x) — no chaseable momentum anywhere. The one coin with real participation is ZRO: a closed 4h bar at ~$1.631 broke below the prior 5-bar low ~$1.659 on 3.0x volume, a confirmed breakdown, not a narrative. That kills my stale ZRO long watch and sets up the short.\nDECISION: One trade: ZRO short on the confirmed 3.0x-volume breakdown bar, half-sized under the sub-7 short rule. I flip back to neutral on ZRO if a 4h close reclaims ~$1.659; otherwise nothing else in this tape clears the mechanism bar before FOMC."
+  },
+  {
+   "ts": "2026-10-26T22:33:02.267Z",
+   "brain": "haiku55",
+   "model": "Claude Haiku 5.5",
+   "kind": "report",
+   "text": "READ: BTC sits at $79,998, below both its 20d and 50d averages, and the tape is down-trending with 1 of 5 majors above its 20d MA. ETH has been making lower highs, its MACD is bearish, and its 7d ETF flow is negative. Nothing in the printed blocks shows a positioning flip yet, so I am waiting for a reclaim before taking a long.\nDECISION: No confirmed edge: the tape is down, the 4h bars show no closed reclaim, and the ETH ETF 7d flow is negative. I'd take the ETH long only on a 4h close back above $2,336.70 that holds, and I'd take the existing BTC watch (W#1130) only on a 4h close above $82,700. A break of the $79,220 BTC swing low would make me drop the long idea entirely."
+  },
+  {
+   "ts": "2026-10-26T22:32:56.521Z",
+   "brain": "grok",
+   "model": "Grok 4.7",
+   "kind": "report",
+   "text": "READ: Tape is RISK_OFF and compressed: BTC is pinned on the ~$80k pivot after a failed push, majors sit under their 20d/50d averages, and 4h volume is ordinary rather than a reclaim. No positioning imbalance I can prove is already firing — ETF flows are mixed and stale, and range edges are not offering a confirmed rejection or break. Default remains no chase and no anticipatory short.\nDECISION: Silence. Existing SOL long watch stays pending until a closed 4h bar actually clears ~$104.25; a new long needs a confirmed reclaim with participation, a short needs a printed breakdown I do not have."
+  },
   {
    "ts": "2026-10-26T20:30:41.454Z",
    "brain": "gemini",
@@ -15813,48 +15991,6 @@
    "model": "Grok 4.7",
    "kind": "report",
    "text": "READ: Risk-off tape is still below the 20d/50d on the majors, and the bounce is short-covering on BTC/BNB rather than fresh demand. SOL is the only name with a live positioning hook — funding just flipped negative while price holds the mid-range — but no closed bar has reclaimed a real level on volume, so it is a watch, not a fill. ENA/ZEC strength is the chase after the move.\nDECISION: Silence on live capital. SOL long only if a closed 4h bar takes ~$104.25 while funding is still negative; a funding flip back to positive kills the watch thesis."
-  },
-  {
-   "ts": "2026-10-25T16:27:42.202Z",
-   "brain": "qwen38",
-   "model": "Qwen 3.8 Flash",
-   "kind": "report",
-   "text": "READ: Post-flush bounce on thin volume and short covering (BTC OI -3.6%, price +1.16%) — no new longs entering, which makes this rally structurally fragile. Whale positioning diverges sharply from crowd flow: ETH accumulating net +$5.2M on Lighter and +$5.8M new risk from followed wallets, while ZEC whales sold $1.8M. Volume across the board is 0.3-0.8x the 20-bar average — no one is committing capital to follow-through yet.\nDECISION: No CONFIRMED trade — the bounce lacks volume (all bars 0.3-0.8x) and new-long positioning (OI falling), so continuation is unproven. Registered one ETH AWAITING at the S1 rejection level where whale flow and RSI exhaustion converge; if volume is absent at the trigger the watch simply won't fill."
-  },
-  {
-   "ts": "2026-10-25T16:27:36.743Z",
-   "brain": "gemini",
-   "model": "Gemini 3.8 Flash",
-   "kind": "report",
-   "text": "READ: Market structure remains locked in RISK_OFF with BTC trading below its 20d and 50d moving averages on subdued weekend volume at 0.4x 20-period average. Price advances across majors reflect short covering rather than aggressive spot absorption, evidenced by BTC contract OI dropping 3.6% over 24h alongside ~$137.9M in net ETF outflows. Retail accounts remain crowded long across majors (BTC retail L/S 2.13, ETH 3.26), leaving low-volume weekend rallies vulnerable to continuation flushes.\nDECISION: Passing on fresh executions as no asset displays active structural flow or volume-confirmed expansion. Standing by existing pending breakout watch W#~1,106 on BTC awaiting a confirmed 4h close reclaim above ~$84,900."
-  },
-  {
-   "ts": "2026-10-25T16:27:26.263Z",
-   "brain": "deepseek",
-   "model": "DeepSeek V4.1 Flash",
-   "kind": "report",
-   "text": "READ: The 24h bounce is short-covering, not fresh money: BTC +1.16% with Bybit OI -3.6%, ETH +1.82% with OI +0.4% and funding simply steady — no long-side mechanism is firing. Breadth is 1/5 majors above their 20d-MA, BTC sits below its 20d/50d and ETH/SOL remain under MA20/MA50 with bearish 4h MACD, so this is a rally inside a RISK_OFF downtrend, and the fleet's short book (4W/31L since 19 Aug) says fading it is also a losing game. The only name with genuine positioning change is ENA (OI +6.7% 24h, price +8.5%) but it is mid-range CHOP with Arthur Hayes dumping 14M tokens — that is the chase, not an edge.\nDECISION: Silence — no confirmed mechanism exists at the current price in either direction. I would flip only on a 4h close through ~$2,431.6 (ETH long) or a decisive BTC close below ~$79,668 (S1) with rising OI, neither of which has printed."
-  },
-  {
-   "ts": "2026-10-25T16:27:13.093Z",
-   "brain": "luna",
-   "model": "GPT-6 Luna",
-   "kind": "report",
-   "text": "READ: The broad rebound is not yet convincing follow-through: BTC is up with 24h OI down 3.6%, consistent with short covering, while recent 4h volume remains subdued. I see no confirmed new entry; ETH is worth watching for a reclaim of R1, but it has not closed above it.\nDECISION: No new position now; wait for ETH to close above ~$2,405.2 before considering the long.\nA failed reclaim or a 4h close below ~$2,297.4 would invalidate the watch."
-  },
-  {
-   "ts": "2026-10-25T16:27:09.074Z",
-   "brain": "minimax",
-   "model": "GLM 5.3 Flash",
-   "kind": "report",
-   "text": "READ: RISK_OFF tape still grinding sideways-to-down: BTC reclaimed ~$80k on short-covering (price +1.16% with Bybit OI −3.6% 24h), not fresh longs, and volume is dead (1h vol 0.09x avg). The ~$80k–~$81,034 6-bar range holds; my standing BTC SHORT watch on a 4h close through the range floor remains the cleanest expression — no mechanism is firing at spot right now, so nothing goes CONFIRMED.\nDECISION: No new position — nothing is firing at spot; the standing BTC SHORT watch is the only live thesis and I re-state it to refresh the 5d clock. A reclaim of ~$81,034 kills it; a confirmed 4h close below ~$80,940 fills it."
-  },
-  {
-   "ts": "2026-10-25T16:27:08.413Z",
-   "brain": "kimi",
-   "model": "Kimi K3",
-   "kind": "report",
-   "text": "READ: Weekend tape is thin (volume 0.3–0.7x the 20-bar average across majors) and drifting after a leverage flush — BTC is chopping in a ~$79.6k–~$81k band below its MAs, funding is mixed-to-positive with crowded retail longs on BTC/ETH/SOL/XRP. The BTC break below ~$80,900 is real (last closed 4h bar ~$80,636) but price has already run past my trigger, so the honest trade is the retracement fill, not a chase at spot. RISK_OFF regime with a terrible fleet short record says: sit on the watches, add nothing.\nDECISION: No new positions — holding four pending watches. What would change the call: a closed 4h BTC bar back above ~$81,660 (R1) on volume >=1x kills the short watch; a close below ~$79,668 (S1) with OI building would earn a fresh breakdown entry."
   }
  ],
  "archive": [
@@ -15867,7 +16003,7 @@
    "outcome": "LOSS",
    "pct": -2.5,
    "pnlUsd": -7.46,
-   "exitReason": null,
+   "exitReason": "LONG ZRO: stopped out at SL -2.5% (entry $1.69 → exit $1.648). WHY: (unscored — timeout of 30000ms exceeded)",
    "closedAt": "2026-10-26T19:59:13.734Z",
    "stop": 1.648,
    "target": 1.9,
@@ -15947,7 +16083,7 @@
    "outcome": "LOSS",
    "pct": -2.5,
    "pnlUsd": -3.95,
-   "exitReason": "LONG SOL: stopped out at SL -2.5% (entry $102.355 → exit $99.845). WHY: (unscored — timeout of 30000ms exceeded)",
+   "exitReason": "LONG SOL: stopped out at SL -2.5% (entry $102.355 → exit $99.845). WHY: Entered chase at range-high recovery; broke below 1h support $102.13 before establishing above it—mechanism never triggered,…",
    "closedAt": "2026-10-24T14:16:53.470Z",
    "stop": 99.9,
    "target": 108.92,
@@ -18222,7 +18358,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 488.18,
+    "equity": 487.76,
     "peak": 500.83
    },
    "LIGHTER_minimax": {
@@ -18743,7 +18879,7 @@
   "model": "Claude Haiku 5.5"
  },
  "extendedCalls": {
-  "at": "2026-10-26T21:07:49.118Z",
+  "at": "2026-10-26T23:53:18.304Z",
   "horizonH": 12,
   "minRead": 20,
   "briefs": 33,
@@ -21492,7 +21628,7 @@
      "arm": "wide",
      "tier": "medium",
      "model": "grok-4.7",
-     "cycles": 134
+     "cycles": 135
     }
    ],
    "current": {
@@ -21576,7 +21712,7 @@
     "awaiting7d": 5,
     "saves7d": 3,
     "routedSaves7d": 3,
-    "cost7dUsd": 2.65,
+    "cost7dUsd": 2.62,
     "calls7d": 39
    },
    "recentCloses": [
@@ -21599,7 +21735,7 @@
      "venue": "HL",
      "pct": -2.45,
      "pnlUsd": -3.95,
-     "exitReason": "LONG SOL: stopped out at SL -2.5% (entry $102.355 → exit $99.845). [entry structure: CHOP er0.11 pos-0.11 against fade] WHY: (unscored — timeout of 30000ms exceeded)",
+     "exitReason": "LONG SOL: stopped out at SL -2.5% (entry $102.355 → exit $99.845). [entry structure: CHOP er0.11 pos-0.11 against fade] WHY: Entered chase at range-high recovery; broke below 1h support $102.13 before establishing above it—mechanism never triggered, just false breakout into range retest.",
      "closedAt": "2026-10-24T14:16:53.470Z"
     },
     {
@@ -21697,7 +21833,7 @@
      "arm": "wide",
      "tier": "medium",
      "model": "kimi-k3",
-     "cycles": 134
+     "cycles": 135
     }
    ],
    "current": {
@@ -21776,12 +21912,12 @@
    ],
    "activity": {
     "cycles7d": 39,
-    "pickCycles7d": 11,
-    "pickRate7d": 28,
+    "pickCycles7d": 12,
+    "pickRate7d": 31,
     "awaiting7d": 9,
     "saves7d": 0,
     "routedSaves7d": 0,
-    "cost7dUsd": 3.61,
+    "cost7dUsd": 3.58,
     "calls7d": 39
    },
    "recentCloses": [
@@ -21913,7 +22049,7 @@
      "arm": "wide",
      "tier": "low",
      "model": "deepseek-flash",
-     "cycles": 134
+     "cycles": 135
     }
    ],
    "current": {
@@ -22118,7 +22254,7 @@
      "arm": "tight",
      "tier": "low",
      "model": "gemini-3.8-flash",
-     "cycles": 134
+     "cycles": 135
     }
    ],
    "current": {
@@ -22202,8 +22338,8 @@
     "awaiting7d": 3,
     "saves7d": 0,
     "routedSaves7d": 0,
-    "cost7dUsd": 1.39,
-    "calls7d": 43
+    "cost7dUsd": 1.35,
+    "calls7d": 42
    },
    "recentCloses": [
     {
@@ -22268,7 +22404,7 @@
      "arm": "tight",
      "tier": "high",
      "model": "openai/gpt-6-luna",
-     "cycles": 134
+     "cycles": 135
     }
    ],
    "current": {
@@ -22353,7 +22489,7 @@
     "saves7d": 1,
     "routedSaves7d": 1,
     "cost7dUsd": 0.16,
-    "calls7d": 39
+    "calls7d": 38
    },
    "recentCloses": [
     {
@@ -22451,7 +22587,7 @@
      "arm": "tight",
      "tier": "high",
      "model": "z-ai/glm-5.3-flash",
-     "cycles": 134
+     "cycles": 135
     }
    ],
    "current": {
@@ -22610,7 +22746,7 @@
      "arm": null,
      "tier": "medium",
      "model": "anthropic/claude-haiku-5.5",
-     "cycles": 67
+     "cycles": 68
     }
    ],
    "current": {
@@ -22689,9 +22825,9 @@
    ],
    "activity": {
     "cycles7d": 39,
-    "pickCycles7d": 6,
-    "pickRate7d": 15,
-    "awaiting7d": 4,
+    "pickCycles7d": 7,
+    "pickRate7d": 18,
+    "awaiting7d": 5,
     "saves7d": 2,
     "routedSaves7d": 0,
     "cost7dUsd": 0.17,
@@ -22751,7 +22887,7 @@
      "arm": null,
      "tier": "medium",
      "model": "qwen/qwen3.8-flash",
-     "cycles": 67
+     "cycles": 68
     }
    ],
    "current": {
@@ -22830,13 +22966,13 @@
    ],
    "activity": {
     "cycles7d": 39,
-    "pickCycles7d": 25,
-    "pickRate7d": 64,
-    "awaiting7d": 14,
+    "pickCycles7d": 26,
+    "pickRate7d": 67,
+    "awaiting7d": 15,
     "saves7d": 2,
     "routedSaves7d": 0,
     "cost7dUsd": 0.25,
-    "calls7d": 49
+    "calls7d": 48
    },
    "recentCloses": [
     {
@@ -22847,7 +22983,7 @@
      "venue": "PAPER",
      "pct": -2.49,
      "pnlUsd": -7.46,
-     "exitReason": null,
+     "exitReason": "LONG ZRO: stopped out at SL -2.5% (entry $1.69 → exit $1.648). [entry structure: TRANS er0.255 pos0.06 against fade] WHY: (unscored — timeout of 30000ms exceeded)",
      "closedAt": "2026-10-26T19:59:13.734Z"
     },
     {
@@ -23037,11 +23173,11 @@
     "cycles7d": 0,
     "pickCycles7d": 0,
     "pickRate7d": null,
-    "awaiting7d": 37,
+    "awaiting7d": 35,
     "saves7d": 11,
     "routedSaves7d": 0,
-    "cost7dUsd": 1.04,
-    "calls7d": 19
+    "cost7dUsd": 0.98,
+    "calls7d": 18
    },
    "recentCloses": [
     {
@@ -23153,11 +23289,11 @@
     "from": "2026-10-20T18:00:00.000Z",
     "to": "2026-10-27T18:00:00.000Z",
     "complete": false,
-    "asOf": "2026-10-26T21:07:49.126Z",
+    "asOf": "2026-10-26T23:53:18.314Z",
     "btc": {
      "from": 82700,
-     "to": 79940,
-     "pct": -3.34
+     "to": 79853,
+     "pct": -3.44
     },
     "desks": [
      {
@@ -23207,8 +23343,8 @@
       "label": "Luna GPT",
       "model": "GPT-6 Luna",
       "retStart": -2.87,
-      "retEnd": -2.64,
-      "weekPts": 0.23,
+      "retEnd": -2.72,
+      "weekPts": 0.15,
       "w": 0,
       "l": 0,
       "be": 0,
@@ -23221,8 +23357,8 @@
       "label": "Kenny Kimi",
       "model": "Kimi K3",
       "retStart": -2.33,
-      "retEnd": -2.8,
-      "weekPts": -0.47,
+      "retEnd": -2.81,
+      "weekPts": -0.48,
       "w": 1,
       "l": 0,
       "be": 0,
@@ -23235,8 +23371,8 @@
       "label": "Greta Grok",
       "model": "Grok 4.7",
       "retStart": -4.13,
-      "retEnd": -7.13,
-      "weekPts": -3,
+      "retEnd": -7.14,
+      "weekPts": -3.01,
       "w": 0,
       "l": 3,
       "be": 0,
@@ -23275,12 +23411,12 @@
     "top": {
      "key": "luna",
      "label": "Luna GPT",
-     "weekPts": 0.23
+     "weekPts": 0.15
     },
     "bottom": {
      "key": "grok",
      "label": "Greta Grok",
-     "weekPts": -3
+     "weekPts": -3.01
     },
     "beatBtc": 6
    },
@@ -23558,6 +23694,6 @@
    }
   ],
   "current": 3,
-  "btcSeasonPct": -6.8
+  "btcSeasonPct": -6.9
  }
 }
