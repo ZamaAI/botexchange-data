@@ -1,0 +1,46 @@
+# [#702] Off-box "is it alive" check (Zama Sentinel, 29 Oct 2026).
+# The bot pushes latest.json here every 5 minutes. This job runs on GitHub's machines, not the bot's box, and reads the
+# feed exactly as the public site does. If generatedAt is older than MAX_AGE_MIN (or the feed cannot be read), the run
+# FAILS -> GitHub emails the account owner. Optional Telegram: add repo secrets ALIVE_TG_TOKEN + ALIVE_TG_CHAT (a separate
+# alert bot, not the trading bot's token). It catches the box being off, WSL stopped, the bot dead, and the push failing
+# (24-26 Oct: ~980 push timeouts, site frozen ~2.5 days, no alert).
+# A push that edits this file runs in TEST mode and fails on purpose, to prove the alert reaches you.
+name: is-it-alive
+on:
+  schedule:
+    - cron: '*/20 * * * *'
+  workflow_dispatch:
+  push:
+    paths: ['.github/workflows/alive.yml']
+permissions: {}
+concurrency: { group: alive, cancel-in-progress: false }
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Feed age
+        env:
+          MAX_AGE_MIN: '30'
+          TG_TOKEN: ${{ secrets.ALIVE_TG_TOKEN }}
+          TG_CHAT: ${{ secrets.ALIVE_TG_CHAT }}
+          TEST: ${{ github.event_name == 'push' }}
+        run: |
+          set -u
+          gen=$(curl -fsS --retry 2 --max-time 60 "https://raw.githubusercontent.com/ZamaAI/botexchange-data/main/latest.json" | jq -r '.generatedAt // empty' 2>/dev/null) || gen=""
+          now=$(date -u +%s)
+          if [ -z "$gen" ]; then age=-1; msg="🔴 [alive check] thebotexchange.com feed is UNREADABLE (latest.json missing or not JSON)."
+          else
+            age=$(( (now - $(date -u -d "$gen" +%s)) / 60 ))
+            msg="🔴 [alive check] thebotexchange.com feed is ${age} min old (generatedAt ${gen}; the bot pushes every 5 min). The box, the bot or the GitHub push is down."
+          fi
+          echo "feed generatedAt=${gen:-none} age=${age} min (limit ${MAX_AGE_MIN})"
+          if [ "$TEST" = "true" ]; then msg="🧪 [alive check] TEST — the alert path works (feed age ${age} min). Fired because the workflow file changed."; fi
+          if [ "$TEST" = "true" ] || [ "$age" -lt 0 ] || [ "$age" -gt "$MAX_AGE_MIN" ]; then
+            echo "::error::$msg"
+            if [ -n "$TG_TOKEN" ] && [ -n "$TG_CHAT" ]; then
+              curl -fsS --max-time 20 "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" --data-urlencode "chat_id=${TG_CHAT}" --data-urlencode "text=${msg}" >/dev/null || echo "::warning::Telegram send failed"
+            fi
+            exit 1
+          fi
+          echo "alive"
