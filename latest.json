@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T06:12:02.815Z",
+ "generatedAt": "2026-11-06T06:15:09.050Z",
  "startCapital": 500,
  "since": "2026-11-06",
  "accountBasis": "mtm",
@@ -20,7 +20,7 @@
   "manLeads": false,
   "man": {
    "label": "Human + AI",
-   "account": 474.11
+   "account": 472.8
   },
   "machine": {
    "label": "Luna GPT",
@@ -34,7 +34,7 @@
    "manLeads": false,
    "man": {
     "label": "Human + AI",
-    "account": 474.11
+    "account": 472.8
    },
    "machine": {
     "label": "Luna GPT",
@@ -58,18 +58,11 @@
   "mtm": {
    "man": {
     "label": "Human + AI",
-    "account": 474.11,
+    "account": 472.8,
     "seat": 474.74,
-    "ret": -0.13
+    "ret": -0.41
    },
    "machines": [
-    {
-     "key": "grok",
-     "label": "Benny Beam",
-     "account": 500.08,
-     "seat": 499.77,
-     "ret": 0.06
-    },
     {
      "key": "minimax",
      "label": "Garry GLM",
@@ -104,20 +97,27 @@
      "account": 500.01,
      "seat": 500.01,
      "ret": 0
+    },
+    {
+     "key": "grok",
+     "label": "Benny Beam",
+     "account": 492.98,
+     "seat": 499.77,
+     "ret": -1.36
     }
    ],
    "fleet": {
     "n": 6,
-    "mean": 0.01,
+    "mean": -0.23,
     "median": 0
    },
    "best": {
-    "label": "Benny Beam",
-    "ret": 0.06
+    "label": "Garry GLM",
+    "ret": 0
    },
    "manBeatsFleetMean": false,
    "manBeatsBest": false,
-   "belowMan": 0
+   "belowMan": 1
   },
   "realized": {
    "man": {
@@ -198,7 +198,7 @@
  "volState": {
   "hour": "2026-11-06T05",
   "asOf": "2026-11-06T05:00:00.000Z",
-  "ageMin": 72,
+  "ageMin": 75,
   "freezeMax": 15,
   "rows": [
    {
@@ -969,7 +969,7 @@
    "costUsd": 0,
    "costCalls": 0,
    "netPnl": 0,
-   "account": 524.4,
+   "account": 524.63,
    "retPct": 4.9,
    "accountRealized": 500,
    "regimes": {
@@ -1065,8 +1065,8 @@
    "costUsd": 0.01,
    "costCalls": 1,
    "netPnl": -0.01,
-   "account": 500.08,
-   "retPct": 0,
+   "account": 492.98,
+   "retPct": -1.4,
    "accountRealized": 500,
    "regimes": {
     "RISK_ON": {
@@ -1161,8 +1161,8 @@
    "costUsd": 0,
    "costCalls": 0,
    "netPnl": 0,
-   "account": 474.11,
-   "retPct": -5.2,
+   "account": 472.8,
+   "retPct": -5.4,
    "accountRealized": 500,
    "regimes": {
     "RISK_ON": {
@@ -1811,7 +1811,7 @@
    "costUsd": 0,
    "costCalls": 1,
    "netPnl": 0,
-   "account": 496.96,
+   "account": 496.77,
    "retPct": -0.6,
    "accountRealized": 500,
    "regimes": {
@@ -1897,9 +1897,9 @@
   "btc": {
    "startDate": "2026-11-06",
    "start": 75683.69,
-   "now": 75475.07,
+   "now": 75483.59,
    "retPct": -0.3,
-   "value": 498.62
+   "value": 498.68
   }
  },
  "oi": {
@@ -2597,14 +2597,33 @@
    "haiku55": 500,
    "qwen38": 496.96,
    "coinbase": 474.10693627
+  },
+  {
+   "ts": "2026-11-06T06:15:00.000Z",
+   "hl": -3.36299,
+   "hl_spot": 496.339391,
+   "grvt": null,
+   "extended": 1966.475306,
+   "capital": 5442.89457521,
+   "qwen": 524.63,
+   "hermes": 492.98,
+   "manual": 472.8,
+   "kimi": 500.01,
+   "deepseek": 500.23,
+   "gemini": 500.15,
+   "luna": 500.56,
+   "minimax": 500.2,
+   "haiku55": 500,
+   "qwen38": 496.77,
+   "coinbase": 472.79996821
   }
  ],
  "venuesLive": {
-  "hl": 0,
-  "hl_spot": 500.07512599999995,
+  "hl": -3.36299,
+  "hl_spot": 496.339391,
   "grvt": null,
   "lighter": 2510.6429,
-  "total": 3010.7180259999996
+  "total": 3003.6193009999997
  },
  "awaitingScore": {
   "at": "2026-11-06T02:15:31.835Z",
@@ -3619,7 +3638,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-11-06T06:12:02.840Z",
+  "at": "2026-11-06T06:15:09.059Z",
   "windowDays": 14,
   "registered": 204,
   "filled": 36,
@@ -4151,28 +4170,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 75475.07,
-    "change24hPct": -6.21
+    "price": 75483.59,
+    "change24hPct": -6.23
    },
    {
     "symbol": "ETH",
-    "price": 2219.07,
-    "change24hPct": -8.45
+    "price": 2218.05,
+    "change24hPct": -8.56
    },
    {
     "symbol": "BNB",
-    "price": 689.14,
-    "change24hPct": -3.39
+    "price": 688.7,
+    "change24hPct": -3.46
    },
    {
     "symbol": "XRP",
-    "price": 1.1916,
-    "change24hPct": -8.86
+    "price": 1.1908,
+    "change24hPct": -8.95
    },
    {
     "symbol": "SOL",
-    "price": 89.17,
-    "change24hPct": -7.08
+    "price": 89.19,
+    "change24hPct": -7.17
    }
   ],
   "fearGreed": {
@@ -4387,7 +4406,7 @@
      "changePct": -16.4
     }
    ],
-   "ageMin": 132
+   "ageMin": 135
   },
   "chainRotation": {
    "chains": [
@@ -4522,7 +4541,7 @@
      5
     ]
    ],
-   "ageMin": 237
+   "ageMin": 240
   }
  },
  "calendar": [
@@ -6260,29 +6279,29 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 7003,
+   "totalPrints7d": 6993,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
     {
      "coin": "BTC",
      "l": 2,
-     "s": 3,
-     "netK": 5147,
-     "concPct": 75
+     "s": 4,
+     "netK": 4753,
+     "concPct": 71
     },
     {
      "coin": "US100",
      "l": 2,
      "s": 0,
-     "netK": 898,
-     "concPct": 84
+     "netK": 942,
+     "concPct": 80
     },
     {
      "coin": "QQQ",
      "l": 1,
      "s": 1,
-     "netK": -661,
+     "netK": -663,
      "concPct": 89
     },
     {
@@ -6296,51 +6315,51 @@
      "coin": "MU",
      "l": 1,
      "s": 0,
-     "netK": 663,
+     "netK": 725,
      "concPct": 100
     },
     {
      "coin": "ETH",
      "l": 1,
      "s": 1,
-     "netK": -414,
+     "netK": -413,
      "concPct": 82
     },
     {
      "coin": "SOXL",
      "l": 1,
      "s": 0,
-     "netK": 578,
+     "netK": 582,
      "concPct": 100
     },
     {
-     "coin": "US500",
-     "l": 2,
+     "coin": "SNDK",
+     "l": 1,
      "s": 0,
-     "netK": 488,
-     "concPct": 74
+     "netK": 505,
+     "concPct": 100
     }
    ],
    "coinFlow": [
     {
      "coin": "ETH",
-     "netK": 11575,
-     "n": 1261
+     "netK": 11553,
+     "n": 1255
     },
     {
      "coin": "US100",
-     "netK": 2294,
-     "n": 1408
+     "netK": 2379,
+     "n": 1410
     },
     {
      "coin": "BTC",
-     "netK": -2188,
-     "n": 1717
+     "netK": -2253,
+     "n": 1712
     },
     {
      "coin": "ZEC",
-     "netK": 710,
-     "n": 701
+     "netK": 893,
+     "n": 698
     },
     {
      "coin": "XAU",
@@ -6351,15 +6370,15 @@
    "accounts": [
     {
      "id": 748220,
-     "prints": 777,
-     "volK": 45126,
-     "biasK": 1905,
+     "prints": 779,
+     "volK": 45292,
+     "biasK": 1991,
      "equity": 97643,
      "positions": [
       {
        "coin": "US100",
        "side": "LONG",
-       "usdK": 141,
+       "usdK": 185,
        "upnlK": 0
       }
      ]
@@ -6369,12 +6388,12 @@
      "prints": 285,
      "volK": 18334,
      "biasK": -816,
-     "equity": 58098,
+     "equity": 58083,
      "positions": [
       {
        "coin": "US500",
        "side": "LONG",
-       "usdK": 362,
+       "usdK": 365,
        "upnlK": 0
       }
      ]
@@ -6384,12 +6403,12 @@
      "prints": 89,
      "volK": 5104,
      "biasK": -1397,
-     "equity": 47205,
+     "equity": 47437,
      "positions": [
       {
        "coin": "BTC",
        "side": "SHORT",
-       "usdK": 378,
+       "usdK": 189,
        "upnlK": 1
       }
      ]
@@ -6399,19 +6418,19 @@
      "prints": 183,
      "volK": 4980,
      "biasK": 530,
-     "equity": 318351,
+     "equity": 318576,
      "positions": [
       {
        "coin": "ETH",
        "side": "SHORT",
-       "usdK": 535,
-       "upnlK": 11
+       "usdK": 534,
+       "upnlK": 12
       },
       {
        "coin": "BTC",
        "side": "LONG",
-       "usdK": 498,
-       "upnlK": -5
+       "usdK": 497,
+       "upnlK": -6
       },
       {
        "coin": "SOL",
@@ -6597,7 +6616,7 @@
   }
  },
  "intel": {
-  "ageH": 2.7,
+  "ageH": 2.8,
   "narratives": [
    "* Real-World Assets & Tokenized Equities: Mantle recorded a 40% six-month growth in tokenized stock supply, Bybit launched 1,000+ zero-commission stocks/ETFs, and xStocksFi reached $1B AUM, though traditional analysts cr",
    "* AI Infrastructure Fatigue: AI hardware capex faces political and funding roadblocks, highlighted by Texas Governor-elect Gina Hinojosa demanding pauses on data center buildouts and ING seeking buyers for a $500M data c",
@@ -6788,7 +6807,7 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 500.08,
+    "equity": 492.98,
     "peak": 499.77
    },
    "LIGHTER_kimi": {
@@ -7597,45 +7616,45 @@
   "start": "2026-11-04T00:00:00Z",
   "end": "2026-11-25T23:59:59Z",
   "live": true,
-  "at": "2026-11-06T06:02:04.820Z",
+  "at": "2026-11-06T06:15:07.468Z",
   "stale": false,
-  "equity": 474.11,
+  "equity": 472.8,
   "startEquity": 500.55,
   "startBasis": "set",
   "netDeposits": 0,
   "depositsBasis": "assumed-zero",
-  "adjPnl": -26.44,
-  "pnlPct": -5.28,
+  "adjPnl": -27.75,
+  "pnlPct": -5.54,
   "capitalBase": 500.55,
-  "upnl": -7.76,
+  "upnl": -9.06,
   "positions": [
    {
     "coin": "AERO",
     "side": "LONG",
     "entry": 0.6122,
     "who": "human",
-    "pnlPct": -4.1
+    "pnlPct": -4.51
    },
    {
     "coin": "MON",
     "side": "LONG",
     "entry": 0.017801,
     "who": "human",
-    "pnlPct": -5.12
+    "pnlPct": -5.53
    },
    {
     "coin": "S",
     "side": "LONG",
     "entry": 0.03845,
     "who": "human",
-    "pnlPct": 1.61
+    "pnlPct": 1.46
    },
    {
     "coin": "1000PEPE",
     "side": "LONG",
     "entry": 0.004829,
     "who": "beam",
-    "pnlPct": 0.99
+    "pnlPct": 1.12
    }
   ],
   "series": [
@@ -7813,7 +7832,7 @@
    },
    {
     "t": "2026-11-06T06:00:00Z",
-    "v": 474.11
+    "v": 472.8
    }
   ],
   "beam": {
@@ -8072,7 +8091,7 @@
   }
  },
  "extendedCalls": {
-  "at": "2026-11-06T06:12:02.891Z",
+  "at": "2026-11-06T06:15:12.456Z",
   "horizonH": 12,
   "minRead": 20,
   "briefs": 52,
@@ -13179,27 +13198,13 @@
     "from": "2026-11-06T05:05:00.000Z",
     "to": "2026-11-13T05:05:00.000Z",
     "complete": false,
-    "asOf": "2026-11-06T06:12:02.899Z",
+    "asOf": "2026-11-06T06:15:12.465Z",
     "btc": {
      "from": 75584,
      "to": 75461,
      "pct": -0.16
     },
     "desks": [
-     {
-      "key": "grok",
-      "label": "Benny Beam",
-      "model": "Beam 1.0",
-      "retStart": 0,
-      "retEnd": 0.06,
-      "weekPts": 0.06,
-      "w": 0,
-      "l": 0,
-      "be": 0,
-      "netUsd": 0,
-      "rankEnd": 1,
-      "rankStart": null
-     },
      {
       "key": "deepseek",
       "label": "Danny DeepSeek",
@@ -13211,7 +13216,7 @@
       "l": 0,
       "be": 0,
       "netUsd": 0,
-      "rankEnd": 2,
+      "rankEnd": 1,
       "rankStart": null
      },
      {
@@ -13225,7 +13230,7 @@
       "l": 0,
       "be": 0,
       "netUsd": 0,
-      "rankEnd": 3,
+      "rankEnd": 2,
       "rankStart": null
      },
      {
@@ -13239,7 +13244,7 @@
       "l": 0,
       "be": 0,
       "netUsd": 0,
-      "rankEnd": 4,
+      "rankEnd": 3,
       "rankStart": null
      },
      {
@@ -13253,7 +13258,7 @@
       "l": 0,
       "be": 0,
       "netUsd": 0,
-      "rankEnd": 5,
+      "rankEnd": 4,
       "rankStart": null
      },
      {
@@ -13263,6 +13268,20 @@
       "retStart": 0,
       "retEnd": -0.01,
       "weekPts": -0.01,
+      "w": 0,
+      "l": 0,
+      "be": 0,
+      "netUsd": 0,
+      "rankEnd": 5,
+      "rankStart": null
+     },
+     {
+      "key": "grok",
+      "label": "Benny Beam",
+      "model": "Beam 1.0",
+      "retStart": 0,
+      "retEnd": -1.36,
+      "weekPts": -1.36,
       "w": 0,
       "l": 0,
       "be": 0,
@@ -13281,16 +13300,16 @@
     "best": null,
     "worst": null,
     "top": {
-     "key": "grok",
-     "label": "Benny Beam",
-     "weekPts": 0.06
+     "key": "deepseek",
+     "label": "Danny DeepSeek",
+     "weekPts": 0
     },
     "bottom": {
-     "key": "gemini",
-     "label": "Gina Gemini",
-     "weekPts": -0.01
+     "key": "grok",
+     "label": "Benny Beam",
+     "weekPts": -1.36
     },
-    "beatBtc": 6
+    "beatBtc": 5
    }
   ],
   "current": 1,
