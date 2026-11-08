@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T21:52:04.555Z",
+ "generatedAt": "2026-11-08T21:57:11.819Z",
  "startCapital": 500,
  "since": "2026-11-06",
  "accountBasis": "mtm",
@@ -20,11 +20,11 @@
   "manLeads": false,
   "man": {
    "label": "Human + AI",
-   "account": 436.53
+   "account": 395.33
   },
   "machine": {
    "label": "Kenny Kimi",
-   "account": 514.68
+   "account": 521.82
   }
  },
  "verdictBasis": "mtm",
@@ -34,11 +34,11 @@
    "manLeads": false,
    "man": {
     "label": "Human + AI",
-    "account": 436.53
+    "account": 395.33
    },
    "machine": {
     "label": "Kenny Kimi",
-    "account": 514.68
+    "account": 521.82
    }
   },
   "realized": {
@@ -58,17 +58,17 @@
   "mtm": {
    "man": {
     "label": "Human + AI",
-    "account": 436.53,
+    "account": 395.33,
     "seat": 474.74,
-    "ret": -8.05
+    "ret": -16.73
    },
    "machines": [
     {
      "key": "kimi",
      "label": "Kenny Kimi",
-     "account": 514.68,
+     "account": 521.82,
      "seat": 500.01,
-     "ret": 2.93
+     "ret": 4.36
     },
     {
      "key": "grok",
@@ -108,12 +108,12 @@
    ],
    "fleet": {
     "n": 6,
-    "mean": 0.6,
+    "mean": 0.84,
     "median": 0
    },
    "best": {
     "label": "Kenny Kimi",
-    "ret": 2.93
+    "ret": 4.36
    },
    "manBeatsFleetMean": false,
    "manBeatsBest": false,
@@ -133,13 +133,6 @@
      "account": 500,
      "seat": 499.77,
      "ret": 0.05
-    },
-    {
-     "key": "kimi",
-     "label": "Kenny Kimi",
-     "account": 500,
-     "seat": 500.01,
-     "ret": 0
     },
     {
      "key": "gemini",
@@ -168,12 +161,19 @@
      "account": 500,
      "seat": 500.56,
      "ret": -0.11
+    },
+    {
+     "key": "kimi",
+     "label": "Kenny Kimi",
+     "account": 494.13,
+     "seat": 500.01,
+     "ret": -1.18
     }
    ],
    "fleet": {
     "n": 6,
-    "mean": -0.03,
-    "median": -0.03
+    "mean": -0.23,
+    "median": -0.04
    },
    "best": {
     "label": "Benny Beam",
@@ -198,7 +198,7 @@
  "volState": {
   "hour": "2026-11-08T21",
   "asOf": "2026-11-08T21:00:00.000Z",
-  "ageMin": 52,
+  "ageMin": 57,
   "freezeMax": 15,
   "rows": [
    {
@@ -993,8 +993,8 @@
    "costUsd": 0.49,
    "costCalls": 9,
    "netPnl": 19.41,
-   "account": 515.1,
-   "retPct": 3,
+   "account": 506.56,
+   "retPct": 1.3,
    "accountRealized": 519.9,
    "regimes": {
     "RISK_ON": {
@@ -1190,8 +1190,8 @@
    "costUsd": 0,
    "costCalls": 0,
    "netPnl": 0,
-   "account": 436.53,
-   "retPct": -12.7,
+   "account": 395.33,
+   "retPct": -20.9,
    "accountRealized": 500,
    "regimes": {
     "RISK_ON": {
@@ -1254,19 +1254,19 @@
    "label": "Kenny Kimi",
    "venue": "LIGHTER",
    "paper": false,
-   "trades": 0,
+   "trades": 1,
    "wins": 0,
-   "losses": 0,
+   "losses": 1,
    "be": 0,
-   "closed": 0,
-   "wr": "N/A",
-   "pnl": 0,
+   "closed": 1,
+   "wr": "0",
+   "pnl": -5.87,
    "costUsd": 1.16,
    "costCalls": 22,
-   "netPnl": -1.16,
-   "account": 514.68,
-   "retPct": 2.9,
-   "accountRealized": 500,
+   "netPnl": -7.03,
+   "account": 521.82,
+   "retPct": 4.4,
+   "accountRealized": 494.13,
    "regimes": {
     "RISK_ON": {
      "n": 0,
@@ -1275,10 +1275,10 @@
      "pnl": 0
     },
     "RISK_OFF": {
-     "n": 0,
+     "n": 1,
      "w": 0,
-     "l": 0,
-     "pnl": 0
+     "l": 1,
+     "pnl": -5.87
     },
     "NEUTRAL": {
      "n": 0,
@@ -1292,10 +1292,10 @@
      "l": 0,
      "pnl": 0
     },
-    "known": 0,
-    "riskOnPct": null
+    "known": 1,
+    "riskOnPct": 0
    },
-   "riskOnPct": null,
+   "riskOnPct": 0,
    "falsifier": {
     "n": 0,
     "calledIt": 0,
@@ -1303,13 +1303,13 @@
     "overTight": 0,
     "consistent": 0,
     "unclear": 0,
-    "unjudged": 0,
+    "unjudged": 1,
     "losses": 0,
     "wins": 0
    },
    "closeRec": {
-    "n": 0,
-    "right": 0,
+    "n": 1,
+    "right": 1,
     "early": 0,
     "wash": 0,
     "uncaptured": 0
@@ -1331,18 +1331,23 @@
     },
     "confirmed": {
      "w": 0,
-     "l": 0,
+     "l": 1,
      "be": 0,
-     "wr": null,
-     "pnl": 0
+     "wr": 0,
+     "pnl": -5.87
     }
    },
-   "exits": null,
+   "exits": {
+    "n": 1,
+    "byClass": {
+     "STOP_INITIAL": 1
+    }
+   },
    "modelRun": null,
    "seasonMove": null,
-   "meanR": null,
-   "medianR": null,
-   "nR": null,
+   "meanR": -0.955,
+   "medianR": -0.955,
+   "nR": 1,
    "maxDDPct": -1.2
   },
   {
@@ -1744,8 +1749,8 @@
    "costUsd": 0.08,
    "costCalls": 22,
    "netPnl": -0.08,
-   "account": 507.38,
-   "retPct": 1.5,
+   "account": 514.63,
+   "retPct": 2.9,
    "accountRealized": 500,
    "regimes": {
     "RISK_ON": {
@@ -1840,8 +1845,8 @@
    "costUsd": 0.12,
    "costCalls": 25,
    "netPnl": -0.12,
-   "account": 495.4,
-   "retPct": -0.9,
+   "account": 484.83,
+   "retPct": -3,
    "accountRealized": 500,
    "regimes": {
     "RISK_ON": {
@@ -2138,8 +2143,8 @@
    "costUsd": 0.09,
    "costCalls": 21,
    "netPnl": -0.09,
-   "account": 496.29,
-   "retPct": -0.7,
+   "account": 488.27,
+   "retPct": -2.3,
    "accountRealized": 500,
    "regimes": {
     "RISK_ON": {
@@ -2224,9 +2229,9 @@
   "btc": {
    "startDate": "2026-11-06",
    "start": 75683.69,
-   "now": 75258.98,
-   "retPct": -0.6,
-   "value": 497.19
+   "now": 74183.41,
+   "retPct": -2,
+   "value": 490.09
   }
  },
  "oi": {
@@ -2421,23 +2426,18 @@
   "div": []
  },
  "book": {
-  "n": 2,
-  "longs": 1,
+  "n": 1,
+  "longs": 0,
   "shorts": 1,
-  "netUsd": -189.45,
-  "grossUsd": 591.83,
-  "marked": 2,
+  "netUsd": -390.64,
+  "grossUsd": 390.64,
+  "marked": 1,
   "oneWay": false,
   "assets": [
    {
     "asset": "XRP",
     "n": 1,
     "netUsd": -390.64
-   },
-   {
-    "asset": "SOL",
-    "n": 1,
-    "netUsd": 201.19
    }
   ]
  },
@@ -2471,7 +2471,7 @@
     500,
     500,
     500,
-    500
+    494.13
    ],
    "deepseek": [
     500,
@@ -3940,28 +3940,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-11-07T21:55:00.000Z",
-   "hl": 0,
-   "hl_spot": 503.246273,
-   "grvt": null,
-   "extended": 2236.881518,
-   "capital": 5736.1667662,
-   "qwen": 519.92,
-   "hermes": 503.25,
-   "manual": 474.59,
-   "kimi": 510.82,
-   "deepseek": 500.23,
-   "gemini": 500.15,
-   "luna": 500.56,
-   "minimax": 500.2,
-   "haiku55": 500,
-   "qwen38": 500.64,
-   "coinbase": 474.5856962,
-   "seed16": 495.68,
-   "particle1": 500,
-   "merc3": 500
-  },
   {
    "ts": "2026-11-07T22:00:00.000Z",
    "hl": 0,
@@ -10275,14 +10253,36 @@
    "seed16": 492.42,
    "particle1": 500,
    "merc3": 496.29
+  },
+  {
+   "ts": "2026-11-08T21:55:00.000Z",
+   "hl": 0,
+   "hl_spot": 503.090736,
+   "grvt": null,
+   "extended": 1677.482215,
+   "capital": 5108.3641185,
+   "qwen": 506.56,
+   "hermes": 503.09,
+   "manual": 395.33,
+   "kimi": 521.82,
+   "deepseek": 500.23,
+   "gemini": 500.15,
+   "luna": 500.56,
+   "minimax": 500.2,
+   "haiku55": 514.63,
+   "qwen38": 484.83,
+   "coinbase": 395.3343485,
+   "seed16": 492.42,
+   "particle1": 500,
+   "merc3": 488.27
   }
  ],
  "venuesLive": {
   "hl": 0,
   "hl_spot": 503.090736,
   "grvt": null,
-  "lighter": 2525.31552,
-  "total": 3028.406256
+  "lighter": 2532.456819,
+  "total": 3035.547555
  },
  "awaitingScore": {
   "at": "2026-11-08T02:15:50.465Z",
@@ -11534,7 +11534,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-11-08T21:52:04.570Z",
+  "at": "2026-11-08T21:57:11.835Z",
   "windowDays": 14,
   "registered": 236,
   "filled": 32,
@@ -11894,24 +11894,6 @@
    "conviction": 5,
    "openedAt": "2026-11-07T04:05:00.561Z",
    "thesis": "qwen38 pick (paper, trigger-filled from AWAITING watch at 1.157 : A CLOSED 1h bar above $1.16 following a wick into the $1.158–$1.174 range-low zone, with RSI 1h recovering from below 30 toward 35+ and at least one 4h bar printing a higher low vs $1.174)",
-   "smartMoney": null
-  },
-  {
-   "id": 1052,
-   "asset": "SOL",
-   "direction": "LONG",
-   "actor": "kimi",
-   "venue": "LIGHTER",
-   "entry": 90.62,
-   "stop": 87.9,
-   "target": 96.8,
-   "levelsApprox": false,
-   "cls": "crypto",
-   "trailed": false,
-   "rr": 2.3,
-   "conviction": 6,
-   "openedAt": "2026-11-06T16:05:44.283Z",
-   "thesis": "Fresh longs are entering rather than price rising on an empty tape: SOL shows 24h OI +2.62% on Coinalyze and the Bybit decomposition explicitly reads NEW_LONGS with price +0.58% and OI +1.4%; the latest closed 4h bar also rose to $90.75 on 1.6x volume. The stop sits below the $88.30 swing low and the target remains below the $98.14 range high.",
    "smartMoney": null
   },
   {
@@ -12705,6 +12687,20 @@
  ],
  "recentCloses": [
   {
+   "id": 1052,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "kimi",
+   "venue": "LIGHTER",
+   "outcome": "LOSS",
+   "pct": -3.1,
+   "exitReason": null,
+   "closedAt": "2026-11-08T21:52:52.850Z",
+   "entry": 90.62,
+   "exit": 87.85242294065546,
+   "openedAt": "2026-11-06T16:05:44.283Z"
+  },
+  {
    "id": 1056,
    "asset": "SOL",
    "direction": "LONG",
@@ -12751,28 +12747,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 75258.98,
-    "change24hPct": -0.6
+    "price": 74183.41,
+    "change24hPct": -2.04
    },
    {
     "symbol": "ETH",
-    "price": 2193.62,
-    "change24hPct": -1.65
+    "price": 2132.92,
+    "change24hPct": -4.42
    },
    {
     "symbol": "BNB",
-    "price": 692.08,
-    "change24hPct": -0.47
-   },
-   {
-    "symbol": "XRP",
-    "price": 1.135,
+    "price": 681.53,
     "change24hPct": -2.06
    },
    {
+    "symbol": "XRP",
+    "price": 1.1088,
+    "change24hPct": -4.45
+   },
+   {
     "symbol": "SOL",
-    "price": 87.73,
-    "change24hPct": -1.6
+    "price": 85.92,
+    "change24hPct": -3.66
    }
   ],
   "fearGreed": {
@@ -12889,32 +12885,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 3.062,
-    "longPct": 75.4,
+    "ratio": 3.077,
+    "longPct": 75.5,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "ETH",
-    "ratio": 3.627,
-    "longPct": 78.4,
+    "ratio": 3.602,
+    "longPct": 78.3,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 3.733,
-    "longPct": 78.9,
+    "ratio": 3.697,
+    "longPct": 78.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.712,
-    "longPct": 73.1,
+    "ratio": 2.738,
+    "longPct": 73.3,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.827,
-    "longPct": 73.9,
+    "ratio": 2.932,
+    "longPct": 74.6,
     "bias": "CROWDED LONG"
    }
   ],
@@ -12994,7 +12990,7 @@
      "changePct": -8.6
     }
    ],
-   "ageMin": 352
+   "ageMin": 357
   },
   "chainRotation": {
    "chains": [
@@ -13137,7 +13133,7 @@
      1
     ]
    ],
-   "ageMin": 397
+   "ageMin": 402
   }
  },
  "calendar": [
@@ -14296,11 +14292,6 @@
     "asset": "SOL",
     "long": [
      {
-      "actor": "kimi",
-      "conv": 6,
-      "kind": "live"
-     },
-     {
       "actor": "seed16",
       "conv": 6,
       "kind": "watching"
@@ -14493,49 +14484,28 @@
   "disagreement": "ZEC"
  },
  "manualBook": {
-  "at": "2026-11-08T21:42:06.853Z",
+  "at": "2026-11-08T21:57:11.819Z",
   "positions": [
    {
     "asset": "HOOD",
     "stock": true,
     "direction": "LONG",
     "entry": 93.815,
-    "pnlPct": -14.35
+    "pnlPct": -15.21
    },
    {
     "asset": "GOOGL",
     "stock": false,
     "direction": "LONG",
     "entry": 285.74,
-    "pnlPct": -0.28
-   },
-   {
-    "asset": "AERO",
-    "stock": false,
-    "direction": "LONG",
-    "entry": 0.605,
-    "pnlPct": -3.08
-   },
-   {
-    "asset": "ETH",
-    "stock": false,
-    "direction": "LONG",
-    "entry": 2336.4,
-    "pnlPct": -4.77
+    "pnlPct": -1.79
    },
    {
     "asset": "SAMSUNG",
     "stock": false,
     "direction": "LONG",
     "entry": 138.18,
-    "pnlPct": 2.53
-   },
-   {
-    "asset": "TIA",
-    "stock": false,
-    "direction": "LONG",
-    "entry": 0.4241,
-    "pnlPct": -1.49
+    "pnlPct": 1.5
    },
    {
     "asset": "ANTHROP",
@@ -15336,7 +15306,7 @@
   }
  },
  "intel": {
-  "ageH": 0.4,
+  "ageH": 0.5,
   "narratives": [
    "* AI Infrastructure Capex vs Power Limits: Massive capital expenditure continues—marked by Anthropic's $3.4B generator contract and data center construction spending surging 90% YoY to $96.5B—amid rising voter pushback, ",
    "* Privacy Protocols: Traction is shifting toward privacy infrastructure as Midnight ($NIGHT) deploys smart contracts and unlocks airdrops, while on-chain flow shows millions rotating out of ETH into Zcash ($ZEC) via dece",
@@ -15523,6 +15493,26 @@
  ],
  "archive": [
   {
+   "id": 1052,
+   "asset": "SOL",
+   "direction": "LONG",
+   "actor": "kimi",
+   "venue": "LIGHTER",
+   "outcome": "LOSS",
+   "pct": -3.1,
+   "pnlUsd": -5.87,
+   "exitReason": null,
+   "closedAt": "2026-11-08T21:52:52.850Z",
+   "stop": 87.9,
+   "target": 96.8,
+   "thesis": "Fresh longs are entering rather than price rising on an empty tape: SOL shows 24h OI +2.62% on Coinalyze and the Bybit decomposition explicitly reads NEW_LONGS with price +0.58% and OI +1.4%; the latest closed 4h bar…",
+   "entry": 90.62,
+   "exit": 87.85242294065546,
+   "conviction": 6,
+   "openedAt": "2026-11-06T16:05:44.283Z",
+   "rr": 2.3
+  },
+  {
    "id": 1056,
    "asset": "SOL",
    "direction": "LONG",
@@ -15599,8 +15589,8 @@
     "halted": false,
     "rule": null,
     "reason": null,
-    "equity": 514.68,
-    "peak": 510.5
+    "equity": 521.82,
+    "peak": 519.44
    },
    "LIGHTER_deepseek": {
     "actor": "deepseek",
@@ -15641,12 +15631,12 @@
   },
   "streaks": {
    "grok": 0,
-   "kimi": 0,
+   "kimi": 1,
    "deepseek": 0,
    "gemini": 0,
    "luna": 0,
    "minimax": 0,
-   "fleet": 0
+   "fleet": 1
   },
   "limits": {
    "dailyLossPct": 7.5,
@@ -16139,45 +16129,31 @@
   "start": "2026-11-04T00:00:00Z",
   "end": "2026-11-25T23:59:59Z",
   "live": true,
-  "at": "2026-11-08T21:47:07.068Z",
+  "at": "2026-11-08T21:57:04.674Z",
   "stale": false,
-  "equity": 436.53,
+  "equity": 395.33,
   "startEquity": 500.55,
   "startBasis": "set",
   "netDeposits": 0,
   "depositsBasis": "assumed-zero",
-  "adjPnl": -64.02,
-  "pnlPct": -12.79,
+  "adjPnl": -105.22,
+  "pnlPct": -21.02,
   "capitalBase": 500.55,
-  "upnl": -23.68,
+  "upnl": -25.3,
   "positions": [
    {
     "coin": "AERO",
     "side": "LONG",
-    "entry": 0.6122,
+    "entry": 0.58667696,
     "who": "human",
-    "pnlPct": -4.62
+    "pnlPct": -3.87
    },
    {
     "coin": "MON",
     "side": "LONG",
     "entry": 0.017801,
     "who": "human",
-    "pnlPct": -10.26
-   },
-   {
-    "coin": "BTC",
-    "side": "LONG",
-    "entry": 75952.3,
-    "who": "beam",
-    "pnlPct": -0.8
-   },
-   {
-    "coin": "ETH",
-    "side": "LONG",
-    "entry": 2238.84,
-    "who": "beam",
-    "pnlPct": -1.05
+    "pnlPct": -13.65
    }
   ],
   "series": [
@@ -16607,17 +16583,17 @@
    },
    {
     "t": "2026-11-08T21:00:00Z",
-    "v": 436.53
+    "v": 395.33
    }
   ],
   "beam": {
    "model": "Beam 1.0",
    "mode": "live",
-   "closed": 6,
+   "closed": 7,
    "wins": 1,
-   "losses": 5,
-   "open": 1,
-   "pnl": -66.23,
+   "losses": 6,
+   "open": 0,
+   "pnl": -94.66,
    "costUsd": 0.0287,
    "decisions": 34
   },
@@ -16873,12 +16849,12 @@
      "entry": 75952.3,
      "stop": 74532.04166666667,
      "target": 79367.875,
-     "state": "open",
-     "exit": null,
-     "closedAt": null,
-     "closeReason": null,
-     "pnl": null,
-     "r": null,
+     "state": "closed",
+     "exit": 74384.1,
+     "closedAt": "2026-11-08T21:57:01.984Z",
+     "closeReason": "stop",
+     "pnl": -28.43,
+     "r": -1.14,
      "why": "oversold majors near lower third of the 48h range with selling exhaustion and top-desk short skew favor a bounce."
     },
     {
@@ -16965,7 +16941,7 @@
   }
  },
  "extendedCalls": {
-  "at": "2026-11-08T21:52:04.585Z",
+  "at": "2026-11-08T21:57:11.852Z",
   "horizonH": 12,
   "minRead": 20,
   "briefs": 57,
@@ -21770,31 +21746,31 @@
     "tier": "medium",
     "since": "2026-11-06T05:34:52.080Z",
     "w": 0,
-    "l": 0,
+    "l": 1,
     "be": 0,
-    "n": 0,
-    "rsum": 0,
-    "pnl": 0,
-    "wr": null,
-    "avgR": null,
-    "bestUsd": null,
-    "worstUsd": null
+    "n": 1,
+    "rsum": -1.0174915659354955,
+    "pnl": -5.87,
+    "wr": 0,
+    "avgR": -1.02,
+    "bestUsd": -5.87,
+    "worstUsd": -5.87
    },
    "record": {
     "w": 0,
-    "l": 0,
+    "l": 1,
     "be": 0,
-    "n": 0,
-    "rsum": 0,
-    "pnl": 0,
-    "wr": null,
-    "avgR": null,
-    "bestUsd": null,
-    "worstUsd": null,
-    "account": 500,
-    "retPct": 0,
+    "n": 1,
+    "rsum": -1.0174915659354955,
+    "pnl": -5.87,
+    "wr": 0,
+    "avgR": -1.02,
+    "bestUsd": -5.87,
+    "worstUsd": -5.87,
+    "account": 494.13,
+    "retPct": -1.2,
     "peak": 500,
-    "ddPct": 0
+    "ddPct": -1.2
    },
    "bands": [
     {
@@ -21810,12 +21786,12 @@
     {
      "band": "2-4%",
      "w": 0,
-     "l": 0,
+     "l": 1,
      "be": 0,
-     "n": 0,
-     "pnl": 0,
-     "wr": null,
-     "avgR": null
+     "n": 1,
+     "pnl": -5.87,
+     "wr": 0,
+     "avgR": -1.02
     },
     {
      "band": "4-8%",
@@ -21848,7 +21824,19 @@
     "cost7dUsd": 4.61,
     "calls7d": 60
    },
-   "recentCloses": [],
+   "recentCloses": [
+    {
+     "id": 1052,
+     "asset": "SOL",
+     "direction": "LONG",
+     "outcome": "LOSS",
+     "venue": "LIGHTER",
+     "pct": -3.05,
+     "pnlUsd": -5.87,
+     "exitReason": null,
+     "closedAt": "2026-11-08T21:52:52.850Z"
+    }
+   ],
    "falsifiers": [
     {
      "set": "2026-09-01",
@@ -23147,7 +23135,7 @@
     "from": "2026-11-06T05:05:00.000Z",
     "to": "2026-11-13T05:05:00.000Z",
     "complete": false,
-    "asOf": "2026-11-08T21:52:04.595Z",
+    "asOf": "2026-11-08T21:57:11.862Z",
     "btc": {
      "from": 75584,
      "to": 75726,
@@ -23159,12 +23147,12 @@
       "label": "Kenny Kimi",
       "model": "Kimi K3.1 Pro",
       "retStart": 0,
-      "retEnd": 2.7,
-      "weekPts": 2.7,
+      "retEnd": 4.13,
+      "weekPts": 4.13,
       "w": 0,
-      "l": 0,
+      "l": 1,
       "be": 0,
-      "netUsd": 0,
+      "netUsd": -5.87,
       "rankEnd": 1,
       "rankStart": null
      },
@@ -23240,18 +23228,27 @@
      }
     ],
     "closes": {
-     "n": 0,
+     "n": 1,
      "w": 0,
-     "l": 0,
+     "l": 1,
      "be": 0,
-     "netUsd": 0
+     "netUsd": -5.87
     },
     "best": null,
-    "worst": null,
+    "worst": {
+     "id": 1052,
+     "actor": "kimi",
+     "label": "Kenny Kimi",
+     "asset": "SOL",
+     "direction": "LONG",
+     "outcome": "LOSS",
+     "pnlUsd": -5.87,
+     "closedAt": "2026-11-08T21:52:52.850Z"
+    },
     "top": {
      "key": "kimi",
      "label": "Kenny Kimi",
-     "weekPts": 2.7
+     "weekPts": 4.13
     },
     "bottom": {
      "key": "gemini",
