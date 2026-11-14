@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T10:17:08.458Z",
+ "generatedAt": "2026-11-14T10:22:09.679Z",
  "startCapital": 500,
  "since": "2026-11-06",
  "accountBasis": "mtm",
@@ -198,7 +198,7 @@
  "volState": {
   "hour": "2026-11-14T09",
   "asOf": "2026-11-14T09:00:00.000Z",
-  "ageMin": 77,
+  "ageMin": 82,
   "freezeMax": 15,
   "rows": [
    {
@@ -993,8 +993,8 @@
    "costUsd": 1.72,
    "costCalls": 32,
    "netPnl": 79.06,
-   "account": 632.49,
-   "retPct": 26.5,
+   "account": 633.97,
+   "retPct": 26.8,
    "accountRealized": 580.78,
    "regimes": {
     "RISK_ON": {
@@ -1809,7 +1809,7 @@
    "costUsd": 0.26,
    "costCalls": 73,
    "netPnl": 27.93,
-   "account": 523.42,
+   "account": 523.59,
    "retPct": 4.7,
    "accountRealized": 528.19,
    "regimes": {
@@ -1916,7 +1916,7 @@
    "costUsd": 0.41,
    "costCalls": 92,
    "netPnl": 28.88,
-   "account": 533.27,
+   "account": 533.48,
    "retPct": 6.7,
    "accountRealized": 529.29,
    "regimes": {
@@ -2148,8 +2148,8 @@
    "costUsd": 0.29,
    "costCalls": 71,
    "netPnl": 58.65,
-   "account": 560.23,
-   "retPct": 12,
+   "account": 560.61,
+   "retPct": 12.1,
    "accountRealized": 558.94,
    "regimes": {
     "RISK_ON": {
@@ -2255,8 +2255,8 @@
    "costUsd": 0.31,
    "costCalls": 73,
    "netPnl": 45.01,
-   "account": 553.72,
-   "retPct": 10.7,
+   "account": 555.25,
+   "retPct": 11.1,
    "accountRealized": 545.32,
    "regimes": {
     "RISK_ON": {
@@ -2347,9 +2347,9 @@
   "btc": {
    "startDate": "2026-11-06",
    "start": 75683.69,
-   "now": 67299.84,
+   "now": 67282,
    "retPct": -11.1,
-   "value": 444.61
+   "value": 444.49
   }
  },
  "oi": {
@@ -7022,28 +7022,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-11-13T10:20:00.000Z",
-   "hl": -2.2784,
-   "hl_spot": 479.12710899999996,
-   "grvt": null,
-   "extended": 2315.791481,
-   "capital": 5718.25498212,
-   "qwen": 576.07,
-   "hermes": 476.85,
-   "manual": 350.62,
-   "kimi": 538.59,
-   "deepseek": 557.04,
-   "gemini": 500.15,
-   "luna": 500.56,
-   "minimax": 469.16,
-   "haiku55": 530.79,
-   "qwen38": 508.3,
-   "coinbase": 350.62259312,
-   "seed16": 471.75,
-   "particle1": 561.94,
-   "merc3": 529.7
-  },
   {
    "ts": "2026-11-13T10:25:00.000Z",
    "hl": -2.19251,
@@ -13357,6 +13335,28 @@
    "seed16": 481.94,
    "particle1": 560.23,
    "merc3": 553.72
+  },
+  {
+   "ts": "2026-11-14T10:20:00.000Z",
+   "hl": 7.695029999999999,
+   "hl_spot": 487.801669,
+   "grvt": null,
+   "extended": 1663.593981,
+   "capital": 5133.691657329999,
+   "qwen": 633.97,
+   "hermes": 495.5,
+   "manual": 325.99,
+   "kimi": 576.76,
+   "deepseek": 560.05,
+   "gemini": 510.97,
+   "luna": 500.56,
+   "minimax": 490.76,
+   "haiku55": 523.59,
+   "qwen38": 533.48,
+   "coinbase": 325.98969633,
+   "seed16": 481.94,
+   "particle1": 560.61,
+   "merc3": 555.25
   }
  ],
  "venuesLive": {
@@ -14876,7 +14876,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-11-14T10:17:08.479Z",
+  "at": "2026-11-14T10:22:09.704Z",
   "windowDays": 14,
   "registered": 342,
   "filled": 67,
@@ -15160,7 +15160,7 @@
   "postedAt": "2026-11-14T04:05:19.949Z"
  },
  "learning": {
-  "at": "2026-11-14T10:17:08.479Z",
+  "at": "2026-11-14T10:22:09.704Z",
   "since": "2026-11-06T05:05:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -15941,7 +15941,13 @@
    "stop": 8.466,
    "target": 7.802,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 8.004,
+    "asOf": "2026-11-14T10:20:17.650Z"
+   }
   },
   {
    "asset": "INJ",
@@ -15953,7 +15959,13 @@
    "stop": 8.6005,
    "target": 7.348,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 8.004,
+    "asOf": "2026-11-14T10:20:15.625Z"
+   }
   },
   {
    "asset": "SOL",
@@ -15970,7 +15982,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 75.96,
-    "asOf": "2026-11-14T10:05:10.836Z"
+    "asOf": "2026-11-14T10:20:09.031Z"
    }
   },
   {
@@ -15983,7 +15995,13 @@
    "stop": 0.99756,
    "target": 0.91932,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 0.9827,
+    "asOf": "2026-11-14T10:20:14.407Z"
+   }
   },
   {
    "asset": "XRP",
@@ -15995,7 +16013,13 @@
    "stop": 0.994193,
    "target": 0.945218,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 0.9827,
+    "asOf": "2026-11-14T10:20:13.236Z"
+   }
   },
   {
    "asset": "SOL",
@@ -16012,7 +16036,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 75.26,
-    "asOf": "2026-11-14T10:05:12.001Z"
+    "asOf": "2026-11-14T10:20:10.724Z"
    }
   },
   {
@@ -16030,7 +16054,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 8.055,
-    "asOf": "2026-11-14T10:04:50.996Z"
+    "asOf": "2026-11-14T10:19:51.540Z"
    }
   },
   {
@@ -16048,7 +16072,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 8.007,
-    "asOf": "2026-11-14T10:04:16.586Z"
+    "asOf": "2026-11-14T10:19:19.200Z"
    }
   },
   {
@@ -16066,7 +16090,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.9827,
-    "asOf": "2026-11-14T10:05:07.461Z"
+    "asOf": "2026-11-14T10:20:05.940Z"
    }
   },
   {
@@ -16084,7 +16108,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 615.95,
-    "asOf": "2026-11-14T10:05:05.470Z"
+    "asOf": "2026-11-14T10:20:03.865Z"
    }
   },
   {
@@ -16102,7 +16126,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 0.39818,
-    "asOf": "2026-11-14T10:05:02.939Z"
+    "asOf": "2026-11-14T10:20:00.946Z"
    }
   },
   {
@@ -16120,7 +16144,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 75.26,
-    "asOf": "2026-11-14T10:04:58.181Z"
+    "asOf": "2026-11-14T10:19:58.291Z"
    }
   },
   {
@@ -16138,7 +16162,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1.546,
-    "asOf": "2026-11-14T10:04:56.070Z"
+    "asOf": "2026-11-14T10:19:56.138Z"
    }
   },
   {
@@ -16156,7 +16180,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 1898.25,
-    "asOf": "2026-11-14T10:04:39.062Z"
+    "asOf": "2026-11-14T10:19:40.478Z"
    }
   },
   {
@@ -16174,7 +16198,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 619.27,
-    "asOf": "2026-11-14T10:04:52.987Z"
+    "asOf": "2026-11-14T10:19:52.708Z"
    }
   },
   {
@@ -16192,7 +16216,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 1.546,
-    "asOf": "2026-11-14T10:04:46.930Z"
+    "asOf": "2026-11-14T10:19:47.486Z"
    }
   },
   {
@@ -16210,7 +16234,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1.546,
-    "asOf": "2026-11-14T10:04:49.515Z"
+    "asOf": "2026-11-14T10:19:50.028Z"
    }
   },
   {
@@ -16228,7 +16252,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 67412.01,
-    "asOf": "2026-11-14T10:04:25.948Z"
+    "asOf": "2026-11-14T10:19:28.734Z"
    }
   },
   {
@@ -16246,7 +16270,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1913.51,
-    "asOf": "2026-11-14T10:04:36.436Z"
+    "asOf": "2026-11-14T10:19:38.975Z"
    }
   },
   {
@@ -16264,7 +16288,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1.546,
-    "asOf": "2026-11-14T10:04:44.846Z"
+    "asOf": "2026-11-14T10:19:45.793Z"
    }
   },
   {
@@ -16282,7 +16306,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.6428,
-    "asOf": "2026-11-14T10:04:41.881Z"
+    "asOf": "2026-11-14T10:19:43.673Z"
    }
   },
   {
@@ -16300,7 +16324,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.2612,
-    "asOf": "2026-11-14T10:04:30.719Z"
+    "asOf": "2026-11-14T10:19:33.074Z"
    }
   },
   {
@@ -16318,7 +16342,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 17.611,
-    "asOf": "2026-11-14T10:04:33.254Z"
+    "asOf": "2026-11-14T10:19:35.648Z"
    }
   },
   {
@@ -16336,7 +16360,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 67412.01,
-    "asOf": "2026-11-14T10:04:29.057Z"
+    "asOf": "2026-11-14T10:19:31.913Z"
    }
   },
   {
@@ -16354,7 +16378,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 67412.01,
-    "asOf": "2026-11-14T10:04:33.246Z"
+    "asOf": "2026-11-14T10:19:35.639Z"
    }
   },
   {
@@ -16372,7 +16396,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 113.05,
-    "asOf": "2026-11-14T10:04:23.442Z"
+    "asOf": "2026-11-14T10:19:26.602Z"
    }
   },
   {
@@ -16390,7 +16414,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.2612,
-    "asOf": "2026-11-14T10:04:27.075Z"
+    "asOf": "2026-11-14T10:19:30.747Z"
    }
   },
   {
@@ -16408,7 +16432,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.6428,
-    "asOf": "2026-11-14T10:04:22.339Z"
+    "asOf": "2026-11-14T10:19:25.447Z"
    }
   },
   {
@@ -16426,7 +16450,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 1913.51,
-    "asOf": "2026-11-14T10:04:01.498Z"
+    "asOf": "2026-11-14T10:19:01.276Z"
    }
   },
   {
@@ -16444,7 +16468,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 8.055,
-    "asOf": "2026-11-14T10:04:20.219Z"
+    "asOf": "2026-11-14T10:19:22.900Z"
    }
   },
   {
@@ -16462,7 +16486,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.6428,
-    "asOf": "2026-11-14T10:04:19.043Z"
+    "asOf": "2026-11-14T10:19:20.876Z"
    }
   },
   {
@@ -16480,7 +16504,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 113.05,
-    "asOf": "2026-11-14T10:04:15.449Z"
+    "asOf": "2026-11-14T10:19:17.422Z"
    }
   },
   {
@@ -16498,7 +16522,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 8.055,
-    "asOf": "2026-11-14T10:04:06.111Z"
+    "asOf": "2026-11-14T10:19:06.477Z"
    }
   },
   {
@@ -16516,7 +16540,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.2612,
-    "asOf": "2026-11-14T10:04:14.310Z"
+    "asOf": "2026-11-14T10:19:15.737Z"
    }
   },
   {
@@ -16534,7 +16558,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 0.1402,
-    "asOf": "2026-11-14T10:04:12.831Z"
+    "asOf": "2026-11-14T10:19:13.613Z"
    }
   },
   {
@@ -16552,7 +16576,7 @@
     "mode": "breakout",
     "status": "unknown",
     "lastClose": null,
-    "asOf": "2026-11-14T10:04:06.119Z"
+    "asOf": "2026-11-14T10:19:07.010Z"
    }
   },
   {
@@ -16570,7 +16594,7 @@
     "mode": "retest",
     "status": "unknown",
     "lastClose": null,
-    "asOf": "2026-11-14T10:04:01.502Z"
+    "asOf": "2026-11-14T10:19:02.133Z"
    }
   }
  ],
@@ -16748,28 +16772,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 67299.84,
-    "change24hPct": -2.94
+    "price": 67282,
+    "change24hPct": -2.92
    },
    {
     "symbol": "ETH",
-    "price": 1908.94,
-    "change24hPct": -2.25
+    "price": 1907.61,
+    "change24hPct": -2.24
    },
    {
     "symbol": "BNB",
-    "price": 618.18,
-    "change24hPct": -3.26
+    "price": 617.74,
+    "change24hPct": -3.29
    },
    {
     "symbol": "XRP",
-    "price": 0.9902,
-    "change24hPct": -3.57
+    "price": 0.9895,
+    "change24hPct": -3.78
    },
    {
     "symbol": "SOL",
-    "price": 75.85,
-    "change24hPct": -5.66
+    "price": 75.73,
+    "change24hPct": -5.76
    }
   ],
   "fearGreed": {
@@ -16894,31 +16918,31 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 3.115,
+    "ratio": 3.112,
     "longPct": 75.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "ETH",
-    "ratio": 3.568,
+    "ratio": 3.564,
     "longPct": 78.1,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 3.817,
+    "ratio": 3.808,
     "longPct": 79.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.516,
+    "ratio": 2.517,
     "longPct": 71.6,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 3.085,
+    "ratio": 3.078,
     "longPct": 75.5,
     "bias": "CROWDED LONG"
    }
@@ -16999,7 +17023,7 @@
      "changePct": -13.6
     }
    ],
-   "ageMin": 17
+   "ageMin": 22
   },
   "chainRotation": {
    "chains": [
@@ -17134,7 +17158,7 @@
      1
     ]
    ],
-   "ageMin": 122
+   "ageMin": 127
   }
  },
  "calendar": [
@@ -18372,14 +18396,14 @@
   "disagreement": null
  },
  "manualBook": {
-  "at": "2026-11-14T10:02:15.556Z",
+  "at": "2026-11-14T10:22:09.679Z",
   "positions": [
    {
     "asset": "HOOD",
     "stock": true,
     "direction": "LONG",
     "entry": 93.815,
-    "pnlPct": -18.81
+    "pnlPct": -18.7
    },
    {
     "asset": "GOOGL",
@@ -19156,7 +19180,7 @@
   }
  },
  "intel": {
-  "ageH": 0.8,
+  "ageH": 0.9,
   "narratives": [
    "* Stablecoin Settlement Infrastructure: Artemis Analytics models Circle Payments Network (CPN) capturing $1 trillion in annual stablecoin settlement by 2032 (~1.5% of projected non-wholesale cross-border volume), generat",
    "* Corporate Treasury De-leveraging: Collateral depreciation (3,030 BTC pledged down 42% to ~$208M) forced Nakamoto to restructure a 165M USDT loan with Kraken, while miner MARA dumped 13,597 BTC post-Q3 to eliminate bitc",
@@ -22412,7 +22436,7 @@
    "open": 0,
    "pnl": -120.54,
    "costUsd": 0.0387,
-   "decisions": 75,
+   "decisions": 76,
    "picker": "beam",
    "screen": {
     "closed": 6,
@@ -22425,13 +22449,13 @@
   "calls": {
    "decisions": [
     {
-     "at": "2026-11-14T07:20:02.256Z",
+     "at": "2026-11-14T10:20:01.950Z",
      "mode": "live",
      "picks": [],
      "view": null,
      "passed": null,
      "skipped": "benched for today (3 losses in 24 h)",
-     "n": 4,
+     "n": 5,
      "firstAt": "2026-11-13T22:20:02.524Z"
     },
     {
@@ -23064,7 +23088,7 @@
   }
  },
  "extendedCalls": {
-  "at": "2026-11-14T10:17:08.499Z",
+  "at": "2026-11-14T10:22:09.723Z",
   "horizonH": 12,
   "minRead": 20,
   "briefs": 68,
@@ -30571,7 +30595,7 @@
     "from": "2026-11-13T05:05:00.000Z",
     "to": "2026-11-20T05:05:00.000Z",
     "complete": false,
-    "asOf": "2026-11-14T10:17:08.510Z",
+    "asOf": "2026-11-14T10:22:09.734Z",
     "btc": {
      "from": 68615.7,
      "to": 67301,
