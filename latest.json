@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T04:17:04.571Z",
+ "generatedAt": "2026-11-15T04:22:08.660Z",
  "startCapital": 500,
  "since": "2026-11-06",
  "accountBasis": "mtm",
@@ -198,7 +198,7 @@
  "volState": {
   "hour": "2026-11-15T03",
   "asOf": "2026-11-15T03:00:00.000Z",
-  "ageMin": 77,
+  "ageMin": 82,
   "freezeMax": 15,
   "rows": [
    {
@@ -969,8 +969,8 @@
    "costUsd": 1.86,
    "costCalls": 35,
    "netPnl": 114.31,
-   "account": 647.64,
-   "retPct": 29.5,
+   "account": 646.82,
+   "retPct": 29.4,
    "accountRealized": 616.17,
    "regimes": {
     "RISK_ON": {
@@ -1799,7 +1799,7 @@
    "costUsd": 0.29,
    "costCalls": 79,
    "netPnl": 56.81,
-   "account": 558.71,
+   "account": 558.67,
    "retPct": 11.7,
    "accountRealized": 557.1,
    "regimes": {
@@ -1910,7 +1910,7 @@
    "costUsd": 0.44,
    "costCalls": 98,
    "netPnl": 60.52,
-   "account": 563.44,
+   "account": 563.42,
    "retPct": 12.7,
    "accountRealized": 560.96,
    "regimes": {
@@ -2021,7 +2021,7 @@
    "costUsd": 0.24,
    "costCalls": 100,
    "netPnl": -5.33,
-   "account": 494.23,
+   "account": 494.2,
    "retPct": -1.2,
    "accountRealized": 494.91,
    "regimes": {
@@ -2249,7 +2249,7 @@
    "costUsd": 0.34,
    "costCalls": 79,
    "netPnl": 94.08,
-   "account": 593.9,
+   "account": 593.79,
    "retPct": 18.8,
    "accountRealized": 594.42,
    "regimes": {
@@ -2346,9 +2346,9 @@
   "btc": {
    "startDate": "2026-11-06",
    "start": 75683.69,
-   "now": 64897.46,
-   "retPct": -14.3,
-   "value": 428.74
+   "now": 64902.36,
+   "retPct": -14.2,
+   "value": 428.77
   }
  },
  "oi": {
@@ -7533,28 +7533,6 @@
   }
  ],
  "equityLive": [
-  {
-   "ts": "2026-11-14T04:20:00.000Z",
-   "hl": 12.592615,
-   "hl_spot": 492.753354,
-   "grvt": null,
-   "extended": 1652.362663,
-   "capital": 5159.011949170001,
-   "qwen": 621.56,
-   "hermes": 505.35,
-   "manual": 325.77,
-   "kimi": 586.63,
-   "deepseek": 567.12,
-   "gemini": 515.28,
-   "luna": 500.56,
-   "minimax": 496.45,
-   "haiku55": 527.5,
-   "qwen38": 532.13,
-   "coinbase": 325.76875317,
-   "seed16": 481.94,
-   "particle1": 564.02,
-   "merc3": 552.4
-  },
   {
    "ts": "2026-11-14T04:25:00.000Z",
    "hl": 10.572289,
@@ -13868,6 +13846,28 @@
    "seed16": 494.23,
    "particle1": 604.12,
    "merc3": 593.9
+  },
+  {
+   "ts": "2026-11-15T04:20:00.000Z",
+   "hl": 14.385959999999999,
+   "hl_spot": 533.160534,
+   "grvt": null,
+   "extended": 1401.745135,
+   "capital": 5068.09984186,
+   "qwen": 646.82,
+   "hermes": 547.55,
+   "manual": 283.73,
+   "kimi": 637.15,
+   "deepseek": 619.75,
+   "gemini": 538.01,
+   "luna": 513.69,
+   "minimax": 516.96,
+   "haiku55": 558.67,
+   "qwen38": 563.42,
+   "coinbase": 283.73494286,
+   "seed16": 494.2,
+   "particle1": 604.12,
+   "merc3": 593.79
   }
  ],
  "venuesLive": {
@@ -15507,7 +15507,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-11-15T04:17:04.594Z",
+  "at": "2026-11-15T04:22:08.682Z",
   "windowDays": 14,
   "registered": 364,
   "filled": 74,
@@ -15791,7 +15791,7 @@
   "postedAt": "2026-11-15T04:05:08.467Z"
  },
  "learning": {
-  "at": "2026-11-15T04:17:04.595Z",
+  "at": "2026-11-15T04:22:08.683Z",
   "since": "2026-11-06T05:05:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -16482,7 +16482,13 @@
    "stop": 67903.5,
    "target": 62217,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 64825.99,
+    "asOf": "2026-11-15T04:19:51.700Z"
+   }
   },
   {
    "asset": "BTC",
@@ -16494,7 +16500,13 @@
    "stop": 63189,
    "target": 57923.3,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "breakout",
+    "status": "not",
+    "lastClose": 64825.99,
+    "asOf": "2026-11-15T04:19:49.249Z"
+   }
   },
   {
    "asset": "BNB",
@@ -16511,7 +16523,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 594.32,
-    "asOf": "2026-11-15T04:04:37.141Z"
+    "asOf": "2026-11-15T04:19:37.928Z"
    }
   },
   {
@@ -16529,7 +16541,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 71.37,
-    "asOf": "2026-11-15T04:04:49.095Z"
+    "asOf": "2026-11-15T04:19:46.691Z"
    }
   },
   {
@@ -16559,7 +16571,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 71.37,
-    "asOf": "2026-11-15T04:04:44.918Z"
+    "asOf": "2026-11-15T04:19:42.519Z"
    }
   },
   {
@@ -16577,7 +16589,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 71.37,
-    "asOf": "2026-11-15T04:04:41.861Z"
+    "asOf": "2026-11-15T04:19:39.641Z"
    }
   },
   {
@@ -16595,7 +16607,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 594.32,
-    "asOf": "2026-11-15T04:04:35.124Z"
+    "asOf": "2026-11-15T04:19:35.902Z"
    }
   },
   {
@@ -16613,7 +16625,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 7.156,
-    "asOf": "2026-11-15T04:04:31.793Z"
+    "asOf": "2026-11-15T04:19:32.060Z"
    }
   },
   {
@@ -16631,7 +16643,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1.448,
-    "asOf": "2026-11-15T04:04:33.955Z"
+    "asOf": "2026-11-15T04:19:34.734Z"
    }
   },
   {
@@ -16649,7 +16661,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 1.448,
-    "asOf": "2026-11-15T04:04:30.652Z"
+    "asOf": "2026-11-15T04:19:30.544Z"
    }
   },
   {
@@ -16667,7 +16679,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 64825.99,
-    "asOf": "2026-11-15T04:04:19.140Z"
+    "asOf": "2026-11-15T04:19:19.289Z"
    }
   },
   {
@@ -16685,7 +16697,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1.448,
-    "asOf": "2026-11-15T04:04:28.646Z"
+    "asOf": "2026-11-15T04:19:28.524Z"
    }
   },
   {
@@ -16703,7 +16715,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.5253,
-    "asOf": "2026-11-15T04:04:26.505Z"
+    "asOf": "2026-11-15T04:19:26.325Z"
    }
   },
   {
@@ -16721,7 +16733,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 17.107,
-    "asOf": "2026-11-15T04:04:23.059Z"
+    "asOf": "2026-11-15T04:19:22.890Z"
    }
   },
   {
@@ -16739,7 +16751,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 64825.99,
-    "asOf": "2026-11-15T04:04:21.152Z"
+    "asOf": "2026-11-15T04:19:20.966Z"
    }
   },
   {
@@ -16757,7 +16769,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 64825.99,
-    "asOf": "2026-11-15T04:04:23.050Z"
+    "asOf": "2026-11-15T04:19:22.881Z"
    }
   },
   {
@@ -16775,7 +16787,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 111.33,
-    "asOf": "2026-11-15T04:04:16.818Z"
+    "asOf": "2026-11-15T04:19:16.393Z"
    }
   },
   {
@@ -16793,7 +16805,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 1818.81,
-    "asOf": "2026-11-15T04:04:01.518Z"
+    "asOf": "2026-11-15T04:19:01.535Z"
    }
   },
   {
@@ -16811,7 +16823,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.5253,
-    "asOf": "2026-11-15T04:04:15.156Z"
+    "asOf": "2026-11-15T04:19:14.708Z"
    }
   },
   {
@@ -16829,7 +16841,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 111.33,
-    "asOf": "2026-11-15T04:04:13.453Z"
+    "asOf": "2026-11-15T04:19:13.011Z"
    }
   },
   {
@@ -16847,7 +16859,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 7.156,
-    "asOf": "2026-11-15T04:04:03.565Z"
+    "asOf": "2026-11-15T04:19:03.556Z"
    }
   },
   {
@@ -16865,7 +16877,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 0.1317,
-    "asOf": "2026-11-15T04:04:11.467Z"
+    "asOf": "2026-11-15T04:19:11.047Z"
    }
   },
   {
@@ -16883,7 +16895,7 @@
     "mode": "breakout",
     "status": "unknown",
     "lastClose": null,
-    "asOf": "2026-11-15T04:04:04.099Z"
+    "asOf": "2026-11-15T04:19:04.086Z"
    }
   }
  ],
@@ -17061,28 +17073,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 64897.46,
-    "change24hPct": -2.73
+    "price": 64902.36,
+    "change24hPct": -2.95
    },
    {
     "symbol": "ETH",
-    "price": 1818.85,
-    "change24hPct": -3.77
+    "price": 1819.03,
+    "change24hPct": -3.96
    },
    {
     "symbol": "BNB",
-    "price": 594.69,
-    "change24hPct": -3.17
+    "price": 594.91,
+    "change24hPct": -3.29
    },
    {
     "symbol": "XRP",
-    "price": 0.9709,
-    "change24hPct": -2.1
+    "price": 0.9731,
+    "change24hPct": -1.85
    },
    {
     "symbol": "SOL",
     "price": 71.41,
-    "change24hPct": -5.42
+    "change24hPct": -5.39
    }
   ],
   "fearGreed": {
@@ -17207,32 +17219,32 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 2.804,
-    "longPct": 73.7,
+    "ratio": 2.786,
+    "longPct": 73.6,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "ETH",
-    "ratio": 2.521,
-    "longPct": 71.6,
+    "ratio": 2.513,
+    "longPct": 71.5,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 3.501,
+    "ratio": 3.494,
     "longPct": 77.8,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.298,
+    "ratio": 2.295,
     "longPct": 69.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.698,
-    "longPct": 73,
+    "ratio": 2.683,
+    "longPct": 72.9,
     "bias": "CROWDED LONG"
    }
   ],
@@ -17307,7 +17319,7 @@
      "changePct": -15.2
     }
    ],
-   "ageMin": 17
+   "ageMin": 22
   },
   "chainRotation": {
    "chains": [
@@ -17438,7 +17450,7 @@
      30
     ]
    ],
-   "ageMin": 2
+   "ageMin": 7
   }
  },
  "calendar": [
@@ -18632,21 +18644,21 @@
   "disagreement": null
  },
  "manualBook": {
-  "at": "2026-11-15T04:02:10.570Z",
+  "at": "2026-11-15T04:22:08.659Z",
   "positions": [
    {
     "asset": "HOOD",
     "stock": true,
     "direction": "LONG",
     "entry": 93.815,
-    "pnlPct": -20.22
+    "pnlPct": -20.37
    },
    {
     "asset": "BMNR",
     "stock": false,
     "direction": "LONG",
     "entry": 16.271,
-    "pnlPct": -0.15
+    "pnlPct": -0.68
    }
   ]
  },
@@ -19060,7 +19072,7 @@
    }
   ],
   "lighterWhales": {
-   "totalPrints7d": 5853,
+   "totalPrints7d": 5857,
    "minUsdK": 10,
    "booksSeen": 15,
    "coins": [
@@ -19068,50 +19080,50 @@
      "coin": "ETH",
      "l": 3,
      "s": 1,
-     "netK": 12869,
+     "netK": 12884,
      "concPct": 93
     },
     {
      "coin": "BTC",
      "l": 1,
      "s": 5,
-     "netK": -1429,
-     "concPct": 27
+     "netK": -1135,
+     "concPct": 33
     },
     {
      "coin": "HYPE",
      "l": 2,
      "s": 1,
-     "netK": 674,
+     "netK": 679,
      "concPct": 74
     },
     {
      "coin": "LIT",
      "l": 1,
      "s": 0,
-     "netK": 419,
+     "netK": 423,
      "concPct": 100
     },
     {
      "coin": "GRASS",
      "l": 1,
      "s": 0,
-     "netK": 374,
+     "netK": 377,
      "concPct": 100
     },
     {
      "coin": "ZEC",
      "l": 0,
      "s": 1,
-     "netK": -275,
+     "netK": -276,
      "concPct": 100
     },
     {
      "coin": "SOL",
      "l": 1,
      "s": 1,
-     "netK": -53,
-     "concPct": 61
+     "netK": -33,
+     "concPct": 57
     },
     {
      "coin": "US100",
@@ -19124,8 +19136,8 @@
    "coinFlow": [
     {
      "coin": "BTC",
-     "netK": -2917,
-     "n": 2245
+     "netK": -2695,
+     "n": 2242
     },
     {
      "coin": "US100",
@@ -19134,8 +19146,8 @@
     },
     {
      "coin": "HYPE",
-     "netK": 668,
-     "n": 411
+     "netK": 698,
+     "n": 414
     },
     {
      "coin": "SPY",
@@ -19154,7 +19166,7 @@
      "prints": 307,
      "volK": 14634,
      "biasK": 968,
-     "equity": 97012,
+     "equity": 97007,
      "positions": [
       {
        "coin": "US100",
@@ -19169,18 +19181,18 @@
      "prints": 265,
      "volK": 8899,
      "biasK": -1677,
-     "equity": 2085796,
+     "equity": 2086135,
      "positions": [
       {
        "coin": "BTC",
        "side": "SHORT",
-       "usdK": 178,
+       "usdK": 159,
        "upnlK": 0
       },
       {
        "coin": "HYPE",
        "side": "LONG",
-       "usdK": 85,
+       "usdK": 87,
        "upnlK": 1
       },
       {
@@ -19193,28 +19205,55 @@
     },
     {
      "id": 749117,
-     "prints": 248,
-     "volK": 6161,
-     "biasK": 556,
-     "equity": 216609,
+     "prints": 241,
+     "volK": 5867,
+     "biasK": 850,
+     "equity": 217155,
      "positions": [
       {
        "coin": "ETH",
        "side": "LONG",
-       "usdK": 436,
-       "upnlK": -3
-      },
-      {
-       "coin": "BTC",
-       "side": "SHORT",
-       "usdK": 220,
-       "upnlK": 0
+       "usdK": 437,
+       "upnlK": -2
       },
       {
        "coin": "SOL",
        "side": "LONG",
-       "usdK": 94,
+       "usdK": 95,
        "upnlK": -1
+      }
+     ]
+    },
+    {
+     "id": 761429,
+     "prints": 151,
+     "volK": 3781,
+     "biasK": -123,
+     "equity": 129112,
+     "positions": [
+      {
+       "coin": "BTC",
+       "side": "SHORT",
+       "usdK": 385,
+       "upnlK": -2
+      },
+      {
+       "coin": "ETH",
+       "side": "SHORT",
+       "usdK": 366,
+       "upnlK": -12
+      },
+      {
+       "coin": "ZEC",
+       "side": "SHORT",
+       "usdK": 276,
+       "upnlK": -13
+      },
+      {
+       "coin": "HYPE",
+       "side": "SHORT",
+       "usdK": 190,
+       "upnlK": -6
       }
      ]
     },
@@ -19223,23 +19262,15 @@
      "prints": 43,
      "volK": 3768,
      "biasK": 440,
-     "equity": 5596,
+     "equity": 5281,
      "positions": [
       {
        "coin": "BTC",
        "side": "SHORT",
-       "usdK": 265,
+       "usdK": 253,
        "upnlK": 0
       }
      ]
-    },
-    {
-     "id": 749641,
-     "prints": 122,
-     "volK": 3719,
-     "biasK": 767,
-     "equity": 425,
-     "positions": []
     }
    ]
   },
@@ -19381,7 +19412,7 @@
   }
  },
  "intel": {
-  "ageH": 0.8,
+  "ageH": 0.9,
   "narratives": [
    "* Tokenized Equities (RWA): Momentum accelerated after the NYSE picked Avalanche to settle tokenized shares, accompanied by OKXICE targeting a November 23 launch (newsletter).",
    "* DeFi & Corporate Credit De-risking: Protocols and corporate borrowers retrenched under market volatility; Aave proposed cutting $1.33B in risky collateral, Sky froze borrowing across five legacy vaults, Nakamoto delaye",
@@ -23227,8 +23258,8 @@
    "open": 0,
    "pnl": -120.54,
    "costUsd": 0.0387,
-   "decisions": 81,
-   "picker": "screen",
+   "decisions": 82,
+   "picker": "beam",
    "screen": {
     "closed": 9,
     "wins": 2,
@@ -23239,6 +23270,14 @@
   },
   "calls": {
    "decisions": [
+    {
+     "at": "2026-11-15T04:20:01.701Z",
+     "mode": "live",
+     "picks": [],
+     "view": null,
+     "passed": null,
+     "skipped": "benched for today (3 losses in 24 h) · daily stop: Beam realized -22.88 today (limit −18.75)"
+    },
     {
      "at": "2026-11-15T01:20:02.546Z",
      "mode": "live",
@@ -23586,16 +23625,6 @@
      "view": "Expect a volatile 12 hours with possible downside liquidity sweeps before any oversold bounce in BTC and ETH.",
      "passed": null,
      "skipped": null
-    },
-    {
-     "at": "2026-11-06T19:20:01.644Z",
-     "mode": "live",
-     "picks": [],
-     "view": null,
-     "passed": null,
-     "skipped": "benched for today (3 losses in 24 h)",
-     "n": 7,
-     "firstAt": "2026-11-06T01:20:02.104Z"
     }
    ],
    "trades": [
@@ -23943,7 +23972,7 @@
   }
  },
  "extendedCalls": {
-  "at": "2026-11-15T04:17:04.614Z",
+  "at": "2026-11-15T04:22:11.599Z",
   "horizonH": 12,
   "minRead": 20,
   "briefs": 70,
@@ -31546,7 +31575,7 @@
     "from": "2026-11-13T05:05:00.000Z",
     "to": "2026-11-20T05:05:00.000Z",
     "complete": false,
-    "asOf": "2026-11-15T04:17:04.626Z",
+    "asOf": "2026-11-15T04:22:11.611Z",
     "btc": {
      "from": 68615.7,
      "to": 64692,
