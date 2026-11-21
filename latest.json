@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21T04:17:02.978Z",
+ "generatedAt": "2026-11-21T04:22:05.544Z",
  "startCapital": 500,
  "since": "2026-11-06",
  "accountBasis": "mtm",
@@ -196,7 +196,7 @@
  "volState": {
   "hour": "2026-11-21T03",
   "asOf": "2026-11-21T03:00:00.000Z",
-  "ageMin": 77,
+  "ageMin": 82,
   "freezeMax": 15,
   "rows": [
    {
@@ -1063,7 +1063,7 @@
    "costUsd": 3.09,
    "costCalls": 58,
    "netPnl": 174.26,
-   "account": 690.96,
+   "account": 691.08,
    "retPct": 38.2,
    "accountRealized": 677.35,
    "regimes": {
@@ -1917,7 +1917,7 @@
    "costUsd": 0.51,
    "costCalls": 130,
    "netPnl": 184.08,
-   "account": 687.66,
+   "account": 687.74,
    "retPct": 37.5,
    "accountRealized": 684.59,
    "regimes": {
@@ -2030,8 +2030,8 @@
    "costUsd": 0.75,
    "costCalls": 161,
    "netPnl": 114.68,
-   "account": 633.01,
-   "retPct": 26.6,
+   "account": 633.53,
+   "retPct": 26.7,
    "accountRealized": 615.43,
    "regimes": {
     "RISK_ON": {
@@ -2479,9 +2479,9 @@
   "btc": {
    "startDate": "2026-11-06",
    "start": 75683.69,
-   "now": 55936.14,
-   "retPct": -26.1,
-   "value": 369.54
+   "now": 55883.3,
+   "retPct": -26.2,
+   "value": 369.19
   }
  },
  "oi": {
@@ -10214,28 +10214,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-11-20T04:20:00.000Z",
-   "hl": 54.95504,
-   "hl_spot": 548.593986,
-   "grvt": null,
-   "extended": 810.621112,
-   "capital": 4563.9147789300005,
-   "qwen": 655.93,
-   "hermes": 603.55,
-   "manual": 273.02,
-   "kimi": 643.95,
-   "deepseek": 676.65,
-   "gemini": 553.14,
-   "luna": 488.07,
-   "minimax": 505.4,
-   "haiku55": 643.9,
-   "qwen38": 596.99,
-   "coinbase": 273.02303893,
-   "seed16": 471.37,
-   "particle1": 555.16,
-   "merc3": 616.61
-  },
-  {
    "ts": "2026-11-20T04:25:00.000Z",
    "hl": 57.63674,
    "hl_spot": 551.0820659999999,
@@ -16548,6 +16526,28 @@
    "seed16": 490.38,
    "particle1": 575.6,
    "merc3": 605.04
+  },
+  {
+   "ts": "2026-11-21T04:20:00.000Z",
+   "hl": 48.10916,
+   "hl_spot": 628.8558489999999,
+   "grvt": null,
+   "extended": 584.854484,
+   "capital": 4669.89471158,
+   "qwen": 691.08,
+   "hermes": 676.97,
+   "manual": 255.47,
+   "kimi": 840.43,
+   "deepseek": 722.94,
+   "gemini": 561.8,
+   "luna": 488.07,
+   "minimax": 529.86,
+   "haiku55": 687.74,
+   "qwen38": 633.53,
+   "coinbase": 255.46601658,
+   "seed16": 490.38,
+   "particle1": 575.6,
+   "merc3": 605.04
   }
  ],
  "venuesLive": {
@@ -18501,7 +18501,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-11-21T04:17:03.006Z",
+  "at": "2026-11-21T04:22:05.577Z",
   "windowDays": 14,
   "registered": 447,
   "filled": 81,
@@ -18785,7 +18785,7 @@
   "postedAt": "2026-11-21T04:04:52.816Z"
  },
  "learning": {
-  "at": "2026-11-21T04:17:03.007Z",
+  "at": "2026-11-21T04:22:05.579Z",
   "since": "2026-11-06T05:05:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -19310,7 +19310,7 @@
    "actor": "grok",
    "venue": "HL",
    "entry": 58964,
-   "stop": 58816.590000000004,
+   "stop": 57368,
    "target": 54500,
    "levelsApprox": false,
    "cls": "crypto",
@@ -19369,7 +19369,13 @@
    "stop": 71.2375,
    "target": 64.635,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 66.28,
+    "asOf": "2026-11-21T04:20:24.181Z"
+   }
   },
   {
    "asset": "ETH",
@@ -19416,7 +19422,7 @@
     "mode": "retest",
     "status": "through",
     "lastClose": 56740.43,
-    "asOf": "2026-11-21T04:05:03.121Z"
+    "asOf": "2026-11-21T04:20:09.666Z"
    }
   },
   {
@@ -19446,7 +19452,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 66.28,
-    "asOf": "2026-11-21T04:04:50.414Z"
+    "asOf": "2026-11-21T04:19:54.541Z"
    }
   },
   {
@@ -19464,7 +19470,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 56740.43,
-    "asOf": "2026-11-21T04:04:26.324Z"
+    "asOf": "2026-11-21T04:19:31.895Z"
    }
   },
   {
@@ -19482,7 +19488,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 66.28,
-    "asOf": "2026-11-21T04:04:23.779Z"
+    "asOf": "2026-11-21T04:19:29.360Z"
    }
   },
   {
@@ -19500,7 +19506,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 56740.43,
-    "asOf": "2026-11-21T04:05:10.946Z"
+    "asOf": "2026-11-21T04:20:17.499Z"
    }
   },
   {
@@ -19518,7 +19524,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1572.29,
-    "asOf": "2026-11-21T04:05:07.331Z"
+    "asOf": "2026-11-21T04:20:14.260Z"
    }
   },
   {
@@ -19536,7 +19542,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 518.32,
-    "asOf": "2026-11-21T04:05:05.621Z"
+    "asOf": "2026-11-21T04:20:12.253Z"
    }
   },
   {
@@ -19554,7 +19560,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 66.28,
-    "asOf": "2026-11-21T04:04:12.275Z"
+    "asOf": "2026-11-21T04:19:16.250Z"
    }
   },
   {
@@ -19572,7 +19578,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 1572.29,
-    "asOf": "2026-11-21T04:05:00.755Z"
+    "asOf": "2026-11-21T04:20:04.125Z"
    }
   },
   {
@@ -19590,7 +19596,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1.079,
-    "asOf": "2026-11-21T04:04:46.650Z"
+    "asOf": "2026-11-21T04:19:51.189Z"
    }
   },
   {
@@ -19608,7 +19614,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 56740.43,
-    "asOf": "2026-11-21T04:04:59.237Z"
+    "asOf": "2026-11-21T04:20:02.613Z"
    }
   },
   {
@@ -19638,7 +19644,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 56.99,
-    "asOf": "2026-11-21T04:04:43.956Z"
+    "asOf": "2026-11-21T04:19:49.041Z"
    }
   },
   {
@@ -19656,7 +19662,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.36181,
-    "asOf": "2026-11-21T04:04:57.685Z"
+    "asOf": "2026-11-21T04:20:01.098Z"
    }
   },
   {
@@ -19674,7 +19680,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 0.36181,
-    "asOf": "2026-11-21T04:04:54.735Z"
+    "asOf": "2026-11-21T04:19:58.218Z"
    }
   },
   {
@@ -19692,7 +19698,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 6.196,
-    "asOf": "2026-11-21T04:04:52.634Z"
+    "asOf": "2026-11-21T04:19:56.684Z"
    }
   },
   {
@@ -19710,7 +19716,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 66.28,
-    "asOf": "2026-11-21T04:04:02.459Z"
+    "asOf": "2026-11-21T04:19:03.684Z"
    }
   },
   {
@@ -19728,7 +19734,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 20.273,
-    "asOf": "2026-11-21T04:04:40.515Z"
+    "asOf": "2026-11-21T04:19:46.942Z"
    }
   },
   {
@@ -19746,7 +19752,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 169.7,
-    "asOf": "2026-11-21T04:04:38.497Z"
+    "asOf": "2026-11-21T04:19:44.867Z"
    }
   },
   {
@@ -19764,7 +19770,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 518.32,
-    "asOf": "2026-11-21T04:04:35.829Z"
+    "asOf": "2026-11-21T04:19:42.162Z"
    }
   },
   {
@@ -19782,7 +19788,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 0.2149,
-    "asOf": "2026-11-21T04:04:09.533Z"
+    "asOf": "2026-11-21T04:19:12.088Z"
    }
   },
   {
@@ -19800,7 +19806,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.8815,
-    "asOf": "2026-11-21T04:04:34.664Z"
+    "asOf": "2026-11-21T04:19:40.672Z"
    }
   },
   {
@@ -19818,7 +19824,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 56.99,
-    "asOf": "2026-11-21T04:04:03.629Z"
+    "asOf": "2026-11-21T04:19:05.761Z"
    }
   },
   {
@@ -19836,7 +19842,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 20.273,
-    "asOf": "2026-11-21T04:04:31.110Z"
+    "asOf": "2026-11-21T04:19:36.585Z"
    }
   },
   {
@@ -19854,7 +19860,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.8815,
-    "asOf": "2026-11-21T04:04:28.028Z"
+    "asOf": "2026-11-21T04:19:33.896Z"
    }
   },
   {
@@ -19872,7 +19878,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.8815,
-    "asOf": "2026-11-21T04:04:21.698Z"
+    "asOf": "2026-11-21T04:19:28.191Z"
    }
   },
   {
@@ -19890,7 +19896,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 66.28,
-    "asOf": "2026-11-21T04:04:18.711Z"
+    "asOf": "2026-11-21T04:19:25.587Z"
    }
   },
   {
@@ -19908,7 +19914,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 0.122,
-    "asOf": "2026-11-21T04:04:16.160Z"
+    "asOf": "2026-11-21T04:19:21.611Z"
    }
   },
   {
@@ -19926,7 +19932,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.8815,
-    "asOf": "2026-11-21T04:04:14.951Z"
+    "asOf": "2026-11-21T04:19:20.090Z"
    }
   },
   {
@@ -19944,7 +19950,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.8815,
-    "asOf": "2026-11-21T04:04:13.783Z"
+    "asOf": "2026-11-21T04:19:18.016Z"
    }
   },
   {
@@ -19962,7 +19968,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 6.196,
-    "asOf": "2026-11-21T04:04:01.220Z"
+    "asOf": "2026-11-21T04:19:01.529Z"
    }
   },
   {
@@ -19980,7 +19986,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 56.99,
-    "asOf": "2026-11-21T04:04:07.984Z"
+    "asOf": "2026-11-21T04:19:10.922Z"
    }
   },
   {
@@ -19998,7 +20004,7 @@
     "mode": "breakout",
     "status": "unknown",
     "lastClose": null,
-    "asOf": "2026-11-21T04:04:03.637Z"
+    "asOf": "2026-11-21T04:19:06.292Z"
    }
   }
  ],
@@ -20011,7 +20017,7 @@
    "venue": "LIGHTER",
    "outcome": "WIN",
    "pct": 5.8,
-   "exitReason": null,
+   "exitReason": "SHORT BTC: hit target +5.8% (entry $58,964 → exit $55,567.7). WHY: Breakdown held, volume confirmed capitulation, and you exited near structural support before mean reversion could trap you—the…",
    "closedAt": "2026-11-21T04:07:50.432Z",
    "entry": 58964,
    "exit": 55567.7,
@@ -20025,7 +20031,7 @@
    "venue": "LIGHTER",
    "outcome": "WIN",
    "pct": 10.2,
-   "exitReason": null,
+   "exitReason": "SHORT SOL: hit target +10.2% (entry $72.88 → exit $65.477). WHY: Exit was clean profit-take at target, no invalidation breach; CHOP fade worked because BTC weakness + SOL OI liquidation cascade…",
    "closedAt": "2026-11-21T04:07:16.417Z",
    "entry": 72.88,
    "exit": 65.477,
@@ -20039,7 +20045,7 @@
    "venue": "PAPER",
    "outcome": "WIN",
    "pct": 4.3,
-   "exitReason": null,
+   "exitReason": "SHORT BTC: hit target +4.3% (entry $59,230.9 → exit $56,700). WHY: Trend structure broke lower as predicted post-rejection; chase worked because range edge held and momentum extended the fade into…",
    "closedAt": "2026-11-21T03:45:00.000Z",
    "entry": 59230.9,
    "exit": 56700,
@@ -20053,7 +20059,7 @@
    "venue": "LIGHTER",
    "outcome": "WIN",
    "pct": 6.4,
-   "exitReason": null,
+   "exitReason": "SHORT MNT: hit target +6.4% (entry $0.393170 → exit $0.368035). WHY: Invalidation condition never triggered; exit was profit-taking well before $0.40038—breadth stayed dead, BTC stayed weak, range…",
    "closedAt": "2026-11-21T03:35:41.914Z",
    "entry": 0.39317,
    "exit": 0.36803539197369406,
@@ -20067,7 +20073,7 @@
    "venue": "PAPER",
    "outcome": "WIN",
    "pct": 9.1,
-   "exitReason": null,
+   "exitReason": "SHORT POL: hit target +9.1% (entry $0.080841 → exit $0.073500). WHY: Range fade worked despite no rationale: chop structure broke lower on liquidity sweep, short at pos0.67 caught transition before…",
    "closedAt": "2026-11-21T03:35:41.499Z",
    "entry": 0.080841,
    "exit": 0.0735,
@@ -20176,28 +20182,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 55936.14,
-    "change24hPct": -9.55
+    "price": 55883.3,
+    "change24hPct": -9.49
    },
    {
     "symbol": "ETH",
-    "price": 1555.27,
-    "change24hPct": -10.4
+    "price": 1553.36,
+    "change24hPct": -10.42
    },
    {
     "symbol": "BNB",
-    "price": 512.94,
-    "change24hPct": -10.25
+    "price": 512.41,
+    "change24hPct": -10.22
    },
    {
     "symbol": "XRP",
-    "price": 0.8783,
-    "change24hPct": -8.75
+    "price": 0.8758,
+    "change24hPct": -8.94
    },
    {
     "symbol": "SOL",
-    "price": 65.74,
-    "change24hPct": -9.47
+    "price": 65.52,
+    "change24hPct": -9.64
    }
   ],
   "fearGreed": {
@@ -20322,14 +20328,14 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 3.068,
-    "longPct": 75.4,
+    "ratio": 2.949,
+    "longPct": 74.7,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "ETH",
-    "ratio": 2.513,
-    "longPct": 71.5,
+    "ratio": 2.495,
+    "longPct": 71.4,
     "bias": "CROWDED LONG"
    },
    {
@@ -20340,14 +20346,14 @@
    },
    {
     "asset": "BNB",
-    "ratio": 2.305,
-    "longPct": 69.7,
+    "ratio": 2.309,
+    "longPct": 69.8,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.784,
-    "longPct": 73.6,
+    "ratio": 2.757,
+    "longPct": 73.4,
     "bias": "CROWDED LONG"
    }
   ],
@@ -20427,7 +20433,7 @@
      "changePct": -23.8
     }
    ],
-   "ageMin": 17
+   "ageMin": 22
   },
   "chainRotation": {
    "chains": [
@@ -20570,7 +20576,7 @@
      1
     ]
    ],
-   "ageMin": 302
+   "ageMin": 307
   }
  },
  "calendar": [
@@ -21757,7 +21763,7 @@
   "disagreement": null
  },
  "manualBook": {
-  "at": "2026-11-21T04:04:50.854Z",
+  "at": "2026-11-21T04:22:05.544Z",
   "positions": [
    {
     "asset": "NVDA",
@@ -21771,7 +21777,7 @@
     "stock": false,
     "direction": "LONG",
     "entry": 11.732,
-    "pnlPct": -8.38
+    "pnlPct": -8.85
    },
    {
     "asset": "TTWO",
@@ -21779,6 +21785,13 @@
     "direction": "LONG",
     "entry": 217.05,
     "pnlPct": -2.09
+   },
+   {
+    "asset": "XRP",
+    "stock": false,
+    "direction": "SHORT",
+    "entry": 0.8672,
+    "pnlPct": -0.77
    }
   ]
  },
@@ -22507,7 +22520,7 @@
   }
  },
  "intel": {
-  "ageH": 0.8,
+  "ageH": 0.9,
   "narratives": [
    "* DeFi Reserve Runs (Sky / Aave): Massive stress on Sky protocol as $1.49B was pulled from its 1:1 exit reserve in 11 minutes by wallet \"Poloniex 9\" and shifted directly into Aave, leaving stUSDS 100% borrowed and withdr",
    "* AI Compute Infrastructure: Infrastructure providers benefiting from Anthropic's $80B+ capital influx and expansion include Riot Platforms (leasing its 900MW Corsicana facility), TeraWulf, Hut 8 (via Fluidstack), and Ak",
@@ -22701,7 +22714,7 @@
    "outcome": "WIN",
    "pct": 5.8,
    "pnlUsd": 24.47,
-   "exitReason": null,
+   "exitReason": "SHORT BTC: hit target +5.8% (entry $58,964 → exit $55,567.7). WHY: Breakdown held, volume confirmed capitulation, and you exited near structural support before mean reversion could trap you—the…",
    "closedAt": "2026-11-21T04:07:50.432Z",
    "stop": 60025,
    "target": 55600,
@@ -22721,7 +22734,7 @@
    "outcome": "WIN",
    "pct": 10.2,
    "pnlUsd": 53.8,
-   "exitReason": null,
+   "exitReason": "SHORT SOL: hit target +10.2% (entry $72.88 → exit $65.477). WHY: Exit was clean profit-take at target, no invalidation breach; CHOP fade worked because BTC weakness + SOL OI liquidation cascade…",
    "closedAt": "2026-11-21T04:07:16.417Z",
    "stop": 75.8,
    "target": 65.5,
@@ -22741,7 +22754,7 @@
    "outcome": "WIN",
    "pct": 4.3,
    "pnlUsd": 12.82,
-   "exitReason": null,
+   "exitReason": "SHORT BTC: hit target +4.3% (entry $59,230.9 → exit $56,700). WHY: Trend structure broke lower as predicted post-rejection; chase worked because range edge held and momentum extended the fade into…",
    "closedAt": "2026-11-21T03:45:00.000Z",
    "stop": 60300,
    "target": 56700,
@@ -22761,7 +22774,7 @@
    "outcome": "WIN",
    "pct": 6.4,
    "pnlUsd": 35.16,
-   "exitReason": null,
+   "exitReason": "SHORT MNT: hit target +6.4% (entry $0.393170 → exit $0.368035). WHY: Invalidation condition never triggered; exit was profit-taking well before $0.40038—breadth stayed dead, BTC stayed weak, range…",
    "closedAt": "2026-11-21T03:35:41.914Z",
    "stop": 0.404,
    "target": 0.368,
@@ -22781,7 +22794,7 @@
    "outcome": "WIN",
    "pct": 9.1,
    "pnlUsd": 27.24,
-   "exitReason": null,
+   "exitReason": "SHORT POL: hit target +9.1% (entry $0.080841 → exit $0.073500). WHY: Range fade worked despite no rationale: chop structure broke lower on liquidity sweep, short at pos0.67 caught transition before…",
    "closedAt": "2026-11-21T03:35:41.499Z",
    "stop": 0.0835,
    "target": 0.0735,
@@ -28819,8 +28832,8 @@
    "losses": 15,
    "open": 1,
    "pnl": -32.86,
-   "costUsd": 0.0813,
-   "decisions": 124,
+   "costUsd": 0.0842,
+   "decisions": 125,
    "picker": "beam",
    "screen": {
     "closed": 9,
@@ -28832,6 +28845,14 @@
   },
   "calls": {
    "decisions": [
+    {
+     "at": "2026-11-21T04:20:01.727Z",
+     "mode": "live",
+     "picks": [],
+     "view": "Expect violent two-way action around $56,400 with bounce risk high even if the broader trend stays down.",
+     "passed": "Extreme oversold/capitulation readings and weak 1.3 R:R make new trend shorts unsafe here, while longs lack the required mechanism.",
+     "skipped": null
+    },
     {
      "at": "2026-11-21T01:20:02.050Z",
      "mode": "live",
@@ -29182,27 +29203,6 @@
        "a": "BTC",
        "d": "SHORT",
        "why": "24h one-way move (down, efficiency 0.51)",
-       "o": "screen"
-      }
-     ],
-     "view": null,
-     "passed": null,
-     "skipped": null
-    },
-    {
-     "at": "2026-11-14T22:20:01.699Z",
-     "mode": "live",
-     "picks": [
-      {
-       "a": "HYPE",
-       "d": "SHORT",
-       "why": "24h one-way move (down, efficiency 0.58)",
-       "o": "screen"
-      },
-      {
-       "a": "1000MOG",
-       "d": "SHORT",
-       "why": "24h one-way move (down, efficiency 0.63)",
        "o": "screen"
       }
      ],
@@ -29624,8 +29624,8 @@
   }
  },
  "openseaSpot": {
-  "updated": "2026-11-21T04:17:03.025Z",
-  "lastPass": "2026-11-21T04:14:01.933Z",
+  "updated": "2026-11-21T04:22:05.598Z",
+  "lastPass": "2026-11-21T04:19:02.183Z",
   "since": "2026-11-16T19:59:22.048Z",
   "mode": "live",
   "seat": {
@@ -29792,7 +29792,7 @@
     }
    ],
    "volumeUsd": 1013.81,
-   "pricesAt": "2026-11-21T04:14:01.933Z"
+   "pricesAt": "2026-11-21T04:19:02.183Z"
   },
   "board": [
    {
@@ -29945,7 +29945,7 @@
   "costUsd": 1.514
  },
  "extendedCalls": {
-  "at": "2026-11-21T04:17:03.030Z",
+  "at": "2026-11-21T04:22:05.602Z",
   "horizonH": 12,
   "minRead": 20,
   "briefs": 82,
@@ -35846,7 +35846,7 @@
      "venue": "LIGHTER",
      "pct": 10.16,
      "pnlUsd": 53.8,
-     "exitReason": null,
+     "exitReason": "SHORT SOL: hit target +10.2% (entry $72.88 → exit $65.477). [entry structure: CHOP er0.091 pos0.65 against fade] WHY: Exit was clean profit-take at target, no invalidation breach; CHOP fade worked because BTC weakness + SOL OI liquidation cascade triggered before mean-reversion could snap back, mechanism fired as thesis predicted.",
      "closedAt": "2026-11-21T04:07:16.417Z"
     },
     {
@@ -35857,7 +35857,7 @@
      "venue": "LIGHTER",
      "pct": 6.39,
      "pnlUsd": 35.16,
-     "exitReason": null,
+     "exitReason": "SHORT MNT: hit target +6.4% (entry $0.393170 → exit $0.368035). [entry structure: CHOP er0.243 pos0.82 against fade] WHY: Invalidation condition never triggered; exit was profit-taking well before $0.40038—breadth stayed dead, BTC stayed weak, range stayed ask-heavy, mechanism fully played out.",
      "closedAt": "2026-11-21T03:35:41.914Z"
     },
     {
@@ -36655,7 +36655,7 @@
      "venue": "LIGHTER",
      "pct": 5.76,
      "pnlUsd": 24.47,
-     "exitReason": null,
+     "exitReason": "SHORT BTC: hit target +5.8% (entry $58,964 → exit $55,567.7). [entry structure: TREND er0.461 pos0.15 aligned chase] WHY: Breakdown held, volume confirmed capitulation, and you exited near structural support before mean reversion could trap you—the mechanism played out cleanly.",
      "closedAt": "2026-11-21T04:07:50.432Z"
     },
     {
@@ -36866,7 +36866,7 @@
     "pickCycles7d": 32,
     "pickRate7d": 54,
     "awaiting7d": 21,
-    "saves7d": 13,
+    "saves7d": 12,
     "routedSaves7d": 0,
     "cost7dUsd": 0.26,
     "calls7d": 59
@@ -37932,7 +37932,7 @@
      "venue": "PAPER",
      "pct": 9.08,
      "pnlUsd": 27.24,
-     "exitReason": null,
+     "exitReason": "SHORT POL: hit target +9.1% (entry $0.080841 → exit $0.073500). [entry structure: CHOP er0.137 pos0.67 against fade] WHY: Range fade worked despite no rationale: chop structure broke lower on liquidity sweep, short at pos0.67 caught transition before momentum formed.",
      "closedAt": "2026-11-21T03:35:41.499Z"
     },
     {
@@ -38033,7 +38033,7 @@
     "from": "2026-11-20T05:05:00.000Z",
     "to": "2026-11-27T05:05:00.000Z",
     "complete": false,
-    "asOf": "2026-11-21T04:17:03.046Z",
+    "asOf": "2026-11-21T04:22:05.615Z",
     "btc": {
      "from": 61469,
      "to": 55947,
