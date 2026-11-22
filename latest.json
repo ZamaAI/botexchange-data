@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-22T04:17:05.654Z",
+ "generatedAt": "2026-11-22T04:22:04.719Z",
  "startCapital": 500,
  "since": "2026-11-06",
  "accountBasis": "mtm",
@@ -198,7 +198,7 @@
  "volState": {
   "hour": "2026-11-22T03",
   "asOf": "2026-11-22T03:00:00.000Z",
-  "ageMin": 77,
+  "ageMin": 82,
   "freezeMax": 15,
   "rows": [
    {
@@ -1065,8 +1065,8 @@
    "costUsd": 3.3,
    "costCalls": 62,
    "netPnl": 165.69,
-   "account": 688.31,
-   "retPct": 37.7,
+   "account": 690.21,
+   "retPct": 38,
    "accountRealized": 668.99,
    "regimes": {
     "RISK_ON": {
@@ -1917,8 +1917,8 @@
    "costUsd": 0.55,
    "costCalls": 138,
    "netPnl": 168.49,
-   "account": 668.27,
-   "retPct": 33.7,
+   "account": 669.27,
+   "retPct": 33.9,
    "accountRealized": 669.04,
    "regimes": {
     "RISK_ON": {
@@ -2028,8 +2028,8 @@
    "costUsd": 0.8,
    "costCalls": 170,
    "netPnl": 104.93,
-   "account": 595.71,
-   "retPct": 19.1,
+   "account": 595.96,
+   "retPct": 19.2,
    "accountRealized": 605.73,
    "regimes": {
     "RISK_ON": {
@@ -2371,8 +2371,8 @@
    "costUsd": 0.68,
    "costCalls": 149,
    "netPnl": 98.42,
-   "account": 598.33,
-   "retPct": 19.7,
+   "account": 599.33,
+   "retPct": 19.9,
    "accountRealized": 599.1,
    "regimes": {
     "RISK_ON": {
@@ -2472,9 +2472,9 @@
   "btc": {
    "startDate": "2026-11-06",
    "start": 75683.69,
-   "now": 59477.93,
-   "retPct": -21.4,
-   "value": 392.94
+   "now": 59278.1,
+   "retPct": -21.7,
+   "value": 391.62
   }
  },
  "oi": {
@@ -10097,28 +10097,6 @@
  ],
  "equityLive": [
   {
-   "ts": "2026-11-21T04:20:00.000Z",
-   "hl": 0,
-   "hl_spot": 628.8558489999999,
-   "grvt": null,
-   "extended": 584.854484,
-   "capital": 4621.78555158,
-   "qwen": 691.08,
-   "hermes": 628.86,
-   "manual": 255.47,
-   "kimi": 840.43,
-   "deepseek": 722.94,
-   "gemini": 561.8,
-   "luna": 488.07,
-   "minimax": 529.86,
-   "haiku55": 687.74,
-   "qwen38": 633.53,
-   "coinbase": 255.46601658,
-   "seed16": 490.38,
-   "particle1": 575.6,
-   "merc3": 605.04
-  },
-  {
    "ts": "2026-11-21T04:25:00.000Z",
    "hl": 0,
    "hl_spot": 631.8451190000001,
@@ -16431,6 +16409,28 @@
    "seed16": 478.33,
    "particle1": 569.18,
    "merc3": 598.33
+  },
+  {
+   "ts": "2026-11-22T04:20:00.000Z",
+   "hl": 0,
+   "hl_spot": 533.445057,
+   "grvt": null,
+   "extended": 571.964765,
+   "capital": 4362.495945449999,
+   "qwen": 690.21,
+   "hermes": 533.45,
+   "manual": 243.03,
+   "kimi": 749.11,
+   "deepseek": 682.72,
+   "gemini": 560.98,
+   "luna": 481.88,
+   "minimax": 529.86,
+   "haiku55": 669.27,
+   "qwen38": 595.96,
+   "coinbase": 243.03134345,
+   "seed16": 478.33,
+   "particle1": 569.18,
+   "merc3": 599.33
   }
  ],
  "venuesLive": {
@@ -18394,7 +18394,7 @@
   ]
  },
  "watchFunnel": {
-  "at": "2026-11-22T04:17:05.685Z",
+  "at": "2026-11-22T04:22:04.748Z",
   "windowDays": 14,
   "registered": 465,
   "filled": 92,
@@ -18678,7 +18678,7 @@
   "postedAt": "2026-11-22T04:05:42.940Z"
  },
  "learning": {
-  "at": "2026-11-22T04:17:05.687Z",
+  "at": "2026-11-22T04:22:04.750Z",
   "since": "2026-11-06T05:05:00.000Z",
   "filter": "Competition window, bot desks only (the human is excluded), closed trades scored WIN / LOSS / BREAKEVEN. Win rate = W ÷ (W+L) with breakevens shown apart. The stop used for the stop-distance and R:R bands is the ORIGINAL resting stop, reconstructed from the trail log — trailed stops would otherwise sort winners into the tight bands by winning. R = (exit − entry) ÷ original risk.",
   "live": {
@@ -19245,7 +19245,13 @@
    "stop": 26.543,
    "target": 20.447,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 24.902,
+    "asOf": "2026-11-22T04:20:34.433Z"
+   }
   },
   {
    "asset": "SOL",
@@ -19257,7 +19263,13 @@
    "stop": 73.7499,
    "target": 66.4839,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "1h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 69.48,
+    "asOf": "2026-11-22T04:20:31.343Z"
+   }
   },
   {
    "asset": "HYPE",
@@ -19269,7 +19281,13 @@
    "stop": 67.392,
    "target": 55.728,
    "levelsApprox": true,
-   "confirm": null
+   "confirm": {
+    "tf": "4h",
+    "mode": "retest",
+    "status": "not",
+    "lastClose": 60.28,
+    "asOf": "2026-11-22T04:20:29.314Z"
+   }
   },
   {
    "asset": "BTC",
@@ -19298,7 +19316,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1661.48,
-    "asOf": "2026-11-22T04:05:11.467Z"
+    "asOf": "2026-11-22T04:20:19.238Z"
    }
   },
   {
@@ -19316,7 +19334,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.9191,
-    "asOf": "2026-11-22T04:04:11.233Z"
+    "asOf": "2026-11-22T04:19:14.738Z"
    }
   },
   {
@@ -19331,10 +19349,10 @@
    "levelsApprox": true,
    "confirm": {
     "tf": "1h",
-    "mode": "retest",
+    "mode": "breakout",
     "status": "not",
     "lastClose": 1661.48,
-    "asOf": "2026-11-22T04:04:48.887Z"
+    "asOf": "2026-11-22T04:19:57.416Z"
    }
   },
   {
@@ -19352,7 +19370,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 59359.98,
-    "asOf": "2026-11-22T04:04:22.457Z"
+    "asOf": "2026-11-22T04:19:24.994Z"
    }
   },
   {
@@ -19370,7 +19388,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 1661.48,
-    "asOf": "2026-11-22T04:04:58.118Z"
+    "asOf": "2026-11-22T04:20:07.300Z"
    }
   },
   {
@@ -19388,7 +19406,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 2.868,
-    "asOf": "2026-11-22T04:05:19.123Z"
+    "asOf": "2026-11-22T04:20:27.297Z"
    }
   },
   {
@@ -19406,7 +19424,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 541.55,
-    "asOf": "2026-11-22T04:04:53.254Z"
+    "asOf": "2026-11-22T04:20:03.594Z"
    }
   },
   {
@@ -19424,7 +19442,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1661.48,
-    "asOf": "2026-11-22T04:05:17.947Z"
+    "asOf": "2026-11-22T04:20:26.121Z"
    }
   },
   {
@@ -19442,7 +19460,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1661.48,
-    "asOf": "2026-11-22T04:05:16.803Z"
+    "asOf": "2026-11-22T04:20:24.930Z"
    }
   },
   {
@@ -19460,7 +19478,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 541.55,
-    "asOf": "2026-11-22T04:05:14.781Z"
+    "asOf": "2026-11-22T04:20:23.777Z"
    }
   },
   {
@@ -19478,7 +19496,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1661.48,
-    "asOf": "2026-11-22T04:05:13.606Z"
+    "asOf": "2026-11-22T04:20:22.271Z"
    }
   },
   {
@@ -19496,7 +19514,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 69.48,
-    "asOf": "2026-11-22T04:04:59.289Z"
+    "asOf": "2026-11-22T04:20:08.484Z"
    }
   },
   {
@@ -19514,7 +19532,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 59359.98,
-    "asOf": "2026-11-22T04:04:46.313Z"
+    "asOf": "2026-11-22T04:19:54.298Z"
    }
   },
   {
@@ -19532,7 +19550,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 69.48,
-    "asOf": "2026-11-22T04:05:08.357Z"
+    "asOf": "2026-11-22T04:20:16.671Z"
    }
   },
   {
@@ -19550,7 +19568,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 69.48,
-    "asOf": "2026-11-22T04:04:19.981Z"
+    "asOf": "2026-11-22T04:19:22.876Z"
    }
   },
   {
@@ -19568,7 +19586,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 24.902,
-    "asOf": "2026-11-22T04:05:05.166Z"
+    "asOf": "2026-11-22T04:20:14.356Z"
    }
   },
   {
@@ -19586,7 +19604,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 24.902,
-    "asOf": "2026-11-22T04:05:01.954Z"
+    "asOf": "2026-11-22T04:20:11.156Z"
    }
   },
   {
@@ -19604,7 +19622,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1661.48,
-    "asOf": "2026-11-22T04:05:00.466Z"
+    "asOf": "2026-11-22T04:20:09.652Z"
    }
   },
   {
@@ -19622,7 +19640,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1661.48,
-    "asOf": "2026-11-22T04:04:55.754Z"
+    "asOf": "2026-11-22T04:20:06.132Z"
    }
   },
   {
@@ -19640,7 +19658,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 69.48,
-    "asOf": "2026-11-22T04:04:51.760Z"
+    "asOf": "2026-11-22T04:20:01.248Z"
    }
   },
   {
@@ -19658,7 +19676,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 1661.48,
-    "asOf": "2026-11-22T04:04:50.277Z"
+    "asOf": "2026-11-22T04:19:59.509Z"
    }
   },
   {
@@ -19676,7 +19694,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 12.395,
-    "asOf": "2026-11-22T04:04:48.900Z"
+    "asOf": "2026-11-22T04:19:57.428Z"
    }
   },
   {
@@ -19694,7 +19712,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 59359.98,
-    "asOf": "2026-11-22T04:04:45.147Z"
+    "asOf": "2026-11-22T04:19:53.161Z"
    }
   },
   {
@@ -19712,7 +19730,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 1661.48,
-    "asOf": "2026-11-22T04:04:08.502Z"
+    "asOf": "2026-11-22T04:19:10.983Z"
    }
   },
   {
@@ -19730,7 +19748,7 @@
     "mode": "breakout",
     "status": "not",
     "lastClose": 33.695,
-    "asOf": "2026-11-22T04:04:43.939Z"
+    "asOf": "2026-11-22T04:19:51.085Z"
    }
   },
   {
@@ -19748,7 +19766,7 @@
     "mode": "retest",
     "status": "through",
     "lastClose": 541.55,
-    "asOf": "2026-11-22T04:04:42.798Z"
+    "asOf": "2026-11-22T04:19:49.416Z"
    }
   },
   {
@@ -19766,7 +19784,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 69.48,
-    "asOf": "2026-11-22T04:04:10.033Z"
+    "asOf": "2026-11-22T04:19:13.023Z"
    }
   },
   {
@@ -19784,7 +19802,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 1.172,
-    "asOf": "2026-11-22T04:04:34.530Z"
+    "asOf": "2026-11-22T04:19:39.858Z"
    }
   },
   {
@@ -19802,7 +19820,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 60.28,
-    "asOf": "2026-11-22T04:04:32.356Z"
+    "asOf": "2026-11-22T04:19:37.719Z"
    }
   },
   {
@@ -19820,7 +19838,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.36841,
-    "asOf": "2026-11-22T04:04:39.910Z"
+    "asOf": "2026-11-22T04:19:46.894Z"
    }
   },
   {
@@ -19838,7 +19856,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 0.36841,
-    "asOf": "2026-11-22T04:04:38.418Z"
+    "asOf": "2026-11-22T04:19:44.022Z"
    }
   },
   {
@@ -19856,7 +19874,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 6.514,
-    "asOf": "2026-11-22T04:04:37.249Z"
+    "asOf": "2026-11-22T04:19:42.523Z"
    }
   },
   {
@@ -19874,7 +19892,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 183.9,
-    "asOf": "2026-11-22T04:04:30.178Z"
+    "asOf": "2026-11-22T04:19:34.589Z"
    }
   },
   {
@@ -19892,7 +19910,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 541.55,
-    "asOf": "2026-11-22T04:04:27.278Z"
+    "asOf": "2026-11-22T04:19:31.915Z"
    }
   },
   {
@@ -19910,7 +19928,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 0.2183,
-    "asOf": "2026-11-22T04:04:06.930Z"
+    "asOf": "2026-11-22T04:19:08.945Z"
    }
   },
   {
@@ -19928,7 +19946,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.9191,
-    "asOf": "2026-11-22T04:04:25.786Z"
+    "asOf": "2026-11-22T04:19:30.424Z"
    }
   },
   {
@@ -19946,7 +19964,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 60.28,
-    "asOf": "2026-11-22T04:04:02.780Z"
+    "asOf": "2026-11-22T04:19:03.799Z"
    }
   },
   {
@@ -19964,7 +19982,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.9191,
-    "asOf": "2026-11-22T04:04:23.618Z"
+    "asOf": "2026-11-22T04:19:27.030Z"
    }
   },
   {
@@ -19982,7 +20000,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.9191,
-    "asOf": "2026-11-22T04:04:18.434Z"
+    "asOf": "2026-11-22T04:19:21.700Z"
    }
   },
   {
@@ -20000,7 +20018,7 @@
     "mode": "breakout",
     "status": "through",
     "lastClose": 0.1271,
-    "asOf": "2026-11-22T04:04:13.623Z"
+    "asOf": "2026-11-22T04:19:18.634Z"
    }
   },
   {
@@ -20018,7 +20036,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 0.9191,
-    "asOf": "2026-11-22T04:04:12.436Z"
+    "asOf": "2026-11-22T04:19:17.133Z"
    }
   },
   {
@@ -20036,7 +20054,7 @@
     "mode": "retest",
     "status": "not",
     "lastClose": 6.514,
-    "asOf": "2026-11-22T04:04:01.564Z"
+    "asOf": "2026-11-22T04:19:01.380Z"
    }
   },
   {
@@ -20054,7 +20072,7 @@
     "mode": "breakout",
     "status": "unknown",
     "lastClose": null,
-    "asOf": "2026-11-22T04:04:02.784Z"
+    "asOf": "2026-11-22T04:19:04.328Z"
    }
   }
  ],
@@ -20232,28 +20250,28 @@
   "prices": [
    {
     "symbol": "BTC",
-    "price": 59477.93,
-    "change24hPct": 6.39
+    "price": 59278.1,
+    "change24hPct": 6.1
    },
    {
     "symbol": "ETH",
-    "price": 1665.69,
-    "change24hPct": 7.19
+    "price": 1660.9,
+    "change24hPct": 6.94
    },
    {
     "symbol": "BNB",
-    "price": 542.45,
-    "change24hPct": 5.78
+    "price": 541.25,
+    "change24hPct": 5.65
    },
    {
     "symbol": "XRP",
-    "price": 0.9214,
-    "change24hPct": 4.93
+    "price": 0.9197,
+    "change24hPct": 5.03
    },
    {
     "symbol": "SOL",
-    "price": 69.6,
-    "change24hPct": 5.89
+    "price": 69.44,
+    "change24hPct": 6.02
    }
   ],
   "fearGreed": {
@@ -20378,31 +20396,31 @@
   "longShort": [
    {
     "asset": "BTC",
-    "ratio": 2.056,
+    "ratio": 2.058,
     "longPct": 67.3,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "ETH",
-    "ratio": 1.842,
-    "longPct": 64.8,
+    "ratio": 1.847,
+    "longPct": 64.9,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "SOL",
-    "ratio": 3.207,
+    "ratio": 3.209,
     "longPct": 76.2,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "BNB",
-    "ratio": 2.332,
-    "longPct": 70,
+    "ratio": 2.348,
+    "longPct": 70.1,
     "bias": "CROWDED LONG"
    },
    {
     "asset": "XRP",
-    "ratio": 2.6,
+    "ratio": 2.601,
     "longPct": 72.2,
     "bias": "CROWDED LONG"
    }
@@ -20483,7 +20501,7 @@
      "changePct": -8.6
     }
    ],
-   "ageMin": 17
+   "ageMin": 22
   },
   "chainRotation": {
    "chains": [
@@ -20618,7 +20636,7 @@
      2
     ]
    ],
-   "ageMin": 62
+   "ageMin": 67
   }
  },
  "calendar": [
@@ -22724,7 +22742,7 @@
   }
  },
  "intel": {
-  "ageH": 0.8,
+  "ageH": 0.9,
   "narratives": [
    "* AI API Infrastructure & Security Breaches: OpenRouter severed connections to GMI Cloud after security audits revealed attacker access to troubleshooting request logs containing active API keys, confirmed by the unautho",
    "* Crypto Leverage Wipes & Order Book Depletion: Cascading liquidations triggered extreme wick events—such as Kraken's BTC/CAD book momentarily dropping to $16.9K USD equivalent on 2026-11-21—clearing long-standing open i",
@@ -27495,7 +27513,7 @@
     "actor": "grok",
     "halted": true,
     "rule": "consecutive_loss_agent",
-    "reason": "grok: 3 consecutive losses (24h window), last one 14.7h ago. grok cooldown 9.3h remaining (other agents unaffected; 2 paper wins release early — has 0).",
+    "reason": "grok: 3 consecutive losses (24h window), last one 14.7h ago. grok cooldown 9.2h remaining (other agents unaffected; 2 paper wins release early — has 0).",
     "equity": 533.45,
     "peak": 581.54
    },
@@ -29690,7 +29708,7 @@
    "open": 2,
    "pnl": -37.38,
    "costUsd": 0.0908,
-   "decisions": 132,
+   "decisions": 133,
    "picker": "beam",
    "screen": {
     "closed": 9,
@@ -29702,6 +29720,14 @@
   },
   "calls": {
    "decisions": [
+    {
+     "at": "2026-11-22T04:20:02.129Z",
+     "mode": "live",
+     "picks": [],
+     "view": null,
+     "passed": null,
+     "skipped": "risk budget in use: $17.95 of $18.29 at risk (7.5% of the day's start)"
+    },
     {
      "at": "2026-11-22T01:20:01.665Z",
      "mode": "live",
@@ -30017,21 +30043,6 @@
       }
      ],
      "view": "BTC likely grinds lower through the 62k floor with long liquidations, and ETH/SOL follow while any bounce stalls below 63.5k.",
-     "passed": null,
-     "skipped": null
-    },
-    {
-     "at": "2026-11-18T22:20:02.213Z",
-     "mode": "live",
-     "picks": [
-      {
-       "a": "LIT",
-       "d": "LONG",
-       "why": "LIT sits at 1% of its 48h range with longs being paid funding, giving a high R:R mean-reversion long if the chop bounces.",
-       "o": "shortlist"
-      }
-     ],
-     "view": "BTC likely probes the 62,006 swing low with choppy bounces, keeping pressure on longs over the next 12 hours.",
      "passed": null,
      "skipped": null
     }
@@ -30449,8 +30460,8 @@
   }
  },
  "openseaSpot": {
-  "updated": "2026-11-22T04:17:05.706Z",
-  "lastPass": "2026-11-22T04:14:01.648Z",
+  "updated": "2026-11-22T04:22:04.772Z",
+  "lastPass": "2026-11-22T04:19:02.571Z",
   "since": "2026-11-16T19:59:22.048Z",
   "mode": "live",
   "seat": {
@@ -30617,7 +30628,7 @@
     }
    ],
    "volumeUsd": 1013.81,
-   "pricesAt": "2026-11-22T04:14:01.648Z"
+   "pricesAt": "2026-11-22T04:19:02.571Z"
   },
   "board": [
    {
@@ -30770,7 +30781,7 @@
   "costUsd": 1.702
  },
  "extendedCalls": {
-  "at": "2026-11-22T04:17:05.709Z",
+  "at": "2026-11-22T04:22:04.779Z",
   "horizonH": 12,
   "minRead": 20,
   "briefs": 84,
@@ -38705,7 +38716,7 @@
     "from": "2026-11-20T05:05:00.000Z",
     "to": "2026-11-27T05:05:00.000Z",
     "complete": false,
-    "asOf": "2026-11-22T04:17:05.725Z",
+    "asOf": "2026-11-22T04:22:04.796Z",
     "btc": {
      "from": 61469,
      "to": 59463,
